@@ -1,0 +1,44 @@
+!!!
+%html{ xmlns: "http://www.w3.org/1999/xhtml", 'xml:lang' => "en", lang: "en-us" }
+  %head
+    %meta{ 'http-equiv' => "content-type", content: "text/html; charset=utf-8" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1" }
+    %title
+      - if current_page.data.title
+        #{current_page.data.title} &middot; #{site.title}
+      - else
+        #{site.title} &middot; #{site.tagline}
+    = stylesheet_link_tag "application"
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400" }
+    %link{ rel: "apple-touch-icon-precomposed", sizes:"144x144", href: "/apple-touch-icon-144-precomposed.png" }
+    %link{ rel: "shortcut icon", href: "/favicon.ico" }
+    %link{ rel: "alternate", type: "application/rss+xml", title: "RSS", href: "/feed" }
+
+
+  %body.layout-reverse
+    -# Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for behavior.
+    %input#sidebar-checkbox.sidebar-checkbox{ type: "checkbox" }
+    -# Toggleable sidebar
+    #sidebar.sidebar
+      .sidebar-item
+        %p
+          A chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
+      %nav.sidebar-nav
+        %a{ class: "sidebar-nav-item#{' active' if current_page.url == '/' }"} Home
+        %a.sidebar-nav-item{ href: "https://github.com/fshowalter/movielog/tree/gh-pages" } GitHub
+        %span.sidebar-nav-item Currently v 1.1.0
+
+      .sidebar-item
+        %p &copy; #{ Date.today.year }. All rights reserved.
+
+    .wrap
+      .masthead
+        .container
+          %h3.masthead-title
+            %a{ href: "/", title: "Home" } #{site.title}
+            %small #{site.tagline}
+
+      .container.content
+        = yield
+
+    %label.sidebar-toggle{ for: "sidebar-checkbox" }
