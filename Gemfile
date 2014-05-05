@@ -9,4 +9,6 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'haml'
 gem 'sass'
+
+gem 'inquirer'
 gem 'movie_db', path: '../movie_db'
