@@ -102,8 +102,8 @@ module Movielog
             idx = Ask.list(" Title", choices)
 
             unless idx == results.length
-              title = results[idx]['title']
-              display_title = results[idx]['display_title']
+              title = results[idx].title
+              display_title = results[idx].display_title
             end
           end
 
@@ -113,9 +113,9 @@ module Movielog
         def format_title_results(results)
           results.map do |movie|
             [
-              movie['display_title'],
-              headline_cast(movie['title']),
-              aka_titles(movie['title']),
+              movie.display_title,
+              headline_cast(movie.title),
+              aka_titles(movie.title),
               "\n"
             ].join
           end
@@ -125,7 +125,7 @@ module Movielog
           aka_titles = Movielog::App.aka_titles_for_title(title)
           return unless aka_titles.any?
 
-          "\n   " + aka_titles.map { |aka_title| "aka #{aka_title['aka_title']}" }.join("\n   ")
+          "\n   " + aka_titles.map { |aka_title| "aka #{aka_title.aka_title}" }.join("\n   ")
         end
 
         def headline_cast(title)
@@ -133,7 +133,7 @@ module Movielog
           return unless headline_cast.any?
 
           "\n   " + headline_cast.map do |person|
-            "#{person['first_name']} #{person['last_name']}"
+            "#{person.first_name} #{person.last_name}"
           end.join(', ')
         end
       end

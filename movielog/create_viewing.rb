@@ -1,3 +1,5 @@
+require 'active_support/core_ext/hash/slice'
+
 module Movielog
   #
   # Responsible for creating new viewing instances.
@@ -12,7 +14,8 @@ module Movielog
       # @option viewing [string] :title (nil) The movie title.
       #
       def call(viewings_path, viewing)
-        File.open(new_viewing_file_name(viewings_path, viewing), 'w') do |file|
+        file_name = new_viewing_file_name(viewings_path, viewing)
+        File.open(file_name, 'w') do |file|
           file.write(viewing.slice(:number, :title, :date, :venue).to_yaml)
         end
 
@@ -28,7 +31,7 @@ module Movielog
       # @return [String] The new file name.
       def new_viewing_file_name(viewings_path, viewing)
         number = viewing[:number]
-        slug = viewing[:display_title].slugize
+        slug = viewing[:slug]
         File.join(viewings_path, sprintf("%04d", number) + "-" + slug + ".yml")
       end
     end

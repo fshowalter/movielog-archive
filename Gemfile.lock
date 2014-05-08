@@ -131,6 +131,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   haml
   inquirer
   middleman (~> 3.3.2)

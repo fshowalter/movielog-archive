@@ -42,10 +42,25 @@ module Movielog
       #
       def add_viewing(viewing_hash)
         viewing_hash[:number] = viewings.length + 1
+        viewing_hash[:slug] = slugize(viewing_hash[:display_title])
         CreateViewing.call(viewings_path, viewing_hash)
       end
 
       private
+
+      def slugize(words, slug = '-')
+        slugged = words.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
+        slugged.gsub!(/&/, 'and')
+        slugged.gsub!(/:/, '')
+        slugged.gsub!(/[^\w_\-#{Regexp.escape(slug)}]+/i, slug)
+        slugged.gsub!(/#{slug}{2,}/i, slug)
+        slugged.gsub!(/^#{slug}|#{slug}$/i, '')
+        url_encode(slugged.downcase)
+      end
+
+      def url_encode(word)
+        URI.escape(word, /[^\w_+-]/i)
+      end
 
       def viewings_path
         File.expand_path("../../viewings/", __FILE__)
