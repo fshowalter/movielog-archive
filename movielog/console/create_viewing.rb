@@ -24,7 +24,7 @@ module Movielog
               venue: get_venue
             }
 
-            Movielog::App.add_viewing(viewing_hash)
+            Movielog::App.create_viewing(viewing_hash)
 
             puts "\n Created Viewing ##{bold(viewing_hash[:number].to_s)}!\n" +
             " #{bold('        Title:')} #{viewing_hash[:title]}\n" +

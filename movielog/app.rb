@@ -11,16 +11,17 @@ module Movielog
         ParseViewings.call(viewings_path)
       end
 
-      #
-      # Gets a collection of unique venues.
-      #
-      # @return [Enumerable<String>] A collection of venue names.
       def venues
-        viewings.values.map { |viewing| viewing[:venue] }.uniq
+        viewings.values.map(&:name).uniq
       end
 
       def search_titles(query, db = db)
         MovieDb::App.search_titles(db, query)
+      end
+
+      def search_viewings_for_title(query, db = db)
+        titles = viewings.values.map(&:title).uniq
+        MovieDb::App.search_within_titles(db, query, titles)
       end
 
       def headline_cast_for_title(title, db = db)
@@ -35,12 +36,7 @@ module Movielog
         @db ||= MovieDb::App.connection(db_path)
       end
 
-      #
-      # Adds the given viewing.
-      #
-      # @param viewing_hash [Hash] The viewing to add.
-      #
-      def add_viewing(viewing_hash)
+      def create_viewing(viewing_hash)
         viewing_hash[:number] = viewings.length + 1
         viewing_hash[:slug] = slugize(viewing_hash[:display_title])
         CreateViewing.call(viewings_path, viewing_hash)
