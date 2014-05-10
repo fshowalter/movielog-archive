@@ -1,0 +1,13 @@
+---
+
+---
+
+.posts
+  = Movielog::App.reviews.inspect
+  - Movielog::App.reviews.each do |id, review|
+    .post
+      %h1.post-title
+        %a{ href: "/reviews/#{review.slug}" }
+          = review.display_title
+      %span.post-date Starring #{ headline_cast(review.title) }
+      = review.content

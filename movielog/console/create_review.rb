@@ -20,7 +20,7 @@ module Movielog
               display_title: display_title
             }
 
-            file = Movielog::App.add_review(review_hash)
+            file = Movielog::App.create_review(review_hash)
 
             puts "\n Created Review ##{bold(review_hash[:number].to_s)}!\n" +
             " #{bold('        Title:')} #{review_hash[:title]}\n" +
@@ -49,7 +49,7 @@ module Movielog
         def get_title(title = nil, display_title = nil)
           while title.nil?
             query = Ask.input 'Title'
-            results = Movielog::App.search_viewings_for_title(query).limit(20).to_a
+            results = Movielog::App.search_viewings_for_title(query)
             choices = format_title_results(results)
             choices << 'Search Again'
             idx = Ask.list(" Title", choices)
@@ -67,22 +67,26 @@ module Movielog
           results.map do |movie|
             [
               movie.display_title,
-              headline_cast(movie),
-              aka_titles(movie),
+              headline_cast(movie.title),
+              aka_titles(movie.title),
               "\n"
             ].join
           end
         end
 
-        def aka_titles(movie)
-          return unless movie.other_titles.any?
+        def aka_titles(title)
+          aka_titles = Movielog::App.aka_titles_for_title(title)
+          return unless aka_titles.any?
 
-          "\n   " + movie.other_titles.map { |aka_title| "aka #{aka_title.aka_title}" }.join("\n   ")
+          "\n   " + aka_titles.map { |aka_title| "aka #{aka_title.aka_title}" }.join("\n   ")
         end
 
-        def headline_cast(movie)
-          return unless Movielog::App.headline_cast(movie).any?
-          "\n   " + Movielog::App.headline_cast(movie).map(&:name).join(', ')
+        def headline_cast(title)
+          headline_cast = Movielog::App.headline_cast_for_title(title)
+          return unless headline_cast.any?
+          "\n   " + headline_cast.map do |person|
+            "#{person.first_name} #{person.last_name}"
+          end.join(', ')
         end
       end
     end

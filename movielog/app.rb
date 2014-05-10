@@ -3,12 +3,12 @@ require 'movie_db'
 module Movielog
   class App
     class << self
-      #
-      # Gets a collection of viewings.
-      #
-      # @return [Enumerable<Viewing>] A collection of viewings.
       def viewings
-        ParseViewings.call(viewings_path)
+        ParseViewings.call(viewings_path) || []
+      end
+
+      def reviews
+        ParseReviews.call(reviews_path) || []
       end
 
       def venues
@@ -42,6 +42,13 @@ module Movielog
         CreateViewing.call(viewings_path, viewing_hash)
       end
 
+      def create_review(review_hash)
+        review_hash[:date] = Date.today
+        review_hash[:number] = reviews.length + 1
+        review_hash[:slug] = slugize(review_hash[:display_title])
+        CreateReview.call(reviews_path, review_hash)
+      end
+
       private
 
       def slugize(words, slug = '-')
@@ -60,6 +67,10 @@ module Movielog
 
       def viewings_path
         File.expand_path("../../viewings/", __FILE__)
+      end
+
+      def reviews_path
+        File.expand_path("../../reviews/", __FILE__)
       end
 
       def db_path

@@ -1,3 +1,6 @@
+require 'movielog'
+require 'active_support/core_ext/array/conversions'
+
 ###
 # Compass
 ###
@@ -45,6 +48,12 @@ helpers do
   def site
     OpenStruct.new(YAML::load_file("config.yml"))
   end
+
+  def headline_cast(title)
+    Movielog::App.headline_cast_for_title(title).map do |person|
+      "#{person.first_name} #{person.last_name}"
+    end.to_sentence
+  end
 end
 
 set :css_dir, 'stylesheets'
@@ -70,3 +79,10 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+# ready do
+#   Movielog::App.reviews.each do |id, review|
+#     proxy "/reviews/#{review.slug}.html", "category.html", 
+#       :locals => { :category => category, :pages => pages }
+#   end
+# end
