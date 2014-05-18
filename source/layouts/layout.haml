@@ -9,10 +9,17 @@
       - else
         #{site.title} &middot; #{site.tagline}
     = stylesheet_link_tag "application"
-    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400" }
     %link{ rel: "apple-touch-icon-precomposed", sizes:"144x144", href: "/apple-touch-icon-144-precomposed.png" }
     %link{ rel: "shortcut icon", href: "/favicon.ico" }
     %link{ rel: "alternate", type: "application/rss+xml", title: "RSS", href: "/feed" }
+    :javascript
+      (function(d) {
+        var config = {
+          kitId: 'obz2qjv',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
 
 
   %body.layout-reverse

@@ -1,2 +1,39 @@
 @import "poole";
 @import "lanyon";
+
+
+.sidebar,
+.sidebar-toggle:active,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #3d444c;
+}
+
+.sidebar {
+  color: #D7DADD;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+}
+
+.sidebar-nav-item {
+  border-top-color: #656b74;
+}
+
+.sidebar-nav-item.active, a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
+  background-color: #89a;
+}
+
+.sidebar-nav {
+  border-bottom-color: #656b74;
+}
+
+html {
+  font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+}
+
+.post-date {
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+}
