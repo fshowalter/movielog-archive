@@ -9,4 +9,4 @@
         %a{ href: "/reviews/#{review.slug}" }
           = review.display_title
       %span.post-date Starring #{ headline_cast(review.title) }
-      = lorem.paragraphs 3
+      = markdown(review.content)

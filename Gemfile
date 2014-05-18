@@ -9,6 +9,7 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'haml'
 gem 'sass'
+gem 'redcarpet'
 
 gem 'inquirer'
 gem 'activesupport'

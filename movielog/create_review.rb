@@ -9,7 +9,7 @@ module Movielog
       def call(reviews_path, review)
         file_name = new_review_file_name(reviews_path, review)
         
-        content = "#{review.slice(:number, :title, :display_title, :date).to_yaml}---\n"
+        content = "#{review.slice(:number, :title, :slug, :display_title, :date).to_yaml}---\n"
         File.open(file_name, 'w') { |file| file.write(content) }
 
         file_name

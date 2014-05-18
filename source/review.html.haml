@@ -1,0 +1,75 @@
+---
+
+---
+
+- aka_titles = Movielog::App.aka_titles_for_title(review.title)
+- viewings = Movielog::App.viewings_for_title(review.title)
+
+.post
+  %h1.post-title= review.display_title
+
+  - if aka_titles.any?
+    %dl.aka
+      %dt aka
+      - aka_titles.each do |aka_title|
+        %dd.aka-title= aka_title.aka_title
+
+  = markdown(review.content)
+
+  %h3 Viewings
+  %ol.viewings-list
+    - viewings.each do |viewing|
+      %li.viewing via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
+
+/   <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div>
+/ </div>
+
+/ <div class="related">
+/   <h2>Related Posts</h2>
+/   <ul class="related-posts">
+/     {% for post in site.related_posts limit:3 %}
+/       <li>
+/         <h3>
+/           <a href="{{ site.baseurl }}{{ post.url }}">
+/             {{ post.title }}
+/             <small>By {{ post.author }}</small>
+/           </a>
+/         </h3>
+/       </li>
+/     {% endfor %}
+/   </ul>
+/ </div>
+
+/ %article.post
+/   %header
+/     %div{view.still_attributes}
+/     .post__title
+/       %h2= page_title(view.display_title)
+/       = view.aka_titles
+/     .post__slug
+/       = view.rating
+/       %br
+/       = view.header_slug
+/   .post__content
+/     = view.text
+/   %footer.post__footer
+/     %h3 Viewings
+/     %ol.viewings__list
+/       - view.viewings.each do |viewing|
+/         %li
+/           via #{viewing.venue} on #{viewing.date_link}
+
+/     %h3 Credits
+/     .credits
+/       - if view.has_poster?
+/         .credits__poster{view.poster_attributes}
+/       = view.credits
+
+/ %nav.pagination
+/   %ul.pagination__jump
+/     - if view.has_previous_entry?
+/       %li
+/         %a.pagination__jump__prev{view.previous_link_attributes} Older
+/     - if view.has_next_entry?
+/       %li
+/         %a.pagination__jump__next{view.next_link_attributes} Newer  

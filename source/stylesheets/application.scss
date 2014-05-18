@@ -1,6 +1,9 @@
 @import "poole";
 @import "lanyon";
 
+a, .post-title a {
+  color: #579;
+}
 
 .sidebar,
 .sidebar-toggle:active,
@@ -25,9 +28,29 @@
   border-bottom-color: #656b74;
 }
 
+.aka {
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+}
+
+.aka-title {
+  margin: 0;
+  color: rgba(0,0,0,.7);
+}
+
+.viewing {
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  color: rgba(0,0,0,.7);
+}
+
 html {
-  font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: rgba(0,0,0,0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,4 +59,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-date {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
+}
+
+body {
+  border-top: solid 4px #579;
+}
+
+@media (min-width: 56rem) {
+  html {
+    font-size: 22px;
+  }
+
+  .post-date {
+    font-size: .80rem;
+  }
+
+  .container {
+    max-width: 34rem;
+  }
 }

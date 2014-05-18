@@ -49,7 +49,7 @@ module Movielog
         def get_title(title = nil, display_title = nil)
           while title.nil?
             query = Ask.input 'Title'
-            results = Movielog::App.search_viewings_for_title(query)
+            results = Movielog::App.search_for_viewed_title(query)
             choices = format_title_results(results)
             choices << 'Search Again'
             idx = Ask.list(" Title", choices)

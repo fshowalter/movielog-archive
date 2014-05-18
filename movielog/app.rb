@@ -19,7 +19,13 @@ module Movielog
         MovieDb::App.search_titles(db, query)
       end
 
-      def search_viewings_for_title(query, db = db)
+      def viewings_for_title(title)
+        viewings.select do |number, viewing|
+          viewing.title == title
+        end.values
+      end
+
+      def search_for_viewed_title(query, db = db)
         titles = viewings.values.map(&:title).uniq
         MovieDb::App.search_within_titles(db, query, titles)
       end

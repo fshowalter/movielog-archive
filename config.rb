@@ -54,6 +54,10 @@ helpers do
       "#{person.first_name} #{person.last_name}"
     end.to_sentence
   end
+
+  def markdown(source)
+    Tilt['markdown'].new { source }.render
+  end
 end
 
 set :css_dir, 'stylesheets'
@@ -61,6 +65,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :markdown_engine, :redcarpet
 
 # Build-specific configuration
 configure :build do
@@ -80,9 +86,9 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-# ready do
-#   Movielog::App.reviews.each do |id, review|
-#     proxy "/reviews/#{review.slug}.html", "category.html", 
-#       :locals => { :category => category, :pages => pages }
-#   end
-# end
+ready do
+  Movielog::App.reviews.each do |id, review|
+    proxy "/reviews/#{review.slug}/index.html", "review.html", 
+      locals: { review: review }
+  end
+end

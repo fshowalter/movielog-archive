@@ -101,6 +101,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
+    redcarpet (3.1.2)
     ruby-progressbar (1.4.2)
     sass (3.2.19)
     sixarm_ruby_unaccent (1.1.0)
@@ -137,4 +138,5 @@ DEPENDENCIES
   middleman (~> 3.3.2)
   middleman-livereload (~> 3.1.0)
   movie_db!
+  redcarpet
   sass
