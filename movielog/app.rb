@@ -30,6 +30,14 @@ module Movielog
         MovieDb::App.search_within_titles(db, query, titles)
       end
 
+      def directors_for_title(title, db = db)
+        MovieDb::App.directors_for_title(db, title)
+      end
+
+      def writers_for_title(title, db = db)
+        MovieDb::App.writers_for_title(db, title)
+      end
+
       def headline_cast_for_title(title, db = db)
         MovieDb::App.headline_cast_for_title(db, title)
       end

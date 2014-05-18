@@ -47,6 +47,8 @@ a, .post-title a {
 html {
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 body {
@@ -57,17 +59,90 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
 }
 
+p {
+  letter-spacing: 0.01rem;
+}
+
+.masthead {
+  background-color: #579;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  small {
+    font-size: .75rem;
+  }
+}
+
+.sidebar-toggle {
+  z-index: 200;
+  background-color: #579;
+  color: white;
+  top: 0;
+  padding-top: 7px;
+  padding-bottom: 4px;
+}
+
+.layout-reverse .sidebar-toggle {
+  right: .5rem;
+}
+
+.sidebar-toggle:before {
+  display: none;
+}
+
+.nav-menu {
+  height: 12px;
+
+  g {
+    fill: white;
+  }
+}
+
+.wrap {
+  padding-top: 4rem;
+}
+
+.masthead-title a {
+  color: white;
+  font-weight: 100;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
 .post-date {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
 }
 
-body {
-  border-top: solid 4px #579;
+.post-title {
+  font-size: 1.70rem;
+}
+
+.credits {
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  color: rgba(0,0,0,.7);
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media (max-width: 48rem) {
+  .masthead-title {
+    text-align: left;
+  }
+
+  .sidebar-toggle {
+    position: fixed;
+  }
 }
 
 @media (min-width: 56rem) {
   html {
     font-size: 22px;
+    line-height: 1.5;
   }
 
   .post-date {
@@ -77,4 +152,29 @@ body {
   .container {
     max-width: 34rem;
   }
+}
+
+
+.layout-reverse .sidebar {
+  right: -13rem;
+  width: 13rem;
+}
+
+.masthead {
+  -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.masthead {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition: transform .3s ease-in-out;
+}
+
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .masthead,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-13rem);
+      -ms-transform: translateX(-13rem);
+          transform: translateX(-13rem);
 }

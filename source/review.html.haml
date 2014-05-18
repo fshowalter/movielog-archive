@@ -4,6 +4,7 @@
 
 - aka_titles = Movielog::App.aka_titles_for_title(review.title)
 - viewings = Movielog::App.viewings_for_title(review.title)
+- headline_cast = Movielog::App.headline_cast_for_title(review.title)
 
 .post
   %h1.post-title= review.display_title
@@ -20,6 +21,12 @@
   %ol.viewings-list
     - viewings.each do |viewing|
       %li.viewing via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
+
+  %h3 Credits
+  %h4 Starring
+  %ul.credits
+    - headline_cast.each do |performer|
+      %li.credit #{performer.first_name} #{performer.last_name}
 
 /   <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div>
 / </div>
@@ -72,4 +79,4 @@
 /         %a.pagination__jump__prev{view.previous_link_attributes} Older
 /     - if view.has_next_entry?
 /       %li
-/         %a.pagination__jump__next{view.next_link_attributes} Newer  
+/         %a.pagination__jump__next{view.next_link_attributes} Newer
