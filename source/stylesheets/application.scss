@@ -33,9 +33,18 @@ a, .post-title a {
   font-size: .8rem;
 }
 
+.aka-heading {
+  font-weight: 100;
+  color: #9a9a9a;
+}
+
 .aka-title {
   margin: 0;
   color: rgba(0,0,0,.7);
+}
+
+.viewings-list {
+  padding-left: 1.2rem;
 }
 
 .viewing {
@@ -49,6 +58,7 @@ html {
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 1.4;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -57,10 +67,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 p {
   letter-spacing: 0.01rem;
+}
+
+.post-date {
+  font-size: .75rem;
+  margin-top: 0;
 }
 
 .masthead {
@@ -118,7 +134,7 @@ p {
 }
 
 .post-title {
-  font-size: 1.70rem;
+  font-size: 1.3rem;
 }
 
 .credits {

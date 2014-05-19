@@ -5,13 +5,15 @@
 - aka_titles = Movielog::App.aka_titles_for_title(review.title)
 - viewings = Movielog::App.viewings_for_title(review.title)
 - headline_cast = Movielog::App.headline_cast_for_title(review.title)
+- directors = Movielog::App.directors_for_title(review.title)
+- writers = Movielog::App.writers_for_title(review.title)
 
 .post
   %h1.post-title= review.display_title
 
   - if aka_titles.any?
     %dl.aka
-      %dt aka
+      %dt.aka-heading aka
       - aka_titles.each do |aka_title|
         %dd.aka-title= aka_title.aka_title
 
@@ -23,10 +25,18 @@
       %li.viewing via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
 
   %h3 Credits
+  %h4 Directed by
+  %ul.credits
+    - directors.each do |director|
+      %li.credit #{director.first_name} #{director.last_name}
   %h4 Starring
   %ul.credits
     - headline_cast.each do |performer|
       %li.credit #{performer.first_name} #{performer.last_name}
+  %h4 Written by
+  %ul.credits
+    - writers.each do |writer|
+      %li.credit #{writer.first_name} #{writer.last_name}
 
 /   <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div>
 / </div>
