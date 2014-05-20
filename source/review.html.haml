@@ -2,12 +2,11 @@
 
 ---
 
-- aka_titles = Movielog::App.aka_titles_for_title(review.title)
+- aka_titles = Movielog::App.aka_titles_for_title(review.title, review.display_title)
 - viewings = Movielog::App.viewings_for_title(review.title)
 - headline_cast = Movielog::App.headline_cast_for_title(review.title)
 - directors = Movielog::App.directors_for_title(review.title)
 - writers = Movielog::App.writers_for_title(review.title)
-
 .post
   %h1.post-title= review.display_title
 
@@ -19,12 +18,12 @@
 
   = markdown(review.content)
 
-  %h3 Viewings
+  %h3.viewings-header Viewings
   %ol.viewings-list
     - viewings.each do |viewing|
       %li.viewing via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
 
-  %h3 Credits
+  %h3.credits-header Credits
   %h4 Directed by
   %ul.credits
     - directors.each do |director|

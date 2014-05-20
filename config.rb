@@ -68,6 +68,14 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 
+activate :directory_indexes
+
+activate :pagination do
+  pageable_set :reviews do
+    Movielog::App.reviews.keys.sort.reverse
+  end
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -88,7 +96,7 @@ end
 
 ready do
   Movielog::App.reviews.each do |id, review|
-    proxy "/reviews/#{review.slug}/index.html", "review.html", 
+    proxy "/reviews/#{review.slug}/index.html", "review.html",
       locals: { review: review }
   end
 end

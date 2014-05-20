@@ -1,9 +1,9 @@
+require 'yaml'
 
 module Movielog
   class ParseReviews
     class << self
       def call(reviews_path)
-
         Dir["#{reviews_path}/*.md"].reduce({}) do |memo, file|
           begin
             content = IO.read(file)

@@ -1,12 +1,42 @@
 ---
-
+pagination:
+  for: reviews
+  per_page: 10
 ---
 
+- reviews = Movielog::App.reviews
 .posts
-  - Movielog::App.reviews.each do |id, review|
-    .post
-      %h1.post-title
-        %a{ href: "/reviews/#{review.slug}" }
-          = review.display_title
-      %span.post-date Starring #{ headline_cast(review.title) }
-      = markdown(review.content)
+  - review = reviews[reviews.length - ((pagination.page_num - 1) * pagination.per_page)]
+  .post
+    %h1.post-title
+      %a{ href: "/reviews/#{review.slug}" }
+        = review.display_title
+    %span.post-date Starring #{ headline_cast(review.title) }
+    = markdown(review.content)
+  - if pagination.subset.length > 1
+    %h3.missed-header You might have missed:
+    %ul.movie-list
+      - pagination.each_with_index do |key, index|
+        - next if index == 0
+        - review = reviews[key]
+        %li.list-item
+          .div
+            .list-item-title
+              %a{ href: "/reviews/#{review.slug}" }
+                = review.display_title
+          .post-date
+            = headline_cast(review.title)
+.pagination
+  - if pagination.prev_page
+    %a.pagination-item.newer{ href: pagination.prev_page.url }
+      %svg.icon{ viewBox: "-704 -384 2048 2048", xmlns: "http://www.w3.org/2000/svg" }
+        %g{ transform: "scale(1 -1) translate(0 -1280)" }
+          %path{ d: "M627 992q0 -13 -10 -23l-393 -393l393 -393q10 -10 10 -23t-10 -23l-50 -50q-10 -10 -23 -10t-23 10l-466 466q-10 10 -10 23t10 23l466 466q10 10 23 10t23 -10l50 -50q10 -10 10 -23z", fill: "black" }
+      Newer
+
+  - if pagination.next_page
+    %a.pagination-item.older{ href: pagination.next_page.url }
+      Older
+      %svg.icon{ viewBox: "-704 -384 2048 2048", xmlns: "http://www.w3.org/2000/svg" }
+        %g{ transform: "scale(1 -1) translate(0 -1280)" }
+          %path{ d: "M595 576q0 -13 -10 -23l-466 -466q-10 -10 -23 -10t-23 10l-50 50q-10 10 -10 23t10 23l393 393l-393 393q-10 10 -10 23t10 23l50 50q10 10 23 10t23 -10l466 -466q10 -10 10 -23z", fill:"black" }

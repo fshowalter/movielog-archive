@@ -42,8 +42,8 @@ module Movielog
         MovieDb::App.headline_cast_for_title(db, title)
       end
 
-      def aka_titles_for_title(title, db = db)
-        MovieDb::App.aka_titles_for_title(db, title)
+      def aka_titles_for_title(title, display_title = title, db = db)
+        MovieDb::App.aka_titles_for_title(db, title, display_title)
       end
 
       def db
