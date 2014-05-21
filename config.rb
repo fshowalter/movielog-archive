@@ -157,6 +157,8 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 
+page 'feed.xml', mime_type: 'text/xml'
+
 activate :directory_indexes
 
 activate :pagination do

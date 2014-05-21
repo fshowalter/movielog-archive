@@ -1,0 +1,26 @@
+---
+layout: false
+pagination:
+  for: reviews
+  per_page: 10
+---
+!!! XML
+%feed{ xmlns: 'http://www.w3.org/2005/Atom' }
+  - reviews = Movielog::App.reviews
+  %title= site.title
+  %link{ href: "#{site.url}feed.xml", rel: 'self' }/
+  %link{ href: "#{site.url}" }/
+  %updated= Time.now.xmlschema
+  %id= site.url
+  %author
+    %name= site.author
+
+  - pagination.each do |key|
+    - review = reviews[key]
+    %entry
+      %title= review.display_title
+      %link{ href: "#{site.url}/reviews/#{review.slug}" }
+      %updated= review.date.xmlschema
+      %id= "#{site.url}#{review.slug}"
+      %content{ type: 'html' }
+        = markdown(review.content)
