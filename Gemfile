@@ -8,6 +8,7 @@ gem "middleman", "~>3.3.2"
 gem "middleman-livereload", "~> 3.1.0"
 
 gem 'middleman-pagination'
+gem "middleman-deploy"
 
 gem 'haml'
 gem 'sass'

@@ -5,9 +5,11 @@
     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1" }
     %title
       - if current_page.data.title
-        #{current_page.data.title} &middot; #{site.title}
+        #{current_page.data.title} | #{site.title}
+      - elsif content_for?(:title)
+        #{yield_content(:title)} | #{site.title}
       - else
-        #{site.title} &middot; #{site.tagline}
+        #{site.title} | #{site.tagline}
     = stylesheet_link_tag "application"
     %link{ rel: "apple-touch-icon-precomposed", sizes:"144x144", href: "/apple-touch-icon-144-precomposed.png" }
     %link{ rel: "shortcut icon", href: "/favicon.ico" }
@@ -41,11 +43,10 @@
       .container
         %h3.masthead-title
           %a{ href: "/", title: "Home" } #{site.title}
-          %small #{site.tagline}
     .wrap
       .container.content
         = yield
-      %footer.container.site-footer
+      %footer.site-footer
         .site-footer-content
           This has been #{link_to("Frank's Movie Log", '/', class: "site-footer__link")}, loving movies since 2012.
         %a.site-footer-twitter{ href: "http://twitter.com/FranksMovieLog"}

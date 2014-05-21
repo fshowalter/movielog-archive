@@ -3,7 +3,6 @@ pagination:
   for: reviews
   per_page: 10
 ---
-
 - reviews = Movielog::App.reviews
 .posts
   - review = reviews[reviews.length - ((pagination.page_num - 1) * pagination.per_page)]
@@ -13,7 +12,7 @@ pagination:
         = review.display_title
     %span.post-date Starring #{ headline_cast(review.title) }
 
-    .rating.clearfix
+    .rating
       = grade_to_stars(review.grade)
 
     = markdown(review.content)
