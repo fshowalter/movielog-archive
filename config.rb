@@ -170,6 +170,8 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+activate :sitemap, hostname: 'http://movielog.frankshowalter.com'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
