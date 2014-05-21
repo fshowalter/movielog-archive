@@ -4,6 +4,7 @@
 :slug: men-are-such-fools-1938
 :display_title: Men Are Such Fools (1938)
 :date: 2014-05-20
+:grade: D
 ---
 Lane plays a Linda, an ambitious secretary out to climb the corporate ladder. Just as her career takes off, she marries Jimmy, an ex-footballer from Princeton played by Morris, who demands she leave her job. Linda reluctantly agrees, and several months later they’ve settled into a bland suburban existence with Linda playing the role of dutiful housewife. Still ambitious, Linda arranges a promotion for Jimmy and leaves him when he turns it down, moving back to the city and resuming her career. Soon, she’s near the top of the ladder, working long nights alongside fellow advertising executive Harry, played by Humphrey Bogart. Jimmy returns to the city alone and throws himself into his work, turning into the driven man Linda always wanted him to be. As Harry makes his feelings for Linda clear, Linda realizes she’ll have to chose between Harry and Jimmy.
 

@@ -210,6 +210,10 @@ li {
   padding-bottom: 3px;
 }
 
+.missed-header {
+  font-size: 1.2rem;
+}
+
 .list-item-title {
   font-family: $sans;
   text-overflow: ellipsis;
@@ -219,6 +223,59 @@ li {
 
 .pagination-item {
   font-family: $sans;
+  border-bottom: none;
+}
+
+.rating {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.star, .half-star, .empty-star {
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  float: left;
+}
+
+.star polygon {
+  fill: #EDA829;
+}
+
+.half-star-full {
+  fill: #EDA829;
+}
+
+.half-star-empty {
+  fill: #ddd;
+}
+
+.empty-star {
+  fill: #ddd;
+}
+
+.list-item .rating {
+  margin: 0 .3rem 0 0;
+  float: left;
+  height: .8rem;
+  padding-top: .13rem;
+
+  .star, .half-star, .empty-star {
+    width: .8rem;
+    height: .8rem;
+    // padding-top: 3px;
+  }
 }
 
 .pagination {

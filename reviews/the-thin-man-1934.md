@@ -4,6 +4,7 @@
 :slug: the-thin-man-1934
 :display_title: The Thin Man (1934)
 :date: 2014-05-20
+:grade: A
 ---
 Eccentric inventor Clyde Wynant is preparing to go into seclusion to work on a new project when he’s interrupted by a visit from his daughter Dorothy (O'Sullivan) who announces her engagement. Wynant hurries her out, but promises to return in time for her wedding. Wynant continues his preparations and discovers that the $50,000 in bonds he’d earmarked as a wedding present for Dorothy are missing. He storms over to the apartment of his mistress Julia, catching her in the arms of another man in the process. Wynant accuses her of the theft and threatens to turn her over to the police. Three months later Dorothy hasn’t heard from her father. While out at a restaurant, she recognizes former detective Nick Charles (Powell) and approaches him for help. Nick–happy in his new life of leisure with his heiress wife Nora (Loy)–is reluctant to get involved, but when circumstances pin a pair of murders on the still missing Wynant, Nick steps in and uncovers a buried skeleton along with a labyrinthine array of suspects and motives. The mystery culminates with New York’s finest corralling all the suspects to a dinner party thrown by Nick and Nora, where Nick ferrets out the true killer.
 

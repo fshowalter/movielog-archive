@@ -12,6 +12,10 @@ pagination:
       %a{ href: "/reviews/#{review.slug}" }
         = review.display_title
     %span.post-date Starring #{ headline_cast(review.title) }
+
+    .rating.clearfix
+      = grade_to_stars(review.grade)
+
     = markdown(review.content)
   - if pagination.subset.length > 1
     %h3.missed-header You might have missed:
@@ -25,6 +29,8 @@ pagination:
               %a{ href: "/reviews/#{review.slug}" }
                 = review.display_title
           .post-date
+            .rating.clearfix
+              = grade_to_stars(review.grade)
             = headline_cast(review.title)
 .pagination
   - if pagination.prev_page

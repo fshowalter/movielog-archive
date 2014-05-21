@@ -16,6 +16,11 @@
       - aka_titles.each do |aka_title|
         %dd.aka-title= aka_title.aka_title
 
+  %span.post-date Starring #{ headline_cast(review.title) }
+
+  .rating.clearfix
+    = grade_to_stars(review.grade)
+
   = markdown(review.content)
 
   %h3.viewings-header Viewings
