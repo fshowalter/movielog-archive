@@ -190,7 +190,7 @@ end
 
 ready do
   Movielog::App.reviews.each do |id, review|
-    proxy("/reviews/#{review.slug}/index.html", "review.html",
+    proxy("reviews/#{review.slug}.html", "review.html",
       locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
   end
 end

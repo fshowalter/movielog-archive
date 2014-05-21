@@ -84,6 +84,8 @@ GEM
       rack-livereload
     middleman-pagination (1.1.1)
       middleman-core (~> 3.2)
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
     middleman-sprockets (3.3.3)
       middleman-core (>= 3.2)
       sprockets (~> 2.2)
@@ -149,6 +151,7 @@ DEPENDENCIES
   middleman-deploy
   middleman-livereload (~> 3.1.0)
   middleman-pagination
+  middleman-sitemap
   movie_db!
   redcarpet
   sass

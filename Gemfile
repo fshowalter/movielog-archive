@@ -9,6 +9,7 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'middleman-pagination'
 gem "middleman-deploy"
+gem "middleman-sitemap"
 
 gem 'haml'
 gem 'sass'
