@@ -33,6 +33,8 @@ a, .post-title a {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .icon {
@@ -160,7 +162,7 @@ li {
 .sidebar-toggle {
   z-index: 200;
   background-color: transparent;
-  color: #579;
+  color: white;
   top: 0;
   padding-top: 7px;
   padding-bottom: 4px;
@@ -179,7 +181,7 @@ li {
   height: 12px;
 
   g {
-    fill: #579;
+    fill: white;
   }
 }
 
@@ -335,6 +337,14 @@ li {
 
   .sidebar-toggle {
     top: 1rem;
+  }
+
+  .nav-menu {
+    height: 1rem;
+
+    g {
+      fill: #579;
+    }
   }
 
   .sidebar {

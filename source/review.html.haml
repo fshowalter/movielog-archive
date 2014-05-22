@@ -2,6 +2,7 @@
 ---
 - content_for(:title, "#{review.display_title} Movie Review")
 - aka_titles = Movielog::App.aka_titles_for_title(review.title, review.display_title)
+- content_for(:description, description_for_review(review, aka_titles))
 - viewings = Movielog::App.viewings_for_title(review.title)
 - headline_cast = Movielog::App.headline_cast_for_title(review.title)
 - directors = Movielog::App.directors_for_title(review.title)

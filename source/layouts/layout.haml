@@ -3,6 +3,8 @@
   %head
     %meta{ 'http-equiv' => "content-type", content: "text/html; charset=utf-8" }
     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1" }
+    - if content_for?(:description)
+      %meta{ name: 'description', content: yield_content(:description) }
     %title
       - if current_page.data.title
         #{current_page.data.title} | #{site.title}
@@ -38,7 +40,7 @@
     #sidebar.sidebar
       .sidebar-item
         %p
-          A chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
+          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
       %nav.sidebar-nav
         %a{ class: "sidebar-nav-item#{' active' if current_page.url == '/' }"} Home
         %a.sidebar-nav-item{ href: "https://github.com/fshowalter/movielog/tree/gh-pages" } GitHub
