@@ -12,7 +12,7 @@ module Movielog
       end
 
       def venues
-        viewings.values.map(&:name).uniq
+        viewings.values.map(&:venue).uniq
       end
 
       def search_titles(query, db = db)
