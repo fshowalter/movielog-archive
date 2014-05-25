@@ -28,26 +28,26 @@
       try{Typekit.load();}catch(e){}
 
 
-  %body.layout-reverse
+  %body
     -# Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for behavior.
     %input#sidebar-checkbox.sidebar-checkbox{ type: "checkbox" }
     -# Toggleable sidebar
     #sidebar.sidebar
-      .sidebar-item
-        %p
-          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
+      = form_tag "https://www.google.com/search", class: "site-navigation__site-search", method: :get do
+        = hidden_field_tag "q", value: "site:movielog.frankshowalter.com"
+        .search-wrap.clearable-wrap
+          = text_field_tag "q", placeholder: "Search the Movie Log", id: "searchInput", class: "site-search-input", size: "30"
+          %svg.search-icon{ viewBox: "-192 -384 2048 2048", xmlns: "http://www.w3.org/2000/svg" }
+            %g{ transform: "scale(1 -1) translate(0 -1280)" }
+              %path{ d: "M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z" }
       %nav.sidebar-nav
         %a{ class: "sidebar-nav-item#{' active' if current_page.url == '/' }"} Home
         %a.sidebar-nav-item{ href: "https://github.com/fshowalter/movielog/tree/gh-pages" } GitHub
-        %span.sidebar-nav-item Currently v 1.1.0
-
-      .sidebar-item
-        %p &copy; #{ Date.today.year }. All rights reserved.
-    .masthead
-      .container
-        %h3.masthead-title
-          %a{ href: "/", title: "Home" } #{site.title}
     .wrap
+      .masthead
+        .container
+          %h1.masthead-title
+            %a{ href: "/", title: "Home" } #{site.title}
       .container.content
         = yield
       %footer.site-footer

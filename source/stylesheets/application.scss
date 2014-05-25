@@ -1,51 +1,402 @@
-@import "poole";
-@import "lanyon";
+$sans: "jaf-bernina-sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+$serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
-$sans: "petala-pro", Helvetica, Arial, sans-serif;
+$sidebar-background: #191918;
+$highlight: #579;
 
-a, .post-title a {
-  color: #579;
+/*
+ * Contents
+ *
+ * Global resets
+ * Custom type
+ * Wrapper
+ * Container
+ * Masthead
+ * Sidebar
+ * Slide effect
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Theming
+ * Icons
+ * Site search
+ * Site footer
+ * Lists
+ * Ratings
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  box-sizing: border-box;
 }
 
-.sidebar {
-  background-color: #3d444c;
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  // Prevent scroll on narrow devices
+  overflow-x: hidden;
 }
 
-.sidebar-toggle:active,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: transparent;
+html {
+  font-family: $serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
 }
 
-.sidebar {
-  color: #D7DADD;
+body {
+  background-color: #fff;
+  color: rgba(0,0,0,0.8);
+  letter-spacing: -0.018rem;
+  text-size-adjust: 100%;
+  border-top: 4px solid $highlight;
+}
+
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/*
+ * Custom Type
+ *
+ * Update the global typography of ht epage
+ */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
   font-family: $sans;
-  font-weight: 100;
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.01rem;
+}
+
+strong {
+  color: #303030;
 }
 
 
-.site-footer {
-  background-color: #3D444C;
-  color: #D7DADD;
+/*
+ * Wrapper
+ *
+ * The wrapper is used to position site content when the sidebar is toggled. We
+ * use an outter wrap to position the sidebar without interferring with the
+ * regular page content.
+ */
+
+.wrap {
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  background-color: white;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1.25rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+  padding-top: 0;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+}
+.masthead-title a {
+  color: rgba(0,0,0,0.8);
+  font-size: 1rem;
+}
+
+
+/*
+ * Sidebar
+ *
+ * The sidebar is the drawer, the item we are toggling with our handy hamburger
+ * button in the corner of the page.
+ *
+ * This particular sidebar implementation was inspired by Chris Coyier's
+ * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
+ * comments by a reader. It modifies both implementations to continue using the
+ * checkbox (no change in URL means no polluted browser history), but this uses
+ * `position` for the menu to avoid some potential content reflow issues.
+ *
+ * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+ */
+
+/* Style and "hide" the sidebar */
+.sidebar {
+  position: fixed;
+  z-index: 100;
+  top: 4px;
+  bottom: 0;
+  right: 0;
+  width: 13rem;
+  overflow-y: auto;
+  font-family: $sans;
+  font-size: .8rem;
+  color: rgba(255,255,255,.6);
+  background-color: $sidebar-background;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  letter-spacing: .016rem;
+}
+
+/* Sidebar content */
+.sidebar a {
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.65098);
+}
+.sidebar-item {
+  padding: 1rem;
+}
+.sidebar-item p:last-child {
+  margin-bottom: 0;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.sidebar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+.sidebar-nav-item.active,
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.1);
+  border-color: transparent;
+}
+
+/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+.sidebar-checkbox {
+  display: none;
+}
+
+/* Style the `label` that we use to target the `.sidebar-checkbox` */
+.sidebar-toggle {
+  position: absolute;
+  top:  .4rem;
+  right: .5rem;
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: .5rem .65rem;
+  color: white;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 300;
+  -webkit-tap-highlight-color: white;
+}
+
+/* Hamburger icon */
+.nav-menu {
+  height: 12px;
+}
+
+
+/* Slide effect
+ *
+ * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * from the default styles.
+ *
+ * As an a heads up, we don't use `transform: translate3d()` here because when
+ * mixed with `position: fixed;` for the sidebar toggle, it creates a new
+ * containing block. Put simply, the fixed sidebar toggle behaves like
+ * `position: absolute;` when transformed.
+ *
+ * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+ */
+
+.wrap,
+.sidebar,
+.sidebar-toggle,
+.sidebar-checkbox,
+.nav-menu {
+  backface-visibility: hidden;
+}
+.wrap,
+.nav-menu,
+.sidebar-toggle {
+  transition: transform .3s ease-in-out;
+}
+
+#sidebar-checkbox:checked + .sidebar {
+  opacity: 1;
+}
+#sidebar-checkbox:checked ~ .wrap,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  transform: translateX(-13rem);
+}
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.page,
+.post {
+  margin-top: 3rem;
+  margin-bottom: 4em;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030;
+  font-size: 1.3rem;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+/* Slub line below post title */
+.post-slug {
+  display: block;
   font-family: $sans;
   font-size: .75rem;
-  font-weight: 300;
-  border-bottom: .5rem solid #579;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
 }
+
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1.25rem;
+  color: #ccc;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  font-family: $sans;
+  font-weight: bold;
+  color: rgba(0,0,0,.8);
+  display: block;
+  padding: 1rem;
+  margin: 0;
+  width: 50%;
+}
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+.pagination-item.newer {
+  text-align: left;
+  float: left;
+}
+.pagination-item.older {
+  text-align: right;
+  float: right;
+}
+.pagination-icon {
+  vertical-align: middle;
+  width: 1.4rem;
+  height: 1.4rem;
+  width: 1rem;
+  height: 1rem;
+  padding-bottom: 3px;
+}
+.pagination-icon path {
+  fill: rgba(0,0,0,.8);
+}
+
+
+
+// Only provide a hover state for linked pagination items
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+
+/*
+ * Icons
+ *
+ * Inline SVG styles.
+ */
 
 .icon {
   width: 1rem;
   height: 1rem;
   vertical-align: bottom;
-}
-
-.movie-list {
-  margin-left: 0;
-  padding-left: 0;
 }
 
 .twitter path {
@@ -56,179 +407,173 @@ a, .post-title a {
   fill: #f4a546;
 }
 
+
+/*
+ * Site search box.
+ *
+ */
+
+/* Search box in sidebar */
+.search-wrap {
+  position: relative;
+}
+.search-icon {
+  width: .8rem;
+  height: .8rem;
+  position: absolute;
+  top: .8rem;
+  left: .8rem;
+  fill: rgba(0,0,0,.3);
+}
+.site-search-input {
+  font-size: .8rem;
+  width: 12rem;
+  border-radius: 5px;
+  margin: .5rem;
+  font-family: $sans;
+  padding: .3rem .5rem .3rem 1.5rem;
+  border: none;
+}
+input::-webkit-input-placeholder {
+  transform: translate(0, 0);
+  -webkit-transition: opacity 0.3s linear; color: rgba(0,0,0,.3);
+}
+
+input:focus::-webkit-input-placeholder  {
+  transform: translate(0, 0);
+  opacity: 0;
+}
+
+/*
+ * Site footer.
+ *
+ */
+
+/* Site footer */
+.site-footer {
+  color: rgba(0,0,0,0.3);
+  font-family: $sans;
+  font-size: .75rem;
+  text-align: center;
+  padding: 1rem;
+}
 .site-footer a {
-  color: white;
+  color: rgba(0,0,0,.8);
 }
 
-.sidebar-nav-item {
-  border-top-color: #656b74;
-}
+/*
+ * Lists.
+ *
+ */
 
-.sidebar-nav-item.active, a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
-  background-color: #89a;
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
-
-.sidebar-nav {
-  border-bottom-color: #656b74;
-}
-
-.posts {
-  padding-right: 5px;
-}
-
-.aka {
-  font-family: $sans;
-  font-size: .8rem;
-}
-
-.aka-heading {
-  font-weight: 100;
-  color: #9a9a9a;
-}
-
-.aka-title {
-  margin: 0;
-  color: #9a9a9a;
-  font-weight: normal;
-}
-
-.viewing {
-  font-family: $sans;
-  font-size: .8rem;
-  color: #9a9a9a;
-}
-
-html {
-  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 20px;
-  line-height: 1.4;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  color: rgba(0,0,0,0.8);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $sans;
-  font-weight: 700;
-}
-
-p {
-  letter-spacing: 0.01rem;
-  margin-bottom: 1.5rem;
-}
-
 li {
   list-style-type: none;
 }
 
-.viewings-list {
-  padding-left: 1.2rem;
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
 }
 
-.viewings-list li {
+/* Title for lists */
+.list-title {
+  display: block;
+  margin: 0;
+  color: #c0c0c0;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.3);
+  letter-spacing: .065rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: .65rem;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: .4rem 0;
+}
+
+.plain-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.numbered-list li {
   list-style-type: decimal;
 }
 
-.post-date {
-  font-size: .75rem;
+.list-item {
+  color: rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+.list-item:first-child {
   margin-top: 0;
 }
-
-.post-title {
-  // margin-bottom: 2rem;
+.list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
-
-// .post p:first-of-type {
-//   margin-top: 2rem;
-// }
-
-.masthead {
-  background-color: #579;
-  // position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  padding-top: 0;
-  padding-bottom: 0;
-
-  small {
-    font-size: .75rem;
-  }
-}
-
-.sidebar-toggle {
-  z-index: 200;
-  background-color: transparent;
-  color: white;
-  top: 0;
-  padding-top: 7px;
-  padding-bottom: 4px;
-  position: absolute;
-}
-
-.layout-reverse .sidebar-toggle {
-  right: .5rem;
-}
-
-.sidebar-toggle:before {
-  display: none;
-}
-
-.nav-menu {
-  height: 12px;
-
-  g {
-    fill: white;
-  }
-}
-
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.container {
-  padding-right: 1.25rem;
-}
-
-.masthead-title a {
-  color: white;
-  // font-weight: 100;
-  line-height: 2rem;
-  font-size: 1rem;
-}
-
-.post-date {
-  font-family: $sans;
-}
-
-.post-title {
-  font-size: 1.3rem;
-}
-
-.viewings-header, .credits-header, .missed-header {
-  border-bottom: 1px dashed rgba(0,0,0,.2);
-  padding-bottom: 3px;
-}
-
-.missed-header {
-  font-size: 1.2rem;
-}
-
 .list-item-title {
   font-family: $sans;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: bold;
+  font-size: .9rem;
+  letter-spacing: .02em;
+  line-height: 1.1;
+  display: block;
+  margin-bottom: .2rem;
 }
-
-.pagination-item {
+.list-item-title a {
+  color: rgba(0,0,0,.8);
+}
+.list-item-description {
   font-family: $sans;
-  border-bottom: none;
+  font-size: .7rem;
+}
+.list-item .rating {
+  margin: 0 .2rem 0 0;
+  height: .8rem;
+  width: 3.5rem;
+  display: inline-block;
+  margin-bottom: -2px;
+
+  .star, .half-star, .empty-star {
+    width: .7rem;
+    height: .7rem;
+  }
+}
+.list-item-number {
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  width: 40px;
+  margin-top: -18px;
+  font-family: $sans;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+  color: rgba(0,0,0, 0.8);
 }
 
+
+/*
+ * Star ratings.
+ *
+ */
 .rating {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -236,16 +581,6 @@ li {
   width: 5rem;
   height: 1rem;
   display: block;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
 }
 
 .star, .empty-star {
@@ -261,164 +596,62 @@ li {
   fill: #ddd;
 }
 
+/*
+ * Cards
+ *
+ * Viewings and credits.
+ */
 
-.list-item .rating {
-  margin: 0 .2rem 0 0;
-  height: .8rem;
-  width: 4rem;
-  display: inline-block;
-  margin-bottom: -2px;
-
-
-  .star, .half-star, .empty-star {
-    width: .8rem;
-    height: .8rem;
-    // padding-top: 3px;
-  }
-}
-
-.pagination {
-  margin-right: -1.25rem;
-  background-color: #fcfcfc;
-}
-
-.pagination .icon {
-  vertical-align: middle;
-  width: 1.4rem;
-  height: 1.4rem;
-  padding-bottom: 3px;
-}
-
-.pagination .icon path {
-  fill: #579;
-}
-
-.pagination-item {
-  border: none;
-  margin: 0;
-  width: 50%;
-}
-
-.pagination-item.newer {
-  text-align: left;
-  float: left;
-}
-
-.pagination-item.older {
-  text-align: right;
-  float: right;
-}
-
-.list-item {
-  border-bottom: 1px solid #eee;
-  margin-top: 1rem;
-}
-
-.list-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
-
-.credits {
+.card-header {
   font-family: $sans;
+  font-weight: 700;
+  font-style: normal;
+  padding: 12px 0 28px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: .1em;
+  color: rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.card-description {
+  letter-spacing: -.02rem;
+  line-height: 1.3;
+  font-size: .75rem;
+  font-family: $sans;
+  color: rgba(0,0,0,.6);
+}
+
+.card-sub-head {
+  color: rgba(0,0,0,0.8);
+  font-size: .9rem;
+}
+
+.card-list-item {
+  font-size: .75rem;
+  font-family: $sans;
+  color: rgba(0,0,0,.6);
+}
+
+.role {
+  color: rgba(0,0,0,.3);
+}
+
+.aka {
+  margin-bottom: 1rem;
+}
+
+.aka-heading {
   font-size: .8rem;
+  font-family: $sans;
   font-weight: normal;
-  color: #9a9a9a;
-  list-style-type: none;
-  padding-left: 0;
+  color: rgba(0,0,0,0.3);
 }
 
-@media (min-width: 37em) {
-  .wrap {
-    padding-top: 1.5rem;
-    border-top: .25rem solid #579;
-  }
-
-  .sidebar-toggle {
-    top: 1rem;
-  }
-
-  p {
-    letter-spacing: 0.00725rem;
-  }
-
-  .nav-menu {
-    height: 1rem;
-
-    g {
-      fill: #579;
-    }
-  }
-
-  .sidebar {
-    padding-top: 2rem;
-  }
-
-  .masthead {
-    position: fixed;
-    width: 13rem;
-    right: -13rem;
-  }
-
-  .site-footer {
-    background-color: transparent;
-    color: inherit;
-    font-weight: normal;
-    color: #9a9a9a;
-
-    a {
-      color: #579;
-    }
-  }
-}
-
-@media (max-width: 48rem) {
-  .masthead-title {
-    text-align: left;
-  }
-
-  .sidebar-toggle {
-    // position: fixed;
-  }
-}
-
-@media (min-width: 56rem) {
-  html {
-    font-size: 22px;
-    line-height: 1.5;
-  }
-
-  .post-date {
-    font-size: .80rem;
-  }
-
-  .container {
-    max-width: 34rem;
-  }
-}
-
-
-.layout-reverse .sidebar {
-  right: -13rem;
-  width: 13rem;
-}
-
-.masthead {
-  -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-.masthead {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
-}
-
-.layout-reverse #sidebar-checkbox:checked ~ .wrap,
-.layout-reverse #sidebar-checkbox:checked ~ .masthead,
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(-13rem);
-      -ms-transform: translateX(-13rem);
-          transform: translateX(-13rem);
+.aka-title {
+  letter-spacing: -.02rem;
+  font-family: $sans;
+  margin: 0;
+  color: rgba(0,0,0,.6);
+  font-size: .8rem;
 }

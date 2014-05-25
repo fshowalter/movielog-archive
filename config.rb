@@ -169,6 +169,8 @@ page 'feed.xml', mime_type: 'text/xml'
 
 activate :directory_indexes
 
+activate :autoprefixer
+
 activate :pagination do
   pageable_set :reviews do
     Movielog::App.reviews.keys.sort.reverse

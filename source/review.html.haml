@@ -6,8 +6,9 @@
 - viewings = Movielog::App.viewings_for_title(review.title)
 - headline_cast = Movielog::App.headline_cast_for_title(review.title)
 - directors = Movielog::App.directors_for_title(review.title)
+- director_slug = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
 - writers = Movielog::App.writers_for_title(review.title)
-.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
+%article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
   %h1.post-title{ itemprop: 'name' }= review.display_title
 
   - if aka_titles.any?
@@ -16,7 +17,7 @@
       - aka_titles.each do |aka_title|
         %dd.aka-title= aka_title.aka_title
 
-  %span.post-date Starring #{ headline_cast(review.title) }
+  %span.post-slug Directed by #{director_slug}. Starring #{ headline_cast(review.title) }.
 
   .rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: (grade_to_number(review.grade) / 3.0) * 2.0, itemprop: 'ratingValue' }
@@ -30,28 +31,33 @@
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
 
-  %h3.viewings-header Viewings
-  %ol.viewings-list
-    - viewings.each do |viewing|
-      %li.viewing via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
+  %h3.card-header Viewings
+  %ol.plain-list
+    - viewings.each_with_index do |viewing, index|
+      %li.list-item
+        %span.list-item-number
+          = "#{index + 1}."
+        .card-description
+          via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
 
   %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
     %meta{ content: review.display_title, itemprop: 'name' }
-    %h3.credits-header Credits
-    %h4 Directed by
-    %ul.credits
+    %h4.card-header Directed by
+    %ul.plain-list
       - directors.each do |director|
-        %li.credit #{director.first_name} #{director.last_name}
-    %h4 Starring
-    %ul.credits
+        %li.card-list-item #{director.first_name} #{director.last_name}
+    %h4.card-header Starring
+    %ul.plain-list
       - headline_cast.each do |performer|
-        %li.credit{ itemprop: 'actor', itemscope: true, itemtype: 'http://schema.org/Person' }
+        %li.card-list-item{ itemprop: 'actor', itemscope: true, itemtype: 'http://schema.org/Person' }
           %span{ itemprop: 'name' }
             #{performer.first_name} #{performer.last_name}
-    %h4 Written by
-    %ul.credits
+            %span.role
+              as #{performer.role}
+    %h4.card-header Written by
+    %ul.plain-list
       - writers.each do |writer|
-        %li.credit #{writer.first_name} #{writer.last_name}
+        %li.card-list-item #{writer.first_name} #{writer.last_name}
 
 /   <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div>
 / </div>
