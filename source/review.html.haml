@@ -25,89 +25,45 @@
     %meta{ content: '10', itemprop: 'bestRating' }
     = grade_to_stars(review.grade)
 
-  .div{ itemprop: 'reviewBody'}
+  .post-content{ itemprop: 'reviewBody'}
     = markdown(review.content)
   %meta{ content: published_date(review), itemprop: 'datepublished'}
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
-
-  %h3.card-header Viewings
-  %ol.plain-list
-    - viewings.each_with_index do |viewing, index|
-      %li.list-item
-        %span.list-item-number
-          = "#{index + 1}."
-        .card-description
-          via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
-
-  %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
-    %meta{ content: review.display_title, itemprop: 'name' }
-    %h4.card-header Directed by
-    %ul.plain-list
-      - directors.each do |director|
-        %li.card-list-item #{director.first_name} #{director.last_name}
-    %h4.card-header Starring
-    %ul.plain-list
-      - headline_cast.each do |performer|
-        %li.card-list-item{ itemprop: 'actor', itemscope: true, itemtype: 'http://schema.org/Person' }
-          %span{ itemprop: 'name' }
-            #{performer.first_name} #{performer.last_name}
+  .column-half
+    %h3.card-header Viewings
+    %ol.plain-list
+      - viewings.each_with_index do |viewing, index|
+        %li.list-item
+          %span.list-item-number
+            = "#{index + 1}."
+          .card-description
+            via #{viewing.venue} on #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
+  .column-half
+    %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
+      %meta{ content: review.display_title, itemprop: 'name' }
+      %h3.card-header Directed by
+      %ul.plain-list
+        - directors.each do |director|
+          %li.card-description
+            #{director.first_name} #{director.last_name}
+            - if director.notes
+              %span.role
+                (#{director.notes})
+      %h3.card-header Starring
+      %ul.plain-list
+        - headline_cast.each do |performer|
+          %li.card-description{ itemprop: 'actor', itemscope: true, itemtype: 'http://schema.org/Person' }
+            %span{ itemprop: 'name' }
+              #{performer.first_name} #{performer.last_name}
+              %span.role
+                as #{performer.role}
+      %h3.card-header Written by
+      %ul.plain-list
+        - writers.each do |writer|
+          %li.card-description
+            #{writer.first_name} #{writer.last_name}
             %span.role
-              as #{performer.role}
-    %h4.card-header Written by
-    %ul.plain-list
-      - writers.each do |writer|
-        %li.card-list-item #{writer.first_name} #{writer.last_name}
+              #{writer.notes}
 
-/   <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div>
-/ </div>
-
-/ <div class="related">
-/   <h2>Related Posts</h2>
-/   <ul class="related-posts">
-/     {% for post in site.related_posts limit:3 %}
-/       <li>
-/         <h3>
-/           <a href="{{ site.baseurl }}{{ post.url }}">
-/             {{ post.title }}
-/             <small>By {{ post.author }}</small>
-/           </a>
-/         </h3>
-/       </li>
-/     {% endfor %}
-/   </ul>
-/ </div>
-
-/ %article.post
-/   %header
-/     %div{view.still_attributes}
-/     .post__title
-/       %h2= page_title(view.display_title)
-/       = view.aka_titles
-/     .post__slug
-/       = view.rating
-/       %br
-/       = view.header_slug
-/   .post__content
-/     = view.text
-/   %footer.post__footer
-/     %h3 Viewings
-/     %ol.viewings__list
-/       - view.viewings.each do |viewing|
-/         %li
-/           via #{viewing.venue} on #{viewing.date_link}
-
-/     %h3 Credits
-/     .credits
-/       - if view.has_poster?
-/         .credits__poster{view.poster_attributes}
-/       = view.credits
-
-/ %nav.pagination
-/   %ul.pagination__jump
-/     - if view.has_previous_entry?
-/       %li
-/         %a.pagination__jump__prev{view.previous_link_attributes} Older
-/     - if view.has_next_entry?
-/       %li
-/         %a.pagination__jump__next{view.next_link_attributes} Newer
+    %p.card-description More at <a href="http://www.imdb.com/title/#{review.imdb_id}">the IMDb</a>.

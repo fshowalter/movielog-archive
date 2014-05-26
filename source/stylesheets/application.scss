@@ -53,6 +53,12 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+@media (min-width: 31.3125em) {
+  html {
+    font-size: 22px;
+  }
+}
+
 body {
   background-color: #fff;
   color: rgba(0,0,0,0.8);
@@ -64,7 +70,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #0054A8;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -139,13 +145,19 @@ strong {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 31.8182rem;
   padding-left:  1rem;
   padding-right: 1.25rem;
   margin-left:  auto;
   margin-right: auto;
 }
 
+@media (min-width: 46.5625em) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 /*
  * Masthead
@@ -329,6 +341,14 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+@media (min-width: 31.3125em) {
+  .post-content p {
+    letter-spacing: .00723rem;
+    line-height: 1.5;
+    margin-bottom: 1.3636363rem;
+  }
+}
+
 
 /*
  * Pagination
@@ -416,19 +436,20 @@ a.pagination-item:hover {
 /* Search box in sidebar */
 .search-wrap {
   position: relative;
+  padding-top: .4rem;
 }
 .search-icon {
   width: .8rem;
   height: .8rem;
   position: absolute;
-  top: .8rem;
+  top: 1.22rem;
   left: .8rem;
   fill: rgba(0,0,0,.3);
 }
 .site-search-input {
   font-size: .8rem;
   width: 12rem;
-  border-radius: 5px;
+  border-radius: .8rem;
   margin: .5rem;
   font-family: $sans;
   padding: .3rem .5rem .3rem 1.5rem;
@@ -458,7 +479,7 @@ input:focus::-webkit-input-placeholder  {
   padding: 1rem;
 }
 .site-footer a {
-  color: rgba(0,0,0,.8);
+  // color: rgba(0,0,0,.8);
 }
 
 /*
@@ -606,28 +627,25 @@ dd {
   font-family: $sans;
   font-weight: 700;
   font-style: normal;
-  padding: 12px 0 28px;
+  padding: .6rem 0 1.4rem;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: .55rem;
   letter-spacing: .1em;
   color: rgba(0,0,0,0.3);
   border-top: 1px solid rgba(0,0,0,0.15);
 }
 
-.card-description {
-  letter-spacing: -.02rem;
-  line-height: 1.3;
-  font-size: .75rem;
+.card-sub-header {
   font-family: $sans;
-  color: rgba(0,0,0,.6);
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: .55rem;
+  letter-spacing: .1em;
+  color: rgba(0,0,0,0.2);
 }
 
-.card-sub-head {
-  color: rgba(0,0,0,0.8);
-  font-size: .9rem;
-}
-
-.card-list-item {
+.card-description {
   font-size: .75rem;
   font-family: $sans;
   color: rgba(0,0,0,.6);
@@ -636,6 +654,11 @@ dd {
 .role {
   color: rgba(0,0,0,.3);
 }
+
+/*
+ * Aka titles
+ *
+ */
 
 .aka {
   margin-bottom: 1rem;
@@ -654,4 +677,40 @@ dd {
   margin: 0;
   color: rgba(0,0,0,.6);
   font-size: .8rem;
+}
+
+/*
+ * Multi-column
+ *
+ */
+
+ @media (min-width: 50em) {
+   .column-half {
+      display: inline-block;
+      width: 49%;
+      vertical-align: top;
+      padding-right: 1rem;
+   }
+   .column-half:last-child {
+      padding-right: 0;
+      padding-left: 1rem;
+   }
+}
+
+.full {
+  display: none;
+}
+
+.abbreviation:after {
+  content: ':';
+}
+
+@media (min-width: 46.5625em) {
+  .abbreviation:after {
+    content: '';
+  }
+
+  .full {
+    display: inline;
+  }
 }

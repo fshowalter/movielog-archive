@@ -9,7 +9,7 @@ module Movielog
     class NewReview
       class << self
         #
-        # Responsible for processing a new viewing command.
+        # Responsible for processing a new review command.
         #
         # @return [String] The full path to the new entry.
         def call

@@ -24,9 +24,9 @@ pagination:
         .list-item-description
           .rating.clearfix
             = grade_to_stars(review.grade)
-          D: #{directors}.
+          <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}.
           .div
-            = headline_cast(review.title)
+            <span class="full">Starring </span> #{headline_cast(review.title)}.
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }
