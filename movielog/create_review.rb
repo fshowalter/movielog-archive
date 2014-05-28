@@ -7,9 +7,9 @@ module Movielog
   class CreateReview
     class << self
       def call(reviews_path, review)
-        file_name = new_review_file_name(reviews_path, review)
-        
-        content = "#{review.slice(:number, :title, :slug, :display_title, :date).to_yaml}---\n"
+        file_name = new_review_file_name(reviews_path, review[:slug])
+
+        content = "#{review.slice(:sequence, :title, :slug, :display_title, :date).to_yaml}---\n"
         File.open(file_name, 'w') { |file| file.write(content) }
 
         file_name
@@ -17,8 +17,8 @@ module Movielog
 
       private
 
-      def new_review_file_name(reviews_path, review)
-        File.join(reviews_path, review[:slug] + ".md")
+      def new_review_file_name(reviews_path, slug)
+        File.join(reviews_path, slug + ".md")
       end
     end
   end

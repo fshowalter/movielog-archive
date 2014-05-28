@@ -1,10 +1,12 @@
 ---
-:number: 10
+:sequence: 10
 :title: The Blob (1988)
 :slug: the-blob-1988
 :display_title: The Blob (1988)
 :date: 2014-05-20
 :grade: D+
+:capsule: >
+  The insistence on recreating scenes from the original has characters acting with no clear motivation short of advancing the plot.
 ---
 Rebel loner Kevin Dillon subs for clean-cut Steve McQueen and the army isn’t quite the white knight it was in the 1958 original, but this remake hits all the same plot points as a group of teenagers struggle to save a disbelieving small town from a gelatinous ooze that consumes its victims while adding to its ever-increasing mass. Where this entry declares its creative independence is via its memorable and gruesome special effects. This blob doesn’t just assimilate its victims, it digests them.
 

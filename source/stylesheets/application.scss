@@ -181,6 +181,11 @@ strong {
   font-size: 1rem;
 }
 
+@media (min-width: 46.5625em) {
+  .masthead-title {
+    text-align: center;
+  }
+}
 
 /*
  * Sidebar
@@ -335,7 +340,7 @@ a.sidebar-nav-item:focus {
 .post-slug {
   display: block;
   font-family: $sans;
-  font-size: .75rem;
+  font-size: .7rem;
   margin-top: 0;
   margin-bottom: 1rem;
   color: #9a9a9a;
@@ -576,7 +581,7 @@ dd {
 }
 .list-item-number {
   position: absolute;
-  top: 25%;
+  top: .75rem;
   left: 0px;
   width: 40px;
   margin-top: -18px;
@@ -589,7 +594,14 @@ dd {
   white-space: nowrap;
   color: rgba(0,0,0, 0.8);
 }
-
+.list-item-blurb {
+  font-size: .8rem;
+  font-weight: 300;
+  letter-spacing: -.016rem;
+  line-height: 1.2;
+  color: rgba(0,0,0,.6);
+  margin-top: 1rem;
+}
 
 /*
  * Star ratings.

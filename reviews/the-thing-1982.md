@@ -1,10 +1,12 @@
 ---
-:number: 9
+:sequence: 9
 :title: The Thing (1982)
 :slug: the-thing-1982
 :display_title: The Thing (1982)
 :date: 2014-05-20
 :grade: A
+:capsule: >
+  A near-perfect mix of psychological horror and monster movie set pieces.
 ---
 At a remote Antarctic research station, a group of scientists and their helicopter pilot (Russell) discover they’ve been infiltrated by a parasitic alien organism that assimilates other life forms and subsequently imitates them. After calculating that the alien would assimilate all of humanity within three years it reached civilization, one of the scientists destroys the station’s communications and transport equipment, stranding the crew with the monster. Tensions rise and the men start to turn on one another, unsure who’s a man, and who’s a thing.
 

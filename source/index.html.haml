@@ -17,16 +17,17 @@ pagination:
       - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
       %li.list-item
         %span.list-item-number
-          = "#{review.number}."
+          = "#{review.sequence}."
         .list-item-title
           %a{ href: "/reviews/#{review.slug}" }
             = review.display_title
         .list-item-description
           .rating.clearfix
             = grade_to_stars(review.grade)
-          <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}.
-          .div
-            <span class="full">Starring </span> #{headline_cast(review.title)}.
+          <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
+          .list-item-blurb
+            = review.capsule
+
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }

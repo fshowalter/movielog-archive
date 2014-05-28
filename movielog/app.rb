@@ -4,11 +4,19 @@ module Movielog
   class App
     class << self
       def viewings
-        ParseViewings.call(viewings_path) || []
+        ParseViewings.call(viewings_path) || {}
       end
 
       def reviews
-        ParseReviews.call(reviews_path) || []
+        ParseReviews.call(reviews_path) || {}
+      end
+
+      def features
+        ParseFeatures.call(features_path) || {}
+      end
+
+      def posts
+        features.merge(reviews)
       end
 
       def venues
@@ -58,9 +66,16 @@ module Movielog
 
       def create_review(review_hash)
         review_hash[:date] = Date.today
-        review_hash[:number] = reviews.length + 1
+        review_hash[:sequence] = posts.length + 1
         review_hash[:slug] = slugize(review_hash[:display_title])
         CreateReview.call(reviews_path, review_hash)
+      end
+
+      def create_feature(feature_hash)
+        feature_hash[:date] = Date.today
+        feature_hash[:sequence] = posts.length + 1
+        feature_hash[:slug] = slugize(feature_hash[:title])
+        CreateFeature.call(features_path, feature_hash)
       end
 
       private
@@ -85,6 +100,10 @@ module Movielog
 
       def reviews_path
         File.expand_path("../../reviews/", __FILE__)
+      end
+
+      def features_path
+        File.expand_path("../../features/", __FILE__)
       end
 
       def db_path

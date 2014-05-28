@@ -1,16 +1,16 @@
 require 'yaml'
 
 module Movielog
-  class ParseReviews
+  class ParseFeatures
     class << self
-      def call(reviews_path)
-        Dir["#{reviews_path}/*.md"].reduce({}) do |memo, file|
+      def call(features_path)
+        Dir["#{features_path}/*.md"].reduce({}) do |memo, file|
           begin
             content = IO.read(file)
             if content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
               data = YAML.load($1)
               data[:content] = $POSTMATCH
-              memo[data[:sequence]] = Review.new(data)
+              memo[data[:sequence]] = Feature.new(data)
               memo
             end
           rescue SyntaxError => e
