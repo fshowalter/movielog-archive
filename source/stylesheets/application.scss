@@ -170,6 +170,7 @@ strong {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  text-align: center;
 }
 .masthead-title a {
   color: rgba(0,0,0,0.8);
@@ -177,10 +178,6 @@ strong {
 }
 
 @media (min-width: 46.5625em) {
-  .masthead-title {
-    text-align: center;
-  }
-
   .masthead-title a {
     font-size: 1.1rem;
   }
@@ -334,6 +331,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title {
   margin-top: 0;
+  text-align: center;
 }
 @media (min-width: 46.5625em) {
   .post-title {
@@ -349,6 +347,7 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  text-align: center;
 }
 @media (min-width: 46.5625em) {
   .post-slug {
@@ -699,6 +698,10 @@ dd {
   }
 }
 
+.rating-wrap .rating {
+  margin: 1rem auto;
+}
+
 @media (min-width: 46.5625em) {
   .rating-wrap .rating {
     margin: 2rem auto;
@@ -766,6 +769,7 @@ dd {
 
 .aka {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .aka-heading {
