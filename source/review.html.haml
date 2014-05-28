@@ -19,7 +19,7 @@
 
   %span.post-slug Directed by #{director_slug}. Starring #{ headline_cast(review.title) }.
 
-  .rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
+  .rating-wrap{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: (grade_to_number(review.grade) / 3.0) * 2.0, itemprop: 'ratingValue' }
     %meta{ content: '1', itemprop: 'worstRating' }
     %meta{ content: '10', itemprop: 'bestRating' }
