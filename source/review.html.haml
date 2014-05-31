@@ -17,7 +17,7 @@
       - aka_titles.each do |aka_title|
         %dd.aka-title= aka_title.aka_title
 
-  %span.post-slug Directed by #{director_slug}. Starring #{ headline_cast(review.title) }.
+  %span.post-slug Directed by #{director_slug}.
 
   .rating-wrap{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: (grade_to_number(review.grade) / 3.0) * 2.0, itemprop: 'ratingValue' }

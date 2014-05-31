@@ -1,4 +1,4 @@
-$sans: "jaf-bernina-sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+$sans: "futura-pt", "jaf-bernino-sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
 $sidebar-background: #191918;
@@ -64,13 +64,16 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #0054A8;
+  color: inherit;
   text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 1.1em;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
 }
 
 /*
@@ -175,6 +178,8 @@ strong {
 .masthead-title a {
   color: rgba(0,0,0,0.8);
   font-size: 1rem;
+  background-image: none;
+  font-weight: 400;
 }
 
 @media (min-width: 46.5625em) {
@@ -204,7 +209,7 @@ strong {
   z-index: 100;
   top: 4px;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 13rem;
   overflow-y: auto;
   font-family: $sans;
@@ -220,6 +225,7 @@ strong {
 .sidebar a {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.65098);
+  background-image: none;
 }
 .sidebar-item {
   padding: 1rem;
@@ -253,8 +259,8 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  .4rem;
-  right: .5rem;
+  top:  .55rem;
+  left: .5rem;
   display: block;
   width: 2.2rem;
   height: 2.2rem;
@@ -304,7 +310,7 @@ a.sidebar-nav-item:focus {
 }
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  transform: translateX(-13rem);
+  transform: translateX(13rem);
 }
 
 /*
@@ -325,13 +331,14 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: -0.02em;
 }
 .page-title,
 .post-title {
   margin-top: 0;
   text-align: center;
+  // font-weight: 800;
 }
 @media (min-width: 46.5625em) {
   .post-title {
@@ -392,6 +399,7 @@ a.sidebar-nav-item:focus {
   padding: 1rem;
   margin: 0;
   width: 50%;
+  background-image: none;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -419,7 +427,7 @@ a.sidebar-nav-item:focus {
 
 
 // Only provide a hover state for linked pagination items
-a.pagination-item:hover {
+.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
@@ -500,8 +508,12 @@ input:focus::-webkit-input-placeholder  {
     font-size: .8rem;
   }
 }
-.site-footer a {
-  // color: rgba(0,0,0,.8);
+.site-footer-feed {
+  margin-left: .5rem;
+}
+
+.site-footer .icon {
+  background-color: white;
 }
 
 /*
@@ -570,10 +582,10 @@ dd {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-weight: 700;
-  font-size: .9rem;
+  font-weight: 500;
+  font-size: 1rem;
   letter-spacing: -.02em;
-  line-height: 1.1;
+  line-height: 1.2;
   display: block;
   margin-bottom: .2rem;
 }
@@ -589,10 +601,14 @@ dd {
 }
 .list-item-title a {
   color: rgba(0,0,0,.8);
+  background-image: none;
 }
 .list-item-description {
   font-family: $sans;
-  font-size: .7rem;
+  font-size: .8rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: rgba(0,0,0,.4);
 }
 @media (min-width: 46.5625em) {
   .list-item-description {
@@ -625,27 +641,29 @@ dd {
 }
 .list-item-number {
   position: absolute;
-  top: .75rem;
-  left: 0px;
-  width: 40px;
-  margin-top: -18px;
+  top: .1rem;
+  left: -1rem;
+  width: 2rem;
+  margin-top: -2px;
   font-family: $sans;
   letter-spacing: -0.02em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: .9rem;
   letter-spacing: -0.04em;
   white-space: nowrap;
   color: rgba(0,0,0, 0.8);
+  text-align: right;
 }
 @media (min-width: 46.5625em) {
   .list-item-number {
     font-size: 1.3rem;
-    top: .7rem;
+    top: 0;
+    color: rgba(0,0,0, .6);
   }
 }
 .list-item-blurb {
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 300;
   letter-spacing: -.016rem;
   line-height: 1.2;
