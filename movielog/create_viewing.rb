@@ -16,7 +16,7 @@ module Movielog
       def call(viewings_path, viewing)
         file_name = new_viewing_file_name(viewings_path, viewing)
         File.open(file_name, 'w') do |file|
-          file.write(viewing.slice(:number, :title, :date, :venue).to_yaml)
+          file.write(viewing.slice(:number, :title, :display_title, :date, :venue).to_yaml)
         end
 
         file_name

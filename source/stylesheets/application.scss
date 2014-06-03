@@ -1,4 +1,4 @@
-$sans: "jaf-bernino-sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+$sans: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
 $sidebar-background: #191918;
@@ -51,6 +51,7 @@ html {
   font-size: 20px;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
   color: rgba(0,0,0,0.8);
   letter-spacing: -0.018rem;
   text-size-adjust: 100%;
-  border-top: 4px solid $highlight;;
+  border-top: 4px solid $highlight;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -364,7 +365,7 @@ a.sidebar-nav-item:focus {
 }
 @media (min-width: 46.5625em) {
   .post-slug {
-    font-size: .9rem;
+    font-size: .8rem;
     letter-spacing: -0.02rem;
   }
 }
@@ -575,9 +576,13 @@ dd {
   border-bottom: 1px solid rgba(0,0,0,0.05);
   margin-top: 2rem;
   padding-bottom: 1rem;
-  padding-left: 2rem;
   position: relative;
 }
+.list-item-with-number {
+  @extend .list-item;
+  padding-left: 2rem;
+}
+
 .list-item:first-child {
   margin-top: 0;
 }
@@ -599,13 +604,13 @@ dd {
 }
 @media (min-width: 46.5625em) {
   .list-item-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.1;
     letter-spacing: -0.02em;
     text-overflow: inherit;
     white-space: normal;
     overflow: visible;
-    font-weight: 400;
+    font-weight: 700;
   }
 }
 .list-item-title a {
@@ -651,15 +656,14 @@ dd {
 }
 .list-item-number {
   position: absolute;
-  top: 0;
-  left: -1rem;
+  top: -2px;
+  left: -.5rem;
   width: 2rem;
-  margin-top: -2px;
   font-family: $sans;
   letter-spacing: -0.02em;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: .9rem;
   letter-spacing: -0.04em;
   white-space: nowrap;
   color: rgba(0,0,0, 0.8);
@@ -667,8 +671,8 @@ dd {
 }
 @media (min-width: 46.5625em) {
   .list-item-number {
-    font-size: 1.3rem;
-    top: 0;
+    font-size: 1.1rem;
+    top: -5px;
     color: rgba(0,0,0, .6);
   }
 }
@@ -831,6 +835,19 @@ dd {
       padding-right: 0;
       padding-left: 1rem;
    }
+   .column-one-third {
+      display: inline-block;
+      width: 33%;
+      vertical-align: top;
+      padding-right: 1rem;
+   }
+   .column-two-thirds {
+      display: inline-block;
+      vertical-align: top;
+      width: 66%;
+      padding-right: 0;
+      padding-left: 1rem;
+   }
 }
 
 .full {
@@ -850,3 +867,5 @@ dd {
     display: inline;
   }
 }
+
+@import 'filters';

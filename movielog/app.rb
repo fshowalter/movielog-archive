@@ -33,6 +33,10 @@ module Movielog
         end.values
       end
 
+      def info_for_title(title, db = db)
+        MovieDb::App.info_for_title(db, title)
+      end
+
       def search_for_viewed_title(query, db = db)
         titles = viewings.values.map(&:title).uniq
         MovieDb::App.search_within_titles(db, query, titles)
@@ -59,7 +63,7 @@ module Movielog
       end
 
       def create_viewing(viewing_hash)
-        viewing_hash[:number] = viewings.length + 1
+        viewing_hash[:number] ||= viewings.length + 1
         viewing_hash[:slug] = slugize(viewing_hash[:display_title])
         CreateViewing.call(viewings_path, viewing_hash)
       end

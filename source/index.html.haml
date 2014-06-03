@@ -15,7 +15,7 @@ pagination:
     - pagination.each do |key|
       - review = reviews[key]
       - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-      %li.list-item
+      %li.list-item-with-number
         %span.list-item-number
           = "#{review.sequence}."
         .list-item-title

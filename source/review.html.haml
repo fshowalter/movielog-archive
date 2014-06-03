@@ -34,7 +34,7 @@
     %h3.card-header Viewings
     %ol.plain-list
       - viewings.each_with_index do |viewing, index|
-        %li.list-item
+        %li.list-item-with-number
           %span.list-item-number
             = "#{index + 1}."
           .card-description
