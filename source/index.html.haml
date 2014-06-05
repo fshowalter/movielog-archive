@@ -15,18 +15,15 @@ pagination:
     - pagination.each do |key|
       - review = reviews[key]
       - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-      %li.list-item-with-number
-        %span.list-item-number
-          = "#{review.sequence}."
+      %li.list-item
         .list-item-title
           %a{ href: "/reviews/#{review.slug}" }
             = review.display_title
         .list-item-description
-          .rating.clearfix
+          %span.list-item-rating
             = grade_to_stars(review.grade)
           <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
-          .list-item-blurb
-            = review.capsule
+
 
 .pagination
   - if pagination.prev_page
