@@ -1,3 +1,14 @@
+.filter-controls-header {
+  border-top: none;
+  margin-top: 0;
+}
+
+.filter-results {
+  .list-item:first-child {
+    margin-top: 2rem;
+  }
+}
+
 .filter-text-box {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -32,8 +43,9 @@
 }
 
 .filter-select {
-  font-family: $sans;
-  border: none;
+  @extend .filter-text-box;
+  text-indent: 0.01px;
+  text-overflow: '';
 }
 
 .filter-range {

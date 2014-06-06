@@ -5,12 +5,12 @@ title: Viewing Log
 .posts
   %h2.list-title Viewing Log
   .column-one-third{ data: { filter_controls: true, target: "#viewings" }}
-    %h3.card-header Filter and Sort
+    %h3.card-header.filter-controls-header Filter and Sort
     = text_filter("Title", "data-title")
     = range_filter("Year", "data-release-date-year", oldest_year(viewings.values, :release_date), newest_year(viewings.values, :release_date))
     = sort_filter("Order By", "viewing-date-desc", "#viewings", [["Title", "title-asc"], ["Newest", "release-date-desc"], ["Oldest", "release-date-asc"], ["Newest Viewing", "viewing-date-desc"], ["Oldest Viewing", "viewing-date-asc"]])
   .column-two-thirds
-    %ul.plain-list#viewings
+    %ul.plain-list.filter-results#viewings
       - sorted_viewings.each do |key|
         - viewing = viewings[key]
         - directors = Movielog::App.directors_for_title(viewing.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
