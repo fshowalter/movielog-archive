@@ -19,10 +19,9 @@ pagination:
         .list-item-title
           %a{ href: "/reviews/#{review.slug}" }
             #{review.sequence}. #{review.display_title}
-            %span.list-item-rating
-              = grade_to_stars(review.grade)
-        .list-item-description
-          %span.list-item-rating-placeholder
+        %span.list-item-rating><
+          = grade_to_stars(review.grade)
+        %span.list-item-description><
           <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
 
 

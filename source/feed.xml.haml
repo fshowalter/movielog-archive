@@ -18,8 +18,9 @@ pagination:
   - pagination.each do |key|
     - review = reviews[key]
     %entry
-      %title= review.display_title
-      %link{ href: "#{site.url}/reviews/#{review.slug}" }
+      %title
+        #{review.sequence}. #{review.display_title}
+      %link{ href: "#{site.url}reviews/#{review.slug}" }
       %updated= review.date.xmlschema
       %id= "#{site.url}#{review.slug}"
       %content{ type: 'html' }

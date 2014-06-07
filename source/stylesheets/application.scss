@@ -48,6 +48,7 @@ body {
 html {
   font-family: $serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
@@ -578,6 +579,7 @@ dd {
   margin-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
+  line-height: .8;
 }
 .list-item:first-child {
   margin-top: 0;
@@ -613,6 +615,7 @@ dd {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     line-height: 1.1;
+    display: inline-block;
   }
 }
 .list-item-title a {
@@ -626,22 +629,22 @@ dd {
   font-size: 0.7rem;
   line-height: 1.2;
   font-weight: 300;
+  display: inline;
   color: rgba(0,0,0,.4);
 }
 @media (min-width: 46.5625em) {
   .list-item-description {
     font-size: 0.75rem;
     letter-spacing: normal;
+    display: block;
     line-height: 1.3;
   }
 }
 .list-item-rating {
-  height: .8rem;
-  width: 4rem;
+  height: .7rem;
+  width: 3.5rem;
   display: inline-block;
-  position: absolute;
-  left: 0;
-  bottom: -1rem;
+  margin-right: .2rem;
 
   .rating {
     display: inline-block;
@@ -656,9 +659,9 @@ dd {
   .list-item-rating {
     width: 4.5rem;
     height: .9rem;
-    top: 1px;
     position: relative;
-    margin: 0 0 0 0.1rem;
+    top: 1px;
+    margin: 0 0 0 0.3rem;
 
     .star, .empty-star {
       width: .9rem;
@@ -667,10 +670,7 @@ dd {
   }
 }
 
-.list-item-rating-placeholder {
-  display: inline-block;
-  width: 4.4rem;
-}
+
 @media (min-width: 46.5625em) {
   .list-item-rating-placeholder {
     display: none;
