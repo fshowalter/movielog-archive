@@ -19,9 +19,9 @@ pagination:
     - review = reviews[key]
     %entry
       %title
-        #{review.sequence}. #{review.display_title}
+        #{review.sequence}. #{review.display_title} #{grade_to_text(review.grade)}
       %link{ href: "#{site.url}reviews/#{review.slug}" }
       %updated= review.date.xmlschema
       %id= "#{site.url}#{review.slug}"
       %content{ type: 'html' }
-        = markdown(review.content)
+        = CGI.escapeHTML(markdown(review.content))

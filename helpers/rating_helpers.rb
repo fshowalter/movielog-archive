@@ -32,6 +32,39 @@ module RatingHelpers
     end
   end
 
+  def grade_to_text(grade)
+    return if grade.blank?
+
+    case grade
+    when 'A+'
+      '★★★★★'
+    when 'A'
+      '★★★★☆'
+    when 'A-'
+      '★★★★☆'
+    when 'B+'
+      '★★★☆☆'
+    when 'B'
+      '★★★☆☆'
+    when 'B-'
+      '★★★☆☆'
+    when 'C+'
+      '★★☆☆☆'
+    when 'C'
+      '★★☆☆☆'
+    when 'C-'
+      '★★☆☆☆'
+    when 'D+'
+      '★☆☆☆☆'
+    when 'D'
+      '★☆☆☆☆'
+    when 'D-'
+      '★☆☆☆☆'
+    when 'F'
+      '☆☆☆☆☆'
+    end
+  end
+
   def grade_to_stars(grade)
     return if grade.blank?
 
