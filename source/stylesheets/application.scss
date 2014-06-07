@@ -235,12 +235,6 @@ strong {
   color: rgba(255, 255, 255, 0.65098);
   background-image: none;
 }
-.sidebar-item {
-  padding: 1rem;
-}
-.sidebar-item p:last-child {
-  margin-bottom: 0;
-}
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -328,21 +322,18 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page,
 .post {
   margin-top: 3rem;
   margin-bottom: 4em;
 }
 
 /* Blog post or page title */
-.page-title,
 .post-title,
 .post-title a {
   color: #303030;
   font-size: 1.5rem;
   letter-spacing: -0.02em;
 }
-.page-title,
 .post-title {
   margin-top: 0;
   text-align: center;
@@ -431,9 +422,6 @@ a.sidebar-nav-item:focus {
 .pagination-icon path {
   fill: rgba(0,0,0,.8);
 }
-
-
-
 // Only provide a hover state for linked pagination items
 .pagination-item:hover {
   background-color: #f5f5f5;
@@ -650,7 +638,7 @@ dd {
     display: inline-block;
   }
 
-  .star, .half-star, .empty-star {
+  .star, .empty-star {
     width: .8rem;
     height: .8rem;
   }
@@ -668,20 +656,6 @@ dd {
       height: .9rem;
     }
   }
-}
-
-
-@media (min-width: 46.5625em) {
-  .list-item-rating-placeholder {
-    display: none;
-  }
-}
-
-.list-item-slug {
-  margin-top: .5rem;
-  font-size: .75rem;
-  font-weight: normal;
-  height: 16px;
 }
 
 .star {
@@ -734,22 +708,6 @@ dd {
     font-size: .6rem;
   }
 }
-
-.card-sub-header {
-  font-family: $sans;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: .55rem;
-  letter-spacing: .1em;
-  color: rgba(0,0,0,0.2);
-}
-@media (min-width: 46.5625em) {
-  .card-sub-header {
-    font-size: .6rem;
-  }
-}
-
 .card-description {
   font-size: .75rem;
   font-family: $sans;
