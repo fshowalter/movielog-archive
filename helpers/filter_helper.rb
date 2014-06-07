@@ -1,4 +1,4 @@
-module FilterHelpers
+module FilterHelper
   def filter_control(control, label = nil)
     if label
       label = filter_control_label(label)

@@ -1,4 +1,4 @@
-module RatingHelpers
+module RatingHelper
   def grade_to_number(grade)
     return if grade.blank?
 
@@ -72,29 +72,29 @@ module RatingHelpers
     when 'A+'
       [star, star(1), star(2), star(3), star(4)].join
     when 'A'
-      [star, star(1), star(2), star(3), empty_star(4)].join
+      [star, star(1), star(2), star(3), half_star(4)].join
     when 'A-'
       [star, star(1), star(2), star(3), empty_star(4)].join
     when 'B+'
-      [star, star(1), star(2), empty_star(3), empty_star(4)].join
+      [star, star(1), star(2), half_star(3), empty_star(4)].join
     when 'B'
       [star, star(1), star(2), empty_star(3), empty_star(4)].join
     when 'B-'
       [star, star(1), star(2), empty_star(3), empty_star(4)].join
     when 'C+'
-      [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, star(1), half_star(2), empty_star(3), empty_star(4)].join
     when 'C'
-      [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, star(1), half_star(2), empty_star(3), empty_star(4)].join
     when 'C-'
-      [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, star(1), half_star(2), empty_star(3), empty_star(4)].join
     when 'D+'
-      [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join
     when 'D'
-      [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, half_star(1), empty_star(2), empty_star(3), empty_star(4)].join
     when 'D-'
-      [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, half_star(1), empty_star(2), empty_star(3), empty_star(4)].join
     when 'F'
-      [empty_star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
+      [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
     end
 
     <<-SVG
@@ -107,6 +107,13 @@ module RatingHelpers
   def star(index = 0)
     <<-SVG
       <polygon transform="translate(#{512 * index})" class="star" points="256,389.375 97.781,499.477 153.601,314.977 0,198.523 192.71,194.59 256,12.523 319.297,194.59 512,198.523 358.399,314.977 414.226,499.477 "/>
+    SVG
+  end
+
+  def half_star(index = 0)
+    <<-SVG
+      <path transform="translate(#{512 * index})" class="empty-star" d="M 512,198.526 319.289,194.594 255.994,12.525 192.707,194.594 0,198.526 153.599,314.975 97.784,499.475 255.996,389.381 414.225,499.475 358.394,314.975 512,198.526 z M 359.201,423.656 256,351.744 V 106.115 l 41.284,118.766 125.701,2.559 -100.199,75.969 36.415,120.247 z" />
+      <path transform="translate(#{512 * index})" class="star" d="M 255.32812,16.638245 193.39062,194.82574 0.67187503,198.76324 154.26562,315.20075 l -55.812495,184.5 156.874995,-109.15625 0,-373.906255 z" />
     SVG
   end
 
