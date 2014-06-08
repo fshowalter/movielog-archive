@@ -22,7 +22,7 @@ module Movielog
 
       def read_file(hash, file)
         content = IO.read(file)
-        next unless content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
+        return unless content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
 
         data = YAML.load(Regexp.last_match[1])
         data[:content] = $POSTMATCH
