@@ -22,12 +22,12 @@ module Movielog
 
       desc 'review', 'create a new review entry'
       def review
-        Console::NewReview.call
+        Console::CreateReview.call
       end
 
       desc 'feature', 'create a new feature entry'
       def feature
-        Console::NewFeature.call
+        Console::CreateFeature.call
       end
     end
 

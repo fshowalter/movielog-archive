@@ -6,7 +6,7 @@ module Movielog
     #
     # Responsible for providing a command-line interface to create new reviews.
     #
-    class NewReview
+    class CreateReview
       class << self
         #
         # Responsible for processing a new review command.
@@ -15,16 +15,13 @@ module Movielog
         def call
           loop do
             title, display_title = get_title
-            review_hash = {
-              title: title,
-              display_title: display_title
-            }
+            review_hash = { title: title, display_title: display_title }
 
             file = Movielog::App.create_review(review_hash)
 
-            puts "\n Created Review ##{bold(review_hash[:number].to_s)}!\n" +
-            " #{bold('        Title:')} #{review_hash[:title]}\n" +
-            " #{bold('Display Title:')} #{review_hash[:display_title]}\n" +
+            puts "\n Created Review ##{bold(review_hash[:number].to_s)}!\n" \
+            " #{bold('        Title:')} #{review_hash[:title]}\n" \
+            " #{bold('Display Title:')} #{review_hash[:display_title]}\n" \
             " #{bold('         Date:')} #{review_hash[:date]}\n"
 
             exec "open #{file}"
@@ -50,14 +47,13 @@ module Movielog
           while title.nil?
             query = Ask.input 'Title'
             results = Movielog::App.search_for_viewed_title(query)
-            choices = format_title_results(results)
-            choices << 'Search Again'
-            idx = Ask.list(" Title", choices)
+            choices = format_title_results(results) + ['Search Again']
+            idx = Ask.list(' Title', choices)
 
-            unless idx == results.length
-              title = results[idx].title
-              display_title = results[idx].display_title
-            end
+            next if idx == results.length
+
+            title = results[idx].title
+            display_title = results[idx].display_title
           end
 
           [title, display_title]

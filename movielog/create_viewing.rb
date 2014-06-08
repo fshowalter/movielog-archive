@@ -32,7 +32,7 @@ module Movielog
       def new_viewing_file_name(viewings_path, viewing)
         number = viewing[:number]
         slug = viewing[:slug]
-        File.join(viewings_path, sprintf("%04d", number) + "-" + slug + ".yml")
+        File.join(viewings_path, format('%04d', number) + '-' + slug + '.yml')
       end
     end
   end

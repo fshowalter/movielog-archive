@@ -1,5 +1,10 @@
 
+require 'yaml'
+
 module Movielog
+  #
+  # Responsible for parsing viewing data.
+  #
   class ParseViewings
     class << self
       def call(viewings_path)

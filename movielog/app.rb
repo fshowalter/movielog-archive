@@ -1,6 +1,9 @@
 require 'movie_db'
 
 module Movielog
+  #
+  # Responsible for serving as an entry-point for the Movielog API.
+  #
   class App
     class << self
       def viewings
@@ -28,7 +31,7 @@ module Movielog
       end
 
       def viewings_for_title(title)
-        viewings.select do |number, viewing|
+        viewings.select do |_number, viewing|
           viewing.title == title
         end.values
       end
@@ -99,21 +102,20 @@ module Movielog
       end
 
       def viewings_path
-        File.expand_path("../../viewings/", __FILE__)
+        File.expand_path('../../viewings/', __FILE__)
       end
 
       def reviews_path
-        File.expand_path("../../reviews/", __FILE__)
+        File.expand_path('../../reviews/', __FILE__)
       end
 
       def features_path
-        File.expand_path("../../features/", __FILE__)
+        File.expand_path('../../features/', __FILE__)
       end
 
       def db_path
-        File.expand_path("../../db/", __FILE__)
+        File.expand_path('../../db/', __FILE__)
       end
-
     end
   end
 end

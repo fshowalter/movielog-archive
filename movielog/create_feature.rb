@@ -18,7 +18,7 @@ module Movielog
       private
 
       def new_feature_file_name(features_path, slug)
-        File.join(features_path, slug + ".md")
+        File.join(features_path, slug + '.md')
       end
     end
   end

@@ -1,10 +1,10 @@
 ---
 pagination:
-  for: reviews
+  for: posts
   per_page: 10
   path: page/:num/index
 ---
-- reviews = Movielog::App.reviews
+- posts = Movielog::App.posts
 - if pagination.page_num == 1
   - content_for(:title, 'Latest Updates')
 - else
@@ -13,18 +13,26 @@ pagination:
   %h2.list-title= yield_content(:title)
   %ul.plain-list.column-list
     - pagination.each do |key|
-      - review = reviews[key]
-      - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-      %li.list-item
-        .list-item-title
-          %a{ href: "/reviews/#{review.slug}" }
-            #{review.sequence}. #{review.display_title}
-        %span.list-item-rating><
-          = grade_to_stars(review.grade)
-        %span.list-item-description><
-          <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
-
-
+      - post = posts[key]
+      - if post.kind_of?(Movielog::Review)
+        - review = post
+        - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+        %li.list-item
+          .list-item-title
+            %a{ href: "/reviews/#{review.slug}" }
+              #{review.sequence}. #{review.display_title}
+          %span.list-item-rating><
+            = grade_to_stars(review.grade)
+          %span.list-item-description><
+            <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
+      - elsif post.kind_of?(Movielog::Feature)
+        - feature = post
+        %li.list-item
+          .list-item-title
+            %a{ href: "/features/#{feature.slug}" }
+              #{feature.title}
+          %span.list-item-description
+            = feature.description
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }

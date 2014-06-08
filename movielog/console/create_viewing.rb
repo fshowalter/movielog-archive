@@ -16,25 +16,29 @@ module Movielog
         # @return [String] The full path to the new entry.
         def call
           loop do
-            title, display_title = get_title
-            viewing_hash = {
-              title: title,
-              display_title: display_title,
-              date: get_date,
-              venue: get_venue
-            }
+            viewing_hash = build_viewing_hash
 
             Movielog::App.create_viewing(viewing_hash)
 
-            puts "\n Created Viewing ##{bold(viewing_hash[:number].to_s)}!\n" +
-            " #{bold('        Title:')} #{viewing_hash[:title]}\n" +
-            " #{bold('Display Title:')} #{viewing_hash[:display_title]}\n" +
-            " #{bold('         Date:')} #{viewing_hash[:date]}\n" +
+            puts "\n Created Viewing ##{bold(viewing_hash[:number].to_s)}!\n" \
+            " #{bold('        Title:')} #{viewing_hash[:title]}\n" \
+            " #{bold('Display Title:')} #{viewing_hash[:display_title]}\n" \
+            " #{bold('         Date:')} #{viewing_hash[:date]}\n" \
             " #{bold('        Venue:')} #{viewing_hash[:venue]}\n\n"
           end
         end
 
         private
+
+        def build_viewing_hash
+          title, display_title = get_title
+          {
+            title: title,
+            display_title: display_title,
+            date: get_date,
+            venue: get_venue
+          }
+        end
 
         def bold(text)
           term = Term::ANSIColor
@@ -47,11 +51,13 @@ module Movielog
         # @param terminal [HighLine] The current HighLine instance.
         #
         # @return [String] The chosen or entered venue.
+        #
+        # rubocop:disable MethodLength
         def get_venue(venue = nil)
           while venue.nil?
             venues = Movielog::App.venues
             choices = venues + ['Add New Venue']
-            idx = Ask.list("Venue", choices)
+            idx = Ask.list('Venue', choices)
 
             if idx == venues.length
               new_venue = Ask.input 'New Venue Name'
@@ -63,6 +69,7 @@ module Movielog
 
           venue
         end
+        # rubocop:enable MethodLength
 
         #
         # Resposible for getting the date from the user.
@@ -70,16 +77,15 @@ module Movielog
         # @param terminal [HighLine] The current HighLine instance.
         #
         # @return [String] The entered date.
-        def get_date
-          date = nil
+        def get_date(date = nil)
           last_viewing = Movielog::App.viewings[Movielog::App.viewings.length]
           default = last_viewing.try(:[], :date).to_s
 
           while date.nil?
             entered_date = Ask.input 'Date', default: default
-            if (entered_date = Date.parse(entered_date))
-              date = entered_date if Ask.confirm entered_date.strftime('%A, %B %d, %Y?  ')
-            end
+            next unless (entered_date = Date.parse(entered_date))
+
+            date = entered_date if Ask.confirm entered_date.strftime('%A, %B %d, %Y?  ')
           end
 
           date
@@ -93,22 +99,25 @@ module Movielog
         # @param title [String] The chosen title.
         #
         # @return [String] The chosen title.
+        #
+        # rubocop:disable MethodLength
         def get_title(title = nil, display_title = nil)
           while title.nil?
             query = Ask.input 'Search'
             results = Movielog::App.search_titles(query)
             choices = format_title_results(results)
             choices << 'Search Again'
-            idx = Ask.list(" Title", choices)
+            idx = Ask.list(' Title', choices)
 
-            unless idx == results.length
-              title = results[idx].title
-              display_title = results[idx].display_title
-            end
+            next if idx == results.length
+
+            title = results[idx].title
+            display_title = results[idx].display_title
           end
 
           [title, display_title]
         end
+        # rubocop:enable MethodLength
 
         def format_title_results(results)
           results.map do |movie|

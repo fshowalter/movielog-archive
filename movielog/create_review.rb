@@ -18,7 +18,7 @@ module Movielog
       private
 
       def new_review_file_name(reviews_path, slug)
-        File.join(reviews_path, slug + ".md")
+        File.join(reviews_path, slug + '.md')
       end
     end
   end
