@@ -4,7 +4,6 @@ source 'http://rubygems.org'
 
 gem "middleman-core", "~>3.3.2"
 gem "middleman-sprockets", ">=3.1.2"
-gem "compass-import-once"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
