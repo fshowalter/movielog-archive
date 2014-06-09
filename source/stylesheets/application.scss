@@ -4,34 +4,6 @@ $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 $sidebar-background: #191918;
 $highlight: #579;
 
-/*
- * Contents
- *
- * Global resets
- * Custom type
- * Wrapper
- * Container
- * Masthead
- * Sidebar
- * Slide effect
- * Posts and pages
- * Pagination
- * Reverse layout
- * Theming
- * Icons
- * Site search
- * Site footer
- * Lists
- * Ratings
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 * {
   box-sizing: border-box;
 }
@@ -39,17 +11,15 @@ $highlight: #579;
 html,
 body {
   margin: 0;
+  overflow-x: hidden;  // Prevent scroll on narrow devices
   padding: 0;
-
-  // Prevent scroll on narrow devices
-  overflow-x: hidden;
 }
 
 html {
   font-family: $serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
@@ -57,97 +27,95 @@ html {
 
 body {
   background-color: #fff;
-  color: rgba(0,0,0,0.8);
-  letter-spacing: -0.018rem;
-  text-size-adjust: 100%;
   border-top: 4px solid $highlight;
+  color: rgba(0, 0, 0, .8);
+  letter-spacing: -.018rem;
+  -webkit-text-size-adjust: 100%;
 }
 
-/* No `:visited` state is required by default (browsers will use `a`) */
+// No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: inherit;
-  text-decoration: none;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 50%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .3) 50%);
+  background-position: 0 1.1em;
   background-repeat: repeat-x;
   background-size: 2px 2px;
-  background-position: 0 1.1em;
+  color: inherit;
+  text-decoration: none;
 }
-/* `:focus` is linked to `:hover` for basic accessibility */
+
+// `:focus` is linked to `:hover` for basic accessibility
 a:hover,
 a:focus {
 }
 
-/*
- * Custom Type
- *
- * Update the global typography of ht epage
- */
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #313131;
   font-family: $sans;
-  margin-bottom: .5rem;
   font-weight: 700;
   line-height: 1.25;
-  color: #313131;
+  margin-bottom: .5rem;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2rem;
 }
+
 h2 {
-  margin-top: 1rem;
   font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
 }
 
-/* Body text */
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
 p {
-  margin-top: 0;
+  letter-spacing: .01rem;
   margin-bottom: 1.5rem;
-  letter-spacing: 0.01rem;
+  margin-top: 0;
 }
 
 strong {
   color: #303030;
 }
 
-
-/*
- * Wrapper
- *
- * The wrapper is used to position site content when the sidebar is toggled. We
- * use an outter wrap to position the sidebar without interferring with the
- * regular page content.
- */
-
+//
+// Wrapper
+//
+// The wrapper is used to position site content when the sidebar is toggled. We
+// use an outter wrap to position the sidebar without interferring with the
+// regular page content.
 .wrap {
+  background-color: #fff;
   position: relative;
   width: 100%;
   z-index: 200;
-  background-color: white;
 }
 
-
-/*
- * Container
- *
- * Center the page content.
- */
-
+//
+// Container
+//
+// Center the page content.
 .container {
-  max-width: 31.8182rem;
-  padding-left:  1rem;
-  padding-right: 1.25rem;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
+  max-width: 31.8182rem;
+  padding-left: 1rem;
+  padding-right: 1.25rem;
 }
 
 @media (min-width: 46.5625em) {
@@ -158,30 +126,29 @@ strong {
   }
 }
 
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
+//
+// Masthead
+//
+// Super small header above the content for site name and short description.
 .masthead {
-  padding-top: 0;
-  padding-bottom: .5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: .5rem;
+  padding-top: 0;
 }
 
 .masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
   color: #505050;
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: center;
-}
-.masthead-title a {
-  font-size: 1rem;
-  background-image: none;
-  font-weight: 400;
-  color: rgba(0,0,0,0.8);
+
+  a {
+    background-image: none;
+    color: rgba(0, 0, 0, .8);
+    font-size: 1rem;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 46.5625em) {
@@ -190,110 +157,106 @@ strong {
   }
 }
 
-/*
- * Sidebar
- *
- * The sidebar is the drawer, the item we are toggling with our handy hamburger
- * button in the corner of the page.
- *
- * This particular sidebar implementation was inspired by Chris Coyier's
- * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
- * comments by a reader. It modifies both implementations to continue using the
- * checkbox (no change in URL means no polluted browser history), but this uses
- * `position` for the menu to avoid some potential content reflow issues.
- *
- * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
- */
-
-/* Style and "hide" the sidebar */
+//
+// Sidebar
+//
+// The sidebar is the drawer, the item we are toggling with our handy hamburger
+// button in the corner of the page.
+//
+// This particular sidebar implementation was inspired by Chris Coyier's
+// "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
+// comments by a reader. It modifies both implementations to continue using the
+// checkbox (no change in URL means no polluted browser history), but this uses
+// `position` for the menu to avoid some potential content reflow issues.
+//
+// Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
 .sidebar {
-  position: fixed;
-  z-index: 100;
-  top: 0;
+  background-color: $sidebar-background;
+  border-top: 4px solid $sidebar-background;
   bottom: 0;
-  left: 0;
-  width: 13rem;
-  overflow-y: auto;
+  color: rgba(255, 255, 255, .6);
   font-family: $sans;
   font-size: .8rem;
-  color: rgba(255,255,255,.6);
-  background-color: $sidebar-background;
-  opacity: 0;
-  transition: all .3s ease-in-out;
+  left: 0;
   letter-spacing: .016rem;
-  border-top: 4px solid $sidebar-background;
+  opacity: 0;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  transition: all .3s ease-in-out;
+  width: 13rem;
+  z-index: 100;
+
+  a {
+    background-image: none;
+    color: rgba(255, 255, 255, .65098);
+    font-weight: normal;
+  }
 }
+
 @media (min-width: 46.5625em) {
   .sidebar {
     border-color: $highlight;
   }
 }
 
-/* Sidebar content */
-.sidebar a {
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.65098);
-  background-image: none;
+.sidebar-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
-/* Sidebar nav */
-.sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
-}
 .sidebar-nav-item {
+  border-top: 1px solid rgba(255, 255, 255, .1);
   display: block;
   padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
 }
+
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, .1);
   border-color: transparent;
+  text-decoration: none;
 }
 
-/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+// Hide the sidebar checkbox that we toggle with `.sidebar-toggle`
 .sidebar-checkbox {
   display: none;
 }
 
-/* Style the `label` that we use to target the `.sidebar-checkbox` */
+// Style the `label` that we use to target the `.sidebar-checkbox`
 .sidebar-toggle {
-  position: absolute;
-  top: .55rem;
-  left: .5rem;
-  display: block;
-  width: 2.2rem;
-  height: 2.2rem;
-  padding: .5rem .65rem;
-  color: white;
   background-color: transparent;
   border-radius: 4px;
+  color: #fff;
   cursor: pointer;
+  display: block;
+  height: 2.2rem;
+  left: .5rem;
+  padding: .5rem .65rem;
+  position: absolute;
+  -webkit-tap-highlight-color: #fff;
+  top: .55rem;
+  width: 2.2rem;
   z-index: 300;
-  -webkit-tap-highlight-color: white;
 }
 
-/* Hamburger icon */
+// Hamburger icon
 .nav-menu {
   height: 12px;
 }
 
-
-/* Slide effect
- *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
- * from the default styles.
- *
- * As an a heads up, we don't use `transform: translate3d()` here because when
- * mixed with `position: fixed;` for the sidebar toggle, it creates a new
- * containing block. Put simply, the fixed sidebar toggle behaves like
- * `position: absolute;` when transformed.
- *
- * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
- */
-
+//
+// Slide effect
+//
+// Handle the sliding effects of the sidebar and content in one spot, seperate
+// from the default styles.
+//
+// As an a heads up, we don't use `transform: translate3d()` here because when
+// mixed with `position: fixed;` for the sidebar toggle, it creates a new
+// containing block. Put simply, the fixed sidebar toggle behaves like
+// `position: absolute;` when transformed.
+//
+// Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
 .wrap,
 .sidebar,
 .sidebar-toggle,
@@ -301,6 +264,7 @@ a.sidebar-nav-item:focus {
 .nav-menu {
   backface-visibility: hidden;
 }
+
 .wrap,
 .nav-menu,
 .sidebar-toggle {
@@ -310,38 +274,38 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked + .sidebar {
   opacity: 1;
 }
+
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   transform: translateX(13rem);
 }
 
-/*
- * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
- */
-
+//
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
 .post {
-  margin-top: 3rem;
   margin-bottom: 4em;
+  margin-top: 3rem;
 }
 
-/* Blog post or page title */
 .post-title,
 .post-title a {
   color: #303030;
   font-size: 1.5rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -.02em;
 }
+
 .post-title {
   margin-top: 0;
   text-align: center;
 }
+
 @media (min-width: 46.5625em) {
   .post-title {
     font-size: 2.25rem;
-    letter-spacing: -0.04em;
+    letter-spacing: -.04em;
   }
 }
 
@@ -349,99 +313,97 @@ a.sidebar-nav-item:focus {
   margin-bottom: 2rem;
 }
 
-/* Slub line below post title */
 .post-slug {
+  color: #9a9a9a;
   display: block;
   font-family: $sans;
   font-size: .7rem;
-  margin-top: 0;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-top: 0;
   text-align: center;
 }
+
 @media (min-width: 46.5625em) {
   .post-slug {
     font-size: .8rem;
-    letter-spacing: -0.02rem;
+    letter-spacing: -.02rem;
   }
 }
 
 @media (min-width: 31.3125em) {
   .post-content p {
+    font-size: 1.1rem;
     letter-spacing: .00723rem;
     line-height: 1.5;
     margin-bottom: 1.3636363rem;
-    font-size: 1.1rem;
     text-indent: 2.2rem;
   }
 }
 
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-
+//
+// Pagination
+//
+// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+// there are no more previous or next posts to show.
 .pagination {
-  overflow: hidden; /* clearfix */
+  background-color: #fcfcfc;
+  color: #ccc;
   margin-left: -1rem;
   margin-right: -1.25rem;
-  color: #ccc;
+  overflow: hidden; // clearfix
   text-align: center;
-  background-color: #fcfcfc;
 }
 
-/* Pagination items can be `span`s or `a`s */
+// Pagination items can be `span`s or `a`s
 .pagination-item {
+  background-image: none;
+  color: rgba(0, 0, 0, .8);
+  display: block;
   font-family: $sans;
   font-weight: bold;
-  color: rgba(0,0,0,.8);
-  display: block;
-  padding: 1rem;
   margin: 0;
+  padding: 1rem;
   width: 50%;
-  background-image: none;
+
+  &.newer {
+    float: left;
+    text-align: left;
+  }
+
+  &.older {
+    float: right;
+    text-align: right;
+  }
 }
+
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
-.pagination-item.newer {
-  text-align: left;
-  float: left;
-}
-.pagination-item.older {
-  text-align: right;
-  float: right;
-}
+
 .pagination-icon {
-  vertical-align: middle;
-  width: 1.4rem;
-  height: 1.4rem;
-  width: 1rem;
   height: 1rem;
   padding-bottom: 3px;
+  vertical-align: middle;
+  width: 1rem;
+
+  path {
+    fill: rgba(0, 0, 0, .8);
+  }
 }
-.pagination-icon path {
-  fill: rgba(0,0,0,.8);
-}
+
 // Only provide a hover state for linked pagination items
 .pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-
-/*
- * Icons
- *
- * Inline SVG styles.
- */
-
+//
+// Icons
+//
+// Inline SVG styles.
 .icon {
-  width: 1rem;
   height: 1rem;
   vertical-align: bottom;
+  width: 1rem;
 }
 
 .twitter path {
@@ -452,81 +414,80 @@ a.sidebar-nav-item:focus {
   fill: #f4a546;
 }
 
-
-/*
- * Site search box.
- *
- */
-
-/* Search box in sidebar */
+//
+// Site search box in sidebar.
+//
 .search-wrap {
-  position: relative;
-  padding-top: .25rem;
   padding-bottom: .25rem;
+  padding-top: .25rem;
+  position: relative;
 }
+
 .search-icon {
-  width: .8rem;
+  fill: rgba(0, 0, 0, .3);
   height: .8rem;
+  left: .9rem;
   position: absolute;
   top: 1.1rem;
-  left: .9rem;
-  fill: rgba(0,0,0,.3);
+  width: .8rem;
 }
 
 .site-search-input {
-  font-size: .8rem;
-  width: 12rem;
+  border: 0;
   border-radius: .8rem;
-  margin: .5rem;
   font-family: $sans;
+  font-size: .8rem;
+  margin: .5rem;
   padding: .3rem .5rem .3rem 1.5rem;
-  border: none;
+  width: 12rem;
 }
+
 input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, .3);
   transform: translate(0, 0);
-  -webkit-transition: opacity 0.3s linear; color: rgba(0,0,0,.3);
+  -webkit-transition: opacity .3s linear;
 }
 
-input:focus::-webkit-input-placeholder  {
-  transform: translate(0, 0);
+input:focus::-webkit-input-placeholder {
   opacity: 0;
+  transform: translate(0, 0);
 }
 
-/*
- * Site footer.
- *
- */
-
-/* Site footer */
+//
+// Site footer.
+//
 .site-footer {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, .3);
   font-family: $sans;
   font-size: .7rem;
-  text-align: center;
   padding: 1rem;
+  text-align: center;
+
+  .icon {
+    background-color: #fff;
+  }
 }
+
 @media (min-width: 46.5625em) {
   .site-footer {
     font-size: .8rem;
   }
 }
+
 .site-footer-feed {
   margin-left: .5rem;
 }
 
-.site-footer .icon {
-  background-color: white;
-}
-
-/*
- * Lists.
- *
- */
-
-ul, ol, dl {
-  margin-top: 0;
+//
+// Lists.
+//
+ul,
+ol,
+dl {
   margin-bottom: 1rem;
+  margin-top: 0;
 }
+
 li {
   list-style-type: none;
 }
@@ -534,136 +495,150 @@ li {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
 
-/* Title for lists */
+// Title for lists
 .list-title {
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .3);
   display: block;
-  margin: 0;
-  color: #c0c0c0;
-  text-transform: uppercase;
-  color: rgba(0,0,0,0.3);
-  letter-spacing: .065rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   font-size: .65rem;
   font-weight: 600;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
+  letter-spacing: .065rem;
+  margin: 2rem 0;
   padding: .4rem 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .plain-list {
   margin-left: 0;
   padding-left: 0;
 }
+
 @media (min-width: 46.5625em) {
   .plain-list {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 32rem;
-    margin: 0 auto;
   }
 }
+
 .list-item {
-  color: rgba(0,0,0,0.3);
-  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .3);
+  line-height: .8;
   margin-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
-  line-height: .8;
 }
+
 .list-item:first-child {
   margin-top: 0;
 }
+
 .list-item:last-child {
-  border-bottom: none;
+  border-bottom: 0;
   margin-bottom: 0;
 }
+
 .list-item-with-number {
-  position: relative;
   padding-left: 2rem;
+  position: relative;
 }
+
 .list-item-number {
-  margin-top: -1.2rem;
+  color: rgba(0, 0, 0, .5);
   font-size: 1.2rem;
-  position: absolute;
   font-weight: 300;
-  color: rgba(0,0,0,0.5);
-  top: 50%;
   left: 0;
+  margin-top: -1.2rem;
+  position: absolute;
+  top: 50%;
 }
 
 .list-item-title {
-  font-family: $sans;
-  font-size: 0.9rem;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
   display: block;
-  margin-bottom: 0.4rem;
-}
-@media (min-width: 46.5625em) {
-  .list-item-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.1;
-    display: inline-block;
+  font-family: $sans;
+  font-size: .9rem;
+  letter-spacing: -.02em;
+  line-height: 1.2;
+  margin-bottom: .4rem;
+
+  a {
+    background-image: none;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 700;
+    position: relative;
   }
 }
-.list-item-title a {
-  color: rgba(0,0,0,.8);
-  background-image: none;
-  position: relative;
-  font-weight: 700;
+
+@media (min-width: 46.5625em) {
+  .list-item-title {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+  }
 }
+
 .list-item-description {
-  font-family: $sans;
-  font-size: 0.7rem;
-  line-height: 1.2;
-  font-weight: 300;
+  color: rgba(0, 0, 0, .4);
   display: inline;
-  color: rgba(0,0,0,.4);
+  font-family: $sans;
+  font-size: .7rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
+
 @media (min-width: 46.5625em) {
   .list-item-description {
-    font-size: 0.75rem;
-    letter-spacing: normal;
     display: block;
+    font-size: .75rem;
+    letter-spacing: normal;
     line-height: 1.3;
   }
 }
+
 .list-item-rating {
-  height: .7rem;
-  width: 3.5rem;
   display: inline-block;
+  height: .7rem;
   margin-right: .2rem;
+  width: 3.5rem;
 
   .rating {
     display: inline-block;
   }
 
-  .star, .empty-star, .half-star {
-    width: .8rem;
+  .star,
+  .empty-star,
+  .half-star {
     height: .8rem;
+    width: .8rem;
   }
 }
+
 @media (min-width: 46.5625em) {
   .list-item-rating {
-    width: 4.5rem;
     height: .9rem;
+    margin: 0 0 0 .3rem;
     position: relative;
     top: 1px;
-    margin: 0 0 0 0.3rem;
+    width: 4.5rem;
 
-    .star, .empty-star {
-      width: .9rem;
+    .empty-star,
+    .star {
       height: .9rem;
+      width: .9rem;
     }
   }
 }
 
 .star {
-  fill: #EDA829;
+  fill: #eda829;
 }
 
 .empty-star {
@@ -671,52 +646,54 @@ dd {
 }
 
 @media (min-width: 46.5625em) {
-  .star, .empty-star {
+  .empty-star,
+  .star {
     height: 1.5rem;
     width: 1.5rem;
   }
 }
 
 .rating-wrap {
-  width: 5rem;
   height: 1rem;
   margin: 2rem auto;
+  width: 5rem;
 }
 
 @media (min-width: 46.5625em) {
   .rating-wrap {
-    width: 7.5rem;
     height: 1.5rem;
+    width: 7.5rem;
   }
 }
 
-/*
- * Cards
- *
- * Viewings and credits.
- */
-
+//
+// Cards
+//
+// Viewings and credits.
 .card-header {
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .3);
   font-family: $sans;
-  font-weight: 700;
+  font-size: .55rem;
   font-style: normal;
+  font-weight: 700;
+  letter-spacing: .1em;
   padding: .6rem 0 1.4rem;
   text-transform: uppercase;
-  font-size: .55rem;
-  letter-spacing: .1em;
-  color: rgba(0,0,0,0.3);
-  border-top: 1px solid rgba(0,0,0,0.15);
 }
+
 @media (min-width: 46.5625em) {
   .card-header {
     font-size: .6rem;
   }
 }
+
 .card-description {
-  font-size: .75rem;
+  color: rgba(0, 0, 0, .6);
   font-family: $sans;
-  color: rgba(0,0,0,.6);
+  font-size: .75rem;
 }
+
 @media (min-width: 46.5625em) {
   .card-description {
     font-size: .8rem;
@@ -725,63 +702,62 @@ dd {
 }
 
 .role {
-  color: rgba(0,0,0,.3);
+  color: rgba(0, 0, 0, .3);
 }
 
-/*
- * Aka titles
- *
- */
-
+//
+// Aka titles
+//
 .aka {
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .aka-heading {
-  font-size: .8rem;
+  color: rgba(0, 0, 0, .3);
   font-family: $sans;
+  font-size: .8rem;
   font-weight: normal;
-  color: rgba(0,0,0,0.3);
 }
 
 .aka-title {
-  letter-spacing: -.02rem;
+  color: rgba(0, 0, 0, .6);
   font-family: $sans;
-  margin: 0;
-  color: rgba(0,0,0,.6);
   font-size: .8rem;
+  letter-spacing: -.02rem;
+  margin: 0;
 }
 
-/*
- * Multi-column
- *
- */
+//
+// Multi-column
+//
+@media (min-width: 50em) {
+  .column-half {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+    width: 49%;
+  }
 
- @media (min-width: 50em) {
-   .column-half {
-      display: inline-block;
-      width: 49%;
-      vertical-align: top;
-      padding-right: 1rem;
-   }
-   .column-half:last-child {
-      padding-right: 0;
-      padding-left: 1rem;
-   }
-   .column-one-third {
-      display: inline-block;
-      width: 33%;
-      vertical-align: top;
-      padding-right: 1rem;
-   }
-   .column-two-thirds {
-      display: inline-block;
-      vertical-align: top;
-      width: 66%;
-      padding-right: 0;
-      padding-left: 1rem;
-   }
+  .column-half:last-child {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  .column-one-third {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+    width: 33%;
+  }
+
+  .column-two-thirds {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 0;
+    vertical-align: top;
+    width: 66%;
+  }
 }
 
 .full {

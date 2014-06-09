@@ -2,7 +2,9 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.3.2"
+gem "middleman-core", "~>3.3.2"
+gem "middleman-sprockets", ">=3.1.2"
+gem "compass-import-once"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -13,12 +15,15 @@ gem "middleman-sitemap"
 gem "middleman-autoprefixer"
 
 gem 'haml'
-gem 'sass'
+gem 'sass', '3.3.0'
 gem 'coffee-script'
 gem 'redcarpet'
+gem 'uglifier'
+gem 'execjs'
 
 gem 'inquirer'
 gem 'activesupport'
 gem 'movie_db', path: '../movie_db'
 
 gem 'rubocop'
+gem 'scss-lint'
