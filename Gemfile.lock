@@ -23,6 +23,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    colorize (0.5.8)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -32,6 +33,10 @@ GEM
     ffi (1.9.3)
     haml (4.0.5)
       tilt
+    haml-lint (0.5.1)
+      colorize (= 0.5.8)
+      haml (>= 4.0)
+      rubocop (>= 0.16.0)
     hike (1.2.3)
     hooks (0.4.0)
       uber (~> 0.0.4)
@@ -107,7 +112,7 @@ GEM
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
-    rubocop (0.23.0)
+    rubocop (0.22.0)
       json (>= 1.7.7, < 2)
       parser (~> 2.1.9)
       powerpack (~> 0.0.6)
@@ -152,6 +157,7 @@ DEPENDENCIES
   coffee-script
   execjs
   haml
+  haml-lint
   inquirer
   middleman-autoprefixer
   middleman-core (~> 3.3.2)
@@ -162,7 +168,7 @@ DEPENDENCIES
   middleman-sprockets (>= 3.1.2)
   movie_db!
   redcarpet
-  rubocop
+  rubocop (= 0.22.0)
   sass (= 3.3.0)
   scss-lint
   uglifier

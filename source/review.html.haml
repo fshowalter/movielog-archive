@@ -6,7 +6,7 @@
 - viewings = Movielog::App.viewings_for_title(review.title)
 - headline_cast = Movielog::App.headline_cast_for_title(review.title)
 - directors = Movielog::App.directors_for_title(review.title)
-- director_slug = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+- director_slug = Movielog::App.directors_for_title(review.title).map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
 - writers = Movielog::App.writers_for_title(review.title)
 %article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
   %h1.post-title{ itemprop: 'name' }= review.display_title
