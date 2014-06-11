@@ -17,20 +17,20 @@ pagination:
       - if post.kind_of?(Movielog::Review)
         - review = post
         - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-        %li.list-item
+        %li.list-item.list-item-with-counter
           .list-item-title
             %a{ href: "/reviews/#{review.slug}" }
-              #{review.sequence}. #{review.display_title}
-          %span.list-item-rating><
-            = grade_to_stars(review.grade)
+              <span class='list-item-counter'>#{review.sequence}.</span> #{review.display_title}
+            %span.list-item-rating><
+              = grade_to_stars(review.grade)
           %span.list-item-description><
             <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
       - elsif post.kind_of?(Movielog::Feature)
         - feature = post
-        %li.list-item
+        %li.list-item.list-item-with-counter
           .list-item-title
             %a{ href: "/features/#{feature.slug}" }
-              #{feature.sequence}. #{feature.title}
+              <span class='list-item-counter'>#{feature.sequence}.</span> #{feature.title}
           %span.list-item-description
             = feature.description
 .pagination
