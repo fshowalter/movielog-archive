@@ -632,7 +632,7 @@ dd {
       display: inline-block;
       margin-right: .3rem;
 
-      &:hover .list-item-counter {
+      &:hover > .list-item-counter {
         border-color: #579;
         color: #579;
       }
