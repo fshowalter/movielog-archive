@@ -20,7 +20,7 @@ pagination:
         %li.list-item.list-item-with-counter
           .list-item-title
             %a{ href: "/reviews/#{review.slug}" }
-              <span class='list-item-counter'>#{review.sequence}.</span> #{review.display_title}
+              <span class='list-item-counter'>#{review.sequence}<span class='list-item-counter-dot'>.</span></span> #{review.display_title}
             %span.list-item-rating><
               = grade_to_stars(review.grade)
           %span.list-item-description><
@@ -30,7 +30,7 @@ pagination:
         %li.list-item.list-item-with-counter
           .list-item-title
             %a{ href: "/features/#{feature.slug}" }
-              <span class='list-item-counter'>#{feature.sequence}.</span> #{feature.title}
+              <span class='list-item-counter'>#{feature.sequence}<span class='list-item-counter-dot'>.</span></span> #{feature.title}
           %span.list-item-description
             = feature.description
 .pagination
