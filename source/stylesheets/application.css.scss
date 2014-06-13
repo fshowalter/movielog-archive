@@ -702,7 +702,9 @@ dd {
 }
 
 @media (min-width: 46.5625em) {
-  display: none;
+  .list-item-rating-placeholder {
+    display: none;
+  }
 }
 
 .star {
