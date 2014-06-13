@@ -23,6 +23,7 @@ pagination:
               <span class='list-item-counter'>#{review.sequence}<span class='list-item-counter-dot'>.</span></span> #{review.display_title}
             %span.list-item-rating><
               = grade_to_stars(review.grade)
+          %span.list-item-rating-placeholder><
           %span.list-item-description><
             <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
       - elsif post.kind_of?(Movielog::Feature)

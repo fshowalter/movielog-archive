@@ -171,15 +171,15 @@ helpers do
       when 'A'
         [star, star(1), star(2), star(3), half_star(4)].join
       when 'A-'
-        [star, star(1), star(2), star(3), empty_star(4)].join
+        [star, star(1), star(2), star(3), half_star(4)].join
       when 'B+'
-        [star, star(1), star(2), half_star(3), empty_star(4)].join
+        [star, star(1), star(2), star(3), empty_star(4)].join
       when 'B'
-        [star, star(1), star(2), empty_star(3), empty_star(4)].join
+        [star, star(1), star(2), half_star(3), empty_star(4)].join
       when 'B-'
-        [star, star(1), star(2), empty_star(3), empty_star(4)].join
+        [star, star(1), star(2), half_star(3), empty_star(4)].join
       when 'C+'
-        [star, star(1), half_star(2), empty_star(3), empty_star(4)].join
+        [star, star(1), star(2), empty_star(3), empty_star(4)].join
       when 'C'
         [star, star(1), half_star(2), empty_star(3), empty_star(4)].join
       when 'C-'

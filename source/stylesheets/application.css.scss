@@ -609,7 +609,8 @@ dd {
   font-size: .9rem;
   letter-spacing: -.02em;
   line-height: 1.2;
-  margin-bottom: .4rem;
+  padding-bottom: .4rem;
+  position: relative;
 
   a {
     background-image: none;
@@ -620,14 +621,21 @@ dd {
 
 @media (min-width: 46.5625em) {
   .list-item-title {
+    position: static;
     display: inline-block;
     font-size: 1rem;
     line-height: 1.1;
+    padding-bottom: 0;
     margin-bottom: .5rem;
 
     a {
       display: inline-block;
       margin-right: .3rem;
+
+      &:hover .list-item-counter {
+        border-color: #579;
+        color: #579;
+      }
     }
   }
 }
@@ -651,10 +659,11 @@ dd {
 }
 
 .list-item-rating {
-  display: inline-block;
+  position: absolute;
   height: .7rem;
-  margin-right: .2rem;
   width: 3.5rem;
+  left: 0;
+  bottom: -.7rem;
 
   .rating {
     display: inline-block;
@@ -670,10 +679,13 @@ dd {
 
 @media (min-width: 46.5625em) {
   .list-item-rating {
+    display: inline-block;
     height: .9rem;
     margin: 0;
     position: relative;
     top: 1px;
+    left: auto;
+    bottom: auto;
     width: 4.5rem;
 
     .empty-star,
@@ -682,6 +694,15 @@ dd {
       width: .9rem;
     }
   }
+}
+
+.list-item-rating-placeholder {
+  display: inline-block;
+  width: 3.7rem;
+}
+
+@media (min-width: 46.5625em) {
+  display: none;
 }
 
 .star {
