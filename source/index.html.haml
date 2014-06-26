@@ -18,22 +18,24 @@ pagination:
         - review = post
         - directors = Movielog::App.directors_for_title(review.title).map{ |d| "#{d.first_name} #{d.last_name}" }.to_sentence
         %li.list-item.list-item-with-counter
-          .list-item-title
-            %a{ href: "/reviews/#{review.slug}" }
-              <span class='list-item-counter'>#{review.sequence}<span class='list-item-counter-dot'>.</span></span> #{review.display_title}
-            %span.list-item-rating><
-              = grade_to_stars(review.grade)
-          %span.list-item-rating-placeholder><
-          %span.list-item-description><
-            <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
+          %a.list-item-link{ href: "/reviews/#{review.slug}" }
+            .list-item-header
+              %span.list-item-title
+                <span class='list-item-counter'>#{review.sequence}<span class='list-item-counter-dot'>.</span></span> #{review.display_title}
+              %span.list-item-rating><
+                = grade_to_stars(review.grade)
+            %span.list-item-rating-placeholder><
+            %span.list-item-description><
+              <span class="abbreviation">D</span><span class="full">irected by</span> #{directors}. <span class="full">Starring </span> #{headline_cast(review.title)}.
       - elsif post.kind_of?(Movielog::Feature)
         - feature = post
         %li.list-item.list-item-with-counter
-          .list-item-title
-            %a{ href: "/features/#{feature.slug}" }
-              <span class='list-item-counter'>#{feature.sequence}<span class='list-item-counter-dot'>.</span></span> #{feature.title}
-          %span.list-item-description
-            = feature.description
+          %a.list-item-link{ href: "/features/#{feature.slug}" }
+            .list-item-header
+              %span.list-item-title
+                <span class='list-item-counter'>#{feature.sequence}<span class='list-item-counter-dot'>.</span></span> #{feature.title}
+            %span.list-item-description
+              = feature.description
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }

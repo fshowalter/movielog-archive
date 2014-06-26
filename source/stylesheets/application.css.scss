@@ -1,7 +1,7 @@
 $sans: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
-$sidebar-background: #191918;
+$sidebar-background: #3D444C;
 $highlight: #579;
 
 * {
@@ -47,7 +47,7 @@ a {
 // `:focus` is linked to `:hover` for basic accessibility
 a:hover,
 a:focus {
-  color: #579 !important;
+  color: $highlight !important;
 }
 
 h1,
@@ -249,7 +249,7 @@ a.sidebar-nav-item:focus {
   transition: all .3s ease-in-out;
 
   &:hover {
-    fill: #579;
+    fill: $highlight;
   }
 }
 
@@ -344,7 +344,7 @@ a.sidebar-nav-item:focus {
     letter-spacing: .00723rem;
     line-height: 1.5;
     margin-bottom: 1.3636363rem;
-    text-indent: 2.5rem;
+    // text-indent: 2.5rem;
   }
 }
 
@@ -542,6 +542,32 @@ dd {
   margin-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
+
+  a {
+    background-image: none;
+  }
+}
+
+@media (min-width: 46.5625em) {
+  .list-item-link {
+    display: block;
+
+    &:hover{
+      .list-item-counter {
+        border-color: $highlight;
+        color: $highlight;
+      }
+      .list-item-title {
+        color: $highlight;
+      }
+      .list-item-description {
+        color: $highlight;
+      }
+      .star, .empty-star {
+        fill: $highlight;
+      }
+    }
+  }
 }
 
 .list-item:first-child {
@@ -593,8 +619,8 @@ dd {
     transition: all .3s ease-in-out;
 
     &:hover {
-      border-color: #579;
-      color: #579;
+      border-color: $highlight;
+      color: $highlight;
     }
   }
 
@@ -603,7 +629,7 @@ dd {
   }
 }
 
-.list-item-title {
+.list-item-header {
   display: block;
   font-family: $sans;
   font-size: .9rem;
@@ -611,32 +637,26 @@ dd {
   line-height: 1.2;
   padding-bottom: .4rem;
   position: relative;
+  color: rgba(0, 0, 0, .8);
+}
 
-  a {
-    background-image: none;
-    color: rgba(0, 0, 0, .8);
-    font-weight: 700;
-  }
+.list-item-title {
+  font-weight: 700;
 }
 
 @media (min-width: 46.5625em) {
-  .list-item-title {
+  .list-item-header {
     position: static;
     display: inline-block;
     font-size: 1rem;
     line-height: 1.1;
     padding-bottom: 0;
     margin-bottom: .5rem;
+  }
 
-    a {
-      display: inline-block;
-      margin-right: .3rem;
-
-      &:hover > .list-item-counter {
-        border-color: #579;
-        color: #579;
-      }
-    }
+  .list-item-title {
+    margin-right: .075rem;
+    transition: all .3s ease-in-out;
   }
 }
 
@@ -655,6 +675,7 @@ dd {
     font-size: .75rem;
     letter-spacing: normal;
     line-height: 1.3;
+    transition: all .3s ease-in-out;
   }
 }
 
@@ -720,6 +741,10 @@ dd {
   .star {
     height: 1.5rem;
     width: 1.5rem;
+  }
+
+  .star, .empty-star {
+    transition: fill .3s ease-in-out;
   }
 }
 
