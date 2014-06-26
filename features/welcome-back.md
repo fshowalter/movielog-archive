@@ -4,7 +4,7 @@
 :slug: welcome-back
 :date: 2014-06-07
 :description: >
-  Wherein I declare review bankruptcy.
+  Wherein I declare review bankruptcy and request a second chance.
 ---
 
 Hey there, constant reader. Frank here. It's been awhile, huh? Right. Sorry about that. You see, as much as I enjoy writing about movies, I enjoy watching movies even more. And as I watched more movies, my to-review list grew...
