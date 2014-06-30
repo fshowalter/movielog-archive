@@ -1,13 +1,13 @@
 ---
-:sequence: 12
+:sequence: 1
 :title: Welcome Back
 :slug: welcome-back
-:date: 2014-06-07
+:date: 2014-07-01
 :description: >
   Wherein I declare review bankruptcy and request a second chance.
 ---
 
-Hey there, constant reader. Frank here. 
+Hey there, constant reader. Frank here.
 
 It looks like I fell off the review wagon, what with my last post coming over a year ago. Sorry about that. See, I enjoy writing about movies, but I enjoy watching them even more. The trouble is that I can't do both at the same time. So the more movies I watched, the more my to-review list grew.
 
@@ -23,9 +23,9 @@ One of my goals when I started the site was to become a better writer by forcing
 
 And a lot of them were crap.
 
-They were crap because I churned them out to clear the queue. I watch too many movies to review them all. So now, instead of trying to review every movie I watch, I'll aim for one review a week. 
+They were crap because I churned them out to clear the queue. I watch too many movies to review them all. So now, instead of trying to review every movie I watch, I'll aim for one review a week.
 
-That should give me enough time for three drafts per review. Most of the previous reviews were first draft efforts. Three drafts gives a chance to polish while still forcing me to publish the thing instead of tinkering with it for draft after draft. 
+That should give me enough time for three drafts per review. Most of the previous reviews were first draft efforts. Three drafts gives a chance to polish while still forcing me to publish the thing instead of tinkering with it for draft after draft.
 
 Finally, to bring the focus back to the writing I redesigned the site again. The splash images and posters are gone, because finding and prepping them took a lot of time. Time better spent writing.
 
