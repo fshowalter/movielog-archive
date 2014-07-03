@@ -9,11 +9,15 @@
 
 Hey there, constant reader. Frank here.
 
-It looks like I fell off the review wagon, what with my last post coming over a year ago. Sorry about that. See, I enjoy writing about movies, but I enjoy watching them even more. The trouble is that I can't do both at the same time. So the more movies I watched, the more my to-review list grew.
+Confession time.
 
-I also spent a lot of time tinkering with this site. My day job is software development, and I love coding almost as much as I love movies. So I went through several design iterations. I added splash images, transitions, and client-side sorting and filtering. The site looked pretty damn sweet. But while I was adding all those features, you know what I wasn't doing? Writing reviews.
+My last review was over a year ago. The top of my to-review list is a movie I saw almost two years ago. And there's over 200 movies after that one. I have fallen off the review wagon.
 
-Which brings us to today. The top of my to-review list is a movie I saw almost two years ago. And there's over 200 movies after that one.
+Sorry about that. The trouble is, I enjoy writing about movies, but I enjoy watching them even more. But I can't do both at the same time. So the more movies I watched, the more my to-review list grew.
+
+Except, that's not the whole truth.
+
+See, I also spent a lot of time tinkering with this site. My day job is software development, and I love coding almost as much as I love movies. So I went through several design iterations. I added splash images, transitions, and client-side sorting and filtering. The site looked pretty damn sweet. But while I was adding all those features, you know what I wasn't doing? Writing reviews.
 
 So I'm declaring review bankruptcy.
 
@@ -25,7 +29,7 @@ And a lot of them were crap.
 
 They were crap because I churned them out to clear the queue. I watch too many movies to review them all. So now, instead of trying to review every movie I watch, I'll aim for one review a week.
 
-That should give me enough time for three drafts per review. Most of the previous reviews were first draft efforts. Three drafts gives a chance to polish while still forcing me to publish the thing instead of tinkering with it for draft after draft.
+That schedule should allow me three drafts per review. My prior reviews were almost all first draft efforts. Three drafts give me time to polish the text while still forcing me to publish it instead of tinkering for draft after draft.
 
 Finally, to bring the focus back to the writing I redesigned the site again. The splash images and posters are gone, because finding and prepping them took a lot of time. Time better spent writing.
 
