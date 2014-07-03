@@ -1,4 +1,4 @@
-// = require jquery.nouislider
+// = require _jquery.nouislider
 
 "use strict"
 

@@ -1,8 +1,8 @@
-//= require collapse
-//= require sorter
-//= require filterer
-//= require text-filter
-//= require range-filter
-//= require rating-range-filter
-//= require radio-filter
-//= require clearable
+//= require _collapse
+//= require _sorter
+//= require _filterer
+//= require _text-filter
+//= require _range-filter
+//= require _rating-range-filter
+//= require _radio-filter
+//= require _clearable
