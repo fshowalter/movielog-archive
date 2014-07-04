@@ -5,7 +5,7 @@
 :display_title: Stake Land (2010)
 :date: 2014-07-01
 :imdb_id: tt1464580
-:grade: B-
+:grade: C+
 ---
 
 Starting off in a rural barn, we see a young mother clutching a swaddled baby. It's dark and pouring outside. Her husband has the car's hood up, trying to get it started. An older boy looks at them both with a worried look. A monotone voice on the radio implores people to remain in their homes after dark. There's some voiceover narration by the boy, and then the family dog takes off into the rainy darkness outside. The boy follows. At this point, we can almost count the horror tropes. Indeed, _Stake Land_ doesn't start well.
