@@ -8,11 +8,11 @@
 :grade: C-
 ---
 
-Aiden is a timid, single man in his mid thirties. He makes his living photographing Detroit's blood-soaked crime scenes. He is also losing his mind. 
+Aiden is a timid, but likeable man in his mid thirties. He makes his living photographing Detroit's blood-soaked crime scenes. 
 
-On the train home, he sees two young men harassing an attractive woman. He fantasizes about shooting the men in the kneecaps and receiving oral sex from the grateful woman. He hears voices. He sits behind a loud-mouth at an AA meeting and envisions pulping the man's skull with a sledgehammer. He hears more voices. Soon, he acquires a gun.
+On the train home, he sees two young men harassing an attractive woman. Rather than act, he fantasizes about shooting the men in the kneecaps and receiving oral sex from the grateful woman. He then hears voices berating his lack of action. He sits behind a loud-mouth at an AA meeting and envisions pulping the man's skull with a sledgehammer. He talks of feeling 'divergent' from the real world. Soon, he acquires a gun.
 
-Meanwhile, Aiden's also been fantasizing about his young neighbor, Virginia. She's got an unkempt boyfriend named Ravi who doesn't seem to treat her well. In an improbable but charming sequence of events, Aiden becomes his fantasy self and takes Virginia to bed. 
+Meanwhile, Aiden has also been fantasizing about his young neighbor, Virginia. She's got an unkempt boyfriend named Ravi who doesn't seem to treat her well. In an improbable but charming sequence of events, Aiden becomes his fantasy self and takes Virginia to bed. 
 
 Flush with confidence, Aiden attempts to stop a pimp from beating a girl in the street. He is ineffectual and nearly killed.
 
