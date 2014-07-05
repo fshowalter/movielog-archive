@@ -8,11 +8,11 @@
 :grade: C-
 ---
 
-_Crave_ is the story of Aiden,  a timid, but likable man in his mid thirties. Aiden makes his living photographing Detroit's grisly crime scenes. Violence and decay surround him. 
+_Crave_ is the story of Aiden,  a freelance photographer in his mid thirties living in Detroit. Aiden's only friend is his AA sponsor, a veteran homicide detective named Pete. Aiden makes his living photographing the city's grisly crime scenes, which he gains access to via Pete.
 
-To cope, Aiden escapes into a series of over-the-top fantasies. He sees two young men harassing an attractive woman on a train and dreams of shooting the men in the kneecaps and the crowd hailing him as a hero. A man talks over a speaker at an AA meeting and Aiden envisions pulping the man's skull with a sledgehammer as the group applauds. He begins to have trouble accepting his fantasies as illusion. He talks of feeling 'divergent' from reality. Soon, he acquires a gun.
+The violence and decay surrounding Aiden take their toll. He feels helpless and afraid. To cope, Aiden escapes into a series of over-the-top empowerment fantasies. He sees two young men harassing an attractive woman on a train and dreams of shooting the men in the kneecaps and the crowd hailing him as a hero. A man talks over a speaker at an AA meeting and Aiden envisions pulping the man's skull with a sledgehammer as the group applauds. He begins having trouble accepting his fantasies as illusion. He talks of feeling 'divergent' from reality. Soon, he acquires a gun.
 
-Meanwhile, Aiden has also been fantasizing about his young neighbor, Virginia. She's got an unkempt boyfriend named Ravi who doesn't seem to treat her well. In an improbable (but charming) sequence, Aiden becomes his fantasy self and takes Virginia to bed. 
+Meanwhile, Aiden has also been fantasizing about his young neighbor, Virginia. She's got an unkempt boyfriend named Ravi who doesn't seem to treat her well. In an improbable (but charming) sequence, Aiden becomes his fantasy self and takes Virginia to bed.
 
 Flush with confidence, Aiden attempts to stop a pimp from beating a girl in the street. He is ineffectual and nearly killed.
 
