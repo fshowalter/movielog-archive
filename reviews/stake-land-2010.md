@@ -13,3 +13,5 @@ Starting off in a rural barn, we see a young mother clutching a swaddled baby. I
 It gets better. It seems the world is now overrun by the undead. The boy, Martin, meets Mister, an enigmatic loner who seems to know everything about killing vampires. Mister even pulls the fangs out of his kills and saves them like scalps. This little quirk may be the only reason the film uses vampires instead of zombies. Anyway, Mister takes Martin under his wing and the two set out for New Eden, a fabled promised land to the north. Standing in their way is a white supremacist cult that uses vampires as kind of a chemical weapon.
 
 _Stake Land_ doesn't add anything new to the post-apocalyptic horror genre, and that's okay. It's dark, but not without some nice touches of black comedy. The production values and performances belie the film's all but straight-to-video release. Sure, the voiceover narration is unnecessary, but it's easy enough to ignore. Now if only they could have somehow gotten Warren Oates to play Mister...
+
+Need to clarify that undead could mean vampires or zombies. Talk about the cult. Need better sense of what the film is like. It gets better isn't clear. 
