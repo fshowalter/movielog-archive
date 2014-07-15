@@ -20,8 +20,15 @@ Flush with confidence, Aiden attempts to stop a pimp from beating a girl in the 
 
 Aiden sees more of Virginia. He falls hard. But Virginia soon senses Aiden's unstable nature and returns to Ravi. This leads to the inevitable meeting of Aiden, Ravi, and Aiden's gun.
 
+<<<<<<< HEAD
 If you're going to indict urban indifference, you've got to commit. Having a character say that Aiden's "angry white man routine" is "very 1992" doesn't let you off the hook. By turning Aiden's psychosis into over-the-top fantasy sequences, _Crave_ loses its authority almost immediately.
 
 But it could have saved itself by committing to the black comedy. There are some good moments. Aiden bumbles through the world's most awkward blackmail attempt. He jokes to Virginia that he's old enough to be her father in relation to their 13-year age gap. These and other bits are funny, but they don't gel with film's darker, noir-ish sequences.
 
 Like Aiden, _Crave_ can't commit to course of action. It falls back to awkward humor when things get too serious. Like Virginia, we're intrigued at first. Seduced by the slick cinematography, and confident performances. Then we sense where the script is going and want to see other films.
+=======
+The cinematography and performances are great. But, much like its protagonist, _Crave_ is a film unsure of itself. We see Aiden bumble through the world's most awkward blackmail attempt. We see him joke to Virginia that he's old enough to be her father in relation to their 13-year age gap. These and other bits are funny, but they don't gel with the film's darker, noir-ish tones. Were the filmmakers afraid that, without the jokes, the audience would still laugh at the material? Or is the film a comedy at heart and it's the darker material that takes itself too seriously? Whichever side you come down on, _Crave_ feels like a missed opportunity.
+
+Need to clarify about the 'still laugh at the material'
+Need better sense of what it was like.
+>>>>>>> 2d95a4c4c5ffc94c03fea995b696c44bcc8140e5

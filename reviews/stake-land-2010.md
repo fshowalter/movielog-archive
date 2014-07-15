@@ -12,6 +12,7 @@ The western genre isn't dead. _Stake Land_ is a prime example.
 
 The film is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. The story follows Mister, an enigmatic vamp hunter who rescues orphaned teen Martin. The two head north in Mister's old Cadillac for the fabled town of New Eden.
 
+<<<<<<< HEAD
 Along the way they encounter the last visages of civilization in the form of barricaded frontier towns. They also cross The Brotherhood, a white supremacist cult that preaches that vampires are God's tool to purify the earth. 
 
 Instead of the bandits or hostile natives of the classic westerns, we have vamps. There's a grisly opening sequence where we see a vamp drain and discard the corpse of an infant. But after that, _Stake Land_ keeps its baddies off-screen as much as possible. Like the best westerns, its content to let the scenery establish atmosphere. 
@@ -58,3 +59,8 @@ Now back to the part about how this is a western.
 Instead of bandits or hostile natives, we have vamps. Like the better westerns, Stake Land keeps these baddies off-screen as much as possible, content to let the scenery establish atmosphere.
 
 On their journey, Martin and Mister encounter the remnants of civilization in the form of barricaded townships. Like frontier towns, bartering is the primary economy. Mister trades the fangs he takes from his vamp kills.
+=======
+_Stake Land_ doesn't add anything new to the post-apocalyptic horror genre, and that's okay. It's dark, but not without some nice touches of black comedy. The production values and performances belie the film's all but straight-to-video release. Sure, the voiceover narration is unnecessary, but it's easy enough to ignore. Now if only they could have somehow gotten Warren Oates to play Mister...
+
+Need to clarify that undead could mean vampires or zombies. Talk about the cult. Need better sense of what the film is like. It gets better isn't clear. 
+>>>>>>> 2d95a4c4c5ffc94c03fea995b696c44bcc8140e5
