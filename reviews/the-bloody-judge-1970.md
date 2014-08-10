@@ -26,3 +26,5 @@ The result is disjointed and boring. Think long, ponderous scenes full of exposi
 Making things even worse, Lee and Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history, while Franco wanted something, well, else. As a result Lee seems to be acting in a different movie. His performance engaging but it doesn't fit the film around it.
 
 On the plus side, the Portuguese locations do a good job doubling for 17th century England. But it's a bad sign when the making-of extra on the DVD is more interesting than the movie itself.
+
+It's blah blah blah England and Lord Jeffreys is the highest judge in the land. King James has a tenuous hold on the throne. James orders Jeffreys to quell the rebellion. To do so, Jeffreys metes out death sentences without mercy. For merely witnessing a pagan ritual, Jeffreys condems young Alice as a witch and sentences her to death. Mary, Alice's sister, comes to beg for Alice's life but refuses Jeffreys' sexual advances. Alice is burned at the stake. Jeffreys becomes obsessed with Mary, who has taken up with Harry, the son of Lord Wessex, a political rival.
