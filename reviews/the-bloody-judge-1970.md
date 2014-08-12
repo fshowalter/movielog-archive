@@ -5,26 +5,25 @@
 :display_title: The Bloody Judge (1970)
 :date: 2014-08-03
 :grade: D
+:imdb_id: tt0064727
 ---
 
-_The Bloody Judge_ is set in England during the final days of the [Bloody Assizes](http://en.wikipedia.org/wiki/Bloody_Assizes). Lord Chancellor Jeffreys, the titular Bloody Judge (played by Christopher Lee), was real historical figure who meted out death sentences to suppress the burgeoning rebellion, only to end up on the wrong side of the [The Glorious Revolution](http://en.wikipedia.org/wiki/Glorious_Revolution). 
+It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film. 
 
-Sounds promising, right? Like _Witchfinder General (1968)_ but with Christopher Lee instead of Vincent Price? 
+_The Bloody Judge_ is set in England during the final days of the [Bloody Assizes](http://en.wikipedia.org/wiki/Bloody_Assizes). George Jeffreys, the titular Bloody Judge (played by Christopher Lee), was real historical figure who meted out death sentences to suppress the burgeoning rebellion, only to end up on the wrong side of the [The Glorious Revolution](http://en.wikipedia.org/wiki/Glorious_Revolution). 
 
-Yeah, not so much.
+If the film had focused on this, it might have turned out much better.
 
-Most of the screen time belongs to a group of fictitious characters. Mary is a peasant girl that Jeffreys becomes obsessed with after sentencing her sister to death for witchcraft. Mary's lover, Harry, is the son of Lord Wessex, a political rival of Jeffreys. Harry has connections to the rebels. 
+But instead, most of the screen time belongs to a group of fictitious characters. After putting her sister to death for witchcraft, Jeffreys becomes obsessed with a peasant girl named Mary. Mary's lover, Harry, has connections to the rebels, infuriating Jeffreys. But Harry is the son of Lord Wessex, a sometime friend of Jeffreys, which makes things tricky. Jeffreys orders Mary arrested; Harry frees her. Jeffreys captures them both; they escape. Then the revolution happens.
 
-Oh, and there's also a blind oracle who may or may not be psychic.
+Oh, and there's a blind oracle who may or may not be psychic.
 
-If this seems a bit convoluted, then I've done a good job explaining the movie. According to a supplementary interview with director Jesús Franco, the film had a slew of financing sources. Each financier wanted a different kind of film. One wanted a horror movie with a historical backdrop. One wanted a historical drama. One wanted an exploitation picture. 
+The logic behind all these side-plots become clear in the DVD supplement. The film had a slew of financing sources and each financier wanted a different kind of film. One wanted a horror movie. One wanted a historical drama. One wanted an exploitation picture. At least no one wanted comedy.
 
-At least no one wanted a comedy.
+Making things even worse, Lee and Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history.  Franco wanted something more "dynamic". I don't know what that means and I don't think Lee did either.
+ 
+The resulting mis-mash is surprisingly boring. Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed up like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood. 
 
-The result is disjointed and boring. Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed up like Boris Karloff in _The Tower of London (1939)_ torturing a nude or semi-nude women covered in Technicolor blood. 
+If you're in it for these exploitation sequences, I recommend liberal use of the fast-forward button.
 
-Making things even worse, Lee and Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history, while Franco wanted something, well, else. As a result Lee seems to be acting in a different movie. His performance engaging but it doesn't fit the film around it.
-
-On the plus side, the Portuguese locations do a good job doubling for 17th century England. But it's a bad sign when the making-of extra on the DVD is more interesting than the movie itself.
-
-It's blah blah blah England and Lord Jeffreys is the highest judge in the land. King James has a tenuous hold on the throne. James orders Jeffreys to quell the rebellion. To do so, Jeffreys metes out death sentences without mercy. For merely witnessing a pagan ritual, Jeffreys condems young Alice as a witch and sentences her to death. Mary, Alice's sister, comes to beg for Alice's life but refuses Jeffreys' sexual advances. Alice is burned at the stake. Jeffreys becomes obsessed with Mary, who has taken up with Harry, the son of Lord Wessex, a political rival.
+The disparate financing also explains the myriad of alternate titles. In the US it was known as _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Note that there is no Broadmoor in the film. Granted there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
