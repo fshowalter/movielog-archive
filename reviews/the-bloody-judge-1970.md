@@ -20,7 +20,7 @@ Oh, and there's a blind oracle who may or may not be psychic.
 
 The logic behind all these side-plots become clear in the DVD supplement. The film had a slew of financing sources and each financier wanted a different kind of film. One wanted a horror movie. One wanted a historical drama. One wanted an exploitation picture. At least no one wanted comedy.
 
-Making things even worse, Lee and Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what that means and I don't think Lee did either.
+Making things even worse, Lee and director Jesús Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
  
 The resulting mis-mash is surprisingly boring. Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed up like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood. 
 

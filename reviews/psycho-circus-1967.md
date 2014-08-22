@@ -7,15 +7,15 @@
 :imdb_id: tt0060865
 :grade: C
 ---
+_Circus of Fear_ (_Psycho Circus_, here in the US) opens with a shot of Klaus Kinski's wrist watch. He's part of a group of thieves preparing to execute a daylight holdup of an armored car as it crosses London's Tower bridge. There's no dialog. The crooks work on a precise timetable. Two men setup a road block to divert oncoming traffic, then rush to setup the escape route. Two others take out the escort car and maneuver the armored car to the other side of the bridge. Kinski knocks out the bridge operator and raises the bridge. Everything goes according to plan until one of the thieves panics and shoots one of the guards. 
 
-Sometimes a movie can't live up to its own opening scene. _Circus of Fear_ (_Psycho Circus_, here in the US) opens with a precision armored car robbery. Executed in broad daylight on London's Tower bridge. There's no dialog, but the editing gives the sequence a relentless rhythm. Everything goes off according to plan, until one of the crooks panics and shoots one of the guards.
+At this point, one can imagine theater-goers in 1966 wondering if they were in the right theater. There's no sign of a circus or top-billed Christopher Lee. As if to assure those confused patrons, the opening titles fade in as the crooks make good on their escape. There's even a catchy title theme.
 
-At this point, with a title like _Circus of Fear_ and no Christopher Lee in sight, one can imagine theater-goers in 1966 wondering if they were in the wrong theater.
+Unfortunately, the rest of the film never matches this inspired opening.
 
-The criminals escape and word comes from the unseen mastermind that the hood that panicked should be the one to deliver the loot. The crook makes his way to the meet-up spot, a deserted circus tent, where he's killed by an unseen assailant.
+It turns out the entire heist was a MacGuffin. In the span of a few minutes, all the crooks, save Kinski, are all killed off. This was a German co-production and Kinski was a big star in Germany. He seems to be here strictly for name recognition, as he spends the rest of the movie doing nothing but lurking about in the shadows. 
 
-Then the movie shifts.
+The setting shifts to the winter home of the Barberini circus. The pacing slows. Things get talky. Over twenty minutes in, Christopher Lee finally shows up as a lion tamer who spends most of the film wearing a black balaclava. Leo Genn plays a police inspector trying to find the stolen money. 
 
-The police track some of the stolen money to a circus. Christopher Lee finally shows up, though he spends most of the film wearing a black hood. The cops try to find the money but people keep dying thanks to that pesky off-screen assailant. There are lots of red herrings and at least one plot twist you'll likely see coming before everything is wrapped up.
+From here, the movies devolves into an unremarkable whodunit. An unseen, knife-throwing assailant picks off potential suspects.  There are lots of red herrings and at least one plot twist you'll likely see coming before everything is wrapped up. All well and good, but a much more interesting mystery is what the cast and crew could have done with a better script. 
 
-All well and good, but a let down after the great opening.
