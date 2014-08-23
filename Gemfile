@@ -21,6 +21,8 @@ gem 'uglifier'
 gem 'execjs'
 gem 'therubyracer'
 gem 'oj'
+gem 'google-api-client'
+gem 'twitter'
 
 gem 'inquirer'
 gem 'activesupport'

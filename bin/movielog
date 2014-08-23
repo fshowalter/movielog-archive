@@ -29,6 +29,11 @@ module Movielog
       def feature
         Console::CreateFeature.call
       end
+
+      desc 'review_tweet', 'tweet a review'
+      def review_tweet
+        Console::CreateReviewTweet.call
+      end
     end
 
     #

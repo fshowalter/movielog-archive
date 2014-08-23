@@ -14,6 +14,12 @@ module Movielog
         ParseReviews.call(reviews_path) || {}
       end
 
+      def reviews_by_title
+        reviews.values.each_with_object({}) do |review, hash|
+          hash[review.title] = review
+        end
+      end
+
       def features
         ParseFeatures.call(features_path) || {}
       end
@@ -42,6 +48,11 @@ module Movielog
 
       def search_for_viewed_title(query, db = db)
         titles = viewings.values.map(&:title).uniq
+        MovieDb::App.search_within_titles(db, query, titles)
+      end
+
+      def search_for_reviewed_title(query, db = db)
+        titles = reviews.values.map(&:title).uniq
         MovieDb::App.search_within_titles(db, query, titles)
       end
 
@@ -83,6 +94,39 @@ module Movielog
         feature_hash[:sequence] = posts.length + 1
         feature_hash[:slug] = slugize(feature_hash[:title])
         CreateFeature.call(features_path, feature_hash)
+      end
+
+      def grade_to_text(grade)
+        return if grade.blank?
+
+        case grade
+        when 'A+'
+          '★★★★★'
+        when 'A'
+          '★★★★½'
+        when 'A-'
+          '★★★★☆'
+        when 'B+'
+          '★★★½☆'
+        when 'B'
+          '★★★☆☆'
+        when 'B-'
+          '★★★☆☆'
+        when 'C+'
+          '★★½☆☆'
+        when 'C'
+          '★★½☆☆'
+        when 'C-'
+          '★★½☆☆'
+        when 'D+'
+          '★★☆☆☆'
+        when 'D'
+          '★½☆☆☆'
+        when 'D-'
+          '★½☆☆☆'
+        when 'F'
+          '★☆☆☆☆'
+        end
       end
 
       private

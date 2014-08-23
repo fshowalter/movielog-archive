@@ -16,10 +16,16 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
+    addressable (2.3.6)
     ast (2.0.0)
+    autoparse (0.3.3)
+      addressable (>= 2.3.1)
+      extlib (>= 0.9.15)
+      multi_json (>= 1.0.0)
     autoprefixer-rails (1.1.20140523)
       execjs
     blankslate (2.1.2.4)
+    buftok (0.2.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -31,10 +37,25 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    equalizer (0.0.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
+    extlib (0.9.16)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.3)
+    google-api-client (0.7.1)
+      addressable (>= 2.3.2)
+      autoparse (>= 0.3.3)
+      extlib (>= 0.9.15)
+      faraday (>= 0.9.0)
+      jwt (>= 0.1.5)
+      launchy (>= 2.1.1)
+      multi_json (>= 1.0.0)
+      retriable (>= 1.4)
+      signet (>= 0.5.0)
+      uuidtools (>= 2.1.0)
     haml (4.0.5)
       tilt
     haml-lint (0.5.1)
@@ -44,16 +65,23 @@ GEM
     hike (1.2.3)
     hooks (0.4.0)
       uber (~> 0.0.4)
+    http (0.6.2)
+      http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     i18n (0.6.9)
     inquirer (0.2.0)
       term-ansicolor (>= 1.2.2)
     json (1.8.1)
+    jwt (1.0.0)
+    launchy (2.4.2)
+      addressable (~> 2.3)
     libv8 (3.16.14.3)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
     middleman-autoprefixer (1.1.2)
       autoprefixer-rails (~> 1.1.20140302)
       middleman-core (~> 3.2)
@@ -90,6 +118,8 @@ GEM
       sprockets-sass (~> 1.1.0)
     minitest (4.7.5)
     multi_json (1.10.1)
+    multipart-post (2.0.0)
+    naught (1.0.0)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
@@ -121,6 +151,7 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
     ref (1.0.5)
+    retriable (1.4.1)
     rubocop (0.22.0)
       json (>= 1.7.7, < 2)
       parser (~> 2.1.9)
@@ -133,6 +164,12 @@ GEM
     scss-lint (0.24.1)
       rainbow (~> 2.0)
       sass (~> 3.3.0)
+    signet (0.5.1)
+      addressable (>= 2.2.3)
+      faraday (>= 0.9.0.rc5)
+      jwt (>= 0.1.5)
+      multi_json (>= 1.0.0)
+    simple_oauth (0.2.0)
     sixarm_ruby_unaccent (1.1.0)
     slop (3.5.0)
     sprockets (2.12.1)
@@ -155,11 +192,23 @@ GEM
     thread_safe (0.3.3)
     tilt (1.4.1)
     tins (1.1.0)
+    twitter (5.11.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.6.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.2.0)
     tzinfo (0.3.39)
     uber (0.0.4)
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    uuidtools (2.1.5)
 
 PLATFORMS
   ruby
@@ -169,6 +218,7 @@ DEPENDENCIES
   coffee-script
   csscss
   execjs
+  google-api-client
   haml
   haml-lint
   inquirer
@@ -186,4 +236,5 @@ DEPENDENCIES
   sass (= 3.3.0)
   scss-lint
   therubyracer
+  twitter
   uglifier

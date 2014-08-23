@@ -20,3 +20,6 @@
 /vendor/ruby
 /vendor/bundle
 /db
+
+client_secrets.json
+twitter.yml

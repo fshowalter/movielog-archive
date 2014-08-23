@@ -128,36 +128,7 @@ helpers do
   end
 
   def grade_to_text(grade)
-    return if grade.blank?
-
-    case grade
-    when 'A+'
-      '★★★★★'
-    when 'A'
-      '★★★★½'
-    when 'A-'
-      '★★★★☆'
-    when 'B+'
-      '★★★½☆'
-    when 'B'
-      '★★★☆☆'
-    when 'B-'
-      '★★★☆☆'
-    when 'C+'
-      '★★½☆☆'
-    when 'C'
-      '★★½☆☆'
-    when 'C-'
-      '★★½☆☆'
-    when 'D+'
-      '★★☆☆☆'
-    when 'D'
-      '★½☆☆☆'
-    when 'D-'
-      '★½☆☆☆'
-    when 'F'
-      '★☆☆☆☆'
-    end
+    Movielog::App.grade_to_text(grade)
   end
 
   # rubocop:disable LineLength
