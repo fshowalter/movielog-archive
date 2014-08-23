@@ -312,7 +312,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
-activate :sitemap, hostname: 'http://movielog.frankshowalter.com'
+activate :sitemap, hostname: 'http://www.franksmovielog.com'
 
 # Build-specific configuration
 configure :build do
