@@ -19,6 +19,12 @@ module Movielog
         slugged.gsub!(/^#{slug}|#{slug}$/i, '')
         url_encode(slugged.downcase)
       end
+
+      private
+
+      def url_encode(word)
+        URI.escape(word, /[^\w_+-]/i)
+      end
     end
   end
 end

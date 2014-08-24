@@ -90,6 +90,12 @@ module Movielog
         MovieDb::App.search_within_titles(db, query, titles)
       end
 
+      #
+      # Responsible for searching titles scoped to those with reviews.
+      #
+      # @param query [String] The title query.
+      # @param db [SQLite3::Database] The movie db.
+      # @return (see MovieDb::App.search_within_titles)
       def search_for_reviewed_title(query, db = db)
         titles = reviews.values.map(&:title).uniq
         MovieDb::App.search_within_titles(db, query, titles)
@@ -168,10 +174,6 @@ module Movielog
       end
 
       private
-
-      def url_encode(word)
-        URI.escape(word, /[^\w_+-]/i)
-      end
 
       def viewings_path
         File.expand_path('../../viewings/', __FILE__)
