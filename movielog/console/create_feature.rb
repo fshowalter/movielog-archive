@@ -1,20 +1,17 @@
-require 'inquirer'
-
 module Movielog
-  #
-  # Namespace for movielog console use-cases.
-  #
   module Console
     #
-    # Responsible for providing a command-line interface to create new viewings.
+    # Responsible for providing a console interface to create new features.
     #
     class CreateFeature
       class << self
         #
-        # Responsible for processing a new viewing command.
+        # Responsible for providing a console interface to create a new feature.
         #
-        # @return [String] The full path to the new entry.
+        # @return [void]
         def call
+          require 'inquirer'
+
           loop do
             feature_hash = { title: get_title, date: get_date }
 
@@ -33,14 +30,6 @@ module Movielog
           term.cyan text
         end
 
-        #
-        # Resposible for getting the date from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        # @param db [MovieDb::Db] A MovieDb::Db instance.
-        # @param title [String] The chosen title.
-        #
-        # @return [String] The chosen title.
         def get_title(title = nil, _display_title = nil)
           while title.nil?
             entered_title = Ask.input 'Feature Title'
@@ -50,12 +39,6 @@ module Movielog
           title
         end
 
-        #
-        # Resposible for getting the date from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        #
-        # @return [String] The entered date.
         def get_date(default = Date.today.to_s)
           date = nil
 

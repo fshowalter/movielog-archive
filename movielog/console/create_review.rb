@@ -1,18 +1,17 @@
 module Movielog
-  #
-  # Namespace for movielog console use-cases.
-  #
   module Console
     #
-    # Responsible for providing a command-line interface to create new reviews.
+    # Responsible for providing a console interface to create new reviews.
     #
     class CreateReview
       class << self
         #
-        # Responsible for processing a new review command.
+        # Responsible for providing a console interface to create a new review.
         #
-        # @return [String] The full path to the new entry.
+        # @return [void].
         def call
+          require 'inquirer'
+
           loop do
             title, display_title = get_title
             review_hash = { title: title, display_title: display_title }
@@ -35,14 +34,6 @@ module Movielog
           term.cyan text
         end
 
-        #
-        # Resposible for getting the date from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        # @param db [MovieDb::Db] A MovieDb::Db instance.
-        # @param title [String] The chosen title.
-        #
-        # @return [String] The chosen title.
         def get_title(title = nil, display_title = nil)
           while title.nil?
             query = Ask.input 'Title'

@@ -6,6 +6,12 @@ module Movielog
   #
   class CreateFeature
     class << self
+      #
+      # Responsible for creating a new feature instance.
+      #
+      # @param features_path [String] Path to the folder to store the feature.
+      # @param feature [Hash] The feature data. The `:slug` param is used to generate the filename.
+      # @return [String] The full path of the persisted feature.
       def call(features_path, feature)
         file_name = new_feature_file_name(features_path, feature[:slug])
 

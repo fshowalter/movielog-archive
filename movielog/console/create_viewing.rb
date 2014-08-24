@@ -1,20 +1,17 @@
-require 'inquirer'
-
 module Movielog
-  #
-  # Namespace for movielog console use-cases.
-  #
   module Console
     #
-    # Responsible for providing a command-line interface to create new viewings.
+    # Responsible for providing a console interface to create new viewings.
     #
     class CreateViewing
       class << self
         #
-        # Responsible for processing a new viewing command.
+        # Responsible for providing a console interface to create a new viewing.
         #
-        # @return [String] The full path to the new entry.
+        # @return [void]
         def call
+          require 'inquirer'
+
           loop do
             viewing_hash = build_viewing_hash
 
@@ -45,14 +42,6 @@ module Movielog
           term.cyan text
         end
 
-        #
-        # Resposible for getting the venue from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        #
-        # @return [String] The chosen or entered venue.
-        #
-        # rubocop:disable MethodLength
         def get_venue(venue = nil)
           while venue.nil?
             venues = Movielog::App.venues
@@ -69,14 +58,7 @@ module Movielog
 
           venue
         end
-        # rubocop:enable MethodLength
-
-        #
-        # Resposible for getting the date from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        #
-        # @return [String] The entered date.
+        
         def get_date(date = nil)
           last_viewing = Movielog::App.viewings[Movielog::App.viewings.length]
           default = last_viewing.try(:[], :date).to_s
@@ -91,16 +73,6 @@ module Movielog
           date
         end
 
-        #
-        # Resposible for getting the date from the user.
-        #
-        # @param terminal [HighLine] The current HighLine instance.
-        # @param db [MovieDb::Db] A MovieDb::Db instance.
-        # @param title [String] The chosen title.
-        #
-        # @return [String] The chosen title.
-        #
-        # rubocop:disable MethodLength
         def get_title(title = nil, display_title = nil)
           while title.nil?
             query = Ask.input 'Search'
@@ -117,8 +89,7 @@ module Movielog
 
           [title, display_title]
         end
-        # rubocop:enable MethodLength
-
+        
         def format_title_results(results)
           results.map do |movie|
             [

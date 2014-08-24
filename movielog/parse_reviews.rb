@@ -6,6 +6,11 @@ module Movielog
   #
   class ParseReviews
     class << self
+      #
+      # Responsible for parsing review data at the given path.
+      #
+      # @param reviews_path [String] Path to the reviews data.
+      # @return [Hash] A hash of {Movielog::Review} objects, keyed by sequence.
       def call(reviews_path)
         Dir["#{reviews_path}/*.md"].reduce({}) do |memo, file|
           begin

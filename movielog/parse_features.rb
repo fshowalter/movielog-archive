@@ -6,6 +6,11 @@ module Movielog
   #
   class ParseFeatures
     class << self
+      #
+      # Responsible for parsing feature data at the given path.
+      #
+      # @param features_path [String] Path to the feature data.
+      # @return [Hash] A hash of {Movielog::Feature} objects, keyed by sequence.
       def call(features_path)
         Dir["#{features_path}/*.md"].reduce({}) do |memo, file|
           begin

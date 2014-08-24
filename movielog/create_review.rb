@@ -2,10 +2,16 @@ require 'active_support/core_ext/hash/slice'
 
 module Movielog
   #
-  # Responsible for creating new viewing instances.
+  # Responsible for creating new review instances.
   #
   class CreateReview
     class << self
+      #
+      # Responsible for creating a new review instance.
+      #
+      # @param reviews_path [String] Path to the folder to store the review.
+      # @param review [Hash] The review data. The `:slug` value is used to create the filename.
+      # @return [String] The full path of the persisted review.
       def call(reviews_path, review)
         file_name = new_review_file_name(reviews_path, review[:slug])
 
