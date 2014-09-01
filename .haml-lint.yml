@@ -1,0 +1,8 @@
+skip_frontmatter: true
+linters:
+  LineLength:
+    max: 99
+  UnnecessaryStringOutput:
+    enabled: false
+  UnnecessaryInterpolation:
+    enabled: false

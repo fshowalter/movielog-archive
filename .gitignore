@@ -19,7 +19,10 @@
 
 /vendor/ruby
 /vendor/bundle
-/db
+/movie_db
+/coverage
 
 client_secrets.json
 twitter.yml
+
+*.sublime-*

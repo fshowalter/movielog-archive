@@ -1,4 +1,3 @@
-
 require 'yaml'
 
 module Movielog
@@ -7,18 +6,22 @@ module Movielog
   #
   class ParseViewings
     class << self
-      #
-      # Responsible for parsing viewing data at the given path.
-      #
-      # @param viewings_path [String] Path to the viewing data.
-      # @return [Hash] A hash of viewing objects, keyed by sequence.
-      def call(viewings_path)
-        Dir["#{viewings_path}/*.yml"].reduce({}) do |memo, file|
-          viewing = YAML.load(IO.read(file))
-          fail "Invalid viewing: #{file}" if viewing.nil?
-          memo[viewing[:number]] = OpenStruct.new(viewing)
-          memo
+      def call(viewings_path:)
+        Dir["#{viewings_path}/*.yml"].each_with_object({}) do |file, viewings|
+          viewing = read_viewing(file)
+          next unless viewing.is_a?(Hash)
+          viewings[viewing[:number]] = OpenStruct.new(viewing)
         end
+      end
+
+      private
+
+      def read_viewing(file)
+        YAML.load(IO.read(file))
+      rescue YAML::SyntaxError => e
+        puts "YAML Exception reading #{file}: #{e.message}"
+      rescue => e
+        puts "Error reading file #{file}: #{e.message}"
       end
     end
   end

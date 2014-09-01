@@ -3,31 +3,32 @@ layout: false
 ---
 !!! XML
 %feed{ xmlns: 'http://www.w3.org/2005/Atom' }
-  - posts = Movielog::App.posts
-  - sorted_keys = Movielog::App.posts.keys.sort.reverse
-  %title= site.title
-  %link{ href: "#{site.url}feed.xml", rel: 'self' }/
-  %link{ href: "#{site.url}" }/
+  - posts = Movielog.posts
+  - sorted_keys = posts.keys.sort.reverse
+  %title= Movielog.site_title
+  %link{ href: "#{Movielog.site_url}/feed.xml", rel: 'self' }/
+  %link{ href: Movielog.site_url }/
   %updated= Time.now.xmlschema
-  %id= site.url
+  %id= Movielog.site_url
   %author
-    %name= site.author
+    %name Frank Showalter
 
   - sorted_keys.each_with_index do |key, index|
     - break if index > 9
     - post = posts[key]
     %entry
-      - if post.kind_of?(Movielog::Review)
+      - if post.is_a?(Movielog::Review)
         - review = post
         %title
-          #{review.sequence}. #{review.display_title} #{grade_to_text(review.grade)}
-        %link{ href: "#{site.url}reviews/#{review.slug}" }
-        %id= "#{site.url}reviews/#{review.slug}"
+          #{review.sequence}. #{review.display_title}
+          #{grade_to_unicode_stars(grade: review.grade)}
+        %link{ href: "#{Movielog.site_url}/reviews/#{review.slug}" }
+        %id #{Movielog.site_url}reviews/#{review.slug}
       - else
         %title
           #{post.sequence}. #{post.title}
-        %link{ href: "#{site.url}features/#{post.slug}" }
-        %id= "#{site.url}features/#{post.slug}"
+        %link{ href: "#{Movielog.site_url}/features/#{post.slug}" }
+        %id #{Movielog.site_url}/features/#{post.slug}
       %updated= post.date.xmlschema
       %content{ type: 'html' }
         = CGI.escapeHTML(markdown(post.content))

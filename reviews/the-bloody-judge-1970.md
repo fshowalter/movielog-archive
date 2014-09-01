@@ -10,19 +10,19 @@
 
 It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
 
-The film is set in England during the final days of King James II. George Jeffreys, the titular Bloody Judge (played by Christopher Lee), was a real historical figure who meted out death sentences to suppress the burgeoning rebellion, only to end up on the wrong side of the revolution. 
+The film is set in England during the final days of King James II. George Jeffreys, the titular Bloody Judge (played by Christopher Lee), was a real historical figure who meted out death sentences to suppress the burgeoning rebellion, only to end up on the wrong side of the revolution.
 
-In the making-of featurette, Lee correctly refers to this period as the Bloody Assizes. He saw Jeffreys as a kind of Jekyll and Hyde figure. On the one hand, a brilliant legal mind who rose to become the highest justice in the land. On the other, a merciless executioner who sentenced hundreds to their deaths. If the film had focused on this dichotomy, it might have turned out much better.
+In the making-of featurette, Lee correctly refers to this period as the Bloody Assizes. He saw Jeffreys as a kind of Jekyll-and-Hyde figure. On the one hand, a brilliant legal mind who rose to become the highest justice in the land. On the other, a merciless executioner who sentenced hundreds to their deaths. If the film had focused on this dichotomy, it might have turned out much better.
 
 Instead, most of the screen time belongs to a group of fictitious characters. After putting her sister to death for witchcraft, Jeffreys becomes obsessed with a peasant girl named Mary. Mary's lover, Harry, has connections to the rebels, infuriating Jeffreys. But Harry is the son of Lord Wessex, a sometime friend of Jeffreys, which makes things tricky. Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
 Oh, and there's a blind oracle who may or may not be psychic.
 
-The logic behind all these side-plots become clear in the DVD supplement. The film had a slew of financing sources and each financier wanted a different kind of film. One wanted a horror movie. One wanted a historical drama. One wanted an exploitation picture. At least no one wanted comedy.
+The logic behind all these side-plots become clear in the DVD supplement. The film had a slew of financing sources and each financier wanted a different kind of film. One wanted a horror movie. One wanted a historical drama. One wanted an exploitation picture. At least no one wanted a comedy.
 
 Making things even worse, Lee and director Jesús Franco disagreed on how Jeffreys should be played. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
- 
-The resulting mis-mash is surprisingly boring. Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed up like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood. 
+
+The resulting mis-mash is surprisingly boring. Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed up like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood.
 
 If you're in it for these exploitation sequences, I recommend liberal use of the fast-forward button.
 

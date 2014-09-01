@@ -8,72 +8,35 @@ module Movielog
         #
         # Responsible for providing a console interface to create a new review.
         #
-        # @return [void].
+        # @return [Movielog::Review] the created review.
         def call
-          require 'inquirer'
+          movie = ask_for_title
+          review = Movielog::CreateReview.call(reviews_path: Movielog.reviews_path,
+                                               title: movie.title,
+                                               display_title: movie.display_title,
+                                               sequence: Movielog.next_post_number,
+                                               slug: slugize(text: movie.display_title))
 
-          loop do
-            title, display_title = get_title
-            review_hash = { title: title, display_title: display_title }
+          puts "\n Created Review #{Bold.call(text: review.display_title)}!\n" \
+          " #{Bold.call(text: '        Title:')} #{review.title}\n" \
+          " #{Bold.call(text: '     Sequence:')} #{review.sequence}\n"
 
-            file = Movielog::App.create_review(review_hash)
-
-            puts "\n Created Review ##{bold(review_hash[:number].to_s)}!\n" \
-            " #{bold('        Title:')} #{review_hash[:title]}\n" \
-            " #{bold('Display Title:')} #{review_hash[:display_title]}\n" \
-            " #{bold('         Date:')} #{review_hash[:date]}\n"
-
-            exec "open #{file}"
-          end
+          review
         end
 
         private
 
-        def bold(text)
-          term = Term::ANSIColor
-          term.cyan text
+        def slugize(text: text)
+          Movielog::Slugize.call(text: text)
         end
 
-        def get_title(title = nil, display_title = nil)
-          while title.nil?
-            query = Ask.input 'Title'
-            results = Movielog::App.search_for_viewed_title(query)
-            choices = format_title_results(results) + ['Search Again']
-            idx = Ask.list(' Title', choices)
-
-            next if idx == results.length
-
-            title = results[idx].title
-            display_title = results[idx].display_title
+        def ask_for_title
+          query_proc = lambda do |db, query|
+            MovieDb.search_within_titles(db: db, query: query, titles: Movielog.viewed_titles)
           end
 
-          [title, display_title]
-        end
-
-        def format_title_results(results)
-          results.map do |movie|
-            [
-              movie.display_title,
-              headline_cast(movie.title),
-              aka_titles(movie.title),
-              "\n"
-            ].join
-          end
-        end
-
-        def aka_titles(title)
-          aka_titles = Movielog::App.aka_titles_for_title(title)
-          return unless aka_titles.any?
-
-          "\n   " + aka_titles.map { |aka_title| "aka #{aka_title.aka_title}" }.join("\n   ")
-        end
-
-        def headline_cast(title)
-          headline_cast = Movielog::App.headline_cast_for_title(title)
-          return unless headline_cast.any?
-          "\n   " + headline_cast.map do |person|
-            "#{person.first_name} #{person.last_name}"
-          end.join(', ')
+          db = Movielog.db
+          AskForTitle.call(db: db, query_proc: query_proc)
         end
       end
     end

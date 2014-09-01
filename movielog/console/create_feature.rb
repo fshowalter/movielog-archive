@@ -6,50 +6,33 @@ module Movielog
     class CreateFeature
       class << self
         #
-        # Responsible for providing a console interface to create a new feature.
+        # Responsible for processing a new feature command.
         #
-        # @return [void]
+        # @return [Movielog::Feature] the new feature.
         def call
-          require 'inquirer'
+          title = ask_for_title
+          feature = Movielog::CreateFeature.call(features_path: Movielog.features_path,
+                                                 title: title,
+                                                 sequence: Movielog.next_post_number,
+                                                 slug: Movielog::Slugize.call(text: title))
 
-          loop do
-            feature_hash = { title: get_title, date: get_date }
+          puts "\n Created Feature #{Bold.call(text: feature.title)}!\n" \
+          " #{Bold.call(text: '     Sequence:')} #{feature.sequence}\n"
 
-            Movielog::App.create_feature(feature_hash)
-
-            puts "\n Created Feature ##{bold(feature_hash[:number].to_s)}!\n" \
-            " #{bold('        Title:')} #{feature_hash[:title]}\n" \
-            " #{bold('         Date:')} #{feature_hash[:date]}\n"
-          end
+          feature
         end
 
         private
 
-        def bold(text)
-          term = Term::ANSIColor
-          term.cyan text
-        end
+        def ask_for_title
+          title = nil
 
-        def get_title(title = nil, _display_title = nil)
           while title.nil?
             entered_title = Ask.input 'Feature Title'
             title = entered_title if Ask.confirm entered_title
           end
 
           title
-        end
-
-        def get_date(default = Date.today.to_s)
-          date = nil
-
-          while date.nil?
-            entered_date = Ask.input 'Date', default: default
-            next unless (entered_date = Date.parse(entered_date))
-
-            date = entered_date if Ask.confirm entered_date.strftime('%A, %B %d, %Y?  ')
-          end
-
-          date
         end
       end
     end

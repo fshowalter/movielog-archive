@@ -1,29 +1,23 @@
 module Movielog
   #
-  # Responsible for converting a string into a url slug.
+  # Responsible for converting text to a format suitable for use in a url.
   #
   class Slugize
     class << self
-      #
-      # Responsible for converting a given string into a url slug.
-      #
-      # @param words [String] The string to convert.
-      # @param slug [String] The default char to replace invalid chars.
-      # @return [String] The sluggized string.
-      def call(words, slug = '-')
-        slugged = words.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
-        slugged.gsub!(/&/, 'and')
-        slugged.gsub!(/:/, '')
-        slugged.gsub!(/[^\w_\-#{Regexp.escape(slug)}]+/i, slug)
-        slugged.gsub!(/#{slug}{2,}/i, slug)
-        slugged.gsub!(/^#{slug}|#{slug}$/i, '')
-        url_encode(slugged.downcase)
+      def call(text:, replacement: '-')
+        slugged = text.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
+        slugged.gsub!('&', 'and')
+        slugged.gsub!(':', '')
+        slugged.gsub!(/[^\w_\-#{Regexp.escape(replacement)}]+/i, replacement)
+        slugged.gsub!(/#{replacement}{2,}/i, replacement)
+        slugged.gsub!(/^#{replacement}|#{replacement}$/i, '')
+        url_encode(text: slugged.downcase)
       end
 
       private
 
-      def url_encode(word)
-        URI.escape(word, /[^\w_+-]/i)
+      def url_encode(text: text)
+        URI.escape(text, /[^\w+-]/i)
       end
     end
   end

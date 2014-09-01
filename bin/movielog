@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby
 
 require 'thor'
-require_relative '../movielog'
+require_relative '../movielog/movielog'
 
 #
 # App namespace
 #
 module Movielog
   #
-  # Namespace for movielog console use cases.
+  # Responsible for the console interface.
   #
   module Console
     #

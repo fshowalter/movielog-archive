@@ -6,25 +6,33 @@ module Movielog
   #
   class CreateReview
     class << self
-      #
-      # Responsible for creating a new review instance.
-      #
-      # @param reviews_path [String] Path to the folder to store the review.
-      # @param review [Hash] The review data. The `:slug` value is used to create the filename.
-      # @return [String] The full path of the persisted review.
-      def call(reviews_path, review)
-        file_name = new_review_file_name(reviews_path, review[:slug])
+      def call(reviews_path:, title:, display_title:, sequence:, slug:)
+        file_name = File.join(reviews_path, slug + '.md')
 
-        content = "#{review.slice(:sequence, :title, :slug, :display_title, :date).to_yaml}---\n"
+        front_matter = front_matter(title: title,
+                                    sequence: sequence,
+                                    display_title: display_title,
+                                    slug: slug)
+
+        content = "#{front_matter.to_yaml}---\n"
+
         File.open(file_name, 'w') { |file| file.write(content) }
 
-        file_name
+        Review.new(front_matter)
       end
 
       private
 
-      def new_review_file_name(reviews_path, slug)
-        File.join(reviews_path, slug + '.md')
+      def front_matter(title:, display_title:, sequence:, slug:)
+        {
+          sequence: sequence,
+          title: title,
+          slug: slug,
+          display_title: display_title,
+          date: Date.today,
+          imdb_id: '',
+          grade: ''
+        }
       end
     end
   end

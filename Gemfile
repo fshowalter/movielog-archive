@@ -33,3 +33,8 @@ gem 'scss-lint'
 gem 'haml-lint'
 gem 'csscss'
 gem 'yard'
+gem 'rspec', require: false
+gem 'simplecov', require: false
+gem 'fuubar'
+gem 'fakeweb', require: false
+gem 'pry', require: false

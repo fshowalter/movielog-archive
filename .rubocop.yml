@@ -1,13 +1,5 @@
-CyclomaticComplexity:
-  Exclude:
-    - config.rb
-
-MethodLength:
-  Exclude:
-    - config.rb
-
-LineLength:
+Metrics/LineLength:
   Max: 99
 
-EachWithObject:
-  Enabled: false
+Metrics/ParameterLists:
+  CountKeywordArgs: false
