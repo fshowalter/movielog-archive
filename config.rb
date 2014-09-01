@@ -1,4 +1,4 @@
-require 'movielog'
+require 'movielog/movielog'
 require 'active_support/core_ext/array/conversions'
 require 'time'
 

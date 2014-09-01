@@ -20,6 +20,7 @@
 /vendor/ruby
 /vendor/bundle
 /db
+/coverage
 
 client_secrets.json
 twitter.yml

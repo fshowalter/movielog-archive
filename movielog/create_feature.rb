@@ -2,17 +2,24 @@ require 'active_support/core_ext/hash/slice'
 
 module Movielog
   #
-  # Responsible for creating new feature instances.
+  # Responsible for creating new features.
   #
   class CreateFeature
     class << self
-      def call(features_path, feature)
-        file_name = new_feature_file_name(features_path, feature[:slug])
+      def call(features_path:, title:, sequence:, slug:)
+        file_name = new_feature_file_name(features_path, slug)
 
-        content = "#{feature.slice(:sequence, :title, :slug, :date).to_yaml}---\n"
+        front_matter = {
+          title: title,
+          sequence: sequence,
+          slug: slug,
+          date: Date.today
+        }
+
+        content = "#{front_matter.to_yaml}---\n"
         File.open(file_name, 'w') { |file| file.write(content) }
 
-        file_name
+        Feature.new(front_matter)
       end
 
       private
