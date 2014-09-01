@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'support/io_helper'
 
-describe Movielog::Console::CreateReviewTweet do
+describe Movielog::Console::CreateViewing do
   let(:db) do
     titles = {
       'Rio Bravo (1959)' => {
@@ -69,46 +69,34 @@ describe Movielog::Console::CreateReviewTweet do
 
   before(:each) do
     IOHelper.clear
+    allow(File).to receive(:open).with(Movielog.viewings_path + '/0012-rio-bravo-1959.yml', 'w')
     allow(Movielog).to receive(:db).and_return(db)
   end
 
-  it 'creates review' do
+  it 'creates viewing' do
     IOHelper.type_input('rio bravo')
-    IOHelper.type_input("\r")
+    IOHelper.select
+    IOHelper.type_input('2014-08-30')
+    IOHelper.confirm
 
-    expect(Movielog::Console::CreateReviewTweet).to(receive(:puts))
-
-    expect(Movielog).to receive(:reviewed_titles) do
+    expect(Movielog::Console::CreateViewing).to receive(:puts)
+    expect(Movielog).to receive(:next_viewing_number).and_return(12)
+    expect(Movielog).to receive(:venues) do
       [
-        'Rio Bravo (1959)',
-        'Reservoir Dogs (1992)',
-        'The Big Sleep (1946)'
+        'Blu-ray',
+        'Nextflix',
+        'Theater'
       ]
     end
 
-    expect(Movielog).to receive(:reviews) do
-      {
-        1 => OpenStruct.new(
-                              title: 'Rio Bravo (1959)',
-                              slug: 'rio-bravo-1959',
-                              display_title: 'Rio Bravo (1959)',
-                              grade: 'A+'
-                            )
-      }
-    end
+    viewing = Movielog::Console::CreateViewing.call
+    expect(viewing.to_h).to eq(
 
-    expect(Movielog::ShortenUrl).to(receive(:call)
-      .with(url: 'http://www.franksmovielog.com/reviews/rio-bravo-1959')
-      .and_return('http://short.url'))
-
-    FakeWeb.register_uri(
-      :post,
-      'https://api.twitter.com/1.1/statuses/update.json',
-      status: 200,
-      body: { id: 1 }.to_json)
-
-    tweet = Movielog::Console::CreateReviewTweet.call
-    expect(tweet).to eq(
-      'RIO BRAVO (1959) (★★★★★) John Wayne, Dean Martin, Ricky Nelson...http://short.url')
+        title: 'Rio Bravo (1959)',
+        display_title: 'Rio Bravo (1959)',
+        number: 12,
+        venue: 'Blu-ray',
+        date: Date.parse('2014-8-30')
+      )
   end
 end

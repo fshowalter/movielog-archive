@@ -1,5 +1,3 @@
-require 'inquirer'
-
 module Movielog
   module Console
     #
@@ -12,7 +10,11 @@ module Movielog
         #
         # @return [Movielog::Feature] the new feature.
         def call
-          feature = Movielog.create_feature(title: get_feature_title)
+          title = ask_for_title
+          feature = Movielog::CreateFeature.call(features_path: Movielog.features_path,
+                                                 title: title,
+                                                 sequence: Movielog.next_post_number,
+                                                 slug: Movielog::Slugize.call(text: title))
 
           puts "\n Created Feature #{Bold.call(text: feature.title)}!\n" \
           " #{Bold.call(text: '     Sequence:')} #{feature.sequence}\n"
@@ -22,7 +24,7 @@ module Movielog
 
         private
 
-        def get_feature_title
+        def ask_for_title
           title = nil
 
           while title.nil?

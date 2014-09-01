@@ -1,6 +1,9 @@
 module Movielog
   module Console
-    class GetTitle
+    #
+    # Responsible for providing a console interface for searching and selecting movie titles.
+    #
+    class AskForTitle
       class << self
         def call(db:, query_proc:)
           result = nil

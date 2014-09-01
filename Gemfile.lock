@@ -139,7 +139,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.3)
       activesupport (>= 3.1)
-    parser (2.1.9)
+    parser (2.2.0.pre.4)
       ast (>= 1.1, < 3.0)
       slop (~> 3.4, >= 3.4.5)
     parslet (1.6.1)
@@ -175,9 +175,8 @@ GEM
     rspec-mocks (3.0.4)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.4)
-    rubocop (0.22.0)
-      json (>= 1.7.7, < 2)
-      parser (~> 2.1.9)
+    rubocop (0.25.0)
+      parser (>= 2.2.0.pre.4, < 3.0)
       powerpack (~> 0.0.6)
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.4)
@@ -266,7 +265,7 @@ DEPENDENCIES
   pry
   redcarpet
   rspec
-  rubocop (= 0.22.0)
+  rubocop
   sass (= 3.3.0)
   scss-lint
   simplecov

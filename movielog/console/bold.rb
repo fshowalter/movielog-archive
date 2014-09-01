@@ -1,5 +1,8 @@
 module Movielog
   module Console
+    #
+    # Responsible for formatting as bold for the console.
+    #
     class Bold
       class << self
         def call(text: text)

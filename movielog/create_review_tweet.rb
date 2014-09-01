@@ -1,4 +1,7 @@
 module Movielog
+  #
+  # Responsible for creating review tweets.
+  #
   class CreateReviewTweet
     class << self
       def call(url:, display_title:, grade:, headline_cast:)

@@ -23,7 +23,6 @@ module IOHelper
       chop_index = index
       break unless block.call(key)
     end
-
     @keys.slice!(0, chop_index + 1) if chop_index
   end
 
@@ -31,6 +30,10 @@ module IOHelper
     @keys ||= []
     input.each_char { |c| @keys << c }
     @keys << "\r"
+  end
+
+  def select
+    @keys << 'return'
   end
 
   def confirm

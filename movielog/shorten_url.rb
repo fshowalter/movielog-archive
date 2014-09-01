@@ -1,4 +1,7 @@
-class Movielog
+module Movielog
+  #
+  # Responsible for shortening URLs.
+  #
   class ShortenUrl
     class << self
       def call(url: url)
@@ -21,13 +24,18 @@ class Movielog
 
       def google_client
         require 'google/api_client'
-        require 'google/api_client/client_secrets'
-        require 'google/api_client/auth/installed_app'
 
         client = Google::APIClient.new(
           application_name: "Frank's Movie Log",
           application_version: '1.0.0'
         )
+
+        authorize_client(client: client)
+      end
+
+      def authorize_client(client: client)
+        require 'google/api_client/client_secrets'
+        require 'google/api_client/auth/installed_app'
 
         client_secrets = Google::APIClient::ClientSecrets.load
 
@@ -38,7 +46,9 @@ class Movielog
           client_secret: client_secrets.client_secret,
           scope: ['https://www.googleapis.com/auth/urlshortener']
         )
+
         client.authorization = flow.authorize
+
         client
       end
     end

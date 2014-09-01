@@ -7,28 +7,30 @@ module Movielog
       #
       # Responsible for creating a new viewing instance.
       #
-      def call(viewings_path:, title:, date:, display_title:, venue:, number:, slug:)
-        file_name = new_viewing_file_name(viewings_path: viewings_path, number: number, slug: slug)
+      def call(viewings_path:, title:, date:, display_title:, venue:, number:, slug:) # rubocop: disable Metrics/ParameterLists, Metrics/LineLength
+        file_name = File.join(viewings_path, format('%04d', number) + '-' + slug + '.yml')
 
-        viewing = {
-          number: number,
-          title: title,
-          display_title: display_title,
-          date: date,
-          venue: venue
-        }
+        viewing = build_viewing(number: number,
+                                title: title,
+                                display_title: display_title,
+                                date: date,
+                                venue: venue)
 
-        File.open(file_name, 'w') do |file|
-          file.write(viewing.to_yaml)
-        end
+        File.open(file_name, 'w') { |file| file.write(viewing.to_yaml) }
 
         OpenStruct.new(viewing)
       end
 
       private
 
-      def new_viewing_file_name(viewings_path:, number:, slug:)
-        File.join(viewings_path, format('%04d', number) + '-' + slug + '.yml')
+      def build_viewing(number:, title:, display_title:, date:, venue:)
+        {
+          number: number,
+          title: title,
+          display_title: display_title,
+          date: date,
+          venue: venue
+        }
       end
     end
   end

@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'support/io_helper'
 
-describe Movielog::Console::CreateFeature do
+describe Movielog::Console::CreateReview do
   let(:db) do
     titles = {
       'Rio Bravo (1959)' => {
