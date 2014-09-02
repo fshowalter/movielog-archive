@@ -78,14 +78,16 @@ describe Movielog::Console::CreateViewing do
     IOHelper.select
     IOHelper.type_input('2014-08-30')
     IOHelper.confirm
+    IOHelper.move_down
+    IOHelper.select
+    IOHelper.type_input('Blu-ray')
+    IOHelper.confirm
 
     expect(Movielog::Console::CreateViewing).to receive(:puts)
     expect(Movielog).to receive(:next_viewing_number).and_return(12)
     expect(Movielog).to receive(:venues) do
       [
-        'Blu-ray',
-        'Nextflix',
-        'Theater'
+        'Nextflix'
       ]
     end
 

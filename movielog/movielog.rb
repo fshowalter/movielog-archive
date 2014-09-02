@@ -62,15 +62,15 @@ module Movielog
     end
 
     def viewings
-      ParseViewings.call(viewings_path) || {}
+      ParseViewings.call(viewings_path: viewings_path) || {}
     end
 
     def reviews
-      ParseReviews.call(reviews_path) || {}
+      ParseReviews.call(reviews_path: reviews_path) || {}
     end
 
     def features
-      ParseFeatures.call(features_path) || {}
+      ParseFeatures.call(features_path: features_path) || {}
     end
 
     def posts
@@ -78,11 +78,11 @@ module Movielog
     end
 
     def venues
-      viewings.values.map(&:venue).uniq
+      viewings.values.map(&:venue).uniq.sort
     end
 
-    def viewings_for_title(title)
-      viewings.select { |_number, viewing| viewing.title == title }.values
+    def viewings_for_title(title:)
+      viewings.values.select { |viewing| viewing.title == title }
     end
   end
 end

@@ -7,12 +7,11 @@ module Movielog
   #
   class ParseViewings
     class << self
-      def call(viewings_path)
-        Dir["#{viewings_path}/*.yml"].reduce({}) do |memo, file|
+      def call(viewings_path:)
+        Dir["#{viewings_path}/*.yml"].each_with_object({}) do |file, viewings|
           viewing = YAML.load(IO.read(file))
           fail "Invalid viewing: #{file}" if viewing.nil?
-          memo[viewing[:number]] = OpenStruct.new(viewing)
-          memo
+          viewings[viewing[:number]] = OpenStruct.new(viewing)
         end
       end
     end

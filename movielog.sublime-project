@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/fshowalt/Workspace/movielog",
+      "folder_exclude_patterns": ["coverage", "db", "vendor", ".*", "build"]
+		}
+	]
+}

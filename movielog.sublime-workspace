@@ -1,0 +1,3500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"each_wi",
+				"each_with_object"
+			],
+			[
+				"viewings",
+				"viewings_path"
+			],
+			[
+				"dis",
+				"display_title"
+			],
+			[
+				"Cre",
+				"CreateViewing"
+			],
+			[
+				"Create",
+				"CreateReviewTweet"
+			],
+			[
+				"ask",
+				"ask_for_title"
+			],
+			[
+				"askfor",
+				"ask_for_new_venue"
+			],
+			[
+				"create_rev",
+				"create_review_tweet"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"movie",
+				"movie_db"
+			],
+			[
+				"next",
+				"next_viewing_number"
+			],
+			[
+				"gen",
+				"get_venue"
+			],
+			[
+				"Get",
+				"GetDate"
+			],
+			[
+				"get",
+				"get_movie"
+			],
+			[
+				"Movie",
+				"Movielog"
+			],
+			[
+				"and",
+				"and_return"
+			],
+			[
+				"featu",
+				"feature_hash"
+			],
+			[
+				"aka",
+				"aka_titles"
+			],
+			[
+				"head",
+				"headline_cast_for_title"
+			],
+			[
+				"start",
+				"start_server"
+			],
+			[
+				"auth",
+				"auth_server"
+			],
+			[
+				"stub",
+				"stub_twitter_client"
+			],
+			[
+				"Api",
+				"APIClient"
+			],
+			[
+				"url",
+				"urlshortener"
+			],
+			[
+				"reviews",
+				"reviews_by_title"
+			],
+			[
+				"query",
+				"query_proc"
+			],
+			[
+				"enter",
+				"entered_date"
+			],
+			[
+				"feat",
+				"feature_hash"
+			],
+			[
+				"input",
+				"input_test_feature_name"
+			],
+			[
+				"rele",
+				"release_date"
+			],
+			[
+				"sort",
+				"sortable_title"
+			],
+			[
+				"info",
+				"info_for_title"
+			],
+			[
+				"relase",
+				"release_date"
+			],
+			[
+				"side",
+				"sidebar-background"
+			],
+			[
+				"mast",
+				"masthead-title"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"lett",
+				"letter-spacing"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"features",
+				"features_path"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"auto",
+				"autoprefixer"
+			],
+			[
+				"active",
+				"activate"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"descrip",
+				"description_for_review"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fill",
+				"fill_star"
+			],
+			[
+				"empt",
+				"empty_stars"
+			],
+			[
+				"star",
+				"star_count"
+			],
+			[
+				"grad",
+				"grade_to_integer"
+			],
+			[
+				"empty",
+				"empty_star"
+			],
+			[
+				"half",
+				"half_star"
+			],
+			[
+				"displ",
+				"display"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"sql",
+				"sql_query"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"credit",
+				"credit_indexes"
+			],
+			[
+				"cast",
+				"cast_and_crew"
+			],
+			[
+				"priv",
+				"private"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"movies",
+				"movies_table_schema"
+			],
+			[
+				"add",
+				"add_dependency"
+			],
+			[
+				"Extract",
+				"ExtractWriters"
+			],
+			[
+				"Extra",
+				"ExtractPerformers"
+			],
+			[
+				"perform",
+				"performers"
+			],
+			[
+				"curr",
+				"current_performer"
+			],
+			[
+				"Extr",
+				"ExtractPerson"
+			],
+			[
+				"ExtractP",
+				"ExtractPerson"
+			],
+			[
+				"performer",
+				"performer_file"
+			],
+			[
+				"release",
+				"release_dates_file"
+			],
+			[
+				"dire",
+				"director_file"
+			],
+			[
+				"aka_titles",
+				"aka_titles_file"
+			],
+			[
+				"titles",
+				"titles_file"
+			],
+			[
+				"with",
+				"WithCache"
+			],
+			[
+				"genre",
+				"genre_file"
+			],
+			[
+				"cache",
+				"cache_data_for_file"
+			],
+			[
+				"test",
+				"test_genres_with_short"
+			],
+			[
+				"Extrac",
+				"ExtractTitles"
+			],
+			[
+				"Downl",
+				"DownloadData"
+			],
+			[
+				"Extrat",
+				"ExtractAkaTitles"
+			],
+			[
+				"curren",
+				"current_director"
+			],
+			[
+				"restric",
+				"restricted_genres"
+			],
+			[
+				"inter",
+				"international_display_title_regex"
+			],
+			[
+				"usa",
+				"usa_display_title_regex"
+			],
+			[
+				"usat",
+				"usa_display_title"
+			],
+			[
+				"intern",
+				"international_english_title_regex"
+			],
+			[
+				"sortabl",
+				"sortable_regex"
+			],
+			[
+				"writer_f",
+				"writer_file"
+			],
+			[
+				"direc",
+				"director_file"
+			],
+			[
+				"sli",
+				"silent_mix_regex"
+			],
+			[
+				"perfor",
+				"performer_files"
+			],
+			[
+				"watch",
+				"watched_movie"
+			],
+			[
+				"Watched",
+				"WatchedPerformer"
+			],
+			[
+				"watched",
+				"watched_people"
+			],
+			[
+				"writing",
+				"writing_credits"
+			],
+			[
+				"conn",
+				"connection_string"
+			],
+			[
+				"New",
+				"NewViewing"
+			],
+			[
+				"write",
+				"write_viewing"
+			],
+			[
+				"get_",
+				"get_date"
+			],
+			[
+				"search",
+				"search_titles"
+			],
+			[
+				"Com",
+				"Commands"
+			],
+			[
+				"performance",
+				"performance_credits"
+			],
+			[
+				"update",
+				"update_query"
+			],
+			[
+				"Watch",
+				"WatchedPersonUpdater"
+			],
+			[
+				"Activ",
+				"ActiveRecord::Base"
+			],
+			[
+				"delgate",
+				"delegate_details"
+			],
+			[
+				"director",
+				"director_credits"
+			],
+			[
+				"upp",
+				"upper_handle"
+			],
+			[
+				"lower",
+				"lower_handle"
+			],
+			[
+				"person",
+				"person_id"
+			],
+			[
+				"average",
+				"average_viewed_billing_query"
+			],
+			[
+				"sortab",
+				"sortable_match"
+			],
+			[
+				"strip",
+				"strip_match_at_index"
+			],
+			[
+				"move",
+				"movie_db_data"
+			],
+			[
+				"File",
+				"FileProcessor"
+			],
+			[
+				"full",
+				"full_name"
+			],
+			[
+				"test_ac",
+				"test_actresses"
+			],
+			[
+				"current",
+				"current_performer"
+			],
+			[
+				"disp",
+				"display_title_weight"
+			],
+			[
+				"display",
+				"display_title"
+			],
+			[
+				"par",
+				"parse_aka_titles_line"
+			],
+			[
+				"disa",
+				"display_title_weight"
+			],
+			[
+				"dispal",
+				"display_title_weight"
+			],
+			[
+				"title",
+				"title_weight"
+			],
+			[
+				"title_is_in",
+				"title_is_international_english_title"
+			],
+			[
+				"parse",
+				"parse_line_for_aka_instance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "spec/console/create_viewing_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "movielog/console/create_viewing.rb",
+			"settings":
+			{
+				"buffer_size": 2264,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/io_helper.rb",
+			"settings":
+			{
+				"buffer_size": 852,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "movielog/shorten_url.rb",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".rubocop.yml",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 65844 files for \"#rubocop:disable\" (regex, case sensitive)\n\n\n\nSearching 65844 files for \"# rubocop:disable\" (regex, case sensitive)\n\n/Users/fshowalt/Workspace/movielog/config.rb:\n  132    end\n  133  \n  134:   # rubocop:disable LineLength\n  135    def grade_to_stars(grade)\n  136      return if grade.blank?\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/http-0.6.2/lib/http/request.rb:\n   71  \n   72      # :nodoc:\n   73:     def initialize(verb, uri, headers = {}, proxy = {}, body = nil, version = '1.1') # rubocop:disable ParameterLists\n   74        @verb   = verb.to_s.downcase.to_sym\n   75        @uri    = uri.is_a?(URI) ? uri : URI(uri.to_s)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/http-0.6.2/lib/http/response.rb:\n   75      alias_method :status_code, :status\n   76  \n   77:     def initialize(status, version, headers, body, uri = nil) # rubocop:disable ParameterLists\n   78        @status, @version, @body, @uri = status, version, body, uri\n   79        @headers = HTTP::Headers.coerce(headers || {})\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/http-0.6.2/lib/http/request/writer.rb:\n    8        VALID_BODY_TYPES = [String, NilClass, Enumerable]\n    9  \n   10:       def initialize(socket, body, headers, headerstart) # rubocop:disable ParameterLists\n   11          @body           = body\n   12          @socket         = socket\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/http-0.6.2/spec/support/example_server.rb:\n    2  \n    3  class ExampleService < WEBrick::HTTPServlet::AbstractServlet\n    4:   PORT = 65432 # rubocop:disable NumericLiterals\n    5  \n    6:   def do_GET(request, response) # rubocop:disable MethodName\n    7      case request.path\n    8      when '/'\n    .\n   57    end\n   58  \n   59:   def do_POST(request, response) # rubocop:disable MethodName\n   60      case request.path\n   61      when '/form'\n   ..\n   80    end\n   81  \n   82:   def do_HEAD(request, response) # rubocop:disable MethodName\n   83      case request.path\n   84      when '/'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core.rb:\n    1: # rubocop:disable FileName\n    2  \n    3  # Setup our load paths\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/cli.rb:\n   31        # @param [Boolean] subcommand\n   32        # @return [void]\n   33:       # rubocop:disable UnusedMethodArgument\n   34        def help(meth=nil, subcommand=false)\n   35          if meth && !self.respond_to?(meth)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/configuration.rb:\n  119        # @param [Symbol] key\n  120        # @param [Object] val\n  121:       # rubocop:disable UselessSetterCall\n  122        def []=(key, val)\n  123          setting_obj = setting(key) || define_setting(key)\n  ...\n  229  \n  230        # Whether or not there has been a value set beyond the default\n  231:       # rubocop:disable TrivialAccessors\n  232        def value_set?\n  233          @value_set\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/extension.rb:\n  131          ext.after_configuration if ext.respond_to?(:after_configuration)\n  132  \n  133:         # rubocop:disable IfUnlessModifier\n  134          if ext.respond_to?(:manipulate_resource_list)\n  135            ext.app.sitemap.register_resource_list_manipulator(ext.class.extension_name, ext)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/preview_server.rb:\n    3  require 'middleman-core/logger'\n    4  \n    5: # rubocop:disable GlobalVars\n    6  module Middleman\n    7    module PreviewServer\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/profiling.rb:\n    2    module Profiling\n    3      # The profiler instance. There can only be one!\n    4:     # rubocop:disable TrivialAccessors\n    5      def self.profiler=(prof)\n    6        @profiler = prof\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/core_extensions/extensions.rb:\n   96          # @param [Symbol, Module] ext Which extension to activate\n   97          # @return [void]\n   98:         # rubocop:disable BlockNesting\n   99          def activate(ext, options={}, &block)\n  100            ext_module = if ext.is_a?(Module)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/core_extensions/rendering.rb:\n    7  \n    8  # Rendering extension\n    9: # rubocop:disable UnderscorePrefixedVariableName\n   10  module Middleman\n   11    module CoreExtensions\n   ..\n  431  \n  432          # The currently rendering engine\n  433:         # rubocop:disable TrivialAccessors\n  434          # @return [Symbol, nil]\n  435          def current_engine=(v)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/core_extensions/request.rb:\n  126          # other classes and instances.\n  127          #\n  128:         # rubocop:disable ClassVars\n  129          # @return [Class]\n  130          def server(&block)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/sitemap/store.rb:\n   56  \n   57        # Rebuild the list of resources from scratch, using registed manipulators\n   58:       # rubocop:disable UnusedMethodArgument\n   59        # @return [void]\n   60        def rebuild_resource_list!(reason=nil)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-core/sitemap/extensions/proxies.rb:\n   18          module ResourceInstanceMethods\n   19            # Whether this page is a proxy\n   20:           # rubocop:disable TrivialAccessors\n   21            # @return [Boolean]\n   22            def proxy?\n   ..\n   54            end\n   55  \n   56:           # rubocop:disable AccessorMethodName\n   57            def get_source_file\n   58              if proxy?\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-core-3.3.5/lib/middleman-more/core_extensions/default_helpers.rb:\n    7  class Padrino::Helpers::OutputHelpers::ErbHandler\n    8    # Force Erb capture not to use safebuffer\n    9:   # rubocop:disable UnderscorePrefixedVariableName\n   10    def capture_from_template(*args, &block)\n   11      self.output_buffer, _buf_was = '', output_buffer\n   ..\n   39  \n   40      # Make all block content html_safe\n   41:     # rubocop:disable Semicolon\n   42      def content_tag(name, content=nil, options=nil, &block)\n   43        if block_given?\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rspec-expectations-3.0.4/lib/rspec/matchers/built_in/raise_error.rb:\n   27          end\n   28  \n   29:         # rubocop:disable MethodLength\n   30          # @private\n   31          def matches?(given_proc, negative_expectation=false, &block)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rspec-expectations-3.0.4/lib/rspec/matchers/built_in/throw_symbol.rb:\n   14          end\n   15  \n   16:         # rubocop:disable MethodLength\n   17          # @private\n   18          def matches?(given_proc)\n   ..\n   49              raise\n   50            ensure\n   51:             # rubocop:disable EnsureReturn\n   52              unless other_exception\n   53                if @expected_symbol.nil?\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/CHANGELOG.md:\n  225  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n  226  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n  227: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n  228  * [#877](https://github.com/bbatsov/rubocop/issues/877): Fix bug in `PercentLiteralDelimiters` concerning auto-correct of regular expressions with interpolation. ([@hannestyden][])\n  229  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/Gemfile:\n   10  \n   11  if File.exist?(local_gemfile)\n   12:   eval(File.read(local_gemfile)) # rubocop:disable Eval\n   13  end\n   14  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/README.md:\n  331  \n  332  ```ruby\n  333: # rubocop:disable LineLength, StringLiterals\n  334  [...]\n  335  # rubocop:enable LineLength, StringLiterals\n  ...\n  339  \n  340  ```ruby\n  341: # rubocop:disable all\n  342  [...]\n  343  # rubocop:enable all\n  ...\n  348  \n  349  ```ruby\n  350: for x in (0..19) # rubocop:disable AvoidFor\n  351  ```\n  352  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/lib/rubocop/source_parser.rb:\n   23        begin\n   24          ast, comments, tokens = parser.tokenize(source_buffer)\n   25:       rescue Parser::SyntaxError # rubocop:disable HandleExceptions\n   26          # All errors are in diagnostics. No need to handle exception.\n   27        end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/lib/rubocop/cop/variable_force.rb:\n   23      #     def after_declaring_variable(variable, variable_table)\n   24      #     end\n   25:     class VariableForce < Force # rubocop:disable ClassLength\n   26        VARIABLE_ASSIGNMENT_TYPE = :lvasgn\n   27        REGEXP_NAMED_CAPTURE_TYPE = :match_with_lvasgn\n   ..\n  103        end\n  104  \n  105:       # rubocop:disable MethodLength, CyclomaticComplexity\n  106        def dispatch_node(node)\n  107          case node.type\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/lib/rubocop/formatter/base_formatter.rb:\n    1  # encoding: utf-8\n    2  \n    3: # rubocop:disable LineLength, UnusedMethodArgument\n    4  \n    5  module Rubocop\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/relnotes/v0.19.0.md:\n   68  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n   69  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n   70: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n   71  \n   72  [@bbatsov]: https://github.com/bbatsov\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/project_spec.rb:\n   77            issues.each do |issue|\n   78              number = issue[:number].gsub(/\\D/, '')\n   79:             pattern = %r{^https://github\\.com/bbatsov/rubocop/(?:issues|pull)/#{number}$} # rubocop:disable LineLength\n   80              expect(issue[:url]).to match(pattern)\n   81            end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/cli_spec.rb:\n  674            create_file('example.rb', ['x = 0 ',\n  675                                       # Disabling comments still apply.\n  676:                                      '# rubocop:disable TrailingWhitespace',\n  677                                       'y = 1  '])\n  678  \n  ...\n 1279        create_file('example.rb',\n 1280                    ['# encoding: utf-8',\n 1281:                    '# rubocop:disable all',\n 1282                     '#' * 90,\n 1283                     'x(123456)',\n ....\n 1303        create_file('example.rb',\n 1304                    ['# encoding: utf-8',\n 1305:                    '# rubocop:disable LineLength,NumericLiterals,' \\\n 1306                     'StringLiterals',\n 1307                     '#' * 90,\n ....\n 1327      it 'can disable all cops on a single line' do\n 1328        create_file('example.rb', ['# encoding: utf-8',\n 1329:                                  'y(\"123\", 123456) # rubocop:disable all'\n 1330                                  ])\n 1331        expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(0)\n ....\n 1336        create_file('example.rb',\n 1337                    ['# encoding: utf-8',\n 1338:                    'a' * 90 + ' # rubocop:disable LineLength',\n 1339                     '#' * 95,\n 1340:                    'y(\"123\") # rubocop:disable LineLength,StringLiterals'\n 1341                    ])\n 1342        expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(1)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/comment_config_spec.rb:\n   11          '# encoding: utf-8',\n   12          '',\n   13:         '# rubocop:disable MethodLength',\n   14          'def some_method',\n   15          \"  puts 'foo'\",\n   ..\n   17          '# rubocop:enable MethodLength',\n   18          '',\n   19:         '# rubocop:disable all',\n   20          'some_method',\n   21          '# rubocop:enable all',\n   22          '',\n   23          \"code = 'This is evil.'\",\n   24:         'eval(code) # rubocop:disable Eval',\n   25          \"puts 'This is not evil.'\",\n   26          '',\n   27          'def some_method',\n   28:         \"  puts 'Disabling indented single line' # rubocop:disable LineLength\",\n   29          'end',\n   30          '',\n   31          'string = <<END',\n   32:         'This is a string not a real comment # rubocop:disable Loop',\n   33          'END',\n   34          '',\n   35:         'foo # rubocop:disable MethodCallParentheses',\n   36          '',\n   37          '# rubocop:enable Void',\n   38          '',\n   39:         '# rubocop:disable For',\n   40          'foo'\n   41        ]\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/options_spec.rb:\n   32          begin\n   33            options.parse(['--help'])\n   34:         rescue SystemExit # rubocop:disable HandleExceptions\n   35          end\n   36  \n   ..\n   85          begin\n   86            options.parse(['--help'])\n   87:         rescue SystemExit # rubocop:disable HandleExceptions\n   88          end\n   89  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/cop/commissioner_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/cop/offense_spec.rb:\n  109  \n  110      # We want a nice table layout, so we allow space inside empty hashes.\n  111:     # rubocop:disable SpaceInsideHashLiteralBraces\n  112      [\n  113        [{                           }, {                           }, 0],\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/cop/lint/block_alignment_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.22.0/spec/rubocop/cop/lint/rescue_exception_spec.rb:\n  130  \n  131      let(:corrected_source) do\n  132:       ['begin', # rubocop:disable WordArray\n  133         'rescue',\n  134         'end'].join(\"\\n\")\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/CHANGELOG.md:\n   14  ### Changes\n   15  \n   16: * [#1097](https://github.com/bbatsov/rubocop/issues/1097): Add optional namespace prefix to cop names: `Style/LineLength` instead of `LineLength` in config files, `--only` argument, `--show-cops` output, and `# rubocop:disable`. ([@jonas054][])\n   17  * [#1075](https://github.com/bbatsov/rubocop/issues/1075): More strict limits on when to require trailing comma. ([@jonas054][])\n   18  * Renamed `Rubocop` module to `RuboCop`. ([@bbatsov][])\n   ..\n  256  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n  257  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n  258: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n  259  * [#877](https://github.com/bbatsov/rubocop/issues/877): Fix bug in `PercentLiteralDelimiters` concerning auto-correct of regular expressions with interpolation. ([@hannestyden][])\n  260  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/Gemfile:\n   10  \n   11  if File.exist?(local_gemfile)\n   12:   eval(File.read(local_gemfile)) # rubocop:disable Lint/Eval\n   13  end\n   14  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/README.md:\n  340  \n  341  ```ruby\n  342: # rubocop:disable Style/LineLength, Style/StringLiterals\n  343  [...]\n  344  # rubocop:enable Style/LineLength, Style/StringLiterals\n  ...\n  348  \n  349  ```ruby\n  350: # rubocop:disable all\n  351  [...]\n  352  # rubocop:enable all\n  ...\n  357  \n  358  ```ruby\n  359: for x in (0..19) # rubocop:disable Style/AvoidFor\n  360  ```\n  361  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/lib/rubocop/source_parser.rb:\n   23        begin\n   24          ast, comments, tokens = parser.tokenize(source_buffer)\n   25:       rescue Parser::SyntaxError # rubocop:disable Lint/HandleExceptions\n   26          # All errors are in diagnostics. No need to handle exception.\n   27        end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/lib/rubocop/cop/variable_force.rb:\n   23      #     def after_declaring_variable(variable, variable_table)\n   24      #     end\n   25:     class VariableForce < Force # rubocop:disable Style/ClassLength\n   26        VARIABLE_ASSIGNMENT_TYPE = :lvasgn\n   27        REGEXP_NAMED_CAPTURE_TYPE = :match_with_lvasgn\n   ..\n  103        end\n  104  \n  105:       # rubocop:disable Style/MethodLength, Style/CyclomaticComplexity\n  106        def dispatch_node(node)\n  107          case node.type\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/lib/rubocop/formatter/base_formatter.rb:\n    1  # encoding: utf-8\n    2  \n    3: # rubocop:disable Style/LineLength, Lint/UnusedMethodArgument\n    4  \n    5  module RuboCop\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/relnotes/v0.19.0.md:\n   68  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n   69  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n   70: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n   71  \n   72  [@bbatsov]: https://github.com/bbatsov\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/relnotes/v0.23.0.md:\n   18  ### Changes\n   19  \n   20: * [#1097](https://github.com/bbatsov/rubocop/issues/1097): Add optional namespace prefix to cop names: `Style/LineLength` instead of `LineLength` in config files, `--only` argument, `--show-cops` output, and `# rubocop:disable`. ([@jonas054][])\n   21  * [#1075](https://github.com/bbatsov/rubocop/issues/1075): More strict limits on when to require trailing comma. ([@jonas054][])\n   22  * Renamed `Rubocop` module to `RuboCop`. ([@bbatsov][])\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/project_spec.rb:\n   77            issues.each do |issue|\n   78              number = issue[:number].gsub(/\\D/, '')\n   79:             pattern = %r{^https://github\\.com/bbatsov/rubocop/(?:issues|pull)/#{number}$} # rubocop:disable Style/LineLength\n   80              expect(issue[:url]).to match(pattern)\n   81            end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/cli_spec.rb:\n  786                        ['x = 0 ',\n  787                         # Disabling comments still apply.\n  788:                        '# rubocop:disable Style/TrailingWhitespace',\n  789                         'y = 1  '])\n  790  \n  ...\n 1392        create_file('example.rb',\n 1393                    ['# encoding: utf-8',\n 1394:                    '# rubocop:disable all',\n 1395                     '#' * 90,\n 1396                     'x(123456)',\n ....\n 1416        create_file('example.rb',\n 1417                    ['# encoding: utf-8',\n 1418:                    '# rubocop:disable Style/LineLength,' \\\n 1419                     'Style/NumericLiterals,Style/StringLiterals',\n 1420                     '#' * 90,\n ....\n 1441      it 'can disable all cops on a single line' do\n 1442        create_file('example.rb', ['# encoding: utf-8',\n 1443:                                  'y(\"123\", 123456) # rubocop:disable all'\n 1444                                  ])\n 1445        expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(0)\n ....\n 1450        create_file('example.rb',\n 1451                    ['# encoding: utf-8',\n 1452:                    'a' * 90 + ' # rubocop:disable Style/LineLength',\n 1453                     '#' * 95,\n 1454:                    'y(\"123\") # rubocop:disable Style/LineLength,' \\\n 1455                     'Style/StringLiterals'\n 1456                    ])\n ....\n 1466          create_file('example.rb',\n 1467                      ['# encoding: utf-8',\n 1468:                      'a' * 90 + ' # rubocop:disable LineLength',\n 1469                       '#' * 95,\n 1470:                      'y(\"123\") # rubocop:disable StringLiterals'\n 1471                      ])\n 1472          expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(1)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/comment_config_spec.rb:\n   11          '# encoding: utf-8',\n   12          '',\n   13:         '# rubocop:disable Style/MethodLength',\n   14          'def some_method',\n   15          \"  puts 'foo'\",\n   ..\n   17          '# rubocop:enable Style/MethodLength',\n   18          '',\n   19:         '# rubocop:disable all',\n   20          'some_method',\n   21          '# rubocop:enable all',\n   22          '',\n   23          \"code = 'This is evil.'\",\n   24:         'eval(code) # rubocop:disable Lint/Eval',\n   25          \"puts 'This is not evil.'\",\n   26          '',\n   27          'def some_method',\n   28:         \"  puts 'Disabling indented single line' # rubocop:disable \" \\\n   29          'Style/LineLength',\n   30          'end',\n   31          '',\n   32          'string = <<END',\n   33:         'This is a string not a real comment # rubocop:disable Style/Loop',\n   34          'END',\n   35          '',\n   36:         'foo # rubocop:disable Style/MethodCallParentheses',\n   37          '',\n   38          '# rubocop:enable Style/Void',\n   39          '',\n   40:         '# rubocop:disable Style/For',\n   41          'foo'\n   42        ]\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/options_spec.rb:\n   32          begin\n   33            options.parse(['--help'])\n   34:         rescue SystemExit # rubocop:disable Lint/HandleExceptions\n   35          end\n   36  \n   ..\n   85          begin\n   86            options.parse(['--help'])\n   87:         rescue SystemExit # rubocop:disable Lint/HandleExceptions\n   88          end\n   89  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/cop/commissioner_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable Style/LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/cop/offense_spec.rb:\n  109  \n  110      # We want a nice table layout, so we allow space inside empty hashes.\n  111:     # rubocop:disable Style/SpaceInsideHashLiteralBraces\n  112      [\n  113        [{                           }, {                           }, 0],\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/cop/lint/block_alignment_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable Style/LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.23.0/spec/rubocop/cop/lint/rescue_exception_spec.rb:\n  130  \n  131      let(:corrected_source) do\n  132:       ['begin', # rubocop:disable Style/WordArray\n  133         'rescue',\n  134         'end'].join(\"\\n\")\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/CHANGELOG.md:\n   97  ### Changes\n   98  \n   99: * [#1097](https://github.com/bbatsov/rubocop/issues/1097): Add optional namespace prefix to cop names: `Style/LineLength` instead of `LineLength` in config files, `--only` argument, `--show-cops` output, and `# rubocop:disable`. ([@jonas054][])\n  100  * [#1075](https://github.com/bbatsov/rubocop/issues/1075): More strict limits on when to require trailing comma. ([@jonas054][])\n  101  * Renamed `Rubocop` module to `RuboCop`. ([@bbatsov][])\n  ...\n  339  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n  340  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n  341: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n  342  * [#877](https://github.com/bbatsov/rubocop/issues/877): Fix bug in `PercentLiteralDelimiters` concerning auto-correct of regular expressions with interpolation. ([@hannestyden][])\n  343  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/Gemfile:\n   12  \n   13  if File.exist?(local_gemfile)\n   14:   eval(File.read(local_gemfile)) # rubocop:disable Lint/Eval\n   15  end\n   16  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/README.md:\n  362  \n  363  ```ruby\n  364: # rubocop:disable Metrics/LineLength, Style/StringLiterals\n  365  [...]\n  366  # rubocop:enable Metrics/LineLength, Style/StringLiterals\n  ...\n  370  \n  371  ```ruby\n  372: # rubocop:disable all\n  373  [...]\n  374  # rubocop:enable all\n  ...\n  379  \n  380  ```ruby\n  381: for x in (0..19) # rubocop:disable Style/AvoidFor\n  382  ```\n  383  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/lib/rubocop/processed_source.rb:\n   59        begin\n   60          @ast, @comments, tokens = parser.tokenize(@buffer)\n   61:       rescue Parser::SyntaxError # rubocop:disable Lint/HandleExceptions\n   62          # All errors are in diagnostics. No need to handle exception.\n   63        end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/lib/rubocop/cop/variable_force.rb:\n   23      #     def after_declaring_variable(variable, variable_table)\n   24      #     end\n   25:     class VariableForce < Force # rubocop:disable Metrics/ClassLength\n   26        VARIABLE_ASSIGNMENT_TYPE = :lvasgn\n   27        REGEXP_NAMED_CAPTURE_TYPE = :match_with_lvasgn\n   ..\n  100        end\n  101  \n  102:       # rubocop:disable Metrics/MethodLength, Metrics/CyclomaticComplexity\n  103        def dispatch_node(node)\n  104          case node.type\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/lib/rubocop/cop/style/indentation_width.rb:\n   13        #  end\n   14        # end\n   15:       class IndentationWidth < Cop # rubocop:disable Metrics/ClassLength\n   16          include AutocorrectAlignment\n   17          include OnMethod\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/lib/rubocop/formatter/base_formatter.rb:\n    1  # encoding: utf-8\n    2  \n    3: # rubocop:disable Metrics/LineLength, Lint/UnusedMethodArgument\n    4  \n    5  module RuboCop\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/relnotes/v0.19.0.md:\n   68  * [#862](https://github.com/bbatsov/rubocop/issues/862): Fix a bug where single line `rubocop:disable` comments with indentations were treated as multiline cop disabling comments. ([@yujinakayama][])\n   69  * Fix a bug where `rubocop:disable` comments with a cop name including `all` (e.g. `MethodCallParentheses`) were disabling all cops. ([@yujinakayama][])\n   70: * Fix a bug where string and regexp literals including `# rubocop:disable` were confused with real comments. ([@yujinakayama][])\n   71  \n   72  [@bbatsov]: https://github.com/bbatsov\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/relnotes/v0.23.0.md:\n   18  ### Changes\n   19  \n   20: * [#1097](https://github.com/bbatsov/rubocop/issues/1097): Add optional namespace prefix to cop names: `Style/LineLength` instead of `LineLength` in config files, `--only` argument, `--show-cops` output, and `# rubocop:disable`. ([@jonas054][])\n   21  * [#1075](https://github.com/bbatsov/rubocop/issues/1075): More strict limits on when to require trailing comma. ([@jonas054][])\n   22  * Renamed `Rubocop` module to `RuboCop`. ([@bbatsov][])\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/project_spec.rb:\n   77            issues.each do |issue|\n   78              number = issue[:number].gsub(/\\D/, '')\n   79:             pattern = %r{^https://github\\.com/bbatsov/rubocop/(?:issues|pull)/#{number}$} # rubocop:disable Metrics/LineLength\n   80              expect(issue[:url]).to match(pattern)\n   81            end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cli_spec.rb:\n  853                        ['x = 0 ',\n  854                         # Disabling comments still apply.\n  855:                        '# rubocop:disable Style/TrailingWhitespace',\n  856                         'y = 1  '])\n  857  \n  ...\n 1471      it 'can disable all cops in a code section' do\n 1472        src = ['# encoding: utf-8',\n 1473:              '# rubocop:disable all',\n 1474               '#' * 90,\n 1475               'x(123456)',\n ....\n 1496        create_file('example.rb',\n 1497                    ['# encoding: utf-8',\n 1498:                    '# rubocop:disable Style/LineLength,' \\\n 1499                     'Style/NumericLiterals,Style/StringLiterals',\n 1500                     '#' * 90,\n ....\n 1524      it 'can disable all cops on a single line' do\n 1525        create_file('example.rb', ['# encoding: utf-8',\n 1526:                                  'y(\"123\", 123456) # rubocop:disable all'\n 1527                                  ])\n 1528        expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(0)\n ....\n 1533        create_file('example.rb',\n 1534                    ['# encoding: utf-8',\n 1535:                    'a' * 90 + ' # rubocop:disable Metrics/LineLength',\n 1536                     '#' * 95,\n 1537:                    'y(\"123\") # rubocop:disable Metrics/LineLength,' \\\n 1538                     'Style/StringLiterals'\n 1539                    ])\n ....\n 1549          create_file('example.rb',\n 1550                      ['# encoding: utf-8',\n 1551:                      'a' * 90 + ' # rubocop:disable LineLength',\n 1552                       '#' * 95,\n 1553:                      'y(\"123\") # rubocop:disable StringLiterals'\n 1554                      ])\n 1555          expect(cli.run(['--format', 'emacs', 'example.rb'])).to eq(1)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/comment_config_spec.rb:\n   11          '# encoding: utf-8',\n   12          '',\n   13:         '# rubocop:disable Metrics/MethodLength',\n   14          'def some_method',\n   15          \"  puts 'foo'\",\n   ..\n   17          '# rubocop:enable Metrics/MethodLength',\n   18          '',\n   19:         '# rubocop:disable all',\n   20          'some_method',\n   21          '# rubocop:enable all',\n   22          '',\n   23          \"code = 'This is evil.'\",\n   24:         'eval(code) # rubocop:disable Lint/Eval',\n   25          \"puts 'This is not evil.'\",\n   26          '',\n   27          'def some_method',\n   28:         \"  puts 'Disabling indented single line' # rubocop:disable \" \\\n   29          'Metrics/LineLength',\n   30          'end',\n   31          '',\n   32          'string = <<END',\n   33:         'This is a string not a real comment # rubocop:disable Style/Loop',\n   34          'END',\n   35          '',\n   36:         'foo # rubocop:disable Style/MethodCallParentheses',\n   37          '',\n   38          '# rubocop:enable Lint/Void',\n   39          '',\n   40:         '# rubocop:disable Style/For',\n   41          'foo'\n   42        ]\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/options_spec.rb:\n   32          begin\n   33            options.parse(['--help'])\n   34:         rescue SystemExit # rubocop:disable Lint/HandleExceptions\n   35          end\n   36  \n   ..\n   85          begin\n   86            options.parse(['--help'])\n   87:         rescue SystemExit # rubocop:disable Lint/HandleExceptions\n   88          end\n   89  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cop/commissioner_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable Metrics/LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cop/offense_spec.rb:\n  109  \n  110      # We want a nice table layout, so we allow space inside empty hashes.\n  111:     # rubocop:disable Style/SpaceInsideHashLiteralBraces\n  112      [\n  113        [{                           }, {                           }, 0],\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cop/lint/block_alignment_spec.rb:\n    1  # encoding: utf-8\n    2: # rubocop:disable Metrics/LineLength\n    3  \n    4  require 'spec_helper'\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cop/lint/rescue_exception_spec.rb:\n  130  \n  131      let(:corrected_source) do\n  132:       ['begin', # rubocop:disable Style/WordArray\n  133         'rescue',\n  134         'end'].join(\"\\n\")\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/rubocop-0.25.0/spec/rubocop/cop/metrics/line_length_spec.rb:\n   41  \n   42      context 'and the excessive characters include a complete URL' do\n   43:       # rubocop:disable Metrics/LineLength\n   44        let(:source) { <<-END }\n   45          # See: http://google.com/, http://gmail.com/, https://maps.google.com/, http://plus.google.com/\n   ..\n   60      context 'and the excessive characters include part of an URL ' \\\n   61              'and another word' do\n   62:       # rubocop:disable Metrics/LineLength\n   63        let(:source) { <<-END }\n   64          # See: https://github.com/bbatsov/rubocop/commit/3b48d8bdf5b1c2e05e35061837309890f04ab08c and\n   ..\n   80      context 'and an error other than URI::InvalidURIError is raised ' \\\n   81              'while validating an URI-ish string' do\n   82:       # rubocop:disable Metrics/LineLength\n   83        let(:source) { <<-END }\n   84          xxxxxxxxxxxxxxxxxxxxxxxxxxxxzxxxxxxxxxxx = LDAP::DEFAULT_GROUP_UNIQUE_MEMBER_LIST_KEY\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sass-3.3.0/lib/sass/exec.rb:\n   18        # @see #parse\n   19        def parse!\n   20:         # rubocop:disable RescueException\n   21          begin\n   22            parse\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sass-3.3.0/lib/sass/util.rb:\n 1150      private\n 1151  \n 1152:     # rubocop:disable LineLength\n 1153  \n 1154      # Calculates the memoization table for the Least Common Subsequence algorithm.\n ....\n 1172        c\n 1173      end\n 1174:     # rubocop:disable ParameterLists, LineLength\n 1175  \n 1176      # Computes a single longest common subsequence for arrays x and y.\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sass-3.3.0/lib/sass/script/tree/funcall.rb:\n   59        keywords = Sass::Util.hash_to_a(@keywords.as_stored).\n   60            map {|k, v| \"$#{k}: #{v.inspect}\"}.join(', ')\n   61:       # rubocop:disable RedundantSelf\n   62        if self.splat\n   63          splat = args.empty? && keywords.empty? ? \"\" : \", \"\n   ..\n   81          map {|k, v| \"$#{dasherize(k, opts)}: #{arg_to_sass[v]}\"}\n   82  \n   83:       # rubocop:disable RedundantSelf\n   84        if self.splat\n   85          splat = \"#{arg_to_sass[self.splat]}...\"\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sass-3.3.0/lib/sass/tree/rule_node.rb:\n  132          # When we get it, we'll set it on the parsed rules if possible.\n  133          parser = Sass::SCSS::StaticParser.new(@rule.join.strip, '', nil, 1)\n  134:         # rubocop:disable RescueModifier\n  135          @parsed_rules = parser.parse_selector rescue nil\n  136          # rubocop:enable RescueModifier\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sass-3.3.0/lib/sass/util/multibyte_string_scanner.rb:\n    2  \n    3  if Sass::Util.ruby1_8?\n    4:   # rubocop:disable ConstantName\n    5    Sass::Util::MultibyteStringScanner = StringScanner\n    6    # rubocop:enable ConstantName\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.24.1/lib/scss_lint/cli.rb:\n   46  \n   47      # @return [OptionParser]\n   48:     def options_parser # rubocop:disable MethodLength\n   49        @options_parser ||= OptionParser.new do |opts|\n   50          opts.banner = \"Usage: #{opts.program_name} [options] [scss-files]\"\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.24.1/lib/scss_lint/sass/script.rb:\n    1  # Ignore documentation lints as these aren't original implementations.\n    2: # rubocop:disable Documentation\n    3  \n    4  module Sass::Script\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.24.1/lib/scss_lint/sass/tree.rb:\n    5  module Sass::Tree\n    6    # Ignore documentation lints as these aren't original implementations.\n    7:   # rubocop:disable Documentation\n    8  \n    9    # Define some common helper code for use in the various monkey patchings.\n   ..\n   68        begin\n   69          additional_children = extract_script_nodes(value)\n   70:       rescue NotImplementedError # rubocop:disable HandleExceptions\n   71          # Directive nodes may not define `value`\n   72        end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.25.1/lib/scss_lint/cli.rb:\n   46  \n   47      # @return [OptionParser]\n   48:     def options_parser # rubocop:disable MethodLength\n   49        @options_parser ||= OptionParser.new do |opts|\n   50          opts.banner = \"Usage: #{opts.program_name} [options] [scss-files]\"\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.25.1/lib/scss_lint/sass/script.rb:\n    1  # Ignore documentation lints as these aren't original implementations.\n    2: # rubocop:disable Documentation\n    3  \n    4  module Sass::Script\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/scss-lint-0.25.1/lib/scss_lint/sass/tree.rb:\n    5  module Sass::Tree\n    6    # Ignore documentation lints as these aren't original implementations.\n    7:   # rubocop:disable Documentation\n    8  \n    9    # Define some common helper code for use in the various monkey patchings.\n   ..\n   68        begin\n   69          additional_children = extract_script_nodes(value)\n   70:       rescue NotImplementedError # rubocop:disable HandleExceptions\n   71          # Directive nodes may not define `value`\n   72        end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor.rb:\n    2  require \"thor/base\"\n    3  \n    4: class Thor # rubocop:disable ClassLength\n    5    class << self\n    6      # Allows for custom \"Command\" package naming.\n    .\n  326  \n  327      # The method responsible for dispatching given the args.\n  328:     def dispatch(meth, given_args, given_opts, config) #:nodoc: # rubocop:disable MethodLength\n  329        meth ||= retrieve_command_name(given_args)\n  330        command = all_commands[normalize_command_name(meth)]\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/actions.rb:\n  130      # Receives a file or directory and search for it in the source paths.\n  131      #\n  132:     def find_in_source_paths(file) # rubocop:disable MethodLength\n  133        possible_files = [file, file + TEMPLATE_EXTNAME]\n  134        relative_root = relative_to_original_destination_root(destination_root, false)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/base.rb:\n   42      # config<Hash>:: Configuration for this Thor class.\n   43      #\n   44:     def initialize(args = [], local_options = {}, config = {}) # rubocop:disable MethodLength\n   45        parse_options = self.class.class_options\n   46  \n   ..\n  206        # ArgumentError:: Raised if you supply a required argument after a non required one.\n  207        #\n  208:       def argument(name, options = {}) # rubocop:disable MethodLength\n  209          is_thor_reserved_word?(name, :argument)\n  210          no_commands { attr_accessor name }\n  ...\n  564          if commands[name.to_s]\n  565            commands[name.to_s]\n  566:         elsif command = all_commands[name.to_s] # rubocop:disable AssignmentInCondition\n  567            commands[name.to_s] = command.clone\n  568          else\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/command.rb:\n  106      end\n  107    end\n  108:   Task = Command # rubocop:disable ConstantName\n  109  \n  110    # A command that is hidden in help messages but still invocable.\n  ...\n  114      end\n  115    end\n  116:   HiddenTask = HiddenCommand # rubocop:disable ConstantName\n  117  \n  118    # A dynamic command that handles method missing scenarios.\n  ...\n  130      end\n  131    end\n  132:   DynamicTask = DynamicCommand # rubocop:disable ConstantName\n  133  end\n  134  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/error.rb:\n   12    class UndefinedCommandError < Error\n   13    end\n   14:   UndefinedTaskError = UndefinedCommandError # rubocop:disable ConstantName\n   15  \n   16    class AmbiguousCommandError < Error\n   17    end\n   18:   AmbiguousTaskError = AmbiguousCommandError # rubocop:disable ConstantName\n   19  \n   20    # Raised when a command was found, but not invoked properly.\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/group.rb:\n    5  # invocations to be done at the class method, which are not available to Thor\n    6  # commands.\n    7: class Thor::Group # rubocop:disable ClassLength\n    8    class << self\n    9      # The description for this Thor::Group. If none is provided, but a source root\n   ..\n   54      # usage. Check invoke_from_option for more information.\n   55      #\n   56:     def invoke(*names, &block) # rubocop:disable MethodLength\n   57        options = names.last.is_a?(Hash) ? names.pop : {}\n   58        verbose = options.fetch(:verbose, true)\n   ..\n  108      # class and the klass to be invoked.\n  109      #\n  110:     def invoke_from_option(*names, &block) # rubocop:disable MethodLength\n  111        options = names.last.is_a?(Hash) ? names.pop : {}\n  112        verbose = options.fetch(:verbose, :white)\n  ...\n  170      # in base_options are not added twice.\n  171      #\n  172:     def get_options_from_invocations(group_options, base_options) #:nodoc: # rubocop:disable MethodLength\n  173        invocations.each do |name, from_option|\n  174          value = if from_option\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/rake_compat.rb:\n   41      task = super\n   42  \n   43:     if klass = Thor::RakeCompat.rake_classes.last # rubocop:disable AssignmentInCondition\n   44        non_namespaced_name = task.name.split(\":\").last\n   45  \n   ..\n   59  \n   60    def namespace(name)\n   61:     if klass = Thor::RakeCompat.rake_classes.last # rubocop:disable AssignmentInCondition\n   62        const_name = Thor::Util.camel_case(name.to_s).to_sym\n   63        klass.const_set(const_name, Class.new(Thor))\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/runner.rb:\n    9  require \"pathname\"\n   10  \n   11: class Thor::Runner < Thor #:nodoc: # rubocop:disable ClassLength\n   12    map \"-T\" => :list, \"-i\" => :install, \"-u\" => :update, \"-v\" => :version\n   13  \n   ..\n   39    desc \"install NAME\", \"Install an optionally named Thor file into your system commands\"\n   40    method_options :as => :string, :relative => :boolean, :force => :boolean\n   41:   def install(name) # rubocop:disable MethodLength\n   42      initialize_thorfiles\n   43  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/util.rb:\n  164        end\n  165  \n  166:       def user_home # rubocop:disable MethodLength\n  167          @@user_home ||= if ENV[\"HOME\"]\n  168            ENV[\"HOME\"]\n  ...\n  217        # installations and windows extensions.\n  218        #\n  219:       def ruby_command # rubocop:disable MethodLength\n  220          @ruby_command ||= begin\n  221            ruby_name = RbConfig::CONFIG[\"ruby_install_name\"]\n  ...\n  236                  ruby = alternate_ruby if linked_ruby == ruby_name || linked_ruby == ruby\n  237                end\n  238:             rescue NotImplementedError # rubocop:disable HandleExceptions\n  239                # just ignore on windows\n  240              end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/actions/directory.rb:\n   73      protected\n   74  \n   75:       def execute! # rubocop:disable MethodLength\n   76          lookup = Util.escape_globs(source)\n   77          lookup = config[:recursive] ? File.join(lookup, \"**\") : lookup\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/core_ext/ordered_hash.rb:\n   24  \n   25          def []=(key, value)\n   26:           if node = @hash[key] # rubocop:disable AssignmentInCondition\n   27              node.value = value\n   28            else\n   ..\n   43  \n   44          def delete(key)\n   45:           if node = @hash[key] # rubocop:disable AssignmentInCondition\n   46              prev_node = node.prev\n   47              next_node = node.next\n   ..\n   72            yield [@first.key, @first.value]\n   73            node = @first\n   74:           yield [node.key, node.value] while node = node.next # rubocop:disable AssignmentInCondition\n   75            self\n   76          end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/parser/arguments.rb:\n    1  class Thor\n    2:   class Arguments #:nodoc: # rubocop:disable ClassLength\n    3      NUMERIC = /(\\d*\\.\\d+|\\d+)/\n    4  \n    .\n   50      end\n   51  \n   52:     def remaining # rubocop:disable TrivialAccessors\n   53        @pile\n   54      end\n   ..\n  151        else\n  152          value = shift\n  153:         if @switches.is_a?(Hash) && switch = @switches[name] # rubocop:disable AssignmentInCondition\n  154            if switch.enum && !switch.enum.include?(value)\n  155              fail MalformattedArgumentError, \"Expected '#{name}' to be one of #{switch.enum.join(', ')}; got #{value}\"\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/parser/option.rb:\n   41      # By default all options are optional, unless :required is given.\n   42      #\n   43:     def self.parse(key, value) # rubocop:disable MethodLength\n   44        if key.is_a?(Array)\n   45          name, *aliases = key\n   ..\n   56                 if VALID_TYPES.include?(value)\n   57                   value\n   58:                elsif required = (value == :required) # rubocop:disable AssignmentInCondition\n   59                   :string\n   60                 end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/parser/options.rb:\n    1  class Thor\n    2:   class Options < Arguments #:nodoc: # rubocop:disable ClassLength\n    3      LONG_RE     = /^(--\\w+(?:-\\w+)*)$/\n    4      SHORT_RE    = /^(-[a-z])$/i\n    .\n   53      end\n   54  \n   55:     def remaining # rubocop:disable TrivialAccessors\n   56        @extra\n   57      end\n   ..\n   70      end\n   71  \n   72:     def parse(args) # rubocop:disable MethodLength\n   73        @pile = args.dup\n   74        @parsing_options = true\n   ..\n  158  \n  159      def switch_option(arg)\n  160:       if match = no_or_skip?(arg) # rubocop:disable AssignmentInCondition\n  161          @switches[arg] || @switches[\"--#{match}\"]\n  162        else\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/lib/thor/shell/basic.rb:\n    4  class Thor\n    5    module Shell\n    6:     class Basic # rubocop:disable ClassLength\n    7        attr_accessor :base\n    8        attr_reader   :padding\n    .\n   25        # Check if base is muted\n   26        #\n   27:       def mute? # rubocop:disable TrivialAccessors\n   28          @mute\n   29        end\n   ..\n  146        # colwidth<Integer>:: Force the first column to colwidth spaces wide.\n  147        #\n  148:       def print_table(array, options = {}) # rubocop:disable MethodLength\n  149          return if array.empty?\n  150  \n  ...\n  231        # block<Proc>:: an optional block that returns the value to be used in diff\n  232        #\n  233:       def file_collision(destination) # rubocop:disable MethodLength\n  234          return true if @always_force\n  235          options = block_given? ? \"[Ynaqdh]\" : \"[Ynaqh]\"\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/spec/util_spec.rb:\n  132        expect(File).to receive(:expand_path).with(\"~\").and_raise(RuntimeError)\n  133        previous_value = File::ALT_SEPARATOR\n  134:       capture(:stderr) { File.const_set(:ALT_SEPARATOR, false) } # rubocop:disable SymbolName\n  135        expect(Thor::Util.user_home).to eq(\"/\")\n  136:       capture(:stderr) { File.const_set(:ALT_SEPARATOR, previous_value) } # rubocop:disable SymbolName\n  137      end\n  138  \n  ...\n  140        expect(File).to receive(:expand_path).with(\"~\").and_raise(RuntimeError)\n  141        previous_value = File::ALT_SEPARATOR\n  142:       capture(:stderr) { File.const_set(:ALT_SEPARATOR, true) } # rubocop:disable SymbolName\n  143        expect(Thor::Util.user_home).to eq(\"C:/\")\n  144:       capture(:stderr) { File.const_set(:ALT_SEPARATOR, previous_value) } # rubocop:disable SymbolName\n  145      end\n  146  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/thor-0.19.1/spec/actions/file_manipulation_spec.rb:\n   30    describe \"#chmod\" do\n   31      it \"executes the command given\" do\n   32:       expect(FileUtils).to receive(:chmod_R).with(0755, file) # rubocop:disable SymbolName\n   33        action :chmod, \"foo\", 0755\n   34      end\n   35  \n   36      it \"does not execute the command if pretending\" do\n   37:       expect(FileUtils).not_to receive(:chmod_R) # rubocop:disable SymbolName\n   38        runner(:pretend => true)\n   39        action :chmod, \"foo\", 0755\n   ..\n   41  \n   42      it \"logs status\" do\n   43:       expect(FileUtils).to receive(:chmod_R).with(0755, file) # rubocop:disable SymbolName\n   44        expect(action(:chmod, \"foo\", 0755)).to eq(\"       chmod  foo\\n\")\n   45      end\n   46  \n   47      it \"does not log status if required\" do\n   48:       expect(FileUtils).to receive(:chmod_R).with(0755, file) # rubocop:disable SymbolName\n   49        expect(action(:chmod, \"foo\", 0755, :verbose => false)).to be_empty\n   50      end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/error.rb:\n   29        ENDPOINT_RETIRED             = 251\n   30      end\n   31:     Codes = Code # rubocop:disable ConstantName\n   32  \n   33      class << self\n   ..\n  131      # Raised when a Tweet has already been posted\n  132      class DuplicateStatus < Forbidden; end\n  133:     AlreadyPosted = DuplicateStatus # rubocop:disable ConstantName\n  134  \n  135      # Raised when Twitter returns the HTTP status code 404\n  ...\n  147      # Raised when Twitter returns the HTTP status code 429\n  148      class TooManyRequests < ClientError; end\n  149:     EnhanceYourCalm = TooManyRequests # rubocop:disable ConstantName\n  150:     RateLimited = TooManyRequests # rubocop:disable ConstantName\n  151  \n  152      # Raised when Twitter returns a 5xx HTTP status code\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/place.rb:\n   24      # @return [String]\n   25      def country_code\n   26:       @attrs[:country_code] || @attrs[:countryCode] # rubocop:disable SymbolName\n   27      end\n   28      memoize :country_code\n   ..\n   36      # @return [String]\n   37      def place_type\n   38:       @attrs[:place_type] || @attrs[:placeType] && @attrs[:placeType][:name] # rubocop:disable SymbolName\n   39      end\n   40      memoize :place_type\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/tweet.rb:\n   44      alias_method :url, :uri\n   45    end\n   46:   Status = Tweet # rubocop:disable ConstantName\n   47  end\n   48  \n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/entity/uri.rb:\n    9  \n   10      URL = URI\n   11:     Uri = URI # rubocop:disable ConstantName\n   12:     Url = URI # rubocop:disable ConstantName\n   13    end\n   14  end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/rest/lists.rb:\n  451        # @param list [Integer, String, URI, Twitter::List] A Twitter list ID, slug, URI, or object.\n  452        # @return [Hash]\n  453:       def merge_list!(hash, list) # rubocop:disable MethodLength\n  454          case list\n  455          when Integer\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/rest/utils.rb:\n   53        # @param options [Hash]\n   54        # @param klass [Class]\n   55:       def perform_with_cursor(request_method, path, options, collection_name, klass = nil) # rubocop:disable ParameterLists\n   56          merge_default_cursor!(options)\n   57          request = Twitter::Request.new(self, request_method, path, options)\n   ..\n  109        # @param args [Array]\n  110        # @return [Twitter::Cursor]\n  111:       def cursor_from_response_with_user(collection_name, klass, request_method, path, args) # rubocop:disable ParameterLists\n  112          arguments = Twitter::Arguments.new(args)\n  113          merge_user!(arguments.options, arguments.pop || user_id) unless arguments.options[:user_id] || arguments.options[:screen_name]\n  ...\n  185        end\n  186  \n  187:       def collect_user_ids_and_screen_names(users) # rubocop:disable MethodLength\n  188          user_ids, screen_names = [], []\n  189          users.flatten.each do |user|\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/streaming/client.rb:\n  110          request  = HTTP::Request.new(method, uri + '?' + to_url_params(params), headers)\n  111          response = Streaming::Response.new do |data|\n  112:           if item = Streaming::MessageParser.parse(data) # rubocop:disable AssignmentInCondition, IfUnlessModifier\n  113              yield(item)\n  114            end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/streaming/connection.rb:\n   19          ssl_client.connect\n   20          request.stream(ssl_client)\n   21:         while body = ssl_client.readpartial(1024) # rubocop:disable AssignmentInCondition, WhileUntilModifier\n   22            response << body\n   23          end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/streaming/deleted_tweet.rb:\n    4        attr_reader :user_id\n    5      end\n    6:     DeletedStatus = DeletedTweet # rubocop:disable ConstantName\n    7    end\n    8  end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/lib/twitter/streaming/message_parser.rb:\n    9    module Streaming\n   10      class MessageParser\n   11:       def self.parse(data) # rubocop:disable CyclomaticComplexity\n   12          if data[:id]\n   13            Tweet.new(data)\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/spec/twitter/place_spec.rb:\n  108      end\n  109      it 'returns a country code when set with countryCode' do\n  110:       place = Twitter::Place.new(:woeid => '247f43d441defc03', :countryCode => 'US') # rubocop:disable SymbolName\n  111        expect(place.country_code).to eq('US')\n  112      end\n  ...\n  134      end\n  135      it 'returns a place type when set with placeType[name]' do\n  136:       place = Twitter::Place.new(:woeid => '247f43d441defc03', :placeType => {:name => 'Town'}) # rubocop:disable SymbolName\n  137        expect(place.place_type).to eq('Town')\n  138      end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/twitter-5.11.0/spec/twitter/settings_spec.rb:\n    5    describe '#trend_location' do\n    6      it 'returns a Twitter::Place when trend_location is set' do\n    7:       settings = Twitter::Settings.new(:trend_location => {:countryCode => 'US', :name => 'San Francisco', :country => 'United States', :placeType => {:name => 'Town', :code => 7}, :woeid => 2_487_956, :parentid => 23_424_977, :url => 'http://where.yahooapis.com/v1/place/2487956'}) # rubocop:disable SymbolName\n    8        expect(settings.trend_location).to be_a Twitter::Place\n    9      end\n   ..\n   16    describe '#trend_location?' do\n   17      it 'returns true when trend_location is set' do\n   18:       settings = Twitter::Settings.new(:trend_location => {:countryCode => 'US', :name => 'San Francisco', :country => 'United States', :placeType => {:name => 'Town', :code => 7}, :woeid => 2_487_956, :parentid => 23_424_977, :url => 'http://where.yahooapis.com/v1/place/2487956'}) # rubocop:disable SymbolName\n   19        expect(settings.trend_location?).to be true\n   20      end\n\n/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/uglifier-2.5.3/lib/uglifier.rb:\n   72    # Default options for compilation\n   73    DEFAULTS = {\n   74:     # rubocop:disable LineLength\n   75      :output => {\n   76        :ascii_only => true, # Escape non-ASCII characterss\n\n213 matches across 109 files\n",
+			"settings":
+			{
+				"buffer_size": 57874,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 9367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "movielog/parse_reviews.rb",
+			"settings":
+			{
+				"buffer_size": 836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "movielog/parse_viewings.rb",
+			"settings":
+			{
+				"buffer_size": 439,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"form",
+				"Format: Ruby"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rub",
+				"RuboCop: Check current project"
+			],
+			[
+				"rubo",
+				"RuboCop: Check current file"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"for",
+				"Format: Ruby"
+			],
+			[
+				"fo",
+				"Format: Ruby"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"SAS",
+				"SassBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"SassBeautify"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"nw",
+				"File: New File Relative to Current View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 534.0
+	},
+	"console":
+	{
+		"height": 305.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fshowalt/Workspace/movielog/movielog/console/create_review.rb",
+		"/Users/fshowalt/Workspace/movielog/spec/console/create_review_tweet_spec.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/movielog.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/shorten_url.rb",
+		"/Users/fshowalt/Workspace/movielog/twitter.yml",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/create_review_tweet.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/create_feature.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/slugize.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/create_viewing.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/create_review.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/create_review_tweet.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/create_viewing.rb",
+		"/Users/fshowalt/Workspace/movielog/spec/console/create_viewing.rb",
+		"/Users/fshowalt/Workspace/movielog/spec/console/create_review_spec.rb",
+		"/Users/fshowalt/Workspace/movielog/spec/spec_helper.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/create_feature.rb",
+		"/Users/fshowalt/Workspace/movielog/spec/console/create_feature_spec.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/bold.rb",
+		"/Users/fshowalt/Workspace/movielog/Gemfile",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/ask_for_title.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/get_title.rb",
+		"/Users/fshowalt/Workspace/movielog/reviews/stake-land-2010.md",
+		"/Users/fshowalt/Workspace/movielog/bin/movielog",
+		"/Users/fshowalt/Workspace/movielog/movielog/console/get_date.rb",
+		"/Users/fshowalt/Workspace/movielog/viewings/0422-sightseers-2012.yml",
+		"/Users/fshowalt/Workspace/movielog/spec/support/io_helper.rb",
+		"/Users/fshowalt/Workspace/movielog/config.rb",
+		"/Users/fshowalt/Workspace/movielog/source/index.html.haml",
+		"/Users/fshowalt/Workspace/movielog/source/viewings.html.haml",
+		"/Users/fshowalt/Workspace/movielog/source/stylesheets/application.css.scss",
+		"/Users/fshowalt/Workspace/movielog/source/feature.html.haml",
+		"/Users/fshowalt/Workspace/movielog/reviews/thief-1981.md",
+		"/Users/fshowalt/Workspace/movielog/features/welcome-back.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/crave-2012-i.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/support-your-local-sheriff-1969.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/psycho-circus-1967.md",
+		"/Users/fshowalt/Workspace/movielog/source/review.html.haml",
+		"/Users/fshowalt/Workspace/movielog/viewings/0213-frankenstein-and-the-monster-from-hell-1974.yml",
+		"/Users/fshowalt/Workspace/movielog/viewings/0239-lisa-and-the-devil-1976.yml",
+		"/Users/fshowalt/Workspace/movielog/movielog.rb",
+		"/Users/fshowalt/Workspace/movielog/build/stylesheets/application.css",
+		"/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/middleman-autoprefixer-1.1.2/lib/middleman-autoprefixer/processor.rb",
+		"/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sprockets-sass-1.1.0/lib/sprockets/sass/sass_template.rb",
+		"/Users/fshowalt/Workspace/movielog/source/feed.xml.haml",
+		"/Users/fshowalt/Workspace/movielog/source/layouts/layout.haml",
+		"/Users/fshowalt/Workspace/movielog/viewings/0399-stake-land-2010.yml",
+		"/Users/fshowalt/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/fshowalt/Workspace/movielog/source/favicon.ico",
+		"/Users/fshowalt/Workspace/movielog/movielog/app.rb",
+		"/Users/fshowalt/Workspace/movielog/helpers/movielog_helpers.rb",
+		"/Users/fshowalt/Workspace/movielog/helpers/filter_helpers.rb",
+		"/Users/fshowalt/Workspace/movielog/source/javascripts/application.js.coffee",
+		"/Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss",
+		"/Users/fshowalt/Workspace/movielog/helpers/rating_helpers.rb",
+		"/Users/fshowalt/Workspace/movielog/viewings/0374-nightmare-city-1983.yml",
+		"/Users/fshowalt/Workspace/movielog/viewings/0374-incubo-sulla-citt-contaminata-1980.yml",
+		"/Users/fshowalt/Workspace/movielog/viewings-old/0239-lisa-and-the-devil-1972.yml",
+		"/Users/fshowalt/Workspace/booklog/atom.xml",
+		"/Users/fshowalt/Workspace/movielog/source/CNAME",
+		"/Users/fshowalt/Workspace/movielog/config.yml",
+		"/Users/fshowalt/Workspace/movielog/reviews/the-thin-man-1934.md",
+		"/Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css",
+		"/Users/fshowalt/Workspace/movielog/movielog/parse_reviews.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/parse_features.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/feature.rb",
+		"/Users/fshowalt/Workspace/movielog/movielog/review.rb",
+		"/Users/fshowalt/Workspace/movielog/reviews/a-nightmare-on-elm-street-3-dream-warriors-1987.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/black-legion-1937.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/city-of-the-living-dead-1983.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/men-are-such-fools-1938.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/prometheus-2012-i.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/soldier-in-the-rain-1963.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/the-blob-1988.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/the-thing-1982.md",
+		"/Users/fshowalt/Workspace/movielog/reviews/the-wagons-roll-at-night-1941.md",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.7C8552AC-F6F1-4FEF-98BA-82481AF6674F/lib/tagdefinitions.rb",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.7C8552AC-F6F1-4FEF-98BA-82481AF6674F/pair.rb",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.7C8552AC-F6F1-4FEF-98BA-82481AF6674F/lib/dmapparser.rb",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.ADBCE169-F3DB-48F7-B205-C6EC983C334E/vendor/bundle/gems/dnssd-2.0/lib/dnssd.rb",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.ADBCE169-F3DB-48F7-B205-C6EC983C334E/vendor/bundle/gems/dnssd-2.0/lib/dnssd/dnssd.rb",
+		"/Users/fshowalt/Library/Application",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.ADBCE169-F3DB-48F7-B205-C6EC983C334E/Support/Alfred",
+		"/Users/fshowalt/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.ADBCE169-F3DB-48F7-B205-C6EC983C334E/2/Alfred.alfredpreferences/workflows/user.workflow.ADBCE169-F3DB-48F7-B205-C6EC983C334E/vendor/bundle/gems/dnssd-2.0/lib/dnssd.rb",
+		"/Users/fshowalt/Workspace/movielog/source/javascripts/all.js",
+		"/Users/fshowalt/Downloads/star-half-2.svg",
+		"/Users/fshowalt/Downloads/star3.svg",
+		"/Users/fshowalt/Downloads/optimised (3).svg",
+		"/Users/fshowalt/Downloads/ratings-big/fonts/ratings-big.svg",
+		"/Users/fshowalt/Downloads/star-empty.svg",
+		"/Users/fshowalt/Downloads/star-half.svg",
+		"/Users/fshowalt/Downloads/star.svg",
+		"/Users/fshowalt/Workspace/movielog/movielog/parse_viewings.rb",
+		"/Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/app.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/index_movie_tables.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/sync_movies.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/sync_cast_and_crew.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/create_movie_tables.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/bulk_insert.rb",
+		"/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sqlite3-1.3.9/lib/sqlite3/database.rb",
+		"/Users/fshowalt/Workspace/movielog/vendor/bundle/gems/sixarm_ruby_unaccent-1.1.0/lib/sixarm_ruby_unaccent.rb",
+		"/Users/fshowalt/Workspace/movie_db/doc/MovieDb/ExtractAkaTitles.html",
+		"/Users/fshowalt/Workspace/movie_db/.yardopts",
+		"/Users/fshowalt/Workspace/movie_db/Gemfile",
+		"/Users/fshowalt/Workspace/movie_db/movie_db.gemspec",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_writers.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/version.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/strip_match_at_index.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_performers.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_release_dates.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_aka_titles.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/download_and_extract_data.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_directors.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/title_match.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/person_match.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/extract_person.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/with_cache.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/spec_helper.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db/download_data.rb",
+		"/Users/fshowalt/Workspace/movie_db/lib/movie_db.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_release_dates_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_performers_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_aka_titles_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_writers_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/download_data_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_directors_spec.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/support/file_processor_macros.rb",
+		"/Users/fshowalt/Workspace/movie_db/spec/extract_titles_spec.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"# rubocop:disable",
+			"#rubocop:disable",
+			"search",
+			"db_path",
+			"Hell (1973)",
+			"#579",
+			"#579\n",
+			".nav",
+			"', \\}",
+			"' ",
+			"href=",
+			"sizes=",
+			">",
+			"\"",
+			"rel=\"",
+			"<link",
+			"\"",
+			"extend",
+			"400",
+			"600",
+			"800",
+			"700",
+			"75rem",
+			".sidebar-toggle",
+			".site-foo",
+			".list-item",
+			"masthead-ti",
+			"pagein",
+			".mast",
+			"list-item-tit",
+			"list",
+			"star",
+			"toggle",
+			"sidebar",
+			"title",
+			"nav",
+			"toggle",
+			"site-footer",
+			"HA",
+			"haml",
+			"itemscope: nil",
+			"rating",
+			"star",
+			"twitter",
+			"header",
+			"heading",
+			"header",
+			"missed",
+			"PT",
+			"performance",
+			"disable",
+			"rubocop:disable",
+			"rubocop",
+			"StripMatchAtIndex",
+			"person_match",
+			"credit_match",
+			"title_regex",
+			"aka_instance_reg",
+			" title_regex",
+			"sortable_title_regex",
+			"usa_display_title_regex",
+			"person_match",
+			"\"",
+			"average_viewed_billing",
+			"\"",
+			"try",
+			"blank?",
+			"director",
+			" })",
+			"\"",
+			":dependent => ",
+			":default => ",
+			"=> ",
+			":unique => ",
+			":force => ",
+			":name => ",
+			":options => ",
+			":null => false",
+			"prefix:  ",
+			":to => ",
+			":prefix =>",
+			"delegate :director_credits, to: :movie, :prefix => false\n  delegate :display_title, to: :movie, :prefix => false\n  delegate :display_title_without_year, :to => :movie, :prefix => false\n  delegate :headline_cast, :to => :movie, :prefix => false\n  delegate :headline_writers, :to => :movie, :prefix => false\n  delegate :sortable_title, :to => :movie, :prefix => false\n  delegate :thumb, :to => :poster, :prefix => true\n  delegate :year, :to => :movie, :prefix => false\n  delegate :release_date, :to => :movie, :prefix => false\n  delegate :value, :to => :rating, :prefix => true, :allow_nil => true\n  delegate :text, :to => :rating, :prefix => true, :allow_nil => true\n\n  delegate :headline_cast, :to => :movie, :prefix => false\n  delegate :watched_directors, :to => :movie, :prefix => false\n  delegate :watched_writers, :to => :movie, :prefix => false\n  delegate :watched_cinematographers, :to => :movie, :prefix => false\n  delegate :watched_performers, :to => :movie, :prefix => false\n  delegate :other_titles, :to => :movie\n  delegate :count, :to => :viewings, :prefix => true\n",
+			"inline_form_field",
+			"-panel",
+			"- panel",
+			"= panel",
+			"=panel",
+			"grid",
+			"= grid",
+			"=grid",
+			"grid",
+			"grid_helper",
+			"font-size.*px",
+			"margin.*px",
+			"padding.*px",
+			"260px;",
+			"padding-left: 25px;",
+			"padding-left:25px;",
+			"padding-right: 1.375rem;",
+			"padding-top: 2.5rem",
+			"font-size: 2em",
+			"font-size: 20px",
+			"34px",
+			"1.4rem",
+			"41.5",
+			".725rem",
+			"padding.*20px",
+			"padding*20px",
+			"padding-right: 20px",
+			"padding-right: 4px",
+			"padding-right: 3px",
+			"40px",
+			"padding-top:40px",
+			"padding-top: .725",
+			"padding-top:.725",
+			"padding-top:7.25rem;",
+			"padding-top: 7.25rem;",
+			"margin-left: 20px;",
+			"margin-left",
+			"margin-bottom: 1.45rem;",
+			"font-size: 2em",
+			"font-size: 24",
+			"font-size: 1.3rem",
+			"font-size: 1rem",
+			"font-size: 15",
+			"font-size: .89",
+			"font-size: .889",
+			"font-size: .76"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$highlight",
+			"' }",
+			"', ",
+			"href: ",
+			"sizes: ",
+			" }",
+			"'",
+			"rel: '",
+			"%link{",
+			"'",
+			"itemscope: true",
+			"#{credit}",
+			"'",
+			"writer",
+			"'",
+			"dependent: ",
+			"default: ",
+			"unique: ",
+			"force: ",
+			"name: ",
+			"options: ",
+			"null: false",
+			"prefix: ",
+			"to: ",
+			"prefix: ",
+			"delegate :director_credits, to: :movie, :prefix => false\n  delegate :display_title, to: :movie, :prefix => false\n  delegate :display_title_without_year, :to => :movie, :prefix => false\n  delegate :headline_cast, :to => :movie, :prefix => false\n  delegate :headline_writers, :to => :movie, :prefix => false\n  delegate :sortable_title, :to => :movie, :prefix => false\n  delegate :thumb, :to => :poster, :prefix => true\n  delegate :year, :to => :movie, :prefix => false\n  delegate :release_date, :to => :movie, :prefix => false\n  delegate :value, :to => :rating, :prefix => true, :allow_nil => true\n  delegate :text, :to => :rating, :prefix => true, :allow_nil => true\n\n  delegate :headline_cast, :to => :movie, :prefix => false\n  delegate :watched_directors, :to => :movie, :prefix => false\n  delegate :watched_writers, :to => :movie, :prefix => false\n  delegate :watched_cinematographers, :to => :movie, :prefix => false\n  delegate :watched_performers, :to => :movie, :prefix => false\n  delegate :other_titles, :to => :movie\n  delegate :count, :to => :viewings, :prefix => true\n",
+			"bp-mama-bear",
+			"",
+			"to: ",
+			"delegate",
+			"month: ",
+			"year: ",
+			"from: ",
+			"with: ",
+			"watched_movie",
+			"WatchedMovie",
+			"Venue",
+			"venue",
+			"Tag",
+			"tag",
+			"'",
+			"###\nListen for filter changes.\n###\n$(document).on \"changed.movielog.filter\", \"[data-filter-controls]\", (e) ->\n  lazyFilter(e)\n\n###\nListen for sort changes.\n###\n$(document).on \"changed.movielog.sort\", \"[data-filter-controls]\", (e) ->\n  $this = $(e.currentTarget)\n  $target = $(e.relatedTarget)",
+			"###\nListen for filter changes.\n###\n$(document).on \"changed.movielog.filter\", \"[data-filter-controls]\", (e) ->\n  lazyFilter(e)\n\n###\nListen for sort changes.\n###\n$(document).on \"changed.movielog.sort\", \"[data-filter-controls]\", (e) ->",
+			"<td class=\"day\" id",
+			"<td class=\"day ",
+			"<td class=\"day\">",
+			"<td class=\"day ",
+			"<td class=\"day\">",
+			"<td class=\"day>",
+			"<td class=\"day ",
+			"<td class=\"day\">",
+			"create",
+			"watched_movie",
+			"viewing",
+			"venue",
+			"tag",
+			"create",
+			", ",
+			": ",
+			", ",
+			": ",
+			", ",
+			": ",
+			", ",
+			": ",
+			"\"",
+			"cinematographer",
+			"writer",
+			"director",
+			"href: ",
+			"cinematographer",
+			"\"",
+			"writer",
+			"cinematographer",
+			"writer",
+			"director",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spec/console/create_viewing_spec.rb",
+					"settings":
+					{
+						"buffer_size": 2664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2137,
+								2137
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "movielog/console/create_viewing.rb",
+					"settings":
+					{
+						"buffer_size": 2264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2038,
+								2038
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spec/support/io_helper.rb",
+					"settings":
+					{
+						"buffer_size": 852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "movielog/shorten_url.rb",
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								813
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".rubocop.yml",
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 57874,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										219,
+										236
+									],
+									[
+										525,
+										542
+									],
+									[
+										878,
+										895
+									],
+									[
+										1273,
+										1290
+									],
+									[
+										1580,
+										1597
+									],
+									[
+										1661,
+										1678
+									],
+									[
+										1806,
+										1823
+									],
+									[
+										1955,
+										1972
+									],
+									[
+										2139,
+										2156
+									],
+									[
+										2393,
+										2410
+									],
+									[
+										2728,
+										2745
+									],
+									[
+										2963,
+										2980
+									],
+									[
+										3264,
+										3281
+									],
+									[
+										3627,
+										3644
+									],
+									[
+										3915,
+										3932
+									],
+									[
+										4262,
+										4279
+									],
+									[
+										4566,
+										4583
+									],
+									[
+										4747,
+										4764
+									],
+									[
+										5060,
+										5077
+									],
+									[
+										5376,
+										5393
+									],
+									[
+										5734,
+										5751
+									],
+									[
+										5886,
+										5903
+									],
+									[
+										6237,
+										6254
+									],
+									[
+										6467,
+										6484
+									],
+									[
+										6757,
+										6774
+									],
+									[
+										7057,
+										7074
+									],
+									[
+										7228,
+										7245
+									],
+									[
+										7861,
+										7878
+									],
+									[
+										8294,
+										8311
+									],
+									[
+										8447,
+										8464
+									],
+									[
+										8592,
+										8609
+									],
+									[
+										8708,
+										8725
+									],
+									[
+										8983,
+										9000
+									],
+									[
+										9349,
+										9366
+									],
+									[
+										9531,
+										9548
+									],
+									[
+										9802,
+										9819
+									],
+									[
+										10404,
+										10421
+									],
+									[
+										10818,
+										10835
+									],
+									[
+										11198,
+										11215
+									],
+									[
+										11420,
+										11437
+									],
+									[
+										11638,
+										11655
+									],
+									[
+										11949,
+										11966
+									],
+									[
+										12220,
+										12237
+									],
+									[
+										12323,
+										12340
+									],
+									[
+										12649,
+										12666
+									],
+									[
+										12836,
+										12853
+									],
+									[
+										13016,
+										13033
+									],
+									[
+										13193,
+										13210
+									],
+									[
+										13350,
+										13367
+									],
+									[
+										13436,
+										13453
+									],
+									[
+										13572,
+										13589
+									],
+									[
+										13829,
+										13846
+									],
+									[
+										13994,
+										14011
+									],
+									[
+										14197,
+										14214
+									],
+									[
+										14467,
+										14484
+									],
+									[
+										14756,
+										14773
+									],
+									[
+										15008,
+										15025
+									],
+									[
+										15419,
+										15436
+									],
+									[
+										16090,
+										16107
+									],
+									[
+										16523,
+										16540
+									],
+									[
+										16681,
+										16698
+									],
+									[
+										16850,
+										16867
+									],
+									[
+										16966,
+										16983
+									],
+									[
+										17247,
+										17264
+									],
+									[
+										17618,
+										17635
+									],
+									[
+										17806,
+										17823
+									],
+									[
+										18089,
+										18106
+									],
+									[
+										18702,
+										18719
+									],
+									[
+										19163,
+										19180
+									],
+									[
+										19685,
+										19702
+									],
+									[
+										20029,
+										20046
+									],
+									[
+										20243,
+										20260
+									],
+									[
+										20461,
+										20478
+									],
+									[
+										20790,
+										20807
+									],
+									[
+										21061,
+										21078
+									],
+									[
+										21170,
+										21187
+									],
+									[
+										21423,
+										21440
+									],
+									[
+										21530,
+										21547
+									],
+									[
+										21849,
+										21866
+									],
+									[
+										22048,
+										22065
+									],
+									[
+										22228,
+										22245
+									],
+									[
+										22410,
+										22427
+									],
+									[
+										22593,
+										22610
+									],
+									[
+										22685,
+										22702
+									],
+									[
+										22833,
+										22850
+									],
+									[
+										23096,
+										23113
+									],
+									[
+										23266,
+										23283
+									],
+									[
+										23474,
+										23491
+									],
+									[
+										23750,
+										23767
+									],
+									[
+										24045,
+										24062
+									],
+									[
+										24303,
+										24320
+									],
+									[
+										24720,
+										24737
+									],
+									[
+										25391,
+										25408
+									],
+									[
+										25824,
+										25841
+									],
+									[
+										25982,
+										25999
+									],
+									[
+										26155,
+										26172
+									],
+									[
+										26271,
+										26288
+									],
+									[
+										26551,
+										26568
+									],
+									[
+										26922,
+										26939
+									],
+									[
+										27112,
+										27129
+									],
+									[
+										27443,
+										27460
+									],
+									[
+										27708,
+										27725
+									],
+									[
+										28323,
+										28340
+									],
+									[
+										28784,
+										28801
+									],
+									[
+										29306,
+										29323
+									],
+									[
+										29652,
+										29669
+									],
+									[
+										29873,
+										29890
+									],
+									[
+										30079,
+										30096
+									],
+									[
+										30408,
+										30425
+									],
+									[
+										30679,
+										30696
+									],
+									[
+										30790,
+										30807
+									],
+									[
+										31045,
+										31062
+									],
+									[
+										31152,
+										31169
+									],
+									[
+										31471,
+										31488
+									],
+									[
+										31674,
+										31691
+									],
+									[
+										31854,
+										31871
+									],
+									[
+										32036,
+										32053
+									],
+									[
+										32221,
+										32238
+									],
+									[
+										32313,
+										32330
+									],
+									[
+										32460,
+										32477
+									],
+									[
+										32723,
+										32740
+									],
+									[
+										32893,
+										32910
+									],
+									[
+										33101,
+										33118
+									],
+									[
+										33379,
+										33396
+									],
+									[
+										33674,
+										33691
+									],
+									[
+										33934,
+										33951
+									],
+									[
+										34237,
+										34254
+									],
+									[
+										34558,
+										34575
+									],
+									[
+										34898,
+										34915
+									],
+									[
+										35223,
+										35240
+									],
+									[
+										35423,
+										35440
+									],
+									[
+										35597,
+										35614
+									],
+									[
+										35970,
+										35987
+									],
+									[
+										36194,
+										36211
+									],
+									[
+										36579,
+										36596
+									],
+									[
+										36879,
+										36896
+									],
+									[
+										37177,
+										37194
+									],
+									[
+										37537,
+										37554
+									],
+									[
+										37818,
+										37835
+									],
+									[
+										38071,
+										38088
+									],
+									[
+										38347,
+										38364
+									],
+									[
+										38707,
+										38724
+									],
+									[
+										38988,
+										39005
+									],
+									[
+										39241,
+										39258
+									],
+									[
+										39482,
+										39499
+									],
+									[
+										39745,
+										39762
+									],
+									[
+										40122,
+										40139
+									],
+									[
+										40538,
+										40555
+									],
+									[
+										40796,
+										40813
+									],
+									[
+										41068,
+										41085
+									],
+									[
+										41321,
+										41338
+									],
+									[
+										41504,
+										41521
+									],
+									[
+										41683,
+										41700
+									],
+									[
+										41929,
+										41946
+									],
+									[
+										42078,
+										42095
+									],
+									[
+										42402,
+										42419
+									],
+									[
+										42669,
+										42686
+									],
+									[
+										42933,
+										42950
+									],
+									[
+										43233,
+										43250
+									],
+									[
+										43536,
+										43553
+									],
+									[
+										43745,
+										43762
+									],
+									[
+										44072,
+										44089
+									],
+									[
+										44401,
+										44418
+									],
+									[
+										44609,
+										44626
+									],
+									[
+										44819,
+										44836
+									],
+									[
+										45129,
+										45146
+									],
+									[
+										45386,
+										45403
+									],
+									[
+										45728,
+										45745
+									],
+									[
+										45911,
+										45928
+									],
+									[
+										46189,
+										46206
+									],
+									[
+										46419,
+										46436
+									],
+									[
+										46549,
+										46566
+									],
+									[
+										46739,
+										46756
+									],
+									[
+										47190,
+										47207
+									],
+									[
+										47439,
+										47456
+									],
+									[
+										47694,
+										47711
+									],
+									[
+										47863,
+										47880
+									],
+									[
+										47989,
+										48006
+									],
+									[
+										48176,
+										48193
+									],
+									[
+										48446,
+										48463
+									],
+									[
+										48627,
+										48644
+									],
+									[
+										48854,
+										48871
+									],
+									[
+										49086,
+										49103
+									],
+									[
+										49517,
+										49534
+									],
+									[
+										49680,
+										49697
+									],
+									[
+										49944,
+										49961
+									],
+									[
+										50109,
+										50126
+									],
+									[
+										50413,
+										50430
+									],
+									[
+										50623,
+										50640
+									],
+									[
+										50844,
+										50861
+									],
+									[
+										51094,
+										51111
+									],
+									[
+										51397,
+										51414
+									],
+									[
+										51617,
+										51634
+									],
+									[
+										51891,
+										51908
+									],
+									[
+										51963,
+										51980
+									],
+									[
+										52275,
+										52292
+									],
+									[
+										52498,
+										52515
+									],
+									[
+										52737,
+										52754
+									],
+									[
+										52934,
+										52951
+									],
+									[
+										52986,
+										53003
+									],
+									[
+										53315,
+										53332
+									],
+									[
+										53667,
+										53684
+									],
+									[
+										54011,
+										54028
+									],
+									[
+										54331,
+										54348
+									],
+									[
+										54776,
+										54793
+									],
+									[
+										55126,
+										55143
+									],
+									[
+										55438,
+										55455
+									],
+									[
+										55695,
+										55712
+									],
+									[
+										56068,
+										56085
+									],
+									[
+										56358,
+										56375
+									],
+									[
+										56955,
+										56972
+									],
+									[
+										57462,
+										57479
+									],
+									[
+										57726,
+										57743
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config.rb",
+					"settings":
+					{
+						"buffer_size": 9367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "movielog/parse_reviews.rb",
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "movielog/parse_viewings.rb",
+					"settings":
+					{
+						"buffer_size": 439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 368.0
+	},
+	"output.exec":
+	{
+		"height": 299.0
+	},
+	"replace":
+	{
+		"height": 71.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lisa",
+				"viewings/0239-lisa-and-the-devil-1976.yml"
+			],
+			[
+				"frank",
+				"viewings/0213-frankenstein-and-the-monster-from-hell-1973.yml"
+			],
+			[
+				"featur",
+				"source/feature.html.haml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"appl",
+				"build/stylesheets/application.css"
+			],
+			[
+				"review",
+				"source/review.html.haml"
+			],
+			[
+				"index",
+				"source/index.html.haml"
+			],
+			[
+				"app",
+				"movielog/app.rb"
+			],
+			[
+				"layou",
+				"source/layouts/layout.haml"
+			],
+			[
+				"revi",
+				"source/review.html.haml"
+			],
+			[
+				"parse",
+				"movielog/parse_reviews.rb"
+			],
+			[
+				"layo",
+				"source/layouts/layout.haml"
+			],
+			[
+				"rev",
+				"source/review.html.haml"
+			],
+			[
+				"extract_ak",
+				"lib/movie_db/extract_aka_titles.rb"
+			],
+			[
+				"extractaka",
+				"doc/MovieDb/ExtractAkaTitles.html"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				".ya",
+				"vendor/ruby/2.0.0/gems/ast-1.1.0/.yardopts"
+			],
+			[
+				".yard",
+				"vendor/ruby/2.0.0/gems/ast-1.1.0/.yardopts"
+			],
+			[
+				"movie",
+				"app/models/movie.rb"
+			],
+			[
+				"applicatio",
+				"config/application.rb"
+			],
+			[
+				"ch",
+				"app/helpers/calendar_helper.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"wm",
+				"app/models/watched_movie.rb"
+			],
+			[
+				"wpd",
+				"app/decorators/watched_person_decorator.rb"
+			],
+			[
+				"m",
+				"app/models/movie.rb"
+			],
+			[
+				"sr",
+				"spec/features/reviews/show_review_spec.rb"
+			],
+			[
+				"md",
+				"app/decorators/movie_decorator.rb"
+			],
+			[
+				"mov",
+				"app/models/movie.rb"
+			],
+			[
+				"mf",
+				"spec/factories/movie_factory.rb"
+			],
+			[
+				"dir",
+				"app/models/direction_credit.rb"
+			],
+			[
+				"c",
+				"app/models/credit.rb"
+			],
+			[
+				"wc",
+				"app/models/writing_credit.rb"
+			],
+			[
+				"cred",
+				"app/models/credit.rb"
+			],
+			[
+				"sc",
+				"db/schema.rb"
+			],
+			[
+				"aac",
+				"app/models/concerns/acts_as_credit.rb"
+			],
+			[
+				"schem",
+				"vendor/bundle/gems/friendly_id-5.0.1/test/schema.rb"
+			],
+			[
+				"radi",
+				"app/helpers/radio_filter_helper.rb"
+			],
+			[
+				"range",
+				"app/helpers/range_filter_helper.rb"
+			],
+			[
+				"aawp",
+				"app/models/concerns/acts_as_watched_person.rb"
+			],
+			[
+				"rfh",
+				"app/helpers/rating_filter_helper.rb"
+			],
+			[
+				"has_",
+				"app/models/concerns/has_movie.rb"
+			],
+			[
+				"rating_t",
+				"app/helpers/rating_tag_helper.rb"
+			],
+			[
+				"sort",
+				"app/helpers/sort_filter_helper.rb"
+			],
+			[
+				"text_",
+				"app/helpers/text_filter_helper.rb"
+			],
+			[
+				"acts",
+				"app/models/concerns/acts_as_credit.rb"
+			],
+			[
+				"has_mov",
+				"app/models/concerns/has_movie.rb"
+			],
+			[
+				"person",
+				"app/models/person.rb"
+			],
+			[
+				"v",
+				"app/models/viewing.rb"
+			],
+			[
+				"venu",
+				"app/models/venue.rb"
+			],
+			[
+				"rating",
+				"app/models/rating.rb"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"view",
+				"app/models/viewing.rb"
+			],
+			[
+				".rubo",
+				".rubocop.yml"
+			],
+			[
+				"wd",
+				"app/models/watched_director.rb"
+			],
+			[
+				"aaw",
+				"app/models/concerns/acts_as_watched_person.rb"
+			],
+			[
+				"wp",
+				"app/models/watched_performer.rb"
+			],
+			[
+				"ww",
+				"app/models/watched_writer.rb"
+			],
+			[
+				"wpu",
+				"spec/support/watched_person_update_examples.rb"
+			],
+			[
+				"boot",
+				"config/boot.rb"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"ama",
+				"config/environments/amazon.rb"
+			],
+			[
+				"develop",
+				"config/environments/development.rb"
+			],
+			[
+				"test.r",
+				"config/environments/test.rb"
+			],
+			[
+				"bool",
+				"config/initializers/boolean_attributes.rb"
+			],
+			[
+				"fe",
+				"config/initializers/field_error_proc.rb"
+			],
+			[
+				"inf",
+				"config/initializers/inflections.rb"
+			],
+			[
+				"kc",
+				"config/initializers/kaminari_config.rb"
+			],
+			[
+				"mime",
+				"config/initializers/mime_types.rb"
+			],
+			[
+				"ms",
+				"spec/models/movie_spec.rb"
+			],
+			[
+				"cvs",
+				"spec/features/viewings/calendar_viewings_spec.rb"
+			],
+			[
+				"sh",
+				"spec/spec_helper.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"ccd",
+				"app/decorators/credit_collection_decorator.rb"
+			],
+			[
+				"a",
+				"config/application.rb"
+			],
+			[
+				"cp",
+				"app/controllers/concerns/caches_pages.rb"
+			],
+			[
+				"rc",
+				"app/controllers/admin/ratings_controller.rb"
+			],
+			[
+				"dash",
+				"app/controllers/admin/dashboard_controller.rb"
+			],
+			[
+				"apc",
+				"app/controllers/admin/application_controller.rb"
+			],
+			[
+				"aaa",
+				"app/controllers/admin/concerns/acts_as_admin_resource_controller.rb"
+			],
+			[
+				"ac",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"pf",
+				"spec/factories/person_factory.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"infl",
+				"config/initializers/inflections.rb"
+			],
+			[
+				"sitem",
+				"config/sitemap.rb"
+			],
+			[
+				"ccf",
+				"spec/factories/cast_credit_factory.rb"
+			],
+			[
+				"dcf",
+				"spec/factories/director_credit_factory.rb"
+			],
+			[
+				"wwf",
+				"spec/factories/watched_writer_factory.rb"
+			],
+			[
+				"wcf",
+				"spec/factories/writer_credit_factory.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"wdf",
+				"spec/factories/watched_director_factory.rb"
+			],
+			[
+				"dra",
+				"spec/features/admin/ratings/destroy_rating_admin_spec.rb"
+			],
+			[
+				"ud",
+				"script/update_data.rb"
+			],
+			[
+				"rf",
+				"spec/factories/rating_factory.rb"
+			],
+			[
+				"vf",
+				"spec/factories/viewing_factory.rb"
+			],
+			[
+				"fact",
+				"spec/factories.rb"
+			],
+			[
+				"era",
+				"spec/features/admin/ratings/edit_rating_admin_spec.rb"
+			],
+			[
+				"ira",
+				"spec/features/admin/ratings/index_ratings_admin_spec.rb"
+			],
+			[
+				"nr",
+				"spec/features/admin/ratings/new_rating_admin_spec.rb"
+			],
+			[
+				"eta",
+				"spec/features/admin/tags/edit_tag_admin_spec.rb"
+			],
+			[
+				"ita",
+				"spec/features/admin/tags/index_tags_admin_spec.rb"
+			],
+			[
+				"dta",
+				"spec/features/admin/tags/destroy_tag_admin_spec.rb"
+			],
+			[
+				"nta",
+				"spec/features/admin/tags/new_tag_admin_spec.rb"
+			],
+			[
+				"ev",
+				"spec/features/admin/venues/edit_venue_admin_spec.rb"
+			],
+			[
+				"iva",
+				"spec/features/admin/venues/index_venues_admin_spec.rb"
+			],
+			[
+				"dv",
+				"spec/features/admin/venues/destroy_venue_admin_spec.rb"
+			],
+			[
+				"nv",
+				"spec/features/admin/viewings/new_viewing_admin_spec.rb"
+			],
+			[
+				"dwm",
+				"spec/features/admin/watched_movies/destroy_watched_movie_admin_spec.rb"
+			],
+			[
+				"ewm",
+				"spec/features/admin/watched_movies/edit_watched_movie_admin_spec.rb"
+			],
+			[
+				"iwma",
+				"spec/features/admin/watched_movies/index_watched_movies_admin_spec.rb"
+			],
+			[
+				"fs",
+				"spec/features/feed_spec.rb"
+			],
+			[
+				"irs",
+				"spec/features/reviews/index_reviews_spec.rb"
+			],
+			[
+				"rrs",
+				"spec/features/reviews/recent_reviews_spec.rb"
+			],
+			[
+				"srs",
+				"spec/features/reviews/show_review_spec.rb"
+			],
+			[
+				"swd",
+				"spec/features/watched_directors/show_watched_director_spec.rb"
+			],
+			[
+				"swp",
+				"spec/features/watched_performers/show_watched_performer_spec.rb"
+			],
+			[
+				"iww",
+				"spec/features/watched_writers/index_watched_writers_spec.rb"
+			],
+			[
+				"cv",
+				"spec/features/viewings/calendar_viewings_spec.rb"
+			],
+			[
+				"iwd",
+				"spec/features/watched_directors/index_watched_directors_spec.rb"
+			],
+			[
+				"iwp",
+				"spec/features/watched_performers/index_watched_performers_spec.rb"
+			],
+			[
+				"sww",
+				"spec/features/watched_writers/show_watched_writer_spec.rb"
+			],
+			[
+				"wds",
+				"spec/models/watched_director_spec.rb"
+			],
+			[
+				"ps",
+				"spec/models/person_spec.rb"
+			],
+			[
+				"wps",
+				"spec/models/watched_performer_spec.rb"
+			],
+			[
+				"wws",
+				"spec/models/watched_writer_spec.rb"
+			],
+			[
+				"s",
+				"spec/spec_helper.rb"
+			],
+			[
+				"wpi",
+				"spec/support/watched_person_index_examples.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}
