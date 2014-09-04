@@ -94,39 +94,6 @@ helpers do
   # Ratings
   ###
 
-  def grade_to_number(grade)
-    return if grade.blank?
-
-    case grade
-    when 'A+'
-      15
-    when 'A'
-      14
-    when 'A-'
-      13
-    when 'B+'
-      12
-    when 'B'
-      11
-    when 'B-'
-      10
-    when 'C+'
-      9
-    when 'C'
-      8
-    when 'C-'
-      7
-    when 'D+'
-      6
-    when 'D'
-      5
-    when 'D-'
-      4
-    when 'F'
-      1
-    end
-  end
-
   def grade_to_text(grade)
     Movielog::App.grade_to_text(grade)
   end
