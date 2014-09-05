@@ -6,22 +6,6 @@ Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
 # Responsible for defining the Movielog API.
 #
 module Movielog
-  UNICODE_STAR_FOR_LETTER_GRADE = {
-    'A+' => '★★★★★',
-    'A' => '★★★★½',
-    'A-' => '★★★★☆',
-    'B+' => '★★★½☆',
-    'B' => '★★★☆☆',
-    'B-' => '★★★☆☆',
-    'C+' => '★★½☆☆',
-    'C' => '★★½☆☆',
-    'C-' => '★★½☆☆',
-    'D+' => '★★☆☆☆',
-    'D' => '★½☆☆☆',
-    'D-' => '★½☆☆☆',
-    'F' => '★☆☆☆☆'
-  }
-
   class << self
     def reviews_by_title
       reviews.values.each_with_object({}) do |review, hash|

@@ -13,7 +13,7 @@ module Movielog
           movie = ask_for_title
           review = Movielog.reviews_by_title[movie.title]
           url = shorten_url(url: "http://www.franksmovielog.com/reviews/#{review.slug}")
-          grade = Movielog::UNICODE_STAR_FOR_LETTER_GRADE[review.grade]
+          grade = Movielog::ConvertGradeToUnicodeStars.call(grade: review.grade)
           tweet = Movielog::CreateReviewTweet.call(url: url,
                                                    display_title: review.display_title,
                                                    grade: grade,

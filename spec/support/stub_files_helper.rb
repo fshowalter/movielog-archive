@@ -1,4 +1,7 @@
 module Movielog
+  #
+  # Responsible for stubbing review/viewing/feature files.
+  #
   module StubFilesHelper
     def stub_files(files: files, path: path)
       expect(Dir).to receive(:[]).with(path) do

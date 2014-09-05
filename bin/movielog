@@ -8,7 +8,7 @@ require_relative '../movielog/movielog'
 #
 module Movielog
   #
-  # Namespace for movielog console use cases.
+  # Responsible for the console interface.
   #
   module Console
     #
