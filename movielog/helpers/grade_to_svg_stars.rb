@@ -3,7 +3,7 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def grade_to_svg_stars(grade: grade)
+    def grade_to_svg_stars(grade:)
       ConvertGradeToSvgStars.call(grade: grade)
     end
 
@@ -12,7 +12,9 @@ module Movielog
     #
     class ConvertGradeToSvgStars
       class << self
-        def call(grade: grade)
+        def call(grade:)
+          return '' if grade.blank?
+
           '<svg class="rating" xmlns="http://www.w3.org/2000/svg" ' \
           'xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2560 512">' +
           SVG_STARS_FOR_LETTER_GRADE[grade] || '' \

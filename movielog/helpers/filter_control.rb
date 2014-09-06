@@ -3,7 +3,7 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def call(control: control, label: nil)
+    def filter_control(control:, label: nil)
       label = filter_control_label(label) if label
 
       content_tag(:div, class: 'filter-control') do

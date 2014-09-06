@@ -3,7 +3,7 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def data_for_viewing(viewing)
+    def data_for_viewing(viewing:)
       {
         data: {
           title: viewing.sortable_title,

@@ -3,10 +3,10 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def range_filter(label, attribute, min, max)
+    def range_filter(label:, attribute:, min:, max:)
       control = BuildRangeFilter.call(context: self, attribute: attribute, min: min, max: max)
 
-      filter_control(control, label)
+      filter_control(control: control, label: label)
     end
 
     #
