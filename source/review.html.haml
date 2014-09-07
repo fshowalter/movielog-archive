@@ -1,13 +1,13 @@
 ---
 ---
 - content_for(:title, "#{review.display_title} Movie Review")
-- aka_titles = Movielog::App.aka_titles_for_title(review.title, review.display_title)
-- content_for(:description, description_for_review(review, aka_titles))
-- viewings = Movielog::App.viewings_for_title(review.title)
-- headline_cast = Movielog::App.headline_cast_for_title(review.title)
-- directors = Movielog::App.directors_for_title(review.title)
-- director_slug = Movielog::App.directors_for_title(review.title).map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-- writers = Movielog::App.writers_for_title(review.title)
+- aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.title)
+- content_for(:description, description_for_review(review: review, aka_titles: aka_titles))
+- viewings = Movielog.viewings_for_title(title: review.title)
+- headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
+- directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
+- director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+- writers = MovieDb.writers_for_title(db: Movielog.db, title: review.title)
 %article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
   %h1.post-title{ itemprop: 'name' }= review.display_title
 
@@ -15,19 +15,19 @@
     %dl.aka
       %dt.aka-heading aka
       - aka_titles.each do |aka_title|
-        %dd.aka-title= aka_title.aka_title
+        %dd.aka-title= aka_title unless aka_title == review.display_title
 
   %span.post-slug Directed by #{director_slug}.
 
   .rating-wrap{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
-    %meta{ content: (grade_to_number(review.grade) / 3.0) * 2.0, itemprop: 'ratingValue' }
+    %meta{ content: (Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0) * 2.0, itemprop: 'ratingValue' }
     %meta{ content: '1', itemprop: 'worstRating' }
     %meta{ content: '10', itemprop: 'bestRating' }
-    = grade_to_stars(review.grade)
+    = grade_to_svg_stars(grade: review.grade)
 
   .post-content{ itemprop: 'reviewBody'}
     = markdown(review.content)
-  %meta{ content: published_date(review), itemprop: 'datepublished'}
+  %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
   .column-half

@@ -7,6 +7,14 @@ Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
 #
 module Movielog
   class << self
+    def site_url
+      'http://www.franksmovielog.com'
+    end
+
+    def site_title
+      "Franks's Movie Log"
+    end
+
     def reviews_by_title
       reviews.values.each_with_object({}) do |review, hash|
         hash[review.title] = review
@@ -22,7 +30,7 @@ module Movielog
     end
 
     def db
-      MovieDb.new(movie_db_dir: File.expand_path('../../movie_db/', __FILE__))
+      @db ||= MovieDb.new(movie_db_dir: File.expand_path('../../movie_db/', __FILE__))
     end
 
     def viewed_titles

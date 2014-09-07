@@ -4,6 +4,8 @@ module Movielog
   #
   module Helpers
     def oldest_year(collection:, date_method:)
+      return unless collection && collection.any?
+
       collection.map(&date_method).sort.first.year
     end
   end

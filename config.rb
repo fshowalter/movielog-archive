@@ -7,6 +7,8 @@ configure :development do
   activate :livereload
 end
 
+helpers Movielog::Helpers
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def markdown(source)
@@ -17,7 +19,7 @@ helpers do
     @viewings ||= begin
       viewings = Movielog.viewings
       viewings.values.each do |viewing|
-        info = Movielog.db.info_for_title(title: viewing.title)
+        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.title)
         viewing.sortable_title = info.sortable_title
         viewing.release_date = info.release_date
       end

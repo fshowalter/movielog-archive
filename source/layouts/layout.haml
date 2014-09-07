@@ -7,11 +7,11 @@
       %meta{ name: 'description', content: yield_content(:description) }
     %title
       - if current_page.data.title
-        #{current_page.data.title} | #{site.title}
+        #{current_page.data.title} | Frank's Movie Log
       - elsif content_for?(:title)
-        #{yield_content(:title)} | #{site.title}
+        #{yield_content(:title)} | Frank's Movie Log
       - else
-        #{site.title} | #{site.tagline}
+        Frank's Movie Log
     = stylesheet_link_tag 'application'
     %link{ rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-touch-icon-57x57.png' }
     %link{ rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-touch-icon-114x114.png' }
@@ -56,12 +56,11 @@
       %nav.sidebar-nav
         %a{ href: '/', class: "sidebar-nav-item#{' active' if current_page.url == '/' }"} Home
         %a{ href: '/viewings', class: "sidebar-nav-item#{' active' if current_page.url == '/viewings/' }"} Viewing Log
-        %a.sidebar-nav-item{ href: 'https://github.com/fshowalter/movielog/tree/gh-pages' } GitHub
     .wrap
       .masthead
         .container
           %h1.masthead-title
-            %a{ href: '/', title: 'Home' } #{site.title}
+            %a{ href: '/', title: 'Home' } Frank's Movie Log
       .container.content
         = yield
       %footer.site-footer
