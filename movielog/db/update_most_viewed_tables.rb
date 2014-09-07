@@ -19,7 +19,7 @@ module Movielog
         private
 
         def insert_viewings(db:, viewings:)
-          progress = progress_bar(title: 'inserting vieiwngs', length: viewings.length)
+          progress = progress_bar(title: 'inserting viewings', length: viewings.length)
 
           insert_viewing_statement = prepare_insert_viewing_statement(db: db)
 
