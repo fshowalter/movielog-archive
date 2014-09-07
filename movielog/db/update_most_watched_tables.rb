@@ -3,7 +3,7 @@ module Movielog
     #
     # Responsible for updating the viewings and most viewed tables.
     #
-    class UpdateMostViewedTables
+    class UpdateMostWatchedTables
       class << self
         #
         # Responsible for updating the viewings and most viewed tables.
@@ -12,7 +12,7 @@ module Movielog
         # @param viewings [Enumerable] The viewings.
         # @return [void]
         def call(db:, viewings:)
-          CreateMostViewedTables.call(db: db)
+          CreateMostWatchedTables.call(db: db)
           insert_viewings(db: db, viewings: viewings)
         end
 

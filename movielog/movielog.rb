@@ -12,7 +12,7 @@ module Movielog
     end
 
     def site_title
-      "Franks's Movie Log"
+      "Frank's Movie Log"
     end
 
     def reviews_by_title

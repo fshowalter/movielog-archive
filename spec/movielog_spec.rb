@@ -1,6 +1,18 @@
 require 'spec_helper'
 
 describe Movielog do
+  describe '#site_url' do
+    it 'returns the site url' do
+      expect(Movielog.site_url).to eq 'http://www.franksmovielog.com'
+    end
+  end
+
+  describe '#site_title' do
+    it 'returns the site title' do
+      expect(Movielog.site_title).to eq "Frank's Movie Log"
+    end
+  end
+
   describe '#next_viewing_number' do
     it 'returns the number of viewings plus one' do
       expect(Movielog::ParseViewings).to(
