@@ -22,7 +22,7 @@ module Movielog
     end
 
     def db
-      MovieDb.new(movie_db_dir: File.expand_path('../../db/', __FILE__))
+      MovieDb.new(movie_db_dir: File.expand_path('../../movie_db/', __FILE__))
     end
 
     def viewed_titles
