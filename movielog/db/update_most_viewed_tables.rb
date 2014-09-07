@@ -1,15 +1,15 @@
 module Movielog
   module Db
     #
-    # Responsible for synching cast and crew with the current movie_db.
+    # Responsible for updating the viewings and most viewed tables.
     #
     class UpdateMostViewedTables
       class << self
         #
-        # Responsible for synching cast and crew with the current movie_db.
+        # Responsible for updating the viewings and most viewed tables.
         #
         # @param db [SQLite3::Database] The database.
-        # @param cast_and_crew [Hash] The cast and crew data.
+        # @param viewings [Enumerable] The viewings.
         # @return [void]
         def call(db:, viewings:)
           CreateMostViewedTables.call(db: db)
@@ -28,7 +28,7 @@ module Movielog
             progress.increment
           end
         end
- 
+
         def progress_bar(title:, length:)
           ProgressBar.create(title: title, total: length, format: '%t |%w| %e')
         end

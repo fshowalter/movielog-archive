@@ -1,12 +1,12 @@
 module Movielog
   module Db
     #
-    # Responsible for creating the people and credits tables.
+    # Responsible for creating the viewings and most viewed tables.
     #
     class CreateMostViewedTables
       class << self
         #
-        # Responsible for creating the people and credits tables.
+        # Responsible for creating the viewings and most viewed tables.
         #
         # @param db [SQLite3::Database] The database.
         # @return [void]
@@ -15,9 +15,9 @@ module Movielog
           db.execute_batch(most_viewed_schema(
             type: 'performers', table: 'performance', threshold: 10))
           db.execute_batch(most_viewed_schema(
-            type: 'directors', table: 'direction', threshold: 1))
+            type: 'directors', table: 'direction', threshold: 5))
           db.execute_batch(most_viewed_schema(
-            type: 'writers', table: 'writing', threshold: 1))
+            type: 'writers', table: 'writing', threshold: 5))
         end
 
         private
@@ -49,7 +49,7 @@ module Movielog
           FROM #{table}_credits c
           LEFT OUTER JOIN (movies m INNER JOIN viewings v ON m.title = v.title) ON c.title = m.title
           GROUP BY c.full_name
-          HAVING viewing_count > #{threshold};
+          HAVING viewing_count >= #{threshold};
           SQL
         end
       end
