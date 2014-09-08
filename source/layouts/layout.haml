@@ -46,7 +46,7 @@
     %input#sidebar-checkbox.sidebar-checkbox{ type: 'checkbox' }
     -# Toggleable sidebar
     #sidebar.sidebar
-      = form_tag 'https://www.google.com/search', class: 'site-navigation__site-search', method: :get do
+      = form_tag 'https://www.google.com/search', method: :get do
         = hidden_field_tag 'q', value: 'site:movielog.frankshowalter.com'
         .search-wrap.clearable-wrap
           = text_field_tag 'q', placeholder: 'Search the Movie Log', id: 'searchInput', class: 'site-search-input', size: '30'
