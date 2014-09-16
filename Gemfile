@@ -25,7 +25,6 @@ gem 'google-api-client'
 gem 'twitter'
 
 gem 'inquirer'
-gem 'activesupport'
 gem 'movie_db', path: '../movie_db'
 
 gem 'rubocop'

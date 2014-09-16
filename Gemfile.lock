@@ -250,7 +250,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
   coffee-script
   csscss
   execjs

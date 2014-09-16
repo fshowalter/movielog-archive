@@ -5,20 +5,14 @@
 :display_title: The Boogie Man Will Get You (1942)
 :date: 2014-09-14
 :imdb_id: tt0034540
-:grade: C
+:grade: D+
 ---
-Young divorcee Winnie wants to buy the crumbing home of  Professor Billings (Boris Karloff). She plans to turn it into an inn.
+_The Boogie Man Will Get You_ is not a great film. Perhaps, it's not even a good one. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, and Karloff's presence, the film is not a horror, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_.
 
-Billings is willing to sell, under the condition that he stay on to finish his experiments in his basement laboratory. Winnie agrees.
+The plot involves a young divorcee, Winnie, who buys Karloff's crumbling tavern home and turns it into an inn. Karloff agrees to sell, provided he stay on to finish his experiments in his basement laboratory. 
 
-Of course, she doesn't know that Billings' experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a small morgue full of corpses. One would think that would have come up in the walk-through.
+Of course, Winnie doesn't know that Karloff's experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a small morgue full of corpses. One would think that would have come up in the walk-through, but the film gives Winnie the mental acuity of a toddler.
 
-Winnie’s ex-husband Bill shows up just as Winnie signs the deal. Bill thinks Billings is scamming Winnie and decides to stick around to prove it. 
+The best scenes in the film are those between Karloff and Peter Lorre. Lorre plays the town doctor. He also holds the mortgage on Karloff's home. Besides being the town doctor, Lorre's character is also the town mortician, town notary, town councilman, and town treasurer. He's like a legalized con-man. Lorre plays him with perfectly. There's a great scene where Lorre, having been called in his capacity as sheriff, confronts Karloff about one of the traveling salesman's corpses. Once Karloff explains his experiments, Lorre is relieved. He thought the old professor had lost it. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality test subjects. 
 
-Bill pokes around and comes across one of the traveling salesman's corpses. He alerts the town sheriff, Dr. Lorentz (Peter Lorre). It must be a very small town because Lorentz is also the town doctor, town notary, town councilman, and town treasurer. Outraged, Lorentz confronts Billings. After Billings explains his experiments, Lorentz sees a potential for profit.  The two become partners. 
-
-Except now they're short on test subjects. The two turn their attention to Bill before traveling powder-puff salesmen Maxie shows up. But before they can begin testing on Maxie, one of the inn's other guests turns up murdered. Things get wrapped courtesy of an escaped fascist looking to blow up the nearby munitions depot. Because, you know, what better spot to open an inn then next to a munitions depot.
-
-Despite the mad-scientist and murder-mystery elements, the film plays as a gentle comedy. Karloff comes across as more of a doting Professor than a mad-scientist. His scenes with Lorre are funny, particularly the bits with them bemoaning the lack of quality test subjects. 
-
-The love story between Winnie and Bill falls flat, though. It drags down what's otherwise an entertaining knock off of _Arsenic and Old Lace (1944)_.
+From here the film shifts to a murder mystery, as guests of the inn turn up knifed in the back. Things get wrapped courtesy of an escaped fascist looking to blow up the nearby munitions depot. Because, you know, what better spot to open an inn then next to a munitions depot. It's an inane end to a wildly uneven film.
