@@ -7,7 +7,7 @@
 :imdb_id: tt0034540
 :grade: D+
 ---
-_The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror film, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
+_The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
 
 The plot involves a young divorcee, Winnie, who wants to buy Karloff's crumbling tavern home and turn it into an inn. Karloff agrees to sell, provided he can stay on and finish his experiments in his basement laboratory.
 
