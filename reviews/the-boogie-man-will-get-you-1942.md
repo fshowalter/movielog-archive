@@ -8,6 +8,18 @@
 :grade: D+
 ---
 
+The Boogie Man Will Get You is a dark comedy in the vein of Arsenic and Old Lace (1944). And to that end, its stars, Boris Karloff and Peter Lorre make a fine pair of lovable murderers.
+
+Karloff plays an eccentric professor secretly trying to engineer an army of atomic supermen to win World War II. His test subjects consist of the various traveling salesmen that knock on his door. So far, all his experiments have been fatal failures, leaving him with a neat collection of corpses.
+
+Lorre plays the town doctor, a smarmy opportunist who's also the town mortician, notary, councilman, and treasurer. He even holds the mortgage on Karloff's home.
+
+Eventually, one of the corpses is discovered, and Lorre, in his capacity as town sheriff, confronts Karloff. With idyllic pride, Karloff explains how his experiments could end the war. With dollar signs in his eyes, Lorre sees how the experiments could make him rich. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality "test subjects". It’s a terrific bit of black comedy that hints at the film’s potential.
+
+But that potential is never realized. There are ancillary plots involving a young divorcee, her blow-hard ex-husband, and an escaped fascist. None of them go anywhere. After a while, the movie gives up on the black comedy and turns into an inane murder mystery. The ending sees the cast held hostage by the escaped fascist, who plans to blow up the nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot?
+
+The Boogie Man Will Get You is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
+
 _The Boogie Man Will Get You_ is a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, its stars, Boris Karloff and Peter Lorre make a fine pair of lovable murderers.
 
 Karloff plays an eccentric professor secretly trying to engineer an army of atomic supermen to win World War II. His test subjects consist of the various traveling salesmen that knock on his door. So far, all his experiments have been fatal failures, leaving him with a neat collection of corpses. 
