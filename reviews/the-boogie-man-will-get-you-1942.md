@@ -16,7 +16,7 @@ Lorre plays the town doctor, a smarmy opportunist who's also the town mortician,
 
 Eventually, one of the corpses is discovered, and Lorre, in his capacity as town sheriff, confronts Karloff. With idillic pride, Karloff explains how his experiments could end the war. With dollar signs in his eyes, Lorre sees how the experiments could make him rich. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality "test subjects". It’s a terrific bit of black comedy that hints at the film’s potential.
 
-There are also ancillary plots involving a young divorcee, her blow-hard ex-husband, and an escaped fascist. None of them go anywhere. 
+But that potential is never realized. There are also ancillary plots involving a young divorcee, her blow-hard ex-husband, and an escaped fascist. None of them go anywhere. _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
 
 _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
 
