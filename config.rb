@@ -38,7 +38,9 @@ page 'feed.xml', mime_type: 'text/xml'
 
 activate :directory_indexes
 
-activate :autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9', 'Firefox ESR']
+end
 
 activate :pagination do
   pageable_set :reviews do
