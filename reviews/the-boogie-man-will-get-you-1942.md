@@ -9,7 +9,7 @@
 ---
 _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
 
-Karloff plays Nathaniel Billings, an eccentric but earnest old professor who spends his days working in his basement laboratory. The plot involves a young divorcee, Winnie, who wants to buy Billings’ crumbling tavern home and turn it into an inn. Billings agrees to sell, provided he can stay on and complete his experiments.
+Karloff plays Nathaniel Billings, an eccentric but earnest old professor who spends his days working in his basement laboratory. Along comes Winnie, a young divorcee who wants to buy Billings’ crumbling tavern home and turn it into an inn. Billings agrees to sell, provided he can stay on and complete his experiments.
 
 Of course, Winnie doesn't know that Billings’ experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a nice collection of well-preserved corpses. One would think this sort of thing would have come up during the walk-through, but the film gives Winnie the mental acuity of a toddler.
 
