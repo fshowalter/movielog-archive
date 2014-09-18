@@ -13,8 +13,8 @@ Karloff plays Nathaniel Billings, an eccentric but earnest old professor who spe
 
 Of course, Winnie doesn't know that Billings’ experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a nice collection of well-preserved corpses. One would think this sort of thing would have come up during the walk-through, but the film gives Winnie the mental acuity of a toddler.
 
-Lorre plays Arthur Lorencz, a smarmy opportunist who's the town doctor, mayor, mortician, notary, and everything else. He even holds the mortgage on Billings’ home. 
+Lorre plays Arthur Lorencz, a smarmy opportunist who's the town doctor, mayor, mortician, notary, and everything else. He holds the mortgage on Billings’ home. 
 
 There's a great scene where Lorencz, in his capacity as town sheriff, confronts Billings about one of the traveling salesman's corpses. With idyllic pride, Billings explains his experiments. Lorencz is relieved. Never mind the corpse, Billings’	experiments could be worth a fortune! Soon they’re partners bemoaning the lack of quality “test subjects”. It’s a terrific bit that hints at the film’s potential as a subversive black comedy.
 
-But that potential is never realized. Instead, the film devolves into an outright farce. The finale sees the cast held hostage in Karloff's laboratory by an escaped fascist planning to blow up a nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot? It's an inane end to a missed opportunity of a film.
+But that potential is never realized. Instead, the film devolves into an outright farce. The finale sees the cast held hostage in Karloff's laboratory by an escaped fascist planning to blow up a nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot?
