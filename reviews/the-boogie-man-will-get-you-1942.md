@@ -7,37 +7,14 @@
 :imdb_id: tt0034540
 :grade: D+
 ---
-
-The Boogie Man Will Get You is a dark comedy in the vein of Arsenic and Old Lace (1944). And to that end, its stars, Boris Karloff and Peter Lorre make a fine pair of lovable murderers.
-
-Karloff plays an eccentric professor secretly trying to engineer an army of atomic supermen to win World War II. His test subjects consist of the various traveling salesmen that knock on his door. So far, all his experiments have been fatal failures, leaving him with a neat collection of corpses.
-
-Lorre plays the town doctor, a smarmy opportunist who's also the town mortician, notary, councilman, and treasurer. He even holds the mortgage on Karloff's home.
-
-Eventually, one of the corpses is discovered, and Lorre, in his capacity as town sheriff, confronts Karloff. With idyllic pride, Karloff explains how his experiments could end the war. With dollar signs in his eyes, Lorre sees how the experiments could make him rich. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality "test subjects". It’s a terrific bit of black comedy that hints at the film’s potential.
-
-But that potential is never realized. There are ancillary plots involving a young divorcee, her blow-hard ex-husband, and an escaped fascist. None of them go anywhere. After a while, the movie gives up on the black comedy and turns into an inane murder mystery. The ending sees the cast held hostage by the escaped fascist, who plans to blow up the nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot?
-
-The Boogie Man Will Get You is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
-
-_The Boogie Man Will Get You_ is a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, its stars, Boris Karloff and Peter Lorre make a fine pair of lovable murderers.
-
-Karloff plays an eccentric professor secretly trying to engineer an army of atomic supermen to win World War II. His test subjects consist of the various traveling salesmen that knock on his door. So far, all his experiments have been fatal failures, leaving him with a neat collection of corpses. 
-
-Lorre plays the town doctor, a smarmy opportunist who's also the town mortician, town notary, town councilman, and town treasurer. He even holds the mortagage on Karloff's home. 
-
-Eventually, one of the corpses is discovered, and Lorre, in his capacity as town sheriff, confronts Karloff. With idillic pride, Karloff explains how his experiments could end the war. With dollar signs in his eyes, Lorre sees how the experiments could make him rich. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality "test subjects". It’s a terrific bit of black comedy that hints at the film’s potential.
-
-But that potential is never realized. There are also ancillary plots involving a young divorcee, her blow-hard ex-husband, and an escaped fascist. None of them go anywhere. _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
-
 _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
 
-The plot involves a young divorcee, Winnie, who wants to buy Karloff's crumbling tavern home and turn it into an inn. Karloff agrees to sell, provided he can stay on and finish his experiments in his basement laboratory.
+Karloff plays Nathaniel Billings, an eccentric but earnest old professor who spends his days working in his basement laboratory. The plot involves a young divorcee, Winnie, who wants to buy Billings’ crumbling tavern home and turn it into an inn. Billings agrees to sell, provided he can stay on and complete his experiments.
 
-Of course, Winnie doesn't know that Karloff's experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a small morgue full of corpses. One would think this sort of thing would have come up during the walk-through, but the film gives Winnie the mental acuity of a toddler.
+Of course, Winnie doesn't know that Billings’ experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a nice collection of well-preserved corpses. One would think this sort of thing would have come up during the walk-through, but the film gives Winnie the mental acuity of a toddler.
 
-Lorre plays the town doctor, a smarmy opportunist who's also the town mortician, town notary, town councilman, and town treasurer. He even holds the mortagage on Karloff's home. 
+Lorre plays Arthur Lorencz, a smarmy opportunist who's the town doctor, mayor, mortician, notary, and everything else. He even holds the mortgage on Billings’ home. 
 
-There's a great scene where Lorre, in his capacity as town sheriff, confronts Karloff about one of the traveling salesman's corpses. With idillic pride, Karloff explains how his experiments could end the war. With dollar signs in his eyes, Lorre sees how the experiments could make him rich. Never mind the room full of corpses. Soon they're partners bemoaning the lack of quality test subjects. It’s a terrific bit of black comedy that hints at the film’s potential.
+There's a great scene where Lorencz, in his capacity as town sheriff, confronts Billings about one of the traveling salesman's corpses. With idyllic pride, Billings explains his experiments. Lorencz is relieved. Never mind the corpse, Billings’	experiments could be worth a fortune! Soon they’re partners bemoaning the lack of quality “test subjects”. It’s a terrific bit that hints at the film’s potential as a subversive black comedy.
 
-But that potential is never realized. Instead, the film shifts to a murder mystery, as guests of the inn turn up knifed in the back. Things culminate with the cast held hostage in Karloff's laboratory by an escaped fascist looking to blow up a nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot? It's an inane end to a disappointing film.
+But that potential is never realized. Instead, the film devolves into an outright farce. The finale sees the cast held hostage in Karloff's laboratory by an escaped fascist planning to blow up a nearby munitions depot. Because, what better spot to open an inn than next to a munitions depot? It's an inane end to a missed opportunity of a film.
