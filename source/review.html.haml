@@ -11,6 +11,9 @@
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
   writers = MovieDb.writers_for_title(db: Movielog.db, title: review.title)
 
+- content_for(:js_head) do
+  %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
+
 %article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
   %h1.post-title{ itemprop: 'name' }= review.display_title
 

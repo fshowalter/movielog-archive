@@ -25,8 +25,7 @@ title: Viewing Log
         - viewing = viewings[key]
         %li.list-item{ data_for_viewing(viewing: viewing) }
           .list-item-header
-            %span.list-item-viewing-title
-              = viewing.display_title
+            = viewing.display_title
           .list-item-description
             #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
             via #{viewing.venue}.

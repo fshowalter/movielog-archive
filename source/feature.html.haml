@@ -3,6 +3,10 @@
 :ruby
   content_for(:title, "#{feature.title}")
   content_for(:description, feature.description)
+
+- content_for(:js_head) do
+  %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
+
 %article.post
   %h1.post-title.feature-title= feature.title
 
@@ -11,3 +15,4 @@
 
   .post-meta
     &#8220;#{feature.title}&#8221; was published on #{feature.date}.
+

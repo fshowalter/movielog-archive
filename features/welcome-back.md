@@ -7,7 +7,7 @@
   Wherein I declare review bankruptcy and request a second chance.
 ---
 
-Hey there, constant reader. Frank here.
+Hey there, Frank here.
 
 Confession time.
 
@@ -33,6 +33,6 @@ That schedule should allow me three drafts per review. My prior reviews were alm
 
 Finally, to bring the focus back to the writing I redesigned the site again. The splash images and posters are gone, because finding and prepping them took a lot of time. Time better spent writing.
 
-So welcome back, constant reader. I hope you'll give me a second chance. We've got close to a hundred years of cinema to cover and I'm pretty excited.
+So welcome back. I hope you'll give me a second chance. We've got close to a hundred years of cinema to cover and I'm pretty excited.
 
 Let's get started

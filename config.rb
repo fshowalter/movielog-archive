@@ -34,6 +34,8 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 
+set :haml, remove_whitespace: true
+
 page 'feed.xml', mime_type: 'text/xml'
 
 activate :directory_indexes
