@@ -67,8 +67,7 @@
         = yield
       %footer.site-footer
         .site-footer-content
-          This has been #{link_to("Frank's Movie Log", '/', class: 'site-footer__link')},
-          loving movies since 2012.
+          = "This has been #{link_to("Frank's Movie Log", '/', class: 'site-footer__link')}, loving movies since 2012."
         %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog'}
           %svg.twitter.icon{ xmlns: 'http://www.w3.org/2000/svg', viewBox: '-192 -384 2048 2048' }
             %g{ transform: 'scale(1 -1) translate(0 -1280)' }

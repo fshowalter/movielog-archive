@@ -27,8 +27,7 @@ title: Viewing Log
           .list-item-header
             = viewing.display_title
           .list-item-description
-            #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
-            via #{viewing.venue}.
+            = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
 - content_for(:js) do
   %script{src: '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'}
   :javascript

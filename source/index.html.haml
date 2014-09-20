@@ -26,20 +26,20 @@ pagination:
                 %span.list-item-counter
                   = review.sequence
                   %span.list-item-counter-dot
-                    \.
-                = review.display_title
-              %span.list-item-rating<
+                    = '. '
+                = "#{review.display_title} "
+              %span.list-item-rating
                 = grade_to_svg_stars(grade: review.grade)
             %span.list-item-rating-placeholder
             %span.list-item-description
-              %span.abbreviation><
-                D
-              %span.full<
+              %span.abbreviation
+                = ' D'
+              %span.full
                 irected by
-              #{directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence}.
+              = " #{directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence}. "
               %span.full
                 Starring
-              #{headline_cast(title: review.title)}.
+              = " #{headline_cast(title: review.title)}."
       - elsif post.is_a?(Movielog::Feature)
         - feature = post
         %li.list-item.list-item-with-counter
