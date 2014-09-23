@@ -1,3 +1,13 @@
+---
+:sequence: 7
+:title: Blue Ruin (2013)
+:slug: blue-ruin-2013
+:display_title: Blue Ruin (2013)
+:date: 2014-09-22
+:imdb_id: tt2359024
+:grade: B+
+---
+
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it's a terrifically tense and visceral experience. 
 
 The story follows Dwight, a homeless man living on the Delaware coast. When we first meet him, Dwight is taking a bath inside of a empty single-family home. Just as he gets comfortable, Dwight hears the owners arrive and hurries out of a house. It’s an elegant way of showing us that Dwight is homeless by choice. 
@@ -10,9 +20,9 @@ Dwight takes the news with an eerie calm. He returns to the rusty car he sleeps 
 
 Dwight travels to the local prison. He arrives in time to see Will Cleland, the man who murdered his parents, walk free. From his car, Dwight watches the Cleland clan arrive in a white limousine to greet Will. In Dwight's expression we see the mix of bile and nausea churning in his gut.
 
-Dwight follows the limo to a nearby dive bar. He sneaks in through the back door and waits in the mens room. We see the fear in his eyes. Dwight wanted a gun, but all he could afford was a small shiv. His hand is sweaty.
+Dwight follows the limo to a nearby dive bar. He sneaks in through the back door and waits in the mens room. We see the fear in his eyes. Dwight wanted a gun, but all he could afford was a small shiv in his sweaty hand.
 
-Soon, Will enters and Dwight exacts his revenge.  It’s a brutal, clumsy bit of violence that leaves Dwight blood soaked and shaken. Dwight sneaks back out of the bar and pops the limo’s tire with his shiv. In the process, he slashes his own hand. It doesn’t matter though because he’s done it. He's avenged his parents. He returns to his car and reaches for his keys…
+Soon, Will enters and Dwight exacts his revenge.  It’s a brutal, clumsy bit of violence that leaves Dwight blood soaked and shaken. Dwight sneaks out of the bar and pops the limo’s tire with his shiv, gashing his hand in the process. It doesn’t matter though, because he’s done it. He's avenged his parents. He returns to his car and reaches for his keys…
 
 They’re not there. Dwight lost them in the fight. It’s a plot point that should feel predictable and forced, but here, like so much of the movie, it feels inevitable. Dwight steals the limo and makes his escape, flat tire and all, but he knows the police will trace his car.
 
