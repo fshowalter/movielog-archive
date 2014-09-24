@@ -10,9 +10,9 @@
 
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it's a terrifically tense and visceral experience. 
 
-The story follows Dwight, a homeless man living on the Delaware coast. When we first meet him, Dwight is taking a bath inside of a empty single-family home. Just as he gets comfortable, Dwight hears the owners arrive and hurries out of a house. It’s an elegant way of showing us that Dwight is homeless by choice. 
+The story follows Dwight, a homeless man living on the Delaware coast. When we first meet him, Dwight is taking a bath inside of a empty single-family home. Just as he gets comfortable, Dwight hears the owners arrive and hurries out of the house. It’s an elegant way of showing us that Dwight is homeless by choice. 
 
-One morning, Dwight is roused by the local police, who take Dwight into the station. Dwight isn’t in trouble, but the officers have news and wanted him to be in a safe place when he heard it. 
+One morning, Dwight is roused by the local police, who take Dwight into the station. Dwight isn’t in trouble, but the officers have news and want him to be in a safe place when he hears it. 
 
 The man who killed Dwight’s mother and father is getting early parole.
 
@@ -20,11 +20,11 @@ Dwight takes the news with an eerie calm. He returns to the rusty car he sleeps 
 
 Dwight travels to the local prison. He arrives in time to see Will Cleland, the man who murdered his parents, walk free. From his car, Dwight watches the Cleland clan arrive in a white limousine to greet Will. In Dwight's expression we see the mix of bile and nausea churning in his gut.
 
-Dwight follows the limo to a nearby dive bar. He sneaks in through the back door and waits in the mens room. We see the fear in his eyes. Dwight wanted a gun, but all he could afford was a small shiv in his sweaty hand.
+Dwight follows the limo to a nearby dive bar. He sneaks in through the back door and waits in the mens room. We see the fear in his eyes. Dwight wanted a gun, but all he could afford was the small shiv in his sweaty hand.
 
-Soon, Will enters and Dwight exacts his revenge.  It’s a brutal, clumsy bit of violence that leaves Dwight blood soaked and shaken. Dwight sneaks out of the bar and pops the limo’s tire with his shiv, gashing his hand in the process. It doesn’t matter though, because he’s done it. He's avenged his parents. He returns to his car and reaches for his keys…
+Soon, Will enters and Dwight exacts his revenge.  It’s a brutal, clumsy bit of violence that leaves Dwight blood-soaked and shaken. Dwight sneaks out of the bar and pops the limo’s tire with his shiv, gashing his hand in the process. It doesn’t matter though, because he’s done it. He's avenged his parents. He returns to his car and reaches for his keys…
 
-They’re not there. Dwight lost them in the fight. It’s a plot point that should feel predictable and forced, but here, like so much of the movie, it feels inevitable. Dwight steals the limo and makes his escape, flat tire and all, but he knows the police will trace his car.
+They’re not there. Dwight lost them in the fight. It’s a plot point that should feel predictable and forced, but here, like so much of the movie, it feels natural. Almost inescapable. Dwight steals the limo and makes his escape, flat tire and all, but he knows the police will trace his car.
 
 Which brings Dwight to his estranged sister. Their meeting communicates volumes about Dwight’s state of mind. After their parents death, Dwight disappeared, opting to drop out of society rather than face his grief. His sister has grieved and moved on. 
 
@@ -43,3 +43,5 @@ The first is when Ben takes Dwight back to his isolated cabin. Dwight asks Ben i
 Yes, I told you I was going to nitpick. 
 
 The next blemish is a bit more problematic, as it concerns a plot point the entire movie is based on. It seems Dwight’s parents were killed because his father fell in love with Will Cleland's mother. Now, when you’re watching the movie, this seems plausible enough, but in retrospect it doesn’t hold up. We see the Cleland family. We seen the children. They're foaming-at-the-mouth backwoods psychos. They keep Uzis duct taped under the recliner. We also see Dwight and his sister. We see that Dwight has never handled a gun. It begs a question: How does Dwight's father, a man who raised such a meek family, get together with the kind of woman who would marry the backwoods, gun-crazy Cleland patriarch?  The characters tell us it happened, but the movie gives us nothing to support it. 
+
+The reason these disenginuine bits stand out is because the rest of the film feels so authentic. In what's otherwise a perfect composition, they're the only wrong notes.
