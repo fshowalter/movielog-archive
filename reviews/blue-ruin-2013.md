@@ -35,10 +35,10 @@ Well, almost. Fair warning, I’m about to nitpick what’s otherwise a great fi
 
 Still here? Okay, here goes. 
 
-Nit number 1 is when Ben takes Dwight back to his isolated cabin. Dwight asks Ben if he’s a hunter, and Ben replies no, he mostly does target shooting. For a film that’s so judicious with it’s dialog, one that does such a good job _showing_ us things, this feels sloppy. Because now we know that Ben is going to snipe the guy in Dwight’s car. If a gun is introduced in Act 1 it must go off by Act 3. It's the only plot point that feels cinematic instead of organic.
+Remember when Ben takes Dwight back to his isolated cabin? Dwight asks Ben if he’s a hunter, and Ben replies no, he mostly does target shooting. For a film that’s so judicious with it’s dialog, one that does such a good job _showing_ us things, this feels sloppy. Because now we know that Ben is going to snipe the guy in Dwight’s car. If a gun is introduced in Act 1 it must go off by Act 3. It's the only plot point that feels cinematic instead of organic.
 
-Yes, I told you I was going to nitpick. 
+Yes, it's one line. I told you I was going to nitpick. But the next issue is a bit bigger.
 
-The next nit is a bit more problematic. Dwight’s parents were killed because Dwight’s father fell in love with Will Cleland's mother. Watching the movie, this seems plausible enough, but in retrospect it doesn’t hold up. We see the Cleland family. We see the children. They're foaming-at-the-mouth backwoods psychos. They keep machine guns duct taped under the living room recliner. We also see Dwight and his sister. We see that Dwight has never handled a gun. It begs a question: How does Dwight's father, a man who raised such a meek family, get together with the kind of woman who would marry the backwoods, gun-crazy Cleland patriarch?  The characters tell us it happened, but the movie shows us nothing to support it. 
+Dwight’s parents were killed because Dwight’s father fell in love with Will Cleland's mother. Watching the movie, this seems plausible enough, but in retrospect it doesn’t hold up. We see the Cleland family. We see the children. They're foaming-at-the-mouth backwoods psychos. They keep machine guns duct taped under the living room recliner. We also see Dwight and his sister. We see that Dwight has never handled a gun. It begs a question: How does Dwight's father, a man who raised such a meek family, get together with the kind of woman who would marry the backwoods, gun-crazy Cleland patriarch?  The characters tell us it happened, but the movie shows us nothing to support it. 
 
-These bits only stand out because the rest of the film feels so authentic and true. There's talent here and I can't wait to see what writer/director/cinematographer Jeremy Saulnier does next.
+These bits only stand out because the rest of the film feels so authentic and true. It's not perfect, but it's damn close.
