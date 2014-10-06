@@ -20,8 +20,7 @@ layout: false
       - if post.is_a?(Movielog::Review)
         - review = post
         %title
-          #{review.sequence}. #{review.display_title}
-          #{grade_to_unicode_stars(grade: review.grade)}
+          #{review.sequence}. #{review.display_title} #{grade_to_unicode_stars(grade: review.grade)}
         %link{ href: "#{Movielog.site_url}/reviews/#{review.slug}" }
         %id #{Movielog.site_url}reviews/#{review.slug}
       - else
