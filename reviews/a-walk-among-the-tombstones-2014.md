@@ -9,7 +9,7 @@
 ---
 _A Walk Among the Tombstones_ has the potential to be good, but it never comes together. Too much gets in the way.
 
-The plot is a hodgepodge of cop-thriller cliches. The protagonist is Matthew Scudder, played by Liam Neeson. Scudder is a recovering alcoholic and ex-cop. Scudder quit the force after gunning down a gang of street toughs who tried to hold up his neighborhood bar. His superiors called him a hero and gave him a commendation. Scudder quit anyway. He quit drinking too. Later, we learn his actions weren't quite so heroic. It's supposed to be a revelation, but anyone who's seen more than a few cop movies will see it coming.
+The plot is a hodgepodge of cop-thriller clichés. The protagonist is Matthew Scudder, played by Liam Neeson. Scudder is a recovering alcoholic and ex-cop. Scudder quit the force after gunning down a gang of street toughs who tried to hold up his neighborhood bar. His superiors called him a hero and gave him a commendation. Scudder quit anyway. He quit drinking too. Later, we learn his actions weren't quite so heroic. It's supposed to be a revelation, but anyone who's seen more than a few cop movies will see it coming.
 
 Scudder now makes his living as an unlicensed private investigator. He takes the case of a drug trafficker who’s wife was kidnapped, raped, tortured and killed. The trail leads him to a pair of horrific sociopaths who’ve been doing this for a long time. 
 
