@@ -1,0 +1,9 @@
+Synopsis: The interconnecting stories of a Navy Captain (John Wayne), his chief of staff (Kirk Douglas), and a nurse (Patricia Neal) following the attack on Pearl Harbor.
+
+In Harm’s Way is that rare breed of movie which is made up of an all-star cast that works.  John Wayne, Kirk Douglas, and Patricia Neal all shine, as do supporting players Dana Andrews, Burgess Meredith, and Paula Prentiss.  Hell, even Henry Fonda’s role feels more significant than a name-value cameo and he’s only on-screen for ten minutes.  Much of the credit for this goes to Wendell Mayes script, but director Otto Preminger’s ability to manage all these ego’s cannot be overlooked. 
+
+Preminger also delivers a visually splendid film, shot in crisp black and white Panavision, with great location photography and authentic props.  Unfortunately, some of the special effects betray him, especially in the film’s climax, which takes some of the shine off what would otherwise be a first-rate visual experience.
+
+Sadly, the special effects lapses aren’t the film’s only flaw.  In Harm’s Way has another, bigger, problem with its tone.  The film begins on a somewhat dark dramatic note, and then segues into an easy John Wayne vehicle before taking a very dark turn at the two-thirds mark.  Then it shifts back into action before closing on another dark note.  Granted, the turns are realistic, but they’re also jarring and off-putting in a film that can’t seem to decide whether it wants to be a dark drama or a wartime adventure.
+
+Bottom Line: Though it’s not perfect, In Harm’s Way is a solid World War II picture buoyed by great performance from its all-star cast.

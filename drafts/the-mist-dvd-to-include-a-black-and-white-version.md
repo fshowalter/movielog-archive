@@ -1,0 +1,3 @@
+In an introduction to the alternate version included on the forthcoming special-edition DVD, <a href="http://www.youtube.com/watch?v=-64pR2ARecY">director Frank Darabont explains his desire to shoot his adaptation of Stephen King’s story in black and white</a>.
+
+While some will undoubtedly see this as a cop-out of a “director’s cut,” especially considering that it’s unlikely Darabont checked his dailies in both black and white and color as he shot the film, it could help mitigate some of the shoddy CGI present in the film’s trailers. Further, since Darabont truly considers the black and white version "his" version, what are the chances it starts popping up in midnight screenings?
