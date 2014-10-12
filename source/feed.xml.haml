@@ -21,12 +21,12 @@ layout: false
         - review = post
         %title
           #{review.sequence}. #{review.display_title} #{grade_to_unicode_stars(grade: review.grade)}
-        %link{ href: "#{Movielog.site_url}/reviews/#{review.slug}" }
+        %link{ href: "#{Movielog.site_url}/reviews/#{review.slug}/" }
         %id #{Movielog.site_url}/reviews/#{review.slug}
       - else
         %title
           #{post.sequence}. #{post.title}
-        %link{ href: "#{Movielog.site_url}/features/#{post.slug}" }
+        %link{ href: "#{Movielog.site_url}/features/#{post.slug}/" }
         %id #{Movielog.site_url}/features/#{post.slug}
       %updated= post.date.xmlschema
       %content{ type: 'html' }

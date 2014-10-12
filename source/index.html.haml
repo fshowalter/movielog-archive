@@ -20,7 +20,7 @@ pagination:
         - review = post
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
         %li.list-item.list-item-with-counter
-          %a.list-item-link{ href: "/reviews/#{review.slug}" }
+          %a.list-item-link{ href: "/reviews/#{review.slug}/" }
             .list-item-header
               %span.list-item-title
                 %span.list-item-counter
@@ -43,7 +43,7 @@ pagination:
       - elsif post.is_a?(Movielog::Feature)
         - feature = post
         %li.list-item.list-item-with-counter
-          %a.list-item-link{ href: "/features/#{feature.slug}" }
+          %a.list-item-link{ href: "/features/#{feature.slug}/" }
             .list-item-header
               %span.list-item-title
                 %span.list-item-counter
