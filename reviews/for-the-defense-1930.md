@@ -9,7 +9,7 @@
 ---
 _For the Defense_ stars William Powell as Bill Foster. Bill is a slick defense lawyer famous for using any technicality or loophole to get his clients an acquittal, despite their obvious guilt. He’s so well-respected in the underworld that, when his car’s stolen, the crooks return it after getting a look at the registration.
 
-Bill’s seeing a showgirl, Irene, played by Kay Francis. Irene has another suitor, Jack. Jack’s a nice-enough guy, but he lacks Bill’s swagger. Jack wants to marry her, but Irene would rather marry Bill. Bill says he’s not the marrying kind. So Irene sees Jack behind Bill’s back, stringing Jack along hoping Bill will change his mind.
+Bill’s seeing a showgirl, Irene, played by Kay Francis. Irene wants Bill to marry her, but Bill says he's not the marrying kind. Irene's also seeing another guy, Jack, behind Bill's back. Jack’s a nice-enough guy, but he lacks Bill’s swagger. Jack wants to marry Irene, but Irene just strings him along hoping Bill will change his mind.
 
 Early one morning, Irene’s driving Jack home. The two have been out all night and Jack’s pie-eyed drunk. Jack gropes at her, causing her to hit and kill a stranded motorist. Recognizing what it would do to her reputation, were she discovered out with him at the early hour, Jack insists she flee the scene. Jack stays and takes the rap for the death.
 
