@@ -2,7 +2,7 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
-.posts
+.posts-with-filter
   %h2.list-title Viewing Log
   .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
     %h3.card-header.filter-controls-header Filter and Sort
@@ -14,11 +14,12 @@ title: Viewing Log
     = sort_filter(label: 'Order By',
                   attribute: 'viewing-date-desc',
                   target: '#viewings',
-                  options: [%w(Title title-asc),
-                            %w(Newest release-date-desc),
-                            %w(Oldest release-date-asc),
-                            ['Newest Viewing', 'viewing-date-desc'],
-                            ['Oldest Viewing', 'viewing-date-asc']])
+                  options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
+                            ['Viewing Date (Oldest First)', 'viewing-date-asc'],
+                            ['Release Date (Newest First)', 'release-date-desc'],
+                            ['Release Date (Oldest First)', 'release-date-asc'],
+                            %w(Title title-asc),
+                            ])
   .column-two-thirds
     %ul.plain-list.filter-results#viewings
       - sorted_viewings.each do |key|

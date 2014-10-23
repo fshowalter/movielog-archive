@@ -98,7 +98,7 @@ describe Movielog::Console::CreateReviewTweet do
     end
 
     expect(Movielog::ShortenUrl).to(receive(:call)
-      .with(url: 'http://www.franksmovielog.com/reviews/rio-bravo-1959')
+      .with(url: 'http://www.franksmovielog.com/reviews/rio-bravo-1959/')
       .and_return('http://short.url'))
 
     FakeWeb.register_uri(

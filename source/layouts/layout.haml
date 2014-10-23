@@ -91,26 +91,15 @@
           %rect{ y: '10', width: '18', height: '2' }
   = javascript_include_tag('remove_touch_delay.js', async: true)
   = yield_content(:js)
-  :javascript
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-55282521-1', 'auto');
-    ga('send', 'pageview');
+  - unless development?
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-55282521-1', 'auto');
+      ga('send', 'pageview');
 
-    (function(document) {
-      var toggle = document.querySelector('.sidebar-toggle');
-      var sidebar = document.querySelector('#sidebar');
-      var checkbox = document.querySelector('#sidebar-checkbox');
-
-      document.addEventListener('click', function(e) {
-        var target = e.target;
-
-        if(!checkbox.checked ||
-          sidebar.contains(target) ||
-          (target === checkbox || target === toggle)) return;
-
-        checkbox.checked = false;
-      }, false);
-    })(document);
+      !function(e){var c=e.querySelector(".sidebar-toggle"),r=e.querySelector("#sidebar"),
+      t=e.querySelector("#sidebar-checkbox");e.addEventListener("click",function(e){
+      var n=e.target;t.checked&&!r.contains(n)&&n!==t&&n!==c&&(t.checked=!1)},!1)}(document);
