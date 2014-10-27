@@ -63,7 +63,7 @@
         .container
           %h1.masthead-title
             %a{ href: '/', title: 'Home' } Frank's Movie Log
-      .container.content
+      .container.content{ class: yield_content(:content_class) }
         = yield
       %footer.site-footer
         .site-footer-content

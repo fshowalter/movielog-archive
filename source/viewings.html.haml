@@ -2,6 +2,8 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
+- content_for(:content_class, 'wide')
+
 .posts-with-filter
   %h2.list-title Viewing Log
   .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
@@ -25,7 +27,7 @@ title: Viewing Log
       - sorted_viewings.each do |key|
         - viewing = viewings[key]
         %li.list-item{ data_for_viewing(viewing: viewing) }
-          .list-item-header
+          .list-item-header.with-counter
             = viewing.display_title
           .list-item-description
             = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."

@@ -29,6 +29,7 @@ body {
   background-color: #fff;
   border-top: 4px solid $highlight;
   color: rgba(0, 0, 0, .8);
+  counter-reset: item-counter;
   letter-spacing: -.018rem;
   -webkit-text-size-adjust: 100%;
 }
@@ -125,6 +126,10 @@ strong {
     max-width: 35rem;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .container.wide {
+    max-width: 46rem;
   }
 }
 
@@ -636,6 +641,13 @@ dd {
   line-height: 1.2;
   padding-bottom: .4rem;
   position: relative;
+
+  &.with-counter:before {
+    color: rgba(0, 0, 0, .7);
+    font-weight: 100;
+    content: counter(item-counter) ". ";
+    counter-increment: item-counter;
+  }
 }
 
 @media (min-width: 46.5625em) {
