@@ -16,12 +16,16 @@ module Movielog
           return '' if grade.blank?
 
           '<svg class="rating" xmlns="http://www.w3.org/2000/svg" ' \
-          'xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2560 512">' +
-          SVG_STARS_FOR_LETTER_GRADE[grade] || '' \
+          'xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2560 512">' \
+          "#{grade_to_shapes(grade)}" \
           '</svg>'
         end
 
         private
+
+        def grade_to_shapes(grade)
+          SVG_STARS_FOR_LETTER_GRADE[grade] || ''
+        end
 
         def star(index = 0)
           "<polygon transform=\"translate(#{512 * index})\" class=\"star\" " \

@@ -7,7 +7,7 @@
   viewings = Movielog.viewings_for_title(title: review.title)
   headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-  director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+  director_slug = directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence
   writers = MovieDb.writers_for_title(db: Movielog.db, title: review.title)
   content_for(
     :description,
@@ -25,7 +25,7 @@
       - aka_titles.each do |aka_title|
         %dd.aka-title= aka_title unless aka_title == review.display_title
 
-  %span.post-slug Directed by #{director_slug}.
+  %span.post-slug Directed by #{director_slug}
 
   .rating-wrap{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: (Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0) * 2.0,

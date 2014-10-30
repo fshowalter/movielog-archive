@@ -13,43 +13,39 @@ pagination:
   end
 .posts
   %h2.list-title= yield_content(:title)
-  %ul.plain-list.column-list
+  %ol.numbered-list.column-list
     - pagination.each do |key|
       - post = posts[key]
       - if post.is_a?(Movielog::Review)
         - review = post
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-        %li.list-item.list-item-with-counter
+        %li.list-item{ value: post.sequence }
           %a.list-item-link{ href: "/reviews/#{review.slug}/" }
-            .list-item-header
-              %span.list-item-title
-                %span.list-item-counter
-                  = review.sequence
-                  %span.list-item-counter-dot
-                    = '. '
+            .list-item-date
+              = post.date.strftime('%B %-d, %Y')
+            %header.list-item-header
+              %h3.list-item-title{ data: { number: post.sequence }}
                 = "#{review.display_title} "
               %span.list-item-rating
                 = grade_to_svg_stars(grade: review.grade)
-            %span.list-item-rating-placeholder
             %span.list-item-description
+              %span.list-item-rating-placeholder
               %span.abbreviation
                 = ' D'
               %span.full
                 irected by
-              = " #{directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence}. "
+              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
               %span.full
                 Starring
               = " #{headline_cast(title: review.title)}."
       - elsif post.is_a?(Movielog::Feature)
         - feature = post
-        %li.list-item.list-item-with-counter
+        %li.list-item{ value: post.sequence }
           %a.list-item-link{ href: "/features/#{feature.slug}/" }
-            .list-item-header
-              %span.list-item-title
-                %span.list-item-counter
-                  = feature.sequence
-                  %span.list-item-counter-dot
-                    = '. '
+            .list-item-date
+              = post.date.strftime('%B %-d, %Y')
+            %header.list-item-header
+              %h3.list-item-title{ data: { number: post.sequence }}
                 = feature.title
             %span.list-item-description
               = feature.description
