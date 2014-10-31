@@ -1,4 +1,4 @@
-$sans: "futura-pt", "aktiv-grotesk-std", "jaf-bernino-sans", "avenir", "Helvetica Neue", "Arial", sans-serif;
+$sans: "jaf-bernino-sans", "avenir", "Helvetica Neue", "Arial", sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
 $sidebar-background: #3d444c;
@@ -704,7 +704,7 @@ dd {
   }
 
   .list-item-link {
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
@@ -719,7 +719,7 @@ dd {
   }
 
   .list-item-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: .5rem;
     transition: all .3s ease-in-out;
     display: inline-block;
