@@ -41,15 +41,12 @@
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
   .column-half
     %h3.card-header Viewings
-    %ol.plain-list
+    %ol.numbered-list-inline
       - viewings.each_with_index do |viewing, index|
-        %li.list-item-with-number
-          %span.list-item-number
-            = "#{index + 1}."
-          .card-description
-            via #{viewing.venue} on
-            = ' '
-            #{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")}
+        %li.numbered-list-item.card-description{ value: index + 1 }
+          = viewing.date.strftime("%A  %B #{viewing.date.day.ordinalize}, %Y")
+          %span.role= " via "
+          = viewing.venue
   .column-half
     %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
       %meta{ content: review.display_title, itemprop: 'name' }

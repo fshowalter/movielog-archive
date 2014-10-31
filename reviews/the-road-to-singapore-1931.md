@@ -7,16 +7,20 @@
 :imdb_id: tt0022321
 :grade: C
 ---
-In _The Road to Singapore_ William Powell plays Hugh Dawltry, a wealthy British ex-pat returning to his plantation on a small, tropical Pacific island. It seems Hugh has a bit of a reputation as a womanizer, and the small ex-pat community has happily ostracized him during his absence. 
+_The Road to Singapore_ stars William Powell as Hugh Dawltry. Hugh is a wealthy ex-pat returning via ocean liner to his plantation on the small tropical island of Khota. It seems Hugh has a bit of a reputation as a womanizer and the island’s small ex-pat community has happily ostracized him during his absence.
 
-We first meet Hugh aboard ship the day before the ocean liner is due to dock. He spent the trip trying to romance a young lady, Phillipa March, played by Doris Kenyon. Phillipa has resisted his advances, though there’s certainly a chemistry between them.
+As if to live up to his reputation, Hugh’s spent his return trip trying to romance a young lady, Phillipa Crosby (Doris Kenyon). To Hugh's dismay, Phillipa has resisted his advances despite their chemistry.
 
-They dock and Hugh discovers that Phillipa is the wife of local doctor George March, played by Louis Calhern. Phillipa dreams of romance, but George is focused on his work. Phillipa tries to arouse George’s passion, but he can’t even see her desperation. 
+Once they arrive, Hugh discovers that Phillipa is set to marry the local doctor, George March (Louis Calhern). The marriage sours fast. Phillipa dreams of romance, George dreams of his career. Phillipa wants George to sweep her off her feet, George wants Phillipa to find his socks. Phillipa tries to arouse George’s passion, but he can’t even see her desperation.
 
-Meanwhile, Hugh continues to flirt with the dissatisfied Phillipa, while warding of the advances of her vivacious younger sister-in-law. Things come to a head when, beliving her husband and sister-in-law to be out of town, Phillipa accepts an invitation to dine at Hugh’s bungalow. 
+Hugh continues to flirt with the dissatisfied Phillipa. He’s very discreet. Her resolve weakens. Things come to a head when Phillipa, believing George to be out of town, accepts an invitation from Hugh to dine at his bungalow.
 
-Had _The Road to Singapore_ been made a few years later, it would have crumbled under the weight of the Hayes code. As it stands, it’s a passable melodrama highlighted by a great performance by Powell.
+Had Warner Bros made _The Road to Singapore_ a few years later, it would have crumbled under the weight of the Hayes code. 
 
-Always impeccably dressed and often a little tipsy (his primary luggage on his return to town seems to have been cases of liquor), Powell ambles through the film exuding the urbane charm that would become his trademark.
+You see, Hugh isn’t the lothario his reputation makes him out to be. He wards off the advances of Phillipa’s vivacious younger sister-in-law Rene. He goes out of his way to protect Rene’s reputation. And while George isn’t husband-of-the-year material, he’s not an insensitive monster either. He’s just focused on his work. 
 
-There's even a massive tracking shot that, if the budget had supported it, would have elevated this to something special. Granted, as-is, the shot's laughably fake, but kudos to director  Alfred Green for trying.
+And that's one of the great things about pre-code Hollywood: It could tell stories with a moral gray area. At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums.
+
+That said, the film would be a wash without Powell’s performance. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. Who else could look at home in the jungle, dressed in a tuxedo?
+
+There's even a massive tracking shot that could have elevated this to something special. It's night. The camera fades from natives pounding jungle drums to Phillipa, gazing out her bedroom window. The camera pans out and up, across acres and acres of dark jungle to Powell standing on his porch, gazing at Phillipa's bungalow in the distance. Granted, the shot's tracking over an obvious paper mache model, but kudos to director Alfred Green for trying.

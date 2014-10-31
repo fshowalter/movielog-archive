@@ -1,4 +1,4 @@
-$sans: "Segoe UI", "jaf-bernino-sans", "avenir", "Helvetica Neue", "Arial", sans-serif;
+$sans: "futura-pt", "aktiv-grotesk-std", "jaf-bernino-sans", "avenir", "Helvetica Neue", "Arial", sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
 $sidebar-background: #3d444c;
@@ -13,6 +13,7 @@ body {
   margin: 0;
   overflow-x: hidden;  // Prevent scroll on narrow devices
   padding: 0;
+  counter-reset: filter-results;
 }
 
 html {
@@ -342,7 +343,7 @@ a.sidebar-nav-item:focus {
   margin-bottom: 1rem;
   margin-top: 0;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media (min-width: 46.5625em) {
@@ -554,7 +555,7 @@ dd {
   text-transform: uppercase;
 }
 
-.plain-list, .numbered-list {
+.plain-list, .numbered-list, .numbered-list-inline {
   margin-left: 0;
   padding-left: 0;
   font-family: $sans;
@@ -573,10 +574,37 @@ dd {
   }
 }
 
+.numbered-list-inline {
+  margin-left: 1rem;
+
+  .numbered-list-item {
+    list-style-type: decimal;
+  }
+}
+
+.filter-results .list-item-title:before {
+  content: counter(filter-results) ". ";
+  counter-increment: filter-results;
+}
+
 @media (min-width: 46.5625em) {
   .numbered-list {
     .list-item {
-      padding-left: 1.5rem;
+      padding-left: 2rem;
+    }
+  }
+
+  .filter-results {
+    padding-left: 2rem;
+
+    .list-item {
+      list-style-type: decimal;
+      padding-left: 0;
+    }
+
+
+    .list-item-title:before {
+      content: '';
     }
   }
 
@@ -615,8 +643,10 @@ dd {
 }
 
 .list-item-with-number {
-  padding-left: 2rem;
-  position: relative;
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+  // padding-left: 2rem;
+  // position: relative;
 }
 
 .list-item-number {
@@ -672,6 +702,10 @@ dd {
   &:before {
     content: attr(data-number) ". ";
   }
+
+  .list-item-link {
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 46.5625em) {
@@ -692,7 +726,10 @@ dd {
 
     &:before {
       position: absolute;
+      text-align: right;
+      font-weight: 300;
       left: 0;
+      width: 1.5rem;
       color: rgba(0,0,0,.6);
     }
   }
@@ -703,7 +740,7 @@ dd {
   display: block;
   font-family: $sans;
   font-size: .7rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
   padding-top: 5px;
   padding-left: 1px;
@@ -734,7 +771,7 @@ dd {
 }
 
 .list-item-rating {
-  bottom: -.89rem;
+  bottom: -.98rem;
   height: .7rem;
   left: 1px;
   position: absolute;
@@ -837,12 +874,13 @@ dd {
   color: rgba(0, 0, 0, .6);
   font-family: $sans;
   font-size: .75rem;
+  line-height: 1.5;
 }
 
 @media (min-width: 46.5625em) {
   .card-description {
     font-size: .8rem;
-    letter-spacing: inherit;
+    letter-spacing: normal;
   }
 }
 

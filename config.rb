@@ -15,6 +15,15 @@ helpers do
     Tilt['markdown'].new { source }.render
   end
 
+  def reviews
+    @reviews ||= begin
+      Movielog.reviews.values.reduce({}) do |hash, review|
+        hash[review.title] = review
+        hash
+      end
+    end
+  end
+
   def viewings
     @viewings ||= begin
       viewings = Movielog.viewings
