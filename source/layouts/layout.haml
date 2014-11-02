@@ -61,8 +61,11 @@
     .wrap
       .masthead
         .container
-          %h1.masthead-title
-            %a{ href: '/', title: 'Home' } Frank's Movie Log
+          %a{ href: '/', title: 'Home' }
+            .logo
+            %h1.masthead-title
+              Frank's Movie Log
+              %span.list-title= content_for?(:sub_header) ? yield_content(:sub_header) : 'Presents'
       .container.content{ class: yield_content(:content_class) }
         = yield
       %footer.site-footer

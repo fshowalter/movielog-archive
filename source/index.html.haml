@@ -7,12 +7,11 @@ pagination:
 :ruby
   posts = Movielog.posts
   if pagination.page_num == 1
-    content_for(:title, 'Latest Updates')
+    content_for(:title, 'Presents')
   else
-    content_for(:title, "Latest Updates &middot; Page - #{pagination.page_num}")
+    content_for(:title, "Presents &middot; Page - #{pagination.page_num}")
   end
 .posts
-  %h2.list-title= yield_content(:title)
   %ol.numbered-list.column-list
     - pagination.each do |key|
       - post = posts[key]
@@ -23,7 +22,7 @@ pagination:
           .list-item-date
             = post.date.strftime('%B %-d, %Y')
           %header.list-item-header
-            %h3.list-item-title{ data: { number: post.sequence }}
+            %h2.list-item-title{ data: { number: post.sequence }}
               %a.list-item-link{ href: "/reviews/#{review.slug}/" }
                 = "#{review.display_title} "
             %span.list-item-rating
@@ -45,7 +44,7 @@ pagination:
             .list-item-date
               = post.date.strftime('%B %-d, %Y')
             %header.list-item-header
-              %h3.list-item-title{ data: { number: post.sequence }}
+              %h2.list-item-title{ data: { number: post.sequence }}
                 = feature.title
             %span.list-item-description
               = feature.description

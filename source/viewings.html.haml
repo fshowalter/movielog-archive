@@ -3,8 +3,8 @@ title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
 - content_for(:content_class, 'wide')
+- content_for(:sub_header, '<h2>Viewing Log</h2>')
 .posts-with-filter
-  %h2.list-title Viewing Log
   .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
     %h3.card-header.filter-controls-header Filter and Sort
     = text_filter(placeholder: 'Title', attribute: 'data-title')
