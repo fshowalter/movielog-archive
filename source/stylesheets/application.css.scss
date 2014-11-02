@@ -355,8 +355,10 @@ a.sidebar-nav-item:focus {
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 .post {
-  margin-bottom: 4em;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   margin-top: 3rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 .post-title {
