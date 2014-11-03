@@ -7,20 +7,20 @@
 :imdb_id: tt0022321
 :grade: C
 ---
-_The Road to Singapore_ stars William Powell as Hugh Dawltry. Hugh is a wealthy ex-pat returning via ocean liner to his plantation on the small tropical island of Khota. It seems Hugh has a bit of a reputation as a womanizer and the island’s small ex-pat community has happily ostracized him during his absence.
+There's a shot in _The Road to Singapore_ that sums up the film. It's night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera then pans out and up, across acres and acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance. 
 
-As if to live up to his reputation, Hugh’s spent his return trip trying to romance a young lady, Phillipa Crosby (Doris Kenyon). To Hugh's dismay, Phillipa has resisted his advances despite their chemistry.
+Now granted, the shot's tracking over an obvious paper mache model, but kudos to director Alfred Green for trying. This is a movie whose reach simply exceeds its grasp. 
 
-Once they arrive, Hugh discovers that Phillipa is set to marry the local doctor, George March (Louis Calhern). The marriage sours fast. Phillipa dreams of romance, George dreams of his career. Phillipa wants George to sweep her off her feet, George wants Phillipa to find his socks. Phillipa tries to arouse George’s passion, but he can’t even see her desperation.
+The woman in the shot is Doris Kenyon. She plays Phillipa. The man is William Powell. He plays Hugh. The setting is Khota, a small tropical island in the Pacific. 
 
-Hugh continues to flirt with the dissatisfied Phillipa. He’s very discreet. Her resolve weakens. Things come to a head when Phillipa, believing George to be out of town, accepts an invitation from Hugh to dine at his bungalow.
+Phillipa is caught in an unhappy marriage to the local doctor. She wants him to sweep her off her feet, he wants her to find his socks. 
 
-Had Warner Bros made _The Road to Singapore_ a few years later, it would have crumbled under the weight of the Hayes code. 
+Hugh has just returned to the island after supposedly running off with another man’s wife. Hugh and Phillipa flirt. Her resolve weakens. Things come to a head when Phillipa, believing her husband to be out of town, accepts an invitation from Hugh to dine at his bungalow.
 
-You see, Hugh isn’t the lothario his reputation makes him out to be. He wards off the advances of Phillipa’s vivacious younger sister-in-law Rene. He goes out of his way to protect Rene’s reputation. And while George isn’t husband-of-the-year material, he’s not an insensitive monster either. He’s just focused on his work. 
+At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums. 
 
-And that's one of the great things about pre-code Hollywood: It could tell stories with a moral gray area. At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums.
+It tries for passionate drama, and might have come close for its time. Of course, it feels timid now. There are some bad moments, such as when its characters slip into that era’s favorite affectation of delivering their lines while staring off into the distance. 
 
-That said, the film would be a wash without Powell’s performance. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. Who else could look at home in the jungle, dressed in a tuxedo?
+But the film works thank’s to Powell’s performance. Despite the subject matter, the film gives him ample opportunities to showcase his comedic timing. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. He wins us over just as he wins over Phillipa. After all, who else could look at home in the jungle, dressed in a tuxedo?
 
-There's even a massive tracking shot that could have elevated this to something special. It's night. The camera fades from natives pounding jungle drums to Phillipa, gazing out her bedroom window. The camera pans out and up, across acres and acres of dark jungle to Powell standing on his porch, gazing at Phillipa's bungalow in the distance. Granted, the shot's tracking over an obvious paper mache model, but kudos to director Alfred Green for trying.
+
