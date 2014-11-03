@@ -7,8 +7,7 @@
 :imdb_id: tt0022321
 :grade: C
 ---
-There's a shot in _The Road to Singapore_ that sums up the film. It's night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera then pans out and up, across acres and acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance. 
-
+There's a shot in _The Road to Singapore_ that sums up the film. It's night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera then pans out, away from her window, and up, across acres and acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance. 
 Now granted, the shot's tracking over an obvious paper mache model, but kudos to director Alfred Green for trying. This is a movie whose reach simply exceeds its grasp. 
 
 The woman in the shot is Doris Kenyon. She plays Phillipa. The man is William Powell. He plays Hugh. The setting is Khota, a small tropical island in the Pacific. 
@@ -19,8 +18,10 @@ Hugh has just returned to the island after supposedly running off with another m
 
 At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums. 
 
-It tries for passionate drama, and might have come close for its time. Of course, it feels timid now. There are some bad moments, such as when its characters slip into that era’s favorite affectation of delivering their lines while staring off into the distance. 
+It tries for passionate drama, and might have come close for its time. Of course, it feels timid now. It has some bad moments, such as when its characters slip into that era’s favorite affectation of delivering their lines while staring off at nothing in particular.
 
-But the film works thank’s to Powell’s performance. Despite the subject matter, the film gives him ample opportunities to showcase his comedic timing. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. He wins us over just as he wins over Phillipa. After all, who else could look at home in the jungle, dressed in a tuxedo?
+But the film is entertaining thanks to Powell’s performance. Despite the subject matter, the film gives him ample opportunities to showcase his comedic timing. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. He wins us over just as he wins over Phillipa. After all, who else could look at home in the jungle, dressed in a tuxedo?
+
+
 
 
