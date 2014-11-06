@@ -16,7 +16,9 @@ pagination:
       - if post.is_a?(Movielog::Review)
         - review = post
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-        %li.list-item{ value: post.sequence }
+        %li.list-item{ value: post.sequence, class: "#{'with-poster' unless post.poster.blank?}" }
+          - unless post.poster.blank?
+            %a.poster-thumb{ href: "/reviews/#{review.slug}/", data: { background_image: post.poster }}
           .list-item-date
             = post.date.strftime('%B %-d, %Y')
           %header.list-item-header

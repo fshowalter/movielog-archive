@@ -6,6 +6,7 @@
 :date: 2014-07-01
 :imdb_id: tt1464580
 :grade: C+
+:poster: https://lh6.googleusercontent.com/-ezc5wQAGk-k/VFrB4UlOSmI/AAAAAAAACUg/rnuAUy_wjzg/w140/stake-land-2010.jpg
 ---
 _Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac in search of the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as a kind of chemical weapon, dropping them out of helicopters into neighboring towns.
 

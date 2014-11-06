@@ -173,6 +173,30 @@ strong {
   }
 }
 
+.poster {
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 3rem;
+}
+
+.poster-thumb {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+}
+
+@media (min-width: 46.5625em) {
+  .poster-thumb {
+    right: auto;
+    left: 2rem;
+  }
+}
+
 //
 // Masthead
 //
@@ -624,6 +648,19 @@ dd {
 
   a {
     background-image: none;
+  }
+}
+
+.numbered-list .list-item.with-poster {
+  position: relative;
+  padding-right: calc(20% + 1rem);
+  // left: -2rem;
+}
+
+@media (min-width: 46.5625em) {
+  .numbered-list .list-item.with-poster {
+    padding-left: calc(20% + 3rem);
+    padding-right: 0;
   }
 }
 
