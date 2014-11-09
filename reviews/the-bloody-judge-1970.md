@@ -6,7 +6,6 @@
 :date: 2014-08-03
 :grade: D
 :imdb_id: tt0064727
-:poster: https://lh3.googleusercontent.com/-vaF3NkwYMAc/VFrUiVDm7SI/AAAAAAAACVk/H0_fQZM5-fI/w140/the-bloody-judge-1970.jpg
 ---
 
 It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.

@@ -6,7 +6,6 @@
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
-:poster: https://lh6.googleusercontent.com/-KgRGOQ8WJU0/VFrZo0EPNhI/AAAAAAAACV4/89C4hSHEGc4/w140/psycho-circus-1967.jpg
 ---
 _Circus of Fear_ (_Psycho Circus_, here in the US) opens with a shot of Klaus Kinski's wrist watch. He's part of a group of thieves preparing to execute a daylight holdup of an armored car as it crosses London's Tower bridge. There's no dialog. The crooks work on a precise timetable. Two men setup a road block to divert oncoming traffic, then rush to setup the escape route. Two others take out the escort car and maneuver the armored car to the other side of the bridge. Kinski knocks out the bridge operator and raises the bridge. Everything goes according to plan until one of the thieves panics and shoots one of the guards.
 

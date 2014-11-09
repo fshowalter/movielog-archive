@@ -6,5 +6,3 @@
 //= require _rating-range-filter
 //= require _radio-filter
 //= require _clearable
-//= require _background-image
-//= require _remove-touch-delay

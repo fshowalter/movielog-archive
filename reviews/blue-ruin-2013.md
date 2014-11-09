@@ -6,7 +6,6 @@
 :date: 2014-09-22
 :imdb_id: tt2359024
 :grade: B+
-:poster: https://lh6.googleusercontent.com/-pN66IsPGXhU/VFrbLHnTW8I/AAAAAAAACWY/HWVvjKGFY6c/w140/blue-ruin-2014.jpg
 ---
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it's a terrifically tense and visceral experience.
 

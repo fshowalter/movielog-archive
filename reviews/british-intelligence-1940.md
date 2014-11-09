@@ -6,7 +6,6 @@
 :date: 2014-10-13
 :imdb_id: tt0032283
 :grade: D+
-:poster: https://lh5.googleusercontent.com/-J0ZONRoDlT8/VFrcGt9HPbI/AAAAAAAACWw/ofcwvItuAvo/w140/british-intelligence-1940.jpg
 ---
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. I see no other way to review the film. Plot is all it has to offer.
 
@@ -20,7 +19,7 @@ The return of Frank Bennett prompts von Lorbeer to reveal that she’s actually 
 
 But the authorities have Valdar under surveillance and they rush into the cellar in time to disarm the bomb. Valdar flees with the plans. He’s shot during his escape but makes it to a German safe house. Just as they’re about to transmit the plans, a Zeppelin bomb levels the building.
 
-That’s a lot of plot. The labyrinthine twists of agents, double agents, and triple agents, leaves little room for characterization. But maybe that’s by design. Characterization requires some degree of plausibility, and the more one thinks about this film, the more it devolves into a series of flimsy revelations and deus ex machina.
+That’s a lot of plot. The labyrinthine twists of agents, double agents, and triple agents, leaves little room for characterization. But maybe that’s by design. Characterization requires some degree of plausibility, and the more one thinks about this film, the more it devolves into a series of flimsy revelations and deus ex machina. 
 
 Consider Valdar’s big reveal that he is Strendler. If Valdar was working for the British he would have told them about von Lorbeer, making the ruse involving the fake German agent unnecessary. But if Valdar didn’t tell the British about von Lorbeer, how did they know her handler’s code phrases? Surely, things like that wouldn’t be reused between agents. And just how did Valdar acquire so much information? It would seem that his intelligence gathering consists of little-more than standing outside thin doors or open windows. As a butler he wouldn’t be privy to any intelligence discussed at a secure location.
 

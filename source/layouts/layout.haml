@@ -91,10 +91,7 @@
           %rect{ width: '18', height: '2' }
           %rect{ y: '5', width: '18', height: '2' }
           %rect{ y: '10', width: '18', height: '2' }
-    %script{src: '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'}
-    :javascript
-      window.jQuery || document.write('<script src="#{asset_path(:javascript, 'jquery.js')}"><\/script>')
-    = javascript_include_tag('application.js')
+    = javascript_include_tag('remove_touch_delay.js', async: :async)
     = yield_content(:js)
     - unless development?
       :javascript
