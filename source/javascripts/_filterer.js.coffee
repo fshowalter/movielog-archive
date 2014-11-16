@@ -1,4 +1,5 @@
-// = require _jquery.nouislider
+// = require _jquery.liblink
+// = require _jquery.nouislider.7.0.9
 
 "use strict"
 

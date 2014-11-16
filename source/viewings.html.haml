@@ -3,7 +3,7 @@ title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
 - #content_for(:content_class, 'wide')
-- content_for(:sub_header, '<h2>Viewing Log</h2>')
+- content_for(:header, 'Viewing Log')
 .posts-with-filter
   .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
     %h3.card-header.filter-controls-header Filter and Sort
@@ -25,8 +25,9 @@ title: Viewing Log
     %ol.numbered-list.filter-results#viewings
       - sorted_viewings.each do |key|
         - viewing = viewings[key]
-        %li.list-item{ data_for_viewing(viewing: viewing) }
-          - if (review = reviews[viewing.title])
+        - review = reviews[viewing.title]
+        %li{ data_for_viewing(viewing: viewing).merge({ class: "list-item #{'with-rating' if review} "}) }
+          - if review
             .list-item-header
               .list-item-title
                 %a.list-item-link{ href: "/reviews/#{review.slug}/" }
@@ -41,7 +42,7 @@ title: Viewing Log
               %span.list-item-rating-placeholder
             = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
 - content_for(:js) do
-  %script{src: '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'}
+  %script{src: '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'}
   :javascript
     window.jQuery || document.write('<script src="#{asset_path(:javascript, 'jquery.js')}"><\/script>')
   = javascript_include_tag('application.js')

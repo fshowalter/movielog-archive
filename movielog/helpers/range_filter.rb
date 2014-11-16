@@ -19,8 +19,10 @@ module Movielog
           context.content_tag(:div, options) do
             [
               build_slider(context: context),
-              context.content_tag(:div, min, class: 'filter-range__min'),
-              context.content_tag(:div, max, class: 'filter-range__max')
+              context.input_tag(:number,
+                value: min, min: min, max: max, step: 1, class: 'filter-numeric min'),
+              context.input_tag(:number,
+                value: max, min: min, max: max, step: 1, class: 'filter-numeric max')
             ].join.html_safe
           end
         end
