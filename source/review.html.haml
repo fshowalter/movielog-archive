@@ -13,9 +13,6 @@
     :description,
     description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast))
 
-- content_for(:js_head) do
-  %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
-
 %article.review{ itemscope: true, itemtype: 'http://schema.org/Review' }
   %h1.page-title{ itemprop: 'name' }= review.display_title
 
@@ -75,4 +72,5 @@
             %span.role
               = " #{writer.notes}"
 
-    %p.review-imdb-link More at <a href="http://www.imdb.com/title/#{review.imdb_id}">the IMDb</a>.
+    %p.review-imdb-link
+      More at <a href="http://www.imdb.com/title/#{review.imdb_id}" data-no-instant >the IMDb</a>.

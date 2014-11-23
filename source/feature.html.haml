@@ -4,9 +4,6 @@
   content_for(:title, feature.title)
   content_for(:description, feature.pull_quote)
 
-- content_for(:js_head) do
-  %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
-
 %article.feature
   %h1.page-title= feature.title
 

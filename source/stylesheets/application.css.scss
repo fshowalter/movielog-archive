@@ -43,33 +43,36 @@ a {
   color: $highlight;
   position: relative;
   text-decoration: none;
-  transition: color .3s ease-in-out;
 
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    padding: 0;
-    left: 0;
-    background-color: #579;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 300ms ease-in-out;
+  @media (min-width: 46.5625em) {
+    transition: color .3s ease-in-out;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      padding: 0;
+      left: 0;
+      background-color: #579;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 300ms ease-in-out;
+    }
   }
 }
 
 // `:focus` is linked to `:hover` for basic accessibility
 a:hover,
 a:focus {
-  background-position: 0 1.1em;
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
+  @media (min-width: 46.5625em) {
+    color: #579 !important;
 
-  &:before {
-    transform: scaleX(1);
-    visibility: visible;
+    &:before {
+      transform: scaleX(1);
+      visibility: visible;
+    }
   }
 }
 
@@ -246,20 +249,12 @@ input:focus::-webkit-input-placeholder {
 @import 'viewing-log';
 
 .js-collapse {
-  display: none;
-  visibility: hidden;
-
-  &.in {
-    display: block;
-    visibility: visible;
-  }
-}
-
-.js-collapsing {
-  height: 0;
   overflow: hidden;
-  position: relative;
   transition-duration: .3s;
   transition-property: height, visibility;
   transition-timing-function: ease-in-out;
+}
+
+.js-collapsed {
+  height: 0;
 }

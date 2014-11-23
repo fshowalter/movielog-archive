@@ -31,7 +31,6 @@
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
     %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
-    = yield_content(:js_head)
     :javascript
       try{Typekit.load();}catch(e){}
 
@@ -42,7 +41,7 @@
       %nav
         %button.nav-menu-toggle{ data: { toggle: true }}
           Menu
-        %ul.nav-menu.js-collapse
+        %ul.nav-menu.js-collapse.js-collapsed
           %li.nav-menu-item.nav-menu-item-search
             = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
               = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
@@ -67,14 +66,18 @@
     %footer.site-footer
       .site-footer-content
         = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
-      %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog'}
+      %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
+                              data: { no_instant: true }}
         = inline_svg('twitter.svg', class: 'twitter-icon')
         follow
-      %a.site-footer-feed{ href: '/feed'}
+      %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
         = inline_svg('feed.svg', class: 'feed-icon')
         subscribe
   = javascript_include_tag('remove_touch_delay.js', async: :async)
   = javascript_include_tag('navigation.js', async: :async)
+  = javascript_include_tag('instantclick.js', data: { no_instant: true })
+  :javascript
+    InstantClick.init();
   = yield_content(:js)
   - unless development?
     :javascript
