@@ -12,7 +12,16 @@ helpers Movielog::Helpers
 # Methods defined in the helpers block are available in templates
 helpers do
   def markdown(source)
+    return source if source.blank?
     Tilt['markdown'].new { source }.render
+  end
+
+  def inline_svg(filename, options = {})
+    file = sprockets.find_asset(filename).to_s.force_encoding('UTF-8')
+    doc = Nokogiri::HTML::DocumentFragment.parse file
+    svg = doc.at_css 'svg'
+    svg['class'] = options[:class] if options[:class].present?
+    doc.to_html
   end
 
   def reviews

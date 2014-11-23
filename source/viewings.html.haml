@@ -6,7 +6,7 @@ title: Viewing Log
 - content_for(:header, 'Viewing Log')
 .posts-with-filter
   .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
-    %h3.card-header.filter-controls-header Filter and Sort
+    %h3.viewing-log-filters-header Filter and Sort
     = text_filter(placeholder: 'Title', attribute: 'data-title')
     = range_filter(label: 'Year',
                    attribute: 'data-release-date-year',
@@ -22,24 +22,22 @@ title: Viewing Log
                             %w(Title title-asc),
                             ])
   .column-two-thirds
-    %ol.numbered-list.filter-results#viewings
+    %ol.viewing-log-list#viewings
       - sorted_viewings.each do |key|
         - viewing = viewings[key]
         - review = reviews[viewing.title]
-        %li{ data_for_viewing(viewing: viewing).merge({ class: "list-item #{'with-rating' if review} "}) }
+        %li.viewing-log-list-item{ data_for_viewing(viewing: viewing) }
           - if review
-            .list-item-header
-              .list-item-title
-                %a.list-item-link{ href: "/reviews/#{review.slug}/" }
+            .viewing-log-list-item-header
+              .viewing-log-list-item-title
+                %a{ href: "/reviews/#{review.slug}/" }
                   = "#{review.display_title} "
-              %span.list-item-rating
+              %span.viewing-log-list-item-rating
                 = grade_to_svg_stars(grade: review.grade)
           - else
-            .list-item-title
+            .viewing-log-list-item-title
               = viewing.display_title
-          .list-item-description
-            - if review
-              %span.list-item-rating-placeholder
+          %div{ class: "viewing-log-list-item-slug #{'with-rating' if review}" }
             = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
 - content_for(:js) do
   %script{src: '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'}

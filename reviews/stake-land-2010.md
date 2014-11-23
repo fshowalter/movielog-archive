@@ -6,6 +6,7 @@
 :date: 2014-07-01
 :imdb_id: tt1464580
 :grade: C+
+:pull_quote: _Stake Land_ may not be a revelation, but it is a solid entry in the post-apocalyptic horror genre. The script respects the audience. When Martin hears that his family is "already dead," he accepts it with wisdom seldom seen in horror films.
 ---
 _Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac in search of the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as a kind of chemical weapon, dropping them out of helicopters into neighboring towns.
 

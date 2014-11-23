@@ -6,6 +6,7 @@
 :date: 2014-08-03
 :grade: D
 :imdb_id: tt0064727
+:pull_quote: Think long, ponderous scenes full of exposition interspersed with the occasional sequence of Howard Vernon dressed like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood.
 ---
 
 It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.

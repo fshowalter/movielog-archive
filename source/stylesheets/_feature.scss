@@ -1,0 +1,19 @@
+.feature {
+  @extend %post;
+
+  .post-content {
+    margin-top: 3rem;
+  }
+}
+
+.feature-slug {
+  border-top: 1px solid rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .4);
+  font-family: $sans;
+  font-size: .75rem;
+  padding: 1rem 0;
+
+  .title {
+    font-weight: bold;
+  }
+}

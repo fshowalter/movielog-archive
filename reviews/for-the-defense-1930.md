@@ -6,6 +6,7 @@
 :date: 2014-10-11
 :imdb_id: tt0020896
 :grade: C-
+:pull_quote: As melodramas go, _For the Defense_ isn’t a bad one. Early on, when Bill’s riding high, his urbane charm, affinity for alcohol, and underworld connections foreshadow Powell’s famous turn as Nick Charles in the _Thin Man_ series of films.
 ---
 _For the Defense_ stars William Powell as Bill Foster. Bill is a slick defense lawyer famous for using any technicality or loophole to get his clients an acquittal, despite their obvious guilt. He’s so well-respected in the underworld that, when his car’s stolen, the crooks return it after getting a look at the registration.
 

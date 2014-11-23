@@ -1,18 +1,20 @@
 ---
 ---
 :ruby
-  content_for(:title, "#{feature.title}")
-  content_for(:description, feature.description)
+  content_for(:title, feature.title)
+  content_for(:description, feature.pull_quote)
 
 - content_for(:js_head) do
   %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
 
-%article.post
-  %h1.post-title.feature-title= feature.title
+%article.feature
+  %h1.page-title= feature.title
 
   .post-content
     = markdown(feature.content)
 
-  .post-meta
-    &#8220;#{feature.title}&#8221; was published on #{feature.date}.
+  .feature-slug
+    %span.title
+      #{feature.title}
+    = " was published on #{feature.date}."
 

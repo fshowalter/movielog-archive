@@ -3,8 +3,8 @@
 :title: Welcome Back
 :slug: welcome-back
 :date: 2014-07-01
-:description: >
-  Wherein I declare review bankruptcy and request a second chance.
+:pull_quote: >
+  My last review was over a year ago. The top of my to-review list is a movie I saw almost two years ago. And there's over 200 movies after that one. I have fallen off the review wagon.
 ---
 
 Hey there, Frank here.

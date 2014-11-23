@@ -11,42 +11,43 @@ pagination:
   end
 - content_for(:header) do
   Latest Updates
-.posts
-  %ol.plain-list
-    - pagination.each do |key|
-      - post = posts[key]
-      - if post.is_a?(Movielog::Review)
-        - review = post
-        - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-        %li.list-item.with-rating{ value: post.sequence }
-          .list-item-date
-            = post.date.strftime('%B %-d, %Y')
-          %header.list-item-header
-            %h2.list-item-title{ data: { number: post.sequence }}
-              %a.list-item-link{ href: "/reviews/#{review.slug}/" }
-                = "#{review.display_title} "
-            %span.list-item-rating
-              = grade_to_svg_stars(grade: review.grade)
-          %span.list-item-description
-            %span.abbreviation
-              = ' D'
-            %span.full
-              irected by
-            = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-            %span.full
-              Starring
-            = " #{headline_cast(title: review.title)}."
-      - elsif post.is_a?(Movielog::Feature)
-        - feature = post
-        %li.list-item{ value: post.sequence }
-          .list-item-date
-            = post.date.strftime('%B %-d, %Y')
-          %header.list-item-header
-            %h2.list-item-title{ data: { number: post.sequence }}
-              %a.list-item-link{ href: "/features/#{feature.slug}/" }
-                = feature.title
-          %span.list-item-description
-            = feature.description
+%ol.latest-updates-list
+  - pagination.each do |key|
+    - post = posts[key]
+    - if post.is_a?(Movielog::Review)
+      - review = post
+      - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
+      %li.latest-updates-list-item{ value: post.sequence }
+        .latest-updates-list-item-date
+          = post.date.strftime('%B %-d, %Y')
+        %header.latest-updates-list-item-header
+          %h2.latest-updates-list-item-title{ data: { number: post.sequence }}
+            %a{ href: "/reviews/#{review.slug}/" }
+              = "#{review.display_title} "
+          %span.latest-updates-list-item-rating
+            = grade_to_svg_stars(grade: review.grade)
+        %span.latest-updates-list-item-slug.with-rating
+          %span.abbreviation
+            = ' D'
+          %span.full
+            irected by
+          = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
+          %span.full
+            Starring
+          = " #{headline_cast(title: review.title)}."
+        .latest-updates-list-item-pull-quote
+          = markdown(review.pull_quote)
+    - elsif post.is_a?(Movielog::Feature)
+      - feature = post
+      %li.latest-updates-list-item{ value: post.sequence }
+        .latest-updates-list-item-date
+          = post.date.strftime('%B %-d, %Y')
+        %header.latest-updates-list-item-header
+          %h2.latest-updates-list-item-title{ data: { number: post.sequence }}
+            %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
+              = feature.title
+        .latest-updates-list-item-pull-quote
+          = feature.pull_quote
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }

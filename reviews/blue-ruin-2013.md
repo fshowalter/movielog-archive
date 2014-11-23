@@ -6,6 +6,7 @@
 :date: 2014-09-22
 :imdb_id: tt2359024
 :grade: B+
+:pull_quote: _Blue Ruin_ is a straightforward rural noir. There aren’t any flashbacks or quirky characters. There are no cinematic allusions or pop-culture references. It’s a simple story told well.
 ---
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it's a terrifically tense and visceral experience.
 

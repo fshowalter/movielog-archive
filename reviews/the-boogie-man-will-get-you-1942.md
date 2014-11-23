@@ -6,6 +6,7 @@
 :date: 2014-09-14
 :imdb_id: tt0034540
 :grade: D+
+:pull_quote: _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
 ---
 _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.
 
@@ -13,7 +14,7 @@ Karloff plays Nathaniel Billings, an eccentric but earnest old professor who spe
 
 Of course, Winnie doesn't know that Billings’ experiments involve trying to create an army of atomic supermen to win the war. Or that his test subjects consist of the various traveling salesmen that knock on his door. Or that all his experiments have been fatal failures, leaving him with a nice collection of well-preserved corpses. One would think this sort of thing would have come up during the walk-through, but the film gives Winnie the mental acuity of a toddler.
 
-Lorre plays Arthur Lorencz, a smarmy opportunist who's the town doctor, mayor, mortician, notary, and everything else. He holds the mortgage on Billings’ home. 
+Lorre plays Arthur Lorencz, a smarmy opportunist who's the town doctor, mayor, mortician, notary, and everything else. He holds the mortgage on Billings’ home.
 
 There's a great scene where Lorencz, in his capacity as town sheriff, confronts Billings about one of the traveling salesman's corpses. With idyllic pride, Billings explains his experiments. Lorencz is relieved. Never mind the corpse, Billings’	experiments could be worth a fortune! Soon they’re partners bemoaning the lack of quality “test subjects”. It’s a terrific bit that hints at the film’s potential as a subversive black comedy.
 

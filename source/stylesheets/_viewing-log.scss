@@ -1,0 +1,80 @@
+.viewing-log-list {
+  @extend %list;
+}
+
+.viewing-log-list-item {
+  @extend %list-item;
+
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+  @media (min-width: 46.5625em) {
+    margin-left: 2rem;
+  }
+}
+
+.viewing-log-list-item-header {
+  @extend %list-item-header;
+}
+
+.viewing-log-list-item-title {
+  @extend %list-item-title;
+
+  font-size: .9rem;
+  font-weight: 400;
+
+  &:before {
+    content: counter(filter-results) '. ';
+    counter-increment: filter-results;
+    left: -2.5rem;
+  }
+
+  @media (min-width: 46.5625em) {
+    font-size: 1rem;
+  }
+}
+
+.viewing-log-list-item-rating {
+  @extend %list-item-rating;
+
+  bottom: -.65rem;
+}
+
+.viewing-log-list-item-slug {
+  @extend %list-item-slug;
+
+  font-size: .75rem;
+  line-height: 1.3;
+
+  @media (min-width: 46.5625em) {
+    font-size: .8rem;
+  }
+}
+
+.viewing-log-filters-header {
+  @extend %small-header;
+}
+
+.column-one-third {
+  padding: 1rem 1rem 0;
+}
+
+@media (min-width: 50em) {
+  .column-one-third {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+    width: 33.5%;
+  }
+
+  .column-two-thirds {
+    display: inline-block;
+    margin-top: 4.75rem;
+    padding-left: 1rem;
+    padding-right: 0;
+    vertical-align: top;
+    width: 66.5%;
+  }
+}
+
+@import 'filters'

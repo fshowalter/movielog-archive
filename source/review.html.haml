@@ -16,18 +16,18 @@
 - content_for(:js_head) do
   %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
 
-%article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
-  %h1.post-title{ itemprop: 'name' }= review.display_title
+%article.review{ itemscope: true, itemtype: 'http://schema.org/Review' }
+  %h1.page-title{ itemprop: 'name' }= review.display_title
 
   - if aka_titles.any?
-    %dl.aka
-      %dt.aka-heading aka
+    %dl.review-aka-list
+      %dt.review-aka-list-heading aka
       - aka_titles.each do |aka_title|
-        %dd.aka-title= aka_title unless aka_title == review.display_title
+        %dd.review-aka-list-item= aka_title unless aka_title == review.display_title
 
-  %span.post-slug Directed by #{director_slug}
+  .review-directed-by Directed by #{director_slug}
 
-  .rating-wrap{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
+  .review-rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: (Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0) * 2.0,
            itemprop: 'ratingValue' }
     %meta{ content: '1', itemprop: 'worstRating' }
@@ -40,40 +40,39 @@
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
   .column-half
-    %h3.card-header Viewings
-    %ol.numbered-list-inline
+    %h3.review-viewings-list-header Viewings
+    %ol.review-viewings-list
       - viewings.each_with_index do |viewing, index|
-        %li.numbered-list-item.card-description{ value: index + 1 }
+        %li.review-viewings-list-item{ value: index + 1 }
           = viewing.date.strftime("%A  %B #{viewing.date.day.ordinalize}, %Y")
-          %span.role= " via "
-          = viewing.venue
+          %span.role= " via #{viewing.venue}"
   .column-half
     %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
       %meta{ content: review.display_title, itemprop: 'name' }
-      %h3.card-header Directed by
-      %ul.plain-list
+      %h3.review-credits-list-header Directed by
+      %ul.review-credits-list
         - directors.each do |director|
-          %li.card-description
+          %li.review-credits-list-item
             #{director.first_name} #{director.last_name}
             - unless director.notes.blank?
               %span.role
                 = " #{director.notes}"
-      %h3.card-header Starring
-      %ul.plain-list
+      %h3.review-credits-list-header Starring
+      %ul.review-credits-list
         - headline_cast.each do |performer|
-          %li.card-description{ itemprop: 'actor',
+          %li.review-credits-list-item{ itemprop: 'actor',
                                 itemscope: true,
                                 itemtype: 'http://schema.org/Person' }
             %span{ itemprop: 'name' }
               #{performer.first_name} #{performer.last_name}
               %span.role
                 = " as #{performer.role}"
-      %h3.card-header Written by
-      %ul.plain-list
+      %h3.review-credits-list-header Written by
+      %ul.review-credits-list
         - writers.each do |writer|
-          %li.card-description
+          %li.review-credits-list-item
             #{writer.first_name} #{writer.last_name}
             %span.role
               = " #{writer.notes}"
 
-    %p.card-description More at <a href="http://www.imdb.com/title/#{review.imdb_id}">the IMDb</a>.
+    %p.review-imdb-link More at <a href="http://www.imdb.com/title/#{review.imdb_id}">the IMDb</a>.

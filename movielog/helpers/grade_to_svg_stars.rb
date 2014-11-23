@@ -57,18 +57,18 @@ module Movielog
 
       SVG_STARS_FOR_LETTER_GRADE = {
         'A+' => [star, star(1), star(2), star(3), star(4)].join,
-        'A' => [star, star(1), star(2), star(3), half_star(4)].join,
-        'A-' => [star, star(1), star(2), star(3), half_star(4)].join,
-        'B+' => [star, star(1), star(2), star(3), empty_star(4)].join,
-        'B' => [star, star(1), star(2), half_star(3), empty_star(4)].join,
-        'B-' => [star, star(1), star(2), half_star(3), empty_star(4)].join,
-        'C+' => [star, star(1), star(2), empty_star(3), empty_star(4)].join,
-        'C' => [star, star(1), half_star(2), empty_star(3), empty_star(4)].join,
-        'C-' => [star, star(1), half_star(2), empty_star(3), empty_star(4)].join,
-        'D+' => [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join,
-        'D' => [star, half_star(1), empty_star(2), empty_star(3), empty_star(4)].join,
-        'D-' => [star, half_star(1), empty_star(2), empty_star(3), empty_star(4)].join,
-        'F' => [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
+        'A' => [star, star(1), star(2), star(3), empty_star(4)].join,
+        'A-' => [star, star(1), star(2), star(3), empty_star(4)].join,
+        'B+' => [star, star(1), star(2), empty_star(3), empty_star(4)].join,
+        'B' => [star, star(1), star(2), empty_star(3), empty_star(4)].join,
+        'B-' => [star, star(1), star(2), empty_star(3), empty_star(4)].join,
+        'C+' => [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'C' => [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'C-' => [star, star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'D+' => [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'D' => [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'D-' => [star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join,
+        'F' => [empty_star, empty_star(1), empty_star(2), empty_star(3), empty_star(4)].join
       }
     end
   end

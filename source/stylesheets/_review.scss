@@ -1,0 +1,123 @@
+.review {
+  @extend %post;
+}
+
+.review-aka-list {
+  margin: 0;
+  text-align: center;
+}
+
+.review-aka-list-heading {
+  color: rgba(0, 0, 0, .3);
+  font-family: $sans;
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+.review-aka-list-item {
+  color: rgba(0, 0, 0, .6);
+  font-family: $sans;
+  font-size: .8rem;
+  letter-spacing: -.02rem;
+  margin: 0;
+}
+
+.review-directed-by {
+  color: #9a9a9a;
+  display: block;
+  font-family: $sans;
+  font-size: .75rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+
+  @media (min-width: 46.5625em) {
+    font-size: .85rem;
+    font-weight: 300;
+    letter-spacing: -.02rem;
+  }
+}
+
+.review-rating {
+  height: 1.25rem;
+  margin: 1.5rem auto;
+  width: 6.25rem;
+
+  @media (min-width: 46.5625em) {
+    height: 1.5rem;
+    width: 7.5rem;
+  }
+}
+
+%review-meta-item {
+  color: rgba(0, 0, 0, .6);
+  font-family: $sans;
+  font-size: .75rem;
+  line-height: 1.5;
+
+  .role {
+    color: rgba(0, 0, 0, .3);
+  }
+
+  @media (min-width: 46.5625em) {
+    font-size: .8rem;
+    letter-spacing: normal;
+  }
+}
+
+%review-meta-header {
+  @extend %small-header;
+
+  border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+.review-viewings-list-header {
+  @extend %review-meta-header;
+}
+
+.review-viewings-list {
+  font-family: $sans;
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+}
+
+.review-viewings-list-item {
+  @extend %review-meta-item;
+}
+
+.review-credits-list-header {
+  @extend %review-meta-header;
+}
+
+.review-credits-list {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.review-credits-list-item {
+  @extend %review-meta-item;
+  list-style-type: none;
+}
+
+.review-imdb-link {
+  @extend %review-meta-item;
+}
+
+//
+// Multi-column
+//
+@media (min-width: 50em) {
+  .column-half {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .column-half:last-child {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+}
+

@@ -36,62 +36,55 @@
       try{Typekit.load();}catch(e){}
 
   %body
-    .wrap
-      %header.masthead
-        %h1.masthead-title.logo
-          %a{ href: '/' } Frank's Movie Log
-        %nav
-          %button.menu{ data: { toggle: true }}
-            Menu
-          %ul.nav-menu.js-collapse
-            %li.nav-menu-item
-              = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
-                = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-                .search-wrap.clearable-wrap
-                  = text_field_tag('q', placeholder: 'Search the Movie Log',
-                                        id: 'searchInput',
-                                        class: 'site-search-input')
-                  %svg.search-icon{ viewBox: '-192 -384 2048 2048', xmlns: 'http://www.w3.org/2000/svg' }
-                    %g{ transform: 'scale(1 -1) translate(0 -1280)' }
-                      %path{ d: 'M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z' }
-            %li.nav-menu-item
-              %a.home{ href: '/',
-                class: "nav-menu-link#{' active' if current_page.url == '/' }"}
-                Home
-            %li.nav-menu-item
-              %a{ href: '/viewings/',
-                  class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }"}
-                Viewing Log
+    %header.masthead
+      %h1.masthead-title
+        %a.masthead-title-link{ href: '/' } Frank's Movie Log
+      %nav
+        %button.nav-menu-toggle{ data: { toggle: true }}
+          Menu
+        %ul.nav-menu.js-collapse
+          %li.nav-menu-item.nav-menu-item-search
+            = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
+              = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
+              .site-search-wrap
+                = text_field_tag('q', placeholder: 'Search the Movie Log',
+                                      id: 'searchInput',
+                                      class: 'site-search-input')
+                = inline_svg('search.svg', class: 'site-search-icon')
+          %li.nav-menu-item
+            %a{ href: '/',
+              class: "nav-menu-link#{' active' if current_page.url == '/' }"}
+              Latest Updates
+          %li.nav-menu-item
+            %a{ href: '/viewings/',
+                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }"}
+              Viewing Log
+    .container.content{ class: yield_content(:content_class) }
       - if content_for?(:header)
-        .header-text
+        %h2.page-title
           = yield_content(:header)
-      .container.content{ class: yield_content(:content_class) }
-        = yield
-      %footer.site-footer
-        .site-footer-content
-          = "This has been #{link_to("Frank's Movie Log", '/', class: 'site-footer__link')}, loving movies since 2012."
-        %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog'}
-          %svg.twitter.icon{ xmlns: 'http://www.w3.org/2000/svg', viewBox: '-192 -384 2048 2048' }
-            %g{ transform: 'scale(1 -1) translate(0 -1280)' }
-              %path{ d: 'M1620 1128q-67 -98 -162 -167q1 -14 1 -42q0 -130 -38 -259.5t-115.5 -248.5t-184.5 -210.5t-258 -146t-323 -54.5q-271 0 -496 145q35 -4 78 -4q225 0 401 138q-105 2 -188 64.5t-114 159.5q33 -5 61 -5q43 0 85 11q-112 23 -185.5 111.5t-73.5 205.5v4q68 -38 146 -41 q-66 44 -105 115t-39 154q0 88 44 163q121 -149 294.5 -238.5t371.5 -99.5q-8 38 -8 74q0 134 94.5 228.5t228.5 94.5q140 0 236 -102q109 21 205 78q-37 -115 -142 -178q93 10 186 50z', fill: 'white' }
-          follow
-        %a.site-footer-feed{ href: '/feed'}
-          %svg.feed.icon{ viewBox: '-320 -384 2048 2048', xmlns: 'http://www.w3.org/2000/svg' }
-            %g{ transform: 'scale(1 -1) translate(0 -1280)' }
-              %path{ d: 'M384 192q0 -80 -56 -136t-136 -56t-136 56t-56 136t56 136t136 56t136 -56t56 -136zM896 69q2 -28 -17 -48q-18 -21 -47 -21h-135q-25 0 -43 16.5t-20 41.5q-22 229 -184.5 391.5t-391.5 184.5q-25 2 -41.5 20t-16.5 43v135q0 29 21 47q17 17 43 17h5q160 -13 306 -80.5 t259 -181.5q114 -113 181.5 -259t80.5 -306zM1408 67q2 -27 -18 -47q-18 -20 -46 -20h-143q-26 0 -44.5 17.5t-19.5 42.5q-12 215 -101 408.5t-231.5 336t-336 231.5t-408.5 102q-25 1 -42.5 19.5t-17.5 43.5v143q0 28 20 46q18 18 44 18h3q262 -13 501.5 -120t425.5 -294 q187 -186 294 -425.5t120 -501.5z', fill: 'black'}
-          subscribe
-    = javascript_include_tag('remove_touch_delay.js', async: :async)
-    = javascript_include_tag('navigation.js', async: :async)
-    = yield_content(:js)
-    - unless development?
-      :javascript
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-55282521-1', 'auto');
-        ga('send', 'pageview');
+      = yield
+    %footer.site-footer
+      .site-footer-content
+        = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
+      %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog'}
+        = inline_svg('twitter.svg', class: 'twitter-icon')
+        follow
+      %a.site-footer-feed{ href: '/feed'}
+        = inline_svg('feed.svg', class: 'feed-icon')
+        subscribe
+  = javascript_include_tag('remove_touch_delay.js', async: :async)
+  = javascript_include_tag('navigation.js', async: :async)
+  = yield_content(:js)
+  - unless development?
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-55282521-1', 'auto');
+      ga('send', 'pageview');
 
-        !function(e){var c=e.querySelector(".sidebar-toggle"),r=e.querySelector("#sidebar"),
-        t=e.querySelector("#sidebar-checkbox");e.addEventListener("click",function(e){
-        var n=e.target;t.checked&&!r.contains(n)&&n!==t&&n!==c&&(t.checked=!1)},!1)}(document);
+      !function(e){var c=e.querySelector(".sidebar-toggle"),r=e.querySelector("#sidebar"),
+      t=e.querySelector("#sidebar-checkbox");e.addEventListener("click",function(e){
+      var n=e.target;t.checked&&!r.contains(n)&&n!==t&&n!==c&&(t.checked=!1)},!1)}(document);
