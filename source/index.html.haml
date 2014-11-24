@@ -24,9 +24,9 @@ pagination:
           %h2.latest-updates-list-item-title{ data: { number: post.sequence }}
             %a{ href: "/reviews/#{review.slug}/" }
               = "#{review.display_title} "
-          .latest-updates-list-item-rating
-            = grade_to_unicode_stars_as_html(grade: review.grade)
-        .latest-updates-list-item-slug.with-rating
+          %span.latest-updates-list-item-rating
+            = grade_to_svg_stars(grade: review.grade)
+        %span.latest-updates-list-item-slug.with-rating
           %span.abbreviation
             = ' D'
           %span.full
