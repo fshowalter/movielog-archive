@@ -4,41 +4,40 @@ title: Viewing Log
 - sorted_viewings = viewings.keys.sort.reverse
 - #content_for(:content_class, 'wide')
 - content_for(:header, 'Viewing Log')
-.posts-with-filter
-  .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
-    %h3.viewing-log-filters-header Filter and Sort
-    = text_filter(placeholder: 'Title', attribute: 'data-title')
-    = range_filter(label: 'Year',
-                   attribute: 'data-release-date-year',
-                   min: oldest_year(collection: viewings.values, date_method: :release_date),
-                   max: newest_year(collection: viewings.values, date_method: :release_date))
-    = sort_filter(label: 'Order By',
-                  attribute: 'viewing-date-desc',
-                  target: '#viewings',
-                  options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
-                            ['Viewing Date (Oldest First)', 'viewing-date-asc'],
-                            ['Release Date (Newest First)', 'release-date-desc'],
-                            ['Release Date (Oldest First)', 'release-date-asc'],
-                            %w(Title title-asc),
-                            ])
-  .column-two-thirds
-    %ol.viewing-log-list#viewings
-      - sorted_viewings.each do |key|
-        - viewing = viewings[key]
-        - review = reviews[viewing.title]
-        %li.viewing-log-list-item{ data_for_viewing(viewing: viewing) }
-          - if review
-            .viewing-log-list-item-header
-              .viewing-log-list-item-title
-                %a{ href: "/reviews/#{review.slug}/" }
-                  = "#{review.display_title} "
-              %span.viewing-log-list-item-rating
-                = grade_to_svg_stars(grade: review.grade)
-          - else
+.column-one-third{ data: { filter_controls: true, target: '#viewings' }}
+  %h3.viewing-log-filters-header Filter and Sort
+  = text_filter(placeholder: 'Title', attribute: 'data-title')
+  = range_filter(label: 'Year',
+                 attribute: 'data-release-date-year',
+                 min: oldest_year(collection: viewings.values, date_method: :release_date),
+                 max: newest_year(collection: viewings.values, date_method: :release_date))
+  = sort_filter(label: 'Order By',
+                attribute: 'viewing-date-desc',
+                target: '#viewings',
+                options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
+                          ['Viewing Date (Oldest First)', 'viewing-date-asc'],
+                          ['Release Date (Newest First)', 'release-date-desc'],
+                          ['Release Date (Oldest First)', 'release-date-asc'],
+                          %w(Title title-asc),
+                          ])
+.column-two-thirds
+  %ol.viewing-log-list#viewings
+    - sorted_viewings.each do |key|
+      - viewing = viewings[key]
+      - review = reviews[viewing.title]
+      %li.viewing-log-list-item{ data_for_viewing(viewing: viewing) }
+        - if review
+          .viewing-log-list-item-header
             .viewing-log-list-item-title
-              = viewing.display_title
-          %div{ class: "viewing-log-list-item-slug #{'with-rating' if review}" }
-            = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
+              %a{ href: "/reviews/#{review.slug}/" }
+                = "#{review.display_title} "
+            %span.viewing-log-list-item-rating
+              = grade_to_svg_stars(grade: review.grade)
+        - else
+          .viewing-log-list-item-title
+            = viewing.display_title
+        %div{ class: "viewing-log-list-item-slug #{'with-rating' if review}" }
+          = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
 - content_for(:js) do
   %script{src: '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'}
   :javascript
