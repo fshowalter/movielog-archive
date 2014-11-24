@@ -8,10 +8,12 @@ $highlight: #579;
 }
 
 .star {
+  color: #eda829;
   fill: #eda829;
 }
 
 .empty-star {
+  color: #ddd;
   fill: #ddd;
 }
 
@@ -45,8 +47,6 @@ a {
   text-decoration: none;
 
   @media (min-width: 46.5625em) {
-    transition: color .3s ease-in-out;
-
     &:before {
       content: "";
       position: absolute;
@@ -200,25 +200,16 @@ input:focus::-webkit-input-placeholder {
 }
 
 %list-item-rating {
-  height: .7rem;
+  color: #ddd;
+  display: block;
+  font-size: .8rem;
   left: 1px;
+  letter-spacing: -1.5px;
   position: absolute;
-  width: 4.4rem;
-
-  .rating {
-    display: inline-block;
-  }
-
-  .star,
-  .empty-star {
-    height: .8rem;
-    width: .8rem;
-  }
 
   @media (min-width: 46.5625em) {
     display: inline-block;
-    position: relative;
-    top: .05rem;
+    position: static;
   }
 }
 
@@ -234,7 +225,6 @@ input:focus::-webkit-input-placeholder {
   &.with-rating:before {
     content: '';
     display: inline-block;
-    width: 4.5rem;
 
     @media (min-width: 46.5625em) {
       display: none;

@@ -52,11 +52,12 @@
                 = inline_svg('search.svg', class: 'site-search-icon')
           %li.nav-menu-item
             %a{ href: '/',
-              class: "nav-menu-link#{' active' if current_page.url == '/' }"}
+              class: "nav-menu-link#{' active' if current_page.url == '/' }" }
               Latest Updates
           %li.nav-menu-item
             %a{ href: '/viewings/',
-                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }"}
+                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }",
+                data: { no_instant: true }}
               Viewing Log
     .container.content{ class: yield_content(:content_class) }
       - if content_for?(:header)

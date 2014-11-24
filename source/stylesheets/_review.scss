@@ -40,13 +40,17 @@
 }
 
 .review-rating {
-  height: 1.25rem;
+  font-size: 1.5rem;
   margin: 1.5rem auto;
-  width: 6.25rem;
+  letter-spacing: -.2rem;
+  line-height: 1;
+  color: #ddd;
+  text-align: center;
+
 
   @media (min-width: 46.5625em) {
-    height: 1.5rem;
-    width: 7.5rem;
+    font-size: 1.8rem;
+    line-height: .85;
   }
 }
 

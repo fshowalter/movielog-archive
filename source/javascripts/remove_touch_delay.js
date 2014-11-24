@@ -1,5 +1,7 @@
 //= require _fastclick
 
-window.addEventListener('load', function() {
-  FastClick.attach(document.body);
-}, false);
+FastClick.attach(document.body);
+
+// window.addEventListener('load', function() {
+//   FastClick.attach(document.body);
+// }, false);
