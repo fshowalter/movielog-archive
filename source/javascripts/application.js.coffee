@@ -4,10 +4,10 @@
 
 fc = null;
 
-InstantClick.on('change', ->
+InstantClick.on('change', (initial) ->
   fc.destroy() if fc
   fc = FastClick.attach(document.body);
-  window._gaq.push ["_trackPageview"] if window._gaq
+  window.ga('send', 'pageview') unless initial
 )
 
 InstantClick.init();
