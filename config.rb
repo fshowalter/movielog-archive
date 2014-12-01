@@ -26,17 +26,19 @@ helpers do
 
   def grade_to_image(grade:, css_class:)
     if grade == 'A+'
-      return image_tag('5-stars.svg', alt: '5 Stars (out of 5)', class: css_class)
+      return image_tag(
+          '5-stars.svg',  alt: '5 Stars (out of 5)', class: css_class, data: { no_instant: true })
     elsif grade.start_with?('A')
-      return image_tag('4-stars.svg', alt: '4 Stars (out of 5)', class: css_class)
+      return image_tag(
+        '4-stars.svg', alt: '4 Stars (out of 5)', class: css_class, data: { no_instant: true })
     elsif grade.start_with?('B')
-      return image_tag('3-stars.svg', alt: '3 Stars (out of 5)', class: css_class)
+      return image_tag('3-stars.svg', alt: '3 Stars (out of 5)', class: css_class, data: { no_instant: true })
     elsif grade.start_with?('C')
-      return image_tag('2-stars.svg', alt: '2 Stars (out of 5)', class: css_class)
+      return image_tag('2-stars.svg', alt: '2 Stars (out of 5)', class: css_class, data: { no_instant: true })
     elsif grade.start_with?('D')
-      return image_tag('1-star.svg', alt: '1 Star (out of 5)', class: css_class)
+      return image_tag('1-star.svg', alt: '1 Star (out of 5)', class: css_class, data: { no_instant: true })
     else
-      return image_tag('no-stars.svg', alt: '0 Stars (out of 5)', class: css_class)
+      return image_tag('no-stars.svg', alt: '0 Stars (out of 5)', class: css_class, data: { no_instant: true })
     end
   end
 
