@@ -25,21 +25,33 @@ helpers do
   end
 
   def grade_to_image(grade:, css_class:)
+    rating = OpenStruct.new
+
     if grade == 'A+'
-      return image_tag(
-          '5-stars.svg',  alt: '5 Stars (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = '5-stars.svg'
+      rating.alt = '5 Stars (out of 5)'
     elsif grade.start_with?('A')
-      return image_tag(
-        '4-stars.svg', alt: '4 Stars (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = '4-stars.svg'
+      rating.alt = '4 Stars (out of 5)'
     elsif grade.start_with?('B')
-      return image_tag('3-stars.svg', alt: '3 Stars (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = '3-stars.svg'
+      rating.alt = '3 Stars (out of 5)'
     elsif grade.start_with?('C')
-      return image_tag('2-stars.svg', alt: '2 Stars (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = '2-stars.svg'
+      rating.alt = '2 Stars (out of 5)'
     elsif grade.start_with?('D')
-      return image_tag('1-star.svg', alt: '1 Star (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = '1-star.svg'
+      rating.alt = '1 Star (out of 5)'
     else
-      return image_tag('no-stars.svg', alt: '0 Stars (out of 5)', class: css_class, data: { no_instant: true })
+      rating.file = 'no-stars.svg'
+      rating.alt = '0 Stars (out of 5)'
     end
+
+    unless development?
+      rating.file = 'https://www.franksmovielog.com' + image_path(source)
+    end
+
+    image_tag(rating.file, alt: rating.alt, class: css_class)
   end
 
   def reviews
@@ -108,7 +120,7 @@ configure :build do
   activate :asset_hash
 
   # Use relative URLs
-  #activate :relative_assets
+  activate :relative_assets
 
   activate :gzip
 end
