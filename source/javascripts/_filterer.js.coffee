@@ -1,13 +1,10 @@
-// = require _jquery.liblink
-// = require _jquery.nouislider.7.0.9
-
 "use strict"
 
 class Filterer
   constructor: (element, options) ->
     @$element = $(element)
-    @options = $.extend({}, Filterer.DEFAULTS, options)
-    @attribute = options.attribute
+    @options = $.extend({}, Filterer.DEFAULTS, @$element.data(), typeof options == 'object' && options)
+    @attribute = @options.attribute
     @$items = $(@options.target).find @options.itemsSelector
     @filters = []
 
@@ -58,33 +55,6 @@ class Filterer
     Filterer.timedChunk @$items.get(), matchItem
 
 ###
-FILTERER PLUGIN DEFINITION
-###
-old = $.fn.filterer
-
-$.fn.filterer = (option) ->
-  @each ->
-    $this = $(@)
-    data = $this.data('movielog.filterer')
-    options = $.extend({}, Filterer.DEFAULTS, $this.data(), typeof option == 'object' && option)
-
-    $this.data('movielog.filterer', (data = new Filterer(@, options))) unless data
-    data[option]() if typeof option == 'string'
-
-$.fn.filterer.Constructor = Filterer
-
-###
-FILTERER NO CONFLICT
-###
-$.fn.filterer.noConflict = ->
-  $.fn.filterer = old
-  this
-
-###
-FILTERER DATA-API
-###
-
-###
 Borrowed from underscore.js
 ###
 underscoreDebounce = (func, wait, immediate) ->
@@ -105,12 +75,13 @@ underscoreDebounce = (func, wait, immediate) ->
 
     func.apply(context, args) if (callNow)
 
-$(document).on 'filter-changed.movielog.data-api', '[data-filter-controls]', (e) ->
+$(document).on 'filter-changed.movielog', '[data-filter-controls]', (e) ->
   $this = $(@)
-  $target = $(e.target)
-  $filterer = $this.filterer().data('movielog.filterer')
-  $filterer.addFilter($target.data('movielog.filter'))
+  data = $this.data('movielog.filterer')
+  $this.data('movielog.filterer', (data = new Filterer($this))) unless data
+
+  data.addFilter($(e.target).data('movielog.filter'))
 
   underscoreDebounce( ->
-    $filterer.filter()
+    data.filter()
   , 50)()

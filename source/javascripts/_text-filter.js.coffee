@@ -5,7 +5,7 @@ $ = window.jQuery
 class TextFilter
   constructor: (element, options) ->
     @$element = $(element)
-    @options = $.extend({}, TextFilter.DEFAULTS, options)
+    @options = $.extend({}, TextFilter.DEFAULTS, @$element.data(), typeof options == 'object' && options)
     @attribute = @options.filterAttribute
 
   @DEFAULTS =
@@ -18,32 +18,12 @@ class TextFilter
       regex.test item.getAttribute(@attribute)
 
 ###
-TEXTFILTER PLUGIN DEFINITION
-###
-old = $.fn.textFilter
-
-$.fn.textFilter = (option) ->
-  @each ->
-    $this = $(@)
-    data = $this.data('movielog.filter')
-    options = $.extend({}, TextFilter.DEFAULTS, $this.data(), typeof option == 'object' && option)
-
-    $this.data('movielog.filter', (data = new TextFilter(@, options))) unless data
-    if typeof option == 'string' then data[option]() else data
-
-$.fn.textFilter.Constructor = TextFilter
-
-###
-TEXTFILTER NO CONFLICT
-###
-$.fn.textFilter.noConflict = ->
-  $.fn.textFilter = old
-  this
-
-###
 FILTERER DATA-API
 ###
 $(document).on 'keyup.text-filter.movielog.data-api', '[data-filter-type="text"]', (e) ->
-  $(@).textFilter().trigger $.Event 'filter-changed.movielog'
+  $this = $(@)
+  data = $this.data('movielog.filter')
+  $this.data('movielog.filter', (data = new TextFilter($this))) unless data
+  $this.trigger $.Event 'filter-changed.movielog'
 
 

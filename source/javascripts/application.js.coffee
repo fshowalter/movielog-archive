@@ -1,8 +1,14 @@
-//= require _collapse
-//= require _sorter
-//= require _filterer
-//= require _text-filter
-//= require _range-filter
-//= require _rating-range-filter
-//= require _radio-filter
-//= require _clearable
+//= require _remove_touch_delay
+//= require _mobile_navigation
+//= require _instantclick
+
+fc = null;
+
+InstantClick.on('change', ->
+  fc.destroy() if fc
+  fc = FastClick.attach(document.body);
+  window._gaq.push ["_trackPageview", location.pathname + location.search] if window._gaq
+)
+
+InstantClick.init();
+

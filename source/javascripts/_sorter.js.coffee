@@ -3,7 +3,7 @@
 class Sorter
   constructor: (element, options) ->
     @$element = $(element)
-    @options = $.extend({}, Sorter.DEFAULTS, options)
+    @options = $.extend({}, Sorter.DEFAULTS, @$element.data(), typeof options == 'object' && options)
     @$target = $(@options.target)
     @dataMap = Sorter.mapItems @$target.find(@options.itemsSelector)
 
@@ -52,30 +52,10 @@ class Sorter
     reinsert()
 
 ###
-SORTER PLUGIN DEFINITION
-###
-old = $.fn.sorter
-
-$.fn.sorter = (option) ->
-  @each ->
-    $this = $(@)
-    data = $this.data('movielog.sorter')
-    options = $.extend({}, Sorter.DEFAULTS, $this.data(), typeof option == 'object' && option)
-
-    $this.data('movielog.sorter', (data = new Sorter(@, options))) unless data
-    data[option]() if typeof option == 'string'
-
-$.fn.sorter.Constructor = Sorter
-
-###
-SORTER NO CONFLICT
-###
-$.fn.sorter.noConflict = ->
-  $.fn.sorter = old
-  this
-
-###
 SORTER DATA-API
 ###
 $(document).on 'change.movielog.sort', '[data-sorter]', (e) ->
-  $(@).sorter('sort')
+  $this = $(@)
+  data = $this.data('movielog.sorter')
+  $this.data('movielog.sorter', (data = new Sorter($this))) unless data
+  data.sort()

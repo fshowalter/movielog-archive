@@ -31,15 +31,10 @@ title: Viewing Log
             .viewing-log-list-item-title
               %a{ href: "/reviews/#{review.slug}/" }
                 = "#{review.display_title} "
-            %span.viewing-log-list-item-rating
-              = grade_to_svg_stars(grade: review.grade)
+            = grade_to_image(grade: review.grade, css_class: 'viewing-log-list-item-rating')
         - else
           .viewing-log-list-item-title
             = viewing.display_title
         %div{ class: "viewing-log-list-item-slug #{'with-rating' if review}" }
           = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
-- content_for(:js) do
-  %script{src: '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'}
-  :javascript
-    window.jQuery || document.write('<script src="#{asset_path(:javascript, 'jquery.js')}"><\/script>')
-  = javascript_include_tag('application.js')
+= javascript_include_tag('filters.js', async: true)

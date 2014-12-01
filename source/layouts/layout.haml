@@ -30,9 +30,6 @@
     %meta{ name: 'msapplication-TileColor', content: '#2b5797' }
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
-    %script{ type: 'text/javascript', src: '//use.typekit.net/obz2qjv.js' }
-    :javascript
-      try{Typekit.load();}catch(e){}
 
   %body
     %header.masthead
@@ -49,15 +46,13 @@
                 = text_field_tag('q', placeholder: 'Search the Movie Log',
                                       id: 'searchInput',
                                       class: 'site-search-input')
-                = inline_svg('search.svg', class: 'site-search-icon')
           %li.nav-menu-item
             %a{ href: '/',
               class: "nav-menu-link#{' active' if current_page.url == '/' }" }
               Latest Updates
           %li.nav-menu-item
             %a{ href: '/viewings/',
-                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }",
-                data: { no_instant: true }}
+                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }" }
               Viewing Log
     .container.content{ class: yield_content(:content_class) }
       - if content_for?(:header)
@@ -69,17 +64,11 @@
         = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
       %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
                               data: { no_instant: true }}
-        = inline_svg('twitter.svg', class: 'twitter-icon')
+        / = inline_svg('twitter.svg', class: 'twitter-icon')
         follow
       %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
-        = inline_svg('feed.svg', class: 'feed-icon')
+        / = inline_svg('feed.svg', class: 'feed-icon')
         subscribe
-  = javascript_include_tag('remove_touch_delay.js', async: :async)
-  = javascript_include_tag('navigation.js', async: :async)
-  = javascript_include_tag('instantclick.js', data: { no_instant: true })
-  :javascript
-    InstantClick.init();
-  = yield_content(:js)
   - unless development?
     :javascript
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -88,3 +77,8 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-55282521-1', 'auto');
       ga('send', 'pageview');
+  :javascript
+    (function(d) {var config={kitId:'obz2qjv',scriptTimeout: 3000},
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  = javascript_include_tag('application.js', async: :async, data: { no_instant: true })

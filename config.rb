@@ -24,6 +24,22 @@ helpers do
     doc.to_html
   end
 
+  def grade_to_image(grade:, css_class:)
+    if grade == 'A+'
+      return image_tag('5-stars.svg', alt: '5 Stars (out of 5)', class: css_class)
+    elsif grade.start_with?('A')
+      return image_tag('4-stars.svg', alt: '4 Stars (out of 5)', class: css_class)
+    elsif grade.start_with?('B')
+      return image_tag('3-stars.svg', alt: '3 Stars (out of 5)', class: css_class)
+    elsif grade.start_with?('C')
+      return image_tag('2-stars.svg', alt: '2 Stars (out of 5)', class: css_class)
+    elsif grade.start_with?('D')
+      return image_tag('1-star.svg', alt: '1 Star (out of 5)', class: css_class)
+    else
+      return image_tag('no-stars.svg', alt: '0 Stars (out of 5)', class: css_class)
+    end
+  end
+
   def reviews
     @reviews ||= begin
       Movielog.reviews.values.reduce({}) do |hash, review|
@@ -83,6 +99,8 @@ activate :sitemap, hostname: 'http://www.franksmovielog.com'
 configure :build do
   activate :minify_css
   activate :minify_javascript
+
+  set :js_compressor, Uglifier.new(output: { comments: :jsdoc })
 
   # Enable cache buster
   activate :asset_hash

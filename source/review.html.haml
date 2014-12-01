@@ -29,8 +29,7 @@
            itemprop: 'ratingValue' }
     %meta{ content: '1', itemprop: 'worstRating' }
     %meta{ content: '10', itemprop: 'bestRating' }
-    = grade_to_svg_stars(grade: review.grade)
-
+    = grade_to_image(grade: review.grade, css_class: '')
   .post-content{ itemprop: 'reviewBody'}
     = markdown(review.content)
   %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
