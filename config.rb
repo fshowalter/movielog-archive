@@ -48,7 +48,7 @@ helpers do
     end
 
     unless development?
-      rating.file = 'https://www.franksmovielog.com' + image_path(source)
+      rating.file = 'https://www.franksmovielog.com/' + image_path(rating.file)
     end
 
     image_tag(rating.file, alt: rating.alt, class: css_class)

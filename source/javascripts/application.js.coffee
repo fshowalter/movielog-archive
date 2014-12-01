@@ -7,7 +7,7 @@ fc = null;
 InstantClick.on('change', ->
   fc.destroy() if fc
   fc = FastClick.attach(document.body);
-  window._gaq.push ["_trackPageview", location.pathname + location.search] if window._gaq
+  window._gaq.push ["_trackPageview"] if window._gaq
 )
 
 InstantClick.init();

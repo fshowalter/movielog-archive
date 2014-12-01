@@ -64,10 +64,8 @@
         = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
       %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
                               data: { no_instant: true }}
-        / = inline_svg('twitter.svg', class: 'twitter-icon')
         follow
       %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
-        / = inline_svg('feed.svg', class: 'feed-icon')
         subscribe
   - unless development?
     :javascript
