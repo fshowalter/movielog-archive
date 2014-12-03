@@ -32,6 +32,10 @@ class RangeFilter
       @$element.find('.filter-range__min').text values[0]
       @$element.find('.filter-range__max').text values[1]
 
+  destroy: ->
+    @$element = null
+    @slider.destroy() if @slider
+
   matcher: ->
     range = @slider.val()
     return null if range[0] is @options.filterMinValue and range[1] is @options.filterMaxValue
@@ -48,16 +52,15 @@ newRangeFilter = (element) ->
 ###
 RANGEFILTER DATA-API
 ###
-$(document).one("mousedown.range-filter.movielog.data-api MSPointerDown.range-filter.movielog.data-api touchstart.range-filter.movielog.data-api", "[data-filter-type='range']", (e)->
+$(document).on 'mousedown.range-filter.movielog.data-api MSPointerDown.range-filter.movielog.data-api touchstart.range-filter.movielog.data-api', '[data-filter-type="range"]', (e)->
   e.preventDefault()
   newRangeFilter(@)
   $(e.target).trigger(e)
-)
 
-$(document).on("keydown.range-filter.movielog.data-api", "[data-filter-type='range']", (e) ->
+
+$(document).on 'keydown.range-filter.movielog.data-api', '[data-filter-type="range"]', (e) ->
   if e.which != 9
     $(document).off('keydown.range-filter.movielog.data-api')
     newRangeFilter(@)
     $(e.target).trigger 'keydown', e
     $(e.target).trigger 'keyup', e
-)

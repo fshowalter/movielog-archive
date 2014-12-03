@@ -23,7 +23,9 @@ FILTERER DATA-API
 $(document).on 'keyup.text-filter.movielog.data-api', '[data-filter-type="text"]', (e) ->
   $this = $(@)
   data = $this.data('movielog.filter')
+
   $this.data('movielog.filter', (data = new TextFilter($this))) unless data
+
   $this.trigger $.Event 'filter-changed.movielog'
 
 

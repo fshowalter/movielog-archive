@@ -12,6 +12,7 @@ gem 'middleman-pagination'
 gem 'middleman-deploy'
 gem 'middleman-sitemap'
 gem 'middleman-autoprefixer'
+gem 'middleman-minify-html'
 
 gem 'haml'
 gem 'sass', '3.4.0'

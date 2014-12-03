@@ -89,7 +89,7 @@ page 'feed.xml', mime_type: 'text/xml'
 activate :directory_indexes
 
 activate :autoprefixer do |config|
-  config.browsers = ['last 2 versions', 'Explorer >= 9', 'Firefox ESR']
+  config.browsers = ['last 2 versions', 'Firefox ESR']
 end
 
 activate :pagination do
@@ -113,6 +113,7 @@ activate :sitemap, hostname: 'http://www.franksmovielog.com'
 configure :build do
   activate :minify_css
   activate :minify_javascript
+  activate :minify_html
 
   set :js_compressor, Uglifier.new(output: { comments: :jsdoc })
 
@@ -134,5 +135,16 @@ ready do
   Movielog.features.each do |_id, feature|
     proxy("features/#{feature.slug}.html", 'feature.html',
           locals: { feature: feature, title: "#{feature.title}" }, ignore: true)
+  end
+end
+
+require 'sass'
+require 'cgi'
+
+module Sass::Script::Functions
+  def encode_svg(svg)
+    encoded_svg = CGI::escape(svg.value).gsub('+', '%20')
+    data_url = "url('data:image/svg+xml;charset=utf-8," + encoded_svg + "')"
+    Sass::Script::String.new(data_url)
   end
 end

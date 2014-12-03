@@ -77,6 +77,7 @@ GEM
     hitimes (1.2.2)
     hooks (0.4.0)
       uber (~> 0.0.4)
+    htmlcompressor (0.1.2)
     http (0.6.2)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
@@ -118,6 +119,9 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
+    middleman-minify-html (3.4.0)
+      htmlcompressor (~> 0.1.0)
+      middleman-core (>= 3.2)
     middleman-pagination (1.1.1)
       middleman-core (~> 3.2)
     middleman-sitemap (0.0.13)
@@ -259,6 +263,7 @@ DEPENDENCIES
   middleman-core (~> 3.3.2)
   middleman-deploy
   middleman-livereload (~> 3.1.0)
+  middleman-minify-html
   middleman-pagination
   middleman-sitemap
   middleman-sprockets (>= 3.1.2)

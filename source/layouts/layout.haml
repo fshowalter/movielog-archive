@@ -47,12 +47,13 @@
                                       id: 'searchInput',
                                       class: 'site-search-input')
           %li.nav-menu-item
-            %a{ href: '/',
-              class: "nav-menu-link#{' active' if current_page.url == '/' }" }
+            %a.nav-menu-link{ href: '/',
+              class: "#{'active' if current_page.url == '/' }"}
               Latest Updates
           %li.nav-menu-item
-            %a{ href: '/viewings/',
-                class: "nav-menu-link#{' active' if current_page.url == '/viewings/' }" }
+            %a.nav-menu-link{ href: '/viewings/',
+                class: "#{'active' if current_page.url == '/viewings/' }",
+                 data: { no_instant: true }}
               Viewing Log
     .container.content{ class: yield_content(:content_class) }
       - if content_for?(:header)
@@ -68,7 +69,7 @@
       %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
         subscribe
   - unless development?
-    %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
+    %script{ async: true, src: '//www.google-analytics.com/analytics.js', data: { no_instant: true }}
     :javascript
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-55282521-1', 'auto');

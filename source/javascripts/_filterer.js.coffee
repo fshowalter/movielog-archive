@@ -1,9 +1,8 @@
 "use strict"
 
 class Filterer
-  constructor: (element, options) ->
-    @$element = $(element)
-    @options = $.extend({}, Filterer.DEFAULTS, @$element.data(), typeof options == 'object' && options)
+  constructor: (options) ->
+    @options = $.extend(options, Filterer.DEFAULTS, typeof options == 'object' && options)
     @attribute = @options.attribute
     @$items = $(@options.target).find @options.itemsSelector
     @filters = []
@@ -75,10 +74,13 @@ underscoreDebounce = (func, wait, immediate) ->
 
     func.apply(context, args) if (callNow)
 
+$(document).off 'filter-changed.movielog-filters', '[data-filter-controls]'
 $(document).on 'filter-changed.movielog', '[data-filter-controls]', (e) ->
   $this = $(@)
   data = $this.data('movielog.filterer')
-  $this.data('movielog.filterer', (data = new Filterer($this))) unless data
+
+  unless data
+    $this.data('movielog.filterer', (data = new Filterer($this.data())))
 
   data.addFilter($(e.target).data('movielog.filter'))
 
