@@ -6,15 +6,15 @@ module Movielog
     def grade_to_image_tag(grade:, options: {})
       return '' if grade.blank?
 
-      info = ImageInfoForGrade.call(grade: grade)
+      file, alt = ImageInfoForGrade.call(grade: grade)
 
       unless development?
-        info.file = 'https://www.franksmovielog.com/' + image_path(info.file)
+        file = 'https://www.franksmovielog.com/' + image_path(file)
       end
 
-      options[:alt] = info.alt
+      options[:alt] = alt
 
-      image_tag(info.file, options)
+      image_tag(file, options)
     end
 
     #
@@ -22,12 +22,12 @@ module Movielog
     #
     class ImageInfoForGrade
       INFO_FOR_GRADE = {
-        'A+' => OpenStruct.new(file: '5-stars.svg', alt: '5 Stars (out of 5)'),
-        'A' => OpenStruct.new(file: '4-stars.svg', alt: '4 Stars (out of 5)'),
-        'B' => OpenStruct.new(file: '3-stars.svg', alt: '3 Stars (out of 5)'),
-        'C' => OpenStruct.new(file: '2-stars.svg', alt: '2 Stars (out of 5)'),
-        'D' => OpenStruct.new(file: '1-star.svg', alt: '1 Star (out of 5)'),
-        'F' => OpenStruct.new(file: 'no-stars.svg', alt: '0 Stars (out of 5)')
+        'A+' => ['5-stars.svg', '5 Stars (out of 5)'],
+        'A' => ['4-stars.svg', '4 Stars (out of 5)'],
+        'B' => ['3-stars.svg', '3 Stars (out of 5)'],
+        'C' => ['2-stars.svg', '2 Stars (out of 5)'],
+        'D' => ['1-star.svg', '1 Star (out of 5)'],
+        'F' => ['no-stars.svg', '0 Stars (out of 5)']
       }
 
       class << self
