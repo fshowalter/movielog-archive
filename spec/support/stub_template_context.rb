@@ -29,6 +29,23 @@ module Movielog
       require file
     end
 
+    def image_tag(file, options)
+      file
+    end
+
+    def image_path(file)
+      file
+    end
+
+    def development?
+      @development = true if @development.nil?
+      @development
+    end
+
+    def development=(value)
+      @development = value
+    end
+
     include Movielog::Helpers
   end
 end

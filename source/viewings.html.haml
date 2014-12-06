@@ -2,7 +2,6 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
-- #content_for(:content_class, 'wide')
 - content_for(:header, 'Viewing Log')
 .column-one-third{ data: { filter_controls: true, target: '#viewings' }}
   %h3.viewing-log-filters-header Filter and Sort
@@ -18,8 +17,7 @@ title: Viewing Log
                           ['Viewing Date (Oldest First)', 'viewing-date-asc'],
                           ['Release Date (Newest First)', 'release-date-desc'],
                           ['Release Date (Oldest First)', 'release-date-asc'],
-                          %w(Title title-asc),
-                          ])
+                          %w(Title title-asc)])
 .column-two-thirds
   %ol.viewing-log-list#viewings
     - sorted_viewings.each do |key|
@@ -31,7 +29,7 @@ title: Viewing Log
             .viewing-log-list-item-title
               %a{ href: "/reviews/#{review.slug}/" }
                 = "#{review.display_title} "
-            = grade_to_image(grade: review.grade, css_class: 'viewing-log-list-item-rating')
+            = grade_to_image_tag(grade: review.grade, options: { class: 'viewing-log-list-item-rating' })
         - else
           .viewing-log-list-item-title
             = viewing.display_title

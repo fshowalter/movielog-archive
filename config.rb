@@ -24,36 +24,6 @@ helpers do
     doc.to_html
   end
 
-  def grade_to_image(grade:, css_class:)
-    rating = OpenStruct.new
-
-    if grade == 'A+'
-      rating.file = '5-stars.svg'
-      rating.alt = '5 Stars (out of 5)'
-    elsif grade.start_with?('A')
-      rating.file = '4-stars.svg'
-      rating.alt = '4 Stars (out of 5)'
-    elsif grade.start_with?('B')
-      rating.file = '3-stars.svg'
-      rating.alt = '3 Stars (out of 5)'
-    elsif grade.start_with?('C')
-      rating.file = '2-stars.svg'
-      rating.alt = '2 Stars (out of 5)'
-    elsif grade.start_with?('D')
-      rating.file = '1-star.svg'
-      rating.alt = '1 Star (out of 5)'
-    else
-      rating.file = 'no-stars.svg'
-      rating.alt = '0 Stars (out of 5)'
-    end
-
-    unless development?
-      rating.file = 'https://www.franksmovielog.com/' + image_path(rating.file)
-    end
-
-    image_tag(rating.file, alt: rating.alt, class: css_class)
-  end
-
   def reviews
     @reviews ||= begin
       Movielog.reviews.values.reduce({}) do |hash, review|
@@ -113,7 +83,7 @@ activate :sitemap, hostname: 'http://www.franksmovielog.com'
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :minify_html
+  activate :minify_html, remove_input_attributes: false, remove_http_protocol: false
 
   set :js_compressor, Uglifier.new(output: { comments: :jsdoc })
 

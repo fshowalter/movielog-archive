@@ -1,0 +1,10 @@
+linters:
+  SelectorFormat:
+    ignored_names:
+      - noUi-target
+      - noUi-base
+      - noUi-handle
+      - noUi-active
+      - noUi-background
+      - noUi-origin
+      - noUi-z-index

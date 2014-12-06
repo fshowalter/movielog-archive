@@ -74,7 +74,6 @@ underscoreDebounce = (func, wait, immediate) ->
 
     func.apply(context, args) if (callNow)
 
-$(document).off 'filter-changed.movielog-filters', '[data-filter-controls]'
 $(document).on 'filter-changed.movielog', '[data-filter-controls]', (e) ->
   $this = $(@)
   data = $this.data('movielog.filterer')

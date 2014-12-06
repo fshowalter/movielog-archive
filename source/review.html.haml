@@ -29,7 +29,7 @@
            itemprop: 'ratingValue' }
     %meta{ content: '1', itemprop: 'worstRating' }
     %meta{ content: '10', itemprop: 'bestRating' }
-    = grade_to_image(grade: review.grade, css_class: '')
+    = grade_to_image_tag(grade: review.grade)
   .post-content{ itemprop: 'reviewBody'}
     = markdown(review.content)
   %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
