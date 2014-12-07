@@ -11,11 +11,7 @@ module Movielog
         # @return [Movielog::Review] the created review.
         def call
           movie = ask_for_title
-          review = Movielog::CreateReview.call(reviews_path: Movielog.reviews_path,
-                                               title: movie.title,
-                                               display_title: movie.display_title,
-                                               sequence: Movielog.next_post_number,
-                                               slug: slugize(text: movie.display_title))
+          review = create_review(movie)
 
           puts "\n Created Review #{Bold.call(text: review.display_title)}!\n" \
           " #{Bold.call(text: '        Title:')} #{review.title}\n" \
@@ -25,6 +21,14 @@ module Movielog
         end
 
         private
+
+        def create_review(movie)
+          Movielog::CreateReview.call(reviews_path: Movielog.reviews_path,
+                                      title: movie.title,
+                                      display_title: movie.display_title,
+                                      sequence: Movielog.next_post_number,
+                                      slug: slugize(text: movie.display_title))
+        end
 
         def slugize(text: text)
           Movielog::Slugize.call(text: text)

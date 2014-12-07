@@ -6,7 +6,7 @@ describe Movielog::ConvertGradeToNumber do
   best = 15
   map = grades.each_with_object({}) do |grade, object|
     object[grade] = best
-    best -= 1
+    grade == 'A+' ? best -= 2 : best -= 1
   end
 
   grades.each do |grade|
@@ -16,7 +16,7 @@ describe Movielog::ConvertGradeToNumber do
   end
 
   it 'returns a numeric value for F' do
-    expect(Movielog::ConvertGradeToNumber.call(grade: 'F')).to eq 1
+    expect(Movielog::ConvertGradeToNumber.call(grade: 'F')).to eq 0
   end
 
   it 'returns nil for nil' do

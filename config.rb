@@ -26,9 +26,8 @@ helpers do
 
   def reviews
     @reviews ||= begin
-      Movielog.reviews.values.reduce({}) do |hash, review|
+      Movielog.reviews.values.each_with_object do |review, hash|
         hash[review.title] = review
-        hash
       end
     end
   end
@@ -111,9 +110,12 @@ end
 require 'sass'
 require 'cgi'
 
-module Sass::Script::Functions
+#
+# Opened to add the encode_svg helper function.
+#
+module Sass::Script::Functions # rubocop:disable Style/ClassAndModuleChildren
   def encode_svg(svg)
-    encoded_svg = CGI::escape(svg.value).gsub('+', '%20')
+    encoded_svg = CGI.escape(svg.value).gsub('+', '%20')
     data_url = "url('data:image/svg+xml;charset=utf-8," + encoded_svg + "')"
     Sass::Script::String.new(data_url)
   end

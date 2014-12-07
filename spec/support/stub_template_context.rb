@@ -29,7 +29,7 @@ module Movielog
       require file
     end
 
-    def image_tag(file, options)
+    def image_tag(file, _options)
       file
     end
 
@@ -42,9 +42,7 @@ module Movielog
       @development
     end
 
-    def development=(value)
-      @development = value
-    end
+    attr_writer :development
 
     include Movielog::Helpers
   end

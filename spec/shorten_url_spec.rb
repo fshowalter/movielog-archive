@@ -25,6 +25,7 @@ describe Movielog::ShortenUrl do
     expect(client).to receive(:authorization=).with('movielog_authorization')
   end
 
+  # rubocop:disable Metrics/AbcSize
   def stub_api(client:, list_result: [], insert_url: nil, insert_result: nil)
     result = OpenStruct.new(data: { 'items' => list_result })
     api = OpenStruct.new(url: OpenStruct.new(list: 'api_list_url', insert: 'api_insert_url'))
@@ -37,6 +38,7 @@ describe Movielog::ShortenUrl do
       OpenStruct.new(data: OpenStruct.new(id: insert_result))
     end
   end
+  # rubocop:enable Metrics/AbcSize
 
   it 'uses the Google API to shorten a url' do
     client = stub_client
