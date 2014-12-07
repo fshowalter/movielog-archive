@@ -26,7 +26,7 @@ helpers do
 
   def reviews
     @reviews ||= begin
-      Movielog.reviews.values.each_with_object do |review, hash|
+      Movielog.reviews.values.each_with_object({}) do |review, hash|
         hash[review.title] = review
       end
     end
