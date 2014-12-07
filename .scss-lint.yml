@@ -7,4 +7,4 @@ linters:
       - noUi-active
       - noUi-background
       - noUi-origin
-      - noUi-z-index
+      - noUi-stacking

@@ -32,7 +32,7 @@
   margin-top: 1rem;
   text-align: center;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     font-size: .85rem;
     font-weight: 300;
     letter-spacing: -.02rem;
@@ -45,7 +45,7 @@
   margin: 1.5rem auto;
   width: 6.25rem;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     height: 1.5rem;
     width: 7.5rem;
   }
@@ -61,7 +61,7 @@
     color: rgba(0, 0, 0, .3);
   }
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     font-size: .8rem;
     letter-spacing: normal;
   }

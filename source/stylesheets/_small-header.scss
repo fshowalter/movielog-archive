@@ -1,0 +1,17 @@
+%small-header {
+  color: rgba(0, 0, 0, .3);
+  font-family: $sans;
+  font-size: .55rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 1.25;
+  margin-bottom: .5rem;
+  margin-top: 1.5rem;
+  padding: .6rem 0 1.4rem;
+  text-transform: uppercase;
+
+  @media (min-width: $breakpoint) {
+    font-size: .6rem;
+  }
+}

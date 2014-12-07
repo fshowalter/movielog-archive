@@ -1,4 +1,4 @@
-.filter-text-box {
+%text-box {
   -moz-appearance: none;
   -webkit-appearance: none;
   backface-visibility: hidden;
@@ -15,13 +15,9 @@
   padding: .375rem .3125rem;
   vertical-align: middle;
   width: 100%;
-
-  &:focus {
-    outline: 0;
-  }
 }
 
-.filter-numeric {
+%numeric {
   -moz-appearance: textfield;
   border: 0;
   box-sizing: content-box;
@@ -47,6 +43,14 @@
   }
 }
 
+.filter-text-box {
+  @extend %text-box;
+}
+
+.filter-numeric {
+  @extend %numeric;
+}
+
 .filter-control {
   margin-bottom: 2rem;
 }
@@ -58,7 +62,7 @@
 }
 
 .filter-select {
-  @extend .filter-text-box;
+  @extend %text-box;
   color: rgba(0, 0, 0, .7);
   font-size: .7rem;
   text-indent: .01px;
@@ -72,15 +76,12 @@
 }
 
 .noUi-target * {
+  background: #f5f5f5;
   box-sizing: border-box;
   cursor: default;
-  -ms-touch-action: none;
+  touch-action: none;
   -webkit-touch-callout: none;
   user-select: none;
-}
-
-.noUi-target {
-  background: #f5f5f5;
 }
 
 .noUi-base {
@@ -115,12 +116,12 @@
   position: absolute;
   right: 0;
   top: 0;
+
+  + .noUi-origin {
+    background: inherit !important;
+  }
 }
 
-.noUi-origin + .noUi-origin {
-  background: inherit !important;
-}
-
-.noUi-z-index {
+.noUi-stacking .noUi-handle {
   z-index: 10;
 }

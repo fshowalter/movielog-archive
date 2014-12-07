@@ -1,3 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  counter-reset: filter-results;
+  margin: 0;
+  overflow-x: hidden;  // Prevent scroll on narrow devices
+  padding: 0;
+}
+
+html {
+  font-family: $serif;
+  font-size: 20px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #fff;
+  color: rgba(0, 0, 0, .8);
+  letter-spacing: -.018rem;
+}
+
+// No `:visited` state is required by default (browsers will use `a`)
+a {
+  color: $highlight;
+  position: relative;
+  text-decoration: none;
+
+  @media (min-width: $breakpoint) {
+    transition: color .3s ease-in-out;
+
+    &:before {
+      background-color: #579;
+      bottom: 0;
+      content: '';
+      height: 1px;
+      left: 0;
+      padding: 0;
+      position: absolute;
+      transform: scaleX(0);
+      transition: all 300ms ease-in-out;
+      visibility: hidden;
+      width: 100%;
+    }
+  }
+}
+
+// `:focus` is linked to `:hover` for basic accessibility
+a:hover,
+a:focus {
+  @media (min-width: $breakpoint) {
+    color: $highlight !important;
+
+    &:before {
+      transform: scaleX(1);
+      visibility: visible;
+    }
+  }
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, .3);
+  font-size: .7rem;
+  text-transform: uppercase;
+  transform: translate(0, 0);
+  transition: opacity .3s linear;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transform: translate(0, 0);
+}
+
+p {
+  letter-spacing: .01rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +101,7 @@
   letter-spacing: -.04rem;
   margin-bottom: 0;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     left: 0;
     position: fixed;
     right: 0;
@@ -58,9 +142,9 @@
 
 .nav-menu-toggle {
   background-color: #fff;
-  border: 1px solid #579;
+  border: 1px solid $highlight;
   border-radius: 8px;
-  color: #579;
+  color: $highlight;
   font-family: $sans;
   letter-spacing: 1px;
   padding: 13px;
@@ -70,7 +154,7 @@
   text-transform: uppercase;
   top: 9px;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     display: none;
   }
 }
@@ -86,7 +170,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 46.5625em) {
+@media (min-width: $breakpoint) {
   .nav-menu,
   .nav-menu.js-collapse {
     display: flex;
@@ -103,7 +187,7 @@
   display: block;
   height: 2rem;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     border-bottom: 0;
   }
 }
@@ -118,7 +202,7 @@
     color: rgba(0, 0, 0, .8);
   }
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     height: 3rem;
     line-height: 3rem;
   }
@@ -138,7 +222,7 @@
     top: .6rem;
     width: .7rem;
 
-    @media (min-width: 46.5625em) {
+    @media (min-width: $breakpoint) {
       top: 1.15rem;
     }
   }
@@ -153,7 +237,7 @@
   padding: .3rem .5rem .3rem 2rem;
   width: 100%;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     font-size: .6rem;
     margin: 0;
     padding: 0 .5rem 0 2rem;
@@ -161,8 +245,8 @@
   }
 }
 
-@media (min-width: 46.5625em) {
-  .nav-menu-item-search {
+.nav-menu-item-search {
+  @media (min-width: $breakpoint) {
     height: 3rem;
     line-height: 3rem;
     order: 4;
@@ -180,7 +264,7 @@
   padding-top: 2.5rem;
   text-align: center;
 
-  @media (min-width: 46.5625em) {
+  @media (min-width: $breakpoint) {
     font-size: 2.25rem;
     letter-spacing: -.04em;
   }
@@ -192,10 +276,8 @@
   font-size: .75rem;
   padding: 1rem;
   text-align: center;
-}
 
-@media (min-width: 46.5625em) {
-  .site-footer {
+  @media (min-width: $breakpoint) {
     font-size: .8rem;
   }
 }
