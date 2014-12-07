@@ -25,10 +25,10 @@
   .review-directed-by Directed by #{director_slug}
 
   .review-rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
-    %meta{ content: (Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0) * 2.0,
+    %meta{ content: Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0,
            itemprop: 'ratingValue' }
-    %meta{ content: '1', itemprop: 'worstRating' }
-    %meta{ content: '10', itemprop: 'bestRating' }
+    %meta{ content: '0', itemprop: 'worstRating' }
+    %meta{ content: '5', itemprop: 'bestRating' }
     = grade_to_image_tag(grade: review.grade)
   .post-content{ itemprop: 'reviewBody'}
     = markdown(review.content)
