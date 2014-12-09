@@ -17,17 +17,21 @@
 
 Grading systems are harder than one would think. It's all about nuance.
 
-Lets start with a binary scale. A yes or no. Gene Siskel based the famous 'Thumbs up/Thumbs down' system on the thought that a person just wants to know: ' Should I see this movie?'[^1].  
+Let's start with a binary scale. A yes or no. Gene Siskel based the famous 'Thumbs up/Thumbs down' system on the thought that a person just wants to know: ' Should I see this movie?'[^1].  
 
 It's a pragmatic approach, but how do you separate the good from the great? Put another way, both _Batman Begins_ and _The Dark Knight_ would get a "Thumbs up" but they are not equal.
 
-Enter the star systems. Three stars all the way up to ten, with, perhaps, half-stars between. 
+Enter the star systems. I've seen scales with three stars all the way up to ten, sometimes with half-stars between. 
 
-Not all star-systems are equal. Roger Ebert hated the four-star scale his paper used because it offered no middle ground [^1] . 
+But not all star-systems are equal. Roger Ebert hated the four-star scale his paper used because it offered no middle ground [^1]. He's right, and we can rule out the four-star system.
 
-On the end of the spectrum, there's the iMDb. It uses a ten-point system.  That's a lot of nuance. Perhaps too much. 10-point systems get confused with traditional grading systems where 6's correspond to D's, 7's to C's etc. Consider that the median score on the iMBb in 2009 was a 6.6 and you'll see what I mean.
+Next, let's consider the iMDb. It uses a ten-star system. But in 2009 the median score on the iMBb in 2009 was a 6.6, implying that users are skewing toward the upper bounds. The scale is too large. Defining the nuances between the 10-points is a challenge. Put another way, if a 1-star rating means you hated it, and a 10-star rating means you loved it, what does a 3-star rating mean? 
 
-But what about letter grade systems? The Onion AV Club uses them, and I quite like them. They're essentially a five-star system. 5-stars equals an 'A', 4-stars a 'B', 3-stars is a 'C', 2-stars is a 'D', and 1-star is an 'F'. I use a letter grade system behind the scenes because it's how my brain works. 
+So if four is too small and ten is too large, what's ideal?
+
+Consider the 5-star systems. Ebert liked it [^1]. It offers a middle ground while still allowing the various ratings to be defined. 
+
+And what about letter grade systems? The Onion AV Club uses them, and I quite like them. They're essentially a five-star system. 5-stars equals an 'A', 4-stars a 'B', 3-stars is a 'C', 2-stars is a 'D', and 1-star is an 'F'. I use a letter grade system behind the scenes because it's how my brain works. 
 
 So why display them as stars? Well, for one, grade definition's aren't universal. When I see a movie with a 'C' grade, I think it was okay, but nothing spectacular. Others may think it was a bad movie. A 3-star out of 5 display makes it clear it's a middle-of-the-road rating.
 
