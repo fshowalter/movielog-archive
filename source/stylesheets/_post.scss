@@ -4,9 +4,29 @@
   max-width: 35rem;
   padding: 0 1rem;
 
+  h2 {
+    font-family: $sans;
+    letter-spacing: -.02em;
+    font-weight: 300;
+
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: .1rem;
+    margin-left: -1.6px;
+    line-height: 1.2;
+    color: rgba(0,0,0,.4);
+  }
+
+
   @media (min-width: $breakpoint) {
     margin: 0 auto 2rem;
     padding: 0;
+
+    h2 {
+      font-size: 1.6rem;
+      margin-top: 2rem;
+      margin-bottom: .7rem;
+    }
   }
 }
 

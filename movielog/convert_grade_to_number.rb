@@ -4,19 +4,19 @@ module Movielog
   #
   class ConvertGradeToNumber
     NUMBER_FOR_LETTER_GRADE = {
-      'A+' => 15,
-      'A' => 13,
-      'A-' => 12,
-      'B+' => 11,
-      'B' => 10,
-      'B-' => 9,
-      'C+' => 8,
-      'C' => 7,
-      'C-' => 6,
-      'D+' => 5,
-      'D' => 4,
-      'D-' => 3,
-      'F' => 0
+      'A+' => 17,
+      'A' => 16,
+      'A-' => 15,
+      'B+' => 14,
+      'B' => 13,
+      'B-' => 12,
+      'C+' => 11,
+      'C' => 10,
+      'C-' => 9,
+      'D+' => 8,
+      'D' => 7,
+      'D-' => 6,
+      'F' => 5
     }
     class << self
       def call(grade: grade)

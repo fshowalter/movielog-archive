@@ -50,6 +50,10 @@
               class: "#{'active' if current_page.url == '/' }"}
               Latest Updates
           %li.nav-menu-item
+            %a.nav-menu-link{ href: '/features/ow-i-grade/',
+              class: "#{'active' if current_page.url == '/features/how-i-grade/' }"}
+              How I Grade
+          %li.nav-menu-item
             %a.nav-menu-link{ href: '/viewings/',
                 class: "#{'active' if current_page.url == '/viewings/' }",
                  data: { no_instant: true }}

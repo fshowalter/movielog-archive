@@ -1,5 +1,6 @@
 $sans: "jaf-bernino-sans", "avenir", "Helvetica Neue", "Arial", sans-serif;
 $serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+$nav-breakpoint: 57.5em;
 $breakpoint: 46.5625em;
 $highlight: #579;
 
@@ -12,4 +13,5 @@ $highlight: #579;
 @import 'review';
 @import 'latest-updates';
 @import 'viewing-log';
+@import 'how-i-grade';
 @import 'js';

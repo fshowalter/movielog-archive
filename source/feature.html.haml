@@ -2,12 +2,12 @@
 ---
 :ruby
   content_for(:title, feature.title)
-  content_for(:description, feature.pull_quote)
+  content_for(:description, feature.pull_quote) if feature.pull_quote
 
 %article.feature
   %h1.page-title= feature.title
 
-  .post-content
+  .post-content{ class: feature.slug }
     = markdown(feature.content)
 
   .feature-slug

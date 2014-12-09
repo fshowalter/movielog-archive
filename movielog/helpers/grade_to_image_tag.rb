@@ -22,17 +22,16 @@ module Movielog
     #
     class ImageInfoForGrade
       INFO_FOR_GRADE = {
-        'A+' => ['5-stars.svg', '5 Stars (out of 5)'],
-        'A' => ['4-stars.svg', '4 Stars (out of 5)'],
-        'B' => ['3-stars.svg', '3 Stars (out of 5)'],
-        'C' => ['2-stars.svg', '2 Stars (out of 5)'],
-        'D' => ['1-star.svg', '1 Star (out of 5)'],
-        'F' => ['no-stars.svg', '0 Stars (out of 5)']
+        'A' => ['5-stars.svg', '5 Stars (out of 5)'],
+        'B' => ['4-stars.svg', '4 Stars (out of 5)'],
+        'C' => ['3-stars.svg', '3 Stars (out of 5)'],
+        'D' => ['2-stars.svg', '2 Stars (out of 5)'],
+        'F' => ['1-star.svg', '1 Star (out of 5)'],
       }
 
       class << self
         def call(grade:)
-          INFO_FOR_GRADE[grade] || INFO_FOR_GRADE[grade[0]]
+          INFO_FOR_GRADE[grade[0]]
         end
       end
     end
