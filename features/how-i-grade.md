@@ -29,21 +29,21 @@ On the end of the spectrum, there's the iMDb. It uses a ten-point system.  That'
 
 But what about letter grade systems? The Onion AV Club uses them, and I quite like them. They're essentially a five-star system. 5-stars equals an 'A', 4-stars a 'B', 3-stars is a 'C', 2-stars is a 'D', and 1-star is an 'F'. I use a letter grade system behind the scenes because it's how my brain works. 
 
-So why display them as stars? Well, for one, grade definition's aren't universal. When I see a movie with a 'C' grade, I think it was okay, but nothing spectacular. Others may think it was a bad movie. 
+So why display them as stars? Well, for one, grade definition's aren't universal. When I see a movie with a 'C' grade, I think it was okay, but nothing spectacular. Others may think it was a bad movie. A 3-star out of 5 display makes it clear it's a middle-of-the-road rating.
 
-The other reason is Netflix. With the service's rise in popularity, I decided to synchronize my grades with their review system. Thus, if you've rated movies on Netflix, you'll already be familiar with what my ratings mean. For those that haven't used Netflix, or have forgotten the ratings, here they are:
+The other reason is Netflix. With the service's rise in popularity, I decided to synchronize my grades with their review system. Thus, if you've rated movies on Netflix, you'll already be familiar with what my ratings mean. For those that haven't used Netflix, or have forgotten the ratings, here they are with some comments.
 
 ![5 stars](5-stars.svg) _I loved it._  
-A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
+A great movie. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
 
 ![4 stars](4-stars.svg) _I really liked it._  
 A really good movie. Unless you hate the genre or star, you should watch it. These are the movies I recommend to most folks. They don't resonate like the 5-star selections, but they don't disappoint either. 
 
 ![3 stars](3-stars.svg) _I liked it._  
-As Demitri Martin said, "An ex-girlfriend is the same as an 'okay' movie: I liked it at the time, but I don't want to see it again." A good rule of thumb: If I liked it but can't remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. 
+An okay movie. I wouldn't recommend it, but I wouldn't necessarily recommend _against_ it either. A good rule of thumb: If I liked it but can't remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. 
 
 ![2 stars](2-stars.svg) _I didn't like it._  
-Unless you have a deep seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.
+A bad movie. Unless you have a deep seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.
 
 ![1 star](1-star.svg) _I hated it._  
 An awful movie. Not even in the 'so-bad-it's-good' sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don't have to.
