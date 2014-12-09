@@ -19,7 +19,7 @@ Grading systems are harder than one would think. It's all about nuance.
 
 Lets start with a binary scale. A yes or no. Gene Siskel based the famous 'Thumbs up/Thumbs down' system on the thought that a person just wants to know: ' Should I see this movie?'[^1].  
 
-It's a pragmatic approach, but how do you separate the good from the great? Put another way, one would give both _Batman Begins_ and _The Dark Knight_ a "Thumbs up" but they are not equal.
+It's a pragmatic approach, but how do you separate the good from the great? Put another way, both _Batman Begins_ and _The Dark Knight_ would get a "Thumbs up" but they are not equal.
 
 Enter the star systems. Three stars all the way up to ten, with, perhaps, half-stars between. 
 
