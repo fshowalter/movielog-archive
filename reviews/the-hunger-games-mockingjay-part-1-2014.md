@@ -19,7 +19,7 @@ But _The Hunger Games: Mockingjay - Part 1_ is not fifteen minutes. It's just ov
 
 I'm not saying a movie needs action. A meditation on Katniss being caught as pawn between the two forces vieying for control of a distopian society could be interesting if the sides weren't so black and white. The capital is evil and the rebels are good. By taking away the gray area, the film takes away any creditable polictal commentary.
 
-Jennifer Lawrence is a good actress capable of commanding your attention on screen, but you wouldn't know it from waching this movie. Between the ill-fitting jump suit and pale makeup,  . Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. They do a good job not rolling their eyes at some of the dialog.
+Jennifer Lawrence is a good actress capable of commanding your attention on screen, but you wouldn't know it from waching this movie. Between the ill-fitting jump suit and pale makeup, she looks every bit as listless as the script. Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. They do a good job not rolling their eyes at some of the dialog.
 
 In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. It has no reason to exist outside of gouging fans of the series for the cost of two tickets versus one to see the final chapter. Unless you're the kind of _Hunger Games_ fan who has to watch every deleted scene and extended edition, you can safely skip straight to the real finale in  _The Hunger Games: Mockingjay - Part 2_.
 
