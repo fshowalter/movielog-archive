@@ -7,13 +7,27 @@
   li {
     list-style-type: none;
     font-size: 1.1rem;
-    letter-spacing: .00723rem;
+    // letter-spacing: .00723rem;
     line-height: 1.5;
+    font-family: $sans;
+    font-weight: 400;
+  }
+
+  h3 {
+    img {
+      width: 5rem;
+    }
   }
 
   img {
     width: 5rem;
     display: inline-block;
     margin-bottom: -2px;
+  }
+
+  @media (min-width: $breakpoint) {
+    h3 img {
+      width: 6.5rem;
+    }
   }
 }

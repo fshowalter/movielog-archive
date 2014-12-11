@@ -17,6 +17,39 @@
     color: rgba(0,0,0,.4);
   }
 
+  h3 {
+    font-family: $sans;
+    letter-spacing: -.02em;
+    font-weight: 300;
+
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: .1rem;
+    margin-left: -1.6px;
+    line-height: 1.2;
+    color: rgba(0,0,0,.4);
+  }
+
+  .footnotes {
+    border-top: 1px solid rgba(0, 0, 0, .05);
+
+    hr {
+      display: none;
+    }
+
+    ol {
+
+      li {
+        list-style-type: decimal;
+        font-size: .75rem;
+
+        p {
+          font-size: .7rem;
+        }
+      }
+    }
+  }
+
 
   @media (min-width: $breakpoint) {
     margin: 0 auto 2rem;
@@ -24,8 +57,12 @@
 
     h2 {
       font-size: 1.6rem;
-      margin-top: 2rem;
       margin-bottom: .7rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: .1rem; 
     }
   }
 }

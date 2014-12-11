@@ -13,7 +13,7 @@ helpers Movielog::Helpers
 helpers do
   def markdown(source)
     return source if source.blank?
-    Tilt['markdown'].new { source }.render
+    Tilt['markdown'].new(footnotes: true) { source }.render
   end
 
   def inline_svg(filename, options = {})
@@ -50,6 +50,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
+set :markdown, footnotes: true
 
 set :haml, remove_whitespace: true
 
