@@ -9,17 +9,17 @@
 :pull_quote: This is a movie that has no reason to exist outside of gouging fans of the series for the cost of two tickets versus one to see the final chapter. Watching it felt like looking at the deleted scenes from a better movie where things actually happen.
 ---
 
-Full disclosure: I haven't seen the first _Hunger Games_ films, nor have I read the books.
+Full disclosure: I haven't seen the first _Hunger Games_ films, nor have I read the books. 
 
-That said, the film did an admirable job of bringing me up to speed. This entry takes place shortly after the end of the second film. Our herioine, #{} has just destroyed the titular Hunger Games and escaped courtesy of the rebel forces. The rebels were unable to rescue her true love Peta, who's now in the clutches of the evil --Empire-- Capital.
+That said, the film did an admirable job of bringing me up to speed. This entry takes place shortly after the end of the second film. Our herioine, Katniss Everdeen (Jennifer Lawrence) has just destroyed the titular Hunger Games and escaped courtesy of the rebel forces. But the rebels were unable to rescue her true love Peeta, who's now in the clutches of the evil Capitol.
 
-For the next hour and a half #{} frets about Peta, boards a ship, walks through some rubble, visits her now deserted family house, shoots some propeganda commericals, frets about Peta, boards a ship, walks through some more rubble, shoots a CGI plane out of the sky with a bow and arrow, frets about Peta, boards a ship, walks through some ruble we've already seen, visits the deserted family house again, frets about Peta, sees a CGI moose, walks through some more rubble, and frets about Peta. After about an hour and a half of this there's a ten minute rescue sequence.
+Watching this film felt like watching the deleted scenes from a better movie where things actually happen. There is little plot. The characters end the film pretty much where they started. Katniss frets about Peeta, walks through a lot of rubble-strewn towns, and frets about Peeta some more. You could condense the entire film into fifteen minutes and not lose a thing.
 
-This is a movie that has no reason to exist outside of gouging fans of the series for the cost of two tickets versus one to see the final chapter. Watching it felt like looking at the deleted scenes from a better movie where things actually happen. About halfway through I realized I could leave now and none of the characters would have progressed anymore by the film's end. Sticking it out to the end and realizing I was right brought me no satisfaction.
+But _The Hunger Games: Mockingjay - Part 1_ is not fifteen minutes. It's just over two hours long. This movie is nothing but filler. It recycles itself. When Katniss need to visits her hometown for the second time, we see the same desolate vistas from the same angles. And did we really need so many shots of landing bay doors opening? 
 
-At the very least, if you're going to make a filler picture, at least make it short. At just over two hours, this is inexcusable. Did we really need so many shots of landing bay doors opening?
+I'm not saying a movie needs action. A meditation on Katniss being caught as pawn between the two forces vieying for control of a distopian society could be interesting if the sides weren't so black and white. The capital is evil and the rebels are good. By taking away the gray area, the film takes away any creditable polictal commentary.
 
-It might be something if the film weren't so cartoonish. A meditation on #{} being caught as pawn between the two forces vieying for control could be interesting if it weren't so black and white. The capital is evil and the rebels are good. Imagine how bad Star Wars would be if it focused on polotics instead of sci-fi action. Oh wait, we don't have to imagine, there's the whole prequel triology to show us.
+Jennifer Lawrence is a good actress capable of commanding your attention on screen, but you wouldn't know it from waching this movie. Between the ill-fitting jump suit and pale makeup,  . Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. They do a good job not rolling their eyes at some of the dialog.
 
-But I'm getting sidetracked. _HGMJ_ is a non-movie. Unless you're the kind of person who has to watch every deleted scene and extended edition, Those that enjoyed the series first two installments can safely skip straight to the real finale in _HGMJ part 2.
+In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. It has no reason to exist outside of gouging fans of the series for the cost of two tickets versus one to see the final chapter. Unless you're the kind of _Hunger Games_ fan who has to watch every deleted scene and extended edition, you can safely skip straight to the real finale in  _The Hunger Games: Mockingjay - Part 2_.
 
