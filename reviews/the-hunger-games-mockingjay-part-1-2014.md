@@ -6,14 +6,14 @@
 :date: 2014-12-06
 :imdb_id: tt1951265
 :grade: F
-:pull_quote: This is a movie that has no reason to exist outside of gouging fans of the series for the cost of two tickets versus one to see the final chapter. Watching it felt like looking at the deleted scenes from a better movie where things actually happen.
+:pull_quote: Watching this film felt like watching the deleted scenes from a better movie where things actually happen. There is little plot, and the characters end the film pretty much where they started.
 ---
 
 Full disclosure: I haven't seen the first _Hunger Games_ films, nor have I read the books. 
 
 That said, the film did an admirable job of bringing me up to speed. This entry takes place shortly after the end of the second film. Our herioine, Katniss Everdeen (Jennifer Lawrence) has just destroyed the titular Hunger Games and escaped courtesy of the rebel forces. But the rebels were unable to rescue her true love Peeta, who's now in the clutches of the evil Capitol.
 
-Watching this film felt like watching the deleted scenes from a better movie where things actually happen. There is little plot. The characters end the film pretty much where they started. Katniss frets about Peeta, walks through a lot of rubble-strewn towns, and frets about Peeta some more. You could condense the entire film into fifteen minutes and not lose a thing.
+Watching this film felt like watching the deleted scenes from a better movie where things actually happen. There is little plot, and the characters end the film pretty much where they started. Katniss frets about Peeta, walks through a lot of rubble-strewn towns, and frets about Peeta some more. You could condense the entire film into fifteen minutes and not lose a thing.
 
 But _The Hunger Games: Mockingjay - Part 1_ is not fifteen minutes. It's just over two hours long. This movie is nothing but filler. It recycles itself. When Katniss need to visits her hometown for the second time, we see the same desolate vistas from the same angles. And did we really need so many shots of landing bay doors opening? 
 
