@@ -1,7 +1,13 @@
 .how-i-grade {
   ul {
-    margin: 0 0 1.3636363rem;
+    margin: 0 0 2rem;
     padding: 0;
+
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.4;
+    }
   }
 
   li {
@@ -36,8 +42,12 @@
   }
 
   @media (min-width: $breakpoint) {
+    ul {
+      padding: 0 1rem;
+    }
+
     hr {
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
 
     h3 img {

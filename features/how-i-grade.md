@@ -5,24 +5,28 @@
 :date: 2014-12-07
 :pull_quote: Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
 ---
-
+<div>
 <hr />
+</div>
 
-### ![5 stars](5-stars.svg) (a great movie) ###
+* ### ![5 stars](5-stars.svg) (a great movie) ###
 I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
 
-### ![4 stars](4-stars.svg) (a good movie) ###
+* ### ![4 stars](4-stars.svg) (a good movie) ###
 I really liked it. Unless you hate the genre or the star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don't disappoint either. 
 
-### ![3 stars](3-stars.svg) (an okay movie) ###
+* ### ![3 stars](3-stars.svg) (an okay movie) ###
 I liked it. I wouldn't recommend it, but I wouldn't necessarily recommend _against_ it either. A good rule of thumb: If I liked it but can't remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. 
 
-### ![2 stars](2-stars.svg) (a bad movie) ###
+* ### ![2 stars](2-stars.svg) (a bad movie) ###
 I didn't like it. Unless you have a deep-seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.
 
-### ![1 star](1-star.svg) (an awful movie) ###
+* ### ![1 star](1-star.svg) (an awful movie) ###
 I hated it. Not even in the “so-bad-it's-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don't have to.
 
+<div>
+<hr />
+</div>
 ## On Grading ##
 
 Let's start with a binary scale. A yes or no. Gene Siskel based the famous 'Thumbs up/Thumbs down' system on the thought that a person just wants to know: “Should I see this movie?” [^1]  
