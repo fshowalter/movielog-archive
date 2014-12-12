@@ -19,6 +19,8 @@
   }
 
   h3 {
+    margin-left: 0;
+
     img {
       margin-right: .25rem;
       width: 5rem;
@@ -42,10 +44,6 @@
   }
 
   @media (min-width: $breakpoint) {
-    ul {
-      padding: 0 1rem;
-    }
-
     hr {
       margin-bottom: 2rem;
     }
