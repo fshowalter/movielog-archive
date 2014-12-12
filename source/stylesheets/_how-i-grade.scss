@@ -1,41 +1,45 @@
 .how-i-grade {
   ul {
-    padding: 0;
     margin: 0 0 1.3636363rem;
+    padding: 0;
   }
 
   li {
-    list-style-type: none;
-    font-size: 1.1rem;
-    // letter-spacing: .00723rem;
-    line-height: 1.5;
     font-family: $sans;
+    font-size: 1.1rem;
     font-weight: 400;
+    line-height: 1.5;
+    list-style-type: none;
   }
 
   h3 {
     img {
+      margin-right: .25rem;
       width: 5rem;
     }
   }
 
   hr {
-    margin: 2.5rem auto 2rem;
-    width: 5rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .15);
-    height: 0;
     box-sizing: content-box;
     display: block;
+    height: 0;
+    margin: 0 auto 2rem;
+    width: 5rem;
   }
 
   img {
-    width: 5rem;
     display: inline-block;
     margin-bottom: -2px;
+    width: 5rem;
   }
 
   @media (min-width: $breakpoint) {
+    hr {
+      margin-bottom: 3rem;
+    }
+
     h3 img {
       width: 6.5rem;
     }

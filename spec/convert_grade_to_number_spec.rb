@@ -3,10 +3,10 @@ require 'spec_helper'
 describe Movielog::ConvertGradeToNumber do
   grades = ('A'..'D').map { |l| ['+', '', '-'].map { |m| "#{l}#{m}" } }.flatten
 
-  best = 15
+  best = 17
   map = grades.each_with_object({}) do |grade, object|
     object[grade] = best
-    grade == 'A+' ? best -= 2 : best -= 1
+    best -= 1
   end
 
   grades.each do |grade|
@@ -16,7 +16,7 @@ describe Movielog::ConvertGradeToNumber do
   end
 
   it 'returns a numeric value for F' do
-    expect(Movielog::ConvertGradeToNumber.call(grade: 'F')).to eq 0
+    expect(Movielog::ConvertGradeToNumber.call(grade: 'F')).to eq 5
   end
 
   it 'returns nil for nil' do
