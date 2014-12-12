@@ -46,7 +46,7 @@ pagination:
             %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
               = feature.title
         .latest-updates-list-item-pull-quote
-          = feature.pull_quote
+          = markdown(feature.pull_quote)
 .pagination
   - if pagination.prev_page
     %a.pagination-item.newer{ href: pagination.prev_page.url }

@@ -5,7 +5,7 @@
 :display_title: A Walk Among the Tombstones (2014)
 :date: 2014-09-25
 :imdb_id: tt0365907
-:grade: D
+:grade: F
 :pull_quote: As the movie wore on, I found myself getting more and more angry. The contempt for the audience's intelligence is galling. Though meant for adults, the film treats us like children.
 ---
 _A Walk Among the Tombstones_ has the potential to be good, but it never comes together. Too much gets in the way.
