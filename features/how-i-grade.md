@@ -9,20 +9,20 @@
 <hr />
 </div>
 
-* ### ![5 stars](5-stars.svg) (a great movie) ###
-I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
+* ### a great movie ###
+![5 stars](5-stars.svg) I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
 
-* ### ![4 stars](4-stars.svg) (a good movie) ###
-I really liked it. Unless you hate the genre or the star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don't disappoint either. 
+* ### a good movie ###
+![4 stars](4-stars.svg) I really liked it. Unless you hate the genre or the star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don't disappoint either. 
 
-* ### ![3 stars](3-stars.svg) (an okay movie) ###
-I liked it. I wouldn't recommend it, but I wouldn't necessarily recommend _against_ it either. A good rule of thumb: If I liked it but can't remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. 
+* ### an okay movie ###
+![3 stars](3-stars.svg) I liked it. I wouldn't recommend it, but I wouldn't necessarily recommend _against_ it either. A good rule of thumb: If I liked it but can't remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. 
 
-* ### ![2 stars](2-stars.svg) (a bad movie) ###
-I didn't like it. Unless you have a deep-seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.
+* ### a bad movie ###
+![2 stars](2-stars.svg) I didn't like it. Unless you have a deep-seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.
 
-* ### ![1 star](1-star.svg) (an awful movie) ###
-I hated it. Not even in the “so-bad-it's-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don't have to.
+* ### an awful movie ###
+![1 star](1-star.svg) I hated it. Not even in the “so-bad-it's-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don't have to.
 
 <div>
 <hr />
