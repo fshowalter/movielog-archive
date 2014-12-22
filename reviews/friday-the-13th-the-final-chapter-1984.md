@@ -19,11 +19,11 @@ Not that I’d _seen_ any of the _Friday the 13th_ movies. Nor had any of my fri
 
 Of course, they’re not as scary as my young self would have me believe. But it’s with an odd sense of nostalgia that I’m drawn to the films now. Watching them takes part of me back to the days of looking for prizes in breakfast cereals. Back when a monster as simple as Jason represented the pinnacle of terror.
 
-_Friday the 13th: The Final Chapter_ is likely the best of the series. It picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Hanged after suffering a hatchet to the face, Jason is dead. 
+_Friday the 13th: The Final Chapter_ is likely the best of the series. It picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Hanged after suffering a hatchet to the face, Jason is dead. The police cart him off to the morgue where he's bagged and tagged.
 
 But of course, he’s not dead.
 
-Jason wakes up in the morgue. He dispatches some of the improbably young staff, and heads back to Crystal Lake. There, he works his way through a house full of oversexed teens.
+Jason wakes up and dispatches some of the improbably young staff. Then he heads back to Crystal Lake where he works his way through a house full of oversexed teens.
 
 By this point, the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2].  What sets this entry apart is the execution. There are actual sub-plots involving the teens. Granted, those sub-plots amount to little more than a teen sex comedy, but it holds your interest when Jason's not on screen. It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
 
