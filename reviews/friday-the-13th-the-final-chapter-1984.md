@@ -9,7 +9,7 @@
 :pull_quote: "Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who disliked the first three films. But genre fans will appreciate the better-than-average performances and creative kills."
 ---
 
-Now, I know what you’re thinking: _How can he give a piece of trash like this three stars?_ 
+Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
 
 Hear me out.
 
