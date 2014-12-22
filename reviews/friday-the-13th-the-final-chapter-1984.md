@@ -29,7 +29,7 @@ By this point, the series had established a working formula: Titillate the audie
 
 On the horror side, Tom Savini returns to the series and delivers some creative effects. Jason's eventual demise is especially memorable. This entry is perhaps the first to portray Jason as an unstoppable, inhuman force of evil [^4]. He is no longer deranged man, but a monster.
 
-The result is pure exploitation, sure, but it never pretends to be anything more. 
+The result is pure exploitation, sure, but it never pretends to be anything more. I can respect that, and I'm not too proud to admit that I can enjoy the ?
 
 Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who hated the first three films. But genre fans will appreciate the better-than-average performances and creative kills. That is has the most nudity of any entry in the series up to that point, probably doesn’t hurt either.
 
