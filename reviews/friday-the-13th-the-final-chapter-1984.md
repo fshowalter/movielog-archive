@@ -9,7 +9,6 @@
 :pull_quote: "Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who disliked the first three films. But genre fans will appreciate the better-than-average performances and creative kills."
 ---
 
-
 Now, I know what you’re thinking: _How can he give a piece of trash like this three stars?_ 
 
 Hear me out.
@@ -20,26 +19,24 @@ Not that I’d _seen_ any of the _Friday the 13th_ movies. Nor had any of my fri
 
 Of course, they’re not as scary as my young self would have me believe. But it’s with an odd sense of nostalgia that I’m drawn to the films now. Watching them takes part of me back to the days of looking for prizes in breakfast cereals. Back when a monster as simple as Jason represented the pinnacle of terror.
 
-_Friday the 13th: The Final Chapter_ is likely the best of the series. It picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Hanged after suffering a hatchet to the face, Jason is dead. The police cart him off to the morgue. 
+_Friday the 13th: The Final Chapter_ is likely the best of the series. It picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Hanged after suffering a hatchet to the face, Jason is dead. 
 
-Of course, he’s not dead.
+But of course, he’s not dead.
 
-Jason wakes up at he morgue, dispatches some of the oddly young staff, and heads back to Crystal Lake where he works his way through a house full of oversexed teens.
+Jason wakes up in the morgue. He dispatches some of the improbably young staff, and heads back to Crystal Lake. There, he works his way through a house full of oversexed teens.
 
-They’re not scary at all, really. By this point the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2].  
+By this point, the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2].  What sets this entry apart is the execution. There are actual sub-plots involving the teens. Granted, those sub-plots amount to little more than a teen sex comedy, but it holds your interest when Jason's not on screen. It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
 
-The by-the-numbers approach sends the film into camp territory. No pun intended. Once you understood the formula, you began to anticipate the kill scenes. As the series went on, the filmmakers had to dream up more exotic kills, and part of the fun comes in guessing just how Jason was going to take out a particular character. 
+On the horror side, Tom Savini returns to the series and delivers some creative effects. Jason's eventual demise is especially memorable. This entry is perhaps the first to portray Jason as an unstoppable, inhuman force of evil [^4]. He is no longer deranged man, but a monster.
 
-That said, _Friday the 13th: The Final Chapter_ 
+The result is pure exploitation, sure, but it never pretends to be anything more. 
 
-This is the best sequel of the series yet. The cast of potential victims includes a young Crispin Glover, whose dancing scene almost single-handedly makes the film worth a look. This entry also diversifies the victim stock by including an adult, a first for the series.
-
-This entry also features the best atmosphere since the original film, with a nice rain storm pounding down during the big finale. 
-
-Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who hates the slasher genre. But genre fans will appreciate the better-than-average performances and creative kills. That is has the most nudity of any entry in the series up to that point, probably doesn’t hurt either.
+Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who hated the first three films. But genre fans will appreciate the better-than-average performances and creative kills. That is has the most nudity of any entry in the series up to that point, probably doesn’t hurt either.
 
 [^1]: Is he called Michael Myers or The Shape? 
 
 [^2]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago. 
 
-[^2]: The _Friday the 13th_ films are far from the only horror movies to do this. One of _Alien (1979)_’s best scares comes after the camera lingers on a wall full of posters of nude women.
+[^3]: The _Friday the 13th_ films are far from the only horror movies to do this. One of _Alien (1979)_’s best scares comes after the camera lingers on a wall full of posters of nude women.
+
+[^4]: _Jason Lives_ would cement this personification by turning him into a kind of Frankenstein's monster.
