@@ -9,17 +9,29 @@
 :pull_quote: "Now, _Friday the 13th: The Final Chapter_ isn’t going to convert anyone who disliked the first three films. But genre fans will appreciate the better-than-average performances and creative kills."
 ---
 
-_Friday the 13th: The Final Chapter_ picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Jason, believed dead after being hanged in a barn after having suffered a hatchet to the face, is carted off to the morgue. Once there, he wakes up, dispatches some of the morgue staff, and heads back to Crystal Lake where he works his way through a house full of oversexed teens.
+Now, I know what you’re thinking: _How can he give a piece of trash like this three stars?_ 
 
-I was eight when this movie came out. Growing up in the 80’s, Jason was the king of the monsters. Freddy and Michael Myers were scary, sure, but not like Jason. Jason was _brutal_. 
+Hear me out.
 
-Not that I saw any of the _Friday the 13th_ movies as a kid. Neither had any of my friends. So the films achieved a kind of mythical status. I can remember looking at the box covers at the video store. The white body outline holding the bloody knife or axe. I was sure these were the scariest movies ever made.
+I was just a little kid when this movie came out. Still waking up Saturday morning and watching cartoons, playing with Transformers and G.I. Joes. For kids like me, Jason was the king of the monsters. Sure, Freddy and Michael Myers were scary, but not like Jason. 
 
-Thus, it’s with an odd sense of nostalgia that I’m drawn to the films now. They’re certainly not as scary as my young self would have me believe, but I’m also older and less sensitive to the violence. Still, there’s a fundamental draw that’s evidenced by the Jason’s enduring popularity.
+Not that I’d actually _seen_ any of the _Friday the 13th_ movies. Nor had any of my friends. But I can remember looking at the box covers at the video store, convinced those white body outlines holding bloody knives and axes were gateways to pure, brutal terror.
 
-I think it’s because, on a really morbid level, the film’s work as a black comedy. By this point the series had established a working formula. Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2]. Once you understood the formula, you began to anticipate the kill scenes. As the series went on, the filmmakers had to dream up more exotic kills, and part of the fun comes in guessing just how Jason was going to take out a particular character. 
+And so the films and Jason achieved a kind of mythical status in my young brain. 
 
-To that end, this is the best sequel of the series yet. The cast of potential victims is amiable enough. Especially a young Crispin Glover, whose dancing scene almost single-handedly makes the film worth a look. This entry also diversifies the victim stock by including an adult, a first for the series.
+Thus, it’s with an odd sense of nostalgia that I’m drawn to the films now. Watching them takes part of me back to the days of looking for prizes in breakfast cereals, back when a monster as simple as Jason represented the pinnacle of terror.
+
+Of course, they’re not as scary as my young self would have me believe. They’re not scary at all, really. By this point the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2].  
+
+The by-the-numbers approach sends the film into camp territory. No pun intended. Once you understood the formula, you began to anticipate the kill scenes. As the series went on, the filmmakers had to dream up more exotic kills, and part of the fun comes in guessing just how Jason was going to take out a particular character. 
+
+That said, _Friday the 13th: The Final Chapter_ picks up right where _Friday the 13th Part III (1982)_ leaves off[^1]. Jason is believed dead after being hanged in a barn after having suffered a hatchet to the face. The police cart him off to the morgue. 
+
+Of course, he’s not dead.
+
+Jason wakes up at he morgue, dispatches some of the oddly young staff, and heads back to Crystal Lake where he works his way through a house full of oversexed teens.
+
+This is the best sequel of the series yet. The cast of potential victims includes a young Crispin Glover, whose dancing scene almost single-handedly makes the film worth a look. This entry also diversifies the victim stock by including an adult, a first for the series.
 
 This entry also features the best atmosphere since the original film, with a nice rain storm pounding down during the big finale. 
 
