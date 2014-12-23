@@ -6,7 +6,8 @@
 :date: 2014-12-14
 :imdb_id: tt0087298
 :grade: C
-:pull_quote: "By this point, the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion. What sets this entry apart is the execution."
+:pull_quote: "Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
+Hear me out."
 ---
 Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
 
