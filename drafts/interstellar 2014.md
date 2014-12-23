@@ -6,9 +6,7 @@ Matthew McConaughey plays Cooper, a former test pilot/engineer who, like just ab
 
 A series of gravitational anomalies lead him to the remnants of NASA. NASA has a plan to save humanity. They’ve discovered a wormhole near Saturn. On the other side are potentially hospitable worlds. They’ve got a ship and crew ready. They just need a pilot.
 
-Cooper agrees even though it means he’ll miss years of his children’s lives. 
-
-If he comes back at all.
+Cooper agrees even though it means he’ll miss years of his children’s lives. If he makes it back at all.
 
 The flight goes smoothly and the crew passes through the wormhole in a sequence that begs favorable comparisons with _2001: A Space Odyssey (1968)_. On the other side they assess their situation. There are three potential worlds, but the closest and most promising orbits the outskirts of a black hole. This creates a warping effect with time. An hour spent on the surface of the planet equates to seven years back on earth. 
 
