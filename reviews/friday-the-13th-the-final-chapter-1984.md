@@ -12,7 +12,7 @@ Now, I know what some of you are thinking: _How can he give a piece of trash lik
 
 Hear me out.
 
-When the _Friday the 13th_ movies came out, I was still waking up Saturday mornings to watch cartoons. I never saw any of the them. Neither did any of my friends. But I remember looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. 
+When the this movie came out, I was still waking up Saturday mornings to watch cartoons. As a kid, I never saw any of the _Friday the 13th_ movies. Neither did any of my friends. But I remember looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. 
 
 So it’s an odd sense of nostalgia that draws me to the films now. Of course, they’re not as scary as my young self believed. But watching them takes part of me back to the days of looking for prizes in breakfast cereals. Back when a monster as simple as Jason represented the pinnacle of terror.
 
