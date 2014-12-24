@@ -24,9 +24,11 @@ But of course, he’s not dead.
 Jason wakes up and dispatches some of the improbably young hospital staff. Then he heads back to Crystal Lake where he works his way through a house full of oversexed teens.
 
 This film operates based on a simple formula: Titillate the audience via some nudity, then have Jason dispatch someone in a gruesomely over-the-top fashion[^2].  To that end, it delivers.
+
 But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold your interest when Jason's off-screen[^3]. 
 
 And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He never runs, as that would suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
+
 The result is an amalgam of gratuitous nudity and creative violence. It's pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers.  _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
 
 [^1]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago.
