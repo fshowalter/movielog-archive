@@ -27,7 +27,7 @@ This film operates based on a simple formula: Titillate the audience via some nu
 
 But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold our interest when Jason's off-screen[^3]. 
 
-And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He never runs, as that would suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
+And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He doesn't run. Running implies chasing which suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
 
 The result is an amalgam of gratuitous nudity and creative violence. It's pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers.  _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
 
