@@ -9,11 +9,11 @@
 :pull_quote: "Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
 Hear me out."
 ---
-Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
+Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_
 
 Hear me out.
 
-When the this movie came out, I was still waking up Saturday mornings to watch cartoons. All I knew of _Friday the 13th_ came from looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. So, of course, I wanted to watch them. But I never did. Neither did any of my friends. 
+When the this movie came out, I was still waking up Saturday mornings to watch cartoons. All I knew of _Friday the 13th_ came from looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. So, of course, I wanted to watch them. But I never did. Neither did any of my friends.
 
 So it’s an odd sense of nostalgia that draws me to the films now. Of course, they’re not as scary as my young self believed. But watching them takes part of me back to the days of looking for prizes in breakfast cereals. Back when a monster as simple as Jason represented the pinnacle of terror.
 
@@ -23,13 +23,15 @@ But of course, he’s not dead.
 
 Jason wakes up and dispatches some of the improbably young hospital staff. Then he heads back to Crystal Lake where he works his way through a house full of oversexed teens.
 
-By this point, the series had established a working formula: Titillate the audience via some horny teens, then have Jason off someone in a gruesomely over-the-top fashion[^2]. What sets this entry apart is the execution. There are actual sub-plots involving the teens. Granted, those sub-plots amount to little more than a teen sex comedy, but it holds your interest when Jason's off screen. It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
+The film works off of a simple formula: Titillate the audience via some nudity then have Jason off someone in a gruesomely over-the-top fashion[^2].
 
-On the horror side, this entry is perhaps the first to portray Jason as a true monster[^3]. The finale sees him as a confused child, but for most of the film, he's an unstoppable, inhuman force of evil[^4]. A demon with a machete. The kind of monster my younger self imagined.
+To that end, Jason is no longer just a deranged man with a knife. He's a true monster[^3]. A demon with a machete. He marches (never runs) through the film as an unstoppable, inhuman force of evil[^4].
 
-The result is pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers[^5]. _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
+But what sets this entry apart is how it handles the rest of the cast. There are actual sub-plots involving the teens. Granted, those sub-plots amount to little more than a bad teen sex comedy, but they hold your interest when Jason's off-screen[^5]. It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
 
-[^1]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago. 
+The result is pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers. _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
+
+[^1]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago.
 
 [^2]: The _Friday the 13th_ films are far from the only horror movies to do this. One of _Alien (1979)_’s best scares comes after the camera lingers on a wall full of posters of nude women.
 
@@ -38,3 +40,4 @@ The result is pure exploitation, sure, but it never pretends to be anything more
 [^4]: I'm using this as an explanation of how Jason seems to teleport around the house. He goes from outside the second floor window to inside the first floor kitchen in a matter of seconds without making a sound.
 
 [^5]: That it has the most nudity of any entry in the series up to that point probably doesn’t hurt either.
+
