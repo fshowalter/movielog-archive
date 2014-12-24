@@ -23,21 +23,19 @@ But of course, he’s not dead.
 
 Jason wakes up and dispatches some of the improbably young hospital staff. Then he heads back to Crystal Lake where he works his way through a house full of oversexed teens.
 
-This film operates based on a simple formula: Titillate the audience via some nudity, then have Jason off someone in a gruesomely over-the-top fashion[^2].  To that end, it delivers.
+This film operates based on a simple formula: Titillate the audience via some nudity, then have Jason dispatch someone in a gruesomely over-the-top fashion[^2].  To that end, it delivers.
+But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold your interest when Jason's off-screen[^3]. 
 
-In this entry, Jason is no longer just a deranged man with a knife. He's a true monster[^3]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He never runs, as that would suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^4].
-
-What elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more than a bad sex comedy, but they hold your interest when Jason's off-screen[^5]. There's even a nice touch of black comedy in how Jason offs an unfaithful boyfriend. Of course, it also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
-
-The result is pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers. _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
+And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He never runs, as that would suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
+The result is an amalgam of gratuitous nudity and creative violence. It's pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers.  _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
 
 [^1]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago.
 
 [^2]: The _Friday the 13th_ films are far from the only horror movies to do this. One of _Alien (1979)_’s best scares comes after the camera lingers on a wall full of posters of nude women.
 
-[^3]: _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein's monster.
+[^3]: It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
 
-[^4]: I'm using this as an explanation of how Jason seems to teleport around the house. He goes from outside the second floor window to inside the first floor kitchen in a matter of seconds without making a sound.
+[^4]: _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein's monster.
 
-[^5]: That it has the most nudity of any entry in the series up to that point probably doesn’t hurt either.
+[^5]: I consider this an explanation of how Jason seems to teleport around the house. He goes from outside the second floor window to inside the first floor kitchen in a matter of seconds without making a sound.
 
