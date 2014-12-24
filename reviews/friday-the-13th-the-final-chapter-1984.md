@@ -25,7 +25,7 @@ Jason wakes up and dispatches some of the improbably young hospital staff. Then 
 
 This film operates based on a simple formula: Titillate the audience via some nudity, then have Jason dispatch someone in a gruesomely over-the-top fashion[^2].  To that end, it delivers.
 
-But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold your interest when Jason's off-screen[^3]. 
+But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold our interest when Jason's off-screen[^3]. 
 
 And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He never runs, as that would suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
 
