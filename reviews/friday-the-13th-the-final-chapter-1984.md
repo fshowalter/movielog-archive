@@ -23,9 +23,9 @@ But of course, he’s not dead.
 
 Jason wakes up and dispatches some of the improbably young hospital staff. Then he heads back to Crystal Lake where he works his way through a house full of oversexed teens.
 
-The film operates based on a simple formula: Titillate the audience via some nudity then have Jason off someone in a gruesomely over-the-top fashion[^2]. What makes this entry stand out is how it distills this formula down to the essentials.
+The film operates based on a simple formula: Titillate the audience via some nudity, then have Jason off someone in a gruesomely over-the-top fashion[^2]. What sets this entry apart is the execution.
 
-First, there's Jason. Here, he's no longer just a deranged man with a knife. He's a true monster[^3]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil[^4]. He never runs, as that would imply a chance that his victims could escape him. In this film, Jason is not an assailant, he is an inevitability.
+First, there's Jason. Here, he's no longer just a deranged man with a knife. He's a true monster[^3]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil[^4]. He never runs, as that would suggest the possibility that his victims could escape. In this film, Jason is not an assailant, he is an inevitability.
 
 Then there's rest of the cast. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more than a bad teen sex comedy, but they hold your interest when Jason's off-screen[^5]. It also helps that Crispin Glover's performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene alone almost makes the film worth a look.
 
