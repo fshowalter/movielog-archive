@@ -1,4 +1,4 @@
-Howard Hawks once said that a good movie consisted of _"three great scenes and no bad ones." Hammer's first entry in it's _Dracula_ franchise gives us exactly that.
+Howard Hawks once said that a good movie consisted of _"three great scenes and no bad ones."_  Hammer's first entry in it's _Dracula_ franchise gives us exactly that.
 
 The first great scene comes early. The film opens with Jonathan Harker has arrived at Castle Dracula. The Count is not there to meet him, of course, but has left a massive spread of food.
 
