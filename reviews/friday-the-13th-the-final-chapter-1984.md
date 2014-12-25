@@ -7,13 +7,15 @@
 :imdb_id: tt0087298
 :grade: C
 :pull_quote: "Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
+
+
 Hear me out."
 ---
 Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_
 
 Hear me out.
 
-When the this movie came out, I was still waking up Saturday mornings to watch cartoons. All I knew of _Friday the 13th_ came from looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. So, of course, I wanted to watch them. But I never did. Neither did any of my friends.
+When this movie came out, I was still waking up Saturday mornings to watch cartoons. All I knew of _Friday the 13th_ came from looking at the box covers in the video store. I was sure those white body outlines holding bloody knives and axes were gateways to pure, brutal terror. So, of course, I wanted to watch them. But I never did. Neither did any of my friends.
 
 So it’s an odd sense of nostalgia that draws me to the films now. Of course, they’re not as scary as my young self believed. But watching them takes part of me back to the days of looking for prizes in breakfast cereals. Back when a monster as simple as Jason represented the pinnacle of terror.
 
@@ -25,7 +27,7 @@ Jason wakes up and dispatches some of the improbably young hospital staff. Then 
 
 This film operates based on a simple formula: Titillate the audience via some nudity, then have Jason dispatch someone in a gruesomely over-the-top fashion[^2].  To that end, it delivers.
 
-But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more a bad teen sex comedy, but they hold our interest when Jason's off-screen[^3]. 
+But what elevates this entry above the rest of the series is how it handles the cast of teen victims. For most of the film, they are unaware of Jason, or any suspicious goings on. They're in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more than a bad teen sex comedy, but they hold our interest when Jason's off-screen[^3]. 
 
 And Jason doesn't so much stalk these teens as pick them off at will. He's no longer just a deranged man with a knife. He's a true monster[^4]. A demon with a machete. He marches  through the film as an unstoppable, inhuman force of evil. He doesn't run. Running implies chasing which suggest the possibility of escape. In this film, Jason is not an assailant, he is an inevitability[^5].
 
