@@ -33,7 +33,7 @@ And Jason doesn't so much stalk these teens as pick them off at will. He's no lo
 
 The result is an amalgam of gratuitous nudity and creative violence. It's pure exploitation, sure, but it never pretends to be anything more. I can respect that. And I can enjoy the visceral thrills that a good exploitation picture delivers.  _Friday the 13th: The Final Chapter_ isn't a great movie, but it's everything my younger self could have hoped for.
 
-[^1]: The first four films happen back-to-back, taking place over the course of four days. Only the first two films actually occurred (at least in part) on Friday the 13th. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago.
+[^1]: Films two, three and four happen back-to-back, taking place over the course of four days. This entry starts the night of Sunday the 15th, and ends on Tuesday the 17th. This proves to be something of a problem, however. See, one of the characters is out to avenge his dead sister, who Jason killed in the second film. This character has all kinds of newspaper clippings about Jason that he’s been compiling since his sister died. Except, by the film’s timeline, his sister died less than 48 hours ago.
 
 [^2]: The _Friday the 13th_ films are far from the only horror movies to do this. One of _Alien (1979)_’s best scares comes after the camera lingers on a wall full of posters of nude women.
 
