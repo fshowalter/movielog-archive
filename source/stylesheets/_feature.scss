@@ -5,10 +5,10 @@
     margin-top: 3rem;
 
     &:before {
-      content: '';
       border: 0;
       border-top: 1px solid rgba(0, 0, 0, .15);
       box-sizing: content-box;
+      content: '';
       display: block;
       height: 0;
       margin: 0 auto 2rem;
@@ -18,10 +18,10 @@
 
   h2 {
     &:before {
-      content: '';
       border: 0;
       border-top: 1px solid rgba(0, 0, 0, .15);
       box-sizing: content-box;
+      content: '';
       display: block;
       height: 0;
       margin: 0 auto 2rem;
