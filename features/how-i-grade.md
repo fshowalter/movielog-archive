@@ -5,10 +5,6 @@
 :date: 2014-12-07
 :pull_quote: Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
 ---
-<div>
-<hr />
-</div>
-
 * ### a great movie ###
 ![5 stars](5-stars.svg) I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
 
@@ -24,9 +20,6 @@
 * ### an awful movie ###
 ![1 star](1-star.svg) I hated it. Not even in the “so-bad-it's-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don't have to.
 
-<div>
-<hr />
-</div>
 ## On Grading ##
 
 Let's start with a binary scale. A yes or no. Gene Siskel based the famous 'Thumbs up/Thumbs down' system on the thought that a person just wants to know: “Should I see this movie?” [^1]  

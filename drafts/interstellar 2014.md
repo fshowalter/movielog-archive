@@ -1,5 +1,3 @@
-
-
 I know where Interstellar went wrong. I knew the instant it happened. I may have let out a small groan. But I’m getting ahead of myself.
 
 It’s three or four generations into the future. The earth is drying up. Giant dust storms ravage the land. Blight has wiped out all the world’s crops except corn.
