@@ -16,7 +16,7 @@ The swashbuckling finale cements Van Helsing  as the heroic foil to the villanou
 
 I vacillate between this film and Browning’s original for my favorite Dracula interpretation. I prefer Lee’s grittier performance, but I dislike the overt physicality. His Dracula runs, grapples, and digs holes. It makes for more action on screen, but it also lends the character a vulnerability that softens his edge. Also, Lee doesn't have any dialog apart from his introductory scene, which is a shame, since a battle of wills scene between Cushing and Lee would have been dynamite[^1]. One can almost hear Lee's barritone intoning, "You are very wise for one who has lived but a single lifetime."
 
-Still, _Dracula_ (_Horror of Dracula_ here in the US) is a great film. It reinvisions Browning's amospheric horror film as a thrilling adventure. By paring down the supporting cast and playing up the sex and gore,  it makes the familiar story feel fresh and new. Hawks' definition of a great movie may be a bit simplistic, but _Dracula_ is proof that simple can work.
+Still, _Dracula_ (_Horror of Dracula_ here in the US) is a great film. Anchored by two great leads, it reinvisions Browning's amospheric horror film as a thrilling adventure. By paring down the supporting cast and playing up the sex and gore,  it makes the familiar story feel fresh and new. Hawks' definition of a great movie may be a bit simplistic, but _Dracula_ is proof that simple can work.
 
 [^1]: It’s a shame that Lee and Cushing wouldn’t meet again as Dracula and Van Helsing until the disappointing _Dracula A.D. 1972 (1972)_. Cushing starred in the immediate sequel _The Brides of Dracula (1960)_ and Lee returned in the third installment _Dracula: Prince of Darkness (1966)_ which, sadly, lacked Cushing.
 
