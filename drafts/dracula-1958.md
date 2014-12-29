@@ -14,6 +14,6 @@ The third great scene is the finale. Arthur and Van Helsing have chased Dracula 
 
 I vacillate between this film and Browning’s original for my favorite Dracula interpretation. I prefer Lee’s grittier performance, but I dislike the overt physicality. His Dracula runs, grapples, and digs holes. It makes for more action on screen, but it also lends the character a vulnerability that softens his edge. Also, Lee doesn't have any dialog apart from his introductory scene, which is a shame, since a battle of wills scene between Cushing and Lee would have been dynamite[^1]. One can almost hear Lee's barritone intoning, "You are very wise for one who has lived but a single lifetime."
 
-Still, _Dracula_ (_Horror of Dracula_ here in the US) is a great film. 
+Still, _Dracula_ (_Horror of Dracula_ here in the US) is a great film. It takes the familiar source material and focuses on the two strongest characters: the Count and Van Helsing.  By paring down the supporting cast and injecting a dash of sex and gore, it makes an iconic story feel fresh and new. 
 
 [^1]: It’s a shame that Lee and Cushing wouldn’t meet again as Dracula and Van Helsing until the disappointing _Dracula A.D. 1972 (1972)_. Cushing starred in the immediate sequel _The Brides of Dracula (1960)_ and Lee returned in the third installment _Dracula: Prince of Darkness (196?)_ which, sadly, lacked Cushing.
