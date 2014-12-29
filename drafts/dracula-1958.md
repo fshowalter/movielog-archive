@@ -16,4 +16,4 @@ I vacillate between this film and Browning’s original for my favorite Dracula 
 
 Still, _Dracula_ (_Horror of Dracula_ here in the US) is a great film. It takes the familiar source material and focuses on the two strongest characters: the Count and Van Helsing.  By paring down the supporting cast and injecting a dash of sex and gore, it makes an iconic story feel fresh and new. Hawks' definition of a great movie may be a bit simplistic, but _Dracula_ is proof that simplicity works.
 
-[^1]: It’s a shame that Lee and Cushing wouldn’t meet again as Dracula and Van Helsing until the disappointing _Dracula A.D. 1972 (1972)_. Cushing starred in the immediate sequel _The Brides of Dracula (1960)_ and Lee returned in the third installment _Dracula: Prince of Darkness (196?)_ which, sadly, lacked Cushing.
+[^1]: It’s a shame that Lee and Cushing wouldn’t meet again as Dracula and Van Helsing until the disappointing _Dracula A.D. 1972 (1972)_. Cushing starred in the immediate sequel _The Brides of Dracula (1960)_ and Lee returned in the third installment _Dracula: Prince of Darkness (1966)_ which, sadly, lacked Cushing.
