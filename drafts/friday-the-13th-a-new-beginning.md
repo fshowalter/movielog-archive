@@ -6,7 +6,7 @@ This entry follows Tommy, the twelve-year-old boy who survived the previous film
 
 As a protagonist, Tommy leaves much to be desired. He says all of two dozen words throughout the entire film. His emotions run the gamut of confused to unsure. He's also prone to violent outbursts. Though these only serve as a red herring, as the one time his vicious fighting skills could actually be of use, they fail him.
 
-Anyway, the film opens with Tommy arriving at kind of halfway house for annoying teens[^2]. After one of the residents offs another with an axe, an unseen assailant begins murdering residents, staff, and pretty much everyone on screen.
+Anyway, the film opens with Tommy arriving at kind of halfway house for annoying teens[^2]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen.
 
 Harkening back to the original film, this entry is less a monster movie and more of a mystery thriller. But execution is sloppy. Characters are introduced and killed in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living next door to the halfway house. Worst of all, the eventual reveal is unsatisfying, requiring some awkward exposition to explain the killer’s motive.
 
