@@ -12,7 +12,7 @@ Harkening back to the original film, this entry is less a monster movie and more
 
 Fans hated it. And word of mouth spread fast. This entry posted the lowest box office returns of the series thus far, prompting the return of the real Jason for the next sequel[^3].
 
-But time has been kind to _Friday the 13th Part V: A New Beginning (1985)_. Knowing that the franchise rights itself with the subsequent film, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top characters are all good for a laugh. Still, I can't help but wonder: _What were they thinking?_
+But time has been kind to _Friday the 13th Part V: A New Beginning (1985)_. Knowing that the franchise rights itself with the subsequent film, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top characters are all good for a laugh. Still, one can't help but wonder: _What were they thinking?_
 
 [^1]: I had to look this up. The series timeline gets really crazy from here on out as they keep skipping ahead.
 
