@@ -22,7 +22,7 @@ It's a crackerjack scene that works just as well today as it did half a century 
 
 The third great scene is the finale. Arthur and Van Helsing have chased Dracula back to his castle. Dawn is fast approaching. Van Helsing catches the count before he can disappear down a secret passage. The two grapple. The count looks to have the upper hand until Van Helsing vaults atop a long table, runs the length and launches himself into the air, grabbing the wall's tapestry curtains as he lands, pulling them down to let in the morning sun. Dracula tries to flee, but Van Helsing pins him in place by fashioning a make-shift crucifix out of candle holders.
 
-The swashbuckling acrobatics cement Van Helsing  as the heroic foil to the villainous Count. Cushing's Van Helsing isn't just a wise man with a strong will, he's a man of action. The iconic monster hunter.
+The swashbuckling acrobatics cement Van Helsing  as the heroic foil to the villainous Count. Cushing's Van Helsing isn't just a wise man with a strong will, he's a man of action. The iconic monster hunter out to rid the world of supernatural evil.
 
 I vacillate between this film and _Dracula (1931)_ for my favorite interpretation of the Count. I prefer Lee’s grittier performance, but I dislike the overt physicality. His Dracula runs, grapples, and digs holes[^1]. It makes for more action on screen, but it also lends the character a vulnerability that softens his edge. Also, Lee doesn't have any dialog apart from his introductory scene, which is a shame. A battle of wills scene between Cushing and Lee would have been dynamite[^2]. Consider how great the classic line, "You are very wise for one who has lived but a single lifetime,” would sound in Lee’s ominous baritone.
 
