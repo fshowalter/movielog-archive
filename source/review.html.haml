@@ -3,7 +3,7 @@
 :ruby
   review = Movielog.reviews[review.sequence]
   content_for(:title, "#{review.display_title} Movie Review")
-  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.title)
+  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.title, display_title: review.display_title)
   viewings = Movielog.viewings_for_title(title: review.title)
   headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
