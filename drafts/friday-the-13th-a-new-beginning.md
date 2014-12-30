@@ -1,6 +1,6 @@
 _What were they thinking?_
 
-That sums up a my reaction to _Friday the 13th Part V: A New Beginning (1985)_. After nailing the formula in _Friday the 13th: The Final Chapter (1984)_ , they throw everything out the window and nearly kill the franchise.
+That sums up my reaction to _Friday the 13th Part V: A New Beginning (1985)_. After nailing the formula in _Friday the 13th: The Final Chapter (1984)_ , they throw everything out the window and nearly kill the franchise.
 
 The film follows Tommy, the twelve-year-old boy who survived the previous film by hacking Jason’s body to pieces with a machete. In a startling bit of plausibility, he’s spent the previous six years in a mental institution. He’s eighteen now, putting this film in the then-future of 1990[^1].
 
