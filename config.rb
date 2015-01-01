@@ -11,9 +11,15 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def markdown(source)
+  def markdown(source, link_titles: true)
     return source if source.blank?
-    Tilt['markdown'].new(footnotes: true) { source }.render
+    content = Tilt['markdown'].new(footnotes: true) { source }.render
+
+    reviews.each do |title, review|
+      content.gsub!(title, link_to(title, "/reviews/#{review.slug}/"))
+    end
+
+    content
   end
 
   def inline_svg(filename, options = {})
