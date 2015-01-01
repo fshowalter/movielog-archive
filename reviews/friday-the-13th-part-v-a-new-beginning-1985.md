@@ -14,11 +14,11 @@ That about sums up my reaction to _Friday the 13th Part V: A New Beginning_. Aft
 
 This entry follows Tommy, the young boy who survived the previous film by hacking Jason’s body to pieces with a machete. In a startling bit of plausibility, he’s spent the previous six years in a mental institution. He’s eighteen now, putting this film in the then-future of 1990[^1].
 
-As a protagonist, Tommy leaves much to be desired. He says all of two-dozen words throughout the film. Instead, he spends most of his time looking either frustrated or confused. He's also prone to violent outbursts[^2].
+As a protagonist, Tommy leaves much to be desired. He says all of two-dozen words throughout the film. Instead, he spends most of his time looking either frustrated or confused. I've read that the film was originally written for Corey Feldman to reprise his role as Tommy. When he was unavailable due to Goonies, the script was rewritten. I don't think a lot of effort went into that draft. He's also prone to violent outbursts[^2].
 
 The film opens with Tommy arriving at a kind of halfway house for annoying teens[^3]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen. 
 
-Harkening back to the original film, this entry is less a monster movie and more of a mystery thriller. But execution is sloppy. The script introduces characters only to kill them in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living next door to the halfway house. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
+Harkening back to the original film, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. The script introduces characters only to kill them in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living next door to the halfway house. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
 
 Fans hated it. The original plan was to setup a new killer for a new series of movies[^4]. But after this entry’s disappointing box office returns, the plan changed. Consider the title of the sequel: _Jason Lives: Friday the 13th Part VI (1986)_. 
 
