@@ -20,9 +20,9 @@ The film opens with Tommy arriving at a kind of halfway house for annoying teens
 
 Harkening back to the original film, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. The script introduces characters only to kill them in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living next door to the halfway house. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
 
-Fans hated it. The original plan was to setup a new killer for a new series of movies[^4]. But after this entry’s disappointing box office returns, the plan changed. Consider the title of the sequel: _Jason Lives: Friday the 13th Part VI (1986)_. 
+Fans hated it. The original plan was to setup a new killer for a new series of movies[^4]. After this entry’s disappointing box office returns, the plan changed. Consider the title of the sequel: _Jason Lives: Friday the 13th Part VI (1986)_. 
 
-Time has been kind to _Friday the 13th Part V: A New Beginning_, however. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
+But time has been kind to _Friday the 13th Part V: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
 
 [^1]: I had to look this up. The series timeline gets really crazy from here on out as they keep skipping forward in time.
 
