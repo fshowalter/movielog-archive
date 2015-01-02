@@ -16,7 +16,7 @@ This entry follows Tommy, the young boy who survived the previous film by hackin
 
 Tommy is a frustrating protagonist. He's superficial to the plot and says less than two-dozen words throughout the film. He spends most of his time either looking confused or violently acting out. This petulant behavior may have fit a younger actor, but here it’s laughably awkward[^2].
 
-Anyway, the film opens with Tommy arriving at a kind of halfway house for annoying teens[^3]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen.
+The film opens with Tommy arriving at a kind of halfway house for annoying teens[^3]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen.
 
 Harkening back to the original  _Friday the 13th (1980)_, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. Characters are introduced and killed in the same scene. Several of the performances, such as the backwoods mother and son living adjacent to the halfway house, veer well into camp. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
 
