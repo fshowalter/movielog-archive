@@ -18,7 +18,7 @@ Tommy is a frustrating protagonist. He's not integral to the plot. He says no mo
 
 Anyway, the film opens with Tommy arriving at a kind of halfway house for annoying teens[^4]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen.
 
-Harkening back to the original film, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. Characters are introduced and killed in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living adjacent to the halfway house. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
+Harkening back to the original  _Friday the 13th (1980)_, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. Characters are introduced and killed in the same scene. Several of the performances veer well into camp, such as the backwoods mother and son living adjacent to the halfway house. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
 
 But time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
 
