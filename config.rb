@@ -15,8 +15,9 @@ helpers do
     return source if source.blank?
     content = Tilt['markdown'].new(footnotes: true) { source }.render
 
-    reviews.each do |title, review|
-      content.gsub!(title, link_to(title, "/reviews/#{review.slug}/"))
+    reviews.values.each do |review|
+      content.gsub!(
+        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
     end
 
     content
