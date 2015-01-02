@@ -1,16 +1,16 @@
 ---
 :sequence: 17
 :title: 'Friday the 13th: A New Beginning (1985)'
-:slug: friday-the-13th-part-v-a-new-beginning-1985
-:display_title: 'Friday the 13th Part V: A New Beginning (1985)'
+:slug: friday-the-13th-a-new-beginning-1985
+:display_title: 'Friday the 13th: A New Beginning (1985)'
 :date: 2014-12-31
 :imdb_id: tt0089173
 :grade: D
-:pull_quote: "Time has been kind to _Friday the 13th Part V: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way."
+:pull_quote: "Time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way."
 ---
 _What were they thinking?_
 
-That about sums up my reaction to _Friday the 13th Part V: A New Beginning_. After nailing the formula in _Friday the 13th: The Final Chapter (1984)_, they throw everything out the window and nearly kill the franchise.
+That about sums up my reaction to _Friday the 13th: A New Beginning_. After nailing the formula in _Friday the 13th: The Final Chapter (1984)_, they throw everything out the window and nearly kill the franchise.
 
 This entry follows Tommy, the young boy who survived the previous film by hacking Jason’s body to pieces with a machete. In a startling bit of plausibility, he’s spent the previous six years in a mental institution. He’s eighteen now, putting this film in the then-future of 1990[^1].
 
@@ -22,7 +22,7 @@ Harkening back to the original film, this entry is less a monster movie and more
 
 Fans hated it. The original plan was to setup a new killer for a new series of movies[^5]. After this entry’s disappointing box office returns, the plan changed. Consider the title of the sequel: _Jason Lives: Friday the 13th Part VI (1986)_. 
 
-But time has been kind to _Friday the 13th Part V: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
+But time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
 
 [^1]: I had to look this up. The series timeline gets really crazy from here on out as they keep skipping forward in time.
 
