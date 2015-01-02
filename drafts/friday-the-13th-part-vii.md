@@ -21,6 +21,7 @@ Let's start with the good. Zombie Jason looks great. He's a great big hulking mo
 That's it for the good.
 
 This is an awful movie. The characters (save Jason) aren't just flat or underdeveloped. They're aggressively annoying. Everyone over-emotes. Characters act without any clear motivation. This wouldn't be so bad if the film didn't take itself so seriously. The black humor in the previous entry is gone. So is the manic campiness that accompanied part 5. Instead we're asked to suffer through scene-after-scene of overwraught melodrama. ? is a passive protagonist that spends a large portion of the film crying. The kids next door seem like strangers thrown together rather than friends.
+The characters are lucky when Jason puts them out of thier misery. It's the audience that truely suffers.
 
 [^1]: Placing the entry even _further_ into the then-future.
 
