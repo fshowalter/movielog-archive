@@ -10,8 +10,6 @@
 ---
 I watched _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I didn't want to let the masses make up my mind. I've seen enough supposedly awful films to know the masses can be wrong.
 
-But, in this case, the masses were right.
-
 The story opens outside a house on Crystal Lake. We see a young girl standing outside the door. Inside, we can hear her parents fighting. The mom's yelling that the dad promised he wouldn't drink so much. The dad's telling her to shut up and smacking her around. It aims for drama but plays like caricature.
 
 The girl runs down to the lake, walks the length of a short pier, and gets in a small fishing boat. She motors out to the middle of the lake. The dad comes running out of the house down to the pier[^1]. He yells for her to come back. The mom comes out of the house and joins in the yelling. The dad advances down the pier. The little girl gives the dad the stink-eye of death and the pier starts to shake. Not a rumble, but a full-on cartoonish wobble with the pylons jutting several feet into the air. It's an expensive-looking effect, but laughable.
@@ -22,21 +20,21 @@ Tina and her mother arrive at the lake house. Dr. Crews is there waiting. Conven
 
 A few needless scenes later, Tina inadvertently wakes up Jason via her telekinesis[^2]. Jason sets to work massacring the teens next door[^3].
 
-Meanwhile, Tina’s mom uncovers Dr. Crews’ true intentions. There's a lot of over emoting and dues ex machina that culminates in a showdown between Tina and Jason. Tina uses her telekinetic powers to hurl flower pots at Jason.
+Meanwhile, Tina’s mom uncovers Dr. Crews’ true intentions. There's a lot of over emoting and dues ex machina that culminates in a showdown between Tina and Jason. Tina uses her telekinetic powers to hurl flower pots at Jason. There's a big explosion and a head-scratching ending, then it's all over.
 
-Seriously. This is an awful movie. Sitting through it was a chore.
+Okay, so the masses were right. This is an awful movie. Sitting through it was a chore.
 
-Let's start with the good. Zombie Jason looks great. He's a big hulking monster. This entry also sees Jason make use of power tools[^4].
+But let's look on the bright side. Zombie Jason looks great. He's a big hulking monster. This entry also sees Jason make use of power tools[^4].
 
-That's it for the good.
+That's it for the bright side.
 
 The film attempts to replicate the scenario from _Friday the 13th: The Final Chapter (1984)_. A house full of teens next to a house with a single mom and her teenage daughter. Had it just done that, things might not have been so bad.
 
-But it also tacks on a sub-plot involving Tina, her telekinesis, her mother, and Dr. Crews. This is the worst part of the film. More than once, I ached to fast-forward through these scenes. Largely because Tina is aggressively annoying. I rooted for Jason to defy convention and put Tina out of our misery. I don’t fault the actress, she’s only working with what she’s given. Her character is an ineffectual protagonist who spends most of the film in histrionics. The worst kind of [final girl](http://en.wikipedia.org/wiki/Final_girl). The film expects us to care about her without giving us a reason for doing so. When the other kids take an instant dislike to her, we’re on their side.
+But it also tacks on an agonizing sub-plot involving Tina, her telekinesis, her mother, and Dr. Crews. This is the worst part of the film. More than once, I ached to fast-forward through these scenes. Largely because Tina is aggressively annoying.  I don’t fault the actress, she’s only working with what she’s given. Her character is an ineffectual protagonist who spends most of the film in histrionics. The worst kind of [final girl](http://en.wikipedia.org/wiki/Final_girl). The film expects us to care about her without giving us a reason for doing so. When the other kids take an instant dislike to her, we’re on their side.
 
 And speaking of those kids, they have no chemistry between them. They feel like strangers thrown together rather than friends. None of them register. Their scenes are dull.
 
-All this wouldn’t be so bad if the film didn't take itself so seriously. But the black humor in the previous entry is gone. So is the manic campiness that accompanied _Friday the 13th: A New Beginning (1985)_. Instead we're asked to suffer through scenes alternating between idle boredom and overwrought melodrama. When Jason offs one of the characters it is a relief. Not because it breaks some nonexistent tension, but because we’re one step closer to the film’s end. In _Friday the 13th Part VII: The New Blood_ it’s the audience, not Jason’s quarry, that suffers.
+All this wouldn’t be so bad if the film didn't take itself so seriously. The black humor in the previous entry is gone. So is the manic campiness that accompanied _Friday the 13th: A New Beginning (1985)_. Instead we're asked to suffer through scenes alternating between idle boredom and overwrought melodrama. When Jason offs one of the characters it is a relief. Not because it breaks some nonexistent tension, but because we’re one step closer to the film’s end. In _Friday the 13th Part VII: The New Blood_ it’s the audience, not Jason’s quarry, that suffers.
 
 [^1]: My first thought upon seeing the Dad: _[Stewart Smalley](http://en.wikipedia.org/wiki/Stuart_Smalley)?_
 
@@ -53,3 +51,4 @@ It’s not hard. Really. It's a simple formula. First, assemble some college-age
 A simple formula.
 
 It's spectacular how badly _Friday the 13th Part VII: The New Blood_ botches it.
+
