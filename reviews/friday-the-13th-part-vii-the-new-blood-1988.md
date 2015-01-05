@@ -30,7 +30,7 @@ That's it for the bright side.
 
 The film attempts to replicate the scenario from _Friday the 13th: The Final Chapter (1984)_. A house full of teens next to a house with a single mom and her teenage daughter. Had it just done that, things might not have been so bad.
 
-But it also tacks on an agonizing sub-plot involving Tina, her telekinesis, her mother, and Dr. Crews. This is the worst part of the film. More than once, I ached to fast-forward through these scenes. Largely because Tina is aggressively annoying.  I don’t fault the actress, she’s only working with what she’s given. Her character is an ineffectual protagonist who spends most of the film in histrionics. The worst kind of [final girl](http://en.wikipedia.org/wiki/Final_girl). The film expects us to care about her without giving us a reason for doing so. When the other kids take an instant dislike to her, we’re on their side.
+But it also tacks on an agonizing sub-plot involving  telekinetic Tina, her mother, and Dr. Crews. This is the worst part of the film. More than once, I ached to fast-forward through these scenes. Largely because Tina is aggressively annoying.  I don’t fault the actress, she’s only working with what she’s given. Her character is an ineffectual protagonist who spends most of the film in histrionics. The worst kind of [final girl](http://en.wikipedia.org/wiki/Final_girl). The film expects us to care about her without giving us a reason for doing so. When the other kids take an instant dislike to her, we’re on their side.
 
 And speaking of those kids, they have no chemistry between them. They feel like strangers thrown together rather than friends. None of them register. Their scenes are dull.
 
