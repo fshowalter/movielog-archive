@@ -8,9 +8,9 @@
 :grade: F
 :pull_quote: "In _Friday the 13th Part VII: The New Blood_ it’s the audience, not Jason’s quarry that suffers."
 ---
-I watched _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I've seen enough supposedly awful films to know the masses can be wrong.
+I watched _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I didn't want to let the masses make up my mind. I've seen enough supposedly awful films to know the masses can be wrong.
 
-But in this case, the masses were right.
+But, in this case, the masses were right.
 
 The story opens outside a house on Crystal Lake. We see a young girl standing outside the door. Inside, we can hear her parents fighting. The mom's yelling that the dad promised he wouldn't drink so much. The dad's telling her to shut up and smacking her around. It aims for drama but plays like caricature.
 
