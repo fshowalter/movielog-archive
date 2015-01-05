@@ -11,6 +11,7 @@
 I watched _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I've seen enough supposedly awful films to know the masses can be wrong.
 
 But in this case, the masses were right.
+
 The story opens outside a house on Crystal Lake. We see a young girl standing outside the door. Inside, we can hear her parents fighting. The mom's yelling that the dad promised he wouldn't drink so much. The dad's telling her to shut up and smacking her around. It aims for drama but plays like caricature.
 
 The girl runs down to the lake, walks the length of a short pier, and gets in a small fishing boat. She motors out to the middle of the lake. The dad comes running out of the house down to the pier[^1]. He yells for her to come back. The mom comes out of the house and joins in the yelling. The dad advances down the pier. The little girl gives the dad the stink-eye of death and the pier starts to shake. Not a rumble, but a full-on cartoonish wobble with the pylons jutting several feet into the air. It's an expensive-looking effect, but laughable.
