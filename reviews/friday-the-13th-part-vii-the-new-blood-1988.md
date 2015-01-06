@@ -6,7 +6,7 @@
 :date: 2015-01-05
 :imdb_id: tt0095179
 :grade: F
-:pull_quote: "In _Friday the 13th Part VII: The New Blood_ it’s the audience, not Jason’s quarry that suffers."
+:pull_quote: "In _Friday the 13th Part VII: The New Blood_, it’s the audience, not Jason’s quarry that suffers."
 ---
 There's a lesson here. I came to _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I didn't want to let the masses make up my mind. I've seen enough supposedly awful films to know the masses can be wrong.
 
@@ -36,7 +36,7 @@ That said, Tina is the worst. Her character is an ineffectual protagonist who sp
 
 And speaking of those kids, they have no chemistry between them. They feel like strangers thrown together rather than friends. None of them register. Their scenes are dull.
 
-All this wouldn’t be so bad if the film didn't take itself so seriously. The black humor in the previous entry is gone. So is the manic campiness that accompanied _Friday the 13th: A New Beginning (1985)_. Instead we're asked to suffer through scenes alternating between idle boredom and overwrought melodrama. When Jason offs one of the characters it is a relief. Not because it breaks some nonexistent tension, but because we’re one step closer to the film’s end. In _Friday the 13th Part VII: The New Blood_ it’s the audience, not Jason’s quarry, that suffers.
+All this wouldn’t be so bad if the film didn't take itself so seriously. The black humor in the previous entry is gone. So is the manic campiness that accompanied _Friday the 13th: A New Beginning (1985)_. Instead we're asked to suffer through scenes alternating between idle boredom and overwrought melodrama. When Jason offs one of the characters it is a relief. Not because it breaks some nonexistent tension, but because we’re one step closer to the film’s end. In _Friday the 13th Part VII: The New Blood_, it’s the audience, not Jason’s quarry, that suffers.
 
 [^1]: My first thought upon seeing the Dad: _[Stewart Smalley](http://en.wikipedia.org/wiki/Stuart\_Smalley)?_
 
