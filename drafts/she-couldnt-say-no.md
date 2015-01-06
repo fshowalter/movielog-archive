@@ -3,7 +3,7 @@ The story follows an oil heiress named Korby Lane, played by Jean Simmons. Korby
 
 She also takes an interest in Doc Sellers, played by Robert Mitchum. Doc susses out Korby's motivations, and tries to dissuade her. But Korby is stubborn. Her generosity backfires. The town vet ups and leaves town, leaving the local farmers in a lurch. So does the owner of the boarding house where Korby's been staying. The town drunk, played by the always charming Arthur Hunnicutt, almost dies of alcohol poisioning.
 
-Soon, Korby realizes the error of her ways and comes clean as the town's beneficiary. She also says there'll be no more money. The ending is kind of abrupt. Korby and Doc get together and we're led to believe the town is more-or-less back to normal. Of course, we know that can't be true, but this is part of how the film lets us down.
+As the town decends into chaos, Korby realizes the error of her ways. She comes clean as the town's beneficiary and says there'll be no more money. The ending is kind of abrupt. Korby and Doc get together and we're led to believe the town is more-or-less back to normal. Of course, we know that can't be true, but this is part of how the film lets us down.
 
 It's a film built on a solid premise with a good cast. But the script has no edge. It plays like a light bucolic romantic comedy. Nothing serious happens until the end, when masses of people show up, hoping to get a piece of the pie. Things start to turn ugly, but Doc arrives in time to settle things down with a hearty speech.
 
