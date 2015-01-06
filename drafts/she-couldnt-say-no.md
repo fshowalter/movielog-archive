@@ -1,4 +1,5 @@
 Sometimes a movie lets you down. Often this is because the movie was bad and you payed money thinking it would be good. But sometimes the movie is just okay when it could have been better. Such is the case with _She Couldn't Say No_.
+
 The story follows an oil heiress named Korby Lane, played by Jean Simmons. Korby travels to the small, rural town of Progress, Arkansas. Once there, she assumes the name of Korby Johnson and begins anonymously doling out large sums of money to the townsfolk.
 
 She also takes an interest in Doc Sellers, played by Robert Mitchum. Doc susses out Korby's motivations, and tries to dissuade her. But Korby is stubborn. Her generosity backfires. The town vet ups and leaves town, leaving the local farmers in a lurch. So does the owner of the boarding house where Korby's been staying. The town drunk, played by the always charming Arthur Hunnicutt, almost dies of alcohol poisioning.
