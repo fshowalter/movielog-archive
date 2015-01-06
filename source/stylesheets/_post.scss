@@ -4,6 +4,19 @@
   max-width: 35rem;
   padding: 0 1rem;
 
+  a {
+    &:hover {
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(85, 119, 153, .6) 50%);
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+      background-position: 0 24px;
+    }
+
+    &:before {
+      content: none;
+    }
+  }
+
   h2 {
     color: rgba(0, 0, 0, .4);
     font-family: $sans;
@@ -19,6 +32,12 @@
   .footnotes {
     border-top: 1px solid rgba(0, 0, 0, .05);
     font-family: $sans;
+
+    a {
+      &:hover {
+        background-position: 0 13px;
+      }
+    }
 
     ol {
       padding-left: 1rem;
