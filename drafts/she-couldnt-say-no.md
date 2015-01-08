@@ -10,5 +10,5 @@ It's a film built on a solid premise with a good cast. But the script has no edg
 
 But what if he didn't? What if the film started as a comedy but then subverted the genre to show the underside of small town life? A biting satire that _really_ explored the effects of sudden wealth on rural America. It might be wrong to criticize the film based on what _wasn't_ made, but storytelling is about making decisions. And a decision to _not_ do something is still a decision.
 
-Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special.  As is, it's just mediocre.
+Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special.  But as is, it's just mediocre.
 
