@@ -24,7 +24,7 @@ After a while, Jason kills the captain. Sean discovers his father’s body and a
 
 But Jason’s right behind them, determined to finish what he started aboard the boat. The finale sees Rennie and Sean running from Jason through a sewer tunnel that’s due to be flushed with toxic waste. 
 
-This installment was the lowest grossing entry in the series. That’s less a reflection on this film and more a confirmation that the previous installment, _Friday the 13th Part VII: The New Blood (1988)_, killed the franchise. _That_ film was awful. This movie is bad, but nowhere near that level of terrible.
+This installment was the lowest grossing entry in the series. But that’s less a reflection on this film and more a confirmation that the previous installment, _Friday the 13th Part VII: The New Blood (1988)_, killed the franchise. _That_ film was awful. This movie is bad, but nowhere near _that_ level of terrible.
 
 Granted, much like the previous film, this entry saddles the protagonist with a useless melodramatic sub plot. But the supporting cast here is far more tolerable. And the film doesn’t take itself too seriously. There are a couple of good laughs[^5].
 
