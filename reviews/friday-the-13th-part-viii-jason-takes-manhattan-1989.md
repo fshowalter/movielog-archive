@@ -30,7 +30,7 @@ Now, yes, the majority of the film does take place on a boat. But if it didn’t
 
 And yes, much like the previous film, this entry saddles the protagonist with a useless melodramatic sub plot. But the supporting cast here is far more compelling, and this installment has a sense of humor[^5].
 
-But most disappointing aspect of this entry is not that it takes so long to get to New York, but rather that once it does, Jason gets tunnel vision. He doesn’t care about anyone but the people from the boat. He walks through whole swaths of people and leaves them alone. Jason in a major city should be like a one-man apocalypse, killing anyone and anything within reach. He does off some street punks, but that's about it. 
+The most disappointing aspect of this entry is not how long it takes to get to New York. It’s that once it gets there, Jason gets tunnel vision. He doesn’t care about anyone but the people from the boat. He walks through swaths of pedestrians and leaves them alone. Jason in a major city should be a one-man apocalypse, killing anyone and anything within reach. He does off some street punks, but that's about it. 
 
 To that end, _Friday the 13th Part VIII: Jason Takes Manhattan_ is more disappointing than awful. Aside from a change of scenery, it doesn’t offer anything we haven’t seen done better before.
 
