@@ -26,11 +26,11 @@ But Jason’s right behind them, determined to finish what he started aboard the
 
 This installment was the lowest grossing entry in the series. That’s less a reflection on this film and more a confirmation that the previous installment, _Friday the 13th Part VII: The New Blood (1988)_, killed the franchise. _That_ film was awful. This movie is bad, but nowhere near that level of terrible.
 
-Now, yes, the majority of the film does take place on a boat. But if it didn’t have the Manhattan title, I doubt fans would have minded so much. At this point in the series, _any_ change of scenery would be welcome. 
+Granted, much like the previous film, this entry saddles the protagonist with a useless melodramatic sub plot. But the supporting cast here is far more tolerable. And the film doesn’t take itself too seriously. There are a couple of good laughs[^5].
 
-And yes, much like the previous film, this entry saddles the protagonist with a useless melodramatic sub plot. But the supporting cast here is far more compelling, and this installment has a sense of humor[^5].
+And yes, the majority of the film does take place on a boat. But if it didn’t have the Manhattan title, I doubt fans would have minded so much. At this point in the series, _any_ change of scenery would be welcome. 
 
-The most disappointing aspect of this entry is not how long it takes to get to New York. It’s that once it gets there, Jason gets tunnel vision. He doesn’t care about anyone but the people from the boat. He walks through swaths of pedestrians and leaves them alone. Jason in a major city should be a one-man apocalypse, killing anyone and anything within reach. He does off some street punks, but that's about it. 
+Indeed, the most disappointing aspect of this entry is not how long it takes to get to New York. It’s that once it gets there, Jason gets tunnel vision. He doesn’t care about anyone but the people from the boat. He walks through swaths of pedestrians and ignores them. Jason in a major city should be a one-man apocalypse, killing anyone and anything within reach. He does off some street punks, but that's about it. 
 
 To that end, _Friday the 13th Part VIII: Jason Takes Manhattan_ is more disappointing than awful. Aside from a change of scenery, it doesn’t offer anything we haven’t seen done better before.
 
