@@ -1,7 +1,7 @@
 ---
 :sequence: 21
 :title: She Couldn't Say No (1954)
-:slug: she-couldn-t-say-no-1954
+:slug: she-couldnt-say-no-1954
 :display_title: She Couldn't Say No (1954)
 :date: 2015-01-10
 :imdb_id: tt0047476
