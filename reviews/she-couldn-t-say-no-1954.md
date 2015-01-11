@@ -6,7 +6,7 @@
 :date: 2015-01-10
 :imdb_id: tt0047476
 :grade: C-
-:pull_quote:
+:pull_quote: "Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down."
 ---
 Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down.
 
