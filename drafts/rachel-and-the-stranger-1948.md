@@ -24,4 +24,4 @@ But that's how this film works. Characters don't act organically, they act _conv
 
 And speaking of Davey, he's an awful character. He's whiny and obstinate. We're given no reason to like him. Yes, he misses his mother. But the way he's presented, one suspects he was annoying long before Susan departed this earth.
 
-There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the melodramatic fable they're given to work with is frustrating at best, and annoying at worst. The film is content to tell a simple story, but it's a trite one. It's a film that trades in adult themes, though it seems made for children. 
+There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the melodramatic fable they're given to work with is frustrating at best, and annoying at worst. The adult themes of intimacy and emotional neglect belie a trite narrative that's presented as though he audience was made up of  children. 
