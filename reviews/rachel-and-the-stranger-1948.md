@@ -3,7 +3,7 @@
 :title: Rachel and the Stranger (1948)
 :slug: rachel-and-the-stranger-1948
 :display_title: Rachel and the Stranger (1948)
-:date: 2015-01-14
+:date: 2015-01-15
 :imdb_id: tt0040720
 :grade: D
 :pull_quote: "There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the hackneyed melodramatic fable they're given to work with is frustrating at best, and annoying at worst."
