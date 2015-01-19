@@ -6,9 +6,9 @@
 :date: 2015-01-17
 :imdb_id: tt2756032
 :grade: B
-:pull_quote: ""
+:pull_quote: "Whoa there. There be spoilers here. Big spoilers. The kind of spoilers that would ruin _The One I Love_ for folks who haven't seen it. If you're one of those folks and you're on the fence, see it. Hell, if you're not on the fence, see it. It may have its problems, but it's original enough to merit a look."
 ---
-Whoa there. There be spoilers below. Big spoilers. The kind of spoilers that would ruin _The One I Love_ for folks who haven't seen it. If you're one of those folks and you're on the fence, see it. Hell, if you're not on the fence, see it. It may have its problems, but it's original enough to merit a look.
+Whoa there. There be spoilers here. Big spoilers. The kind of spoilers that would ruin _The One I Love_ for folks who haven't seen it. If you're one of those folks and you're on the fence, see it. Hell, if you're not on the fence, see it. It may have its problems, but it's original enough to merit a look.
 
 Still here? Okay, here we go.
 
