@@ -22,7 +22,7 @@ Harkening back to the original  _Friday the 13th (1980)_, this entry is less a m
 
 But time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
 
-[^1]: This puts the film in the then-future of 1990[^1]. I had to look this up. The series timeline gets really crazy from here on out as they keep skipping forward in time.
+[^1]: This puts the film in the then-future of 1990. I had to look this up. The series timeline gets really crazy from here on out as they keep skipping forward in time.
 
 [^2]: This petulant behavior may be a remnant of an earlier draft of the script. According to the IMDb, Cory Feldman was going to reprise his role as Tommy. But when he was unavailable due to The Goonies (1985), the filmmakers rewrote the part for an older actor. One suspects it was a very quick rewrite.
 

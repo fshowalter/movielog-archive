@@ -8,7 +8,7 @@
   box-sizing: border-box;
   color: #555;
   display: inline-block;
-  font-family: $sans;
+  font-family: $serif;
   font-size: .8rem;
   height: 2rem;
   line-height: 1.4;
@@ -22,6 +22,7 @@
   border: 0;
   box-sizing: content-box;
   color: rgba(0, 0, 0, .4);
+  font-family: $serif;
   font-size: 1rem;
   width: 60px;
 
@@ -57,20 +58,19 @@
 
 .filter-label {
   color: rgba(0, 0, 0, .3);
-  font-family: $sans;
   font-size: .8rem;
 }
 
 .filter-select {
   @extend %text-box;
   color: rgba(0, 0, 0, .7);
+  font-family: $serif;
   font-size: .7rem;
   text-indent: .01px;
   text-overflow: '';
 }
 
 .filter-range {
-  font-family: $sans;
   min-height: 4rem;
   position: relative;
 }

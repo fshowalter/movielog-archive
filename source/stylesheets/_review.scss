@@ -9,14 +9,12 @@
 
 .review-aka-list-heading {
   color: rgba(0, 0, 0, .3);
-  font-family: $sans;
   font-size: .8rem;
   font-weight: normal;
 }
 
 .review-aka-list-item {
   color: rgba(0, 0, 0, .6);
-  font-family: $sans;
   font-size: .8rem;
   letter-spacing: -.02rem;
   margin: 0;
@@ -25,7 +23,6 @@
 .review-directed-by {
   color: #9a9a9a;
   display: block;
-  font-family: $sans;
   font-size: .75rem;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -34,7 +31,6 @@
 
   @media (min-width: $breakpoint) {
     font-size: .85rem;
-    font-weight: 300;
     letter-spacing: -.02rem;
   }
 }
@@ -53,7 +49,6 @@
 
 %review-meta-item {
   color: rgba(0, 0, 0, .6);
-  font-family: $sans;
   font-size: .75rem;
   line-height: 1.5;
 
@@ -78,7 +73,6 @@
 }
 
 .review-viewings-list {
-  font-family: $sans;
   margin: 0 0 1rem 1rem;
   padding: 0;
 }

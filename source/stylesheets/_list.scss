@@ -1,5 +1,4 @@
 %list {
-  font-family: $sans;
   margin: 0 auto;
   padding: 0;
 }
@@ -29,14 +28,13 @@
 %list-item-title {
   color: rgba(0, 0, 0, .8);
   display: block;
-  font-family: $sans;
   letter-spacing: -.02em;
   line-height: 1.2;
   margin: 0;
 
   &:before {
     content: attr(data-number) '. ';
-    font-weight: 300;
+    font-weight: 400;
   }
 
   @media (min-width: $breakpoint) {
@@ -68,8 +66,7 @@
 %list-item-slug {
   color: rgba(0, 0, 0, .4);
   display: block;
-  font-family: $sans;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 1px;
   padding-top: 3px;
 
