@@ -99,7 +99,7 @@ p {
 }
 
 .masthead {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .9);
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   letter-spacing: -.04rem;
   margin-bottom: 0;
@@ -207,6 +207,15 @@ p {
 
     @media (min-width: $nav-breakpoint) {
       border-bottom: 1px solid #444;
+
+      &:before {
+        transform: none;
+        visibility: hidden;
+      }
+
+      &:hover {
+        color: rgba(0, 0, 0, .8) !important;     
+      }
     }
   }
 
