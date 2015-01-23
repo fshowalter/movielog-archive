@@ -8,25 +8,28 @@
 :grade: B
 :pull_quote: "Whoa there. There be spoilers here. Big spoilers. The kind of spoilers that would ruin _The One I Love_ for folks who haven't seen it. If you're one of those folks and you're on the fence, see it. Hell, if you're not on the fence, see it. It may have its problems, but it's original enough to merit a look."
 ---
-Whoa there. There be spoilers here. Big spoilers. The kind of spoilers that would ruin _The One I Love_ for folks who haven't seen it. If you're one of those folks and you're on the fence, see it. Hell, if you're not on the fence, see it. It may have its problems, but it's original enough to merit a look.
+There be spoilers here. Big spoilers. If you haven't seen _The One I Love_, see it first, then come back. It's not a perfect movie, but the first two acts are brilliant.
 
-Still here? Okay, here we go.
+Back? Okay, here we go.
 
-Mark Duplass and Elisabeth Moss play Ethan and Sophie, a young couple on the brink of divorce. Their counselor, played by Ted Danson, sends them to a remote retreat for a weekend getaway. He believes it just what they need to reconnect and rediscover one another.
+Mark Duplass and Elisabeth Moss play Ethan and Sophie, a young couple on the brink of divorce. Their counselor, sends them to a remote retreat for a weekend getaway. He believes it just what they need to reconnect and rediscover one another.
 
-Ethan and Sophie arrive and discover they're the only people present. They settle in, have a nice dinner and smoke a little grass.
+The retreat turns out to be a sizable country estate, complete with pool and guest house. Ethan and Sophie arrive and discover they're the only people present. They settle in, have a nice dinner, and smoke some marijuana.
 
-Sophie wanders over to the guest house. Ethan joins her later. They laugh, talk and have a wonderful time. The best they've had in years. They have sex. Later, Sophie heads back to the main house to grab some things. Inside, she's suprised to discover Ethan lying on the couch. 
+Sophie wanders over to the guest house.  Ethan joins her. They laugh, talk and have a wonderful time. The best they've had in years. They have sex. Later, Sophie heads back to the main house to grab some things. Inside, she's surprised to discover Ethan lying on the couch. 
 
-She laughs and asks how he's beaten her back. Ethan is confused. He's just woken up. Sophie stops laughing. She asks him why he's acting like this after they just has sex. Ethan looks at her with bewilderment. He's been asleep on the couch since they smoked the marijuana, he tells her. Sophie storms off, furious at Ethan's unfunny joke.
+She laughs and asks how he's beaten her back. Ethan looks confused. He's just woken up. Sophie stops laughing. She asks him why he's acting like this after they just has sex. Ethan looks at her with bewilderment. He's been asleep on the couch since they smoked the marijuana, he tells her. Sophie storms off, furious at Ethan's unfunny joke.
 
-Ethan wanders over to the guest house and falls alseep on the couch there. In the middle of the night, Sophie joins him. They snuggle. Ethan wakes to find Sophie making breakfast. Including bacon. Sophie hates the smell of bacon.
+Ethan wanders over to the guest house and falls asleep on the couch there. In the middle of the night, Sophie joins him. They snuggle. Ethan wakes to find Sophie making breakfast. Including bacon. Sophie hates bacon.
 
-By this point, we've got an inkling of what's going on. To the film's credit it doesn't drag things out. Ethan and Sophie soon realize that when one of them enters the guest house alone, they're greeted by a doppleganger of the other. 
+Up to this point, the film has cultivated a subtle aura of menace. The wide, static shots of Sophie walking back to the house and through the empty kitchen channel _Halloween (1979)_.  
 
-They run. Credit to the script, it's what most folks would do. But then they get to thinking about it. Especially Sophie. They talk. Sophie suggests going back. Ethan agrees. They return to the retreat and set some ground rules. Fifteen minute sessions, no intimate activity. Total honesty.
+But now we've got an inkling of what's going on, and to the film's credit, it doesn't drag things out.  Ethan and Sophie soon realize that when one of them enters the guest house alone, they're greeted by a doppleganger of the other. 
 
-Of course, these rules quickly go out the window. Sophie begins sneaking out to see the other Ethan. Ethan ends up impersonating his doppleganger in order to sleep with Sophie. 
+They run. Again, credit to the film. It's what most folks would do. But then Ethan and Sophie get to thinking about it. Especially Sophie. They talk. Sophie suggests going back. Weren't they there to try new things? Ethan agrees. They return to the retreat and set some ground rules. Fifteen minute sessions, no intimate activity. Total honesty. Now the film's tone shifts. Quirky replaces menacing.
+
+
+Of course, these rules soon go out the window. Sophie begins sneaking out to see the other Ethan. Ethan ends up impersonating his doppleganger in order to sleep with Sophie. 
 
 Later, Ethan gets some voicemails from friends and family members suggesting he'd made a series of calls in the middle of the night asking random questions about his past. Some of his clothes seem to have gone missing as well.
 
