@@ -13,6 +13,7 @@ The year is 1929. Christopher Lee plays the dashing Duke de Richleau a nobleman 
 With dialog like that[^1], the film has no business working. And yet it does. It helps that Hammer Films knew how to make a film _look_ expensive. The sets and props all belie the modest budget. But the real credit goes to the film's two leads.
 
 Lee's Duke de Richelau harkens back to Peter Cushing's turn as Van Helsing in _Horror of Dracula (1958)_. Both are gentleman adventerers with piercing gazes, steel resolves, and razor wits. Listening to Lee's DVD commentary, it's clear he was a big fan of the Dennis Wheatly novel [^2]. His belief in the source material resonates in his performance, which is so earnest we can't help but buy it.
+
 Opposite Lee, Gray is just as good[^3]. In a role that, on paper, would seem to be over-the-top, Gray gives a smooth performance every bit as icy as Lee's. Consider the scene where he calls on the Duke's niece in an attempt to extract the neophytes under their protection. She makes to throw him out, but he leaves of his own accord saying, “I'm leaving. I shall not be back, but something will.” He pauses for a moment then adds, “Tonight. Something will come for Simon and the girl.” His tone isn't so much ominous as it is matter-of-fact, with just the slightest hint of excitement.
 
 _The Devil Rides Out_ isn't a horror film[^4]. It's a thrilling adventure. Sure, the script is pure pulp, but between the terrific pace and the great performances from Lee and Gray, we're having too much fun to care.
