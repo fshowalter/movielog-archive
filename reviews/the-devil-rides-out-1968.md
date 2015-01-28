@@ -8,11 +8,16 @@
 :grade: B
 :pull_quote: ""
 ---
-The year is 1929. Christopher Lee plays the dashing Duke de Richleau a nobleman adventurer who, as the film opens, awaits his good friend, Rex Van Ryn. Rex arrives piloting his own biplane. He lands and the two set out to check in on their young friend, Simon. What they find upon arriving at Simon's palatial house, alarms the Duke. It seems Simon has fallen in with a group of Satanists lead by the sinister Mocata, played by Charles Gray. As the Duke says, “Simon is playing the most dangerous game known to mankind.”
+Some films have no business working as well as they do. _The Devil Rides Out_ is one such film.
 
-With dialog like that[^1], the film has no business working. And yet it does. It helps that Hammer Films knew how to make a film _look_ expensive. The sets and props all belie the modest budget. But the real credit goes to the film's two leads.
+Set in 1929, the movie opens with the dashing Duke de Richleau awaiting the arrival of his good friend, Rex Van Ryn.
+The Duke is played by Hammer stalwart Christopher Lee who, in a rare change of pace, gets to play the hero and does a fine job of it. 
 
-Lee's Duke de Richelau harkens back to Peter Cushing's turn as Van Helsing in _Horror of Dracula (1958)_. Both are gentleman adventerers with piercing gazes, steel resolves, and razor wits. Listening to Lee's DVD commentary, it's clear he was a big fan of the Dennis Wheatly novel [^2]. His belief in the source material resonates in his performance, which is so earnest we can't help but buy it.
+Rex arrives piloting his own biplane, which is the extent of characterization the script allots him.  He lands and he and the Duke set out to check in on their young friend, Simon. What they find upon arriving at Simon's palatial house, alarms the Duke. It seems Simon has fallen in with a group of Satanists lead by the sinister Mocata, played by Charles Gray. As the Duke says, “Simon is playing the most dangerous game known to mankind.”
+
+Lines like that should induce groans[^1], but Lee pulls them off.  Listening to his commentary on the DVD, it's clear he was a big fan of the Dennis Wheatly novel [^2]. His belief in the source material resonates in his performance. He's so earnest we can't help but buy it.
+
+It helps that Hammer Films knew how to make a film _look_ expensive. The sets and props all belie the modest budget.
 
 Opposite Lee, Gray is just as good[^3]. In a role that, on paper, would seem to be over-the-top, Gray gives a smooth performance every bit as icy as Lee's. Consider the scene where he calls on the Duke's niece in an attempt to extract the neophytes under their protection. She makes to throw him out, but he leaves of his own accord saying, “I'm leaving. I shall not be back, but something will.” He pauses for a moment then adds, “Tonight. Something will come for Simon and the girl.” His tone isn't so much ominous as it is matter-of-fact, with just the slightest hint of excitement.
 
