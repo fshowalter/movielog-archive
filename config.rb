@@ -65,7 +65,8 @@ page 'feed.xml', mime_type: 'text/xml'
 
 activate :directory_indexes
 
-page "/googlee90f4c89e6c3d418.html", directory_index: false
+page '/googlee90f4c89e6c3d418.html', directory_index: false
+page '404.html', directory_index: false
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Firefox ESR']
