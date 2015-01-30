@@ -22,4 +22,4 @@ Despite the supernatural elements, _The Devil Rides Out_  isn’t really a horro
 
 [^1]: Gray had just starred in _You Only Live Twice (1967)_ but Hammer's first choice for Mocata was another Bond alumnus: Gert Fröbe, Goldfinger himself!
 
-[^2]: Fearing moviegoers would think _The Devil Rides Out_ was a western, Twentieth Century Fox changed the title to _The Devils’ Bride_ for the USA theatrical release.
+[^2]: Fearing moviegoers would think _The Devil Rides Out_ was a western, Twentieth Century Fox changed the title to _The Devil's Bride_ for the USA theatrical release.
