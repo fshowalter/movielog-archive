@@ -3,7 +3,7 @@
 :title: The Devil Rides Out (1968)
 :slug: the-devil-rides-out-1968
 :display_title: The Devil Rides Out (1968)
-:date: 2015-01-26
+:date: 2015-01-29
 :imdb_id: tt0062885
 :grade: B
 :pull_quote: "Some films have no business working as well as they do. _The Devil Rides Out_ is one such film."
