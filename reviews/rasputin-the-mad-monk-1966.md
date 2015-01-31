@@ -16,6 +16,6 @@ It’s a great introduction. If only the rest of the film lived up to it.
 
 As the story unfolds, Rasputin travels to Saint Petersburg. There he insinuates himself into the Tsaritsa's court by hypnotizing one of her ladies-in-waiting. Barbara Shelley plays the lady in question. There's a good bit where Rasputin, having just hypnotized Shelley's character into sleeping with him, tells her to leave some money on the dresser. As Rasputin's influence grows, members of the court begin to conspire against him. There's an overly elaborate plot involving poison, some grappling, then it's all over.
 
-Despite a terrific performance by Lee, and Hammer's solid production values[^1], the film underwhelms. The talky script vacillates between biographical drama and horror, but doesn’t commit to either. The result? Rasputin spends too much time drinking and dancing and not enough time chopping off hands. 
+Despite a terrific performance by Lee, and Hammer's solid production values[^1], the film underwhelms. It treats the character of Rasputin as a one-dimensional monster. This wouldn’t be so bad, but the talky script vacillates between biographical drama and horror without committing to either.  The result? Rasputin spends too much time drinking and dancing and not enough time chopping off hands. 
 
 [^1]: Granted, they spliced in a ballroom shot from _Anastasia (1956)_.
