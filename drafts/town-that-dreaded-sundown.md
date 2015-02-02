@@ -2,3 +2,6 @@ _The Town That Dreaded Sundown_ starts with a prolog recounting the murders that
 
 By genre definitions, the film is a slasher, but I'm always hesitant to use that term. For many people, that equates to the Friday the 13th and Halloween series of films, which for the most part, were more monster and survival horror films. _The Town That Dreaded Sundown_ is more of a violent mystery. Victims are stalked and murdered in a brutal but stylish manner and we work along with the protagonist to deduce the killer's identity from a number of suspects. To that end, _The Town That Dreaded Sundown_ may be the first rural giallo.
 
+There's a lot to like. The performances are solid, especially the supporting cast. The script is creative in its approach. Neither a remake, nor a sequal. 
+
+And the bad. Camera is too busy. Every shot doesn't need a gimmick. The ending feels obligitory. What if she just left? What if the message was that the killer would always be there as long as we were there. Would dovetail with the original's ambigious ending.
