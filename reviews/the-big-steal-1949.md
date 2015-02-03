@@ -18,10 +18,11 @@ Knowlews tries to sweet talk her but Greer cuts him off saying, "The last time y
 
 Knowles gives Greer the slip, and a few beats later we learn that Mitchum is after Knowles too. 
 
-Thus the film is set. Bendix is chasing Mitchum who, along with Greer, is chasing Knowles. Mitchum and Greer form an uneasy partnership as they travel across the Mexcian coutnryside from Veracruz to Tehuacán.  As the story unfolds we learn what was stolen, and who did the stealing. Michum and Greer warm to each other. Everything culiminates in a suprising, but satisfying finale.
+Thus the film is set. Bendix is chasing Mitchum who, along with Greer, is chasing Knowles. Mitchum and Greer form an uneasy partnership as they travel across the Mexcian coutnryside from Veracruz to Tehuacán.  As the story unfolds we learn what was stolen, and who did the stealing. Michum and Greer warm to each other. Everything culiminates in a suprising, but satisfying finale. On paper, it's a forgettable lower-budget entry from RKO, the once premier studio that had fallen to disarray under Howard Hughes. 
 
-Shot on location in mexico.
+But thanks to the crackerjack script, and strong performances from Mitchum and Greer, _The Big Steal_ is better than it probably had any right to be. Shot on location in Mexico, the film makes great use of the locales and looks more expensive than it was. 
 
+The script is a thing of beauty. Consider how little information we're given as the movie begins. Rather than open with a flashback or exposition, the 
 
 
 
