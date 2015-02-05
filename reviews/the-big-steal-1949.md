@@ -3,7 +3,7 @@
 :title: The Big Steal (1949)
 :slug: the-big-steal-1949
 :display_title: The Big Steal (1949)
-:date: 2015-01-31
+:date: 2015-02-04
 :imdb_id: tt0041178
 :grade: B-
 :pull_quote: "_The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog."
