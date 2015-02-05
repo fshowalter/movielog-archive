@@ -30,6 +30,6 @@ The script also does a great job of subverting our expectations. From the anythi
 
 And topping it all off, there's a nice touch where Mitchum actually wears some of the results of his tussles. From a bloody nose to a beaten face, the film’s fights have visible consequences. Something all too rare in Hollywood.
 
-Granted, it's not a perfect film. The car chase feels tacked on and forced. And Knowles and Bendix don't quite hold their own against Mitchum and Greer in terms of star wattage. But really, these are weaknesses instead of faults. _The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog. 
+Granted, it's not a perfect film. The extended car chase feels tacked on and forced. And Knowles and Bendix don't quite hold their own against Mitchum and Greer in terms of star wattage. But really, these are weaknesses instead of faults. _The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog. 
 
 [^1]: They actually shot in Mexico, which helps to belie the film’s modest budget.
