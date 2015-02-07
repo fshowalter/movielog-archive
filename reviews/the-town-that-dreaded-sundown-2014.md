@@ -3,7 +3,7 @@
 :title: The Town That Dreaded Sundown (2014)
 :slug: the-town-that-dreaded-sundown-2014
 :display_title: The Town That Dreaded Sundown (2014)
-:date: 2015-02-05
+:date: 2015-02-06
 :imdb_id: tt2561546
 :grade: C+
 :pull_quote: "_The Town That Dreaded Sundown_ may be the first rural giallo."
