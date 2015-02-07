@@ -14,7 +14,7 @@ The couple head out for a quiet, deserted area where they can be alone. He makes
 
 Soon they're parked. They start kissing, but the girl spots a man in the nearby woods. He's dressed just like the killer from the movie. But this is no prank. The man breaks the car's window with the butt of a revolver. He orders them out of the car at gunpoint, then forces the girl to turn around while he stabs the boy to death.
 
-And we're off and running. By genre definitions, the film is a slasher, but I'm always hesitant to use that term. For many people, that equates to the _Friday the 13th_ and _Halloween_ series of films, which, for the most part, were more monster and survival-horror films. _The Town That Dreaded Sundown_ is more of a violent mystery. Victims are stalked and murdered in a brutal but stylish manner and we work along with the protagonist to deduce the killer's identity from a number of suspects. To that end, _The Town That Dreaded Sundown_ may be the first rural giallo.
+And we're off and running. By genre definitions, the film is a slasher, but I'm always hesitant to use that term. For many people, that equates to the _Friday the 13th_ and _Halloween_ series of films, which were, for the most part, more monster and survival-horror films than slasher. _The Town That Dreaded Sundown_ is more of a violent mystery. Victims are stalked and murdered in a brutal but stylish manner and we work along with the protagonist to deduce the killer's identity from a number of suspects. To that end, _The Town That Dreaded Sundown_ may be the first rural giallo.
 
 There's a lot to like. The supporting cast includes Edward Herrmann as the aforementioned preacher, and Gary Cole as a sheriff’s deputy.  
 
@@ -28,9 +28,7 @@ Why? That was a great shot. Keep it. Cut the music. Just give us the sound of th
 
 And then there’s the ending. 
 
-But before we get to that, let me say that I liked the movie. The location photography, colorful supporting cast, and competent script make for a solid little slasher. So, having said that, and having given you a sense of what the film is about and what it’s like, I feel my job as reviewer is done. 
-
-Now, I’m going to talk about the ending. I believe I can do it without spoiling anything, but I’ll understand if some of you want to stop reading. 
+But before we get to that, let me say that I liked the movie. The location photography, colorful supporting cast, and competent script make for a solid little slasher. So, having said that, and having given you a sense of what the film is about and what it’s like, I feel my job as reviewer is done. If you want to stop reading here, I’ll understand.
 
 Still with me? Okay. I didn’t love the ending. I didn’t hate it either, but I did feel like it felt like a missed opportunity. 
 
