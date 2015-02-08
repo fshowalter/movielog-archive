@@ -8,7 +8,9 @@
 :grade: C+
 :pull_quote: "_The Town That Dreaded Sundown_ may be the first rural giallo."
 ---
-_The Town That Dreaded Sundown_ starts with a prologue recounting a series of murders that occurred in Texarkana in 1946. It talks about how the killer was never caught, and how the original film, _The Town That Dreaded Sundown (1976)_, screens every Halloween somewhere in Texarkana. The film opens on one of those screenings. It's a drive-in. The camera pans down to a teen couple sitting on the hood of a car. He seems into the film, but she looks uneasy. She says it’s not her kind of movie. He asks her if she wants to go. She does, and they head out. As they leave, the camera picks up a preacher imploring the patrons to remember that people really died back in 1946.
+_The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for the original film, _The Town That Dreaded Sundown (1976)_, which screens every Halloween somewhere in Texarkana. 
+
+The film opens on one of those screenings. It's a drive-in. The camera pans down to a teen couple sitting on the hood of a car. He seems into the film, but she looks uneasy. She says it’s not her kind of movie. He asks her if she wants to go. She does, and they head out. As they leave, the camera picks up a preacher imploring the patrons to remember that people really died back in 1946.
 
 The couple head out for a quiet, deserted area where they can be alone. He makes small talk as they drive. The camera shows them at a tilted angle. It's an on-the-nose gimmick that foreshadows one of the film's biggest weaknesses. 
 
