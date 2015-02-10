@@ -118,11 +118,11 @@ ready do
   end
 
   [
-    ['browse/reviews/rachel-and-the-stranger-1948/', 'reviews/rachel-and-the-stranger-1948/']
+    ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/']
     
   ].each do |redirect|
     old_slug, new_slug = redirect
-    proxy(old_slug, 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
+    proxy("#{old_slug}.html", 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
   end
 end
 

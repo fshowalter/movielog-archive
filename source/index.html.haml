@@ -21,7 +21,7 @@ pagination:
         .latest-updates-list-item-date
           = post.date.strftime('%B %-d, %Y')
         %header.latest-updates-list-item-header
-          %h2.latest-updates-list-item-title{ data: { number: post.sequence }}
+          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
             %a{ href: "/reviews/#{review.slug}/" }
               = "#{review.display_title} "
           = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
@@ -42,7 +42,7 @@ pagination:
         .latest-updates-list-item-date
           = post.date.strftime('%B %-d, %Y')
         %header.latest-updates-list-item-header
-          %h2.latest-updates-list-item-title{ data: { number: post.sequence }}
+          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
             %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
               = feature.title
         .latest-updates-list-item-pull-quote
