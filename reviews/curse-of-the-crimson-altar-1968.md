@@ -18,7 +18,7 @@ The story concerns Peter's brother, Robert, played by Mark Eden. When Peter does
 
 As the film unwinds, the tone veers between cult conspiracy and Scooby-Doo mystery. Robert discovers secret doors and a fake spiderweb machine en-route to learning the truth behind his brother’s disappearance. But by the time the credits roll we're left wondering if the scenes with Lavinia were meant to be real or imagined. 
 
-Sometimes ambiguity helps a film resonate. This just feels like the filmmakers were too cool for school and found the horror elements a bit contemptuous. Consider the poor attempt at meta-humor. When one of the characters compares Craxton Lodge to “one of those old houses in horror films,” Robert replies, “It’s like Boris Karloff’s going to pop up at any moment.” 
+Sometimes ambiguity helps a film resonate. This just feels like the filmmakers found the horror elements a bit contemptuous. Consider the poor attempt at meta-humor. When one of the characters compares Craxton Lodge to “one of those old houses in horror films,” Robert replies, “It’s like Boris Karloff’s going to pop up at any moment.” 
 
 After my first viewing of _The Curse of the Crimson Altar_ , I considered it something of a guilty pleasure. The over-the-top dream sequences and gratuitous nudity were good for a chuckle. 
 
