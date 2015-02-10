@@ -6,9 +6,9 @@
 :date: 2015-02-09
 :imdb_id: tt0062833
 :grade: D+
-:pull_quote: "Despite its talented cast, _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) doesn't take itself very seriously."
+:pull_quote: "Despite its very good cast, _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) is not a very good film."
 ---
-Despite its talented cast, _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) doesn't take itself very seriously. This is evident from the opening scene. 
+Despite its very good cast, _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) is not a very good film. This is evident from the opening scene. 
 
 A droning noise whines in and out as a young man named Peter Manning stands wearing a suit. He looks dazed. In front of him, a nude woman suffers a whip while lying strapped to a table. Men in black robes look on. One has a goat. Wearing a large headdress complete with ram horns, a green-skinned Barbra Steel introduces herself as Lavinia, the "Keeper of the Black Secret”[^1]. She asks if Peter knows why he's there. He does. She asks if he's ready to sign. He is. A man brings over a large book and Peter signs his name. Then Lavinia hands Peter a dagger. Peter stabs the girl on the table. There's a quick-cut to the goat, which seems distressed. Lavinia snaps her fingers. There's a crack of thunder. A muscular man dressed in a leather bikini bottom, leather arm-bands, and a studded leather cap sprouting deer antlers brings over a branding iron which he presses into Peter's chest. 
 
