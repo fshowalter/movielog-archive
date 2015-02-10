@@ -116,6 +116,14 @@ ready do
     proxy("features/#{feature.slug}.html", 'feature.html',
           locals: { feature: feature, title: "#{feature.title}" }, ignore: true)
   end
+
+  [
+    ['browse/reviews/rachel-and-the-stranger-1948/', 'reviews/rachel-and-the-stranger-1948/']
+    
+  ].each do |redirect|
+    old_slug, new_slug = redirect
+    proxy(old_slug, 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
+  end
 end
 
 require 'sass'
