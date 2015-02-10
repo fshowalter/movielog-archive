@@ -6,7 +6,7 @@
 :date: 2015-02-09
 :imdb_id: tt0062833
 :grade: D+
-:pull_quote: "The _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) can't decide how seriously it wants to take itself. This is evident from the opening scene."
+:pull_quote: "The _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) can't decide how seriously it wants to take itself."
 ---
 The _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) can't decide how seriously it wants to take itself. This is evident from the opening scene. 
 
