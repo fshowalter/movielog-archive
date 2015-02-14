@@ -6,9 +6,9 @@
 :date: 2015-02-14
 :imdb_id: tt0043131
 :grade: F
-:pull_quote: "I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where it takes the hero the entire film to deduce what the audience figures out in the first ten minutes."
+:pull_quote: "I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes."
 ---
-I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where it takes the hero the entire film to deduce what the audience figures out in the first ten minutes.
+I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes.
 
 The film opens with doctor Jeff Cameron treating a little girl. Jeff is telling her a story about elephants. Robert Mitchum plays Jeff. He’s miscast in a part that would better suit Henry Fonda, but that’s the least of the film’s problems. 
 
