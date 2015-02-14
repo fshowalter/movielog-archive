@@ -15,7 +15,7 @@ The film opens with doctor Jeff Cameron treating a little girl. Jeff is telling 
 After finishing with the little girl, Jeff clocks out, eager for  his date with Julie, a nice nurse who works at the hospital. But Jeff has to cancel after he's called to assist with a new patient.
 
 The patient is Margo, a not-so-wholesome girl who’d just attempted suicide. Jeff treats Margo, then the two start dating. He falls hard. Faith Domergue plays Margo. Like Mitchum, she’s miscast. But unlike Mitchum, it’s hard to overlook just how wrong she is for the role. To be fair, it’s a hard part to play. 
-Margo has to do more than seduce Jeff, she has to seduce the entire audience. We have to buy Jeff overlooking the myriad of red flags and throwing his life away for a woman he just met. 
+Margo has to do more than seduce Jeff, she has to seduce the entire audience. We have to buy Jeff overlooking a myriad of red flags and throwing his life away for a woman he just met. 
 
 But we don’t buy it. The entire romance is unconvincing. 
 
@@ -39,6 +39,6 @@ Domergue doesn’t look like a desperate woman, she looks like an actress unsure
 
 Jeff keeps coming. Margo shoots and misses. The border guards shoot Margo, who dies, but not before confessing to the authorities that she killed Lannington alone. Jeff wakes up in a hospital. He’s going to be okay. Julie is there waiting.
 
-_Where Danger Lives_ isn’t as awful as it is frustrating. The film treats us like simpletons, expecting us to swallow one trite plot twist after another while ignoring Domergue’s stilted performance. I tried, but I just couldn’t do it. Maybe a concussion would help.
+_Where Danger Lives_ isn’t as awful as it is frustrating. The film treats us like simpletons, expecting us to swallow one trite plot twist after another while ignoring Domergue’s stilted performance. I tried, but I just couldn’t do it. Maybe a concussion would have helped.
 
 [^1]: Cue ominous music: _Duh-duh-dum!_
