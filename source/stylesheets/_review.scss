@@ -102,7 +102,7 @@
 //
 // Multi-column
 //
-@media (min-width: 50em) {
+@media (min-width: $breakpoint) {
   .column-half {
     display: inline-block;
     padding-right: 1rem;

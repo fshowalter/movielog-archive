@@ -1,6 +1,10 @@
 .latest-updates-list {
   @extend %list;
   max-width: 35rem;
+
+  @media (min-width: $breakpoint) {
+    width: 84%;
+  }
 }
 
 .latest-updates-list-item {
