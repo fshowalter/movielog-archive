@@ -85,7 +85,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 31.8182rem;
+  max-width: $max-width-breakpoint;
 
   @media (min-width: $breakpoint) {
     max-width: 50rem;
@@ -120,13 +120,19 @@ p {
   height: 3rem;
   letter-spacing: 1px;
   line-height: 3rem;
-  margin: 0;
+  margin: 0 auto;
+  max-width: $max-width-breakpoint;
   padding: 0 1rem;
   text-transform: uppercase;
   vertical-align: bottom;
 
+  @media (min-width: $breakpoint) {
+    max-width: none;
+  }
+
+
   @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    padding: 0 7%;
+    padding: 0 8%;
   }
 }
 
@@ -161,7 +167,7 @@ p {
   top: 9px;
 
   @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    right: 7%;
+    right: 8%;
   }
 
   @media (min-width: $nav-breakpoint) {
@@ -210,6 +216,8 @@ p {
   background-image: none;
   display: block;
   line-height: 2rem;
+  margin: 0 auto;
+  max-width: $max-width-breakpoint;
   padding: 0 1rem;
 
   &.active {
@@ -229,6 +237,12 @@ p {
     }
   }
 
+  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
+    max-width: none;
+    padding: 0;
+    width: 84%;
+  }
+
   @media (min-width: $nav-breakpoint) {
     height: 3rem;
     line-height: 3rem;
@@ -237,7 +251,16 @@ p {
 }
 
 .site-search-wrap {
+  margin: 0 auto;
+  max-width: $max-width-breakpoint;
+  padding: 0 1rem;
   position: relative;
+
+  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
+    max-width: none;
+    padding: 0;
+    width: 84%;
+  }
 
   &:before {
     background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-192 -384 2048 2048"><path d="M1152 448q0-185-131.5-316.5T704 0Q519 0 387.5 131.5T256 448q0 185 131.5 316.5T704 896q185 0 316.5-131.5T1152 448zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150q-94.5-94.5-150-225T0 448q0-143 55.5-273.5t150-225q94.5-94.5 225-150T704-256q143 0 273.5 55.5t225 150q94.5 94.5 150 225T1408 448q0 220-124 399l343 343q37 37 37 90z" fill-opacity=".3"/></svg>');
@@ -245,37 +268,37 @@ p {
     background-size: contain;
     content: '';
     height: 1rem;
-    left: 1rem;
+    left: 2rem;
     position: absolute;
-    top: .6rem;
+    top: .5rem;
     width: .7rem;
 
     @media (min-width: $nav-breakpoint) {
       top: 1.25rem;
+    }
+
+    @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
+      left: 1rem;
+      top: .45rem;
     }
   }
 }
 
 .site-search-input {
   background-color: rgba(255, 255, 255, .8);
-  border: 0;
+  border: solid 1px rgba(0, 0, 0, .2);
+  border-radius: 25px;
   font-family: $serif;
-  font-size: .8rem;
-  margin: .25rem 0;
+  font-size: .6rem;
   padding: .3rem .5rem .3rem 2rem;
-  width: 100%;
+  width: 11rem;
 
-  @media (min-width: $nav-breakpoint) {
-    border: solid 1px rgba(0, 0, 0, .2);
-    border-radius: 25px;
-    font-size: .6rem;
-    margin: 0;
-    padding: .5 .5rem 2rem;
-    width: 11rem;
-
-    &:hover {
-      border-color: #579;
-    }
+  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
+    max-width: none;
+  }
+    
+  &:hover {
+    border-color: #579;
   }
 }
 
