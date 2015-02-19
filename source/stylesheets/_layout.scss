@@ -82,16 +82,18 @@ p {
   margin-top: 0;
 }
 
-.container {
+%container {
   margin-left: auto;
   margin-right: auto;
   max-width: $max-width-breakpoint;
 
   @media (min-width: $breakpoint) {
     max-width: 50rem;
-    padding-left: 0;
-    padding-right: 0;
   }
+}
+
+.content-container {
+  @extend %container;
 
   @media (min-width: $nav-breakpoint) {
     padding-top: 3rem;
@@ -99,6 +101,8 @@ p {
 }
 
 .masthead {
+  @extend %container;
+
   background-color: rgba(255, 255, 255, .9);
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   letter-spacing: -.04rem;
@@ -154,12 +158,12 @@ p {
 
 .nav-menu-toggle {
   background-color: #fff;
-  border: 1px solid $highlight;
-  border-radius: 8px;
+  border: 0;
+  border-radius: none;
   color: $highlight;
   font-family: $serif;
   letter-spacing: 1px;
-  padding: 13px;
+  padding: 0 4px 4px 4px;
   position: absolute;
   right: 1rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -175,13 +179,49 @@ p {
   }
 }
 
+.hamburger {
+  width: 1.5rem;
+  height: auto;
+  fill: $highlight;
+
+  .bar {
+    transform:rotate(0) translateY(0) translateX(0);
+    opacity: 1;
+    transform-origin: 20px 10px;
+    transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+  }
+
+  .bar:nth-of-type(1) {
+    transform-origin: 20px 10px;
+  }
+
+  .bar:nth-of-type(3) {
+    transform-origin: 20px 20px;
+  }
+}
+
+
+.js-open .hamburger {
+  .bar:nth-of-type(1) {
+    transform:rotate(-45deg) translateY(0) translateX(0);
+  }
+
+  .bar:nth-of-type(2) {
+    opacity:0;
+  }
+
+  .bar:nth-of-type(3) {
+    transform:rotate(45deg) translateY(0em) translateX(0em);
+  }
+}
+
 .nav-menu {
   font-size: .7rem;
   font-weight: 500;
   height: 8rem;
   letter-spacing: 1px;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   text-transform: uppercase;
 }
 
@@ -198,9 +238,9 @@ p {
 }
 
 .nav-menu-item {
-  border-bottom: 1px solid rgba(0, 0, 0, .06);
   display: block;
   height: 2rem;
+
 
   @media (min-width: $nav-breakpoint) {
     border-bottom: 0;
@@ -214,11 +254,12 @@ p {
 
 .nav-menu-link {
   background-image: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
   display: block;
   line-height: 2rem;
   margin: 0 auto;
   max-width: $max-width-breakpoint;
-  padding: 0 1rem;
+  padding: 0;
 
   &.active {
     color: rgba(0, 0, 0, .8);
@@ -236,13 +277,7 @@ p {
       }
     }
   }
-
-  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    max-width: none;
-    padding: 0;
-    width: 84%;
-  }
-
+  
   @media (min-width: $nav-breakpoint) {
     height: 3rem;
     line-height: 3rem;
@@ -253,14 +288,8 @@ p {
 .site-search-wrap {
   margin: 0 auto;
   max-width: $max-width-breakpoint;
-  padding: 0 1rem;
+  padding: 0;
   position: relative;
-
-  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    max-width: none;
-    padding: 0;
-    width: 84%;
-  }
 
   &:before {
     background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-192 -384 2048 2048"><path d="M1152 448q0-185-131.5-316.5T704 0Q519 0 387.5 131.5T256 448q0 185 131.5 316.5T704 896q185 0 316.5-131.5T1152 448zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150q-94.5-94.5-150-225T0 448q0-143 55.5-273.5t150-225q94.5-94.5 225-150T704-256q143 0 273.5 55.5t225 150q94.5 94.5 150 225T1408 448q0 220-124 399l343 343q37 37 37 90z" fill-opacity=".3"/></svg>');
@@ -268,7 +297,7 @@ p {
     background-size: contain;
     content: '';
     height: 1rem;
-    left: 2rem;
+    left: 1rem;
     position: absolute;
     top: .5rem;
     width: .7rem;
@@ -285,20 +314,18 @@ p {
 }
 
 .site-search-input {
-  background-color: rgba(255, 255, 255, .8);
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, .01);
   border: solid 1px rgba(0, 0, 0, .2);
-  border-radius: 25px;
+  border-radius: 0;
   font-family: $serif;
   font-size: .6rem;
   padding: .3rem .5rem .3rem 2rem;
-  width: 11rem;
-
-  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    max-width: none;
-  }
-    
+  width: 100%;
+   
   &:hover {
     border-color: #579;
+    border-radius: 25px;  
   }
 }
 

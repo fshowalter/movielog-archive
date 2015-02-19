@@ -35,8 +35,8 @@
       %h1.masthead-title
         %a.masthead-title-link{ href: '/' } Frank's Movie Log
       %nav.masthead-nav
-        %button.nav-menu-toggle{ data: { toggle: true }}
-          Menu
+        %button.nav-menu-toggle{ data: { toggle: true }, accessKey: 'M' }
+          = inline_svg('hamburger.svg')
         %ul.nav-menu.js-collapse.js-collapsed
           %li.nav-menu-item.nav-menu-item-search
             = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
@@ -58,7 +58,7 @@
                 class: "#{'active' if current_page.url == '/viewings/' }",
                  data: { no_instant: true }}
               Viewing Log
-    .container.content{ class: yield_content(:content_class) }
+    .content-container{ class: yield_content(:content_class) }
       - if content_for?(:header)
         %h2.page-title
           = yield_content(:header)

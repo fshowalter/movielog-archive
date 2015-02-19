@@ -31,6 +31,8 @@ show = (menu, toggle) ->
 Gator(document).on 'click', '[data-toggle]', (e) ->
   menu = @.nextSibling
 
+  if @.classList.contains('js-open') then @.classList.remove('js-open') else @.classList.add('js-open')
+
   return if menu.classList.contains('js-collapsing')
 
   if menu.classList.contains('js-collapsed') then show(menu, @) else hide(menu, @)
