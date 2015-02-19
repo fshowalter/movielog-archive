@@ -23,7 +23,6 @@ body {
   background-color: #fff;
   color: rgba(0, 0, 0, .8);
   letter-spacing: -.018rem;
-  padding-top: 3rem;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -104,11 +103,6 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   letter-spacing: -.04rem;
   margin-bottom: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
 
   @media (min-width: $nav-breakpoint) {
     left: 0;
@@ -189,37 +183,6 @@ p {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-}
-
-.js-nav .nav-menu {
-  border-top: solid 1px rgba(0, 0, 0, .06);
-  border-left: solid 1px rgba(0, 0, 0, .06);
-  background-color: #fcfcfc;
-  opacity: 0;
-  position: fixed;
-  right: -13rem;
-  height: 100%;
-  visibility: hidden;
-  transition: all .3s;
-  z-index: 100;
-}
-
-.js-nav .js-nav-open .nav-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translate3d(-13rem, 0, 0);
-}
-
-.js-nav .js-nav-slide {
-  background-color: #fff;
-  transform: translate3d(0, 0, 0);
-  position: relative;
-  transition: transform .3s;
-  z-index: 500;
-}
-
-.js-nav .js-nav-open .js-nav-slide {
-  transform: translate3d(-13rem, 0, 0);
 }
 
 @media (min-width: $nav-breakpoint) {
@@ -307,7 +270,7 @@ p {
     height: 1rem;
     left: 2rem;
     position: absolute;
-    top: 1.27rem;
+    top: .5rem;
     width: .7rem;
 
     @media (min-width: $nav-breakpoint) {
@@ -340,10 +303,6 @@ p {
 }
 
 .nav-menu-item-search {
-  line-height: 3rem;
-  height: 3rem;
-  border-bottom: none;
-
   @media (min-width: $nav-breakpoint) {
     height: 3rem;
     line-height: 3rem;

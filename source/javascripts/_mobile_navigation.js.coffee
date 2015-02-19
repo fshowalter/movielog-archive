@@ -1,38 +1,37 @@
 //= require _gator
 
-hide = (menu, body, toggle) ->
-  # return if body.classList.contains('js-nav-closed')
+hide = (menu, toggle) ->
+  return if menu.classList.contains('js-collapsed')
 
-  body.classList.remove('js-nav-open')
+  menu.classList.add('js-collapsing', 'js-collapsed')
   menu.setAttribute('aria-expanded', false)
+
   toggle.setAttribute('aria-expanded', false)
 
-  # Gator(menu).on 'transitionend', (event) ->
-  #   if event.propertyName == 'height'
-  #     Gator(@).off 'transitionend'
-  #     @.classList.remove('js-collapsing')
+  Gator(menu).on 'transitionend', (event) ->
+    if event.propertyName == 'height'
+      Gator(@).off 'transitionend'
+      @.classList.remove('js-collapsing')
 
-show = (menu, body, toggle) ->
-  body.classList.add('js-nav-open')
+show = (menu, toggle) ->
+  return unless menu.classList.contains('js-collapsed')
+
+  menu.classList.add('js-collapsing')
+  menu.classList.remove('js-collapsed')
   menu.setAttribute('aria-expanded', true)
+
   toggle.setAttribute('aria-expanded', true)
-  
-  # Gator(menu).on 'transitionend', (event) ->
-  #   if event.propertyName == 'height'
-  #     Gator(@).off 'transitionend'
-  #     @.classList.remove('js-collapsing')
 
-document.documentElement.classList.add('js-nav')
+  Gator(menu).on 'transitionend', (event) ->
+    if event.propertyName == 'height'
+      Gator(@).off 'transitionend'
+      @.classList.remove('js-collapsing')
 
-Gator(document).on 'click', '[data-nav-toggle]', (e) ->
+
+Gator(document).on 'click', '[data-toggle]', (e) ->
   menu = @.nextSibling
-  body = document.body
- 
-  # return if body.classList.contains('js-nav-collapsing')
 
-  if body.classList.contains('js-nav-open') 
-    hide(menu, body, @)
-  else 
-    show(menu, body, @) 
-    
+  return if menu.classList.contains('js-collapsing')
+
+  if menu.classList.contains('js-collapsed') then show(menu, @) else hide(menu, @)
 
