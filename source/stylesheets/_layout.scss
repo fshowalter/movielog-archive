@@ -23,9 +23,6 @@ body {
   background-color: #fff;
   color: rgba(0, 0, 0, .8);
   letter-spacing: -.018rem;
-}
-
-.js-nav body {
   padding-top: 3rem;
 }
 
@@ -107,6 +104,7 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   letter-spacing: -.04rem;
   margin-bottom: 0;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -119,10 +117,6 @@ p {
     top: 0;
     z-index: 500;
   }
-}
-
-.js-nav .masthead {
-  position: fixed;
 }
 
 .masthead-title {
@@ -190,7 +184,7 @@ p {
 .nav-menu {
   font-size: .7rem;
   font-weight: 500;
-  // height: 8rem;
+  height: 8rem;
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
@@ -347,7 +341,7 @@ p {
 
 .nav-menu-item-search {
   line-height: 3rem;
-  height: auto;
+  height: 3rem;
   border-bottom: none;
 
   @media (min-width: $nav-breakpoint) {
