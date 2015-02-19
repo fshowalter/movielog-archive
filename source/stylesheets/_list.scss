@@ -37,10 +37,12 @@
     font-weight: 400;
   }
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $max-content-width) {
     display: inline-block;
     margin-right: .25rem;
+  }
 
+  @media (min-width: $breakpoint) {
     &:before {
       color: rgba(0, 0, 0, .3);
       position: absolute;
@@ -56,7 +58,7 @@
   position: absolute;
   width: 4rem;
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $max-content-width) {
     display: inline-block;
     position: relative;
     top: .05rem;
@@ -76,7 +78,7 @@
     display: inline-block;
     width: 4.1rem;
 
-    @media (min-width: $breakpoint) {
+    @media (min-width: $max-content-width) {
       display: none;
     }
   }

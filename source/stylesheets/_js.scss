@@ -1,4 +1,4 @@
-.js-collapse {
+.js .js-collapse {
   display: block;
   overflow: hidden;
   transition-duration: .3s;
@@ -6,7 +6,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.js-collapsed {
+.js .js-collapsed {
   height: 0;
   visibility: hidden;
 }

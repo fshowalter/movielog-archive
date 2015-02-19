@@ -31,7 +31,7 @@ a {
   position: relative;
   text-decoration: none;
 
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     transition: color .3s ease-in-out;
 
     &:before {
@@ -53,7 +53,7 @@ a {
 // `:focus` is linked to `:hover` for basic accessibility
 a:hover,
 a:focus {
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     color: $highlight !important;
 
     &:before {
@@ -85,7 +85,7 @@ p {
 %container {
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-width-breakpoint;
+  max-width: $max-content-width;
 
   @media (min-width: $breakpoint) {
     max-width: 50rem;
@@ -95,7 +95,7 @@ p {
 .content-container {
   @extend %container;
 
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     padding-top: 3rem;
   }
 }
@@ -107,9 +107,13 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   letter-spacing: -.04rem;
   margin-bottom: 0;
+  position: relative;
 
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
+    height: 3rem;
     left: 0;
+    margin: 0;
+    max-width: none;
     position: fixed;
     right: 0;
     top: 0;
@@ -124,19 +128,13 @@ p {
   height: 3rem;
   letter-spacing: 1px;
   line-height: 3rem;
-  margin: 0 auto;
-  max-width: $max-width-breakpoint;
+  max-width: $max-content-width;
   padding: 0 1rem;
   text-transform: uppercase;
   vertical-align: bottom;
 
   @media (min-width: $breakpoint) {
-    max-width: none;
-  }
-
-
-  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    padding: 0 8%;
+    margin: 0;
   }
 }
 
@@ -148,7 +146,7 @@ p {
 }
 
 .masthead-nav {
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     left: 0;
     position: absolute;
     right: 0;
@@ -163,32 +161,28 @@ p {
   color: $highlight;
   font-family: $serif;
   letter-spacing: 1px;
-  padding: 0 4px 4px 4px;
+  padding: 0 4px 4px;
   position: absolute;
   right: 1rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-transform: uppercase;
   top: 9px;
 
-  @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-    right: 8%;
-  }
-
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     display: none;
   }
 }
 
 .hamburger {
-  width: 1.5rem;
+  fill: rgba(85, 119, 153, .85);
   height: auto;
-  fill: $highlight;
+  width: 1.5rem;
 
   .bar {
-    transform:rotate(0) translateY(0) translateX(0);
     opacity: 1;
+    transform: rotate(0) translateY(0) translateX(0);
     transform-origin: 20px 10px;
-    transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+    transition: transform .3s ease-in-out, opacity .2s ease-in-out;
   }
 
   .bar:nth-of-type(1) {
@@ -203,15 +197,15 @@ p {
 
 .js-open .hamburger {
   .bar:nth-of-type(1) {
-    transform:rotate(-45deg) translateY(0) translateX(0);
+    transform: rotate(-45deg) translateY(0) translateX(0);
   }
 
   .bar:nth-of-type(2) {
-    opacity:0;
+    opacity: 0;
   }
 
   .bar:nth-of-type(3) {
-    transform:rotate(45deg) translateY(0em) translateX(0em);
+    transform: otate(45deg) translateY(0) translateX(0);
   }
 }
 
@@ -225,13 +219,14 @@ p {
   text-transform: uppercase;
 }
 
-@media (min-width: $nav-breakpoint) {
+@media (min-width: $breakpoint) {
   .nav-menu,
-  .nav-menu.js-collapse {
+  .js .nav-menu.js-collapse {
     display: flex;
     height: 3rem;
     margin: 0 auto;
     max-width: 700px;
+    padding: 0;
     visibility: visible;
     width: 80%;
   }
@@ -242,8 +237,7 @@ p {
   height: 2rem;
 
 
-  @media (min-width: $nav-breakpoint) {
-    border-bottom: 0;
+  @media (min-width: $breakpoint) {
     padding: 0 1rem;
 
     &:nth-child(2) {
@@ -258,13 +252,12 @@ p {
   display: block;
   line-height: 2rem;
   margin: 0 auto;
-  max-width: $max-width-breakpoint;
   padding: 0;
 
   &.active {
     color: rgba(0, 0, 0, .8);
 
-    @media (min-width: $nav-breakpoint) {
+    @media (min-width: $breakpoint) {
       border-bottom: 1px solid #444;
 
       &:before {
@@ -278,7 +271,8 @@ p {
     }
   }
   
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
+    border-bottom: 0;
     height: 3rem;
     line-height: 3rem;
     padding: 0;
@@ -287,7 +281,6 @@ p {
 
 .site-search-wrap {
   margin: 0 auto;
-  max-width: $max-width-breakpoint;
   padding: 0;
   position: relative;
 
@@ -302,13 +295,8 @@ p {
     top: .5rem;
     width: .7rem;
 
-    @media (min-width: $nav-breakpoint) {
+    @media (min-width: $breakpoint) {
       top: 1.25rem;
-    }
-
-    @media (min-width: $breakpoint) and (max-width: $nav-breakpoint) {
-      left: 1rem;
-      top: .45rem;
     }
   }
 }
@@ -327,10 +315,15 @@ p {
     border-color: #579;
     border-radius: 25px;  
   }
+
+  @media (min-width: $breakpoint) {
+    border-radius: 25px;
+    width: 11rem;
+  }
 }
 
 .nav-menu-item-search {
-  @media (min-width: $nav-breakpoint) {
+  @media (min-width: $breakpoint) {
     height: 3rem;
     line-height: 3rem;
     order: 4;
@@ -349,7 +342,7 @@ p {
   padding-top: 2.5rem;
   text-align: center;
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $max-content-width) {
     font-size: 2.25rem;
     letter-spacing: -.04em;
   }

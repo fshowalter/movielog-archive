@@ -37,3 +37,4 @@ Gator(document).on 'click', '[data-toggle]', (e) ->
 
   if menu.classList.contains('js-collapsed') then show(menu, @) else hide(menu, @)
 
+document.documentElement.classList.add('js')
