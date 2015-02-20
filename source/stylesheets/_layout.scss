@@ -156,8 +156,8 @@ p {
 
 .nav-menu-toggle {
   background-color: #fff;
-  border: 0;
-  border-radius: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
   color: $highlight;
   font-family: $serif;
   letter-spacing: 1px;
@@ -167,6 +167,12 @@ p {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-transform: uppercase;
   top: 9px;
+  transition-duration: .4s;
+  transition-property: border-color;
+
+  &:hover {
+    border: 1px solid rgba(85, 119, 153, .85);
+  }
 
   @media (min-width: $breakpoint) {
     display: none;
@@ -309,11 +315,12 @@ p {
   font-family: $serif;
   font-size: .6rem;
   padding: .3rem .5rem .3rem 2rem;
+  transition-duration: .4s;
+  transition-property: border-color;
   width: 100%;
    
   &:hover {
-    border-color: #579;
-    border-radius: 25px;  
+    border-color: rgba(85, 119, 153, .85);
   }
 
   @media (min-width: $breakpoint) {
