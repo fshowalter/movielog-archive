@@ -183,6 +183,8 @@ p {
   fill: rgba(85, 119, 153, .85);
   height: auto;
   width: 1.5rem;
+  transition-duration: .4s;
+  transition-property: padding;
 
   .bar {
     opacity: 1;
@@ -202,6 +204,8 @@ p {
 
 
 .js-open .hamburger {
+  padding-right: 4px;
+
   .bar:nth-of-type(1) {
     transform: rotate(-45deg) translateY(0) translateX(0);
   }
