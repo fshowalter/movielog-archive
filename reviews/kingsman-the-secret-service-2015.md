@@ -6,7 +6,7 @@
 :date: 2015-02-19
 :imdb_id: tt2802144
 :grade: C+
-:pull_quote: "In the end, _Kingsman: The Secret Service_ is nothing more than an adolescent male super-spy fantasy. That's not to say that its bad."
+:pull_quote: "In the end, _Kingsman: The Secret Service_ is nothing more than an adolescent male super-spy fantasy. That said, it’s not bad."
 ---
 _Kingsman: The Secret Service_ tells the story of a young man named Gary who goes by Eggsy. We’re never told how he got this nickname. The film is full of superfluous bits like this, but this one is easy to ignore.
 
@@ -14,20 +14,19 @@ Eggsy lives with his mother and infant sister in one of London’s ailing housin
 
 When a rare moment of defiance lands Eggsy in jail, he calls a mystery number his mother gave him should he ever find himself in trouble. Shortly thereafter, Eggsy walks out of jail a free man. Outside the police station, Eggsy meets Harry Hart. 
 
-Harry, played by Colin Firth, is a dapper gentleman cut from the David Niven cloth. The two go for a pint. Harry tells Eggsy that Eggsy’s father was a Kingsman, a member of an elite group of gentleman super-spies. He died saving Harry’s life. Eggsy is incredulous until he sees Harry take down a group of young thugs using nothing more than his umbrella. Harry sees potential in Eggsy. Potential that Harry thinks Eggsy is wasting . Harry offers Eggsy an opportunity. A chance to try out for the Kingsman.
+Harry, played by Colin Firth, is a dapper gentleman cut from the David Niven cloth. The two go for a pint. Harry tells Eggsy that Eggsy’s father was a Kingsman, a member of an elite group of gentleman super-spies. He died saving Harry’s life. Eggsy is incredulous until he sees Harry take down a group of young thugs using nothing more than his umbrella. Before he leaves, Harry offers Eggsy an opportunity. A chance to try out for the Kingsman.
 
-And so Eggsy is off to spy-school. In keeping with the dapper gentleman theme, spy school is more like a posh boarding school than boot camp. When they're not  practicing with sniper rifles or parachuting out of planes, the hopeful recruits wear uniforms resembling flannel suit pajamas. 
+And so Eggsy is off to spy-school. In keeping with the dapper gentleman theme, spy school is more like boarding school than boot camp. When they're not  practicing with sniper rifles or parachuting out of planes, the hopeful recruits wear uniforms resembling flannel suit pajamas. 
 
 Of course, every spy story needs a super villain. Here we’re given Richmond Valentine, played by Samuel L. Jackson. Valentine is an internet billionaire who speaks with a lisp, hates the sight of blood, and dresses like a teenager. Convinced mankind is a virus doomed to destroy the planet, Valentine plans to wipe out eighty-five percent of the human race. Naturally, he’ll pick the fifteen percent that will survive.
 
 And what would a super villain be without a colorful henchman? Valentine has Gazelle, a double leg amputee whose prosthetics double as swords capable of slicing a man in half. Spoiler alert: she slices someone in half.
 
-As the film builds to the inevitable confrontation between Eggsy and Valentine, it becomes increasingly ludicrous. Harry single-handedly kills a church full of people. Heads explode in a rainbow spray of gore. It’s not a bad thing. The juxtaposition of the mild mannered Firth and the comical violence leaves the film with nowhere to go but silly. there's even a scene between him and Samuel Jackson where they have a fine dinner of Big Macs that seems like it was added specifically for Firth, as he's the only actor I can imagine pulling that bit off.
+As the film builds to the inevitable confrontation between Eggsy and Valentine, it becomes increasingly ludicrous. Harry single-handedly kills a church full of people. Heads explode in a rainbow spray of gore. It’s not a bad thing. The juxtaposition of the mild mannered Firth and the comical violence leaves the film with nowhere to go but silly. There's even a scene between Firth and Samuel Jackson where they have a fine dinner of Big Macs that seems like it was added specifically for Firth, as he's the only actor I can imagine pulling that bit off.
 
-Casting Firth has its downsides, however.  With someone like Clive Owen, the film could have gone with a slightly more serious and cynical tone. The script flirts with having something to say about elitism and class hierarchy, but its all lost amid the swath of stylized cartoonish violence.
+But casting Firth is not without its downsides. With someone like Clive Owen, the film could have gone with a more serious and cynical tone. The script flirts with having something to say about elitism and class hierarchy, but it’s lost amid the swath of stylized cartoonish violence.
 
-As I eluded to earlier, the film is full of cruft. Whether its characters with no payoff, like Roxy, another Kingsman recruit who’s mostly forgotten in the film’s finale, or gaping plot holes, like how an ultra secret organization allows most of its recruiting class to walk away after failing to make the cut, there’s some sloppy storytelling going on here. But again, you’re hard-pressed to care given the film’s nature of constantly one-upping the bit of over-the-top violence that came before.
+As I eluded to earlier, the film is full of superflous bits. There are characters with no payoff, like Roxy, another Kingsman recruit who’s mostly forgotten in the film’s finale. And there are gaping plot holes, like how an ultra secret organization allows most of its recruiting class to walk away after failing to make the cut. This is sloppy storytelling but one ishard-pressed to care given the film’s nature of constantly one-upping every bit of over-the-top violence that came before.
 
-And thus, in the end, _Kingsman: The Secret Service_ is nothing more than an adolescent male super-spy fantasy. That's not to say that its bad. If _Octopussy (1983)_ ranks as one of your favorite James Bond films, _Kingsman: The Secret Service_ will be right up your alley. 
+And thus, in the end, _Kingsman: The Secret Service_ is nothing more than an adolescent male super-spy fantasy. That said, it’s not bad. If the _Austin Powers_ films are one end of the spectrum and the Daniel Craig Bonds on the other, this film is somewhere in the middle. It's a throwback to the days when Bond seemed to relish being a super spy. If _Octopussy (1983)_ ranks as one of your favorite James Bond films, _Kingsman: The Secret Service_ will be right up your alley. But for those who like their spies more like Sean Connery in the first few Bond films, this entry may be lacking in gravitas.
 
-It's a throwback to the days when Bond seemed to enjoy begin a super spy.
