@@ -6,9 +6,9 @@
 :date: 2015-02-24
 :imdb_id: tt0039581
 :grade: D+
-:pull_quote: ""
+:pull_quote: "_The Long Night_ is perhaps too long. The third act undoes what is otherwise a competent little noir-ish drama."
 ---
-_The Long Night_ is perhaps too long. The third act undoes what's otherwise a competent little noir-ish drama. 
+_The Long Night_ is perhaps too long. The third act undoes what is otherwise a competent little noir-ish drama. 
 
 The story starts with a murder. We're inside an apartment building on the working-class side of the tracks. We hear gunshots and see a man fall backwards, of of one of the units, and down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
 
