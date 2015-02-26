@@ -8,34 +8,24 @@
 :grade: D+
 :pull_quote: ""
 ---
-_The Long Night_ is perhaps too long. The third act undoes what's otherwise a competant little melodrama. But, like the film, I'm starting at the end. The film opens with a murder. We're outside an apartment in on the working-class side of the tracks. We hear gunshots and see a man fall backwards, of of one of the units down the stairs. The police arrive. They attempt to extract the shooter, who says he wants to be left alone. Hearing the shooter's voice, we recognize him to be Henry Fonda. 
+_The Long Night_ is perhaps too long. The third act undoes what's otherwise a competent little noir-ish drama. 
 
-Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He's an aimalbe guy. The kind of guy who uses phrases like ?. 
+The story starts with a murder. We're inside an apartment building on the working-class side of the tracks. We hear gunshots and see a man fall backwards, of of one of the units, and down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
 
-One day, while working at the power wash plant, Joe meets a young girl named ?, played by Barbara Bel Geddes. Joe and ? hit it off. They're both orphans. They begin dating. Joe falls pretty hard.
+Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He's an amiable guy. He drinks milk and uses exclamations like, “No kidding!” 
 
-One night, ? cancells a date with Joe. She has something to do. Joe says that's fine, but takes ?'s favorite stuffed animal hostage, as a bit of insurance that she'll see him again. It's a nice touch that gives Joe a bit of edge and helps make the film's later events more plausible.
+One day, while working as a sand blaster at the local plant, Joe meets a young girl named Jo Anne, played by Barbara Bel Geddes. Joe and Jo Anne hit it off. It’s natural since they're both orphans and they’re both named Joe. They begin dating. Joe falls hard.
 
-Joe ends up tailing ? to a dingy bar where a magician is performing. The magician is ?, played by Vincent Price. ? is sharp-tongued and manipulative. [show example]
+One night, Jo Anne cancels a date with Joe. She has something to do. Joe says that's fine, but takes Jo Anne’s favorite stuffed animal hostage. A bit of insurance that she'll see him again. It's a nice touch that gives Joe some edge and helps make the film's later events more plausible.
 
-Joe watches ? watching ?. She seems enraptured by his performance. After the show, she approaches him and he tells her to meet him in his dressing room. Joe's seen enough.
+Joe ends up tailing Jo Anne to a dingy bar where a magician is performing. The magician is Maximilian, played by Vincent Price. Maximilian is sharp-tongued and manipulative. [show example]
 
-This sets up the triangle that forms the film's core. There's a perifpheral player in ?, one of ?'s former assistants who develops a torch for Joe, but she's more or less emotional collateral damage.
+Joe watches Jo Anne watching Maximilian. She seems enraptured by his performance. After the show, she approaches him and he tells her to meet him in his dressing room. Joe's seen enough.
 
-The film builds to a showdown between ? and Joe and the confrontation doesn't disappoint. Price is great in the part, and would have been even better had he been a decade older. Like all of Price's best roles, he plays a showman, one capable of immense charm on stage, and immense debatchery off stage. He talks circles around Fonda, each word dripping with condescention, and Fonda plays on this, his frustration building and building until it boils over.
+This sets up the triangle that forms the film's core. There's a peripheral player in Charlene, played by Ann Dvorak. Charlene is one of Maximilian’s former assistants who develops a torch for Joe. She makes the most of a role that exists only to illustrate Joe turning to the dark side when he think’s he’s lost Jo Anne. She's more or less emotional collateral damage by the film’s end.
 
-And here's where we came in. Where the movie goes wrong. Now the film shifts into trite populism. The town rallies around Joe in his standoff with the police. ? fights through a seeminly endless mob in an effort to reach Joe. She's knocked down by someone carrying a bicycle. Won't the police please just let her talk to Joe, she pleads. But they don't. Which leads to more shots of ? fighting her way through the crowd. As if this all weren't bad enough, the film closes on a cornball note. When asked if he's okay, Joe says ?. No, it's not.
+The story builds to a showdown between Joe and Maximilian. The confrontation doesn't disappoint. Price is great in the part, and would have been even better had he been a decade older. Like all of Price's best roles, he plays a showman, one capable of immense charm on stage, and immense debauchery off stage. He talks circles around Fonda, each word dripping with condescension. Fonda plays on this, his frustration building and building until it boils over.
 
+Which brings us to where we came in. And here’s where movie goes wrong. The tone shifts from noir to populist drama. The town rallies around Joe in his standoff with the police. Jo Anne fights through a seemingly endless mob in an effort to reach Joe. She's knocked down by someone carrying a bicycle. Won't the police please just let her talk to Joe, she pleads. But they don't. Which leads to more shots of Jo Anne fighting her way through the crowd. As if this all weren't bad enough, the film closes on a cornball note. As he’s escorted out by the police, Joe asks one of the crowd for a light. The man lights Joe’s cigarette and asks, “How you doing, Joe?” Joe replies, “I think we’ll make it, Freddy. Just about make it.”
 
-
-
-
-Synopsis: A veteran (Henry Fonda) rivals a stage magician (Vincent Price) for the affections of a girl (Barbara Bel Geddes).
-
-The Long Night is just that. It's long. With an hour's worth of plot stretched into 101-minutes, this is a tired melodrama masquerading as a film noir that wastes the talents of its leads.
-
-Henry Fonda is good as a frustrated veteran in a performance that evolves into a variation of his turn as Tom Joad in <a href="/browse/reviews/the-grapes-of-wrath-1940/">The Grapes of Wrath (1940)</a>, Barbara Bel Geddes is a bit cloying at times in this, her film debut, but she's passable, and Vincent Price steals the picture as an egotistical stage magician.
-
-Sol Polito's cinematography is nice and goes along way toward giving the film its film-noir connotations, but the script lacks any real edge and director Anatole Litvak lets things drag on far too long. How many shots do we need of Bel Geddes fighting her way through the crowd in the finale? And really, that part where she gets knocked out by a bicycle? That's just silly.
-
-That said, if you're a big Vincent Price fan, you might want to give The Long Night a look, as he really does steal the show, but everyone else can, and should, skip it. 
+Not with dialog like that, you won’t.
