@@ -34,4 +34,4 @@ It all builds to a showdown between Joe and Maximilian. The confrontation doesn�
 
 Which brings us to where we came in. And here’s where movie goes wrong. The tone shifts from noir to populist drama. The town rallies around Joe in his standoff with the police. Jo Anne fights through a never-ending mob in an effort to reach Joe. She’s knocked down by someone carrying a bicycle. Won’t the police please just let her talk to Joe, she pleads. But they won’t. Which leads to more shots of Jo Anne fighting her way through the crowd. As if this all weren’t bad enough, the film closes on a cornball line. As he’s escorted out by the police, Joe asks one of the crowd for a light. The man lights Joe’s cigarette and asks, “How you doing, Joe?” Joe replies, “I think we’ll make it, Freddy. Just about make it.”
 
-It’s an awful ending. The production code mandated that Joe go to jail, but it seems the filmmakers still wanted a happy ending. The result not only feels disingenuous, it ruins what could have been a good movie. 
+No Joe, not with a disingenuous ending like that, you won’t.
