@@ -118,7 +118,8 @@ ready do
   end
 
   [
-    ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/']
+    ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
+    ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
     
   ].each do |redirect|
     old_slug, new_slug = redirect
