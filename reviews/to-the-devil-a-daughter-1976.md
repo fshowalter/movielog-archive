@@ -6,7 +6,7 @@
 :date: 2015-03-02
 :imdb_id: tt0075334
 :grade: D+
-:pull_quote: If this was the best Hammer could do, then the studio’s death was a mercy killing.
+:pull_quote: _To the Devil a Daughter_ was the final film of Hammer Film Productions. If this was the best the studio could do, then it was a mercy killing.
 ---
 _To the Devil a Daughter_ was the final film of Hammer Film Productions[^1]. The studio rose to prominence with films such as _Curse of Frankenstein (1957)_ and _Horror of Dracula (1958)_. Unlike those staged, period pieces, this film is set in contemporary times and shot on location. It represented a big departure for Hammer, but it was too little too late.
 
