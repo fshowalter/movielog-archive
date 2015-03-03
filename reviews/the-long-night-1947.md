@@ -6,15 +6,15 @@
 :date: 2015-02-26
 :imdb_id: tt0039581
 :grade: D+
-:pull_quote: "_The Long Night_ is perhaps _too_ long. The third act undoes what is otherwise a competent little noir-ish drama."
+:pull_quote: _The Long Night_ is one of those films that starts well only to lose its way in the third act.
 ---
-_The Long Night_ is perhaps _too_ long. The third act undoes what is otherwise a competent noir-ish drama. 
+_The Long Night_ is one of those films that starts well only to lose its way in the third act.
 
 The story starts with a murder. We’re inside an apartment building on the working-class side of the tracks. We hear gunshots. A man staggers out of a unit holding his gut and tumbles down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
 
 Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He’s a wholesome guy. He drinks milk and uses exclamations like, “No kidding!” 
 
-One day, while working as a sandblaster at the local plant, Joe meets a young girl named Jo Anne, played by Barbara Bel Geddes. Joe and Jo Anne hit it off. It’s natural since they’re both orphans and they’re both named Joe. They begin dating. Joe falls hard.
+One day, while working as a sandblaster at the local plant, Joe meets a young girl named Jo Anne, played by Barbara Bel Geddes. Joe and Jo Anne hit it off. The film would have us believe this is natural since they’re both orphans and they’re both named Joe. They begin dating. Joe falls hard.
 
 One night, Jo Anne cancels a date with Joe. She has something to do. Joe says that’s fine, but takes Jo Anne’s favorite stuffed animal hostage as a bit of insurance that she’ll see him again. It’s a nice touch that gives Joe some edge and helps make the film’s later events more plausible.
 
