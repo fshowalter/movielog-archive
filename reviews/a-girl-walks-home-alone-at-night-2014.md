@@ -8,24 +8,30 @@
 :grade: A-
 :pull_quote: "_A Girl Walks Home Alone at Night_ is being billed as the first Iranian Vampire Western. This is misleading. There's nothing inherently Iranian about this film. Like all good movies, it transcends borders."
 ---
-_A Girl Walks Home Alone at Night_ is being billed as the first Iranian vampire film. This is misleading. A better description would be "the first Farsi language vampire film". There's nothing inherently Iranian about this film. Like all good movies, it transcends borders.
+_A Girl Walks Home Alone at Night_ is being billed as the first Iranian Vampire Western. This is misleading. There's nothing inherently Iranian about this film. Like all good movies, it transcends borders. A more accurate tagline would be “The first Persian language Vampire Western.” 
 
-The story harkens back to the Tarantino-inspired noirs of the 90's. A young man deals with his junkie father. When the father can't pay for his drugs, the dealer takes the young man's prized classic convertible as payment. Later, the young man goes to the drug dealer's house in an attempt to barter the car back. When he arrives, he finds the drug dealer dead. The young man flees the scene, but not before taking a case full of drugs and cash. 
+The story harkens back to the Tarantino-inspired noirs of the 90's. Bad City is a nighmarish place where the dead are dumped in dried river beds like so much garbage. Its streets alternate between rows of cookie-cutter homes and desolate alleyways. In the distance, oil rigs pump up and down like crows picking at the dead earth’s skin.
 
-Soon the young man is dealing. He grows frustrated with his father, and banishes him from the house. The next morning, the young man finds his father brutally murdered. Beliving it was retribution for the drugs and money he stole, the young man readies to leave town. Before he goes, he visits the girl he's recently met and asks her to come with.
+Arash is a young man who dresses in white t-shirts and pegged jeans. His prized possession is a 1957 Ford Thunderbird convertible he worked 2,191 days to afford. The film opens with him stealing a cat. 
 
+We soon realize this is his way of acting out. His home life is a mess. His mother is dead and his father, Hossein is a heroin junkie. When Hossein can’t pay his dealer for the drugs he needs, the dealer takes Arash’s convertible as payment. 
 
+Arash works as a groundskeeper for a rich family. While at work, he steals a pair of diamond earings in the hopes of using them to buy back his car. Later that night he arrives at the dealer’s apartment, passing a girl on the way inside. When there’s no answer to his knock, Arash finds the door open and goes inside. A gruesome sight awaits. He finds the dealer dead. Thinking quickly, he takes a case full of drugs and cash and flees the scene.
 
-The story follows A, a young man living in Bad City. As the film opens we see him steal a cat. He takes the cat and returns home in his shiney classic convertible. We can sense his attachment to the car, and learn he worked very hard to afford it.
+Running parrallel to this is the story of the girl Arash passes on his way into the drug dealer’s apartment. She’s a vampire, preying on the city’s destitute and depraved. There is a loneliness in her that actress Sheila Vand conveys despite having little dialog. 
 
-When A returns home we see the nature of his home life. His mother is dead and his father is a heroine junkie. It's unclear if the mother's death is what sent him to drugs. When A's father can't pay his dealer for the drugs he needs, the dealer takes A's convertible. 
+In time, Arash and the girl’s paths cross again. There is a connection. They sense the loneliness in one-another. In a near wordless scene, she takes him back to her small apartment. She puts on a record and he holds her close, wanting nothing more than the company. It is something out of a teenage fantasy, yet the scene works because the film doesn’t try to sell it. There are no speeches, no orchestral swells, just two characters we’ve grown to care about finding each other.
 
-A works as a groundskeeper for a rich family. He steals a pair of diamond earings in the hopes of using them to buy back his car. Later that night he arrives at the dealer's apartment, passing a girl on the way inside. When there's no answer to his knock, A finds the door open and goes inside. A gruesome sight awaits. He finds the dealer dead. Thinking quickly, he takes a case full of drugs and cash and flees the scene.
+The film is ambiguous about when it’s set. The characters talk on flip phones, yet Arash dresses like James Dean in _Rebel Without a Cause (1955)_ and drives a classic car. It gives the story a timeless, otherworldly feel. The black and white cinematography adds to this.
 
-Soon A is dealing himself. 
+I’m going to talk about the ending now. I usually mention at the top of my reviews if I’m going to include spoilers, but I didn’t this time because I wanted everyone to get a sense of what this film is like. If you’re still on the fence, read on and perhaps I can persuade you. If I’ve already sold you, give the film a look and come back when you’re done. I’ll wait.
 
-There's a parrallel story that follows the girl. She's a vampire, preying on the city's destitute and depraved. There is a loneliness in her. 
+Still, here? Okay, here we go.
 
-Her and A meet. There's a connection. 
+To appreciate why _A Girl Walks Home Alone at Night_ is such a good film, we must discuss the final scene. It's the sort of scene that would never come out of a Hollywood production. 
 
-To appreciate why _?_ is such a good film, we must discuss the final scene. It's the sort of scene that would never come out of a Hollywood production. ? and the girl are driving out of town. ? doesn't know that she's a vampire, but he knows that she killed his father. They drive in silence. After a bit, ? pulls the car over. He gets out and paces in the headlights. We can see the emotions wash over him. She watches in silence. For the first time, we see her in a vulnerable light. In a Hollywood production this scene would include a monologue followed by an emotional exchange. In the silence ? gives us something truer and more powerful. 
+Arash and the girl are driving out of town. Arash doesn't know that she's a vampire, but he knows that she killed his father. The girl doesn’t know that the man she killed was Arash’s father. They drive in silence. After a bit, Arash pulls the car over. He gets out and paces in the headlights. His fists clench and unclench. He runs his hands through his hair. The emotions wash over him. The girl watches in silence. For the first time, we see her in a vulnerable light. In a Hollywood production this scene would include a monologue followed by an emotional exchange. Writer-director Ana Lily Amirpour gives us a far more powerful silence. 
+
+In time Arash straightens, gets back in the car and pulls onto the road. They leave Bad City.
+
+It’s a perfect ending, and one that stuck with me long after I’d walked out of the theater. That’s a sign of a great movie.
