@@ -155,26 +155,18 @@ p {
 }
 
 .nav-menu-toggle {
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  color: $highlight;
+  background-color: #f7f7f7;
+  border: solid #ebebeb 1px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, .7);
   font-family: $serif;
   font-size: .7rem;
   letter-spacing: 1px;
-  line-height: 3rem;
-  padding: 0 .5rem;
+  padding: .5rem .6rem;
   position: absolute;
   right: 1rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-transform: uppercase;
-  top: -1px;
-  transition-duration: .4s;
-  transition-property: border-color;
-
-  &:hover {
-    border: 1px solid rgba(85, 119, 153, .85);
-  }
+  top: .5rem;
 
   @media (min-width: $breakpoint) {
     display: none;

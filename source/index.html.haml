@@ -23,7 +23,8 @@ pagination:
         %header.latest-updates-list-item-header
           %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
             %a{ href: "/reviews/#{review.slug}/" }
-              = "#{review.display_title} "
+              = "#{review.display_title}"
+          &nbsp;
           = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
         %span.latest-updates-list-item-slug.with-rating
           %span.abbreviation
