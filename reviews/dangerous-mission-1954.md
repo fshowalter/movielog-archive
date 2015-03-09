@@ -8,6 +8,14 @@
 :grade: D+
 :pull_quote: ""
 ---
+_Dangerous Mission_ opens with a murder. We see a man playing a piano in a deserted club. A man approaches. There's a gunshot and we hear a woman scream. 
+
+Next we're in a posh high-rise office. A man sits smoking a cigarette in a chair with his back to us. Other men pace around him. There was a witness, they say. The DA thinks he can make the case stick. The man needs to take care of it. 
+
+Next we're outside Montana's Glacier National Park. ? played by Victor Mature checks in at the gate. After he pulls away, the guard, seemingly alarmed radios up to the park ranger, played by William Bendix.
+
+
+
 Synopsis: After witnessing a mob hit, a woman flees to Montana’s Glacier Park, where she meets a photographer (Vincent Price) and an ex-marine (Victor Mature).
 
 Dangerous Mission is somewhat similar to <a href= "/browse/reviews/the-las-vegas-story-1952/">The Las Vegas Story</a>.  Both feature Victor Mature and Vincent Price and both are showcases for their respective locales.
