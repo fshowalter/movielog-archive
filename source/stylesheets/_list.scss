@@ -35,8 +35,8 @@
   white-space: normal;
 
   &:before {
-    content: attr(data-number) '. ';
     color: rgba(0, 0, 0, .5);
+    content: attr(data-number) '. ';
     font-feature-settings: 'lnum';
     font-weight: normal;
   }
@@ -52,16 +52,12 @@
 }
 
 %list-item-rating {
+  display: inline-block;
   height: .75rem;
   left: 0;
-  position: absolute;
+  position: relative;
+  top: .1rem;
   width: 3.5rem;
-
-  // @media (min-width: $max-content-width) {
-    display: inline-block;
-    position: relative;
-    top: .2rem;
-  // }
 }
 
 %list-item-slug {
@@ -70,15 +66,4 @@
   font-weight: 400;
   padding-left: 1px;
   padding-top: 3px;
-
-
-  &.with-rating:before {
-    content: '';
-    display: inline-block;
-    width: 3.6rem;
-
-    // @media (min-width: $max-content-width) {
-      display: none;
-    // }
-  }
 }

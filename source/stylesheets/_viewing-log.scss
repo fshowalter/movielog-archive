@@ -17,6 +17,7 @@
 
 .viewing-log-list-item-header {
   @extend %list-item-header;
+  white-space: nowrap;
 }
 
 .viewing-log-list-item-title {
@@ -24,6 +25,7 @@
 
   font-size: .9rem;
   font-weight: 400;
+  white-space: normal;
 
   &:before {
     content: counter(filter-results) '. ';
@@ -38,8 +40,6 @@
 
 .viewing-log-list-item-rating {
   @extend %list-item-rating;
-
-  bottom: -.95rem;
 
   @media (min-width: $breakpoint) {
     height: .9rem;

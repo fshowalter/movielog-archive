@@ -28,7 +28,8 @@ title: Viewing Log
           .viewing-log-list-item-header
             .viewing-log-list-item-title
               %a{ href: "/reviews/#{review.slug}/" }
-                = "#{review.display_title} "
+                = "#{review.display_title}"
+            &nbsp;
             = grade_to_image_tag(grade: review.grade, options: { class: 'viewing-log-list-item-rating' })
         - else
           .viewing-log-list-item-title
