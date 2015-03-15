@@ -11,48 +11,83 @@ pagination:
   end
 - content_for(:header) do
   Latest Updates
-%ol.latest-updates-list
-  - pagination.each do |key|
-    - post = posts[key]
-    - if post.is_a?(Movielog::Review)
-      - review = post
-      - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a{ href: "/reviews/#{review.slug}/" }
-              = "#{review.display_title}"
-          &nbsp;
-          = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
-        %span.latest-updates-list-item-slug
-          %span.abbreviation
-            = ' D'
-          %span.full
-            irected by
-          = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-          %span.full
-            Starring
-          = " #{headline_cast(title: review.title)}."
-        .latest-updates-list-item-pull-quote
-          = markdown(review.pull_quote)
-    - elsif post.is_a?(Movielog::Feature)
-      - feature = post
-      %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
-              = feature.title
-        .latest-updates-list-item-pull-quote
-          = markdown(feature.pull_quote)
-.pagination
-  - if pagination.prev_page
-    %a.pagination-item.newer{ href: pagination.prev_page.url }
-      Newer
+.latest-updates-column-wrap
+  .latest-updates-column-left
+    %ol.latest-updates-list
+      - pagination.each do |key|
+        - post = posts[key]
+        - if post.is_a?(Movielog::Review)
+          - review = post
+          - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
+          %li.latest-updates-list-item{ value: post.sequence }
+            .latest-updates-list-item-date
+              = post.date.strftime('%B %-d, %Y')
+            %header.latest-updates-list-item-header
+              %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
+                %a{ href: "/reviews/#{review.slug}/" }
+                  = "#{review.display_title}"
+              &nbsp;
+              = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
+            %span.latest-updates-list-item-slug
+              %span.abbreviation
+                = ' D'
+              %span.full
+                irected by
+              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
+              %span.full
+                Starring
+              = " #{headline_cast(title: review.title)}."
+            .latest-updates-list-item-pull-quote
+              = markdown(review.pull_quote)
+        - elsif post.is_a?(Movielog::Feature)
+          - feature = post
+          %li.latest-updates-list-item{ value: post.sequence }
+            .latest-updates-list-item-date
+              = post.date.strftime('%B %-d, %Y')
+            %header.latest-updates-list-item-header
+              %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
+                %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
+                  = feature.title
+            .latest-updates-list-item-pull-quote
+              = markdown(feature.pull_quote)
+    .pagination
+      - if pagination.prev_page
+        %a.pagination-item.newer{ href: pagination.prev_page.url }
+          Newer
 
-  - if pagination.next_page
-    %a.pagination-item.older{ href: pagination.next_page.url }
-      Older
+      - if pagination.next_page
+        %a.pagination-item.older{ href: pagination.next_page.url }
+          Older
+  .latest-updates-column-right
+    %header.latest-updates-most-watched-list-header
+      %h4.latest-updates-most-watched-list-header-caption Most Watched Directors
+      %a.latest-updates-most-watched-list-header-more{ href: '/viewings' } More
+    %ul.latest-updates-most-watched-list
+      - most_watched_directors.each_with_index do |person, index|
+        %li.latest-updates-most-watched-list-item{ data: { number: index + 1 }}
+          .latest-updates-most-watched-list-item-name
+            #{person.first_name} #{person.last_name}
+          .latest-updates-most-watched-list-item-slug
+            #{person.watch_count} viewings.
+
+    %header.latest-updates-most-watched-list-header
+      %h4.latest-updates-most-watched-list-header-caption Most Watched Performers
+      %a.latest-updates-most-watched-list-header-more{ href: '/viewings' } More
+    %ul.latest-updates-most-watched-list
+      - most_watched_performers.each_with_index do |person, index|
+        %li.latest-updates-most-watched-list-item{ data: { number: index + 1 }}
+          .latest-updates-most-watched-list-item-name
+            #{person.first_name} #{person.last_name}
+          .latest-updates-most-watched-list-item-slug
+            #{person.watch_count} viewings.
+
+    %header.latest-updates-most-watched-list-header
+      %h4.latest-updates-most-watched-list-header-caption Most Watched Writers
+      %a.latest-updates-most-watched-list-header-more{ href: '/viewings' } More
+    %ul.latest-updates-most-watched-list
+      - most_watched_writers.each_with_index do |person, index|
+        %li.latest-updates-most-watched-list-item{ data: { number: index + 1 }}
+          .latest-updates-most-watched-list-item-name
+            #{person.first_name} #{person.last_name}
+          .latest-updates-most-watched-list-item-slug
+            #{person.watch_count} viewings.

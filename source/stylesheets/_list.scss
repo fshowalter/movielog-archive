@@ -41,7 +41,7 @@
     font-weight: normal;
   }
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $max-content-width) {
     &:before {
       color: rgba(0, 0, 0, .3);
       position: absolute;

@@ -1,6 +1,26 @@
+@media (min-width: $breakpoint) {
+  .latest-updates-column-wrap {
+    display: flex;
+  }
+
+  .latest-updates-column-left {
+    flex: 1;
+  }
+
+  .latest-updates-column-right {
+      width: 15rem;
+      border-left: 1px solid rgba(0, 0, 0, 0.07);
+  }
+
+  .latest-updates-list {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+}
+
 .latest-updates-list {
   @extend %list;
-  max-width: 35rem;
+  // max-width: 31rem;
 }
 
 .latest-updates-list-item {
@@ -11,9 +31,16 @@
 
   @media (min-width: $max-content-width) {
     padding-top: 3rem;
+    margin-left: 2rem;
+    padding-left: 0;
+    margin-right: 2rem;
 
     &:first-child {
       margin-top: 2rem;
+    }
+
+    &:last-child {
+      border-bottom: 0;
     }
   }
 }
@@ -47,13 +74,18 @@
     font-weight: 300;
   }
 
+  @media (min-width: $max-content-width) {
+    &:before {
+      font-feature-settings: 'onum';
+      font-size: 1rem;
+      font-weight: normal;
+      left: -2.5rem;
+    }
+  }
 
   @media (min-width: $breakpoint) {
     &:before {
-      font-feature-settings: 'onum';
       font-size: 1.1rem;
-      font-weight: normal;
-      left: -2.75rem;
     }
   }
 }
@@ -106,6 +138,9 @@
 
 .pagination {
   background-color: #fcfcfc;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-left: 1px solid rgba(0, 0, 0, 0.07);
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
   color: #ccc;
   margin: 0 auto;
   max-width: 35rem;
@@ -167,4 +202,74 @@
     background-color: #f5f5f5;
     background-image: none;
   }
+}
+
+.latest-updates-most-watched-list-header {
+  margin: 0;
+  // background-color: #fcfcfc;
+  font-size: .7rem;
+  line-height: .8;
+  padding: 1rem;
+  text-transform: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  color: rgba(0, 0, 0, .3);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .1em;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.latest-updates-most-watched-list-header-caption {
+  float: left;
+  margin: 0;
+}
+
+.latest-updates-most-watched-list-header-more {
+  float: right;
+}
+
+.latest-updates-most-watched-list {
+  margin: 0;
+  // background-color: #fcfcfc;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.latest-updates-most-watched-list-item {
+  list-style-type: none;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+
+  &:before {
+    color: rgba(0, 0, 0, .5);
+    content: attr(data-number);
+    background-color: #fcfcfc;
+    font-feature-settings: 'lnum';
+    font-weight: normal;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 999em;
+    display: block;
+    position: absolute;
+    left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+}
+
+.latest-updates-most-watched-list-item-name {
+  display: block;
+  font-size: .9rem;
+  line-height: 1.25rem;
+}
+
+.latest-updates-most-watched-list-item-slug {
+  letter-spacing: -.01rem;
+  line-height: .75rem;
+  font-size: .8rem; 
+  color: rgba(0, 0, 0, .4);
+  padding-left: 1px;
 }

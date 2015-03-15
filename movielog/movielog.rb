@@ -73,6 +73,18 @@ module Movielog
       viewings.values.map(&:venue).uniq.sort
     end
 
+    def most_watched_directors(limit: 5)
+      Db::Queries::MostWatchedDirectors.call(db: db, limit: limit)
+    end
+
+    def most_watched_writers(limit: 5)
+      Db::Queries::MostWatchedWriters.call(db: db, limit: limit)
+    end
+
+    def most_watched_performers(limit: 5)
+      Db::Queries::MostWatchedPerformers.call(db: db, limit: limit)
+    end
+
     def viewings_for_title(title:)
       viewings.values.select { |viewing| viewing.title == title }
     end

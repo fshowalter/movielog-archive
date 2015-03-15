@@ -87,7 +87,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
-activate :sitemap, hostname: 'http://www.franksmovielog.com'
+activate :sitemap, hostname: 'https://www.franksmovielog.com'
 
 # Build-specific configuration
 configure :build do
