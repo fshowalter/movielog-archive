@@ -17,12 +17,16 @@ html {
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
+
 }
 
 body {
   background-color: #fff;
   color: rgba(0, 0, 0, .8);
   letter-spacing: -.018rem;
+  background-image: linear-gradient(rgba(0,0,0, 0.3) 0, transparent 1px);
+  background-size: 100% 33px;
+
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -85,7 +89,7 @@ p {
 %container {
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-content-width;
+  max-width: 35rem;
 
   @media (min-width: $breakpoint) {
     max-width: 50rem;
@@ -128,6 +132,7 @@ p {
   height: 3rem;
   letter-spacing: 1px;
   line-height: 3rem;
+  margin: 0;
   max-width: $max-content-width;
   padding: 0 1rem;
   text-transform: uppercase;
@@ -319,8 +324,12 @@ p {
   padding: 1rem;
   text-align: center;
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $max-content-width) {
     font-size: .8rem;
+  }
+
+  @media (min-width: $breakpoint) {
+    font-size: .9rem;
   }
 }
 

@@ -45,13 +45,22 @@
   &:before {
     font-size: .8rem;
     font-weight: 300;
+
+    @media (min-width: $max-content-width) {
+      font-size: .9rem;
+    }
   }
 
+  @media (min-width: $max-content-width) {
+    font-size: 1.2rem;
+  }
 
   @media (min-width: $breakpoint) {
+    font-size: 1.3rem;
+
     &:before {
       font-feature-settings: 'onum';
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       font-weight: normal;
       left: -2.75rem;
     }
@@ -60,9 +69,18 @@
 
 .latest-updates-list-item-rating {
   @extend %list-item-rating;
-
   height: .9rem;
   width: 4.5rem;
+
+  @media (min-width: $max-content-width) {
+    height: 1.1rem;
+    width: 5.5rem;
+  }
+
+  @media (min-width: $breakpoint) {
+    height: 1.2rem;
+    width: 6rem;
+  }
 }
 
 .latest-updates-list-item-slug {
@@ -74,16 +92,25 @@
   padding-top: .5rem;
 
   @media (min-width: $max-content-width) {
-    font-size: .85rem;
+    font-size: .9rem;
     padding-top: .3rem;
   }
 }
 
 .latest-updates-list-item-pull-quote {
+  color: rgba(0, 0, 0, .7);
   font-size: .9rem;
   font-weight: 400;
   line-height: 1.45;
   padding-top: .3rem;
+
+  @media (min-width: $max-content-width) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: $breakpoint) {
+    font-size: 1.1rem;
+  }
 }
 
 .full {
@@ -115,6 +142,10 @@
     clear: both;
     content: '';
     display: table;
+  }
+
+  @media (min-width: $breakpoint) {
+    font-size: 1.1rem;
   }
 }
 
@@ -160,6 +191,12 @@
       right: 1rem;
       top: 1.2rem;
       width: 1rem;
+    }
+  }
+
+  @media (min-width: $breakpoint) {
+    &.newer:after, &.older:after {
+      top: 1.3rem;
     }
   }
 
