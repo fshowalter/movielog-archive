@@ -5,9 +5,9 @@
   content_for(:description, feature.pull_quote) if feature.pull_quote
 
 %article.feature
-  %h1.page-title= feature.title
+  %h1.page-title{ data: { rhythm: 0 } }= feature.title
 
-  .post-content{ class: feature.slug }
+  .post-content{ class: feature.slug, data: { rhythm: 0 } }
     = markdown(feature.content)
 
   .feature-slug

@@ -1,8 +1,16 @@
 %post {
   border-bottom: 1px solid rgba(0, 0, 0, .05);
   font-feature-settings: 'ordn', 'lnum';
-  margin: 0 0 2rem;
+  line-height: 1.3rem;
+  margin: 0 0 2.6rem;
   padding: 0 1rem;
+
+  @media (min-width: $breakpoint) {
+    line-height: 1.4rem;
+    margin: 0 auto 2.75rem;
+    max-width: 35rem;
+    padding: 0;
+  }
 
   a {
     &:hover {
@@ -30,22 +38,35 @@
     margin-bottom: .1rem;
     margin-left: -1.6px;
     margin-top: 2rem;
+
+    @media (min-width: $breakpoint) {
+      font-size: 1.6rem;
+      margin-bottom: .7rem;
+    }
   }
   
   .footnotes {
     border-top: 1px solid rgba(0, 0, 0, .05);
     font-weight: 400;
-   
-    a {
-      &:hover {
-        background-position: 0 16px;
-      }
+    padding-top: 1.25rem;
+
+    @media (min-width: $breakpoint) {
+      padding-top: 1.4rem;
+    }
+  
+    a:hover {
+      background-position: 0 16px;
     }
 
     ol {
+      margin: 0;
       padding-left: 1rem;
-    }
 
+      @media (min-width: $breakpoint) {
+        padding-left: 2rem;
+      }
+    }
+    
     hr {
       display: none;
     }
@@ -59,32 +80,30 @@
       font-size: .8rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.3;
-    }
-  }
-
-
-  @media (min-width: $breakpoint) {
-    margin: 0 auto 2rem;
-    max-width: 35rem;
-    padding: 0;
-
-    .footnotes ol {
-      padding-left: 2rem;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      margin-bottom: .7rem;
+      line-height: 1.4;
+      margin-bottom: 0;
+      padding-bottom: 1.3rem;
+   
+      @media (min-width: $breakpoint) {
+        font-size: .9rem;
+        padding-bottom: 1.4rem;
+      }
     }
   }
 }
 
-@media (min-width: 31.3125em) {
-  .post-content p {
-    font-size: 1.1rem;
-    letter-spacing: .00723rem;
-    line-height: 1.5;
-    margin-bottom: 1.3636363rem;
+.post-content {
+  line-height: 1.4;
+
+  p {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+
+    @media (min-width: 31.3125em) {
+      font-size: 1.1rem;
+      letter-spacing: .008rem;
+      line-height: 1.5;
+    }
   }
 }
+

@@ -14,7 +14,7 @@
     description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast))
 
 %article.review{ itemscope: true, itemtype: 'http://schema.org/Review' }
-  %h1.page-title{ itemprop: 'name' }= review.display_title
+  %h1.page-title{ itemprop: 'name', data: { rhythm: 0 } }= review.display_title
 
   - if aka_titles.any?
     %dl.review-aka-list
@@ -30,7 +30,7 @@
     %meta{ content: '0', itemprop: 'worstRating' }
     %meta{ content: '5', itemprop: 'bestRating' }
     = grade_to_image_tag(grade: review.grade)
-  .post-content{ itemprop: 'reviewBody'}
+  .post-content{ itemprop: 'reviewBody', data: { rhythm: 0 } }
     = markdown(review.content)
   %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
@@ -39,7 +39,7 @@
     %h3.review-viewings-list-header Viewings
     %ol.review-viewings-list
       - viewings.each_with_index do |viewing, index|
-        %li.review-viewings-list-item{ value: index + 1 }
+        %li.review-viewings-list-item{ value: index + 1, data: { rhythm: 0 } }
           = viewing.date.strftime("%A  %B #{viewing.date.day.ordinalize}, %Y")
           %span.role= " via #{viewing.venue}"
   .column-half
@@ -48,7 +48,7 @@
       %h3.review-credits-list-header Directed by
       %ul.review-credits-list
         - directors.each do |director|
-          %li.review-credits-list-item
+          %li.review-credits-list-item{ data: { rhythm: 0 } }
             #{director.first_name} #{director.last_name}
             - unless director.notes.blank?
               %span.role
@@ -58,7 +58,8 @@
         - headline_cast.each do |performer|
           %li.review-credits-list-item{ itemprop: 'actor',
                                 itemscope: true,
-                                itemtype: 'http://schema.org/Person' }
+                                itemtype: 'http://schema.org/Person',
+                                data: { rhythm: 0 } }
             %span{ itemprop: 'name' }
               #{performer.first_name} #{performer.last_name}
               %span.role
@@ -66,7 +67,7 @@
       %h3.review-credits-list-header Written by
       %ul.review-credits-list
         - writers.each do |writer|
-          %li.review-credits-list-item
+          %li.review-credits-list-item{ data: { rhythm: 0 } }
             #{writer.first_name} #{writer.last_name}
             %span.role
               = " #{writer.notes}"

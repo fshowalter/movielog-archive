@@ -23,6 +23,14 @@ helpers do
     content
   end
 
+  def minutes_to_read(source)
+    return '(0 minute read)' if source.blank? 
+
+    wordcount = source.scan(/[[:alpha:]]+/).count
+
+    wordcount / 275
+  end
+
   def inline_svg(filename, options = {})
     file = sprockets.find_asset(filename).to_s.force_encoding('UTF-8')
     doc = Nokogiri::HTML::DocumentFragment.parse file

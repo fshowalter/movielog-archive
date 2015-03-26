@@ -52,12 +52,15 @@
 }
 
 %list-item-rating {
-  display: inline-block;
-  height: .75rem;
+  display: block;
   left: 0;
-  position: relative;
-  top: .1rem;
-  width: 3.5rem;
+  position: absolute;
+
+  @media (min-width: $breakpoint) {
+    display: inline-block;
+    left: auto;
+    position: relative;
+  }
 }
 
 %list-item-slug {

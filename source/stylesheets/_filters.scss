@@ -10,11 +10,15 @@
   display: inline-block;
   font-family: $serif;
   font-size: .8rem;
-  height: 2rem;
+  height: 1.95rem;
   line-height: 1.4;
   padding: .375rem .3125rem;
   vertical-align: middle;
   width: 100%;
+
+  @media (min-width: $breakpoint) {
+    height: 2.1rem;
+  }
 }
 
 %numeric {
@@ -23,7 +27,7 @@
   box-sizing: content-box;
   color: rgba(0, 0, 0, .4);
   font-family: $serif;
-  font-size: 1rem;
+  font-size: .9rem;
   width: 60px;
 
   &::-webkit-inner-spin-button {
@@ -32,15 +36,12 @@
   }
 
   &.min {
-    bottom: 0;
-    left: 0;
-    position: absolute;
+    margin-right: auto;
   }
 
   &.max {
-    bottom: 0;
-    position: absolute;
-    right: -10px;
+    align-self: flex-start;
+    text-align: right;
   }
 }
 
@@ -50,15 +51,27 @@
 
 .filter-numeric {
   @extend %numeric;
+  width: 1.95rem;
+
+  @media (min-width: $breakpoint) {
+    height: 1.3rem;
+    width: 2rem;
+  }
 }
 
 .filter-control {
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .filter-label {
   color: rgba(0, 0, 0, .3);
+  display: block;
   font-size: .8rem;
+  line-height: 1.3rem;
+
+  @media (min-width: $breakpoint) {
+    line-height: 1.4rem;
+  }
 }
 
 .filter-select {
@@ -71,8 +84,14 @@
 }
 
 .filter-range {
-  min-height: 4rem;
-  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: -.65rem;
+
+  @media (min-width: $breakpoint) {
+    margin-bottom: -.7rem;
+  }
 }
 
 .noUi-target * {
@@ -85,20 +104,29 @@
 }
 
 .noUi-base {
-  height: 2.125rem;
+  height: 1.95rem;
   margin: auto 1rem;
   position: relative;
+
+  @media (min-width: $breakpoint) {
+    height: 2.1rem;
+  }
 }
 
 .noUi-handle {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, .3);
   border-radius: 3px;
-  height: 2.125rem;
+  height: 1.95rem;
   left: -1.0625rem;
   position: relative;
-  width: 2.125rem;
+  width: 1.95rem;
   z-index: 1;
+
+  @media (min-width: $breakpoint) {
+    height: 2.1rem;
+    width: 2.1rem;
+  }
 }
 
 .noUi-active {
@@ -108,6 +136,10 @@
 
 .noUi-background {
   background: #f5f5f5;
+}
+
+.noUiSlider {
+  flex: 1 100%;
 }
 
 .noUi-origin {

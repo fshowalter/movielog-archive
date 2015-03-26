@@ -15,18 +15,26 @@ html {
   font-size: 20px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.4;
+  line-height: 26px;
   text-rendering: optimizeLegibility;
 
+
+  @media (min-width: $breakpoint) {
+    line-height: 28px;
+  }
 }
 
 body {
   background-color: #fff;
+  // background-image: linear-gradient(transparent 12px, rgba(0, 0, 0, .3) 13px);
+  // background-size: 100% 13px;
   color: rgba(0, 0, 0, .8);
   letter-spacing: -.018rem;
-  background-image: linear-gradient(rgba(0,0,0, 0.3) 0, transparent 1px);
-  background-size: 100% 33px;
-
+  
+  @media (min-width: $breakpoint) {
+    // background-image: linear-gradient(transparent 13px, rgba(0, 0, 0, .3) 14px);
+    // background-size: 100% 14px;    
+  }
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -73,6 +81,10 @@ input::placeholder {
   text-transform: uppercase;
   transform: translate(0, 0);
   transition: opacity .3s linear;
+
+  @media (min-width: $breakpoint) {
+    font-size: .7rem;
+  }
 }
 
 input:focus::-webkit-input-placeholder {
@@ -82,7 +94,7 @@ input:focus::-webkit-input-placeholder {
 
 p {
   letter-spacing: .01rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.65rem;
   margin-top: 0;
 }
 
@@ -100,7 +112,7 @@ p {
   @extend %container;
 
   @media (min-width: $breakpoint) {
-    padding-top: 3rem;
+    padding-top: 3.5rem;
   }
 }
 
@@ -109,12 +121,13 @@ p {
 
   background-color: rgba(255, 255, 255, .9);
   border-bottom: 1px solid rgba(0, 0, 0, .05);
-  letter-spacing: -.04rem;
-  margin-bottom: 0;
+  letter-spacing: 1px;
+  margin-bottom: -1px;
   position: relative;
+  text-transform: uppercase;
 
   @media (min-width: $breakpoint) {
-    height: 3rem;
+    height: 2.8rem;
     left: 0;
     margin: 0;
     max-width: none;
@@ -128,17 +141,18 @@ p {
 .masthead-title {
   color: rgba(0, 0, 0, .8);
   font-size: .7rem;
-  font-weight: 600;
-  height: 3rem;
-  letter-spacing: 1px;
-  line-height: 3rem;
+  font-weight: normal;
+  height: 2.6rem;
+  line-height: 2.6rem;
   margin: 0;
   max-width: $max-content-width;
   padding: 0 1rem;
-  text-transform: uppercase;
   vertical-align: bottom;
 
   @media (min-width: $breakpoint) {
+    font-size: .75rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
     margin: 0;
   }
 }
@@ -167,11 +181,11 @@ p {
   font-family: $serif;
   font-size: .7rem;
   letter-spacing: 1px;
-  padding: .5rem .6rem;
+  padding: .4rem .6rem;
   position: absolute;
   right: 1rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  top: .5rem;
+  top: .4rem;
 
   @media (min-width: $breakpoint) {
     display: none;
@@ -180,8 +194,7 @@ p {
 
 .nav-menu {
   font-size: .7rem;
-  font-weight: 500;
-  height: 8rem;
+  height: 8.45rem;
   letter-spacing: 1px;
   margin: 0;
   padding: 0 1rem;
@@ -192,7 +205,7 @@ p {
   .nav-menu,
   .js .nav-menu.js-collapse {
     display: flex;
-    height: 3rem;
+    height: 2.85rem;
     margin: 0 auto;
     max-width: 700px;
     padding: 0;
@@ -203,11 +216,20 @@ p {
 
 .nav-menu-item {
   display: block;
-  height: 2rem;
+  height: 1.95rem;
 
+  &:first-child {
+    margin-top: .65rem;
+  }
 
   @media (min-width: $breakpoint) {
+    font-size: .7rem;
+    height: auto;
     padding: 0 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     &:nth-child(2) {
       padding-left: 0;
@@ -219,7 +241,7 @@ p {
   background-image: none;
   border-bottom: 1px solid rgba(0, 0, 0, .06);
   display: block;
-  line-height: 2rem;
+  line-height: 1.9rem;
   margin: 0 auto;
   padding: 0;
 
@@ -227,7 +249,8 @@ p {
     color: rgba(0, 0, 0, .8);
 
     @media (min-width: $breakpoint) {
-      border-bottom: 1px solid #444;
+      border-bottom-color: #444;
+      line-height: 2.75rem;
 
       &:before {
         transform: none;
@@ -241,9 +264,9 @@ p {
   }
   
   @media (min-width: $breakpoint) {
-    border-bottom: 0;
-    height: 3rem;
-    line-height: 3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    height: auto;
+    line-height: 2.75rem;
     padding: 0;
   }
 }
@@ -261,11 +284,11 @@ p {
     height: 1rem;
     left: 1rem;
     position: absolute;
-    top: .5rem;
+    top: .4rem;
     width: .7rem;
 
     @media (min-width: $breakpoint) {
-      top: 1.25rem;
+      top: 1.1rem;
     }
   }
 }
@@ -277,7 +300,7 @@ p {
   border-radius: 0;
   font-family: $serif;
   font-size: .6rem;
-  padding: .3rem .5rem .3rem 2rem;
+  padding: .2rem .5rem .2rem 2rem;
   transition-duration: .4s;
   transition-property: border-color;
   width: 100%;
@@ -288,14 +311,16 @@ p {
 
   @media (min-width: $breakpoint) {
     border-radius: 25px;
+    font-size: .75rem;
+    padding: .3rem .5rem .2rem 2rem;
     width: 11rem;
   }
 }
 
 .nav-menu-item-search {
   @media (min-width: $breakpoint) {
-    height: 3rem;
-    line-height: 3rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
     order: 4;
     position: absolute;
     right: 0;
@@ -307,29 +332,39 @@ p {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -.02em;
-  line-height: 1.1;
+  line-height: 1;
   margin: 0;
-  padding-top: 2.5rem;
+  padding-top: 1.95rem;
   text-align: center;
 
-  @media (min-width: $max-content-width) {
+  @media (min-width: $breakpoint) {
     font-size: 2.25rem;
-    letter-spacing: -.04em;
+    line-height: 2.1rem;
+    margin-bottom: 14px;
+    padding-bottom: .7rem;
+    padding-top: 2.1rem;
   }
 }
 
 .site-footer {
   color: rgba(0, 0, 0, .3);
   font-size: .75rem;
-  padding: 1rem;
+  line-height: .65rem;
+  padding: 1.3rem 1rem;
   text-align: center;
-
-  @media (min-width: $max-content-width) {
-    font-size: .8rem;
-  }
 
   @media (min-width: $breakpoint) {
     font-size: .9rem;
+    line-height: .7rem;
+    padding: 1.4rem 1rem;
+  }
+}
+
+.site-footer-content {
+  padding-bottom: .65rem;
+
+  @media (min-width: $breakpoint) {
+    padding-bottom: .7rem;
   }
 }
 
@@ -338,13 +373,6 @@ p {
 
   &:after {
     background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-192 -384 2048 2048"><path d="M1620 152q-67 98-162 167 1 14 1 42 0 130-38 259.5T1305.5 869Q1228 988 1121 1079.5t-258 146Q712 1280 540 1280q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5T221 777q33 5 61 5 43 0 85-11-112-23-185.5-111.5T108 454v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5T820 397q-8-38-8-74 0-134 94.5-228.5T1135 0q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" fill="#0054ab"/></svg>');
-    content: '';
-    content: '';
-    height: .8rem;
-    left: 0;
-    position: absolute;
-    top: .1rem;
-    width: .8rem;
   }
 }
 
@@ -354,12 +382,26 @@ p {
 
   &:after {
     background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 -384 2048 2048"><path d="M384 1216q0 80-56 136t-136 56q-80 0-136-56T0 1216q0-80 56-136t136-56q80 0 136 56t56 136zm512 123q2 28-17 48-18 21-47 21H697q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5T58 774q-25-2-41.5-20T0 711V576q0-29 21-47 17-17 43-17h5q160 13 306 80.5T634 774q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5T1137 1348q-12-215-101-408.5t-231.5-336Q662 461 468.5 372T60 270q-25-1-42.5-19.5T0 207V64q0-28 20-46Q38 0 64 0h3q262 13 501.5 120T994 414q187 186 294 425.5t120 501.5z" fill="#f4a546"/></svg>');
-    content: '';
+  }
+}
+
+.site-footer-feed, 
+.site-footer-twitter {
+  &:after {
     content: '';
     height: .8rem;
     left: 0;
     position: absolute;
     top: .1rem;
     width: .8rem;
+  }
+
+  @media (min-width: $breakpoint) {
+    padding-left: 1.1rem;
+
+    &:after {
+      height: 1rem;
+      width: 1rem;
+    }
   }
 }

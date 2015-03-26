@@ -18,15 +18,14 @@ pagination:
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
       %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date
+        .latest-updates-list-item-date{ data: { number: post.sequence }}
           = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header
+        %header.latest-updates-list-item-header{ data: { rhythm: 0 } }
           %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
             %a{ href: "/reviews/#{review.slug}/" }
               = "#{review.display_title}"
-          &nbsp;
           = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
-        %span.latest-updates-list-item-slug
+        %span.latest-updates-list-item-slug{ data: { rhythm: 0 } }
           %span.abbreviation
             = ' D'
           %span.full
@@ -37,6 +36,10 @@ pagination:
           = " #{headline_cast(title: review.title)}."
         .latest-updates-list-item-pull-quote
           = markdown(review.pull_quote)
+        .latest-updates-list-item-read-more
+          %a{ href: "/reviews/#{review.slug}/" }
+            Continue reading 
+          &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
       %li.latest-updates-list-item{ value: post.sequence }

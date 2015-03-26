@@ -8,3 +8,4 @@ linters:
       - noUi-background
       - noUi-origin
       - noUi-stacking
+      - noUiSlider

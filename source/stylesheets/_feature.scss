@@ -1,31 +1,33 @@
+%horizontal-rule {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  height: 0;
+  width: 5rem;
+}
+
 .feature {
   @extend %post;
 
   .post-content {
-    margin-top: 3rem;
+    padding-top: 1.3rem;
 
     &:before {
-      border: 0;
-      border-top: 1px solid rgba(0, 0, 0, .15);
-      box-sizing: content-box;
-      content: '';
-      display: block;
-      height: 0;
-      margin: 0 auto 2rem;
-      width: 5rem;
+      @extend %horizontal-rule;
+      margin: 0 auto 2.55rem;
+    }
+
+    @media (min-width: $breakpoint) {
+      padding-top: 1.4rem;
     }
   }
 
   h2 {
     &:before {
-      border: 0;
-      border-top: 1px solid rgba(0, 0, 0, .15);
-      box-sizing: content-box;
-      content: '';
-      display: block;
-      height: 0;
-      margin: 0 auto 2rem;
-      width: 5rem;
+      @extend %horizontal-rule;
+      margin: 0 auto 2.75rem;
     }
   }
 
@@ -34,10 +36,10 @@
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: -.02em;
-    line-height: 1.2;
-    margin-bottom: .1rem;
+    line-height: 1.4rem;
+    margin-bottom: 0;
     margin-left: -1.6px;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
   }
 
   @media (min-width: $breakpoint) {
@@ -52,9 +54,13 @@
   border-top: 1px solid rgba(0, 0, 0, .05);
   color: rgba(0, 0, 0, .4);
   font-size: .75rem;
-  padding: 1rem 0;
+  padding: 1.25rem 0 1.3rem;
 
   .title {
     font-weight: bold;
+  }
+
+  @media (min-width: $breakpoint) {
+    padding: 1.35rem 0 1.4rem;
   }
 }
