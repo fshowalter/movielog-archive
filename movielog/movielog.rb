@@ -8,7 +8,7 @@ Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
 module Movielog
   class << self
     def site_url
-      'http://www.franksmovielog.com'
+      'https://www.franksmovielog.com'
     end
 
     def site_title
