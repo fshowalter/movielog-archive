@@ -126,12 +126,12 @@ ready do
   end
 
   [
+    ['browse/reviews/dangerous-mission-1954', 'reviews/dangerous-mission-1954/'],
     ['page/2', 'page-2'],
     ['page/3', 'page-3'],
     ['page/4', 'page-4'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
-    
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
