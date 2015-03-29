@@ -3,7 +3,7 @@
 :title: Dangerous Mission (1954)
 :slug: dangerous-mission-1954
 :display_title: Dangerous Mission (1954)
-:date: 2015-03-08
+:date: 2015-03-28
 :imdb_id: tt0046891
 :grade: D+
 :pull_quote: _Dangerous Mission_ isn’t a very good movie. But for some folks it will be worth a look. Unfortunately, I must venture into spoiler territory to explain why. Consider this fair warning.
