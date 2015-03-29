@@ -126,9 +126,9 @@ ready do
   end
 
   [
-    ['page/2/', 'page-2'],
-    ['page/3/', 'page-3'],
-    ['page/4/', 'page-4'],
+    ['page/2', 'page-2'],
+    ['page/3', 'page-3'],
+    ['page/4', 'page-4'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
     
