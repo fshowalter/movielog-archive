@@ -126,6 +126,7 @@ ready do
   end
 
   [
+    ['reviews/kingsman-the-secret-service-2015', 'reviews/kingsman-the-secret-service-2014/'],
     ['browse/reviews/dangerous-mission-1954', 'reviews/dangerous-mission-1954/'],
     ['page/2', 'page-2'],
     ['page/3', 'page-3'],

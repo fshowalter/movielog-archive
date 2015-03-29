@@ -1,8 +1,8 @@
 ---
 :sequence: 32
-:title: 'Kingsman: The Secret Service (2015)'
-:slug: kingsman-the-secret-service-2015
-:display_title: 'Kingsman: The Secret Service (2015)'
+:title: 'Kingsman: The Secret Service (2014)'
+:slug: kingsman-the-secret-service-2014
+:display_title: 'Kingsman: The Secret Service (2014)'
 :date: 2015-02-23
 :imdb_id: tt2802144
 :grade: C+
