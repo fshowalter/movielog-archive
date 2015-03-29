@@ -112,6 +112,7 @@
   letter-spacing: -.01rem;
   line-height: 1.2;
   padding: .325rem 0;
+  margin-bottom: 12px;
 
   &:before {
     content: '';
@@ -123,6 +124,7 @@
     font-size: .9rem;
     line-height: 1.1;
     min-height: 1.4rem;
+    margin-bottom: 0;
     padding: 0;
 
     &:before {
