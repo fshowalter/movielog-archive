@@ -6,36 +6,32 @@
 :date: 2015-03-08
 :imdb_id: tt0046891
 :grade: D+
-:pull_quote: ""
+:pull_quote: _Dangerous Mission_ isn’t a very good movie. But for some folks it will be worth a look. Unfortunately, I must venture into spoiler territory to explain why. Consider this fair warning.
 ---
-_Dangerous Mission_ opens with a murder. We’re looking down a set of stairs into a darkened, deserted nightclub. A man sits playing a piano with his back to us. Another man appears at the top of the stairs. He has a gun. He sneaks down the stairs and creeps across the nightclub floor. There’s a flash of lightning and a crack of thunder from the storm outside. The piano player turns, and the gunman shoots twice. The piano player drops dead. Then we hear footsteps and a woman scream. The gunman turns towards us and fires. We hear the sound of footsteps running and a door closing. The gunman hurries back up the stairs after the mystery woman.
+_Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. Unfortunately, I must venture into spoiler territory to explain why. Consider this fair warning.
 
-Next we're in a posh high-rise office. Two weeks have passed but the rain hasn’t stopped. The gunman, Johnny, sits on a couch poking at a toy piano. He’s playing the same melody the piano player played before he died. He’s out on bail and nervous. The DA claims to have a witness that could put Johnny away for a long time. Johnny thinks he knows where the witness is hiding and wants her out of the picture.
+The film opens with a murder. We’re looking down a set of stairs into a darkened, deserted nightclub. A man sits playing a piano with his back to us. Another man appears atop the stairs. He has a gun. He sneaks down and creeps across the nightclub floor. There’s a flash of lightning and a crack of thunder from the storm outside. The piano player turns, and the gunman shoots twice. The piano player drops dead. Then we hear footsteps and a woman scream. The gunman whirls towards us and fires. We hear the sound of running and a door closing. The gunman hurries after the mystery woman.
 
-“That’s your job,” Johnny says to a man sitting smoking a cigarette in a chair with his back to us. “Make sure you get the right witness. Now we’re just guessing who it is. We gotta be sure.”
+Next we're in a posh high-rise office. Two weeks have passed. The rain hasn’t stopped. The gunman, Johnny, sits on a couch. He pokes at a toy piano, playing the same melody the piano player played before he died.
 
-The mystery man’s job is to mingle with the people and find out if the girl they think is the witness, really is the witness. Then he’s to kill her, but make it look like an accident. 
+We learn that Johnny is out on bail. He’s planning to claim self-defense at the trial, but the District Attorney has a witness that could put Johnny away for a long time. Johnny thinks he knows where the witness is hiding and wants her out of the picture.
 
-“What a hideout, “ Johnny says. “No wonder we couldn’t find it until yesterday. It’s the last place in the world you’d expect anyone to hide.”
+“That’s your job,” Johnny says to a man sitting in a chair with his back to us. Now, here’s where things get confusing. They know where the witness is hiding, but they don’t know her identity. They have a guess, but they’re not sure. So the mystery hitman’s job is to fly out, rent a car, then go undercover. Mingle with the people and suss out the witness’s identity. Then kill her, but make it look like an accident. 
 
-Cut too Glacier National park in Montana. We see Victor Mature entering the park in a rented car. The guard at the gate notice’s a gun in Mature’s glove compartment and phones it in to the chief park ranger, played by William Bendix.
+“What a hideout,” Johnny says. “No wonder we couldn’t find it until yesterday. It’s the last place in the world you’d expect anyone to hide.”
 
-For the next half-an-hour or so, the film plays like a suspensful mystery. The script tries in vein to make us suspect  Victor Mature of being the hired killer. But, of course, we know better. 
+Cut too Glacier National Park in Montana. We see Matt Hallett, played by Victor Mature, entering the park in a rented car. The guard at the gate notice’s a gun in Matt’s glove compartment and phones it in to Chief Ranger Joe, played by William Bendix.
 
-Mature has a way of talking where his entire body remains motionless except his jaw. It kept reminding me of a ventriloquit’s dummy. 
+For the next half-hour or so, the film plays like a would-be suspenseful mystery. The script tries in vain to make us suspect  Matt as the hired killer. It helps that Mature has a way of talking where his entire body remains motionless except his jaw. It kept reminding me of a ventriloquist’s dummy. Certainly creepy enough to be a believable sociopath.
 
-Mature makes a bee-line straight for the witness, who’s played by Piper Laurie. Laurie, incidently, is the only woman remotely fitting the witness’s discription in the entire park, so I’m not so sure it was such a good place to hide. 
+But, of course, we know better. This would-be misdirection gives Vincent Price a chance to do what he does best, play a character playing someone else. Here, he plays Paul Adams, a mob hitman playing a nature photographer. Early on, he’s all folksy smiles and good humor, but still comes off as something of a dilettante with a hint of menace. 
 
-Anyway, Mature gets close to her. She starts to fall for him. You can see where this is going.  
+Matt and Paul both vie for the attention of the witness, Louise, played by Piper Laurie. Given that Louise is the only woman that comes close to fitting the witness’s description in the entire park, I’m not so sure it was such a good place to hide. 
 
-In between, there’s a sub-plot involving a fugitive Indian and his daughter, an avalanche, and a forest fire. Despite all the lovely scenery, Glacier Park seems to be something of a death trap.
+Louise is cordial to Paul, but finds herself drawn to Matt. In between, there’s a sub-plot involving a fugitive Indian and his daughter, an avalanche, and a forest fire.  Most of these diversions exist to exploit the film’s 3D presentation. I suppose they do a decent enough job, but they also give us the impression that Glacier Park is something of a death trap.
 
-A little before the halfway point, the true hitman is revealed. While the identity won’t shock you, the scene isn’t without a surprise. Now the film shifts into adventure, as the hitman has to kill Laurie’s character and flee the park. But despite being a professional killer, he fails to off Laurie and she alerts the park authorities. With all the roads closed, the hitman has to flee overground. 
+Anyway, a little before the halfway point, Paul’s true identity is revealed. Though we see it coming, the scene isn’t without a surprise. From here, the film shifts into adventure, as Paul has to kill Louise and flee the park. But despite being a professional killer, he fails to off Louise, and she alerts the park authorities. With all the roads closed, Paul has to flee overground. 
 
-Mature, revelead as a cop working for the New York DA’s office, sets out after the hitman. Of course, Laurie somehow ends up with him. Everything culminates in a showdown inside an ice fissure. It’s a scene that would have looked amazing shot on location, but the soundstage artifice is all the more glaring after all the location photography.
+Matt, now revealed as a cop working for the New York District Attorney’s office, sets out after Paul. Of course, Louise somehow ends up going with him. There’s some great location photography, and everything culminates in a showdown inside an ice fissure. It’s a scene that would have looked great shot in a real ice cave. Instead, the soundstage artifice is all the more glaring. You’ll be hard-pressed not to laugh.
 
-Dangerous Mission isn’t a very good movie. But for some folks it will be worth a look. Unfortunately, I need to venture into spoiler territory to explain why. Consider this fair warning.
-
-Still here? Okay. For Vincent Price fans, this one is worth a look. Like all of Price’s better roles, he plays a character playing someone else. As Paul Adams, he’s a mob hitman playing a nature photographer. Early on he’s all folksy smiles and good humor, but still comes off as something of a dilettante with a hint of menace. Later, when he’s revealed as the killer, he’s all ice. 
-
-Price can’t save the film, but fans of his work should enjoy him here.
+Like I said, _Dangerous Mission_ is not a good movie. The convoluted script and uneven production values see to that. But fans of Vincent Price should enjoy him here if for nothing else than the outfit he wears for the square-dance scene.
