@@ -1,5 +1,15 @@
 .review {
   @extend %post;
+
+  @media (min-width: $breakpoint) {
+    line-height: .7rem;
+  }
+
+  .page-title {
+    @media (min-width: $breakpoint) {
+      margin-bottom: 0;
+    }    
+  }
 }
 
 .review-aka-list {
@@ -32,7 +42,7 @@
   @media (min-width: $breakpoint) {
     font-size: .85rem;
     letter-spacing: -.02rem;
-    padding: .7rem 0;
+    padding: .7rem 0 1.4rem;
   }
 }
 
@@ -40,11 +50,12 @@
   display: block;
   height: 1.3rem;
   margin: 0 auto 1.3rem;
-  width: 7.5rem;
+  width: 6.5rem;
 
   @media (min-width: $breakpoint) {
-    height: 1.5rem;
-    width: 7.5rem;
+    margin: 0 auto 1.4rem;
+    height: 1.4rem;
+    width: 7rem;
   }
 }
 
