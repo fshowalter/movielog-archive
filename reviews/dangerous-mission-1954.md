@@ -6,9 +6,11 @@
 :date: 2015-03-28
 :imdb_id: tt0046891
 :grade: D+
-:pull_quote: _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. Unfortunately, I must venture into spoiler territory to explain why. Consider this fair warning.
+:pull_quote: _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory. 
 ---
-_Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. Unfortunately, I must venture into spoiler territory to explain why. Consider this fair warning.
+_Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory. 
+
+Consider this fair warning.
 
 The film opens with a murder. We’re looking down a set of stairs into a darkened, deserted nightclub. A man sits playing a piano with his back to us. Another man appears atop the stairs. He has a gun. He sneaks down and creeps across the nightclub floor. There’s a flash of lightning and a crack of thunder from the storm outside. The piano player turns, and the gunman shoots twice. The piano player drops dead. Then we hear footsteps and a woman scream. The gunman whirls towards us and fires. We hear the sound of running and a door closing. The gunman hurries after the mystery woman.
 
