@@ -3,7 +3,7 @@
 :title: Three on a Match (1932)
 :slug: three-on-a-match-1932
 :display_title: Three on a Match (1932)
-:date: 2015-03-29
+:date: 2015-03-31
 :imdb_id: tt0023590
 :grade: C+
 :pull_quote: _Three on a Match_ is a great example of the crazy pre-code exploitation pictures that Hollywood produced in the early 1930s.
