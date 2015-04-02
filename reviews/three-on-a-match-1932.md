@@ -6,11 +6,9 @@
 :date: 2015-03-31
 :imdb_id: tt0023590
 :grade: C+
-:pull_quote: _Three on a Match_ is a great example of the crazy pre-code exploitation pictures that Hollywood produced in the early 1930s.
+:pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast like this, one is hard-pressed to care. 
 ---
-_Three on a Match_ is a great example of the crazy pre-code exploitation pictures that Hollywood produced in the early 1930s.
-
-The story begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
+	_Three on a Match_ begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
 
 Cut to Public School 64. The camera pans back to reveal a school yard teaming with hundreds of children. Were they not twirling about and playing on slides and swings it would pass for a prison yard. Here, we meet three pre-teen girls. 
 
@@ -40,5 +38,6 @@ Meanwhile, Vivian has continued her fall from grace. Michael turns out to be a g
 
 Unfortunately for all involved, Michael owes money to a mobster named Ace, played by Edward Arnold. Ace gets wind of the plot and muscles his way in via his henchman Harve, played by Humphrey Bogart. When the heat closes in, Harve leans on Michael to off the kid. Vivian, in a moment of lucidity during her withdrawal haze, saves her son in a startling (and over the top) fashion.  
 
-It’s a lot of plot for 63 minutes. This is a good thing. Things move so fast we’re not given much time to consider the insanity. And make no mistake, this movie is nuts. Vivian’s fall from society lady to street-corner junkie plays like a caricature. Mary wastes her school years getting into trouble and ends up a society darling. Vivian spends her life doing what’s expected of her and sees her world collapse the first time she steps out of line. And Ruth, poor Ruth. She works, nose down, as hard as she can, only to end up working for Mary. How’s that for a mixed message?
+It’s a lot of plot for 63 minutes. This is a good thing. Things move so fast we’re not given much time to consider the insanity. And make no mistake, this movie is nuts. Vivian’s fall from society lady to street-corner junkie plays like a caricature. Mary wastes her school years getting into trouble and ends up a society darling. Vivian spends her life doing what’s expected of her and sees her world collapse the first time she steps out of line. And Ruth, poor Ruth. She works, head down, as hard as she can, only to end up working for Mary. How’s that for a mixed message?
 
+But _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast like this, one is hard-pressed to care. 
