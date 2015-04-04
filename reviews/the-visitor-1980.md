@@ -3,7 +3,7 @@
 :title: Stridulum (1979)
 :slug: the-visitor-1980
 :display_title: The Visitor (1980)
-:date: 2015-03-31
+:date: 2015-04-03
 :imdb_id: ‘’
 :grade: D+
 :pull_quote: If nothing else, _The Visitor_ left me with a strong desire to read a biography of John Huston. If only to understand how the legendary auteur ended up starring in a film so bizarre.
