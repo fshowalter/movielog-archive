@@ -8,7 +8,7 @@
 :grade: C+
 :pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast like this, one is hard-pressed to care. 
 ---
-	_Three on a Match_ begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
+_Three on a Match_ begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
 
 Cut to Public School 64. The camera pans back to reveal a school yard teaming with hundreds of children. Were they not twirling about and playing on slides and swings it would pass for a prison yard. Here, we meet three pre-teen girls. 
 
