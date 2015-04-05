@@ -12,7 +12,7 @@ As I see it, my job as a reviewer is threefold. I endeavor to describe what a gi
 
 With _The Visitor_, I am at a loss.  
 
-The film opens with a blue-eyed Christ-figure telling a story to a group of bald children. The story is about Sateen, an intergalactic criminal who fled to Earth. On Earth, Sateen mutated and developed psychic powers which he used to wreak havoc. Another alien defeated Sateen using an army of birds, but not before Sateen impregnated a slew of Earth women. Those women would continue Sateen’s legacy through their children. John Huston then enters the room. He says he’s confirmed Sateen’s latest incarnation is an eight-year-old girl in Atlanta, Georgia. He’ll be leaving at once.
+The film opens with a blue-eyed Christ-figure telling a story to a group of bald children. The story is about Sateen, an intergalactic criminal who fled to Earth. On Earth, Sateen mutated and developed psychic powers which he used to wreak havoc. Another alien defeated Sateen using an army of birds, but not before Sateen impregnated a slew of Earth women. Those women continued Sateen’s legacy through their children. John Huston then enters the room. He says he’s confirmed Sateen’s latest incarnation is an eight-year-old girl in Atlanta, Georgia. He’ll be leaving at once.
 
 Cut to Atlanta, where we meet the aforementioned girl, Katy, her mother Barbara, and her mother’s boyfriend Ray. Lance Henriksen plays Ray, continuing the film’s surprising casting.
 
