@@ -38,7 +38,24 @@ They retreat to a neighbor's lake house, but the thing catches up with them. Des
 
 The strangers don't last long either, likely because Jay either doesn't warn them or they just don't believe her. Either way, the thing's soon back after Jay, but this time her and her friends come up with a plan. 
 
+The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various elecrical items, the apparent plan being to electricute the appiration.[^2] After a bit the appiration does show up, but is reluctant to enter the water. Instead, it starts throwing things at Jay. One of her friends starts shooting a handgun they've acquired, winging another of the friends in the process before finally putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies.
+
+But, of course, it doesn't die. And neither does the film end. Instead, Jay has sex with another of her friends. The ambiguous ending sees the two walking hand in hand down the street, possibly aware of the creature looming behind them.
+
+As I said this is a well-produced and well-acted film. The suburban locals bring to mind a less idlyic and more lived-in feel than the grandfather of suburban horror _Halloween (1979)_, rendering them even more relatable. The film bucks the trend of POV found-footage or hyper kenetic jump-cuts and opts for an atmospheric slow-burn. Given the script, I'm not sure this film could have been done any better.
+
+But about that script.
+
+Remember how I said this movie doesn't work? Let's talk about that.
+
+The problems start early. Like the first sequence early. By showing the girl dead the following morning in a manner that required super-human strength to execute, the film loses any ambiguity regarding the nature of the curse. There's no question, it's real. Part of the concept is that only the cursed can see the thing that's following them, and thus, if you left some room for doubt, you could play with the concept of the unreliable narrator. 
+
+Continuing the trend of too-much-information, the film then explains all the details of the curse. This diminishes the effect because nothing is scarier than the unknown. By establishing rules and limitations, the filmmakers have made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
+Which leads me to the biggest problem of all. Yes this is horribe curse, but it's manageable. Hell, the film even addresses my first thought, and seems to admit that it would work. If the thing just walks, then just go to Europe or Spain or, perhaps best of all, Austrailia. Judging by the pool incident it doesn't like water which means it probably can't swim, which means you're safe. 
+
+But while we're on the subject of nit-picks, I'm not sure when this film is supposed to be set, but how do these kids not have internet access? Wouldn't one of the first things be to try and find some more information on the curse? 
 
 
+[^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
 
-[^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_, 
+[^2]: Putting aside the logic of electricuting a semi-invisiable monster, what kind of pool wouldn't have GFE wiring that would prevent this from working?
