@@ -24,7 +24,7 @@ helpers do
   end
 
   def minutes_to_read(source)
-    return '(0 minute read)' if source.blank? 
+    return 0 if source.blank? 
 
     wordcount = source.scan(/[[:alpha:]]+/).count
 
