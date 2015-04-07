@@ -55,6 +55,10 @@ Which leads me to the biggest problem of all. Yes this is horribe curse, but it'
 
 But while we're on the subject of nit-picks, I'm not sure when this film is supposed to be set, but how do these kids not have internet access? Wouldn't one of the first things be to try and find some more information on the curse? 
 
+In the end, _It Follows_ isn’t scary enough to take seriously. Nor does it offer anything in the way of vicarious thrills. It attempts to subvert the slasher genre conventions, but if anything, it only re-inforces how importent those tropes are when it comes to covering up what’s otherwise a trite premise.
+
+
+
 
 [^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
 
