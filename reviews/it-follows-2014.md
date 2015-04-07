@@ -6,9 +6,9 @@
 :date: 2015-04-05
 :imdb_id: tt3235888
 :grade: D
-:pull_quote:
+:pull_quote: "_It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. "
 ---
-_It Follows_ is a well-produced film with an original, puritanical concept and good performances. It's devoid of gratuitous thrills and unsettling insights into the human condition. It's the perfect horror film for folks who consider the genre to be one step above pornography.
+_It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
 
 The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking back at her house. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She assures him that she is, as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds out of her neighborhood and into the darkness.
 
@@ -46,24 +46,24 @@ The go to the local indoor pool, where Jay waits in the center of the water. Aro
 
 But, of course, it doesn't end. And neither does the film. Instead, Jay has sex with another of her friends. The ambiguous finale sees the two walking hand in hand down the street, with a figure that might be the creature looming behind them. 
 
-To be fair, this is a well-produced film dripping with atmosphere. The suburban locales evoke lived-in feel, while the Detroit cityscape reeks of urban decay. There's no hyper-kinetic editing or gimmicky found-footage. It's a slow burn. Given the script, I'm not sure this film could have been done any better.
+To be fair, this is a well-produced film dripping with atmosphere. The suburban locales evoke lived-in feel, while the Detroit cityscape reeks of urban decay. There's no hyper-kinetic editing or gimmicky found-footage. It's a slow burn. Well, maybe more like a slow singe. Given the script, I'm not sure this film could have been done any better.
 
 But about that script.
 
 Remember how I said this movie doesn't work? Let's talk about that.
 
-The problems start early. Like the first sequence early. By showing the girl dead the following morning in a manner that required super-human strength to execute, the film loses any ambiguity regarding the nature of the curse. There's no question, it's real. Part of the concept is that only the cursed can see the thing that's following them, and thus, if you left some room for doubt, you could play with the concept of the unreliable narrator. 
+The problems start with the opening sequence. Consider what it would have been like, had we not seen what happened to the girl waiting by the lake.  Only those cursed can see the creature, thus, the script could have played with the concept of the unreliable narrator. Is the curse real, or is Jay having some sort of breakdown. By showing the girl dead in a manner that required super-human strength, the film loses any ambiguity. The curse is real.
 
-Continuing the trend of too-much-information, the film then explains all the details of the curse. This diminishes the effect because nothing is scarier than the unknown. By establishing rules and limitations, the filmmakers have made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
-Which leads me to the biggest problem of all. Yes this is horribe curse, but it's manageable. Hell, the film even addresses my first thought, and seems to admit that it would work. If the thing just walks, then just go to Europe or Spain or, perhaps best of all, Austrailia. Judging by the pool incident it doesn't like water which means it probably can't swim, which means you're safe. 
+Continuing the too-much-information trend, the film then explains all the details of the curse. 
 
-But while we're on the subject of nit-picks, I'm not sure when this film is supposed to be set, but how do these kids not have internet access? Wouldn't one of the first things be to try and find some more information on the curse? 
+Rule #1 of horror: Nothing is scarier than the unknown. By establishing rules and limitations, the filmmakers have made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
 
-In the end, _It Follows_ isn’t scary enough to take seriously. Nor does it offer anything in the way of vicarious thrills. It attempts to subvert the slasher genre conventions, but if anything, it only re-inforces how importent those tropes are when it comes to covering up what’s otherwise a trite premise.
+Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to Europe or Spain or, perhaps best of all, Australia. Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
 
+And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't one of the first things be to try and find some more information on the curse? 
 
-
+In the end, _It Follows_ offers little genuine horror. Nor does it offer anything in the way of vicarious thrills. Its attempts to subvert slasher tropes only reinforcing their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
 
 [^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
 
-[^2]: Putting aside the logic of electricuting a semi-invisiable monster, what kind of pool wouldn't have GFE wiring that would prevent this from working?
+[^2]: Putting aside the logic of electrocuting a semi-invisible monster, what pool wouldn't have GFCI wiring?
