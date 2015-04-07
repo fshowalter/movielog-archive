@@ -42,11 +42,11 @@ Once again, Jay flees. The film breaks the narrative circle by having Jay crash 
 
 The strangers don't last long either, likely because Jay either doesn't warn them or they just don't believe her. Either way, the thing's soon back after Jay, but this time her and her friends come up with a plan. 
 
-The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various electrical items. The plan seems to be to electrocute the apparition.[^2] After a bit the thing does show up, but is reluctant to enter the water. Instead, it starts throwing the various things at Jay. One of her friends produces a handgun. He fires at where the creature might be, winging another of her friends in the process before finally putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies.
+The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various electrical items. The plan seems to be to electrocute the apparition.[^2] After a bit the thing does show up, but is reluctant to enter the water. Instead, it starts throwing things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of her friends before finally putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies, ending the curse.
 
-But, of course, it doesn't die. And neither does the film end. Instead, Jay has sex with another of her friends. The ambiguous ending sees the two walking hand in hand down the street, possibly aware of the creature looming behind them.
+But, of course, it doesn't end. And neither does the film. Instead, Jay has sex with another of her friends. The ambiguous finale sees the two walking hand in hand down the street, with a figure that might be the creature looming behind them. 
 
-As I said this is a well-produced and well-acted film. The suburban locals bring to mind a less idlyic and more lived-in feel than the grandfather of suburban horror _Halloween (1979)_, rendering them even more relatable. The film bucks the trend of POV found-footage or hyper kenetic jump-cuts and opts for an atmospheric slow-burn. Given the script, I'm not sure this film could have been done any better.
+To be fair, this is a well-produced film dripping with atmosphere. The suburban locales evoke lived-in feel, while the Detroit cityscape reeks of urban decay. There's no hyper-kinetic editing or gimmicky found-footage. It's a slow burn. Given the script, I'm not sure this film could have been done any better.
 
 But about that script.
 
