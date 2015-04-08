@@ -29,7 +29,7 @@ Hugh tells her something is now following her. It doesn't run, but it's always w
 
 To prove his point, Hugh wheels Jay to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
 
-This scene is another problem, but again, we'll get to that later.
+This is another problem scene. We'll get to it later.
 
 Hugh dumps Jay on her front lawn, still half-dressed, where her sister and friends find her.
 
