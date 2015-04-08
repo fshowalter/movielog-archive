@@ -6,9 +6,9 @@
 :date: 2015-04-05
 :imdb_id: tt3235888
 :grade: D
-:pull_quote: "_It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. "
+:pull_quote: "_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. "
 ---
-_It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
+_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
 
 The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking over her shoulder. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds off into the darkness.
 
