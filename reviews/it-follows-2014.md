@@ -14,12 +14,9 @@ The story opens at dusk with a girl fleeing her suburban home. Half dressed (but
 
 She stops at a lake and walks down to the water. With the water at her back, she sits down and waits for her pursuer. While she waits, she makes a tearful call to her parents. She apologizes for past transgressions and says she loves them.
 
-Cut to the next morning. The girl lies dead on the beach, her body twisted in a grotesque angle.
-
-This scene is a problem, but I didn't realize it at the time.
+Cut to the next morning. The girl lies dead on the beach, her body twisted in a grotesque angle. This scene is a problem, but I didn't realize it at the time.
 
 Next we meet our protagonist, Jay. She's a nice girl, living in suburban Detroit. She's got a younger sister, and a couple of other friends that make up her social circle. She's been dating a guy named Hugh that she's pretty sweet on. 
-
 Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman in a yellow dress. Jay doesn't see her, but a shaken Hugh insists they leave.
 
 Later that night, Jay has sex with Hugh in the backseat of his car. It's their first time together. Afterwards, Jay lies in the backseat talking while Jay fumbles around in the trunk. He finds what he's looking for and climbs back into the car behind her. Hugh cuts Jay off mid-sentence by covering her mouth with a rag. Jay struggles, but soon passes out.
@@ -28,9 +25,7 @@ Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage
 
 Hugh tells her something is now following her. It doesn't run, but it's always walking in a straight line towards her. If it touches her, she's dead. It can look like anyone. Someone she knows or a complete stranger. It's a curse. Someone gave it to him, and now, by having sex with her, he's given it to her. If the thing gets her, it goes after him again, then right down the line to wherever it started. The best thing she can do now, he says, is to have sex with someone else and pass the curse on.
 
-To prove his point, Hugh wheels Jay to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
-
-This is another problem scene. One I recognized right away. We'll come back to it later.
+To prove his point, Hugh wheels Jay to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. This is another problem scene. One I recognized right away. We'll come back to it later.
 
 Hugh dumps Jay on her front lawn, still half-dressed, where her sister and friends find her.
 
