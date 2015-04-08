@@ -10,7 +10,7 @@
 ---
 _It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
 
-The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking back at her house. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds out of her neighborhood and into the darkness.
+The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking back at her house. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds off into the darkness.
 
 She stops at a lake and walks down to the water. With the water at her back, she sits down and waits for her pursuer. While she waits, she makes a tearful call to her parents. She apologizes for past transgressions and says she loves them.
 
