@@ -16,9 +16,10 @@ She stops at a lake and walks down to the water. With the water at her back, she
 
 Cut to the next morning. The girl lies dead on the beach, her body twisted in a grotesque angle.
 
-This scene is a problem, but we'll get to that later.
+This scene is a problem, but I didn't realize it at the time.
 
 Next we meet our protagonist, Jay. She's a nice girl, living in suburban Detroit. She's got a younger sister, and a couple of other friends that make up her social circle. She's been dating a guy named Hugh that she's pretty sweet on. 
+
 Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman in a yellow dress. Jay doesn't see her, but a shaken Hugh insists they leave.
 
 Later that night, Jay has sex with Hugh in the backseat of his car. It's their first time together. Afterwards, Jay lies in the backseat talking while Jay fumbles around in the trunk. He finds what he's looking for and climbs back into the car behind her. Hugh cuts Jay off mid-sentence by covering her mouth with a rag. Jay struggles, but soon passes out.
@@ -29,7 +30,7 @@ Hugh tells her something is now following her. It doesn't run, but it's always w
 
 To prove his point, Hugh wheels Jay to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
 
-This is another problem scene, but we'll get to that later.
+This is another problem scene. One I recognized right away. We'll come back to it later.
 
 Hugh dumps Jay on her front lawn, still half-dressed, where her sister and friends find her.
 
@@ -49,13 +50,13 @@ To be fair, this is a well-produced film dripping with atmosphere. The suburban 
 
 But about that script.
 
-Remember how I said this movie doesn't work? Let's talk about that.
+Remember those problem scenes? Let's talk about them.
 
-The problems start with the opening sequence. Consider what it would have been like, had we not seen what happened to the girl waiting by the lake.  Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real, or is Jay having some sort of breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
+The opening sequence reveals too much. Consider what it would have been like, had we not seen what happened to the girl waiting by the lake.  Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having some sort of breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
 
-Continuing the too-much-information trend, the film then explains all the details of the curse. 
+Continuing the too-much-information trend, the film then explains all the details of the curse. Worse still, it does it all through dialog.  Rule #1 of good storytelling: Show, don't tell. Rule #1 of horror: Nothing is scarier than the unknown. 
 
-Rule #1 of horror: Nothing is scarier than the unknown. Imagine if the film cut out the sequence with Hugh explaining everything. If it cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house? We wouldn't know what was happening to her. When the creature did show up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
+Now, imagine if the film dropped the sequence with Hugh explaining everything. If it cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house? We wouldn't know what had happened to her. When the creature showed up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
 
 Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to someplace like Australia? Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
 
