@@ -10,9 +10,9 @@
 ---
 _It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
 
-The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking back at her house. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She assures him that she is, as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds out of her neighborhood and into the darkness.
+The story opens at dusk with a girl fleeing her suburban home. Half dressed (but not nude) and wearing high heels, she runs into the street, looking back at her house. Her eyes are wide. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds out of her neighborhood and into the darkness.
 
-She stops at a lake and walks down to the water. With the water at her back, she sits down and waits for her pursuer. While she waits, she makes a tearful call to her parents. She apologizes for past transgressions and assuring them that she loves them.
+She stops at a lake and walks down to the water. With the water at her back, she sits down and waits for her pursuer. While she waits, she makes a tearful call to her parents. She apologizes for past transgressions and says that she loves them.
 
 Cut to the next morning. The girl lies dead on the beach, her body twisted in a grotesque angle.
 
@@ -26,7 +26,7 @@ Later that night, Jay has sex with Hugh in the backseat of his car. It's their f
 
 Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage. Hugh is pacing behind her, his eyes darting around. "You're not going to believe me," he begins, "but I need to you to remember what I'm saying."
 
-Hugh then goes on to tell her something is now following her. It doesn't run, but it's always walking in a straight line right toward her. If it touches her, she's dead. It can look like anyone. Someone she knows or a complete stranger. It's a curse. Someone gave it to him, and now, by having sex with her, he's given it to her. If the thing gets her, it starts going after Hugh again, then right down the line to wherever it started. The best thing she can do now, Hugh says, is to have sex with someone else and pass the curse on.
+Hugh tells her something is now following her. It doesn't run, but it's always walking in a straight line right toward her. If it touches her, she's dead. It can look like anyone. Someone she knows or a complete stranger. It's a curse. Someone gave it to him, and now, by having sex with her, he's given it to her. If the thing gets her, it goes after Hugh again, then right down the line to wherever it started. The best thing she can do now, Hugh says, is to have sex with someone else and pass the curse on.
 
 To prove his point, he wheels her to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is nearly on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
 
@@ -42,7 +42,7 @@ Once again, Jay flees. The film breaks the narrative circle by having Jay crash 
 
 The strangers don't last long either, likely because Jay either doesn't warn them or they just don't believe her. Either way, the thing's soon back after Jay, but this time her and her friends come up with a plan. 
 
-The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various electrical items. The plan seems to be to electrocute the apparition.[^2] After a bit the thing does show up, but is reluctant to enter the water. Instead, it starts throwing things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of her friends before finally putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies, ending the curse.
+The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various electrical items. The plan seems to be to electrocute the apparition[^2]. After some tense waiting, the thing shows up, but is reluctant to enter the water. Instead, it starts throwing things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of her friends before putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies, ending the curse.
 
 But, of course, it doesn't end. And neither does the film. Instead, Jay has sex with another of her friends. The ambiguous finale sees the two walking hand in hand down the street, with a figure that might be the creature looming behind them. 
 
@@ -60,7 +60,7 @@ Rule #1 of horror: Nothing is scarier than the unknown. By establishing rules an
 
 Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to Europe or Spain or, perhaps best of all, Australia. Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
 
-And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't one of the first things be to try and find some more information on the curse? 
+And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse? 
 
 In the end, _It Follows_ offers little genuine horror. Nor does it offer anything in the way of vicarious thrills. Its attempts to subvert slasher tropes only reinforcing their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
 
