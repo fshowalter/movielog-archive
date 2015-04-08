@@ -62,7 +62,7 @@ Which leads me to the biggest problem of all. Yes this is horrible curse, but it
 
 And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse? 
 
-In the end, _It Follows_ offers little genuine horror. Nor does it offer anything in the way of vicarious thrills. Its attempts to subvert slasher tropes only reinforcing their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
+In the end, _It Follows_ offers little genuine horror and the manufactured sense of dread wears thin well before the finale. Nor does it offer anything in the way of vicarious thrills. Its attempts to subvert slasher tropes only reinforcing their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
 
 [^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
 
