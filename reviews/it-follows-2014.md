@@ -16,7 +16,7 @@ She stops at a lake and walks down to the water. With the water at her back, she
 
 Cut to the next morning. The girl lies dead on the beach, her body twisted in a grotesque angle.
 
-This scene is part of why the film doesn't work, but we'll get to that later.
+This scene is a problem, but we'll get to that later.
 
 Next we meet our protagonist, Jay. She's a nice girl, living in suburban Detroit. She's got a younger sister, and a couple of other friends that make up her social circle. She's been dating a guy named Hugh that she's pretty sweet on. 
 Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman in a yellow dress. Jay doesn't see her, but a shaken Hugh insists they leave.
