@@ -34,7 +34,7 @@ Hugh dumps Jay on her front lawn, still half-dressed where her sister and friend
 
 These scenes are another part of why the film doesn't work, but again, we'll get to that later.
 
-The thing soon comes for Jay at her house. It turns out that only people who have the curse can see the thing, so her friends are little help as an early warning system. Jay flees to a park.
+The thing soon comes for Jay at her house. It turns out to be invisible to those not cursed, so her friends are little help as an early warning system. Jay flees to a park.
 
 From there, her and her friends retreat to a neighbor's lake house, but the thing catches up with them. Despite being invisible, the thing manhandles Jay's friends when they try and stop it. 
 
