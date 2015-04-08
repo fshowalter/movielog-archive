@@ -27,11 +27,11 @@ Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage
 
 Hugh tells her something is now following her. It doesn't run, but it's always walking in a straight line towards her. If it touches her, she's dead. It can look like anyone. Someone she knows or a complete stranger. It's a curse. Someone gave it to him, and now, by having sex with her, he's given it to her. If the thing gets her, it goes after him again, then right down the line to wherever it started. The best thing she can do now, he says, is to have sex with someone else and pass the curse on.
 
-To prove his point, he wheels her to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
+To prove his point, Hugh wheels Jay to the edge of the garage. Looking down into the overgrown lot, Jay can see a half-naked woman shambling toward the garage. Hugh waits until the thing enters the garage and is almost on top of them before wheeling Jay out and to his car. They peel out, leaving the thing behind. 
+
+This scene is another problem, but again, we'll get to that later.
 
 Hugh dumps Jay on her front lawn, still half-dressed, where her sister and friends find her.
-
-These scenes are another part of why the film doesn't work, but again, we'll get to that later.
 
 The thing soon comes for Jay at her house. It turns out to be invisible to those not cursed, so her friends are little help as an early warning system. Jay flees to a park.
 
@@ -55,7 +55,7 @@ The problems start with the opening sequence. Consider what it would have been l
 
 Continuing the too-much-information trend, the film then explains all the details of the curse. 
 
-Rule #1 of horror: Nothing is scarier than the unknown. By establishing rules and limitations, the filmmakers have made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
+Rule #1 of horror: Nothing is scarier than the unknown. Imagine if the film cut out the sequence with Hugh explaining everything. If it cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house? We wouldn't know what was happening to her. When the creature did show up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
 
 Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to someplace like Australia? Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
 
