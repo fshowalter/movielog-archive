@@ -44,7 +44,7 @@ The strangers don't last long either, likely because Jay either doesn't warn the
 
 The go to the local indoor pool, where Jay waits in the center of the water. Around the edges, they've placed various electrical items. The plan seems to be to electrocute the apparition[^2]. After some tense waiting, the thing shows up, but is reluctant to enter the water. Instead, it throws things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of her friends before putting a bullet right in the creature's head. The thing falls into the pool, and tries to drag Jay under before it dies, ending the curse.
 
-But, of course, it doesn't end. And neither does the film. Instead, Jay has sex with another of her friends. The ambiguous final shot sees the two walking hand-in-hand with a figure that might be the creature looming behind. 
+But, of course, it doesn't end. And neither does the film. Instead, Jay has sex with another of her friends. The ambiguous final shot sees the two walking hand-in-hand while someone that might be the creature approaches from behind. 
 
 To be fair, this is a well-produced film dripping with atmosphere. The suburban locales evoke lived-in feel, while the Detroit cityscape reeks of urban decay. There's no hyper-kinetic editing or gimmicky found-footage. It's a slow burn. Well, maybe more like a slow singe. Given the script, I'm not sure this film could have been done any better.
 
@@ -58,7 +58,7 @@ Continuing the too-much-information trend, the film then explains all the detail
 
 Rule #1 of horror: Nothing is scarier than the unknown. By establishing rules and limitations, the filmmakers have made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like Herpes today. 
 
-Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to Europe or Spain or, perhaps best of all, Australia. Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
+Which leads me to the biggest problem of all. Yes this is horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to someplace like Australia? Judging by the pool incident it doesn't like water, which means it probably can't swim, which means you're safe. 
 
 And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse? 
 
