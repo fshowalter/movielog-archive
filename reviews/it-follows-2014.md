@@ -52,7 +52,7 @@ But about that script.
 
 Remember how I said this movie doesn't work? Let's talk about that.
 
-The problems start with the opening sequence. Consider what it would have been like, had we not seen what happened to the girl waiting by the lake.  Only those cursed can see the creature, thus, the script could have played with the concept of the unreliable narrator. Is the curse real, or is Jay having some sort of breakdown. By showing the girl dead in a manner that required super-human strength, the film loses any ambiguity. The curse is real.
+The problems start with the opening sequence. Consider what it would have been like, had we not seen what happened to the girl waiting by the lake.  Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real, or is Jay having some sort of breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
 
 Continuing the too-much-information trend, the film then explains all the details of the curse. 
 
