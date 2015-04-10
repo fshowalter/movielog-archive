@@ -6,9 +6,9 @@
 :date: 2015-03-31
 :imdb_id: tt0023590
 :grade: C+
-:pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast as good as this, one is hard-pressed to care. 
+:pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast this good, one is hard-pressed to care. 
 ---
-Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. In turn, the performers worked five days a week like anyone else. When one film was done, they moved on to another. Thus, films like _Three on a Match_ come stock-piled with current and future stars. 
+Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. In turn, the performers worked five days a week like anyone else. When one film was done, they moved to another. Thus, films like _Three on a Match_ came stock-piled with current and future stars. 
 
 The story begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
 
@@ -42,4 +42,4 @@ Unfortunately for all involved, Michael owes money to a mobster named Ace, playe
 
 It’s a lot of plot for 63 minutes. This is a good thing. Things move so fast we’re not given much time to consider the insanity. And make no mistake, this movie is nuts. Vivian’s fall from society lady to street-corner junkie plays like a caricature. Mary wastes her school years getting into trouble and ends up a society darling. Vivian spends her life doing what’s expected of her and sees her world collapse the first time she steps out of line. And Ruth, poor Ruth. She works, head down, as hard as she can, only to end up working for Mary. How’s that for a mixed message?
 
-But _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast as good as this, one is hard-pressed to care. 
+But _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast this good, one is hard-pressed to care. 
