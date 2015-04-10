@@ -8,7 +8,7 @@
 :grade: C+
 :pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast this good, one is hard-pressed to care. 
 ---
-Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. In turn, the performers worked five days a week like anyone else. When one film was done, they moved to another. Thus, films like _Three on a Match_ came stock-piled with current and future stars. 
+Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. The performers worked five days a week like anyone else. When one film wrapped, they moved to another. Thus, films like _Three on a Match_ came stock-piled with current and future stars. 
 
 The story begins in the fall of 1919. The film sets the time with what's now a common device, a montage of newspaper headlines.  Jack Dempsey wins the world heavyweight title. Prohibition passes. Woman's suffrage passes. Then, a smaller article. The New York City schools are set to reopen after summer vacation.
 
