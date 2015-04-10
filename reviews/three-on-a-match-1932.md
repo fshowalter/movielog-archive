@@ -14,15 +14,15 @@ The story begins in the fall of 1919. The film sets the time with what's now a c
 
 Cut to Public School 64. The camera pans back to reveal a schoolyard teaming with children. Hundreds of them. Were they not twirling about, playing on slides and swings, it would pass for a prison yard. Here, we meet three pre-teen girls. 
 
-Mary is an exhibitionist. She doesn't mind that her bloomers are showing while she's playing on the swing or the attention it gets from some of the boys. This is much to the chagrin of class-beauty Vivian. When Mary skips class to smoke cigarettes with some boys, Vivian wants to tell on her. She's dissuaded by studious Ruth.
+Mary is an exhibitionist. She doesn't mind her bloomers showing while she's playing on the swing or the attention it gets from the boys. Much to the chagrin of class-beauty Vivian. When Mary skips class to smoke cigarettes with some boys, Vivian wants to tell on her. She's dissuaded by studious Ruth.
 
 Time passes with more headlines. The girls are set to graduate. Ruth is valedictorian. Vivian is voted most popular. Mary’s been in so much trouble, she’s almost held back.
 
-After the ceremony, Ruth and Vivian talk about their futures. Ruth, her family unable to afford her going to high school, is off to secretarial school so she might get a job. Vivian, with her wealthy family, is off to an exclusive boarding school. They both wonder what will become of Mary.
+After the ceremony, Ruth and Vivian talk about their futures. Ruth's family can't afford her going to high school, so she's off to secretarial school so she might get a job. Vivian, however, is off to an exclusive boarding school. They both wonder what will become of Mary.
 
-More time passes. It's 1925 now. The girls are teenagers. Mary, now played by Joan Blondell, has ended up at the state reform school. Vivian, now played by Anne Dvorak is reading lewd romance novels to her rapt roommates in Miss Jasons School for Young Ladies. Ruth, now played by Bette Davis, toils away in secretarial school.
+More time passes. It's 1925 now. The girls are teenagers. Mary, now played by Joan Blondell, is in reform school. Vivian, now played by Anne Dvorak is reading lewd romance novels to her rapt roommates in Miss Jasons School for Young Ladies. Ruth, now played by Bette Davis, toils away in secretarial school.
 
-Now it’s 1930. We see Mary in a beauty parlor getting her hair done. She’s telling her beautician how she ran into Ruth earlier that day and how she hasn’t seen her since their days at Public School 64. Vivian is at the same beauty parlor and overhear’s Mary’s mention of Public School 64. Reunited, the three women meet for lunch.
+Now it’s 1930. Mary sits in a beauty parlor getting her hair done. She’s telling her beautician how she ran into Ruth earlier that day and how she hasn’t seen her since their days at Public School 64. Vivian is at the same beauty parlor and overhears Mary’s mention of Public School 64. Reunited, the three women meet for lunch.
 
 Something I love about the pictures of this era. Running just over an hour, they had to be efficient. Here, we get ten years of backstory and characterization in under five minutes. 
 
