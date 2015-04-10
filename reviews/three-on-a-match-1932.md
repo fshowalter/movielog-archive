@@ -34,7 +34,7 @@ From here, Vivian descends into a drug-and-alcohol-fueled nightmare. We see her 
 
 Mary, feeling responsible, visits Robert and tells him where to find Vivian. Robert reclaims his son and divorces Vivian.  Mary and Robert grow closer. On the day his divorce is final, he asks Mary to become his wife. Mary agrees. Ruth joins the family as a nanny.
 
-In between, we have the obligatory pre-code shot of a woman putting on her stockings. In this case it’s Bette Davis.
+In between, we have the obligatory pre-code shot of a woman putting on her stockings. Here, it’s Bette Davis.
 
 Meanwhile, Vivian has continued her fall from grace. Michael turns out to be a gambler and the two are now desperate for money to feed their habits. Vivian, waiting outside the same uptown apartment building she used to call home, begs Mary for money. After they burn through that, Michael tries extorting Robert. When that doesn’t work, Michael kidnap’s Robert’s son. 
 
