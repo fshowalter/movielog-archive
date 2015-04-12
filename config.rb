@@ -135,12 +135,7 @@ ready do
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
   ].each do |redirect|
     old_slug, new_slug = redirect
-    proxy(
-      "#{old_slug}.html", 
-      'redirect.html', 
-      locals: { new_slug: new_slug }, 
-      ignore: true, 
-      no_sitemap: true)
+    proxy("#{old_slug}.html", 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
   end
 end
 
@@ -157,26 +152,3 @@ module Sass::Script::Functions # rubocop:disable Style/ClassAndModuleChildren
     Sass::Script::String.new(data_url)
   end
 end
-
-#
-# Opened to allow for excluding files.
-#
-class Sitemap < ::Middleman::Extension
-  def generate_sitemap
-    pages = app.sitemap.resources.find_all{ |p| p.ext == ".html" && !p.data.no_sitemap }
-
-    if pages.count > 50000
-      sitemaps = build_multiple_sitemaps(pages)
-    else
-      sitemaps = [build_sitemap("sitemap.xml", pages)]
-    end
-
-    if options.gzip
-      sitemaps.each do |sitemap|
-        gzip_file(sitemap)
-        @builder.say_status :create, "#{sitemap}.gz" if @builder
-      end
-    end
-  end
-end
-
