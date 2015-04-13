@@ -16,7 +16,7 @@
   }
 
   @media (min-width: $breakpoint) {
-    line-height: .7rem;
+    line-height: .35rem;
     padding-bottom: .7rem;
     padding-top: 1.4rem;
 
@@ -57,7 +57,8 @@
   line-height: 1.5rem;
 
   @media (min-width: $breakpoint) {
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    padding-bottom: 9px;
   }
 }
 
@@ -122,10 +123,10 @@
 
   @media (min-width: $breakpoint) {
     font-size: .9rem;
-    line-height: 1.1;
-    min-height: 1.4rem;
+    line-height: 1.2;
+    // min-height: 1.4rem;
     margin-bottom: 0;
-    padding: 0;
+    padding: 0 0 7px;
 
     &:before {
       display: none;

@@ -8,7 +8,7 @@ fc = null;
 InstantClick.on('change', (initial) ->
   fc.destroy() if fc
   fc = FastClick.attach(document.body);
-  window.set_rhythm unless initial
+  window.set_rhythm
 )
 
 InstantClick.init();
