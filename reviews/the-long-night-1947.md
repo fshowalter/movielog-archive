@@ -6,11 +6,11 @@
 :date: 2015-02-26
 :imdb_id: tt0039581
 :grade: D+
-:pull_quote: _The Long Night_ is one of those films that starts well, only to lose its way in the third act.
+:pull_quote: _The Long Night_ starts well, only to lose its way in the third act.
 ---
-_The Long Night_ is one of those films that starts well, only to lose its way in the third act.
+_The Long Night_ starts well, only to lose its way in the third act.
 
-The story starts with a murder. We’re inside an apartment building on the working-class side of the tracks. We hear gunshots. A man staggers out of a unit holding his gut and tumbles down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
+The story opens with a murder. We’re inside an apartment building on the working-class side of the tracks. We hear gunshots. A man staggers out of a unit holding his gut and tumbles down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
 
 Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He’s a wholesome guy. He drinks milk and uses exclamations like, “No kidding!” 
 
