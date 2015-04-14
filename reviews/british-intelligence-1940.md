@@ -10,7 +10,7 @@
 ---
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. I see no other way to review the film. Plot is all it has to offer.
 
-It’s World War I and the British are hurting. The Germans seem to know every move they’re about to make before they make it. The British suspect someone in their organization is the famed German spy Strendler. But no one knows what Strendler looks like. The British resolve to pull their best spy out from undercover field duty to weed out Strendler. But even that plan leaks to the Germans, who kill the British agent and shoot down his extraction plane. The pilot, Frank Bennett, survives and we see him in a hospital being tended to by a nurse, Helene von Lorbeer (Margaret Lindsay). There’s an attraction between the two, but she says she has to leave.
+It’s World War I and the British are hurting. The Germans seem to know every move they’re about to make before they make it. The British suspect someone in their organization is the famed German spy Strendler. But no one knows what Strendler looks like. The British resign to pulling their best spy from field duty to weed out Strendler. But even that plan leaks to the Germans, who kill the British agent and shoot down his extraction plane. The pilot, Frank Bennett, survives and we see him in a hospital being tended to by a nurse, Helene von Lorbeer (Margaret Lindsay). There’s an attraction between the two, but she says she has to leave.
 
 Von Lorbeer turns out to be a German spy. She’s recalled to headquarters, given a commendation and a new assignment. Posing as a refugee, she’s to infiltrate the house of British cabinet minister Arthur Bennett. Arthur is, of course, Frank’s father.
 
