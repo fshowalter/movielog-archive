@@ -8,7 +8,7 @@
 :grade: C+
 :pull_quote: _Stake Land_ may not be a revelation, but it is a solid entry in the post-apocalyptic horror genre. The script respects the audience. When Martin hears that his family is "already dead," he accepts it with wisdom seldom seen in horror films.
 ---
-_Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac, searching for the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as a kind of chemical weapon, dropping them out of helicopters into neighboring towns.
+_Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac, searching for the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as a weapon, dropping them out of helicopters into neighboring towns.
 
 After a grisly opening sequence where we see a vamp drain and discard the corpse of an infant, _Stake Land_ keeps its baddies off-screen as much as possible. Instead, it's content to let the scenery establish atmosphere. Deserted strip malls. Desolate two-lane blacktops. Overgrown buildings. Rusted scrapheaps. An urban wilderness. It's like a western with a super-bloody third act.
 
