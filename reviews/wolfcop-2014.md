@@ -6,7 +6,7 @@
 :date: 2015-04-12
 :imdb_id: tt2781516
 :grade: B
-:pull_quote: _WolfCop_ is about an alcholic sherrif's deputy who becomes a werewolf and uses his newfound powers to clean up his small town. If you think this sounds rediculous, this is not the movie for you. If you think this sounds awesome, this is not the movie for you. If you this this sounds rediculous _and_ awesome, you're in for a treat.
+:pull_quote: _WolfCop_ is about an alcholic sherrif's deputy who becomes a werewolf and uses his newfound powers to clean up his small town. If this sounds rediculous, this is not the movie for you. If this sounds awesome, this is not the movie for you. If this sounds rediculous _and_ awesome, you're in for a treat.
 ---
 _WolfCop_ is about an alcholic sherrif's deputy who becomes a werewolf and uses his newfound powers to clean up his small town. If you think this sounds rediculous, this is not the movie for you. If you think this sounds awesome, this is not the movie for you. If you this this sounds rediculous _and_ awesome, you're in for a treat.
 
