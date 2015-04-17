@@ -18,13 +18,6 @@ When our protagonist, Lou, undergoes his first transformation, he's drunk in a d
 
 It's a crazy shot, but it's not gratuitous. By going with the genitals, WolfCop does a better job conveying character's pain during the transformation than any werewolf film I can recall. I laughed and cringed in the same breath.
 
-Not every scene is as calculated. Some scenes, such as when WolfCop tricks out his police cruiser, are just silly. But the film knows they're silly and treats them accordingly. 
+Not every scene is as calculated. Some scenes, such as when WolfCop tricks out his police cruiser, or when he foils a gang of graffitti artisits by hosing them down with his own urine, are just silly. But that's okay. The film has a lot of fun pushing werewolf genre tropes to their extremes. 
 
-_WolfCop_ is not a serious horror film. The result is a tone-perfect, greasy hamburger of a movie that clocks in at a scant seventy nine minutes. 
-
-
-
-It never takes itself seriously, but the folks involved  
-
-They pander to writer/director Lowell Dean's tastes. But they never feel forced.  wolfman police officer cruising around in a 
-
+_WolfCop_ is not a serious horror film, but it's not an overt comedy either. It's a mismash of cop drama, werewolf horror, and expoitation picture. The result is a tone-perfect, greasy hamburger of a movie that clocks in at a scant seventy nine minutes. 
