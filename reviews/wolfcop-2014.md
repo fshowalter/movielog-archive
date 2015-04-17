@@ -21,3 +21,5 @@ It's a crazy shot, but it's not gratuitous. By going with the genitals, WolfCop 
 Not every scene is as calculated. Some scenes, such as when WolfCop tricks out his police cruiser, or when he foils a gang of graffitti artisits by hosing them down with his own urine, are just silly. But that's okay. The film has a lot of fun pushing werewolf genre tropes to their extremes. 
 
 _WolfCop_ is not a serious horror film, but it's not an overt comedy either. It's a mismash of cop drama, werewolf horror, and expoitation picture. The result is a tone-perfect, greasy hamburger of a movie that clocks in at a scant seventy nine minutes. 
+
+And lets face it, if the bit about the ballooning penis didn't inform you as to whether or not this was a movie for you, I don't know what else to say.
