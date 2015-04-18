@@ -8,7 +8,7 @@
 :grade: B
 :pull_quote: _WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. If this sounds ridiculous, this may not be the movie for you. If this sounds awesome, this may not be the movie for you. If this sounds ridiculous _and_ awesome, you’re in for a treat.
 ---
-_WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. If this sounds ridiculous, this may not be the movie for you. If this sounds awesome, this may not be the movie for you. If this sounds ridiculous _and_ awesome, you’re in for a treat.
+_WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. It is ridiculous in the best possible way. 
 
 They don’t make movies like this anymore. Nowadays, B-Movies are nothing but manufactured, formulaic, schlock neutered for release on basic cable. The manic energy present in the best of 70s grindhouse pictures is gone, along with any sense of pride from the people involved. Instead, we get half-assed camp with D-list performers that can’t disguise their contempt for the material.
 
