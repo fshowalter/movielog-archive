@@ -9,9 +9,9 @@
 :pull_quote: It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
 ---
 
-It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
+It's not good when the DVD supplements are more interesting than the feature film, but such is the case with _The Bloody Judge_.
 
-The setting is England during the final days of King James II. Christopher Lee plays George Jeffreys, the titular Bloody Judge. In a series of trials that came to be known as the Bloody Assizes, Jeffreys meted out death sentences to suppress the burgeoning rebellion.
+The setting is England during the final days of King James II. Christopher Lee plays George Jeffreys, the titular Bloody Judge. Through a series of trials later known as the Bloody Assizes, Jeffreys meted out death sentences to suppress the burgeoning rebellion.
 
 In the making-of featurette, Lee describes Jeffreys as a kind of Jekyll-and-Hyde figure. On the one hand, a brilliant legal mind who rose to become the highest justice in the land. On the other, a merciless executioner who sentenced hundreds to their deaths. Had the film had focused on this dichotomy, it might have worked.
 
