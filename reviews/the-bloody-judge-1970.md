@@ -27,4 +27,4 @@ The resulting mis-mash is surprisingly boring. Think long, ponderous scenes full
 
 If you're in it for these exploitation sequences, I recommend liberal use of the fast-forward button.
 
-The disparate financing also explains the myriad of alternate titles. In the US it was called _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Note, there is no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
+The disparate financing also explains the myriad of alternate titles. In the US it was called _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Note: there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
