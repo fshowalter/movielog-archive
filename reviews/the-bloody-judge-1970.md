@@ -22,4 +22,4 @@ Making things even worse, Lee and director Jesús Franco disagreed on how to por
 
 The resulting mishmash is dull and disjointed. Long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation. In this case, Howard Vernon, dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
 
-The financing amalgam also explains the myriad of alternate titles. In the US it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Never mind that there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
+The financing amalgam also explains the myriad of alternate titles. In the US it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Now, there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
