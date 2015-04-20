@@ -28,7 +28,11 @@ helpers do
 
     wordcount = source.scan(/[[:alpha:]]+/).count
 
-    wordcount / 275
+    count = wordcount / 275
+    
+    return 1 if count == 0
+    
+    count
   end
 
   def inline_svg(filename, options = {})
