@@ -10,15 +10,15 @@
 ---
 _The Bloody Judge_ is set in England during the final days of King James II. Christopher Lee plays George Jeffreys, the Lord Chief Justice who meted out death sentences to suppress the burgeoning rebellion. These sham trials later become known as the Bloody Assizes. 
 
-In a making-of featurette, Lee describes Jeffreys as a kind of Jekyll-and-Hyde figure. On the one hand, a brilliant legal mind who rose to become the highest justice in the land. On the other, a merciless executioner who sentenced hundreds to their deaths. Had the film had focused on this dichotomy, it might have worked.
+In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. On one hand, a brilliant legal mind who rose to become the highest justice in the land. On the other, a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
 
-Instead, most of the screen time belongs to a group of fictitious characters. There's Mary, a peasant girl Jeffreys obsesses over. And Harry, Mary's lover. Besides Mary's affections, Harry has connections to the rebels, doubly infuriating Jeffreys. But Harry is the son of Lord Wessex, a sometime friend of Jeffreys, which makes things tricky. The film revolves around this triangle. Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
+Instead, most of the screen time belongs to a pair of fictitious characters. Mary, a peasant girl Jeffreys obsesses over, and Harry, Mary's lover. Besides Mary's affections, Harry has connections to the rebels, doubly infuriating Jeffreys. But Harry is the son of Lord Wessex, a political ally of Jeffreys, making things tricky. The film revolves around this triangle. Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
 Oh, and there's a blind oracle who may or may not be psychic.
 
-The logic behind these disparate plot points came down to money. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
+The source of these disparate plot points was money. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
 
-Making things even worse, Lee and director Jesús Franco disagreed on how Lee should portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
+Making things even worse, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
 The resulting mishmash is surprisingly dull. 
 Think long, wooden scenes leaden with exposition, interrupted by an occasional bit of exploitation. In this case, Howard Vernon, dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
