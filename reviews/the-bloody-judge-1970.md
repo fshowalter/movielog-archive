@@ -20,7 +20,7 @@ The logic behind these disparate plot points came down to money. The film had a 
 
 Making things even worse, Lee and director Jesús Franco disagreed on how Lee should portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
-The resulting mis-mash is surprisingly dull. 
-Think long, wooden scenes leaden with exposition. There's also an occasional sequence where Howard Vernon, dressed like Boris Karloff in _The Tower of London (1939)_, tortures a semi-nude woman covered in Technicolor blood.  If you're in it for these exploitation bits, I recommend liberal use of the fast-forward button.
+The resulting mishmash is surprisingly dull. 
+Think long, wooden scenes leaden with exposition, interrupted by an occasional bit of exploitation. In this case, Howard Vernon, dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
 
 The financing amalgam also explains the myriad of alternate titles. In the US it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_. Note: there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
