@@ -16,7 +16,7 @@ Instead, most of the screen time belongs to a pair of fictitious characters. Mar
 
 There's also a blind oracle who may or may not be psychic.
 
-These disparate plot points were born out of the film's financing. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
+These disparate plot points came from the film's funding. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
