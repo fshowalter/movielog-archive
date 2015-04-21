@@ -6,9 +6,11 @@
 -:date: 2014-08-03
 -:grade: D
 -:imdb_id: tt0064727
--:pull_quote: It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
+-:pull_quote: It's not a good sign when the DVD extras make for better viewing than the feature film, but such is the case with  _The Bloody Judge_.
 ---
-_The Bloody Judge_ takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, the infamous judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
+It's not a good sign when the DVD extras make for better viewing than the feature film, but such is the case with  _The Bloody Judge_.
+
+The film takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, the infamous judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
 
 In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. Both a brilliant legal mind and a merciless executioner. Had the film focused on this dichotomy, it might have worked.
 
