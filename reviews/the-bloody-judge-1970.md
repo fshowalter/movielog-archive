@@ -1,4 +1,4 @@
-----
+---
 -:sequence: 3
 -:title: Il trono di fuoco (1970)
 -:slug: the-bloody-judge-1970
@@ -7,7 +7,7 @@
 -:grade: D
 -:imdb_id: tt0064727
 -:pull_quote: It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
-----
+---
 _The Bloody Judge_ takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, the infamous judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
 
 In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. Both a brilliant legal mind who rose to the highest justice in England and a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
