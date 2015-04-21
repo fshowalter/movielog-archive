@@ -14,14 +14,16 @@ In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. B
 
 Instead, most of the screen time belongs to a pair of fictitious characters. Mary, a peasant girl Jeffreys obsesses over, and Harry, Mary's lover. 
 
-The film revolves around this triangle. Harry joins the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
+The film revolves around this triangle. Harry joins the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
 There's also a blind oracle who may or may not be psychic.
 
-It's a mess of disparate plot points brought on by the film's funding. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. At least no one wanted a comedy.
+It's a mess of disparate plot points brought on by the film's many financing sources. Each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. At least no one wanted a comedy.
 
-Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
+Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
-The resulting mishmash is dull and disjointed. Long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation. In this case a man dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
+The resulting mishmash is dull and disjointed. Long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1].
 
 The financing amalgam also explains the myriad of alternate titles. In the US it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
+
+[^1]:  In this case, a man dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
