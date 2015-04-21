@@ -24,6 +24,6 @@ Compounding matters, Lee and director Jesús Franco disagreed on how to portray 
 
 The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1].
 
-The financing amalgam also explains the myriad of alternate titles. In the US it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
+The financing amalgam also explains the myriad of alternate titles. In the United States it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
 
 [^1]:  In this case, a man dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
