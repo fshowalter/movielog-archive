@@ -10,7 +10,7 @@
 ---
 _The Bloody Judge_ takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, a judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
 
-In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. A brilliant legal mind who rose to the highest justice in the land and a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
+In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. Both a brilliant legal mind who rose to the highest justice in England and a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
 
 Instead, most of the screen time belongs to a pair of fictitious characters. Mary, a peasant girl Jeffreys obsesses over, and Harry, Mary's lover. 
 
@@ -18,7 +18,7 @@ The film revolves around this triangle. Harry joins the rebellion. Jeffreys want
 
 There's also a blind oracle who may or may not be psychic.
 
-These disparate plot points came from the film's funding. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
+It's a mess of disparate plot points brought on by the film's funding. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. At least no one wanted a comedy.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
