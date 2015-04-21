@@ -8,15 +8,15 @@
 :imdb_id: tt0064727
 :pull_quote: It's not a good sign when the making-of featurette on the DVD is more interesting than the feature film, but such is the case with _The Bloody Judge_.
 ---
-_The Bloody Judge_ is set in England during the final days of King James II. Christopher Lee plays George Jeffreys, the Lord Chief Justice who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
+_The Bloody Judge_ is set in England during the final days of King James II. Christopher Lee plays George Jeffreys, a judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
 
-In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. A brilliant legal mind who rose to become the highest justice in the land and a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
+In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. A brilliant legal mind who rose to the highest justice in the land and a merciless executioner who sentenced hundreds to their deaths. Had the film focused on this dichotomy, it might have worked.
 
-Instead, most of the screen time belongs to a pair of fictitious characters. Mary, a peasant girl Jeffreys obsesses over, and Harry, Mary's lover. Harry's in league with the rebels, but he's also the son of one of Jeffreys' political allies. The film revolves around this triangle. Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
+Instead, most of the screen time belongs to a pair of fictitious characters. Mary, a peasant girl Jeffreys obsesses over, and Harry, Mary's lover. Harry's in league with the rebels, but his father is one of Jeffreys' political allies. The film revolves around this triangle. Jeffreys orders Mary arrested. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
 There's also a blind oracle who may or may not be psychic.
 
-These disparate plot points were born from money. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
+These disparate plot points were born out of the film's financing. The film had a slew of financing sources and each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. At least no one wanted a comedy.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted to be faithful to history.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
