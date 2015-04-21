@@ -16,13 +16,13 @@ Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses 
 
 There's also a blind oracle who may or may not be psychic.
 
-It's a mess of disparate plot points mandated by the film's many financing sources. Each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. 
+It's a mess of disparate plot points. The film had multiple financiers and each wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. 
 
 At least no one wanted a comedy.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
-The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1]. 
+The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1]. Things pick up when the revolution rolls around, but not enough to make this worthwhile.
 
 The financing amalgam also explains the myriad of alternate titles. In the United States it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
 
