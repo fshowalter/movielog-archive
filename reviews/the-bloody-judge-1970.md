@@ -22,7 +22,7 @@ At least no one wanted a comedy.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
 
-The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1]. Things pick up when the revolution rolls around, but not enough to make this worthwhile.
+The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1]. 
 
 The financing amalgam also explains the myriad of alternate titles. In the United States it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
 
