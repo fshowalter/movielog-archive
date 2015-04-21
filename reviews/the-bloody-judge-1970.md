@@ -12,7 +12,7 @@ _The Bloody Judge_ takes place in England during the final days of King James II
 
 In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. Both a brilliant legal mind and a merciless executioner. Had the film focused on this dichotomy, it might have worked.
 
-Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses over Mary, a peasant girl. Mary's lover, Harry, is part of the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
+Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses over a peasant girl named Mary. Mary's lover, Harry, is part of the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
 There's also a blind oracle who may or may not be psychic.
 
