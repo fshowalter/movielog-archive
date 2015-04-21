@@ -14,7 +14,7 @@ In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. B
 
 Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses over Mary, a peasant girl. Harry, Mary's lover, is part of the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
-There's also a blind oracle who may or may not be psychic.
+There's also a blind oracle who might be psychic.
 
 It's a mess of disparate plot points mandated by the film's many financing sources. Each financier wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. 
 
