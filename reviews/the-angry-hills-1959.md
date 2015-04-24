@@ -6,6 +6,7 @@
 :date: 2015-01-17
 :imdb_id: tt0052563
 :grade: D
+:backdrop: https://lh3.googleusercontent.com/-0ITxcHZ7znw/VVg1fLhXVQI/AAAAAAAAClM/V0MojGxNt4c/w1000-rj/the-angry-hills-1959.jpg
 :pull_quote: "In the end, _The Angry Hills_ isn't really a movie at all. Instead where given the beginning of one movie, the middle of another, and the end of yet another."
 ---
 _The Angry Hills_ starts well enough. It's 1941. Robert Mitchum plays Mike Morrison, an American Correspondent who has just arrived in Greece. The Nazis are preparing to take the country and Mike plans to be on the next plane out. A member of the Greek resistance presents Mike with a list of Nazi collaborators. He urges Mike to take the list to British Intelligence. Mike declines, saying he doesn’t want to get involved. Later, while out with a friend, Mike discovers the list in his jacket.  Mike attempts to unload the list to another Greek agent, but Gestapo agents are already on Mike's tail. They force him to flee through the darkened back streets of Athens. Mike escapes by hitching a ride on a British convoy.

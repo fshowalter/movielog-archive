@@ -3,6 +3,7 @@
 :title: Welcome Back
 :slug: welcome-back
 :date: 2014-07-01
+:backdrop: https://lh3.googleusercontent.com/-YmKuAshhNOA/VWkpL5MkOqI/AAAAAAAACvU/L7JP7IhnlTg/w1000-rj/welcome-back.jpg
 :pull_quote: >
   My last review was over a year ago. The top of my to-review list is a movie I saw almost two years ago. And there's over 200 movies after that one. I have fallen off the review wagon.
 ---

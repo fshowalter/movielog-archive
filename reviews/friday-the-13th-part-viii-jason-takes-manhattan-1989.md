@@ -6,6 +6,7 @@
 :date: 2015-01-07
 :imdb_id: tt0097388
 :grade: D-
+:backdrop: https://lh3.googleusercontent.com/-Mn4iyhJY2rQ/VWjp38X2MrI/AAAAAAAACpk/1aNpULQU0HA/w1000-rj/friday-the-13th-part-viii-jason-takes-manhattan-1989.jpg
 :pull_quote: "_Friday the 13th Part VIII: Jason Takes Manhattan_ is more disappointing than awful. Aside from a change of scenery, it doesn’t offer anything we haven’t seen done better before."
 ---
 I was about to start high school when this movie came out. I was too young to see it, not that I wanted to. It was the eighth entry in what had become a disregarded franchise. Slasher films were passé.

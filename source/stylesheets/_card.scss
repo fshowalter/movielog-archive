@@ -1,0 +1,151 @@
+$card-background-color: #fff;
+$card-count-background-color: #ddd;
+$card-divider-color: #eee;
+
+.card {
+  background-color: $card-background-color;
+  list-style-type: none;
+  padding-bottom: 2.4rem;
+  position: relative;
+}
+
+.card--with_shadow {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+}
+
+.card_header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 3.6rem;
+  padding: .8rem;
+  position: relative;
+}
+
+.card_header--with_count {
+  padding-left: 3.2rem;
+
+  &:before {
+    background-color: $card-count-background-color;
+    border: solid 1px $card-count-background-color;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .8);
+    content: attr(data-sequence);
+    display: block;
+    font-family: $sans;
+    font-feature-settings: 'onum';
+    font-size: .8rem;
+    font-weight: 300;
+    height: 2rem;
+    left: .8rem;
+    line-height: 2rem;
+    position: absolute;
+    text-align: center;
+    top: .8rem;
+    width: 2rem;
+  }
+}
+
+.card_header-title {
+  color: rgba(0, 0, 0, .8);
+  display: block;
+  font-family: $sans;
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.card_header-rating {
+  display: inline-block;
+  height: .7rem;
+  margin-right: .15rem;
+  width: auto;
+}
+
+.card_header-date {
+  color: rgba(0, 0, 0, .3);
+  display: inline;
+  font-family: $sans;
+  font-feature-settings: 'lnum';
+  font-size: .65rem;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  line-height: .8rem;
+  
+  &:before {
+    content: ' on ';
+    font-weight: normal;
+  }
+}
+
+.card_backdrop {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 .4rem;
+  opacity: 0;
+  padding-top: 56.249999993%;
+  transition: .8s opacity;
+
+  &.loaded {
+    opacity: 1;
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    margin: 0;
+  }
+}
+
+.card_slug {
+  color: rgba(0, 0, 0, .4);
+  font-family: $sans;
+  font-size: .7rem;
+  letter-spacing: -.01rem;
+  line-height: .8rem;
+  padding: .8rem .8rem 0;
+}
+
+.card_text {
+  color: rgba(0, 0, 0, .7);
+  font-family: $serif;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  padding: .8rem;
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card_actions {
+  bottom: 0;
+  color: rgba(0, 0, 0, .4);
+  font-family: $sans;
+  font-size: .7rem;
+  left: 0;
+  letter-spacing: -.01rem;
+  line-height: 1.6rem;
+  padding: .4rem .8rem;
+  position: absolute;
+  right: 0;
+
+  a {
+    display: inline-block;
+    margin-right: .1rem;
+    text-transform: uppercase;
+  }
+}
+
+.card_actions--with_divider {
+  border-top: solid 1px $card-divider-color;
+  padding-top: .35rem;
+}

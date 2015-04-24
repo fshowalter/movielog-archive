@@ -6,6 +6,7 @@
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
+:backdrop: https://lh3.googleusercontent.com/-V2oeZLmfXdI/VWkks3W599I/AAAAAAAACug/1Bb2Sj9kJfw/w1000-rj/psycho-circus-1967.jpg
 :pull_quote: There are lots of red herrings and at least one plot twist you'll likely see coming before everything is wrapped up. All well and good, but a much more interesting mystery is what the cast and crew could have done with a better script.
 ---
 _Circus of Fear_ (_Psycho Circus_, here in the US) opens with a shot of Klaus Kinski's wrist watch. He's part of a group of thieves preparing to execute a daylight holdup of an armored car as it crosses London's Tower bridge. There's no dialog. The crooks work on a precise timetable. Two men setup a road block to divert oncoming traffic, then rush to setup the escape route. Two others take out the escort car and maneuver the armored car to the other side of the bridge. Kinski knocks out the bridge operator and raises the bridge. Everything goes according to plan until one of the thieves panics and shoots one of the guards.

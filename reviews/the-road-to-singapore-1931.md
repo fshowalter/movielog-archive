@@ -6,6 +6,7 @@
 :date: 2014-10-22
 :imdb_id: tt0022321
 :grade: C
+:backdrop: https://lh3.googleusercontent.com/-zZQCZ7uRJkQ/VWj3-xH47NI/AAAAAAAACr4/TXbNeHmpxsI/w1000-rj/the-road-to-singapore-1931.jpg
 :pull_quote: At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums.
 
 ---
