@@ -9,4 +9,29 @@
 .js .js-collapsed {
   height: 0;
   visibility: hidden;
+  width: 0;
+}
+
+.js .js-scale-down {
+  transform: scale(0);
+  transition: all .35s ease-in-out;
+  // transition: all .35s ease-in-out;
+  // transition-duration: 1s;
+  // transition-property: all;
+  
+  opacity: 0;
+}
+
+.js .js-scale-up {
+  // transform: scale(0.6);
+  transform: scale(1); 
+  opacity: 1; 
+  // animation: scaleUp 0.35s ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+  100% { 
+    transform: scale(1); 
+    opacity: 1; 
+  }
 }

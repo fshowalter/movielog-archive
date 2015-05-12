@@ -30,55 +30,51 @@
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
   %body
-    %header.masthead
-      %h1.masthead-title
-        %a.masthead-title-link{ href: '/' } Frank's Movie Log
-      %nav.masthead-nav
-        %button.nav-menu-toggle{ data: { toggle: true }, accessKey: 'M' }
-          Menu
-        %ul.nav-menu.js-collapse.js-collapsed
-          %li.nav-menu-item.nav-menu-item-search
-            = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
-              = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-              .site-search-wrap
-                = text_field_tag('q', placeholder: 'Search the Movie Log',
-                                      id: 'searchInput',
-                                      class: 'site-search-input')
-          %li.nav-menu-item
-            %a.nav-menu-link{ href: '/',
-              class: "#{'active' if current_page.url == '/' }"}
-              Latest Updates
-          %li.nav-menu-item
-            %a.nav-menu-link{ href: '/features/how-i-grade/',
-              class: "#{'active' if current_page.url == '/features/how-i-grade/' }"}
-              How I Grade
-          %li.nav-menu-item
-            %a.nav-menu-link{ href: '/viewings/',
-                class: "#{'active' if current_page.url == '/viewings/' }",
-                 data: { no_instant: true }}
-              Viewing Log
     .content-container{ class: yield_content(:content_class) }
+      %header.masthead
+        %h1.masthead-title
+          %a.masthead-title-link{ href: '/' } Frank's Movie Log
+        %ul.masthead-nav
+          %li.masthead-nav-item
+            %a.masthead-nav-link{ href: '/',
+              class: "#{'active' if current_page.url == '/' }" }
+              Latest Updates
+          %li.masthead-nav-item
+            %a.masthead-nav-link{ href: '/viewings/',
+              class: "#{'active' if current_page.url == '/viewings/' }" }
+              Viewing Log
+          %li.masthead-nav-item
+            %button.search-toggle{ data: { toggle: true }, accessKey: 'S' }
+              Search
+            .search-form
+              = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
+                = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
+                .site-search-wrap
+                  = text_field_tag('q', placeholder: 'Search the Movie Log',
+                                        id: 'searchInput',
+                                        class: 'site-search-input')
       - if content_for?(:header)
         %h2.page-title{ data: { rhythm: 0 }}
           = yield_content(:header)
       = yield
-    %footer.site-footer
-      .site-footer-content
-        = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
-      %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
-                              data: { no_instant: true }}
-        follow
-      %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
-        subscribe
-    - unless development?
-      %script{ async: true, src: '//www.google-analytics.com/analytics.js', data: { no_instant: true }}
+      %footer.site-footer
+        .site-footer-content
+          = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
+        .site-footer-social
+          %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
+                                data: { no_instant: true }}
+            follow
+          %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
+            subscribe
+      - unless development?
+        %script{ async: true, src: '//www.google-analytics.com/analytics.js', data: { no_instant: true }}
+        :javascript
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'UA-55282521-1', 'auto');
+          var pl = window.location.pathname + window.location.search
+          ga('send', 'pageview', { 'page': pl, 'title': document.title })
+      = javascript_include_tag('application.js', async: :async, data: { no_instant: true })
       :javascript
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-55282521-1', 'auto');
-        var pl = window.location.pathname + window.location.search
-        ga('send', 'pageview', { 'page': pl, 'title': document.title })
-    = javascript_include_tag('application.js', async: :async, data: { no_instant: true })
-    :javascript
-      (function(d) {var config={kitId:'obz2qjv',scriptTimeout: 3000, active: window.set_rhythm },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-      })(document);
+        (function(d) {var config={kitId:'ngs8sfs',scriptTimeout: 3000, active: window.set_rhythm },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);

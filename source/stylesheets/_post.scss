@@ -1,5 +1,5 @@
 %post {
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  // border-bottom: 1px solid rgba(0, 0, 0, .05);
   font-feature-settings: 'ordn', 'lnum';
   line-height: 1.3rem;
   margin: 0 0 2.6rem;
@@ -8,8 +8,10 @@
   @media (min-width: $breakpoint) {
     line-height: 1.4rem;
     margin: 0 auto 2.75rem;
-    max-width: 35rem;
+    // max-width: 35rem;
     padding: 0;
+    // border-bottom: 0;
+    // margin-bottom: 0;
   }
 
   a {
@@ -94,6 +96,10 @@
 
 .post-content {
   line-height: 1.4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 35rem;
+  margin: 0 auto;
 
   p {
     margin-bottom: 0;

@@ -11,10 +11,16 @@ class TextFilter
   @DEFAULTS =
     filterAttribute: 'text'
 
+  escapeRegExp: (str) ->
+    str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+
   matcher: ->
     return null unless @$element.val()
-    regex = new RegExp @$element.val(), 'i'
+
+    console.log(@escapeRegExp(@$element.val()))
+    regex = new RegExp(@escapeRegExp(@$element.val()), 'i')
     (item) =>
+      console.log(item.getAttribute(@attribute))
       regex.test item.getAttribute(@attribute)
 
 ###
@@ -27,5 +33,3 @@ $(document).on 'keyup.text-filter.movielog.data-api', '[data-filter-type="text"]
   $this.data('movielog.filter', (data = new TextFilter($this))) unless data
 
   $this.trigger $.Event 'filter-changed.movielog'
-
-

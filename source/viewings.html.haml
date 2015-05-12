@@ -17,7 +17,7 @@ title: Viewing Log
                           ['Viewing Date (Oldest First)', 'viewing-date-asc'],
                           ['Release Date (Newest First)', 'release-date-desc'],
                           ['Release Date (Oldest First)', 'release-date-asc'],
-                          %w(Title title-asc)])
+                          %w(Title sort-title-asc)])
 .column-two-thirds
   %ol.viewing-log-list#viewings
     - sorted_viewings.each do |key|

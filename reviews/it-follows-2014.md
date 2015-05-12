@@ -6,6 +6,7 @@
 :date: 2015-04-11
 :imdb_id: tt3235888
 :grade: D
+:backdrop: https://lh4.googleusercontent.com/-3qgyA_4TF0I/VU7XWMEOs8I/AAAAAAAAChY/ix_9qvqspJY/w1000-rj/it-follows-2014.jpg
 :pull_quote: "_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. "
 ---
 _It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 

@@ -6,6 +6,7 @@
 :date: 2015-01-15
 :imdb_id: tt0040720
 :grade: D
+:backdrop: https://lh4.googleusercontent.com/-iMEYN9aRejY/VTxuQ1wAroI/AAAAAAAACf0/ssKtpBSe_oA/w1200-h760-no/rachel-and-the-stranger.png
 :pull_quote: "There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the hackneyed melodramatic fable they're given to work with is frustrating at best, and annoying at worst."
 ---
 In _Rachel and the Stranger_, William Holden plays David Harvey. David is a pioneer farmer living with his young son Davey in the Ohio wilderness. David's wife Susan died the previous year, sinking him into depression. It's only after finding Davey using a page from one of his school books as a sail for a toy boat, that David resolves to find a new wife. Not for love, but because he knew how important it was to Susan that Davey not grow up "woodsy".

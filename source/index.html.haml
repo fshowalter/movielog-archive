@@ -1,7 +1,7 @@
 ---
 pagination:
   for: posts
-  per_page: 10
+  per_page: 9
   path: page-:num/index
 ---
 :ruby
@@ -9,8 +9,8 @@ pagination:
   unless pagination.page_num == 1
     content_for(:title, "Page - #{pagination.page_num}")
   end
-- content_for(:header) do
-  Latest Updates
+  content_for(:content_class, 'latest-updates')
+
 %ol.latest-updates-list
   - pagination.each do |key|
     - post = posts[key]
@@ -18,28 +18,31 @@ pagination:
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
       %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date{ data: { number: post.sequence }}
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header{ data: { rhythm: 0 } }
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a{ href: "/reviews/#{review.slug}/" }
+        %a.latest-updates-list-item-tile{ href: "/reviews/#{review.slug}/"}
+          %header.latest-updates-list-item-header{ data: { sequence: post.sequence } }
+            %h3.latest-updates-list-item-title
               = "#{review.display_title}"
-          = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
-        %span.latest-updates-list-item-slug{ data: { rhythm: 0 } }
-          %span.abbreviation
-            = ' D'
-          %span.full
-            irected by
-          = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-          %span.full
-            Starring
-          = " #{headline_cast(title: review.title)}."
-        .latest-updates-list-item-pull-quote
-          = markdown(review.pull_quote)
-        .latest-updates-list-item-read-more
-          %a{ href: "/reviews/#{review.slug}/" }
-            Continue reading 
-          &nbsp;&middot; #{minutes_to_read(review.content)} min read
+            = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
+            .latest-updates-list-item-date
+              = post.date.strftime('%b %-d, %Y')
+          .latest-updates-list-item-backdrop{ data: { backdrop: review.backdrop } }
+          .latest-updates-list-item-caption
+            .latest-updates-list-item-slug
+              %span.abbreviation
+                = ' D'
+              %span.full
+                irected by
+              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
+              %span.full
+                Starring
+              = " #{headline_cast(title: review.title)}."
+            .latest-updates-list-item-pull-quote
+              = markdown(review.pull_quote)
+          .latest-updates-list-item-read-more
+            %a{ href: "/reviews/#{review.slug}/" }
+              Continue reading 
+            &nbsp;&middot; #{minutes_to_read(review.content)} min read
+          
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
       %li.latest-updates-list-item{ value: post.sequence }

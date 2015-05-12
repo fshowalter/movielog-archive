@@ -6,6 +6,7 @@
 :date: 2015-02-23
 :imdb_id: tt2802144
 :grade: C+
+:backdrop: https://lh3.googleusercontent.com/-kFt9KsDwME8/VU7dQYiZ57I/AAAAAAAACjI/JJpcOt8A9Io/w1000-rj/kingsman-the-secret-service-2014.jpg
 :pull_quote: "In the end, _Kingsman: The Secret Service_ is little more than an adolescent male super-spy fantasy. That said, it’s not bad."
 ---
 _Kingsman: The Secret Service_ tells the story of a young man named Gary who goes by Eggsy. We’re never told how he got this nickname. The film is full of superfluous bits like this.

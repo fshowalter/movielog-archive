@@ -62,6 +62,10 @@ helpers do
       viewings
     end
   end
+
+  def sorted_posts
+    Movielog.posts.keys.sort.reverse
+  end
 end
 
 set :css_dir, 'stylesheets'
