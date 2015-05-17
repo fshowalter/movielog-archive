@@ -334,7 +334,7 @@
   left: 64px;
 
  
-  @media (min-width: 1000px) {
+  // @media (min-width: 1000px) {
     position: relative;
     left: 0;
     // bottom: -.75rem;
@@ -343,7 +343,7 @@
     // margin-left: 12px;
     // width: 3.25rem;
     // position: absolute;
-  }
+  // }
 }
 
 .latest-updates-list-item-slug {
@@ -421,7 +421,7 @@
   line-height: 26px;
   padding-top: 0;
 
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   // font-family: $sans;
 
@@ -473,12 +473,9 @@
   font-family: "futura-pt";
   // border-bottom: 1px solid #f0f0f0;
   // background-color: rgba(0,0,0,.85);
-  background-color: #fff;
+  background-color: #f5f5f5;
   font-size: .8rem;
   border: 1px solid #d8d8d8;
-  border-top-width: 0;
-  border-left-width: 0;
-  border-right-width: 0;
   border-bottom-width: 2px;
   // border-left: 0;
   margin-bottom: 20px;
@@ -549,7 +546,7 @@
   @media (min-width: $breakpoint) {
     &.newer:after, 
     &.older:after {
-      top: 1rem;
+      top: .9rem;
     }
   }
 

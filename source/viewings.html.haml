@@ -2,8 +2,9 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
-- content_for(:header, 'Viewing Log')
-.column-one-third{ data: { filter_controls: true, target: '#viewings' }}
+/ - content_for(:header, 'Viewing Log')
+%h2.viewing-log-header Viewing Log
+.column-one-third.viewing-log-card{ data: { filter_controls: true, target: '#viewings' }}
   %h3.viewing-log-filters-header Filter and Sort
   = text_filter(placeholder: 'Title', attribute: 'data-title')
   = range_filter(label: 'Year',
@@ -18,7 +19,7 @@ title: Viewing Log
                           ['Release Date (Newest First)', 'release-date-desc'],
                           ['Release Date (Oldest First)', 'release-date-asc'],
                           %w(Title sort-title-asc)])
-.column-two-thirds
+.column-two-thirds.viewing-log-card
   %ol.viewing-log-list#viewings
     - sorted_viewings.each do |key|
       - viewing = viewings[key]

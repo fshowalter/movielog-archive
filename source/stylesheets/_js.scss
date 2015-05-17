@@ -1,13 +1,14 @@
 .js .js-collapse {
   display: block;
   overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
   transition-duration: .3s;
-  transition-property: height, visibility;
+  transition-property: width, visibility;
   transition-timing-function: ease-in-out;
 }
 
 .js .js-collapsed {
-  height: 0;
   visibility: hidden;
   width: 0;
 }
