@@ -139,6 +139,7 @@
   background-size: contain;
   opacity: 0;
   transition: .8s opacity;
+  background-repeat: no-repeat;
 
 
   &:after {

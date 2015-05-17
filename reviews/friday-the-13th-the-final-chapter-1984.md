@@ -6,6 +6,7 @@
 :date: 2014-12-14
 :imdb_id: tt0087298
 :grade: C
+:backdrop: https://lh5.googleusercontent.com/-ljHQBrRdKPg/VVg-k9KfcII/AAAAAAAACm4/lXeSSJGFauw/w1000-rj/friday-the-13th-the-final-chapter-1984.png
 :pull_quote: "Now, I know what some of you are thinking: _How can he give a piece of trash like this three stars?_ 
 
 
