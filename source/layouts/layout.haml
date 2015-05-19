@@ -31,28 +31,26 @@
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
   %body
     .content-container{ class: yield_content(:content_class) }
-      %header.masthead
-        %h1.masthead-title
-          %a.masthead-title-link{ href: '/' } Frank's Movie Log
-        %ul.masthead-nav
-          %li.masthead-nav-item
-            %a.masthead-nav-link{ href: '/',
-              class: "#{'active' if current_page.url == '/' }" }
+      %header.mast
+        %h1.mast__title
+          %a.mast__title-link{ href: '/' } Frank's Movie Log
+        %button.mast__search-toggle{ data: { toggle: true }, accessKey: 'S' }
+          Search
+        = form_tag 'https://www.google.com/search', method: :get, class: 'mast__search-form js-toggle js-toggle-off' do
+          = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
+          .mast__search-wrap
+            = text_field_tag('q', placeholder: 'Search the Movie Log',
+                                  id: 'mastSearchInput',
+                                  class: 'mast__search-input')
+        %ul.mast__nav
+          %li.mast__nav-item
+            %a.mast__nav-link{ href: '/',
+              class: "#{'is-active' if current_page.url == '/' }" }
               Latest Updates
-          %li.masthead-nav-item
-            %a.masthead-nav-link{ href: '/viewings/',
-              class: "#{'active' if current_page.url == '/viewings/' }" }
+          %li.mast__nav-item
+            %a.mast__nav-link{ href: '/viewings/',
+              class: "#{'is-active' if current_page.url == '/viewings/' }" }
               Viewing Log
-          %li.masthead-nav-item
-            %button.search-toggle{ data: { toggle: true }, accessKey: 'S' }
-              Search
-            .masthead-nav-search-form.js-collapse.js-collapsed
-              = form_tag 'https://www.google.com/search', method: :get, class: 'search-form' do
-                = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-                .site-search-wrap
-                  = text_field_tag('q', placeholder: 'Search the Movie Log',
-                                        id: 'searchInput',
-                                        class: 'site-search-input')
       - if content_for?(:header)
         %h2.page-title{ data: { rhythm: 0 }}
           = yield_content(:header)

@@ -1,4 +1,4 @@
-.js .js-collapse {
+.js .js-toggle {
   display: block;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -8,9 +8,11 @@
   transition-timing-function: ease-in-out;
 }
 
-.js .js-collapsed {
+.js .js-toggle-off {
   visibility: hidden;
-  width: 0;
+
+
+  // width: 0;
 }
 
 .js .js-scale-down {
@@ -20,13 +22,13 @@
   // transition-duration: 1s;
   // transition-property: all;
   
-  opacity: 0;
+  // opacity: 0;
 }
 
 .js .js-scale-up {
   // transform: scale(0.6);
   transform: scale(1); 
-  opacity: 1; 
+  // opacity: 1; 
   // animation: scaleUp 0.35s ease-in-out forwards;
 }
 

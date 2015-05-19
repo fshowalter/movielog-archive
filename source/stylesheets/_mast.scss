@@ -1,0 +1,174 @@
+$mast-background-color: #111110;
+$mast-breakpoint: 32em;
+$mast-foreground-color: #fff;
+$mast-highlight-color: #579;
+$mast-search-background-color: #f1f1f1;
+$mast-search-breakpoint: 46em;
+
+.mast {
+  @include base-container;
+  background-color: $mast-background-color;
+  color: $mast-foreground-color;
+  font-family: $sans;
+  letter-spacing: 1px;
+  position: relative;
+  text-transform: uppercase;
+
+
+  @media (min-width: $mast-breakpoint) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.mast__title {
+  flex-grow: 4;
+  font-size: .7rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  margin: 0;
+  order: 1;
+  padding: 0 .8rem;
+}
+
+.mast__title-link {
+  color: $mast-foreground-color;
+  display: inline-block;
+}
+
+.mast__nav {
+  display: flex;
+  font-family: $sans;
+  font-size: .6rem;
+  letter-spacing: 1px;
+  margin: 0;
+  order: 2;
+  padding: 0;
+  position: relative;
+  
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  @media (min-width: $mast-breakpoint) {
+    margin-right: 3.7rem;
+  }
+
+  @media (min-width: $mast-search-breakpoint) {
+    margin: 0;
+  }
+}
+
+.mast__nav-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .8rem;
+}
+
+.mast__nav-link {
+  border-bottom: .1rem solid $mast-background-color;
+  color: rgba(255, 255, 255, .7);
+  display: inline-block;
+  line-height: 2.3rem;
+
+  &.is-active {
+    border-bottom-color: $mast-highlight-color;
+    color: $mast-foreground-color;
+    font-weight: bold;
+  }
+
+  @media (min-width: $mast-breakpoint) {
+    border-bottom: 0;
+    line-height: 2.4rem;
+  }
+}
+
+.mast__search-form {
+  height: 1.6rem;
+  position: absolute;
+  right: 3.7rem;
+  top: .4rem;
+  width: calc(100% - 4.2rem);
+
+  &.js-toggle-off {
+    width: 0;
+  }
+
+  @media (min-width: $mast-search-breakpoint) {
+    order: 3;
+    position: relative;
+    right: auto;
+    width: 11rem;
+  }
+}
+
+.mast__search-toggle {
+  -webkit-appearance: none;
+  background-color: $mast-background-color;
+  border: 0;
+  -webkit-border-fit: border;
+  color: $mast-foreground-color;
+  display: block;
+  float: right;
+  font-family: $sans;
+  font-size: .6rem;
+  -webkit-font-smoothing: inherit;
+  font-weight: normal;
+  height: 2.4rem;
+  letter-spacing: 1px;
+  line-height: 2.4rem;
+  margin: 0;
+  margin-right: .8rem;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+
+  @media (min-width: $mast-search-breakpoint) {
+    margin: 0 .8rem;
+    order: 4;
+    position: static;
+  }
+}
+
+.mast__search-wrap {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 0;
+
+  &:before {
+    background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-192 -384 2048 2048"><path d="M1152 448q0-185-131.5-316.5T704 0Q519 0 387.5 131.5T256 448q0 185 131.5 316.5T704 896q185 0 316.5-131.5T1152 448zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150q-94.5-94.5-150-225T0 448q0-143 55.5-273.5t150-225q94.5-94.5 225-150T704-256q143 0 273.5 55.5t225 150q94.5 94.5 150 225T1408 448q0 220-124 399l343 343q37 37 37 90z" fill-opacity=".3"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 1rem;
+    left: 1rem;
+    position: absolute;
+    top: .45rem;
+    width: .7rem;
+  }
+}
+
+.mast__search-input {
+  -webkit-appearance: none;
+  background-color: $mast-search-background-color;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  display: block;
+  font-family: $sans;
+  font-size: .75rem;
+  height: 1.6rem;
+  padding: .3rem .5rem .2rem 2rem;
+  transition-duration: .4s;
+  transition-property: border-color;
+  width: 100%;
+   
+  &:hover {
+    border-color: rgba(85, 119, 153, .85);
+  }
+}

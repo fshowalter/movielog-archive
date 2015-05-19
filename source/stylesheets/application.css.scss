@@ -10,7 +10,8 @@ $highlight: #579;
 @import 'small-header';
 @import 'post';
 
-@import 'layout';
+@import 'base';
+@import 'mast';
 @import 'feature';
 @import 'review';
 @import 'latest-updates';

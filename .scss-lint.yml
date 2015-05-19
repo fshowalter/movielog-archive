@@ -1,5 +1,6 @@
 linters:
   SelectorFormat:
+    convention: strict_BEM
     ignored_names:
       - noUi-target
       - noUi-base

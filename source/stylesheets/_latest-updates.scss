@@ -51,6 +51,9 @@
   border-top-width: 0;
   border-bottom-width: 2px;
 
+  border-left: 0;
+  border-right: 0;
+
   &:nth-child(odd) {
     // border-right: 0;
   }
