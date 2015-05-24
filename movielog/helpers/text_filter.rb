@@ -3,7 +3,7 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def text_filter(placeholder:, attribute:)
+    def text_filter(label:, placeholder:, attribute:)
       options = {}
       options['placeholder'] = placeholder
       options['class'] = 'filter-text-box'
@@ -13,7 +13,7 @@ module Movielog
 
       field_tag = text_field_tag(attribute, options)
 
-      filter_control(control: content_tag(:div, field_tag, class: 'search-wrap clearable-wrap'))
+      filter_control(control: content_tag(:div, field_tag, class: 'filter-text-box-wrap'), label: label)
     end
   end
 end

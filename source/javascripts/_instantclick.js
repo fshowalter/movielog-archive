@@ -91,7 +91,7 @@ var InstantClick = function(document, location) {
   }
 
   function changePage(title, body, newUrl, scrollY) {
-    document.title = title
+    document.title = title;
 
     document.documentElement.replaceChild(body, document.body)
     /* We cannot just use `document.body = doc.body`, it causes Safari (tested
@@ -184,6 +184,17 @@ var InstantClick = function(document, location) {
     setPreloadingAsHalted()
   }
 
+  function createDocumentUsingFragment(html) {
+    var body, doc, head, htmlWrapper, ref, ref1;
+    head = ((ref = html.match(/<head[^>]*>([\s\S.]*)<\/head>/i)) != null ? ref[0] : void 0) || '<head></head>';
+    body = ((ref1 = html.match(/<body[^>]*>([\s\S.]*)<\/body>/i)) != null ? ref1[0] : void 0) || '<body></body>';
+    htmlWrapper = document.createElement('html');
+    htmlWrapper.innerHTML = head + body;
+    doc = document.createDocumentFragment();
+    doc.appendChild(htmlWrapper);
+    return doc;
+  };
+
   function readystatechange() {
     if ($xhr.readyState < 4) {
       return
@@ -197,10 +208,11 @@ var InstantClick = function(document, location) {
     triggerPageEvent('receive')
 
     if ($xhr.getResponseHeader('Content-Type').match(/\/(x|ht|xht)ml/)) {
-      var doc = document.implementation.createHTMLDocument('')
-      doc.documentElement.innerHTML = $xhr.responseText
-      $title = doc.title
-      $body = doc.body
+      var doc = createDocumentUsingFragment($xhr.responseText);
+      var title = doc.querySelector('title');
+      $title = title != null ? title.textContent : null;
+      $body = doc.querySelector('body');
+
       var urlWithoutHash = removeHash($url)
       $history[urlWithoutHash] = {
         body: $body,
@@ -208,7 +220,7 @@ var InstantClick = function(document, location) {
         scrollY: urlWithoutHash in $history ? $history[urlWithoutHash].scrollY : 0
       }
 
-      var elems = doc.head.children,
+      var elems = doc.querySelector('head').children,
           found = 0,
           elem,
           data
@@ -552,7 +564,7 @@ var InstantClick = function(document, location) {
   var supported = 'pushState' in history
                   && (!$ua.match('Android') || $ua.match('Chrome/'))
                   && location.protocol != "file:"
-
+  // console.log(supported)
   /* The state of Android's AOSP browsers:
 
      2.3.7: pushState appears to work correctly, but

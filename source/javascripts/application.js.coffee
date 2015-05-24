@@ -5,7 +5,6 @@
 
 
 fc = null;
-masonry = null;
 
 InstantClick.on('change', (initial) ->
   fc.destroy() if fc

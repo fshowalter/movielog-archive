@@ -95,3 +95,29 @@
 
   /   %p.review-imdb-link
   /     More at <a href="http://www.imdb.com/title/#{review.imdb_id}" data-no-instant >the IMDb</a>.
+
+
+- content_for(:footer) do
+  .footer__recent-updates
+    %h2.footer__header 
+      Recent Posts
+    %ol.footer__recent-updates__list
+      - sorted_posts.first(4).each do |post_key|
+        - post = Movielog.posts[post_key]
+        - if post.is_a?(Movielog::Review)
+          - review = post
+          - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
+          %li.footer__recent-updates__list__item
+            %a.footer__recent-updates__list__item__link{ href: "/reviews/#{review.slug}/"}
+              .footer__recent-updates__list__item__header
+                %h3.footer__recent-updates__list__item__title{ data: { sequence: review.sequence} }
+                  = "#{review.display_title}"
+                = grade_to_image_tag(grade: review.grade, options: { class: 'footer__recent-updates__list__item__rating' })
+              .footer__recent-updates__list__item__backdrop{ data: { backdrop: review.backdrop } }
+              .footer__recent-updates__list__item__slug
+                = ' D:'
+                = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
+                = " #{headline_cast(title: review.title)}."
+
+    %a.footer__feed{ href: '/feed.xml', data: { no_instant: true }}
+      subscribe

@@ -2,11 +2,10 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
-/ - content_for(:header, 'Viewing Log')
-%h2.viewing-log-header Viewing Log
-.column-one-third.viewing-log-card{ data: { filter_controls: true, target: '#viewings' }}
-  %h3.viewing-log-filters-header Filter and Sort
-  = text_filter(placeholder: 'Title', attribute: 'data-title')
+%h2.viewings__header Viewing Log
+.viewings__filters{ data: { filter_controls: true, target: '#viewings' }}
+  %h3.viewings__filters__header Filter and Sort
+  = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
   = range_filter(label: 'Year',
                  attribute: 'data-release-date-year',
                  min: oldest_year(collection: viewings.values, date_method: :release_date),
@@ -19,21 +18,20 @@ title: Viewing Log
                           ['Release Date (Newest First)', 'release-date-desc'],
                           ['Release Date (Oldest First)', 'release-date-asc'],
                           %w(Title sort-title-asc)])
-.column-two-thirds.viewing-log-card
-  %ol.viewing-log-list#viewings
-    - sorted_viewings.each do |key|
-      - viewing = viewings[key]
-      - review = reviews[viewing.title]
-      %li.viewing-log-list-item{ data_for_viewing(viewing: viewing) }
-        - if review
-          .viewing-log-list-item-header
-            .viewing-log-list-item-title
-              %a{ href: "/reviews/#{review.slug}/" }
-                = "#{review.display_title}"
-            = grade_to_image_tag(grade: review.grade, options: { class: 'viewing-log-list-item-rating' })
-        - else
-          .viewing-log-list-item-title
-            = viewing.display_title
-        %div{ class: "viewing-log-list-item-slug #{'with-rating' if review}" }
-          = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
+%ol.viewings__list#viewings
+  - sorted_viewings.each do |key|
+    - viewing = viewings[key]
+    - review = reviews[viewing.title]
+    %li.viewings__list__item{ data_for_viewing(viewing: viewing) }
+      - if review
+        .viewings__list__item__header
+          .viewings__list__item__title
+            %a{ href: "/reviews/#{review.slug}/" }
+              = "#{review.display_title}"
+          = grade_to_image_tag(grade: review.grade, options: { class: 'viewings__list__item__header__rating' })
+      - else
+        .viewings__list__item__title
+          = viewing.display_title
+      %div{ class: "viewings__list__item__slug #{'with-rating' if review}" }
+        = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
 = javascript_include_tag('filters.js', async: true)

@@ -17,10 +17,8 @@ class TextFilter
   matcher: ->
     return null unless @$element.val()
 
-    console.log(@escapeRegExp(@$element.val()))
     regex = new RegExp(@escapeRegExp(@$element.val()), 'i')
     (item) =>
-      console.log(item.getAttribute(@attribute))
       regex.test item.getAttribute(@attribute)
 
 ###

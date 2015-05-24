@@ -42,69 +42,55 @@
             = text_field_tag('q', placeholder: 'Search the Movie Log',
                                   id: 'mastSearchInput',
                                   class: 'mast__search-input')
-        %ul.mast__nav
-          %li.mast__nav-item
-            %a.mast__nav-link{ href: '/',
-              class: "#{'is-active' if current_page.url == '/' }" }
-              Latest Updates
-          %li.mast__nav-item
-            %a.mast__nav-link{ href: '/viewings/',
-              class: "#{'is-active' if current_page.url == '/viewings/' }" }
-              Viewing Log
       - if content_for?(:header)
         %h2.page-title{ data: { rhythm: 0 }}
           = yield_content(:header)
       = yield
-      %footer.site-footer
-        .site-footer-cards
-          .site-footer-about.site-footer-card
-            %h2.site-footer-header 
-              About
-            %p Hi there. I'm Frank. This site is a catalog of my movie-watching adventures. I keep a searchable <a href='/viewings/'>viewing log</a> where I track everything I see, and I try to review as much as I can. If you're curious about the star ratings, I wrote a piece on <a href='/features/how-i-grade/'>how I grade</a>. Once upon a time, I reviewed everything I watched, but these days I aim for quality over quantity. I’m not a great writer. Maybe not even a good one. But with practice I can be better.
+      %footer.footer
+        .footer__about
+          %h2.footer__header 
+            About
+          %p Hi there. I'm Frank. This site is a catalog of my movie-watching adventures. I keep a searchable <a href='/viewings/'>viewing log</a> where I track everything I see, and I try to review as much as I can. If you're curious about the star ratings, I wrote a piece on <a href='/features/how-i-grade/'>how I grade</a>. Once upon a time, I reviewed everything I watched, but these days I aim for quality over quantity. I’m not a great writer. Maybe not even a good one. But with practice I can be better.
 
-            %a.site-footer-twitter{ href: 'http://twitter.com/FranksMovieLog',
-                                  data: { no_instant: true }}
-              Find me on Twitter
+          %a.footer__twitter{ href: 'http://twitter.com/FranksMovieLog',
+                                data: { no_instant: true }}
+            Find me on Twitter
+        .footer__how-i-grade
+          %h2.footer__header 
+            How I Grade
+          %dl.footer__how-i-grade__list
+            %dt.footer__how-i-grade__list__grade 
+              = grade_to_image_tag(grade: 'A', options: { class: 'footer__how-i-grade__list__rating' })
+            %dd.footer__how-i-grade__list__text
+              %span a great movie
+            %dt.footer__how-i-grade__list__grade
+              = grade_to_image_tag(grade: 'B', options: { class: 'footer__how-i-grade__list__rating' })
+            %dd.footer__how-i-grade__list__text
+              %span  a good movie
+            %dt.footer__how-i-grade__list__grade  
+              = grade_to_image_tag(grade: 'C', options: { class: 'footer__how-i-grade__list__rating' })
+            %dd.footer__how-i-grade__list__text
+              %span an okay movie
+            %dt.footer__how-i-grade__list__grade  
+              = grade_to_image_tag(grade: 'D', options: { class: 'footer__how-i-grade__list__rating' })
+            %dd.footer__how-i-grade__list__text
+              %span a bad movie
+            %dt.footer__how-i-grade__list__grade  
+              = grade_to_image_tag(grade: 'F', options: { class: 'footer__how-i-grade__list__rating' })
+            %dd.footer__how-i-grade__list__text
+              %span an awful movie
 
-          .site-footer-recent-updates.site-footer-card
-            %h2.site-footer-header 
-              Recent Posts
-            %ul.site-footer-recent-updates-list
-              - sorted_posts.first(5).each do |post_key|
-                - post = Movielog.posts[post_key]
-                - if post.is_a?(Movielog::Review)
-                  - review = post
-                  - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-                  %li.site-footer-recent-updates-list-item{ value: review.sequence }
-                    %a.site-footer-recent-updates-tile{ href: "/reviews/#{review.slug}/"}
-                      %header.site-footer-recent-updates-list-item-header{ data: { sequence: review.sequence} }
-                        .site-foooter-recent-updates-list-item-header-wrap
-                          %h3.site-footer-recent-updates-list-item-title
-                            = "#{review.display_title}"
-                        .latest-updates-list-item-slug
-                          = grade_to_image_tag(grade: review.grade, options: { class: 'site-footer-recent-updates-list-item-rating' })
-                          = ' D:'
-                          = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-                          = " #{headline_cast(title: review.title)}."
-                      .site-footer-recent-updates-list-item-backdrop{ data: { backdrop: review.backdrop } }
-            %a.site-footer-feed{ href: '/feed.xml', data: { no_instant: true }}
-              subscribe
-        .site-footer-mast
-          .site-footer-links
-            %a{ href: '/'} Latest Updates
-            %a{ href: '/viewings/'} Viewing Log
-            %a{ href: '/features/how-i-grade/'} How I Grade
-          .site-footer-search
-            = form_tag 'https://www.google.com/search', method: :get, class: 'site-footer-search-form' do
-              = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-              .site-footer-site-search-wrap
-                = text_field_tag('q', placeholder: 'Search the Movie Log',
-                                      id: 'searchInput',
-                                      class: 'site-footer-site-search-input')
-        / .site-footer-slug
+          %p Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
 
-        /   = "This has been #{link_to("Frank's Movie Log", '/')}, loving movies since 2012."
-        
+          %a.footer__how-i-grade__read-more{ href: '/features/how-i-grade/'}
+            Continue Reading
+        = yield_content(:footer) if content_for?(:footer)
+        .footer__links
+          %a{ href: '/'} Frank's Movie Log
+          %a{ href: '/'} Latest Updates
+          %a{ href: '/viewings/'} Viewing Log
+          %a{ href: '/features/how-i-grade/'} How I Grade
+       
       - unless development?
         %script{ async: true, src: '//www.google-analytics.com/analytics.js', data: { no_instant: true }}
         :javascript
