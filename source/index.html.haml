@@ -9,7 +9,6 @@ pagination:
   unless pagination.page_num == 1
     content_for(:title, "Page - #{pagination.page_num}")
   end
-  content_for(:content_class, 'latest-updates')
 
 %ol.latest-updates
   - pagination.each do |key|
@@ -17,7 +16,7 @@ pagination:
     - if post.is_a?(Movielog::Review)
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.latest-updates__item{ value: post.sequence }
+      %li.latest-updates__item{ id: post.slug, value: post.sequence }
         %a{ href: "/reviews/#{review.slug}/"}
           %header.latest-updates__item__header{ data: { sequence: post.sequence } }
             %h3.latest-updates__item__header__title

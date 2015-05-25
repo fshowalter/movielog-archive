@@ -28,7 +28,7 @@ title: Viewing Log
           .viewings__list__item__title
             %a{ href: "/reviews/#{review.slug}/" }
               = "#{review.display_title}"
-          = grade_to_image_tag(grade: review.grade, options: { class: 'viewings__list__item__header__rating' })
+          / = grade_to_image_tag(grade: review.grade, options: { class: 'viewings__list__item__header__rating' })
       - else
         .viewings__list__item__title
           = viewing.display_title

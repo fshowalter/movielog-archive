@@ -1,7 +1,7 @@
 $footer-background-color: #f1f1f1;
 $footer-divider-color: #eaeaea;
 $footer-card-border-color: #ddd;
-$footer-card-color: #fff;
+$footer-card-background-color: #fff;
 $footer-recent-updates-text-color: #fff;
 
 .footer {
@@ -23,7 +23,7 @@ $footer-recent-updates-text-color: #fff;
 .footer__about, .footer__how-i-grade {
   font-size: .8rem;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
-  background-color: $footer-card-color;
+  background-color: $footer-card-background-color;
   margin-top: .8rem;
 
   p {
@@ -67,7 +67,7 @@ $footer-recent-updates-text-color: #fff;
   text-align: right;
 
   span {
-    background-color: $footer-card-color;
+    background-color: $footer-card-background-color;
     padding-left: 3px;
     display: inline-block;
     position: relative;
@@ -104,68 +104,31 @@ $footer-recent-updates-text-color: #fff;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
   font-family: $sans;
   margin-top: .8rem;
-  padding-bottom: 1.2rem;
+  background-color: $footer-card-background-color;
 }
 
 .footer__recent-updates__list {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .footer__recent-updates__list__item {
-  border-right: solid 1px $footer-card-border-color;
-  border-top: solid 1px $footer-card-border-color;
   list-style-type: none;
   margin: 0;
-
-  width: 50%;
-  padding-bottom: calc(28% + 72px);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #111110;
-  position: relative;
-
-  &:first-child, &:nth-child(2) {
-    border-top: 0;
-  }
-
-
-  &:nth-child(even) {
-    border-right: 0;
-  }
-
-  &:last-child {
-    border-bottom: solid 1px $footer-card-border-color;
-  }
+  border-bottom: 1px solid $footer-card-border-color;
+  margin-top: .4rem;
 }
 
 .footer__recent-updates__list__item__link {
-  // background-color: rgba(0,0,0, .5);
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.footer__recent-updates__list__item__backdrop {
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 56.6%;
+  display: block;
 }
 
 .footer__recent-updates__list__item__header {
   padding: .8rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .footer__recent-updates__list__item__title {
-  font-size: .7rem;
+  font-size: .75rem;
   font-weight: normal;
   line-height: 1.4rem;
   margin: 0;
@@ -173,13 +136,7 @@ $footer-recent-updates-text-color: #fff;
   text-overflow: ellipsis;
   text-transform: uppercase;
   white-space: nowrap;
-  color: $footer-recent-updates-text-color;
-  text-shadow: black 1px 1px 1px;
-
-  &:before {
-    position: absolute;
-    left: .8rem;
-  }
+  color: rgba(0, 0, 0, .8);
 }
 
 .footer__recent-updates__list__item__rating {
@@ -187,24 +144,39 @@ $footer-recent-updates-text-color: #fff;
   display: block;
 }
 
+.footer__recent-updates__list__item__backdrop {
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 .4rem;
+  opacity: 0;
+  padding-top: 54%;
+  transition: .8s opacity;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
 .footer__recent-updates__list__item__slug {
-  color: rgba(255, 255, 255, .7);
-  padding: .8rem .8rem 1.2rem .8rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  color: rgba(0, 0, 0, .4);
+  padding: .8rem .8rem 1.55rem .8rem;
   font-size: .7rem;
   letter-spacing: -.01rem;
   line-height: 1.2;
-  background-color: rgba(0,0,0, .2);
-  text-shadow: black 1px 1px 1px;
+}
+
+.footer__recent-updates__more_link {
+  display: inline-block;
+  font-family: $sans;
+  font-size: .7rem;
+  text-transform: uppercase;
+  padding: .4rem .8rem;
 }
 
 .footer__feed {
   display: inline-block;
   font-family: $sans;
-  font-size: 14px;
+  font-size: .7rem;
   padding: .4rem .8rem .4rem 2rem;
   text-transform: uppercase;
 

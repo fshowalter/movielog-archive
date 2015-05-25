@@ -49,75 +49,32 @@
       IMDb
     = "."
 
-    / .review-action-links
-    /   %a.review-viewings-link{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_instant: true } }
-    /     = "Seen #{pluralize(viewings.length, 'time')}"
-    /   &middot;
-    /   %a.review-imdb-link{ href: "http://www.imdb.com/title/#{review.imdb_id}" } More at the IMDb
-  / .review-cards
-  /   .review-card
-  /     %h3.review-viewings-list-header Viewings
-  /     %ol.review-viewings-list
-  /       - viewings.each_with_index do |viewing, index|
-  /         %li.review-viewings-list-item{ value: index + 1, data: { sequence: index + 1 } }
-  /           = viewing.date.strftime("%A  %B #{viewing.date.day.ordinalize}, %Y")
-  /           %span.role= " via #{viewing.venue}"
-  / .review-card
-  /   %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
-  /     %meta{ content: review.display_title, itemprop: 'name' }
-  /     %h3.review-viewings-list-header Credits
-  /     %h3.review-credits-list-header Directed by
-  /     %ul.review-credits-list
-  /       - directors.each do |director|
-  /         %li.review-credits-list-item{ data: { rhythm: 0 } }
-  /           #{director.first_name} #{director.last_name}
-  /           - unless director.notes.blank?
-  /             %span.role
-  /               = " #{director.notes}"
-  /     %h3.review-credits-list-header Starring
-  /     %ul.review-credits-list
-  /       - headline_cast.each do |performer|
-  /         %li.review-credits-list-item{ itemprop: 'actor',
-  /                               itemscope: true,
-  /                               itemtype: 'http://schema.org/Person',
-  /                               data: { rhythm: 0 } }
-  /           %span{ itemprop: 'name' }
-  /             #{performer.first_name} #{performer.last_name}
-  /             %span.role
-  /               = " as #{performer.role}"
-  /     %h3.review-credits-list-header Written by
-  /     %ul.review-credits-list
-  /       - writers.each do |writer|
-  /         %li.review-credits-list-item{ data: { rhythm: 0 } }
-  /           #{writer.first_name} #{writer.last_name}
-  /           %span.role
-  /             = " #{writer.notes}"
-
-  /   %p.review-imdb-link
-  /     More at <a href="http://www.imdb.com/title/#{review.imdb_id}" data-no-instant >the IMDb</a>.
-
-
 - content_for(:footer) do
   .footer__recent-updates
     %h2.footer__header 
       Recent Posts
     %ol.footer__recent-updates__list
-      - sorted_posts.first(4).each do |post_key|
+      - post_count = 1;
+      - post = nil
+      - sorted_posts.each do |post_key|
         - post = Movielog.posts[post_key]
+        - next if post_key == review.sequence
+        - break if post_count > 4
+        - post_count = post_count + 1
         - if post.is_a?(Movielog::Review)
-          - review = post
-          - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
+          - directors = MovieDb.directors_for_title(db: Movielog.db, title: post.title)
           %li.footer__recent-updates__list__item
-            %a.footer__recent-updates__list__item__link{ href: "/reviews/#{review.slug}/"}
+            %a.footer__recent-updates__list__item__link{ href: "/reviews/#{post.slug}/"}
               .footer__recent-updates__list__item__header
-                %h3.footer__recent-updates__list__item__title{ data: { sequence: review.sequence} }
-                  = "#{review.display_title}"
-                = grade_to_image_tag(grade: review.grade, options: { class: 'footer__recent-updates__list__item__rating' })
-              .footer__recent-updates__list__item__backdrop{ data: { backdrop: review.backdrop } }
+                %h3.footer__recent-updates__list__item__title{ data: { sequence: post.sequence} }
+                  = "#{post.display_title}"
+                = grade_to_image_tag(grade: post.grade, options: { class: 'footer__recent-updates__list__item__rating' })
+              .footer__recent-updates__list__item__backdrop{ data: { backdrop: post.backdrop } }
               .footer__recent-updates__list__item__slug
                 = ' D:'
                 = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-                = " #{headline_cast(title: review.title)}."
+                = " #{headline_cast(title: post.title)}."
 
-    %a.footer__feed{ href: '/feed.xml', data: { no_instant: true }}
-      subscribe
+    %a.footer__recent-updates__more_link{ href: "/##{post.slug}"}
+      See More
+

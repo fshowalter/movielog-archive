@@ -64,13 +64,16 @@ $viewings-card-background-color: #fff;
 
 .viewings__list__item__title {
   display: block;
-  font-size: .85rem;
+  font-size: .8rem;
   font-weight: normal;
-  line-height: 1rem;
-  padding: 0 0 .3rem 0;
+  line-height: 1.6rem;
   text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   &:before {
+    display: none;
     color: rgba(0,0,0,.5);
     content: counter(filter-results) '. ';
     counter-increment: filter-results;
@@ -81,14 +84,19 @@ $viewings-card-background-color: #fff;
 .viewings__list__item__slug {
   color: rgba(0, 0, 0, .4);
   font-size: .75rem;
-  line-height: 1.3;
-  min-height: 1.2rem;
+  line-height: .9rem;
+  min-height: 2rem;
   padding-left: 1px;
-
-  &.with-rating:before {
-    content: '';
-    display: inline-block;
-    width: 3.2rem;
-  }
 }
 
+.viewings__list__item__venue {
+  display: block;
+}
+
+.viewings__list__item__date {
+  display: block;
+
+  margin-top: .4rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
