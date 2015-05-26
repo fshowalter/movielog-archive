@@ -115,3 +115,24 @@
   }
 }
 
+.post-slug {
+  max-width: 33rem;
+  margin: 0 auto;
+  border-top: solid 1px #eee;
+  padding: .8rem .8rem 1.2rem .8rem;
+  font-size: .8rem;
+  color: rgba(0,0,0,.7);
+  line-height: 1.3;
+  letter-spacing: .008rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+
+  span {
+    font-weight: 700;
+  }
+
+  @media(min-width: $breakpoint) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}

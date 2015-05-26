@@ -10,8 +10,7 @@
   .post-content{ class: feature.slug, data: { rhythm: 0 } }
     = markdown(feature.content)
 
-  .feature-slug
+  .post-slug
     %span.title
       #{feature.title}
-    = " was published on #{feature.date}."
-
+    = " was published on #{feature.date.strftime('%b %-d, %Y')}. "

@@ -101,23 +101,32 @@
   touch-action: none;
   -webkit-touch-callout: none;
   user-select: none;
+  transition: transform .3s ease-in-out;
+}
+
+.noUi-state-drag .noUi-active {
+  transform: scale(1.25);
 }
 
 .noUi-base {
   height: 2rem;
   margin: auto .8rem;
   position: relative;
+  background: #f5f5f5;
+  border-top: solid .5rem #fff;
+  border-bottom: solid .5rem #fff;
 }
 
 .noUi-handle {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, .3);
-  border-radius: 3px;
+  border-radius: 50%;
   height: 2rem;
   left: -1rem;
   position: relative;
   width: 2rem;
   z-index: 1;
+  top: -.5rem;
 }
 
 .noUi-active {
@@ -126,7 +135,7 @@
 }
 
 .noUi-background {
-  background: #f5f5f5;
+  
 }
 
 .noUiSlider {

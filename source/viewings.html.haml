@@ -23,14 +23,11 @@ title: Viewing Log
     - viewing = viewings[key]
     - review = reviews[viewing.title]
     %li.viewings__list__item{ data_for_viewing(viewing: viewing) }
-      - if review
-        .viewings__list__item__header
-          .viewings__list__item__title
-            %a{ href: "/reviews/#{review.slug}/" }
-              = "#{review.display_title}"
-          / = grade_to_image_tag(grade: review.grade, options: { class: 'viewings__list__item__header__rating' })
-      - else
-        .viewings__list__item__title
+      .viewings__list__item__title
+        - if review
+          %a{ href: "/reviews/#{review.slug}/" }
+            = "#{review.display_title}"
+        - else
           = viewing.display_title
       %div{ class: "viewings__list__item__slug #{'with-rating' if review}" }
         = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."

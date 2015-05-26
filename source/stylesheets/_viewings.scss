@@ -50,18 +50,6 @@ $viewings-card-background-color: #fff;
   }
 }
 
-.viewings__list__item__header {
-  position: relative; 
-}
-
-.viewings__list__item__header__rating {
-  position: absolute;
-
-  bottom: -.7rem;
-  height: auto;
-  width: 3rem;
-}
-
 .viewings__list__item__title {
   display: block;
   font-size: .8rem;
@@ -87,16 +75,4 @@ $viewings-card-background-color: #fff;
   line-height: .9rem;
   min-height: 2rem;
   padding-left: 1px;
-}
-
-.viewings__list__item__venue {
-  display: block;
-}
-
-.viewings__list__item__date {
-  display: block;
-
-  margin-top: .4rem;
-  font-size: .7rem;
-  text-transform: uppercase;
 }

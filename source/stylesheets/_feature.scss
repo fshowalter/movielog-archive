@@ -49,18 +49,3 @@
     }
   }
 }
-
-.feature-slug {
-  border-top: 1px solid rgba(0, 0, 0, .05);
-  color: rgba(0, 0, 0, .4);
-  font-size: .75rem;
-  padding: 1.25rem 0 1.3rem;
-
-  .title {
-    font-weight: bold;
-  }
-
-  @media (min-width: $breakpoint) {
-    padding: 1.35rem 0 1.4rem;
-  }
-}

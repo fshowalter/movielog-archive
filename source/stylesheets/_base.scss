@@ -28,7 +28,6 @@ html {
 body {
   background-color: #f1f1f1;
   color: rgba(0, 0, 0, .8);
-  // letter-spacing: -.018rem;
 
   &:before {
     content: '';
@@ -47,40 +46,13 @@ body {
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: $highlight;
-  // color: inherit;
-  position: relative;
   text-decoration: none;
-
-  // @media (min-width: $breakpoint) {
-  //   transition: color .3s ease-in-out;
-
-  //   &:before {
-  //     background-color: #579;
-  //     bottom: 0;
-  //     content: '';
-  //     height: 1px;
-  //     left: 0;
-  //     padding: 0;
-  //     position: absolute;
-  //     transform: scaleX(0);
-  //     transition: all 300ms ease-in-out;
-  //     visibility: hidden;
-  //     width: 100%;
-  //   }
-  // }
 }
 
 // `:focus` is linked to `:hover` for basic accessibility
 a:hover,
 a:focus {
-  // @media (min-width: $breakpoint) {
-  //   color: $highlight !important;
 
-  //   &:before {
-  //     transform: scaleX(1);
-  //     visibility: visible;
-  //   }
-  // }
 }
 
 input::placeholder {
@@ -123,16 +95,6 @@ p {
 
 .content-container {
   @extend %container;
-  // border-top: solid 5px #579;
-  // border-bottom: solid 5px #579;
-  // background-color: #fff;
-  // margin-top: -1px;
-
-  @media (min-width: $breakpoint) {
-    // padding-top: 3.5rem;
-    // padding-top: 2.1rem;
-    // padding-top: 42px;
-  }
 }
 
 

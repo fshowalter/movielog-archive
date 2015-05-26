@@ -3,10 +3,22 @@ $footer-divider-color: #eaeaea;
 $footer-card-border-color: #ddd;
 $footer-card-background-color: #fff;
 $footer-recent-updates-text-color: #fff;
+$footer-tablet-breakpoint: 48em;
+$footer-desktop-breakpoint: 65.2em;
 
 .footer {
   background-color: $footer-background-color;
   color: rgba(0,0,0, .7);
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 .4rem;
+  }
+
+  @media(min-width: $footer-desktop-breakpoint) {
+    margin: 0;
+  }
 }
 
 .footer__header {
@@ -32,6 +44,34 @@ $footer-recent-updates-text-color: #fff;
     margin: 0;
     padding: 0 .8rem .8rem .8rem;
   }
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    width: calc(50% - .2rem);
+  }
+
+  @media(min-width: $footer-desktop-breakpoint) {
+    width: calc(50% - .4rem);
+  }
+}
+
+.footer__about {
+  @media(min-width: $footer-tablet-breakpoint) {
+    margin-right: .2rem;
+  }
+
+  @media(min-width: $footer-desktop-breakpoint) {
+    margin-right: .4rem;
+  } 
+}
+
+.footer__how-i-grade {
+  @media(min-width: $footer-tablet-breakpoint) {
+    margin-left: .2rem;
+  }
+
+  @media(min-width: $footer-desktop-breakpoint) {
+    margin-left: .4rem;
+  } 
 }
 
 .footer__how-i-grade__list {
@@ -40,6 +80,10 @@ $footer-recent-updates-text-color: #fff;
   flex-wrap: wrap;
   align-items: center;
   max-width: 10rem;
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    padding-bottom: .6rem;
+  }
 }
 
 .footer__how-i-grade__list__grade {
@@ -88,6 +132,7 @@ $footer-recent-updates-text-color: #fff;
   font-size: .7rem;
   padding: .4rem .8rem .4rem 2rem;
   text-transform: uppercase;
+  position: relative;
 
   &:after {
     background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-192 -384 2048 2048"><path d="M1620 152q-67 98-162 167 1 14 1 42 0 130-38 259.5T1305.5 869Q1228 988 1121 1079.5t-258 146Q712 1280 540 1280q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5T221 777q33 5 61 5 43 0 85-11-112-23-185.5-111.5T108 454v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5T820 397q-8-38-8-74 0-134 94.5-228.5T1135 0q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" fill="#0054ab"/></svg>');
@@ -105,11 +150,21 @@ $footer-recent-updates-text-color: #fff;
   font-family: $sans;
   margin-top: .8rem;
   background-color: $footer-card-background-color;
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    width: 100%;
+  }
 }
 
 .footer__recent-updates__list {
   margin: 0;
   padding: 0;
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $footer-card-border-color;
+  }
 }
 
 .footer__recent-updates__list__item {
@@ -117,6 +172,19 @@ $footer-recent-updates-text-color: #fff;
   margin: 0;
   border-bottom: 1px solid $footer-card-border-color;
   margin-top: .4rem;
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    border-bottom: 0;
+    border-top: 1px solid $footer-card-border-color;
+    margin-top: 0;
+    width: calc(50%);
+    border-right: 1px solid $footer-card-border-color;
+
+    &:nth-child(even) {
+      border-right: 0;
+      // width: calc(50% - 1px);
+    }
+  }
 }
 
 .footer__recent-updates__list__item__link {
@@ -128,7 +196,7 @@ $footer-recent-updates-text-color: #fff;
 }
 
 .footer__recent-updates__list__item__title {
-  font-size: .75rem;
+  font-size: .8rem;
   font-weight: normal;
   line-height: 1.4rem;
   margin: 0;
@@ -154,6 +222,11 @@ $footer-recent-updates-text-color: #fff;
 
   &.loaded {
     opacity: 1;
+  }
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    margin: 0;
+    padding-top: 57%;
   }
 }
 
@@ -209,5 +282,9 @@ $footer-recent-updates-text-color: #fff;
       text-align: center;
       font-size: .65rem;
     }
+  }
+
+  @media(min-width: $footer-tablet-breakpoint) {
+    width: 100%;
   }
 }
