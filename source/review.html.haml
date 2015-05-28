@@ -74,6 +74,12 @@
                 = ' D:'
                 = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
                 = " #{headline_cast(title: post.title)}."
+            .footer__recent-updates__list__item__pull-quote
+              = markdown(post.pull_quote)
+            .footer__recent-updates__list__item__read-more
+              %a{ href: "/reviews/#{review.slug}/" }
+                Continue reading 
+              &nbsp;&middot; #{minutes_to_read(review.content)} min read
 
     %a.footer__recent-updates__more_link{ href: "/##{post.slug}"}
       See More

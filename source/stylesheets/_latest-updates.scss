@@ -131,10 +131,10 @@ $latest-updates-desktop-breakpoint: 65.2em;
 
 .latest-updates__item__backdrop {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 .4rem;
   opacity: 0;
-  padding-top: 56.25%;
+  padding-top: 56.249999993%;
   transition: .8s opacity;
 
   &.loaded {
