@@ -40,18 +40,21 @@ pagination:
           %a{ href: "/reviews/#{review.slug}/" }
             Continue reading 
           &nbsp;&middot; #{minutes_to_read(review.content)} min read
-          
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
-      %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
+      %li.latest-updates__item{ value: post.sequence }
+        %a{ href: "/features/#{feature.slug}/"}
+          %header.latest-updates__item__header{ data: { sequence: post.sequence } }
+            %h3.latest-updates__item__header__title
               = feature.title
-        .latest-updates-list-item-pull-quote
+            .latest-updates__item__header__date
+              = post.date.strftime('%b %-d, %Y')
+          .latest-updates__item__backdrop{ data: { backdrop: feature.backdrop } }
+        .latest-updates__item__pull-quote
           = markdown(feature.pull_quote)
+        .latest-updates__item__read-more
+          %a{ href: "/features/#{feature.slug}/" }
+            Continue reading 
 .latest-updates__pagination
   - if pagination.prev_page
     %a.latest-updates__pagination__item.newer{ href: pagination.prev_page.url }

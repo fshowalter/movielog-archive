@@ -6,7 +6,7 @@
 :date: 2015-04-03
 :imdb_id: ‘’
 :grade: D+
-:backdrop: https://lh5.googleusercontent.com/-vbYz7fewpAs/VWZzTGAlDtI/AAAAAAAACn0/zB0TpzOhFYw/w1000-rj/the-visitor-1980.png
+:backdrop: https://lh5.googleusercontent.com/-vbYz7fewpAs/VWZzTGAlDtI/AAAAAAAACn0/zB0TpzOhFYw/w1000-rj/the-visitor-1980.jpg
 :pull_quote: _The Visitor_ left me with a strong desire to read a biography of John Huston. If only to understand how the legendary auteur ended up starring in a film so bizarre.
 ---
 As I see it, my job as a reviewer is threefold. I endeavor to describe what a given movie is about, convey a sense of the viewing experience[^1], and give you an idea of how I felt about it. 

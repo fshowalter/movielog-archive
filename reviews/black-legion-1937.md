@@ -6,6 +6,7 @@
 :date: 2014-08-22
 :grade: C
 :imdb_id: tt0027367
+:backdrop: https://lh3.googleusercontent.com/-uPa7fad268A/VWkjrisKLWI/AAAAAAAACuQ/pIhibNovL_M/w1000-rj/black-legion-1937.jpg
 :pull_quote: What separates _Black Legion_ from the typical melodrama is its depiction of how the Legion operates.
 ---
 

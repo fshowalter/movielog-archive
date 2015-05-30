@@ -6,6 +6,7 @@
 :date: 2014-08-03
 :grade: D
 :imdb_id: tt0064727
+:backdrop: https://lh3.googleusercontent.com/-cmiDNJgj2pw/VWkmDnZsmGI/AAAAAAAACuw/i8ThB0yMtUo/w1000-rj/the-bloody-judge-1970.jpg
 :pull_quote: For _The Bloody Judge_, the DVD extras are more interesting than the feature film.
 ---
 For _The Bloody Judge_, the DVD extras are more interesting than the feature film.

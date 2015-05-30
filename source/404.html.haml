@@ -1,24 +1,23 @@
-%article.feature
-  .review-backdrop{data: { backdrop: "https://lh3.googleusercontent.com/-o5UjDa2eOD4/VWe4XMNigGI/AAAAAAAACog/ssiUbIUABTc/w1000-rj/lost-highway.png" }}
-  %h1.page-title
+%article.post
+  .post-backdrop{data: { backdrop: "https://lh3.googleusercontent.com/-o5UjDa2eOD4/VWe4XMNigGI/AAAAAAAACog/ssiUbIUABTc/w1000-rj/lost-highway.png" }}
+  %h1.post-title.with-gutter
     Not Found
 
   .post-content
-    %p Dick Laurent?
     %p
-      You probably came looking for one of my old reviews. I'm in the process of touching them up
+      This is probably my bad. Are you looking for one of my old reviews? I'm in the process of touching them up
       and reposting them. In the mean time, you can find them in the site's
       <a href="https://github.com/fshowalter/movielog/tree/master/drafts">GitHub repo</a>.
     %p
-      If that's not it, you can try searching below:
+      If that's not what you're after, you can try searching below:
     .big-search
       = form_tag 'https://www.google.com/search', method: :get do
         = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-        = text_field_tag('q', placeholder: 'Type your query and hit Enter',
+        = text_field_tag('q', placeholder: 'Search the Movielog',
                               id: 'bigSearchInput',
                               class: 'big-site-search-input')
     %p
-      If you can't find what you need, contact me via
+      If you still can't find what you need, contact me via
       <a href="http://twitter.com/FranksMovieLog">Twitter</a> and I'll try and help.
     %p
-      Thanks for stopping by.
+      Apologies, and thanks for stopping by.
