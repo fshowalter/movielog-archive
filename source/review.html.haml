@@ -77,9 +77,9 @@
             .footer__recent-updates__list__item__pull-quote
               = markdown(post.pull_quote)
             .footer__recent-updates__list__item__read-more
-              %a{ href: "/reviews/#{review.slug}/" }
+              %a{ href: "/reviews/#{post.slug}/" }
                 Continue reading 
-              &nbsp;&middot; #{minutes_to_read(review.content)} min read
+              &nbsp;&middot; #{minutes_to_read(post.content)} min read
 
     %a.footer__recent-updates__more_link{ href: "/##{post.slug}"}
       See More

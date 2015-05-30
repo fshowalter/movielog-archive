@@ -100,7 +100,7 @@ $mast-search-breakpoint: 46em;
   box-sizing: border-box;
   display: block;
   font-family: $serif;
-  font-size: .75rem;
+  font-size: .65rem;
   height: 2.3rem;
   padding: .2rem .4rem .2rem 2rem;
   transition-duration: .4s;
@@ -108,9 +108,10 @@ $mast-search-breakpoint: 46em;
   width: 100%;
 
   &::placeholder {
-    font-size: .75rem;
-    font-family: $serif;
+    font-size: .65rem;
     line-height: auto;
+    font-family: $sans;
+    text-transform: uppercase;
   }
    
   &:hover {

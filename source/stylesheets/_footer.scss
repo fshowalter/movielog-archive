@@ -151,6 +151,12 @@ $footer-desktop-breakpoint: 65.2em;
   margin-top: .8rem;
   background-color: $footer-card-background-color;
 
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
   @media(min-width: $footer-tablet-breakpoint) {
     width: 100%;
   }
@@ -172,6 +178,9 @@ $footer-desktop-breakpoint: 65.2em;
   margin: 0;
   border-bottom: 1px solid $footer-card-border-color;
   margin-top: .4rem;
+  padding-bottom: 2.4rem;
+  position: relative;
+
 
   @media(min-width: $footer-tablet-breakpoint) {
     border-bottom: 0;
@@ -179,8 +188,6 @@ $footer-desktop-breakpoint: 65.2em;
     margin-top: 0;
     width: calc(50%);
     border-right: 1px solid $footer-card-border-color;
-    padding-bottom: 2.4rem;
-    position: relative;
 
     &:nth-child(even) {
       border-right: 0;

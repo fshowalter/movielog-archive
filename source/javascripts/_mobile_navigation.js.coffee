@@ -47,3 +47,11 @@ Gator(document).on 'click', '[data-toggle]', (e) ->
     hide(menu, @)
 
 document.documentElement.classList.add('js')
+
+
+Gator(document).on 'mousedown', (e) ->
+  document.documentElement.classList.add('js-no-outline')
+
+Gator(document).on 'keydown', (e) ->
+  document.documentElement.classList.remove('js-no-outline')
+

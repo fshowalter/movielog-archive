@@ -14,3 +14,9 @@
 
   // width: 0;
 }
+
+.js-no-outline {
+  a { outline: none; }
+  button { outline: none; }
+  input { outline: none; }
+}
