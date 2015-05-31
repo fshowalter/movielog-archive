@@ -9,7 +9,7 @@
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
 
-- content_for(:meta) do
+- content_for(:head) do
   %meta{ name: 'description', content: description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast) }
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }

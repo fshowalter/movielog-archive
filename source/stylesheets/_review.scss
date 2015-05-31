@@ -58,7 +58,7 @@ $review-directed-by-color: #9a9a9a;
   margin: 0 auto 2rem;
   width: 6rem;
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $tablet-breakpoint) {
     height: 1.4rem;
     margin: 0 auto 1.4rem;
     width: 7rem;

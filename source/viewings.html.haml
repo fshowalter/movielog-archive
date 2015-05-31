@@ -4,6 +4,7 @@ title: Viewing Log
 - sorted_viewings = viewings.keys.sort.reverse
 - content_for(:no_about_footer, 'true')
 - content_for(:no_how_i_grade_footer, 'true')
+-  content_for(:inline_css, 'viewings')
 .viewings
   %h2.viewings_header Viewing Log
   .card.card--with_shadow.viewings_filters{ data: { filter_controls: true, target: '#viewings' }}

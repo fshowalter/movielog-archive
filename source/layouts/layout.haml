@@ -3,8 +3,6 @@
   %head
     %meta{ 'http-equiv' => 'content-type', content: 'text/html; charset=utf-8' }
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1' }
-    - if content_for?(:meta)
-      = yield_content(:meta)
     %title
       - if current_page.data.title
         #{current_page.data.title} | #{Movielog.site_title}
@@ -13,6 +11,14 @@
       - else
         #{Movielog.site_title}
     = stylesheet_link_tag 'application', relative: false
+    - if content_for?(:head)
+      = yield_content(:head)
+    - if content_for?(:inline_css)
+      - inline_css_file  = sitemap.resources.select { |p| p.source_file.match(/#{yield_content(:inline_css)}[.]css[.]scss$/) }.first 
+      - if inline_css_file 
+        %style{ type: 'text/css' }
+          = inline_css_file.render
+
     %link{ rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-touch-icon-57x57.png' }
     %link{ rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-touch-icon-114x114.png' }
     %link{ rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-touch-icon-72x72.png' }
@@ -83,7 +89,7 @@
         .footer_links
           %a{ href: '/'} Frank's Movie Log
           %a{ href: '/'} Latest Updates
-          %a{ href: '/viewings/'} Viewing Log
+          %a{ href: '/viewings/', data: { no_instant: true }} Viewing Log
           %a{ href: '/features/how-i-grade/'} How I Grade
        
       - unless development?

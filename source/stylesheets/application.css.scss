@@ -1,15 +1,4 @@
-$serif: 'freight-text-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
-$sans: 'futura-pt';
-
-// $breakpoint: 68.5em;
-$breakpoint: 700px;
-$max-content-width: 39em;
-$highlight: #579;
-
-$abbreviation-breakpoint: 44em;
-$tablet-breakpoint: 48em;
-$desktop-breakpoint: 65.2em;
-
+@import 'variables';
 @import 'post';
 @import 'card';
 
@@ -20,7 +9,4 @@ $desktop-breakpoint: 65.2em;
 @import 'recent-posts';
 @import 'review';
 @import 'latest-updates';
-@import 'viewings';
-@import 'how-i-grade';
-@import '404';
 @import 'js';

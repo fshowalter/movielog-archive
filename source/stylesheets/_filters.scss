@@ -67,7 +67,7 @@ $filter-text-box-color: #555;
   @extend %numeric;
   width: 2rem;
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $tablet-breakpoint) {
     height: 1.3rem;
     width: 2rem;
   }
