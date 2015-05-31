@@ -29,6 +29,7 @@
     %meta{ name: 'msapplication-TileColor', content: '#2b5797' }
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
+    %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' } 
   %body
     .content-container{ class: yield_content(:content_class) }
       %header.mast
