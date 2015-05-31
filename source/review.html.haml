@@ -14,7 +14,7 @@
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }
   %meta{ name: 'twitter:title', content: review.display_title }
-  %meta{ name: 'twitter:description', content: "(#{grade_to_unicode_stars(grade: review.grade)}) #{review.pull_quote}" }
+  %meta{ name: 'twitter:description', content: "(#{grade_to_unicode_stars(grade: review.grade)}) #{markdown(review.pull_quote)}" }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
 
