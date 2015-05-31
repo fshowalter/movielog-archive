@@ -83,7 +83,6 @@ RATINGRANGEFILTER DATA-API
 $(document).on("mousedown.range-filter.movielog.data-api MSPointerDown.range-filter.movielog.data-api touchstart.range-filter.movielog.data-api", "[data-filter-type='rating-range']", (e)->
   $this = $(@)
   if !$this.data('movielog.filter')
-    console.log("init")
     e.preventDefault()
     $this.ratingRangeFilter();
     $(e.target).trigger(e)

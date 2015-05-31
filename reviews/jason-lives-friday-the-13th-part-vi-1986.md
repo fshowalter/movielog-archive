@@ -6,6 +6,7 @@
 :date: 2015-01-01
 :imdb_id: tt0091080
 :grade: D+
+:backdrop: https://lh5.googleusercontent.com/-jCjfRT1DMe8/VWjuxgmHAXI/AAAAAAAACqU/rPVQXVdlMPA/w1000-rj/jason-lives-friday-the-13th-part-vi-1986.jpg
 :pull_quote: "_Jason Lives: Friday the 13th Part VI_ isn’t an awful movie. The depiction of Jason is great, and the fourth-wall humor is a nice touch. But the forced melodrama and bland supporting cast drag things down."
 ---
 Jason lives. Not _Friday the 13th Part VI: Jason Lives_ but _Jason Lives: Friday the 13th Part VI_. After the head-scratching mess that was _Friday the 13th: A New Beginning (1985)_, somebody in Paramount’s marketing division must have worried that kids would stop reading after the _Friday the 13th_ part of the title. I’m not sure things were that dire, but it does give you a sense of this film’s mandate.

@@ -99,7 +99,6 @@
 /* 17 */ ,'noUi-stacking'
 	];
 
-
 // Value calculation
 
 	// Determine the size of a sub-range in relation to a full range.
@@ -638,7 +637,6 @@
 
 	// Provide a clean event with standardized offset values.
 	function fixEvent ( e ) {
-
 		// Prevent scrolling and panning on touch events, while
 		// attempting to slide. The tap event also depends on this.
 		e.preventDefault();

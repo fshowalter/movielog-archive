@@ -6,6 +6,7 @@
 :date: 2014-12-06
 :imdb_id: tt1951265
 :grade: F
+:backdrop: https://lh3.googleusercontent.com/-xLvA-f7_G5o/VWj4wt7CPTI/AAAAAAAACsM/F_MxYPZzbQk/w1000-rj/the-hunger-games-mockingjay-part-1-2014.jpg
 :pull_quote: Watching this film felt like watching the deleted scenes from a better movie. A movie where things actually happen.
 ---
 

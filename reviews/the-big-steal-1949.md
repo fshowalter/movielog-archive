@@ -6,6 +6,7 @@
 :date: 2015-02-04
 :imdb_id: tt0041178
 :grade: B-
+:backdrop: https://image.tmdb.org/t/p/original/bovPVIHLuWet9xfDblA2zVSHgqR.jpg
 :pull_quote: "_The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog."
 ---
 Like any good script, _The Big Steal_ starts as late into the story as possible. Aboard an ocean liner that's just docked in Veracruz, Mexico, William Bendix bursts into Robert Mitchum's cabin holding a gun. He's after something he believes Mitchum stole. Mitchum says he doesn't have it. “You’ve got the wrong man,” Mitchum says. Bendix isn’t buying it. He moves to arrest Mitchum. Mitchum overpowers Bendix, knocking him out. Mitchum takes Bendix's gun and identification. The identification reads: Captain Vincent Blake of the US Army. 

@@ -3,6 +3,7 @@
 :sequence: 13
 :slug: how-i-grade
 :date: 2014-12-07
+:backdrop: https://lh6.googleusercontent.com/-2nDTenMcBWI/VWpHS4CLBjI/AAAAAAAACv8/57TwXsv-T14/w1000-rj/how-i-grade.jpg
 :pull_quote: Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
 ---
 * ### a great movie ###

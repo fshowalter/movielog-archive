@@ -6,6 +6,7 @@
 :date: 2015-03-28
 :imdb_id: tt0046891
 :grade: D+
+:backdrop: https://lh3.googleusercontent.com/-Wo_vWoActow/VVg3UdYAp1I/AAAAAAAAClc/L6nVyTwqrDY/w1000-rj/dangerous-mission-1954.jpg
 :pull_quote: _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory. 
 ---
 _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory. 

@@ -6,6 +6,7 @@
 :date: 2014-10-13
 :imdb_id: tt0032283
 :grade: D+
+:backdrop: https://lh3.googleusercontent.com/-WAcdzwsNCqU/VWj5V9ZXBbI/AAAAAAAACsc/vdRRov6-mb0/w1000-rj/british-intelligence-1940.jpg
 :pull_quote: The labyrinthine twists of agents, double agents, and triple agents, leaves little room for characterization. But maybe that’s by design. Characterization requires some degree of plausibility, and the more one thinks about this film, the more it devolves into a series of flimsy revelations and deus ex machina.
 ---
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. I see no other way to review the film. Plot is all it has to offer.

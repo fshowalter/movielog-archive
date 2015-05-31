@@ -4,7 +4,7 @@ require 'time'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, no_swf: true
 end
 
 helpers Movielog::Helpers
@@ -61,6 +61,10 @@ helpers do
       end
       viewings
     end
+  end
+
+  def sorted_posts
+    Movielog.posts.keys.sort.reverse
   end
 end
 

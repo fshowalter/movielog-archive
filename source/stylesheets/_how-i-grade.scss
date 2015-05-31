@@ -1,17 +1,67 @@
-.how-i-grade {
-  ul {
-    margin: 0 0 2rem;
-    padding: 0;
+%horizontal-rule {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  height: 0;
+  width: 5rem;
+}
+
+.post_content.how-i-grade {
+  &:before {
+    @extend %horizontal-rule;
+    margin: 0 auto 2.55rem;
   }
 
-  li {
-    font-weight: 400;
-    line-height: 1.4rem;
-    list-style-type: none;
+  h2 {
+    color: rgba(0, 0, 0, .4);
+    font-family: $serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: -.02em;
+    line-height: 1.2;
+    margin-bottom: .1rem;
+    margin-left: -1.6px;
+    margin-top: 2rem;
+
+    &:before {
+      @extend %horizontal-rule;
+      margin: 0 auto 2.75rem;
+    }
+
+    @media (min-width: $breakpoint) {
+      font-size: 1.6rem;
+      margin-bottom: .7rem;
+      margin-top: 4rem;
+    }
   }
 
   h3 {
-    margin-left: 0;
+    color: rgba(0, 0, 0, .4);
+    font-size: 1.1rem;
+    font-weight: normal;
+    letter-spacing: -.02em;
+    line-height: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 2.8rem;
+
+    @media (min-width: $breakpoint) {
+      font-size: 1.3rem;
+      margin-bottom: .15rem;
+      margin-top: 2.8rem; 
+    }
+  }
+
+  ul {
+    margin: 0 0 2rem;
+    padding: 0;
+  
+    li {
+      font-weight: 400;
+      line-height: 1.4rem;
+      list-style-type: none;
+    }
   }
   
   img {
@@ -24,7 +74,7 @@
 
   @media (min-width: $breakpoint) {
     hr {
-      margin-bottom: 2rem;
+      margin-bottom: 2.2rem;
     }
 
     img {
