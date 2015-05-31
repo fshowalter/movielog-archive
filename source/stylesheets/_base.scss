@@ -22,7 +22,7 @@ html {
   text-rendering: optimizeLegibility;
 
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $tablet-breakpoint) {
     line-height: 28px;
   }
 }
@@ -30,6 +30,10 @@ html {
 body {
   background-color: $body-background-color;
   color: rgba(0, 0, 0, .8);
+
+  @media (min-width: $tablet-breakpoint) {
+    padding-top: 2.4rem;
+  } 
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
