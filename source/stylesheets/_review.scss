@@ -1,101 +1,66 @@
-.review {
-  @extend %post;
-  padding-left: 0;
-  padding-right: 0;
+$review-directed-by-color: #9a9a9a;
 
-  @media (min-width: $breakpoint) {
-    line-height: .7rem;
-  }
-
-  .page-title {
-    @media (min-width: $breakpoint) {
-      margin-bottom: 0;
-    }    
-  }
-}
-
-.review-backdrop {
-  width: 100%;
-  background-size: contain;
-
-  &:after {
-    content: '';
-    display: block;
-    padding-top: 56.25%;
-  }
-}
-
-.review-aka-list {
-  margin: 0;
+.review_aka_list {
+  margin: .4rem .8rem;
   text-align: center;
+
+  @media (min-width: $tablet-breakpoint) {
+    margin-bottom: 1.6rem;
+  }
 }
 
-.review-aka-list-heading {
+.review_aka_list-heading {
   color: rgba(0, 0, 0, .3);
   font-size: .8rem;
   font-weight: normal;
+  line-height: 1.5;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: .9rem;
+    line-height: 1.6rem;
+  }
 }
 
-.review-aka-list-item {
+.review_aka_list-item {
   color: rgba(0, 0, 0, .6);
-  font-size: .85rem;
-  letter-spacing: -.02rem;
-  line-height: 1.4rem;
+  font-family: $sans;
+  font-size: .8rem;
+  line-height: 1.2rem;
   margin: 0;
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: .9rem;
+  }
 }
 
-.review-directed-by {
-  color: #9a9a9a;
+.review_directed_by {
+  color: $review-directed-by-color;
   display: block;
+  font-family: $sans;
   font-size: .75rem;
   font-weight: 400;
-  padding-bottom: .65rem;
-  padding-top: .65rem;
+  line-height: 1.2rem;
+  margin: 0 .8rem;
+  padding-bottom: .8rem;
+  padding-top: .4rem;
   text-align: center;
-  font-family: "futura-pt";
 
-  @media (min-width: $breakpoint) {
+  @media (min-width: $tablet-breakpoint) {
     font-size: .9rem;
-    letter-spacing: -.02rem;
-    padding: .7rem 0 1.4rem;
+    margin-top: 1.2rem;
+    padding: 0 0 1.2rem;
   }
 }
 
-.review-rating img {
+.review_rating img {
   display: block;
-  height: 1.3rem;
-  margin: 0 auto 1.3rem;
-  width: 6.5rem;
+  height: 1.2rem;
+  margin: 0 auto 2rem;
+  width: 6rem;
 
   @media (min-width: $breakpoint) {
-    margin: 0 auto 1.4rem;
     height: 1.4rem;
+    margin: 0 auto 1.4rem;
     width: 7rem;
   }
-}
-
-
-%review-meta-item {
-  color: rgba(0, 0, 0, .6);
-  font-size: .8rem;
-  line-height: 1.1;
-  min-height: 1.3rem;
-
-  .role {
-    color: rgba(0, 0, 0, .3);
-  }
-
-  @media (min-width: $breakpoint) {
-    font-size: .85rem;
-    letter-spacing: normal;
-    line-height: 1.3;
-    min-height: 1.4rem;
-  }
-}
-
-%review-meta-header {
-  @extend %small-header;
-
-  border-top: 1px solid rgba(0, 0, 0, .15);
-  margin: -1px 0 0;
 }

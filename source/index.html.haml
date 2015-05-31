@@ -10,22 +10,22 @@ pagination:
     content_for(:title, "Page - #{pagination.page_num}")
   end
 
-%ol.latest-updates
+%ol.latest_updates
   - pagination.each do |key|
     - post = posts[key]
     - if post.is_a?(Movielog::Review)
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.latest-updates__item{ id: post.slug, value: post.sequence }
+      %li.card.card--with_shadow{ id: post.slug, value: post.sequence }
         %a{ href: "/reviews/#{review.slug}/"}
-          %header.latest-updates__item__header{ data: { sequence: post.sequence } }
-            %h3.latest-updates__item__header__title
+          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+            %h3.card_header-title
               = "#{review.display_title}"
-            = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates__item__header__rating' })
-            .latest-updates__item__header__date
+            = grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })
+            .card_header-date
               = post.date.strftime('%b %-d, %Y')
-          .latest-updates__item__backdrop{ data: { backdrop: review.backdrop } }
-        .latest-updates__item__slug
+          .card_backdrop{ data: { backdrop: review.backdrop } }
+        .card_slug
           %span.abbreviation
             = ' D'
           %span.full
@@ -34,32 +34,32 @@ pagination:
           %span.full
             Starring
           = " #{headline_cast(title: review.title)}."
-        .latest-updates__item__pull-quote
+        .card_text
           = markdown(review.pull_quote)
-        .latest-updates__item__read-more
+        .card_actions.card_actions--with_divider
           %a{ href: "/reviews/#{review.slug}/" }
             Continue reading 
           &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
-      %li.latest-updates__item{ value: post.sequence }
+      %li.card.card--with_shadow{ value: post.sequence }
         %a{ href: "/features/#{feature.slug}/"}
-          %header.latest-updates__item__header{ data: { sequence: post.sequence } }
-            %h3.latest-updates__item__header__title
+          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+            %h3.card_header-title
               = feature.title
-            .latest-updates__item__header__date
+            .card_header-date
               = post.date.strftime('%b %-d, %Y')
-          .latest-updates__item__backdrop{ data: { backdrop: feature.backdrop } }
-        .latest-updates__item__pull-quote
+          .card_backdrop{ data: { backdrop: feature.backdrop } }
+        .card_text
           = markdown(feature.pull_quote)
-        .latest-updates__item__read-more
+        .card_actions.card_actions--with_divider
           %a{ href: "/features/#{feature.slug}/" }
             Continue reading 
-.latest-updates__pagination
+.latest_updates_pagination
   - if pagination.prev_page
-    %a.latest-updates__pagination__item.newer{ href: pagination.prev_page.url }
+    %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url }
       Newer
 
   - if pagination.next_page
-    %a.latest-updates__pagination__item.older{ href: pagination.next_page.url }
+    %a.latest_updates_pagination-item.older{ href: pagination.next_page.url }
       Older

@@ -4,13 +4,19 @@
   content_for(:title, feature.title)
   content_for(:description, feature.pull_quote) if feature.pull_quote
 
-%article.feature
-  %h1.page-title{ data: { rhythm: 0 } }= feature.title
+%article.post
+  - if feature.backdrop
+    .post_backdrop{ data: { backdrop: feature.backdrop } }
 
-  .post-content{ class: feature.slug, data: { rhythm: 0 } }
+  %h1.post_title{ data: { rhythm: 0 } }= feature.title
+
+  .post_content{ class: feature.slug, data: { rhythm: 0 } }
     = markdown(feature.content)
 
-  .post-slug
-    %span.title
+  .post_slug
+    %span
       #{feature.title}
     = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
+
+- content_for(:footer) do
+  = partial(:recent_posts, locals: { current_post: feature })

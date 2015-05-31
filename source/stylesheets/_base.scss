@@ -1,3 +1,5 @@
+$body-background-color: #f1f1f1;
+
 * {
   box-sizing: border-box;
 }
@@ -26,33 +28,14 @@ html {
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: $body-background-color;
   color: rgba(0, 0, 0, .8);
-
-  &:before {
-    content: '';
-    background-image: linear-gradient(transparent 7px, rgba(0, 0, 0, .3) 8px);
-    background-size: 100% 8px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10000;
-    display: none;
-  }
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: $highlight;
   text-decoration: none;
-}
-
-// `:focus` is linked to `:hover` for basic accessibility
-a:hover,
-a:focus {
-
 }
 
 input::placeholder {
@@ -97,27 +80,20 @@ p {
   @extend %container;
 }
 
-
-.page-title {
-  color: #303030;
-  font-size: 1.5rem;
-  font-weight: 800;
-  font-weight: 400;
-  letter-spacing: -.02em;
-  line-height: 1;
-  margin: 0 0 9px;
-  padding-top: 1.95rem;
-  text-align: center;
-  font-family: "futura-pt";
-  margin-left: .8rem;
-  margin-right: .8rem;
-
-  @media (min-width: $breakpoint) {
-    font-size: 2.25rem;
-    line-height: 2.1rem;
-    margin-bottom: 14px;
-    padding-bottom: .7rem;
-    padding-top: 2.1rem;
-  }
+.full {
+  display: none;
 }
 
+.abbreviation:after {
+  content: ':';
+}
+
+@media (min-width: $abbreviation-breakpoint) {
+  .abbreviation:after {
+    content: '';
+  }
+
+  .full {
+    display: inline;
+  }
+}

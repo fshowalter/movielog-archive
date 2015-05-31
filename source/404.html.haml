@@ -1,23 +1,27 @@
 %article.post
-  .post-backdrop{data: { backdrop: "https://lh3.googleusercontent.com/-o5UjDa2eOD4/VWe4XMNigGI/AAAAAAAACog/ssiUbIUABTc/w1000-rj/lost-highway.png" }}
-  %h1.post-title.with-gutter
+  .post_backdrop{data: { backdrop: "https://lh3.googleusercontent.com/-o5UjDa2eOD4/VWe4XMNigGI/AAAAAAAACog/ssiUbIUABTc/w1000-rj/lost-highway.png" }}
+  %h1.post_title
     Not Found
 
-  .post-content
+  .post_content
     %p
       This is probably my bad. Are you looking for one of my old reviews? I'm in the process of touching them up
       and reposting them. In the mean time, you can find them in the site's
       <a href="https://github.com/fshowalter/movielog/tree/master/drafts">GitHub repo</a>.
     %p
       If that's not what you're after, you can try searching below:
-    .big-search
+    .not_found_search
       = form_tag 'https://www.google.com/search', method: :get do
         = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
         = text_field_tag('q', placeholder: 'Search the Movielog',
                               id: 'bigSearchInput',
-                              class: 'big-site-search-input')
+                              class: 'not_found_search-input')
     %p
       If you still can't find what you need, contact me via
       <a href="http://twitter.com/FranksMovieLog">Twitter</a> and I'll try and help.
     %p
-      Apologies, and thanks for stopping by.
+      My apologies, and thanks for stopping by.
+
+
+- content_for(:footer) do
+  = partial(:recent_posts, locals: { current_post: OpenStruct.new(sequence: 0) })

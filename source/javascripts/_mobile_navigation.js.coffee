@@ -1,9 +1,9 @@
 //= require _gator
 
 hide = (menu, toggle) ->
-  return if menu.classList.contains('js-toggle-off')
+  return if menu.classList.contains('js-toggle_off')
 
-  menu.classList.add('js-toggling', 'js-toggle-off')
+  menu.classList.add('js-toggling', 'js-toggle_off')
   menu.setAttribute('aria-expanded', false)
 
   toggle.setAttribute('aria-expanded', false)
@@ -15,10 +15,10 @@ hide = (menu, toggle) ->
       toggle.innerHTML = toggle.getAttribute('data-toggle-label')
 
 show = (menu, toggle) ->
-  return unless menu.classList.contains('js-toggle-off')
+  return unless menu.classList.contains('js-toggle_off')
 
   menu.classList.add('js-toggling')
-  menu.classList.remove('js-toggle-off')
+  menu.classList.remove('js-toggle_off')
   menu.setAttribute('aria-expanded', true)
 
   toggle.setAttribute('aria-expanded', true)
@@ -41,7 +41,7 @@ Gator(document).on 'click', '[data-toggle]', (e) ->
 
   return if menu.classList.contains('js-toggling')
 
-  if menu.classList.contains('js-toggle-off') 
+  if menu.classList.contains('js-toggle_off') 
     show(menu, @) 
   else 
     hide(menu, @)
@@ -50,8 +50,8 @@ document.documentElement.classList.add('js')
 
 
 Gator(document).on 'mousedown', (e) ->
-  document.documentElement.classList.add('js-no-outline')
+  document.documentElement.classList.add('js-no_outline')
 
 Gator(document).on 'keydown', (e) ->
-  document.documentElement.classList.remove('js-no-outline')
+  document.documentElement.classList.remove('js-no_outline')
 

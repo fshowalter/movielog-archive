@@ -36,57 +36,50 @@
           %a.mast__title-link{ href: '/', tabindex: 1 } Frank's Movie Log
         %button.mast__search-toggle{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
           Search
-        = form_tag 'https://www.google.com/search', method: :get, class: 'mast__search-form js-toggle js-toggle-off' do
+        = form_tag 'https://www.google.com/search', method: :get, class: 'mast__search-form js-toggle js-toggle_off' do
           = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
           .mast__search-wrap
             = text_field_tag('q', placeholder: 'Search the Movie Log',
                                   id: 'mastSearchInput',
                                   class: 'mast__search-input',
                                   tabindex: 2)
-      - if content_for?(:header)
-        %h2.page-title{ data: { rhythm: 0 }}
-          = yield_content(:header)
       = yield
       %footer.footer
-        .footer__about
-          %h2.footer__header 
-            About
-          %p Hi there. I'm Frank. This site is a catalog of my movie-watching adventures. I keep a searchable <a href='/viewings/'>viewing log</a> where I track everything I see, and I try to review as much as I can. If you're curious about the star ratings, I wrote a piece on <a href='/features/how-i-grade/'>how I grade</a>. Once upon a time, I reviewed everything I watched, but these days I aim for quality over quantity. I’m not a great writer. Maybe not even a good one. But with practice I can be better.
+        - unless content_for?(:no_about_footer)
+          = partial(:about)
+        - unless content_for?(:no_how_i_grade_footer)
+          .card.card--with_shadow.footer-how_i_grade
+            %h2.footer_header 
+              How I Grade
+            .card_text
+              %dl.footer_how_i_grade_list
+                %dt.footer_how_i_grade_list-grade 
+                  = grade_to_image_tag(grade: 'A', options: { class: 'footer_how_i_grade_list-rating' })
+                %dd.footer_how_i_grade_list-text
+                  %span a great movie
+                %dt.footer_how_i_grade_list-grade 
+                  = grade_to_image_tag(grade: 'B', options: { class: 'footer_how_i_grade_list-rating' })
+                %dd.footer_how_i_grade_list-text
+                  %span  a good movie
+                %dt.footer_how_i_grade_list-grade 
+                  = grade_to_image_tag(grade: 'C', options: { class: 'footer_how_i_grade_list-rating' })
+                %dd.footer_how_i_grade_list-text
+                  %span an okay movie
+                %dt.footer_how_i_grade_list-grade 
+                  = grade_to_image_tag(grade: 'D', options: { class: 'footer_how_i_grade_list-rating' })
+                %dd.footer_how_i_grade_list-text
+                  %span a bad movie
+                %dt.footer_how_i_grade_list-grade 
+                  = grade_to_image_tag(grade: 'F', options: { class: 'footer_how_i_grade_list-rating' })
+                %dd.footer_how_i_grade_list-text
+                  %span an awful movie
 
-          %a.footer__twitter{ href: 'http://twitter.com/FranksMovieLog',
-                                data: { no_instant: true }}
-            Find me on Twitter
-        .footer__how-i-grade
-          %h2.footer__header 
-            How I Grade
-          %dl.footer__how-i-grade__list
-            %dt.footer__how-i-grade__list__grade 
-              = grade_to_image_tag(grade: 'A', options: { class: 'footer__how-i-grade__list__rating' })
-            %dd.footer__how-i-grade__list__text
-              %span a great movie
-            %dt.footer__how-i-grade__list__grade
-              = grade_to_image_tag(grade: 'B', options: { class: 'footer__how-i-grade__list__rating' })
-            %dd.footer__how-i-grade__list__text
-              %span  a good movie
-            %dt.footer__how-i-grade__list__grade  
-              = grade_to_image_tag(grade: 'C', options: { class: 'footer__how-i-grade__list__rating' })
-            %dd.footer__how-i-grade__list__text
-              %span an okay movie
-            %dt.footer__how-i-grade__list__grade  
-              = grade_to_image_tag(grade: 'D', options: { class: 'footer__how-i-grade__list__rating' })
-            %dd.footer__how-i-grade__list__text
-              %span a bad movie
-            %dt.footer__how-i-grade__list__grade  
-              = grade_to_image_tag(grade: 'F', options: { class: 'footer__how-i-grade__list__rating' })
-            %dd.footer__how-i-grade__list__text
-              %span an awful movie
-
-          %p Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
-
-          %a.footer__how-i-grade__read-more{ href: '/features/how-i-grade/'}
-            More about how I grade
+              %p Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
+            .card_actions.card_actions--with_divider
+              %a{ href: '/features/how-i-grade/'}
+                More about how I grade
         = yield_content(:footer) if content_for?(:footer)
-        .footer__links
+        .footer_links
           %a{ href: '/'} Frank's Movie Log
           %a{ href: '/'} Latest Updates
           %a{ href: '/viewings/'} Viewing Log

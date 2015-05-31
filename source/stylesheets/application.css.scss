@@ -1,19 +1,23 @@
-$serif: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
-$sans: "futura-pt";
+$serif: 'freight-text-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
+$sans: 'futura-pt';
 
 // $breakpoint: 68.5em;
 $breakpoint: 700px;
 $max-content-width: 39em;
 $highlight: #579;
 
-@import 'list';
-@import 'small-header';
+$abbreviation-breakpoint: 44em;
+$tablet-breakpoint: 48em;
+$desktop-breakpoint: 65.2em;
+
 @import 'post';
+@import 'card';
 
 @import 'base';
 @import 'mast';
 @import 'footer';
-@import 'feature';
+@import 'about';
+@import 'recent-posts';
 @import 'review';
 @import 'latest-updates';
 @import 'viewings';

@@ -1,197 +1,70 @@
-%post {
-  // border-bottom: 1px solid rgba(0, 0, 0, .05);
+$post-background-color: #fff;
+$post-title-color: #303030;
+$post-slug-border-color: #eee;
+
+.post {
+  background-color: $post-background-color;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
   font-feature-settings: 'ordn', 'lnum';
   line-height: 1.3rem;
-  margin: 0;
-  padding: 0 1rem 2.6rem 1rem;
-  border-bottom: 2px solid #ddd;
-  background-color: #fff;
+  padding-bottom: .8rem;
 
   @media (min-width: $breakpoint) {
     line-height: 1.4rem;
     margin: 0 auto;
-    // max-width: 35rem;
-    padding: 0 0 2.75rem 0;
-    // border-bottom: 0;
-    // margin-bottom: 0;
-  }
-
-  a {
-    &:hover {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(85, 119, 153, .6) 50%);
-      background-position: 0 24px;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
-    }
-
-    &:before {
-      content: none;
-    }
-
-    &[rel="footnote"] {
-      font-feature-settings: 'sups';
-    }
-  }
-
-  h2 {
-    color: rgba(0, 0, 0, .4);
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: -.02em;
-    line-height: 1.2;
-    margin-bottom: .1rem;
-    margin-left: -1.6px;
-    margin-top: 2rem;
-
-    @media (min-width: $breakpoint) {
-      font-size: 1.6rem;
-      margin-bottom: .7rem;
-    }
-  }
-  
-  .footnotes {
-    border-top: 1px solid rgba(0, 0, 0, .05);
-    font-weight: 400;
-    padding-top: 1.25rem;
-
-    @media (min-width: $breakpoint) {
-      padding-top: 1.4rem;
-    }
-  
-    a:hover {
-      background-position: 0 16px;
-    }
-
-    ol {
-      margin: 0;
-      padding-left: 1rem;
-
-      @media (min-width: $breakpoint) {
-        padding-left: 2rem;
-      }
-    }
-    
-    hr {
-      display: none;
-    }
-
-    li {
-      font-size: .8rem;
-      list-style-type: decimal;
-    }
-
-    p {
-      font-size: .8rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.4;
-      margin-bottom: 0;
-      padding-bottom: 1.3rem;
-   
-      @media (min-width: $breakpoint) {
-        font-size: .9rem;
-        padding-bottom: 1.4rem;
-      }
-    }
   }
 }
 
-.post {
-  font-feature-settings: 'ordn', 'lnum';
-  line-height: 1.3rem;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
+.post_backdrop {
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  padding-top: 56.249999993%;
+  transition: .8s opacity;
 
-  @media (min-width: $breakpoint) {
-    line-height: .7rem;
-    margin: 0 auto;
-    padding: 0 0 2.75rem 0;
-  }
-
-  a {
-    &:hover {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(85, 119, 153, .6) 50%);
-      background-position: 0 24px;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
-    }
-
-    &[rel="footnote"] {
-      font-feature-settings: 'sups';
-    }
-  }
-
-  h2 {
-    color: rgba(0, 0, 0, .4);
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: -.02em;
-    line-height: 1.2;
-    margin-bottom: .1rem;
-    margin-left: -1.6px;
-    margin-top: 2rem;
-
-    @media (min-width: $breakpoint) {
-      font-size: 1.6rem;
-      margin-bottom: .7rem;
-    }
+  &.loaded {
+    opacity: 1;
   }
 }
 
-.post-backdrop {
-  width: 100%;
-  background-size: contain;
-
-  &:after {
-    content: '';
-    display: block;
-    padding-top: 56.25%;
-  }
-}
-
-.post-title {
-  color: #303030;
+.post_title {
+  color: $post-title-color;
+  font-family: $sans;
   font-size: 1.5rem;
-  font-weight: 800;
   font-weight: 400;
   letter-spacing: -.02em;
-  line-height: 1;
-  margin: 0 0 9px;
-  padding-top: 1.95rem;
+  line-height: 1.07;
+  margin: 2rem .8rem 0;
   text-align: center;
-  font-family: "futura-pt";
-  margin-left: .8rem;
-  margin-right: .8rem;
-
-  &.with-gutter {
-    margin-bottom: 1.3rem;
-
-    @media (min-width: $breakpoint) {
-      margin-bottom: 1.4rem;
-    }
-  }
 
   @media (min-width: $breakpoint) {
     font-size: 2.25rem;
-    line-height: 2.1rem;
-    margin-bottom: 14px;
-    padding-bottom: .7rem;
-    padding-top: 2.1rem;
+    line-height: 2.4rem;
+    margin-top: 2.4rem;
   }
 }
 
-
-.post-content {
+.post_content {
   line-height: 1.4;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin: 2rem auto 0;
   max-width: 35rem;
-  margin: 0 auto;
+  padding: 0 .8rem;
+
+  a {
+    &:hover {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(85, 119, 153, .6) 50%);
+      background-position: 0 24px;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    }
+
+    &[rel="footnote"] {
+      font-feature-settings: 'sups';
+    }
+  }
 
   p {
-    margin-bottom: 0;
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
 
     @media (min-width: 31.3125em) {
       font-size: 1.1rem;
@@ -201,29 +74,7 @@
   }
 }
 
-.post-slug {
-  max-width: 33rem;
-  margin: 0 auto;
-  border-top: solid 1px #eee;
-  padding: .8rem .8rem 1.2rem .8rem;
-  font-size: .8rem;
-  color: rgba(0,0,0,.7);
-  line-height: 1.3;
-  letter-spacing: .008rem;
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
-
-  span {
-    font-weight: 700;
-  }
-
-  @media(min-width: $breakpoint) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-}
-
-.post-footnotes {
+.post_content > .footnotes {
   border-top: 1px solid rgba(0, 0, 0, .05);
   font-weight: 400;
   padding-top: 1.25rem;
@@ -266,5 +117,25 @@
       font-size: .9rem;
       padding-bottom: 1.4rem;
     }
+  }
+}
+
+.post_slug {
+  border-top: solid 1px $post-slug-border-color;
+  color: rgba(0, 0, 0, .7);
+  font-size: .8rem;
+  letter-spacing: .008rem;
+  line-height: 1.3;
+  margin: 0 auto;
+  max-width: 33rem;
+  padding: .8rem .8rem 1.2rem;
+
+  span {
+    font-weight: 700;
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
