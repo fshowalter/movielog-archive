@@ -7,17 +7,22 @@
   viewings = Movielog.viewings_for_title(title: review.title)
   headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-  director_slug = directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence
-  writers = MovieDb.writers_for_title(db: Movielog.db, title: review.title)
-  content_for(
-    :description,
-    description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast))
+  director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+
+- content_for(:meta) do
+  %meta{ name: 'description', content: description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast) }
+  %meta{ name: 'twitter:card', content: 'summary_large_image' }
+  %meta{ name: 'twitter:site', content: '@franksmovielog' }
+  %meta{ name: 'twitter:title', content: review.display_title }
+  %meta{ name: 'twitter:description', content: "(#{grade_to_unicode_stars(grade: review.grade)}) #{headline_cast(title: review.title)}" }
+  %meta{ name: 'twitter:image', content: review.backdrop }
+
 
 %article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
   - if review.backdrop
     .post_backdrop{ data: { backdrop: review.backdrop } }
 
-  %h1.post_title{ itemprop: 'name', data: { rhythm: 0 } }= review.display_title
+  %h1.post_title{ itemprop: 'name' }= review.display_title
 
   - if aka_titles.any?
     %dl.review_aka_list
@@ -34,7 +39,7 @@
     %meta{ content: '5', itemprop: 'bestRating' }
     = grade_to_image_tag(grade: review.grade)
 
-  .post_content{ itemprop: 'reviewBody', data: { rhythm: 0 } }
+  .post_content{ itemprop: 'reviewBody' }
     = markdown(review.content)
   %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }

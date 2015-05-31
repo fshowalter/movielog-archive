@@ -2,7 +2,14 @@
 ---
 :ruby
   content_for(:title, feature.title)
-  content_for(:description, feature.pull_quote) if feature.pull_quote
+
+- content_for(:meta) do
+  %meta{ name: 'description', content: feature.pull_quote }
+  %meta{ name: 'twitter:card', content: 'summary_large_image' }
+  %meta{ name: 'twitter:site', content: '@franksmovielog' }
+  %meta{ name: 'twitter:title', content: feature.title }
+  %meta{ name: 'twitter:description', content: feature.pull_quote }
+  %meta{ name: 'twitter:image', content: feature.backdrop }
 
 %article.post
   - if feature.backdrop

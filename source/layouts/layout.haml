@@ -3,8 +3,8 @@
   %head
     %meta{ 'http-equiv' => 'content-type', content: 'text/html; charset=utf-8' }
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1' }
-    - if content_for?(:description)
-      %meta{ name: 'description', content: yield_content(:description) }
+    - if content_for?(:meta)
+      = yield_content(:meta)
     %title
       - if current_page.data.title
         #{current_page.data.title} | #{Movielog.site_title}
