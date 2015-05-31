@@ -1,0 +1,100 @@
+$body-background-color: #f1f1f1;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  counter-reset: filter-results;
+  margin: 0;
+  overflow-x: hidden;  // Prevent scroll on narrow devices
+  padding: 0;
+  text-size-adjust: 100%;
+}
+
+html {
+  font-family: $serif;
+  font-size: 20px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 26px;
+  text-rendering: optimizeLegibility;
+
+
+  @media (min-width: $breakpoint) {
+    line-height: 28px;
+  }
+}
+
+body {
+  background-color: $body-background-color;
+  color: rgba(0, 0, 0, .8);
+  padding-top: 2.4rem;
+}
+
+// No `:visited` state is required by default (browsers will use `a`)
+a {
+  color: $highlight;
+  text-decoration: none;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, .3);
+  font-size: .65rem;
+  transform: translate(0, 0);
+  transition: opacity .3s linear;
+
+  @media (min-width: $breakpoint) {
+    font-size: .75rem;
+  }
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transform: translate(0, 0);
+}
+
+p {
+  letter-spacing: .01rem;
+  margin-bottom: 1.65rem;
+  margin-top: 0;
+}
+
+%container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35.2rem;
+
+  @media (min-width: $breakpoint) {
+    max-width: 50rem;
+  }
+}
+
+@mixin base-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+}
+
+.content-container {
+  @extend %container;
+}
+
+.full {
+  display: none;
+}
+
+.abbreviation:after {
+  content: ':';
+}
+
+@media (min-width: $abbreviation-breakpoint) {
+  .abbreviation:after {
+    content: '';
+  }
+
+  .full {
+    display: inline;
+  }
+}

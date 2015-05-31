@@ -6,6 +6,7 @@
 :date: 2014-09-14
 :imdb_id: tt0034540
 :grade: D+
+:backdrop: https://lh5.googleusercontent.com/-dJJggljS7xI/VWkfZNsyGhI/AAAAAAAACuA/PJrt8EkD7ng/w1000-rj/the-boogie-man-will-get-you-1942.jpg
 :pull_quote: _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one.
 ---
 _The Boogie Man Will Get You_ is not a good film. But for fans of Boris Karloff and Peter Lorre, it is, at times, an entertaining one. Despite the title, it is not a horror movie, but rather a dark comedy in the vein of _Arsenic and Old Lace (1944)_. And to that end, Karloff and Lorre make a fine pair of lovable murderers.

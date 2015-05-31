@@ -1,0 +1,132 @@
+$footer-card-background-color: #fff;
+
+.footer {
+  color: rgba(0, 0, 0, .7);
+
+  > .card {
+    margin-top: .8rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      &:nth-child(1) {
+        margin-right: .2rem;
+        width: calc(50% - .2rem);
+      }
+
+      &:nth-child(2) {
+        margin-left: .2rem;
+        width: calc(50% - .2rem);
+      }
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+      &:nth-child(1) {
+        margin-right: .4rem;
+        width: calc(50% - .4rem);
+      }
+
+      &:nth-child(2) {
+        margin-left: .4rem;
+        width: calc(50% - .4rem);
+      }
+    }
+  }
+
+  > .recent_posts {
+    width: 100%;
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 .4rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    margin: 0;
+  }
+}
+
+.footer_header {
+  font-family: $sans;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: .1rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 1.2rem .8rem .8rem;
+  text-transform: uppercase;
+}
+
+.footer-how_i_grade .card_text {
+  line-height: 1.7;
+}
+
+.footer_how_i_grade_list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  max-width: 10rem;
+  padding-bottom: .8rem;
+
+  @media(min-width: $tablet-breakpoint) {
+    padding-bottom: 1.35rem;
+  }
+}
+
+.footer_how_i_grade_list-grade {
+  padding-right: .8rem;
+  position: relative;
+  width: 4.8rem;
+
+  &:after {
+    color: rgba(0, 0, 0, .2);
+    content: '...........';
+    position: absolute;
+    right: -25px;
+    top: -5px;
+  }
+}
+
+.footer_how_i_grade_list-rating {
+  display: block;
+  width: 4rem;
+}
+
+.footer_how_i_grade_list-text {
+  margin: 0;
+  text-align: right;
+  width: calc(100% - 4.8rem);
+
+  span {
+    background-color: $footer-card-background-color;
+    display: inline-block;
+    padding-left: 3px;
+    position: relative;
+  }
+}
+
+.footer_links {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: $sans;
+  font-size: .6rem;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 1.6rem .8rem .8rem;
+  text-transform: uppercase;
+  
+  a {
+    padding: 0 .4rem .4rem;
+
+    &:first-child {
+      font-size: .65rem;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    width: 100%;
+  }
+}

@@ -13,64 +13,42 @@
     :description,
     description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast))
 
-%article.review{ itemscope: true, itemtype: 'http://schema.org/Review' }
-  %h1.page-title{ itemprop: 'name', data: { rhythm: 0 } }= review.display_title
+%article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
+  - if review.backdrop
+    .post_backdrop{ data: { backdrop: review.backdrop } }
+
+  %h1.post_title{ itemprop: 'name', data: { rhythm: 0 } }= review.display_title
 
   - if aka_titles.any?
-    %dl.review-aka-list
-      %dt.review-aka-list-heading aka
+    %dl.review_aka_list
+      %dt.review_aka_list-heading aka
       - aka_titles.each do |aka_title|
-        %dd.review-aka-list-item= aka_title unless aka_title == review.display_title
+        %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
 
-  .review-directed-by Directed by #{director_slug}
+  .review_directed_by Directed by #{director_slug}
 
-  .review-rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
+  .review_rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
     %meta{ content: Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0,
            itemprop: 'ratingValue' }
     %meta{ content: '0', itemprop: 'worstRating' }
     %meta{ content: '5', itemprop: 'bestRating' }
     = grade_to_image_tag(grade: review.grade)
-  .post-content{ itemprop: 'reviewBody', data: { rhythm: 0 } }
+
+  .post_content{ itemprop: 'reviewBody', data: { rhythm: 0 } }
     = markdown(review.content)
   %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
   %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
     %meta{ content: 'Frank Showalter', itemprop: 'name' }
-  .column-half
-    %h3.review-viewings-list-header Viewings
-    %ol.review-viewings-list
-      - viewings.each_with_index do |viewing, index|
-        %li.review-viewings-list-item{ value: index + 1, data: { rhythm: 0 } }
-          = viewing.date.strftime("%A  %B #{viewing.date.day.ordinalize}, %Y")
-          %span.role= " via #{viewing.venue}"
-  .column-half
-    %div{ itemprop: 'itemReviewed', itemscope: true, itemtype: 'http://schema.org/Movie' }
-      %meta{ content: review.display_title, itemprop: 'name' }
-      %h3.review-credits-list-header Directed by
-      %ul.review-credits-list
-        - directors.each do |director|
-          %li.review-credits-list-item{ data: { rhythm: 0 } }
-            #{director.first_name} #{director.last_name}
-            - unless director.notes.blank?
-              %span.role
-                = " #{director.notes}"
-      %h3.review-credits-list-header Starring
-      %ul.review-credits-list
-        - headline_cast.each do |performer|
-          %li.review-credits-list-item{ itemprop: 'actor',
-                                itemscope: true,
-                                itemtype: 'http://schema.org/Person',
-                                data: { rhythm: 0 } }
-            %span{ itemprop: 'name' }
-              #{performer.first_name} #{performer.last_name}
-              %span.role
-                = " as #{performer.role}"
-      %h3.review-credits-list-header Written by
-      %ul.review-credits-list
-        - writers.each do |writer|
-          %li.review-credits-list-item{ data: { rhythm: 0 } }
-            #{writer.first_name} #{writer.last_name}
-            %span.role
-              = " #{writer.notes}"
+  %p.post_slug
+    = "<span>#{review.display_title}</span> was reviewed on #{review.date.strftime('%b %-d, %Y')}. "
+    = "I've seen it "
+    %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_instant: true } }
+      = "#{pluralize(viewings.length, 'time')}. "
+    = "More at the "
+    %a{ href: "http://www.imdb.com/title/#{review.imdb_id}", data: { no_instant: true} } 
+      IMDb
+    = "."
 
-    %p.review-imdb-link
-      More at <a href="http://www.imdb.com/title/#{review.imdb_id}" data-no-instant >the IMDb</a>.
+- content_for(:footer) do
+  = partial(:recent_posts, locals: { current_post: review })
+

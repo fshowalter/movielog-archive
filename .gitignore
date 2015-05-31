@@ -24,5 +24,6 @@
 
 client_secrets.json
 twitter.yml
+tmdb.yml
 
 *.sublime-*

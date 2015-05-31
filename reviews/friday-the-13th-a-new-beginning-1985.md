@@ -6,6 +6,7 @@
 :date: 2014-12-31
 :imdb_id: tt0089173
 :grade: D
+:backdrop: https://lh5.googleusercontent.com/-KDi3ss9VzmI/VWjvl7gcVzI/AAAAAAAACqo/0UeZ6mpk46U/w1000-rj/friday-the-13th-a-new-beginning-1985.jpg
 :pull_quote: "Time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way."
 ---
 _What were they thinking?_

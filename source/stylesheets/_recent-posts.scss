@@ -1,0 +1,50 @@
+$recent-posts-border-color: #ddd;
+
+.recent_posts_list {
+  margin: 0;
+  padding: 0;
+
+  @media(min-width: $tablet-breakpoint) {
+    border-bottom: 1px solid $recent-posts-border-color;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    border-bottom: 1px solid $recent-posts-border-color;
+    position: relative;
+
+    @media(min-width: $tablet-breakpoint) {
+      border-bottom: 0;
+      border-right: 1px solid $recent-posts-border-color;
+      border-top: 1px solid $recent-posts-border-color;
+      margin-top: 0;
+      width: calc(50%);
+
+      &:nth-child(even) {
+        border-right: 0;
+      }
+    }
+  }
+}
+
+.recent_posts > .card_actions a {
+  display: inline-block;
+  float: right;
+  font-family: $sans;
+  font-size: .7rem;
+  padding-right: 1.6rem;
+  position: relative;
+  text-transform: uppercase;
+
+  &:after {
+    background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048"><path d="M1315 1024q0-13-10-23L839 535q-10-10-23-10t-23 10l-50 50q-10 10-10 23t10 23l393 393-393 393q-10 10-10 23t10 23l50 50q10 10 23 10t23-10l466-466q10-10 10-23z" fill-opacity=".7"/></svg>');
+    background-size: contain;
+    content: '';
+    height: 1rem;
+    position: absolute;
+    right: .4rem;
+    top: .3rem;
+    width: 1rem;
+  }
+}

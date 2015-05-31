@@ -6,6 +6,7 @@
 :date: 2015-02-06
 :imdb_id: tt2561546
 :grade: C+
+:backdrop: https://image.tmdb.org/t/p/original/v15hk87V35lz1gYtpqqHtD0eIpN.jpg
 :pull_quote: "_The Town That Dreaded Sundown_ may be the first rural giallo."
 ---
 _The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for the original film, _The Town That Dreaded Sundown (1976)_, which screens every Halloween somewhere in Texarkana. 

@@ -1,7 +1,7 @@
 ---
 pagination:
   for: posts
-  per_page: 10
+  per_page: 9
   path: page-:num/index
 ---
 :ruby
@@ -9,23 +9,23 @@ pagination:
   unless pagination.page_num == 1
     content_for(:title, "Page - #{pagination.page_num}")
   end
-- content_for(:header) do
-  Latest Updates
-%ol.latest-updates-list
+
+%ol.latest_updates
   - pagination.each do |key|
     - post = posts[key]
     - if post.is_a?(Movielog::Review)
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date{ data: { number: post.sequence }}
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header{ data: { rhythm: 0 } }
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a{ href: "/reviews/#{review.slug}/" }
+      %li.card.card--with_shadow{ value: post.sequence }
+        %a{ id: post.slug, href: "/reviews/#{review.slug}/"}
+          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+            %h3.card_header-title
               = "#{review.display_title}"
-          = grade_to_image_tag(grade: review.grade, options: { class: 'latest-updates-list-item-rating' })
-        %span.latest-updates-list-item-slug{ data: { rhythm: 0 } }
+            = grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })
+            .card_header-date
+              = post.date.strftime('%b %-d, %Y')
+          .card_backdrop{ data: { backdrop: review.backdrop } }
+        .card_slug
           %span.abbreviation
             = ' D'
           %span.full
@@ -34,28 +34,32 @@ pagination:
           %span.full
             Starring
           = " #{headline_cast(title: review.title)}."
-        .latest-updates-list-item-pull-quote
+        .card_text
           = markdown(review.pull_quote)
-        .latest-updates-list-item-read-more
+        .card_actions.card_actions--with_divider
           %a{ href: "/reviews/#{review.slug}/" }
             Continue reading 
           &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
-      %li.latest-updates-list-item{ value: post.sequence }
-        .latest-updates-list-item-date
-          = post.date.strftime('%B %-d, %Y')
-        %header.latest-updates-list-item-header
-          %h3.latest-updates-list-item-title{ data: { number: post.sequence }}
-            %a.latest-updates-list-item-link{ href: "/features/#{feature.slug}/" }
+      %li.card.card--with_shadow{ value: post.sequence }
+        %a{ href: "/features/#{feature.slug}/"}
+          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+            %h3.card_header-title
               = feature.title
-        .latest-updates-list-item-pull-quote
+            .card_header-date
+              = post.date.strftime('%b %-d, %Y')
+          .card_backdrop{ data: { backdrop: feature.backdrop } }
+        .card_text
           = markdown(feature.pull_quote)
-.pagination
+        .card_actions.card_actions--with_divider
+          %a{ href: "/features/#{feature.slug}/" }
+            Continue reading 
+.latest_updates_pagination
   - if pagination.prev_page
-    %a.pagination-item.newer{ href: pagination.prev_page.url }
+    %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url }
       Newer
 
   - if pagination.next_page
-    %a.pagination-item.older{ href: pagination.next_page.url }
+    %a.latest_updates_pagination-item.older{ href: pagination.next_page.url }
       Older

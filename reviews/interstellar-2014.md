@@ -6,6 +6,7 @@
 :date: 2014-12-25
 :imdb_id: 'tt0816692'
 :grade: C
+:backdrop: https://lh3.googleusercontent.com/-vX12SITEdOo/VWjwXrJh-FI/AAAAAAAACq8/OJz7BBTV8SY/w1000-rj/interstellar-2014.jpg
 :pull_quote: It’s tempting to say that _Interstellar_’s reach exceeded its grasp. That it tried and failed. I don’t think it tried at all.
 ---
 I know where _Interstellar_ went wrong. I knew the instant it happened. I may have let out a small groan. But I’m getting ahead of myself.

@@ -6,6 +6,7 @@
 :date: 2014-12-29
 :imdb_id: tt0051554
 :grade: A
+:backdrop: https://lh3.googleusercontent.com/-UcxLZIKHANg/VVg83CzzKKI/AAAAAAAACmg/u7YKyEIT0yc/w1000-rj/horror-of-dracula-1958.jpg
 :pull_quote: Howard Hawks once said that a good movie consisted of  "three great scenes and no bad ones." Hammer's first entry in its _Dracula_ franchise gives us exactly that.
 ---
 Howard Hawks once said that a good movie consisted of  "three great scenes and no bad ones." Hammer's first entry in its _Dracula_ franchise gives us exactly that.
