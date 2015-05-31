@@ -6,6 +6,7 @@
 :date: 2015-03-06
 :imdb_id: tt2326554
 :grade: A-
+:backdrop: https://lh3.googleusercontent.com/-6jSXqnyudUY/VU7atevBl1I/AAAAAAAACiE/-ZX5oipaPG4/w1000-rj/a-girl-walks-home-alone-at-night-2014.jpg
 :pull_quote: "_A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.”"
 ---
 _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.” 

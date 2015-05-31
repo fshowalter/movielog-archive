@@ -6,6 +6,7 @@
 :date: 2015-04-18
 :imdb_id: tt2781516
 :grade: B
+:backdrop: https://lh6.googleusercontent.com/-oquGAT5t--M/VU64-prE3qI/AAAAAAAAChA/mIIS1h81S8o/w1000-rj/wolfcop-2014.jpg
 :pull_quote: _WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. It’s ridiculous in the best possible way. 
 ---
 _WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. It’s ridiculous in the best possible way. 

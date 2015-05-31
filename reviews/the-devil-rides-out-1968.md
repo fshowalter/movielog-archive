@@ -6,6 +6,7 @@
 :date: 2015-01-29
 :imdb_id: tt0062885
 :grade: B
+:backdrop: https://image.tmdb.org/t/p/original/abjugMVOVyc5XRqoQwhqnMGzapT.jpg
 :pull_quote: "Some films have no business working as well as they do. _The Devil Rides Out_ is one such film."
 ---
 Some films have no business working as well as they do. _The Devil Rides Out_ is one such film.

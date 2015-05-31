@@ -6,6 +6,7 @@
 :date: 2015-03-31
 :imdb_id: tt0023590
 :grade: C+
+:backdrop: https://lh3.googleusercontent.com/-hyNzM-BZlZg/VU7Z8rff5gI/AAAAAAAACh0/8GjYCPjHPyg/w1000-rj/three-on-a-match-1932.jpg
 :pull_quote: _Three on a Match_ works despite all the crazy. Or is it because of it? I’m not sure. With a cast this good, one is hard-pressed to care. 
 ---
 Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. The performers worked five days a week like anyone else. When one film wrapped, they moved to another. Thus, films like _Three on a Match_ came stock-piled with current and future stars. 

@@ -6,6 +6,7 @@
 :date: 2015-01-25
 :imdb_id: tt2756032
 :grade: B
+:backdrop: https://image.tmdb.org/t/p/original/cAEtrRXMihiM68RDb6rxyUdep0k.jpg
 :pull_quote: "Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait."
 ---
 Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait.

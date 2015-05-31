@@ -1,6 +1,8 @@
 linters:
   SelectorFormat:
+    convention: ^(?:(js)-)?([^[A-B]-]*)(?:-{1,2})?([^[A-B]-]*)$
     ignored_names:
+      - how-i-grade
       - noUi-target
       - noUi-base
       - noUi-handle
@@ -9,3 +11,4 @@ linters:
       - noUi-origin
       - noUi-stacking
       - noUiSlider
+      - noUi-state-drag

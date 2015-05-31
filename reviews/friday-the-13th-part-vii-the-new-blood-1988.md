@@ -6,6 +6,7 @@
 :date: 2015-01-05
 :imdb_id: tt0095179
 :grade: F
+:backdrop: https://lh5.googleusercontent.com/-GQZD9U4k5xk/VWjtLmbOjXI/AAAAAAAACqI/iwZa0FMZil8/w1000-rj/friday-the-13th-part-vii-the-new-blood-1988.png1988.jpg
 :pull_quote: "In _Friday the 13th Part VII: The New Blood_, it’s the audience, not Jason’s quarry that suffers."
 ---
 There's a lesson here. I came to _Friday the 13th Part VII: The New Blood_ with an open mind. Sure, I'd heard rumblings that it was bad, but I didn't read any reviews in advance. I didn't want to let the masses make up my mind. I've seen enough supposedly awful films to know the masses can be wrong.

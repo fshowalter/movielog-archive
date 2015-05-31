@@ -6,6 +6,7 @@
 :date: 2015-01-14
 :imdb_id: tt2692904
 :grade: B
+:backdrop: https://image.tmdb.org/t/p/original/ijP0Bmn2m1U3DYFWsm2SFnNAXoT.jpg
 :pull_quote: "_Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in."
 ---
 _Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in.
