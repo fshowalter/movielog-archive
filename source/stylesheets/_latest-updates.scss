@@ -33,6 +33,10 @@ $latest-updates-card-separator-color: #eee;
         margin-right: 0;
         width: 100%;
       }
+
+      &:last-child {
+        flex-grow: 1;
+      }
     }
   }
 
