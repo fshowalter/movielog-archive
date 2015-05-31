@@ -11,6 +11,18 @@ $latest-updates-card-separator-color: #eee;
 
   > .card {
     margin-top: .8rem;
+
+    > a {
+      display: block;
+
+      &:before {
+        content: '';
+        display: block;
+        margin-top: -2.4rem;
+        padding-top: 2.4rem;
+        visibility: hidden;
+      }
+    }
   }
 
   @media(min-width: $tablet-breakpoint) {

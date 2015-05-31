@@ -3,16 +3,22 @@ $mast-breakpoint: 32em;
 $mast-foreground-color: #fff;
 $mast-highlight-color: #579;
 $mast-search-background-color: #f1f1f1;
-$mast-search-breakpoint: 46em;
+$mast-search-breakpoint: 63.625em;
 
 .mast {
   @include base-container;
   background-color: $mast-background-color;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
   color: $mast-foreground-color;
   font-family: $sans;
+  left: 0;
   letter-spacing: 1px;
-  position: relative;
+  position: fixed;
+  right: 0;
   text-transform: uppercase;
+  top: 0;
+  z-index: 10000;
+
 }
 
 .mast__title {
@@ -43,7 +49,7 @@ $mast-search-breakpoint: 46em;
   }
 
   @media (min-width: $mast-search-breakpoint) {
-    width: 50%;
+    width: calc(100% - 1px);
   }
 }
 
