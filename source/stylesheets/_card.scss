@@ -3,9 +3,11 @@ $card-count-background-color: #ddd;
 $card-divider-color: #eee;
 
 @mixin card_header_with_date {
+  justify-content: space-between;
+
   > .card_header-title {
     order: 1;
-    width: calc(100% - 3.75rem);
+    width: calc(100% - 3.5rem);
   } 
 
   > .card_header-rating {
@@ -17,6 +19,8 @@ $card-divider-color: #eee;
     line-height: 1.2rem;
     order: 2;
     text-transform: uppercase;
+    text-align: right;
+    width: 3.5rem;
 
     &:before {
       content: '';
