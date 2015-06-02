@@ -2,6 +2,28 @@ $card-background-color: #fff;
 $card-count-background-color: #ddd;
 $card-divider-color: #eee;
 
+@mixin card_header_with_date {
+  > .card_header-title {
+    order: 1;
+    width: calc(100% - 3.75rem);
+  } 
+
+  > .card_header-rating {
+    order: 3;
+  } 
+
+  > .card_header-date {
+    font-size: .6rem;
+    line-height: 1.2rem;
+    order: 2;
+    text-transform: uppercase;
+
+    &:before {
+      content: '';
+    }
+  }  
+}
+
 .card {
   background-color: $card-background-color;
   list-style-type: none;
@@ -21,30 +43,12 @@ $card-divider-color: #eee;
   position: relative;
 }
 
-.card_header--with_count {
-  padding-left: 3.2rem;
-
-  &:before {
-    background-color: $card-count-background-color;
-    border: solid 1px $card-count-background-color;
-    border-radius: 50%;
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, .8);
-    content: attr(data-sequence);
-    display: block;
-    font-family: $sans;
-    font-feature-settings: 'onum';
-    font-size: .8rem;
-    font-weight: 300;
-    height: 2rem;
-    left: .8rem;
-    line-height: 2rem;
-    position: absolute;
-    text-align: center;
-    top: .8rem;
-    width: 2rem;
+.card_header--with_date {
+  @media(min-width: $desktop-breakpoint) {
+    @include card_header_with_date;
   }
 }
+
 
 .card_header-title {
   color: rgba(0, 0, 0, .8);
@@ -65,7 +69,6 @@ $card-divider-color: #eee;
 .card_header-rating {
   display: inline-block;
   height: .7rem;
-  margin-right: .15rem;
   width: auto;
 }
 
@@ -80,7 +83,7 @@ $card-divider-color: #eee;
   line-height: .8rem;
   
   &:before {
-    content: ' on ';
+    content: ' \00a0on\00a0 ';
     font-weight: normal;
   }
 }

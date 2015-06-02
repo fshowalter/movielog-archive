@@ -6,6 +6,8 @@ $latest-updates-avatar-background-color: #ddd;
 $latest-updates-card-separator-color: #eee;
 
 .latest_updates {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 
@@ -26,7 +28,7 @@ $latest-updates-card-separator-color: #eee;
   }
 
   @media(min-width: $tablet-breakpoint) {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 0 .4rem;
 
@@ -44,6 +46,10 @@ $latest-updates-card-separator-color: #eee;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+
+        .card_header {
+          @include card_header_with_date;
+        }
       }
 
       &:last-child {

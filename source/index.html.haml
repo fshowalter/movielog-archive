@@ -18,7 +18,7 @@ pagination:
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
       %li.card.card--with_shadow{ value: post.sequence }
         %a{ id: post.slug, href: "/reviews/#{review.slug}/"}
-          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+          %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
             %h3.card_header-title
               = "#{review.display_title}"
             = grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })
@@ -44,7 +44,7 @@ pagination:
       - feature = post
       %li.card.card--with_shadow{ value: post.sequence }
         %a{ href: "/features/#{feature.slug}/"}
-          %header.card_header.card_header--with_count{ data: { sequence: post.sequence } }
+          %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
             %h3.card_header-title
               = feature.title
             .card_header-date
