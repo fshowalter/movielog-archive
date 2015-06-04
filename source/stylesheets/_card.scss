@@ -33,6 +33,10 @@ $card-divider-color: #eee;
   list-style-type: none;
   padding-bottom: 2.4rem;
   position: relative;
+
+  > a:hover .card_header-title {
+    color: $highlight;
+  }
 }
 
 .card--with_shadow {

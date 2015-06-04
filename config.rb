@@ -4,7 +4,7 @@ require 'time'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload, no_swf: true, :host => '127.0.0.1'
+  activate :livereload
 end
 
 helpers Movielog::Helpers

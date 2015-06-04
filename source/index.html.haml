@@ -16,7 +16,7 @@ pagination:
     - if post.is_a?(Movielog::Review)
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.card.card--with_shadow{ value: post.sequence }
+      %li.card.card--with_shadow{ value: post.sequence, style: "z-index: 1#{post.sequence}" }
         %a{ id: post.slug, href: "/reviews/#{review.slug}/"}
           %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
             %h3.card_header-title
