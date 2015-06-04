@@ -6,7 +6,7 @@
 :date: 2015-02-09
 :imdb_id: tt0062833
 :grade: D+
-:backdrop: https://image.tmdb.org/t/p/original/6Xc5jPt4Ublbwky3HORTpGT6aLT.jpg
+:backdrop: https://lh3.googleusercontent.com/-uTYB6p8q_Yo/VW-TB1KU3CI/AAAAAAAACx8/yRLsLlDGiIY/w1000-rj/curse-of-the-crimson-altar-1968.png
 :pull_quote: "_Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) has a good cast, but it is not a good film."
 ---
 _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) has a good cast, but it is not a good film. This is evident from the opening scene. 

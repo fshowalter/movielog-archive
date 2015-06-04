@@ -6,7 +6,7 @@
 :date: 2015-02-06
 :imdb_id: tt2561546
 :grade: C+
-:backdrop: https://image.tmdb.org/t/p/original/v15hk87V35lz1gYtpqqHtD0eIpN.jpg
+:backdrop: https://lh3.googleusercontent.com/-janqs2XnWtE/VW-T9n8zeLI/AAAAAAAACyQ/GRYkznL4lzY/w1000-rj/the-town-that-dreaded-sundown-2014.png
 :pull_quote: "_The Town That Dreaded Sundown_ may be the first rural giallo."
 ---
 _The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for the original film, _The Town That Dreaded Sundown (1976)_, which screens every Halloween somewhere in Texarkana. 
@@ -33,7 +33,7 @@ And then there’s the ending.
 
 But before we get to that, let me say that I liked the movie. The location photography, colorful supporting cast, and competent script make for a solid little slasher. So, having said that, and having given you a sense of what the film is about and what it’s like, I feel my job as reviewer is done. If you want to stop reading here, I’ll understand.
 
-Still with me? Okay. I didn’t love the ending. I didn’t hate it either, but I did feel like it felt like a missed opportunity. 
+Still with me? Okay. I didn’t love the ending. I didn’t hate it either. It felt like a missed opportunity. 
 
 Here’s why. The script touches on the notion of violence inspired by the media several times, but only in passing. I felt like the film was really building to something however, and when the heroine makes to leave town with her grandmother, it struck me. What if this is the end of the movie? She leaves, the killer is never caught. All the bits about inspired violence coalesce into a biting commentary. The killer will be there as long as he has an audience. It would even dovetail nicely with the original's ambiguous ending.
 

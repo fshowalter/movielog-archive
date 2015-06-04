@@ -6,7 +6,7 @@
 :date: 2015-02-14
 :imdb_id: tt0043131
 :grade: F
-:backdrop: https://image.tmdb.org/t/p/original/jUvLMTFWUJ90DyGqFXxW3lgBahn.jpg
+:backdrop: https://lh3.googleusercontent.com/-g1bbHLALOM4/VW-SOFqplsI/AAAAAAAACxs/P423zl72Vfg/w1000-rj/where-danger-lives-1950.png
 :pull_quote: "I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes."
 ---
 I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes.
