@@ -13,18 +13,6 @@ $latest-updates-card-separator-color: #eee;
 
   > .card {
     margin-top: .8rem;
-
-    > a {
-      display: block;
-
-      &:before {
-        content: '';
-        display: block;
-        margin-top: -2.4rem;
-        padding-top: 2.4rem;
-        visibility: hidden;
-      }
-    }
   }
 
   @media(min-width: $tablet-breakpoint) {
@@ -73,6 +61,18 @@ $latest-updates-card-separator-color: #eee;
         margin-left: 0;
       }
     }
+  }
+}
+
+.latest_updates-item_anchor {
+  display: block;
+
+  &:before {
+    content: '';
+    display: block;
+    margin-top: -2.4rem;
+    padding-top: 2.4rem;
+    visibility: hidden;
   }
 }
 
