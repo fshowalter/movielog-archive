@@ -69,7 +69,9 @@ window.BackgroundImages = function () {
     };
   };
 
-  var debouncedUpdate = _debounce(update, 250);
+  var debouncedUpdate = _debounce(function() {
+    requestAnimationFrame(update);
+  }, 250);
 
   window.addEventListener('resize', debouncedUpdate, false);
 
@@ -81,7 +83,7 @@ window.BackgroundImages = function () {
         // When the document has finished loading, stop checking for new images
         // https://github.com/ded/domready/blob/master/ready.js#L15
         if ( /^complete|^i|^c/.test( document.readyState ) ) {
-          update();
+          requestAnimationFrame(update);
           clearInterval( intervalId );
           return;
         }
