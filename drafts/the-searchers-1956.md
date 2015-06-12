@@ -1,3 +1,11 @@
+The Searchers is a dark drama about the insideous nature of racism. Set a few years after the Civil War, John Wayne plays Ethan Edwards, a former Confederate solider. Ethan visits his brother's family on the Texas frontier. Shortly after arriving, Ethan's brother and sister-in-law are massacred by Comanche. After the funeral, Ethan sets off in search of his two young nieces, who the Comanche have taken captive. Accompanying Ethan is Martin Pawley, a young man Ethan's brother's family took in when he was just an orphan child. (pronoun trouble)
+
+Years pass. The trail goes cold. The pair catch a break. The trail goes cold again. Over time, Martin realizes Ethan means to kill the girls should they find them, such is Ethan's unbridled hate for the Comanche.
+
+
+
+
+
 Synopsis: A bitter civil war veteran spends seven years searching for his niece, abducted by Indians.
 
 The Searchers is an amazing film. John Wayne turns in the performance of his career with a nuanced portrayal of a man torn apart by war. As the film progresses, we see just how damaged Wayne's character really is, as his hatred begins to consume him.
