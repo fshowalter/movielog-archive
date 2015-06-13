@@ -49,7 +49,8 @@
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: review })
   - title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
-  - description = review.pull_quote.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
+  - description = review.pull_quote_short || review.pull_quote
+  - description = description.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
   %script{ type: 'application/ld+json' }
     :plain
       {
