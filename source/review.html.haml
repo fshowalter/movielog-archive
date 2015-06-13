@@ -18,11 +18,11 @@
   %meta{ name: 'twitter:image', content: review.backdrop }
 
 
-%article.post{ itemscope: true, itemtype: 'http://schema.org/Review' }
+%article.post
   - if review.backdrop
     .post_backdrop{ data: { backdrop: review.backdrop } }
 
-  %h1.post_title{ itemprop: 'name' }= review.display_title
+  %h1.post_title= review.display_title
 
   - if aka_titles.any?
     %dl.review_aka_list
@@ -32,28 +32,52 @@
 
   .review_directed_by Directed by #{director_slug}
 
-  .review_rating{ itemprop: 'reviewRating', itemscope: true, itemtype: 'http://schema.org/Rating' }
-    %meta{ content: Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0,
-           itemprop: 'ratingValue' }
-    %meta{ content: '0', itemprop: 'worstRating' }
-    %meta{ content: '5', itemprop: 'bestRating' }
-    = grade_to_image_tag(grade: review.grade)
+  = grade_to_image_tag(grade: review.grade, options: { class: 'review_rating' })
 
-  .post_content{ itemprop: 'reviewBody' }
+  .post_content
     = markdown(review.content)
-  %meta{ content: review.date.iso8601, itemprop: 'datepublished'}
-  %span{ itemprop: 'author', itemscope: true, itemtype: 'http://schema.org/Person' }
-    %meta{ content: 'Frank Showalter', itemprop: 'name' }
   %p.post_slug
     = "<span>#{review.display_title}</span> was reviewed on #{review.date.strftime('%b %-d, %Y')}. "
     = "I've seen it "
     %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_instant: true } }
       = "#{pluralize(viewings.length, 'time')}. "
     = "More at the "
-    %a{ href: "http://www.imdb.com/title/#{review.imdb_id}", data: { no_instant: true} } 
+    %a{ href: "http://www.imdb.com/title/#{review.imdb_id}" } 
       IMDb
     = "."
 
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: review })
+  - title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
+  - description = review.pull_quote.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
+  %script{ type: 'application/ld+json' }
+    :plain
+      {
+        "@context":"http://schema.org",
+        "@type":"Review",
+        "author":{
+          "@type":"Person",
+          "name":"Frank Showalter",
+          "sameAs":"https://www.frankshowalter.com"
+        },
+        "datePublished":"#{review.date.iso8601}",
+        "description":"#{description}", 
+        "inLanguage":"en",
+        "itemReviewed":{
+          "@type":"Movie",
+          "name":"#{review.display_title}",
+          "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
+        },
+        "publisher":{
+          "@type":"Organization",
+          "name":"Frank's Movie Log",
+          "sameAs":"http://www.franksmovielog.com"
+        },
+        "reviewRating":{
+          "@type":"Rating",
+          "worstRating":0,
+          "bestRating":5,
+          "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3.0}
+        }
+      }
 
