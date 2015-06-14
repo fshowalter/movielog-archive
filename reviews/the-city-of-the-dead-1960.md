@@ -12,16 +12,17 @@
 ---
 _The City of the Dead_ opens in a small, fog-shrouded village. The locals have gathered to burn Elizabeth Selwyn for the crime of witchcraft[^1]. As the flames consume her, Elizabeth curses the villagers. She pledges her soul to Lucifer in exchange for eternal life. The bloodthirsty villagers drown her out, chanting “Burn witch, burn!”
 
-Smash-cut to present day. Christopher Lee is Alan Driscoll, a college professor giving a lecture on witchcraft. Sitting in rapt attention is our heroine, Nan Barlow. Also present is Nan’s boyfriend, Bill, who, we suspect, took the course just to hit on Nan.
-Nan wants to use her upcoming winter break to write a thesis on witchcraft in New England. Professor Driscoll encourages her to visit his hometown of Whitewood. Bill, who’d hoped Nan would spend the break with him, tries to dissuade her, but Nan remains resolute.
+Smash-cut to an extreme close-up of Christopher Lee repeating the same line. It's present day. Lee plays Alan Driscoll, a college professor giving a lecture on witchcraft to a group of young co-eds. In attendance are our heroine, Nan, and her boyfriend Bill. Nan sits in rapt attention, ignoring Bill's snide and dismissive comments. It's clear Bill took the course just to hit on Nan. It's less clear what she sees in him. 
 
-Before long, Nan’s pulling up to a desolate filling station in the dead of night asking for directions to Whitewood. The station attendant tries to warn her away from the town, but Nan dismisses his concern. Armed with directions, she heads out into the fog-covered night.
+After the lecture, Nan approaches the professor. She explains that she  wants to use her upcoming winter break to write a thesis on witchcraft in New England. Driscoll encourages her to visit his hometown of Whitewood. Bill, who’d hoped Nan would spend the break with him, tries to dissuade her, but Nan remains resolute.
+
+Before long, Nan’s pulling up to a desolate filling station in the dead of night asking for directions to Whitewood. The station attendant tries to warn her away, but Nan dismisses his concern. Armed with directions, she heads out into the fog-covered night.
 
 Outside of town, she picks up a hitchhiker, played by Valentine Dyall. Dyall’s performance is all ominous menace. When he speaks, it’s less like someone talking and more like something talking _through_ him.
 
-When Nan finally arrives in Whitewood, we recognize it from the opening sequence. The town drips atmosphere, from the fog-laced streets to the dark, claustrophobic interiors. 
+When Nan finally arrives in Whitewood, we recognize it from the opening sequence. The town drips atmosphere, from the fog-laced streets to the dark, claustrophobic interiors. Nan turns to her passenger who, of course, has vanished. 
 
-Nan checks into the local inn, whose proprietor bears an uncanny resemblance to Elizabeth Selwyn. 
+Nan checks into the local inn.  The proprietor bears an uncanny resemblance to Elizabeth Selwyn. 
 
 Can you see where this is going?
 
