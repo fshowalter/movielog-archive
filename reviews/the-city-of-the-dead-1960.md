@@ -14,7 +14,7 @@ _The City of the Dead_ opens in a small, fog-shrouded village. The locals have g
 
 Smash-cut to an extreme close-up of Christopher Lee repeating the same line. It's present day. Lee plays Alan Driscoll, a college professor giving a lecture on witchcraft to a group of young students. In attendance are our heroine, Nan, and her boyfriend Bill. Nan sits in rapt attention, ignoring Bill's snide and dismissive comments. It's clear Bill took the course just to hit on Nan. It's less clear what she sees in him.[^2]
 
-After the lecture, Nan approaches the professor. She wants to use her upcoming winter break to write a thesis on witchcraft in New England. Driscoll encourages her to visit his hometown of Whitewood. Bill, who’d hoped Nan would spend the break with him, tries to dissuade her, but Nan remains resolute.
+After the lecture, Nan approaches Professor Driscoll. Nan wants to use her upcoming winter break to write a thesis on witchcraft in New England. Driscoll encourages her to visit his hometown of Whitewood. Bill, who’d hoped Nan would spend the break with him, tries to dissuade her, but Nan remains resolute.
 
 Before long, Nan’s pulling up to a desolate filling station in the dead of night asking for directions to Whitewood. The station attendant tries to warn her away, but Nan dismisses his concern. Armed with directions, she heads out into the fog-covered night.
 
