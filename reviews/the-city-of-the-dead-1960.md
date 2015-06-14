@@ -3,7 +3,7 @@
 :title: The City of the Dead (1960)
 :slug: the-city-of-the-dead-1960
 :display_title: The City of the Dead (1960)
-:date: 2015-06-08
+:date: 2015-06-13
 :imdb_id: tt0053719
 :grade: B
 :backdrop: https://lh5.googleusercontent.com/-WfnrWG-xYvg/VXYpwJ7RY_I/AAAAAAAACz4/Rsx3TqyNK_Q/w1000-rj/the-city-of-the-dead-1960.jpg
