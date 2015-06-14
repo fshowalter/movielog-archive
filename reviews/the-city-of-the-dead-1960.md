@@ -38,7 +38,7 @@ It’s quite a narrative surprise, considering she’d been our lone protagonist
 
 And remember Professor Driscoll? It’s hinted early that he might be up to no good, but after Nan meets her fate, there’s no doubt left. Lee delivers a chilling villain. A wolf in sheep’s clothing, searching for victims to sustain his cursed brethren.
 
-Indeed, Lee's performance, like the film, is an overlooked gem. While critics laud Lee's early work for Hammer productions, this entry by Hammer rival Amicus[^3] remains forgotten. It’s a shame, especially considering that this film’s combination of contemporary setting and satanic themes foreshadowed the cinematic horror trends that proved to be Hammer’s undoing.[^4]
+Indeed, Lee's performance, like the film, is an overlooked gem. While critics laud Lee's early work for Hammer productions, this entry by Hammer rival Amicus[^3] remains forgotten. It’s a shame, especially considering this film’s combination of contemporary setting and satanic themes foreshadowed the cinematic horror trends that proved to be Hammer’s undoing.[^4]
 
 To that end, one could say _The City of the Dead_ was ahead of its time. That elements like the filling staton attendant attempting to warn the unsuspecting strangers, or the red-herring protagonist, have been copied by so many other films they're now regarded as tropes. But I’ll leave the academia to others. Suffice it to say the film _works_.
 
