@@ -17,7 +17,8 @@ module Movielog
           tweet = Movielog::CreateReviewTweet.call(url: url,
                                                    display_title: review.display_title,
                                                    grade: grade,
-                                                   headline_cast: movie.headline_cast)
+                                                   headline_cast: movie.headline_cast,
+                                                   backdrop_url: review.backdrop)
 
           puts tweet
           tweet
