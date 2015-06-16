@@ -8,6 +8,7 @@
   headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+  title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
   description = review.pull_quote_short || review.pull_quote
   description = description.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
 
@@ -54,7 +55,6 @@
 
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: review })
-  - title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
   %script{ type: 'application/ld+json' }
     :plain
       {
