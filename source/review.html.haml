@@ -8,13 +8,19 @@
   headline_cast = MovieDb.headline_cast_for_title(db: Movielog.db, title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
+  description = review.pull_quote_short || review.pull_quote
+  description = description.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
 
 - content_for(:head) do
   %meta{ name: 'description', content: description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast) }
+  %meta{ property: 'og:title' content: "#{review.display_title} Movie Review" }
+  %meta{ property: 'og:url' content: "https://www.franksmovielog.com/reviews/#{review.slug}" }
+  %meta{ property: 'og:image' content: review.backdrop }
+  %meta{ property: 'og:description' content: markdown(description) }
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }
   %meta{ name: 'twitter:title', content: review.display_title }
-  %meta{ name: 'twitter:description', content: "(#{grade_to_unicode_stars(grade: review.grade)}) #{markdown(review.pull_quote)}" }
+  %meta{ name: 'twitter:description', content: markdown(description) }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
 
@@ -49,8 +55,6 @@
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: review })
   - title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
-  - description = review.pull_quote_short || review.pull_quote
-  - description = description.gsub( "_#{title_no_year}_", "&quot;#{title_no_year}&quot;" )
   %script{ type: 'application/ld+json' }
     :plain
       {
