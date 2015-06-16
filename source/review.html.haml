@@ -13,10 +13,10 @@
 
 - content_for(:head) do
   %meta{ name: 'description', content: description_for_review(review: review, aka_titles: aka_titles, headline_cast: headline_cast) }
-  %meta{ property: 'og:title' content: "#{review.display_title} Movie Review" }
-  %meta{ property: 'og:url' content: "https://www.franksmovielog.com/reviews/#{review.slug}" }
-  %meta{ property: 'og:image' content: review.backdrop }
-  %meta{ property: 'og:description' content: markdown(description) }
+  %meta{ property: 'og:title', content: "#{review.display_title} Movie Review" }
+  %meta{ property: 'og:url', content: "https://www.franksmovielog.com/reviews/#{review.slug}" }
+  %meta{ property: 'og:image', content: review.backdrop }
+  %meta{ property: 'og:description', content: markdown(description) }
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }
   %meta{ name: 'twitter:title', content: review.display_title }
