@@ -290,7 +290,7 @@ var InstantClick = function(document, location) {
 
       for (i = 0, j = scripts.length; i < j; i++) {
         script = scripts[i]
-        if (script.hasAttribute('data-no-instant')) {
+        if (script.hasAttribute('data-no-instant') || script.type != 'text/javascript') {
           continue
         }
         copy = document.createElement('script')
