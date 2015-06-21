@@ -23,7 +23,7 @@ In time we learn that Ray is part of a shadowy cabal of Sateen worshippers that 
 
 John Huston turns out to be the titular Visitor. He’s God, who’s also an alien, and presumably the one who sent the birds to destroy Sateen originally. He’s not there to kill Katy, but to take her back to his world where he’ll teach her not to be evil. Most of the time though, he hangs out on a skyscraper roof with a cadre of bald interpretive dancers. He gives his name as Jerzy Colsowicz and poses as a baby sitter in order to confront Katy. It’s an odd confrontation. The two play Pong on a giant projection screen and dance around the fact that neither of them is human.
 
-Shelly Winters plays a nanny hired by Barbara. Her scenes are notable for the instance where she slaps young Katy. According to legend, she really did slap the young girl. I like to think that it’s true.
+Shelly Winters plays a nanny hired by Barbara. Her scenes are notable for the instance where she slaps young Katy. According to legend, she really did slap the young girl. Hard. I like to think that it’s true.
 
 Completing some kind of bizarre casting bingo card, Sam Peckinpah turns up as Barbara’s ex-husband. She visits him for an abortion after the Sateen cabal takes matters into their own hands following Ray’s failure to impregnate Barbara. Unlike John Huston, who appears lucid and sober in his scenes, Peckinpah was allegedly a nightmare to work with and his scenes ended up dubbed. 
 

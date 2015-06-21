@@ -19,8 +19,6 @@ Weaving through these narratives is the girl. She’s a vampire. She lives in a 
  
 Arash and the girl’s paths cross, first in passing then again in one of the film’s cleverest scenes. Arash has been to a costume party and gotten lost walking home. He’s high on Ecstasy, staring open mouthed at a streetlight when the girl spots him. He’s wearing a Dracula costume that prompts something of a double-take by her. Their eyes meet. There is a connection. They sense the loneliness in one-another. In a near wordless scene, she takes him back to her small apartment. She puts on a record and he holds her close, wanting nothing more than the company. It is something out of a teenage fantasy, yet the scene works because the film doesn’t try to sell it. There are no speeches or orchestral swells, just the two performers and the song _Death_ from White Lies.
 
-The film is ambiguous about when it’s set. The characters talk on flip phones, yet Arash dresses like James Dean in _Rebel Without a Cause (1955)_ and drives a classic car. It gives the story a timeless, otherworldly feel. The black and white cinematography adds to this.
-
 I’m going to talk about the ending now. If what I’ve written so far has piqued your curiosity, I encourage you to give the film a look. I’d rather not spoil the ending, but if you’re still on the fence, read on and perhaps I can persuade you. 
 
 Still, here? Okay, here we go.
