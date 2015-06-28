@@ -57,11 +57,11 @@
   - more_for_cast.each do |performer, titles|
     %h2.footer_header.review_more_header 
       More with #{performer.first_name} #{performer.last_name}
-    %ul.review_more_list
+    %ul.recent_posts_list.card--with_shadow.review_more_list
       - titles.each do |title|
         - related_review = Movielog.reviews_by_title[title]
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: related_review.title)
-        %li.card.card--with_shadow{ class: "#{'half' if titles.length == 2 }"}
+        %li.card{ class: "#{'half' if titles.length == 2 }"}
           %a{ href: "/reviews/#{related_review.slug}/"}
             .card_header
               %h3.card_header-title
@@ -74,7 +74,7 @@
               = " #{headline_cast(title: related_review.title)}."
           .card_text
             = markdown(related_review.pull_quote)
-          .card_actions.card_actions--with_divider
+          .card_actions
             %a{ href: "/reviews/#{related_review.slug}/" }
               Continue reading 
             &nbsp;&middot; #{minutes_to_read(related_review.content)} min read

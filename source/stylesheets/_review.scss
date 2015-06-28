@@ -67,88 +67,40 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review_more_header {
-  background-color: $review-more-background-color;
-  margin-top: .4rem;
+  color: rgba(0, 0, 0, .8);
+  background-color: white;
+  margin-top: 1.6rem;
 }
 
 .review_more_list {
-  background-color: $review-more-background-color;
-  margin: 0;
-  padding: 0;
-
-  @media(min-width: $tablet-breakpoint) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  margin-bottom: 1.6rem;
 
   .card {
-    position: relative;
-    margin-bottom: .8rem;
-
     @media(min-width: $tablet-breakpoint) {
-      margin-top: 0;
-      width: calc(50% - .2rem);
-
-      &:nth-child(even) {
-        margin-right: .2rem;
-      }
-
-      &:nth-child(odd) {
-        margin-left: .2rem;
-      }
-
-      &:first-child {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-      }
-
-      &:last-child {
-        flex-grow: 1;
-      }
-
       &.half {
-        width: calc(50% - .2rem);
+        width: calc(50%);
       }
 
       &.half:first-child {
-        margin-right: .2rem;
-        margin-left: 0;
+        width: calc(50%);
+        border-right: 1px solid $recent-posts-border-color;
+
+        .card_backdrop {
+          border-right: 1px solid rgba(0, 0, 0, .5);
+          margin-right: -1px;
+          padding-top: calc(56.249999993% + 1px);
+        }
       }
 
       &.half:last-child {
-        flex-grow: 0;
-        margin-left: .2rem;
-        margin-right: 0;
-      }
-    }
+        width: calc(50%);
+        border-right: 0;
 
-    @media(min-width: $desktop-breakpoint) {
-      width: calc(50% - .4rem);
-
-      &:nth-child(even) {
-        margin-right: .4rem;
-      }
-
-      &:nth-child(odd) {
-        margin-left: .4rem;
-      }
-
-      &:first-child {
-        margin-left: 0;
-        margin-right: 0;
-      }
-
-      &.half {
-        width: calc(50% - .4rem);
-      }
-
-      &.half:first-child {
-        margin-right: .4rem;
-      }
-
-      &.half:last-child {
-        margin-left: .4rem;
+        .card_backdrop {
+          border-right: 0;
+          margin-right: 0;
+          padding-top: 56.249999993%;
+        }
       }
     }
   }

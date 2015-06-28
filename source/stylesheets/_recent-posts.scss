@@ -1,4 +1,4 @@
-$recent-posts-border-color: #ddd;
+$recent-posts-border-color: #eee;
 
 .recent_posts_list {
   margin: 0;
@@ -21,15 +21,12 @@ $recent-posts-border-color: #ddd;
       width: calc(50%);
 
       &:nth-child(even) {
-        .card_header, 
-        .card_text, 
-        .card_slug, 
-        .card_actions {
-          border-right: 1px solid $recent-posts-border-color;
-        }
+        border-right: 1px solid $recent-posts-border-color;
 
         .card_backdrop {
           border-right: 1px solid rgba(0, 0, 0, .5);
+          margin-right: -1px;
+          padding-top: calc(56.249999993% + 1px);
         }
       }
 
