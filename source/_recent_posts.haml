@@ -7,7 +7,7 @@
     - sorted_posts.each do |post_key|
       - post = Movielog.posts[post_key]
       - next if post_key == current_post.sequence
-      - break if post_count > 4
+      - break if post_count > 5
       - post_count = post_count + 1
       - if post.is_a?(Movielog::Review)
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: post.title)

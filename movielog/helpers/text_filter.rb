@@ -13,7 +13,8 @@ module Movielog
 
       field_tag = text_field_tag(attribute, options)
 
-      filter_control(control: content_tag(:div, field_tag, class: 'filter-text_box_wrap'), label: label)
+      filter_control(control: content_tag(
+        :div, field_tag, class: 'filter-text_box_wrap'), label: label)
     end
   end
 end

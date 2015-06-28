@@ -3,3 +3,6 @@ Metrics/LineLength:
 
 Metrics/ParameterLists:
   CountKeywordArgs: false
+
+MultilineOperationIndentation:
+  Enabled: false

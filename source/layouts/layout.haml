@@ -52,6 +52,8 @@
                                   tabindex: 2)
       = yield
       %footer.footer
+        = yield_content(:footer) if content_for?(:footer)
+
         - unless content_for?(:no_about_footer)
           = partial(:about)
         - unless content_for?(:no_how_i_grade_footer)
@@ -85,7 +87,6 @@
             .card_actions.card_actions--with_divider
               %a{ href: '/features/how-i-grade/'}
                 More about how I grade
-        = yield_content(:footer) if content_for?(:footer)
         .footer_links
           %a{ href: '/'} Frank's Movie Log
           %a{ href: '/'} Latest Updates

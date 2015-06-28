@@ -52,6 +52,32 @@
     %a{ href: "http://www.imdb.com/title/#{review.imdb_id}" } 
       IMDb
     = "."
+    - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
+- unless more_for_cast.empty?
+  - more_for_cast.each do |performer, titles|
+    %h2.footer_header.review_more_header 
+      More with #{performer.first_name} #{performer.last_name}
+    %ul.review_more_list
+      - titles.each do |title|
+        - related_review = Movielog.reviews_by_title[title]
+        - directors = MovieDb.directors_for_title(db: Movielog.db, title: related_review.title)
+        %li.card.card--with_shadow{ class: "#{'half' if titles.length == 2 }"}
+          %a{ href: "/reviews/#{related_review.slug}/"}
+            .card_header
+              %h3.card_header-title
+                = "#{related_review.display_title}"
+              = grade_to_image_tag(grade: related_review.grade, options: { class: 'card_header-rating' })
+            .card_backdrop{ data: { backdrop: related_review.backdrop } }
+            .card_slug
+              = ' D:'
+              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
+              = " #{headline_cast(title: related_review.title)}."
+          .card_text
+            = markdown(related_review.pull_quote)
+          .card_actions.card_actions--with_divider
+            %a{ href: "/reviews/#{related_review.slug}/" }
+              Continue reading 
+            &nbsp;&middot; #{minutes_to_read(related_review.content)} min read
 
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: review })

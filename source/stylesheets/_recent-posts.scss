@@ -16,13 +16,30 @@ $recent-posts-border-color: #ddd;
 
     @media(min-width: $tablet-breakpoint) {
       border-bottom: 0;
-      border-right: 1px solid $recent-posts-border-color;
       border-top: 1px solid $recent-posts-border-color;
       margin-top: 0;
       width: calc(50%);
 
       &:nth-child(even) {
+        .card_header, 
+        .card_text, 
+        .card_slug, 
+        .card_actions {
+          border-right: 1px solid $recent-posts-border-color;
+        }
+
+        .card_backdrop {
+          border-right: 1px solid rgba(0, 0, 0, .5);
+        }
+      }
+
+      &:first-child {
         border-right: 0;
+        width: 100%;
+      }
+
+      &:last-child {
+        flex-grow: 1;
       }
     }
   }

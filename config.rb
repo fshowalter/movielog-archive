@@ -11,7 +11,7 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def markdown(source, link_titles: true)
+  def markdown(source)
     return source if source.blank?
     content = Tilt['markdown'].new(footnotes: true) { source }.render
 
@@ -24,14 +24,14 @@ helpers do
   end
 
   def minutes_to_read(source)
-    return 0 if source.blank? 
+    return 0 if source.blank?
 
     wordcount = source.scan(/[[:alpha:]]+/).count
 
     count = wordcount / 275
-    
+
     return 1 if count == 0
-    
+
     count
   end
 

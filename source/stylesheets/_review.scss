@@ -1,4 +1,5 @@
 $review-directed-by-color: #9a9a9a;
+$review-more-background-color: #f1f1f1;
 
 .review_aka_list {
   margin: .4rem .8rem;
@@ -62,5 +63,93 @@ $review-directed-by-color: #9a9a9a;
     height: 1.4rem;
     margin: 0 auto 1.4rem;
     width: 7rem;
+  }
+}
+
+.review_more_header {
+  background-color: $review-more-background-color;
+  margin-top: .4rem;
+}
+
+.review_more_list {
+  background-color: $review-more-background-color;
+  margin: 0;
+  padding: 0;
+
+  @media(min-width: $tablet-breakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    position: relative;
+    margin-bottom: .8rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      margin-top: 0;
+      width: calc(50% - .2rem);
+
+      &:nth-child(even) {
+        margin-right: .2rem;
+      }
+
+      &:nth-child(odd) {
+        margin-left: .2rem;
+      }
+
+      &:first-child {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+      }
+
+      &:last-child {
+        flex-grow: 1;
+      }
+
+      &.half {
+        width: calc(50% - .2rem);
+      }
+
+      &.half:first-child {
+        margin-right: .2rem;
+        margin-left: 0;
+      }
+
+      &.half:last-child {
+        flex-grow: 0;
+        margin-left: .2rem;
+        margin-right: 0;
+      }
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+      width: calc(50% - .4rem);
+
+      &:nth-child(even) {
+        margin-right: .4rem;
+      }
+
+      &:nth-child(odd) {
+        margin-left: .4rem;
+      }
+
+      &:first-child {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &.half {
+        width: calc(50% - .4rem);
+      }
+
+      &.half:first-child {
+        margin-right: .4rem;
+      }
+
+      &.half:last-child {
+        margin-left: .4rem;
+      }
+    }
   }
 }

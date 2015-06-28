@@ -3,31 +3,31 @@ $footer-card-background-color: #fff;
 .footer {
   color: rgba(0, 0, 0, .7);
 
-  > .card {
+  > .about {
     margin-top: .8rem;
 
     @media(min-width: $tablet-breakpoint) {
-      &:nth-child(1) {
-        margin-right: .2rem;
-        width: calc(50% - .2rem);
-      }
-
-      &:nth-child(2) {
-        margin-left: .2rem;
-        width: calc(50% - .2rem);
-      }
+      width: calc(50% - .2rem);
+      margin-right: .2rem;
     }
 
     @media(min-width: $desktop-breakpoint) {
-      &:nth-child(1) {
-        margin-right: .4rem;
-        width: calc(50% - .4rem);
-      }
+      width: calc(50% - .4rem);
+      margin-right: .4rem;
+    }
+  }
 
-      &:nth-child(2) {
-        margin-left: .4rem;
-        width: calc(50% - .4rem);
-      }
+  .footer-how_i_grade {
+    margin-top: .8rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      width: calc(50% - .2rem);
+      margin-left: .2rem;
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+      width: calc(50% - .4rem);
+      margin-left: .4rem;
     }
   }
 

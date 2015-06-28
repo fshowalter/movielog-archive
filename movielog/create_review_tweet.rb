@@ -18,7 +18,7 @@ module Movielog
 
       def upload_backdrop(client:, backdrop_url:)
         require 'open-uri'
-        
+
         open(backdrop_url) do |file|
           client.upload(file)
         end

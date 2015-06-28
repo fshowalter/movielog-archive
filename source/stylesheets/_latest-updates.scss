@@ -36,7 +36,7 @@ $latest-updates-card-separator-color: #eee;
         width: 100%;
 
         .card_header {
-          @include card_header_with_date;
+          @include card-header-with-date;
         }
       }
 

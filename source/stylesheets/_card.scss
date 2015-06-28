@@ -2,7 +2,7 @@ $card-background-color: #fff;
 $card-count-background-color: #ddd;
 $card-divider-color: #eee;
 
-@mixin card_header_with_date {
+@mixin card-header-with-date {
   justify-content: space-between;
 
   > .card_header-title {
@@ -18,8 +18,8 @@ $card-divider-color: #eee;
     font-size: .6rem;
     line-height: 1.2rem;
     order: 2;
-    text-transform: uppercase;
     text-align: right;
+    text-transform: uppercase;
     width: 3.75rem;
 
     &:before {
@@ -53,7 +53,7 @@ $card-divider-color: #eee;
 
 .card_header--with_date {
   @media(min-width: $desktop-breakpoint) {
-    @include card_header_with_date;
+    @include card-header-with-date;
   }
 }
 
