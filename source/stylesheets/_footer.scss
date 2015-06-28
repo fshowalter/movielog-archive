@@ -1,6 +1,7 @@
 $footer-card-background-color: #fff;
 
 .footer {
+  margin-top: .8rem;
   color: rgba(0, 0, 0, .7);
 
   > .about {
@@ -38,11 +39,11 @@ $footer-card-background-color: #fff;
   @media(min-width: $tablet-breakpoint) {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 .4rem;
+    margin: .8rem .4rem 0;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    margin: 0;
+    margin: .8rem 0 0;
   }
 }
 
