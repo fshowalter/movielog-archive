@@ -70,6 +70,16 @@ $review-more-background-color: #f1f1f1;
   color: rgba(0, 0, 0, .8);
   background-color: white;
   margin-top: 1.6rem;
+
+  @media(min-width: $tablet-breakpoint) {
+    margin-left: .4rem;
+    margin-right: .4rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .review_more_list {
@@ -86,9 +96,7 @@ $review-more-background-color: #f1f1f1;
         border-right: 1px solid $recent-posts-border-color;
 
         .card_backdrop {
-          width: calc(100% + 1px);
-          padding-top: calc(56.249999993% + 1px);
-          background-size: contain;
+          margin-right: .35rem;
         }
       }
 
@@ -97,12 +105,19 @@ $review-more-background-color: #f1f1f1;
         border-right: 0;
 
         .card_backdrop {
-          border-right: 0;
-          margin-right: 0;
-          padding-top: 56.249999993%;
-          width: 100%;
+          margin-right: .4rem;
         }
       }
     }
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    margin-left: .4rem;
+    margin-right: .4rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
