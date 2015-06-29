@@ -1,4 +1,10 @@
 PATH
+  remote: ../middleman-sitemap
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+
+PATH
   remote: ../movie_db
   specs:
     movie_db (1.0.0)
@@ -124,8 +130,6 @@ GEM
       middleman-core (>= 3.2)
     middleman-pagination (1.1.1)
       middleman-core (~> 3.2)
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
     middleman-sprockets (3.3.10)
       middleman-core (~> 3.3)
       sprockets (~> 2.12.1)
@@ -267,7 +271,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-minify-html
   middleman-pagination
-  middleman-sitemap
+  middleman-sitemap!
   middleman-sprockets (>= 3.1.2)
   movie_db!
   nokogiri

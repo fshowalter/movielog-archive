@@ -10,7 +10,7 @@ gem 'middleman-livereload'
 
 gem 'middleman-pagination'
 gem 'middleman-deploy'
-gem 'middleman-sitemap'
+gem 'middleman-sitemap', path: '../middleman-sitemap'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 
