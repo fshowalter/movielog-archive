@@ -1,6 +1,6 @@
 //= require _jquery
 //= require _jquery.liblink
-//= require _jquery.nouislider
+//= require _nouislider-8.0.1
 //= require _sorter
 //= require _filterer
 //= require _text-filter
