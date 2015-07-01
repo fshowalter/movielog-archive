@@ -9,7 +9,6 @@ class RangeFilter
     @attribute = @options.filterAttribute
     @slider = @$element.find('.noUiSlider')[0]
     unless @slider.noUiSlider
-      console.log('initializing');
       noUiSlider.create(@slider,
         range: 
           min: @options.filterMinValue, 
@@ -27,9 +26,10 @@ class RangeFilter
       )
 
     @slider.noUiSlider.on('set', => @$element.trigger $.Event @options.changeEventName)
-    # @slider.noUiSlider.on('update', (values, handle) =>
-    #   $('.filter-numeric.min').value()
-    # )
+    @slider.noUiSlider.on('update', (values, handle) =>
+      $('.filter-numeric.min')[0].value = values[0]
+      $('.filter-numeric.max')[0].value = values[1]
+    )
     # sliderElement.Link('lower').to($('.filter-numeric.min'));
     # sliderElement.Link('upper').to($('.filter-numeric.max'));
 
@@ -60,17 +60,29 @@ newRangeFilter = (element) ->
   $this.data('movielog.filter', (data = new RangeFilter($this))) unless data
   data
 
+cloneEventObj = (eventObj, overrideObj) ->
+
+  EventCloneFactory = (overProps) ->
+    for x of overProps
+      @[x] = overProps[x]
+    return
+
+  if !overrideObj
+    overrideObj = {}
+  EventCloneFactory.prototype = eventObj
+  new EventCloneFactory(overrideObj)
+
 ###
 RANGEFILTER DATA-API
 ###
 $(document).on 'mousedown.range-filter.movielog.data-api MSPointerDown.range-filter.movielog.data-api touchstart.range-filter.movielog.data-api', '[data-filter-type="range"]', (e)->
   e.preventDefault()
-  console.log('event');
   unless @.querySelectorAll('.noUiSlider')[0].noUiSlider
-    console.log('init');
     newRangeFilter(@)
-    $(e.target).trigger(e)
-
+    setTimeout (->
+      e.target.dispatchEvent(e.originalEvent)
+      return
+    ), 10
 
 $(document).on 'keydown.range-filter.movielog.data-api', '[data-filter-type="range"]', (e) ->
   if e.which != 9

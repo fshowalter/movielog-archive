@@ -1109,7 +1109,6 @@ function closure ( target, options ){
 		// element is a node, not a nodeList
 
 		var method = function ( e ){
-
 			if ( scope_Target.hasAttribute('disabled') ) {
 				return false;
 			}
@@ -1198,7 +1197,6 @@ function closure ( target, options ){
 		removeClass(scope_Target, Classes[12]);
 
 		// Fire the change and set events.
-		console.log('firing');
 		fireEvent('set', handleNumber);
 		fireEvent('change', handleNumber);
 	}
@@ -1355,8 +1353,6 @@ function closure ( target, options ){
 	// Test suggested values and apply margin, step.
 	function setHandle ( handle, to, noLimitOption ) {
 
-		console.log(handle)
-
 		var trigger = handle !== scope_Handles[0] ? 1 : 0,
 			lowerMargin = scope_Locations[0] + options.margin,
 			upperMargin = scope_Locations[1] - options.margin,
@@ -1440,7 +1436,7 @@ function closure ( target, options ){
 				if ( typeof to === 'number' ) {
 					to = String(to);
 				}
-				
+
 				to = options.format.from( to );
 
 				// Request an update for all links if the value was invalid.
@@ -1448,8 +1444,6 @@ function closure ( target, options ){
 				if ( to === false || isNaN(to) || setHandle( scope_Handles[trigger], scope_Spectrum.toStepping( to ), i === (3 - options.dir) ) === false ) {
 					fireEvent('update', trigger);
 				}
-
-				console.log(scope_Values)
 			}
 		}
 	}
@@ -1592,6 +1586,8 @@ function closure ( target, options ){
 	// Attach user events.
 	events( options.events );
 
+
+
 	if ( options.pips ) {
 		pips(options.pips);
 	}
@@ -1620,7 +1616,6 @@ function closure ( target, options ){
 
 		// Use the public value method to set the start values.
 		slider.set(options.start);
-		console.log('set')
 
 		target.noUiSlider = slider;
 	}
