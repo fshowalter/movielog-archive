@@ -1,5 +1,5 @@
 //= require _jquery
-//= require _jquery.liblink
+//= require _gator
 //= require _nouislider-8.0.1
 //= require _sorter
 //= require _filterer
