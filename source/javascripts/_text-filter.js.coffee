@@ -30,4 +30,12 @@ $(document).on 'keyup.text-filter.movielog.data-api', '[data-filter-type="text"]
 
   $this.data('movielog.filter', (data = new TextFilter($this))) unless data
 
-  $this.trigger $.Event 'filter-changed.movielog'
+  if (window.CustomEvent)
+    event = new CustomEvent('filter-changed', {"bubbles":true, "cancelable":false});
+  else
+    event = document.createEvent('CustomEvent');
+    event.initCustomEvent('filter-changed', true, true);
+
+  @.dispatchEvent(event);
+
+  # $this.trigger $.Event 'filter-changed'
