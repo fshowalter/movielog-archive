@@ -39,6 +39,11 @@
         _handlers = {},
         _gatorInstances = {};
 
+
+    if (window.Gator) {
+        return;
+    }
+
     function _addEvent(gator, type, callback) {
 
         // blur and focus do not bubble up but if you use event capturing

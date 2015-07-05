@@ -21,7 +21,9 @@
 /vendor/bundle
 /movie_db
 /coverage
+/node_modules
 
+package.json
 client_secrets.json
 twitter.yml
 tmdb.yml

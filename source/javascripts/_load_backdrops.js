@@ -1,93 +1,105 @@
-window.BackgroundImages = function () {
-  function update() {
-    var nodes = document.querySelectorAll('[data-backdrop]');
-    var retinaMultiplier = window.devicePixelRatio || 1;
+(
+  function initMovielogBackgroundImages() {
+    'use strict';
 
-    // cache nodelist length
-    var nodesLength = nodes.length;
+    var debouncedUpdate;
 
-    // loop through nodes
-    for(var i = 0; i < nodesLength; i++) {
-      // cache node
-      updateBackgroundImageForNode(nodes[i], retinaMultiplier);
+    function retinaWidth(node, retinaMultiplier) {
+      return node.offsetWidth * retinaMultiplier;
     }
-  }
 
-  function updateBackgroundImageForNode(node, retinaMultiplier) {
-    node.style.backgroundImage = 'url(' + backgroundImageUrlForNode(node, retinaMultiplier) + ')';
-    node.classList.add('loaded');
-  }
+    function updateWidthInImageUrl(baseUrl, width) {
+      return baseUrl.replace(/\/w\d*-rj\//, '/w' + width + '-rj/');
+    }
 
+    function backgroundImageUrlForNode(node, retinaMultiplier) {
+      var url = node.getAttribute('data-backdrop');
+      var width = retinaWidth(node, retinaMultiplier);
 
-  function backgroundImageUrlForNode(node, retinaMultiplier) {
-    var url = node.getAttribute('data-backdrop');
-    var width = retinaWidth(node, retinaMultiplier);
+      return updateWidthInImageUrl(url, width);
+    }
 
-    return updateWidthInImageUrl(url, width);
-  }
+    function updateBackgroundImageForNode(node, retinaMultiplier) {
+      node.style.backgroundImage = 'url(' + backgroundImageUrlForNode(node, retinaMultiplier) + ')';
+      node.classList.add('loaded');
+    }
 
-  function retinaWidth(node, retinaMultiplier) {
-    return node.offsetWidth * retinaMultiplier;
-  }
+    function updateBackgroundImages() {
+      var i;
+      var nodes = document.querySelectorAll('[data-backdrop]');
+      var retinaMultiplier = window.devicePixelRatio || 1;
 
-  function updateWidthInImageUrl(baseUrl, width) {
-    return baseUrl.replace(/\/w\d*-rj\//, '/w' + width + '-rj/');
-  }
+      // cache nodelist length
+      var nodesLength = nodes.length;
 
-  /*
-  Borrowed from underscore.js
-  */
-  _debounce = function(func, wait, immediate) {
-    var timeout, args, context, timestamp, result;
+      // loop through nodes
+      for (i = 0; i < nodesLength; i++) {
+        // cache node
+        updateBackgroundImageForNode(nodes[i], retinaMultiplier);
+      }
+    }
 
-    var later = function() {
-      var last = new Date() - timestamp;
+    function underscoreDebounce(func, wait, immediate) {
+      var args;
+      var context;
+      var result;
+      var timeout;
+      var timestamp;
 
-      if (last < wait && last >= 0) {
-        timeout = setTimeout(later, wait - last);
-      } else {
-        timeout = null;
-        if (!immediate) {
-          result = func.apply(context, args);
-          if (!timeout) context = args = null;
+      var later = function later() {
+        var last = (new Date() - timestamp);
+
+        if (last < wait && last >= 0) {
+          timeout = setTimeout(later, wait - last);
+        } else {
+          timeout = null;
+          if (!immediate) {
+            result = func.apply(context, args);
+            if (!timeout) context = args = null;
+          }
         }
-      }
-    };
+      };
 
-    return function() {
-      context = this;
-      args = arguments;
-      timestamp = new Date();
-      var callNow = immediate && !timeout;
-      if (!timeout) timeout = setTimeout(later, wait);
-      if (callNow) {
-        result = func.apply(context, args);
-        context = args = null;
-      }
+      return function debouncedFunction() {
+        var callNow = immediate && !timeout;
 
-      return result;
-    };
-  };
+        context = this;
+        args = arguments;
+        timestamp = new Date();
 
-  var debouncedUpdate = _debounce(function() {
-    requestAnimationFrame(update);
-  }, 250);
+        if (!timeout) timeout = setTimeout(later, wait);
+        if (callNow) {
+          result = func.apply(context, args);
+          context = args = null;
+        }
 
-  window.addEventListener('resize', debouncedUpdate, false);
+        return result;
+      };
+    }
 
-  
+    debouncedUpdate = underscoreDebounce(function getDebouncedUpdate() {
+      requestAnimationFrame(updateBackgroundImages);
+    }, 250);
 
-  return {
-    update:  function() {
-      var intervalId = setInterval( function() {
+    window.addEventListener('resize', debouncedUpdate, false);
+
+    function documentIsFinishedLoading() {
+      return /^complete|^i|^c/.test( document.readyState);
+    }
+
+    function update() {
+      var intervalId = setInterval( function updateOnceDocumentHasFinishedLoading() {
         // When the document has finished loading, stop checking for new images
         // https://github.com/ded/domready/blob/master/ready.js#L15
-        if ( /^complete|^i|^c/.test( document.readyState ) ) {
-          requestAnimationFrame(update);
-          clearInterval( intervalId );
-          return;
+        if (documentIsFinishedLoading()) {
+          requestAnimationFrame(updateBackgroundImages);
+          clearInterval(intervalId);
         }
       }, 250 );
     }
-  };
-}();
+
+    window.MovielogBackgroundImages = {
+      update: update
+    };
+  }()
+);

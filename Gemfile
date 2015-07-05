@@ -16,7 +16,6 @@ gem 'middleman-minify-html'
 
 gem 'haml'
 gem 'sass'
-gem 'coffee-script'
 gem 'redcarpet'
 gem 'uglifier'
 gem 'execjs'
