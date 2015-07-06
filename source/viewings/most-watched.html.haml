@@ -1,0 +1,23 @@
+---
+title: Most Watched
+---
+
+%h2.most_watched_header Most Watched
+%ul.most_watched
+  %li.card.card--with_shadow
+    %h3.most_watched_card-header By Title
+    %table.most_watched_table
+      %thead
+        %tr
+          %td
+            Title
+          %td
+            Viewings
+      %tbody
+        - Movielog::Db::QueryMostWatchedTitles.call(db: Movielog.db).each do |result|
+          %tr
+            %td
+              = result.display_title
+            %td
+              %a{ href: "/viewings/?title=#{URI.escape(result.display_title)}", data: { no_instant: true } }
+                = result.count

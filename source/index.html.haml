@@ -39,7 +39,7 @@ pagination:
           = markdown(review.pull_quote)
         .card_actions.card_actions--with_divider
           %a{ href: "/reviews/#{review.slug}/" }
-            Continue reading 
+            Continue reading
           &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
@@ -55,7 +55,7 @@ pagination:
           = markdown(feature.pull_quote)
         .card_actions.card_actions--with_divider
           %a{ href: "/features/#{feature.slug}/" }
-            Continue reading 
+            Continue reading
 .latest_updates_pagination
   - if pagination.prev_page
     %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url }
