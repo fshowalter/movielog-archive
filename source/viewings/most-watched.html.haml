@@ -1,23 +1,47 @@
 ---
 title: Most Watched
 ---
+- reviews = Movielog.reviews_by_title
 
 %h2.most_watched_header Most Watched
 %ul.most_watched
   %li.card.card--with_shadow
-    %h3.most_watched_card-header By Title
+    .card_header
+      %h3.card_header-title Titles
     %table.most_watched_table
       %thead
         %tr
-          %td
+          %th
             Title
-          %td
+          %th.numeric
             Viewings
       %tbody
-        - Movielog::Db::QueryMostWatchedTitles.call(db: Movielog.db).each do |result|
+        - Movielog::Db::QueryMostWatchedTitles.call(db: Movielog.db, limit: 5).each do |result|
           %tr
             %td
-              = result.display_title
-            %td
+              - if reviews.key?(result.title)
+                %a{ href: "/reviews/#{reviews[result.title].slug}/" }
+                  = result.display_title
+              - else
+                = result.display_title
+            %td.numeric
               %a{ href: "/viewings/?title=#{URI.escape(result.display_title)}", data: { no_instant: true } }
                 = result.count
+
+  %li.card.card--with_shadow
+    .card_header
+      %h3.card_header-title Directors
+    %table.most_watched_table
+      %thead
+        %tr
+          %th
+            Director
+          %th.numeric
+            Viewings
+      %tbody
+        - Movielog::Db::QueryMostWatchedDirectors.call(db: Movielog.db, limit: 5).each do |result|
+          %tr
+            %td
+              #{result.first_name} #{result.last_name}
+            %td.numeric
+              = result.count

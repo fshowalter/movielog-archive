@@ -8,11 +8,11 @@ $card-divider-color: #eee;
   > .card_header-title {
     order: 1;
     width: calc(100% - 3.75rem);
-  } 
+  }
 
   > .card_header-rating {
     order: 3;
-  } 
+  }
 
   > .card_header-date {
     font-size: .6rem;
@@ -25,7 +25,7 @@ $card-divider-color: #eee;
     &:before {
       content: '';
     }
-  }  
+  }
 }
 
 .card {
@@ -89,7 +89,7 @@ $card-divider-color: #eee;
   font-weight: 400;
   letter-spacing: -.01rem;
   line-height: .8rem;
-  
+
   &:before {
     content: ' \00a0on\00a0 ';
     font-weight: normal;

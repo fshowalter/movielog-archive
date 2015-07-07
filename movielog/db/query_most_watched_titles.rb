@@ -25,7 +25,8 @@ module Movielog
         def most_watched_titles_query(db:)
           db.prepare(
             <<-SQL
-              SELECT movies.display_title, count(viewings.title) AS count FROM viewings
+              SELECT viewings.title, movies.display_title, count(viewings.title) AS count
+                FROM viewings
                 INNER JOIN movies ON viewings.title = movies.title
                 GROUP BY viewings.title
                 HAVING count > 1
