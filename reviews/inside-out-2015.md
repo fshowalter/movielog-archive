@@ -33,17 +33,17 @@ It’s this willingness to tackle complex themes without patronizing the audienc
 
 Well, almost.
 
-To explain my objection, I must discuss the ending. Spoiler warning.
+To explain my objection, I must discuss the ending. Spoiler alert.
 
 Still here? Okay.
 
 The film climaxes with Riley, finally able to feel her emotions, crying and hugging her parents. As she does, the missing islands of her personality spring back into existence. Cut to a short time later. Riley is back to her old self.
 
-For a film that felt so honest and true in its depiction of the human condition, this felt disingenuous. For all the drama of the islands of personality crumbling into the void, a simple hug reconstructs them? Exactly as they were?
+For a film that felt so honest in its depiction of the human condition, this felt disingenuous. For all the drama of the islands of personality crumbling into the void, a simple hug reconstructs them exactly as they were?
 
 Where are the consequences?
 
-This was a chance to show Riley adjusting to the move, but at a cost. Maybe part of her never comes back. Maybe the relationship with her parents is forever altered. Maybe when that island returns it’s different, maybe smaller. Anything but the saccharine, everything’s okay, bit of fluff we’re given. Sure, new memories are now mixes of emotions instead of pure joy, but this is peddled as a wholly positive change. Where’s the trade-off?
+This was a chance to show Riley adjusting to the move, but at a cost. Maybe part of her never comes back. Maybe the relationship with her parents is forever altered. Maybe when that island returns it’s different, maybe smaller. Anything but the saccharine, everything’s okay bit of fluff we’re given. Sure, new memories are now mixes of emotions instead of pure joy, but this is peddled as a wholly positive change. Where’s the trade-off?
 
 _Inside Out_ drives home the message that growing up means accepting sadness as a part of life, but can’t apply that to its own ending.
 
