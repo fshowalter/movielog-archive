@@ -1,6 +1,6 @@
-// = require _load_backdrops
+// = require _load-backdrops
 // = require _fastclick
-// = require _toggle_search
+// = require _toggle-search
 // = require _instantclick
 
 (
@@ -9,13 +9,16 @@
 
     var fastClick;
 
-    window.InstantClick.on('change', function handleInstantClickChange() {
+    window.InstantClick.on('change', function handleInstantClickChange(isInitial) {
       if (fastClick) {
         fastClick.destroy();
       }
 
       fastClick = window.FastClick.attach(document.body);
-      window.MovielogBackgroundImages.update();
+
+      if (!isInitial) {
+        window.MovielogBackdrops.update();
+      }
     });
 
     window.InstantClick.init();
