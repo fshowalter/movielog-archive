@@ -7,22 +7,24 @@ title: Viewing Log
 - content_for(:inline_css, 'viewings')
 .viewings
   %h2.viewings_header Viewing Log
-  .card.card--with_shadow.viewings_filters{ data: { filter_controls: true, target: '#viewings' }}
-    %h3.viewings_filters-header Filter and Sort
-    = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
-    = range_filter(label: 'Year',
-                   attribute: 'data-release-date-year',
-                   min: oldest_year(collection: viewings.values, date_method: :release_date),
-                   max: newest_year(collection: viewings.values, date_method: :release_date))
-    = sort_filter(label: 'Order By',
-                  attribute: 'viewing-date-desc',
-                  target: '#viewings',
-                  options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
-                            ['Viewing Date (Oldest First)', 'viewing-date-asc'],
-                            ['Release Date (Newest First)', 'release-date-desc'],
-                            ['Release Date (Oldest First)', 'release-date-asc'],
-                            %w(Title sort-title-asc)])
-  %ol.card.card--with_shadow.viewings_list#viewings
+  .column
+    .viewings_filters_card.card.card--with_shadow{ data: { filter_controls: true, target: '#viewings' }}
+      %h3.viewings_filters-header Filter and Sort
+      .viewings_filters
+        = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
+        = range_filter(label: 'Year',
+                       attribute: 'data-release-date-year',
+                       min: oldest_year(collection: viewings.values, date_method: :release_date),
+                       max: newest_year(collection: viewings.values, date_method: :release_date))
+        = sort_filter(label: 'Order By',
+                      attribute: 'viewing-date-desc',
+                      target: '#viewings',
+                      options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
+                                ['Viewing Date (Oldest First)', 'viewing-date-asc'],
+                                ['Release Date (Newest First)', 'release-date-desc'],
+                                ['Release Date (Oldest First)', 'release-date-asc'],
+                                %w(Title sort-title-asc)])
+  %ol.column.card.card--with_shadow.viewings_list#viewings
     - sorted_viewings.each do |key|
       - viewing = viewings[key]
       - review = reviews[viewing.title]
@@ -35,6 +37,16 @@ title: Viewing Log
             = viewing.display_title
         %div{ class: "viewings_list_item-slug #{'with-rating' if review}" }
           = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
-  = partial(:about)
+  .column
+    .viewings_see_also.card.card--with_shadow
+      .card_header
+        .card_header-title
+          See Also
+      %ul.viewings_see_also_list
+        %li.viewings_see_also_list_item
+          %a{ href: "/viewings/most-watched/" }
+            Most Watched
+
+    = partial(:about)
 
   = javascript_include_tag('filters.js', async: true)

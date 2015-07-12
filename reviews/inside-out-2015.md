@@ -7,43 +7,49 @@
 :imdb_id: tt2096673
 :grade: C
 :backdrop: https://lh6.googleusercontent.com/-GuuS9VFEAzU/VZ8O9f934KI/AAAAAAAAC20/kjjDR_7524c/w1000-rj/inside-out-2015.jpg
-:pull_quote: ""
+:pull_quote: If _Inside Out_ hadn’t been so ambitious, the ending wouldn’t be such a disappointment.
 ---
-_Inside Out_ is an ambitious animated feature. It opens inside the mind of a girl named Riley at the moment of her birth. We meet Joy, an anthropomorphic emotion. Joy is a perky optimist and will serve as our protagonist for the film. In voicing her, Amy Poehler manages the near impossible task of being relentlessly optimistic without ever being annoying.
+_Inside Out_ is an ambitious animated feature that opens inside the mind of a newborn girl named Riley. There, we meet our protagonist Joy, an anthropomorphic emotion. In voicing Joy, Amy Poehler manages the near-impossible feat of being relentlessly optimistic and perky without ever being annoying.
 
-Soon the rest of Riley’s emotions appear. There’s Disgust, Fear, Anger and Sadness. Disgust, Fear, and Anger are comic relief, but the film struggles as it tries to introduce Sadness. The character comes across as whiney and annoying.
+Soon, Riley’s other core emotions—Disgust, Fear, Anger and Sadness—appear. The group operates out of Headquarters, a Space Needle shaped building at the center of Riley’s consciousness. Using a pastel-infused command-console that looks equal parts Playskool and Apple, they influence Riley’s behavior.
 
-While the emotions don’t control Riley’s behavior but they do influence it. With Joy in control, we watch Riley grow from infant to toddler to pre-teen. Her childhood is warm and full of happy memories.
+Early on, Joy dominates. Disgust, Fear, and Anger provide comic relief. Riley grows from infant to toddler to pre-teen. Outside Headquarters, islands akin to giant amusement parks spring to life. These represent Riley’s personality. They grow as new happy memories are formed.
 
-Then the plot kicks in.
+It’s an efficient opening act with one misstep. Sadness is frustrating. Her actions feel plot-driven and, compared to Joy, her character arc is shallow.
 
-Riley, now age 11, finds her world turned upside down when her family moves to San Fransisco. At first, Joy maintains control and coaxes Riley to look on the bright side of things. But a dilapidated house, stressed out parents, a new school, and a moving van that seems to be circumnavigating the globe en-route to San Francisco, begin to take their toll. 
+The plot kicks in when Riley, now age 11, finds herself uprooted by a move to San Fransisco. At first, Joy coaxes Riley to remain positive. But a dilapidated house, frazzled parents, a new school, and a moving van that seems to circumnavigate the globe en-route to San Francisco, take their toll.
 
-Things get even worse when Joy and Sadness find themselves stranded outside of the control center, thus rendering Riley unable to feel either of their respective emotions.
+Things get even worse when Joy and Sadness find themselves stranded far from Headquarters. This renders Riley unable to feel either of their respective emotions.
 
-From here, the film shifts to an adventure as Joy tries to get herself and Sadness back to headquarters. On the way they wander through Riley’s long-term memories and meet her almost-forgotten childhood imaginary friend. It’s an inspired deconstruction of the human psyche.
+Now, the film shifts to adventure as Joy struggles to get them back to Headquarters. On the way, the pair wander through Riley’s long-term memories and meet her almost-forgotten imaginary friend, Bing Bong.
 
-But the stakes become much higher as Riley, unable to feel anything but anger, fear and disgust begins lashing out at her parents and friends. The representational islands of her personality begin to crumble and fall away into the void.
+Meanwhile, Riley, unable to feel anything but anger, fear and disgust, begins lashing out at her parents and friends. As she does, the islands of her personality crumble and fall away into nothingness.
 
-As Joy becomes more desperate to reach headquarters, the film introduces a scene of profound sadness. She finds herself in something of a dumping ground, where memories dissolve into dust and are forgotten. We can see joyous images of Riley as a toddler, images of her playing with her imaginary friend. In this instant, the film cuts to the heart of the pain of growing up. Of the loss of childish innocence. I would be lying if I didn’t admit to feeling a little pressure behind my eyes. Seriously, Bambi’s mom has nothing on this.
+As Joy’s desperation to reach Headquarters grows, she and Sadness induce a nightmare involving a giant clown. It’s a sequence that will give a fair number of viewers nightmares of their own.
 
-If this scene is a little disturbing to parents, then another will be equally so to children. In an effort to wake Riley up, Joy and Sadness induce a nightmare involving a giant clown that will likely give a fair number of young viewers nightmares of their own.
+Soon after, the film offers a scene of unexpected depth. Joy and Bing Bong find themselves in a desolate dumping-ground where memories dissolve into dust. We see images of young Riley laughing and playing with Bing Bong. As these memories dissolve and blow away, Bing Bong himself fades from existence. He accepts his fate with a quiet dignity that belies his goofy exterior. It’s a poignant moment that forces older viewers to acknowledge the loss of innocence inherit in growing up[^1].
 
-It’s an impressive film. The willingness to tackle complex themes without patronizing the audience is commendable. Odds are good you’ll find it a wonderful movie. I did.
+It’s this willingness to tackle complex themes without patronizing the audience that makes _Inside Out_ an impressive film. Odds are, you’ll think it a wonderful movie. I did.
 
 Well, almost.
 
-Here we come to the part of the review where I must issue spoiler warnings. I really did like this movie, but to talk about my problem with it, I must talk about the ending in great detail. Consider yourself warned.
+To explain my objection, I must discuss the ending. Spoiler warning.
 
-Still here? Okay. About that ending.
+Still here? Okay.
 
-It felt disingenuous. For a film that felt so honest and true in it’s depiction of the human condition, the ending felt too pat[^1].  For all the drama of the islands of personality crumbling into the void, a simple hug reconstructs them? We’re lead to believe everything is better than before, new memories are mixes of emotions instead of pure joy. Riley is back to her old self. Where were the consequences? There was a chance here to show Riley adjusting to the move, but at a cost. Maybe a part of her never comes back. Maybe the relationship with her parents is ever so subtly altered going forward. Anything but the saccharine, everything’s okay, bit of fluff we’re given. I mean, why imply that Riley’s dad moved the family out there to join a start-up? Given the time commitments that a start-up requires, and the failure rate amongst them, I thought they were setting up real family struggles. Maybe even a divorce.
+The film climaxes with Riley, finally able to feel her emotions, crying and hugging her parents. As she does, the missing islands of her personality spring back into existence. Cut to a short time later. Riley is back to her old self.
 
-Now, I hear you. That’s way too dark for a Disney movie. But is it really? This is a movie that had already shown a willingness to frighten it’s younger audience, would showing Riley dealing with parental struggles really be that much more? Or, another way, would it be anything a good portion of the audience wasn’t already familiar with?
+For a film that felt so honest and true in its depiction of the human condition, this felt disingenuous. For all the drama of the islands of personality crumbling into the void, a simple hug reconstructs them? Exactly as they were?
 
-I liked _Inside Out_, really, I did. If it hadn’t been so amazing, I wouldn’t have minded the ending. But I don’t think the film can have it both ways. It drives home the message that part of growing up is accepting a bit of sadness, but apparently that doesn’t extend to its own ending.
+Where are the consequences?
 
-[^1]: Yes, I realized I just used the phrase ‘the human condition’ in describing an animated film. It’s deserved.
+This was a chance to show Riley adjusting to the move, but at a cost. Maybe part of her never comes back. Maybe the relationship with her parents is forever altered. Maybe when that island returns it’s different, maybe smaller. Anything but the saccharine, everything’s okay, bit of fluff we’re given. Sure, new memories are now mixes of emotions instead of pure joy, but this is peddled as a wholly positive change. Where’s the trade-off?
 
+Also, why imply that Riley’s dad moved the family out there to join a start-up? Given the time demands and failure rates inherit in start-ups, I wondered if they were setting up a real family struggle. Maybe even a divorce.
 
-One I’m not sure of the target audience. The story follows a young girl named Riley.
+Now, I hear you. That’s way too dark for a Disney movie. But is it? The film showed a willingness to frighten it’s younger audience. Would parental strife be something a good part of the audience wasn’t already familiar with?
+
+_Inside Out_ drives home the message that growing up means accepting sadness as a part of life, but can’t apply that to its own ending.
+
+[^1]: Saddest Disney scene I can remember. Seriously, Bambi’s mom has nothing on this.
+

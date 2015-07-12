@@ -59,13 +59,13 @@
     %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_instant: true } }
       = "#{pluralize(viewings.length, 'time')}. "
     = "More at the "
-    %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" } 
+    %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
       IMDb
     = "."
     - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
 - unless more_for_cast.empty?
   - more_for_cast.each do |performer, titles|
-    %h2.footer_header.review_more_header 
+    %h2.footer_header.review_more_header
       More with #{performer.first_name} #{performer.last_name}
     %ul.recent_posts_list.card--with_shadow.review_more_list
       - titles.each do |title|
@@ -86,11 +86,12 @@
             = markdown(related_review.pull_quote)
           .card_actions
             %a{ href: "/reviews/#{related_review.slug}/" }
-              Continue reading 
+              Continue reading
             &nbsp;&middot; #{minutes_to_read(related_review.content)} min read
 
+= partial(:post_navigation, locals: { current_post: review })
+
 - content_for(:footer) do
-  = partial(:recent_posts, locals: { current_post: review })
   %script{ type: 'application/ld+json' }
     :plain
       {
@@ -102,7 +103,7 @@
           "sameAs":"https://www.frankshowalter.com"
         },
         "datePublished":"#{review.date.iso8601}",
-        "description":"#{description}", 
+        "description":"#{description}",
         "inLanguage":"en",
         "itemReviewed":{
           "@type":"Movie",

@@ -2,6 +2,7 @@
 @import 'filters';
 
 $viewings-card-background-color: #fff;
+$viewings-card-divider-color: #eee;
 
 .viewings {
   position: relative;
@@ -12,11 +13,11 @@ $viewings-card-background-color: #fff;
     display: table;
   }
 
-  > .card {
+  > .column {
     margin-top: .8rem;
 
     @media(min-width: $tablet-breakpoint) {
-      &:nth-child(2), 
+      &:nth-child(2),
       &:nth-child(4) {
         float: left;
         margin-left: .4rem;
@@ -33,7 +34,7 @@ $viewings-card-background-color: #fff;
     }
 
     @media(min-width: $desktop-breakpoint) {
-      &:nth-child(2), 
+      &:nth-child(2),
       &:nth-child(4) {
         margin-left: 0;
         width: calc(40% - .4rem);
@@ -43,7 +44,7 @@ $viewings-card-background-color: #fff;
         margin-right: 0;
         width: calc(60% - .4rem);
       }
-    }   
+    }
   }
 }
 
@@ -59,7 +60,23 @@ $viewings-card-background-color: #fff;
 }
 
 .viewings_filters {
-  padding: .8rem;
+  padding: 0 .8rem;
+}
+
+.viewings_filters-actions {
+  color: rgba(0, 0, 0, .4);
+  font-family: $sans;
+  font-size: .7rem;
+  letter-spacing: -.01rem;
+  line-height: 1.6rem;
+  border-top: solid 1px $viewings-card-divider-color;
+  padding-top: .35rem;
+
+  a {
+    display: inline-block;
+    margin-right: .1rem;
+    text-transform: uppercase;
+  }
 }
 
 .viewings_filters-header {
@@ -69,7 +86,7 @@ $viewings-card-background-color: #fff;
   letter-spacing: 1px;
   line-height: 1.2rem;
   margin: 0;
-  padding: .4rem 0 1.2rem;
+  padding: 1.2rem .8rem;
   text-transform: uppercase;
 }
 
@@ -108,4 +125,29 @@ $viewings-card-background-color: #fff;
   line-height: .9rem;
   min-height: 2rem;
   padding-left: 1px;
+}
+
+.viewings_filters_card {
+  padding-bottom: .8rem;
+}
+
+.viewings_see_also {
+  margin-bottom: .8rem;
+  padding-bottom: 0;
+}
+
+.viewings_see_also_list {
+  margin: 0;
+  padding: 0;
+}
+
+.viewings_see_also_list_item {
+  border-top: solid 1px rgba(0, 0, 0, .07);
+  font-family: $sans;
+  font-size: .8rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .8rem;
 }

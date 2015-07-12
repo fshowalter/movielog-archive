@@ -25,5 +25,4 @@
       #{feature.title}
     = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
 
-- content_for(:footer) do
-  = partial(:recent_posts, locals: { current_post: feature })
+= partial(:post_navigation, locals: { current_post: feature })
