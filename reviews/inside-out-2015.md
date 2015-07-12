@@ -3,7 +3,7 @@
 :title: Inside Out (2015)
 :slug: inside-out-2015
 :display_title: Inside Out (2015)
-:date: 2015-07-09
+:date: 2015-07-11
 :imdb_id: tt2096673
 :grade: C
 :backdrop: https://lh6.googleusercontent.com/-GuuS9VFEAzU/VZ8O9f934KI/AAAAAAAAC20/kjjDR_7524c/w1000-rj/inside-out-2015.jpg
