@@ -45,10 +45,6 @@ Where are the consequences?
 
 This was a chance to show Riley adjusting to the move, but at a cost. Maybe part of her never comes back. Maybe the relationship with her parents is forever altered. Maybe when that island returns it’s different, maybe smaller. Anything but the saccharine, everything’s okay, bit of fluff we’re given. Sure, new memories are now mixes of emotions instead of pure joy, but this is peddled as a wholly positive change. Where’s the trade-off?
 
-Also, why imply that Riley’s dad moved the family out there to join a start-up? Given the time demands and failure rates inherit in start-ups, I wondered if they were setting up a real family struggle. Maybe even a divorce.
-
-Now, I hear you. That’s way too dark for a Disney movie. But is it? The film showed a willingness to frighten it’s younger audience. Would parental strife be something a good part of the audience wasn’t already familiar with?
-
 _Inside Out_ drives home the message that growing up means accepting sadness as a part of life, but can’t apply that to its own ending.
 
 [^1]: Saddest Disney scene I can remember. Seriously, Bambi’s mom has nothing on this.
