@@ -7,7 +7,7 @@
 :imdb_id: tt2096673
 :grade: C
 :backdrop: https://lh6.googleusercontent.com/-GuuS9VFEAzU/VZ8O9f934KI/AAAAAAAAC20/kjjDR_7524c/w1000-rj/inside-out-2015.jpg
-:pull_quote: If _Inside Out_ hadn’t been so ambitious, the ending wouldn’t be so disappointing.
+:pull_quote: If _Inside Out_ hadn’t been so ambitious, its ending wouldn’t be so disappointing.
 ---
 _Inside Out_ is an ambitious animated feature that opens inside the mind of a newborn girl named Riley. There, we meet our protagonist Joy, an anthropomorphic emotion. In voicing Joy, Amy Poehler manages the near-impossible feat of being relentlessly optimistic and perky without ever being annoying.
 
