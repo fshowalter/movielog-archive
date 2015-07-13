@@ -139,27 +139,45 @@ var InstantClick = function(document, location) {
   }
 
   function mouseover(e) {
-    var a = getLinkTarget(e.target)
-    a.addEventListener('mouseout', mouseout)
+    var anchor;
+
+    if (this.hasAttribute('data-instant-block')) {
+      anchor = this.querySelector('a');
+    } else {
+      anchor = e.target;
+    }
+
+
+    // a = getLinkTarget(e.target)
+    this.addEventListener('mouseout', mouseout)
 
     if (!$delayBeforePreload) {
-      preload(a.href)
+      preload(anchor.href)
     }
     else {
-      $urlToPreload = a.href
+      $urlToPreload = anchor.href
       $preloadTimer = setTimeout(preload, $delayBeforePreload)
     }
   }
 
   function touchstart(e) {
-    var a = getLinkTarget(e.target)
+    // var a = getLinkTarget(e.target)
+
+    var anchor;
+
+    if (this.hasAttribute('data-instant-block')) {
+      anchor = this.querySelector('a');
+    } else {
+      anchor = e.target;
+    }
+
     if ($preloadOnMousedown) {
       a.removeEventListener('mousedown', mousedown)
     }
     else {
-      a.removeEventListener('mouseover', mouseover)
+      this.removeEventListener('mouseover', mouseover)
     }
-    preload(a.href)
+    preload(anchor.href)
   }
 
   function click(e) {
@@ -167,7 +185,16 @@ var InstantClick = function(document, location) {
       return
     }
     e.preventDefault()
-    display(getLinkTarget(e.target).href)
+
+    var anchor;
+
+    if (this.hasAttribute('data-instant-block')) {
+      anchor = this.querySelector('a');
+    } else {
+      anchor = e.target;
+    }
+
+    display(anchor.href)
   }
 
   function mouseout() {
@@ -257,9 +284,12 @@ var InstantClick = function(document, location) {
   function instantanize(isInitializing) {
     var as = document.getElementsByTagName('a'),
         a,
+        b,
+        i,
+        blocks = document.querySelectorAll('[data-instant-block]'),
         domain = location.protocol + '//' + location.host
 
-    for (var i = as.length - 1; i >= 0; i--) {
+    for (i = as.length - 1; i >= 0; i--) {
       a = as[i]
       if (a.target // target="_blank" etc.
           || a.hasAttribute('download')
@@ -281,6 +311,31 @@ var InstantClick = function(document, location) {
       }
       a.addEventListener('click', click)
     }
+
+    for (i = blocks.length - 1; i >= 0; i--) {
+      b = blocks[i];
+      a = b.querySelector('a');
+      if (a.target // target="_blank" etc.
+          || a.hasAttribute('download')
+          || a.href.indexOf(domain + '/') != 0 // Another domain, or no href attribute
+          || (a.href.indexOf('#') > -1
+              && removeHash(a.href) == $currentLocationWithoutHash) // Anchor
+          || ($useWhitelist
+              ? !isWhitelisted(a)
+              : isBlacklisted(a))
+         ) {
+        continue
+      }
+      b.addEventListener('touchstart', touchstart)
+      if ($preloadOnMousedown) {
+        b.addEventListener('mousedown', mousedown)
+      }
+      else {
+        b.addEventListener('mouseover', mouseover)
+      }
+      b.addEventListener('click', click)
+    }
+
     if (!isInitializing) {
       var scripts = document.body.getElementsByTagName('script'),
           script,

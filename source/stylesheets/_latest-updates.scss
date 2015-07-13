@@ -74,6 +74,18 @@ $latest-updates-card-separator-color: #eee;
     padding-top: 2.4rem;
     visibility: hidden;
   }
+
+  .js & {
+    cursor: pointer;
+
+    a {
+      color: rgba(0, 0, 0, .8);
+    }
+  }
+
+  .js &:hover a {
+    color: $highlight;
+  }
 }
 
 .latest_updates_pagination {
@@ -128,7 +140,7 @@ $latest-updates-card-separator-color: #eee;
     }
   }
 
-  &.newer:after, 
+  &.newer:after,
   &.older:after {
     background-size: contain;
     content: '';
