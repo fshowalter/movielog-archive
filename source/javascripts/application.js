@@ -1,7 +1,7 @@
 // = require _load-backdrops
 // = require _fastclick
 // = require _toggle-search
-// = require _instantclick
+// = require _carnac
 
 (
   function initMovielog() {
@@ -9,7 +9,7 @@
 
     var fastClick;
 
-    window.InstantClick.on('change', function handleInstantClickChange(isInitial) {
+    window.Carnac.on('change', function handleCarnacChange(isInitial) {
       if (fastClick) {
         fastClick.destroy();
       }
@@ -21,6 +21,6 @@
       }
     });
 
-    window.InstantClick.init();
+    window.Carnac.init();
   }()
 );

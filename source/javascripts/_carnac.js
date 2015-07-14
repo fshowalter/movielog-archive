@@ -1,3 +1,5 @@
+/* global Gator */
+
 (
   function initCarnac(factory) {
     'use strict';
@@ -28,9 +30,6 @@
     var $trackedAssets = [];
 
     // Variables defined by public functions
-    var $useWhitelist;
-    var $preloadOnMousedown;
-    var $delayBeforePreload;
     var $eventsCallbacks = {
       fetch: [],
       receive: [],
@@ -38,6 +37,32 @@
       change: []
     };
 
+
+for (i = blocks.length - 1; i >= 0; i--) {
+        b = blocks[i];
+        a = b.querySelector('a');
+        if (a.target // target="_blank" etc.
+            || a.hasAttribute('download')
+            || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
+            || (a.href.indexOf('#') > -1
+                && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
+            || isBlacklisted(a)
+           ) {
+          continue;
+        }
+        b.addEventListener('touchstart', touchstart);
+        b.addEventListener('mouseover', mouseover);
+        b.addEventListener('click', click);
+      }
+
+
+    function validForCarnac(element) {
+      if (element.nodeName !== 'A')
+
+      if (element.target
+        || element.hasAttribute('download')
+        || element)
+    }
 
     // HELPERS
     function removeHash(url) {
@@ -69,25 +94,6 @@
           return false;
         }
         if (currentElement.hasAttribute('data-no-instant')) {
-          return true;
-        }
-      }
-      while (currentElement = currentElement.parentNode);
-
-      return false;
-    }
-
-    function isWhitelisted(elem) {
-      var currentElement = elem;
-
-      do {
-        if (!currentElement.hasAttribute) { // Parent of <html>
-          break;
-        }
-        if (currentElement.hasAttribute('data-no-instant')) {
-          return false;
-        }
-        if (currentElement.hasAttribute('data-instant')) {
           return true;
         }
       }
@@ -180,12 +186,7 @@
       // a = getLinkTarget(e.target)
       this.addEventListener('mouseout', mouseout);
 
-      if (!$delayBeforePreload) {
-        preload(anchor.href);
-      } else {
-        $urlToPreload = anchor.href;
-        $preloadTimer = setTimeout(preload, $delayBeforePreload);
-      }
+      preload(anchor.href);
     }
 
     function touchstart(e) {
@@ -199,11 +200,8 @@
         anchor = e.target;
       }
 
-      if ($preloadOnMousedown) {
-        this.removeEventListener('mousedown', mousedown);
-      } else {
-        this.removeEventListener('mouseover', mouseover);
-      }
+      this.removeEventListener('mouseover', mouseover);
+
       preload(anchor.href);
     }
 
@@ -233,8 +231,11 @@
       var ref;
       var ref1;
 
-      head = (ref = html.match(/<head[^>]*>([\s\S.]*)<\/head>/i) !== null ? ref[0] : void 0) || '<head></head>';
-      body = (ref1 = html.match(/<body[^>]*>([\s\S.]*)<\/body>/i) !== null ? ref1[0] : void 0) || '<body></body>';
+      ref = html.match(/<head[^>]*>([\s\S.]*)<\/head>/i);
+      head = (ref !== null ? ref[0] : void 0) || '<head></head>';
+
+      ref1 = html.match(/<body[^>]*>([\s\S.]*)<\/body>/i);
+      body = (ref1 !== null ? ref1[0] : void 0) || '<body></body>';
       htmlWrapper = document.createElement('html');
       htmlWrapper.innerHTML = head + body;
       doc = document.createDocumentFragment();
@@ -327,18 +328,12 @@
             || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
             || (a.href.indexOf('#') > -1
                 && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
-            || ($useWhitelist
-                ? !isWhitelisted(a)
-                : isBlacklisted(a))
+            || isBlacklisted(a)
            ) {
           continue;
         }
         a.addEventListener('touchstart', touchstart);
-        if ($preloadOnMousedown) {
-          a.addEventListener('mousedown', mousedown);
-        } else {
-          a.addEventListener('mouseover', mouseover);
-        }
+        a.addEventListener('mouseover', mouseover);
         a.addEventListener('click', click);
       }
 
@@ -350,18 +345,12 @@
             || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
             || (a.href.indexOf('#') > -1
                 && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
-            || ($useWhitelist
-                ? !isWhitelisted(a)
-                : isBlacklisted(a))
+            || isBlacklisted(a)
            ) {
           continue;
         }
         b.addEventListener('touchstart', touchstart);
-        if ($preloadOnMousedown) {
-          b.addEventListener('mousedown', mousedown);
-        } else {
-          b.addEventListener('mouseover', mouseover);
-        }
+        b.addEventListener('mouseover', mouseover);
         b.addEventListener('click', click);
       }
 
@@ -390,8 +379,7 @@
 
     function preload(urlToPreload) {
       var url = urlToPreload;
-      if (!$preloadOnMousedown
-          && 'display' in $timing
+      if ('display' in $timing
           && +new Date() - ($timing.start + $timing.display) < 100) {
         /* After a page is displayed, if the user's cursor happens to be above
            a link a mouseover event will be in most browsers triggered
@@ -679,9 +667,17 @@
        Because of this mess, the only whitelisted browser on Android is Chrome.
     */
 
+    function addEventListeners() {
+      Gator(document).on('touchstart', 'a', touchstart);
+      Gator(document).on('touchstart', '[data-carnac-target]', touchstart);
+      Gator(document).on('mouseover', 'a', mouseover);
+      Gator(document).on('mouseover', '[data-carnac-target]', mouseover);
+      Gator(document).on('click', 'a', click);
+      Gator(document).on('click', '[data-carnac-target]', click);
+    }
+
     function init() {
       var i;
-      var arg;
       var elems;
       var elem;
       var data;
@@ -693,18 +689,6 @@
       if (!supported) {
         triggerPageEvent('change', true);
         return;
-      }
-      for (i = arguments.length - 1; i >= 0; i--) {
-        arg = arguments[i]
-        if (arg === true) {
-          $useWhitelist = true
-        }
-        else if (arg === 'mousedown') {
-          $preloadOnMousedown = true
-        }
-        else if (typeof arg === 'number') {
-          $delayBeforePreload = arg;
-        }
       }
 
       $currentLocationWithoutHash = removeHash(location.href);
@@ -730,7 +714,7 @@
       $xhr = new XMLHttpRequest();
       $xhr.addEventListener('readystatechange', readystatechange);
 
-      instantanize(true);
+      addEventListeners();
 
       bar.init();
 
