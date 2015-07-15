@@ -27,6 +27,6 @@ sitemap_ignore: true
     %p
       My apologies, and thanks for stopping by.
 
-
+  .post_slug
 - content_for(:footer) do
   = partial(:recent_posts, locals: { current_post: OpenStruct.new(sequence: 0) })

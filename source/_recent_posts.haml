@@ -1,5 +1,5 @@
 .recent_posts.card.card--with_shadow
-  %h2.footer_header 
+  %h2.footer_header
     Recent Posts
   %ol.recent_posts_list
     - post_count = 1;
@@ -12,10 +12,11 @@
       - if post.is_a?(Movielog::Review)
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: post.title)
         %li.card
-          %a{ href: "/reviews/#{post.slug}/"}
+          .card_header_wrap{ data: { carnac: true } }
             .card_header
               %h3.card_header-title{ data: { sequence: post.sequence} }
-                = "#{post.display_title}"
+                %a{ href: "/reviews/#{post.slug}/"}
+                  = "#{post.display_title}"
               = grade_to_image_tag(grade: post.grade, options: { class: 'card_header-rating' })
             .card_backdrop{ data: { backdrop: post.backdrop } }
             .card_slug
@@ -26,7 +27,7 @@
             = markdown(post.pull_quote)
           .card_actions
             %a{ href: "/reviews/#{post.slug}/" }
-              Continue reading 
+              Continue reading
             &nbsp;&middot; #{minutes_to_read(post.content)} min read
   .card_actions
     %a.footer__recent-updates__more_link{ href: "/##{post.slug}"}

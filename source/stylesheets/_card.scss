@@ -43,6 +43,20 @@ $card-divider-color: #eee;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
 }
 
+.card_header_wrap {
+  .js & {
+    cursor: pointer;
+
+    a {
+      color: rgba(0, 0, 0, .8);
+    }
+  }
+
+  .js &:hover a {
+    color: $highlight;
+  }
+}
+
 .card_header {
   display: flex;
   flex-wrap: wrap;

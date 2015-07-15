@@ -72,10 +72,11 @@
         - related_review = Movielog.reviews_by_title[title]
         - directors = MovieDb.directors_for_title(db: Movielog.db, title: related_review.title)
         %li.card{ class: "#{'half' if titles.length == 2 }"}
-          %a{ href: "/reviews/#{related_review.slug}/"}
+          .card_header_wrap{ data: { carnac: true } }
             .card_header
               %h3.card_header-title
-                = "#{related_review.display_title}"
+                %a{ href: "/reviews/#{related_review.slug}/"}
+                  = "#{related_review.display_title}"
               = grade_to_image_tag(grade: related_review.grade, options: { class: 'card_header-rating' })
             .card_backdrop{ data: { backdrop: related_review.backdrop } }
             .card_slug

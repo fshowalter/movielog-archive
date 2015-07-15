@@ -17,7 +17,7 @@ pagination:
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
       %li.card.card--with_shadow{ value: post.sequence, style: "z-index: 1#{post.sequence}" }
-        .latest_updates-item_anchor{ id: post.slug, data: { carnac: true } }
+        .card_header_wrap.latest_updates-item_anchor{ id: post.slug, data: { carnac: true } }
           %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
             %h3.card_header-title
               %a{ href: "/reviews/#{review.slug}/"}
