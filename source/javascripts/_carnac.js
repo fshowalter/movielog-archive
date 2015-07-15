@@ -397,6 +397,7 @@
       }
 
       e.preventDefault();
+      e.stopPropagation();
       display(target);
     }
 
@@ -441,6 +442,7 @@
 
       $timing.ready = +new Date() - $timing.start;
       triggerPageEvent('receive');
+
 
       if ($xhr.getResponseHeader('Content-Type').match(/\/(x|ht|xht)ml/)) {
         doc = createDocumentUsingFragment($xhr.responseText);
