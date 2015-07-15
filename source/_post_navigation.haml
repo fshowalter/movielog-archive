@@ -38,10 +38,11 @@
       %h2.post_navigation-header
         Prev Post
       .card.card--with_shadow
-        %a{ href: "/#{link_path}/#{prev_post.slug}/"}
+        .card_header_wrap{ data: { carnac: true } }
           .card_header
             %h3.card_header-title
-              = "#{prev_post.display_title}"
+              %a{ href: "/#{link_path}/#{prev_post.slug}/"}
+                = "#{prev_post.display_title}"
             = grade_to_image_tag(grade: prev_post.grade, options: { class: 'card_header-rating' })
           .card_backdrop{ data: { backdrop: prev_post.backdrop } }
           - if prev_post.is_a?(Movielog::Review)

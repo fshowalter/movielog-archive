@@ -65,6 +65,7 @@
     - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
 - unless more_for_cast.empty?
   - more_for_cast.each do |performer, titles|
+    - next unless titles.length > 1
     %h2.footer_header.review_more_header
       More with #{performer.first_name} #{performer.last_name}
     %ul.recent_posts_list.card--with_shadow.review_more_list
