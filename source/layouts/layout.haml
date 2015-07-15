@@ -14,8 +14,8 @@
     - if content_for?(:head)
       = yield_content(:head)
     - if content_for?(:inline_css)
-      - inline_css_file  = sitemap.resources.select { |p| p.source_file.match(/#{yield_content(:inline_css)}[.]css[.]scss$/) }.first 
-      - if inline_css_file 
+      - inline_css_file  = sitemap.resources.select { |p| p.source_file.match(/#{yield_content(:inline_css)}[.]css[.]scss$/) }.first
+      - if inline_css_file
         %style{ type: 'text/css' }
           = inline_css_file.render
 
@@ -35,7 +35,7 @@
     %meta{ name: 'msapplication-TileColor', content: '#2b5797' }
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }
-    %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' } 
+    %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' }
   %body
     .content-container{ class: yield_content(:content_class) }
       %header.mast
@@ -58,27 +58,27 @@
           = partial(:about)
         - unless content_for?(:no_how_i_grade_footer)
           .card.card--with_shadow.footer-how_i_grade
-            %h2.footer_header 
+            %h2.footer_header
               How I Grade
             .card_text
               %dl.footer_how_i_grade_list
-                %dt.footer_how_i_grade_list-grade 
+                %dt.footer_how_i_grade_list-grade
                   = grade_to_image_tag(grade: 'A', options: { class: 'footer_how_i_grade_list-rating' })
                 %dd.footer_how_i_grade_list-text
                   %span a great movie
-                %dt.footer_how_i_grade_list-grade 
+                %dt.footer_how_i_grade_list-grade
                   = grade_to_image_tag(grade: 'B', options: { class: 'footer_how_i_grade_list-rating' })
                 %dd.footer_how_i_grade_list-text
                   %span  a good movie
-                %dt.footer_how_i_grade_list-grade 
+                %dt.footer_how_i_grade_list-grade
                   = grade_to_image_tag(grade: 'C', options: { class: 'footer_how_i_grade_list-rating' })
                 %dd.footer_how_i_grade_list-text
                   %span an okay movie
-                %dt.footer_how_i_grade_list-grade 
+                %dt.footer_how_i_grade_list-grade
                   = grade_to_image_tag(grade: 'D', options: { class: 'footer_how_i_grade_list-rating' })
                 %dd.footer_how_i_grade_list-text
                   %span a bad movie
-                %dt.footer_how_i_grade_list-grade 
+                %dt.footer_how_i_grade_list-grade
                   = grade_to_image_tag(grade: 'F', options: { class: 'footer_how_i_grade_list-rating' })
                 %dd.footer_how_i_grade_list-text
                   %span an awful movie
@@ -88,20 +88,20 @@
               %a{ href: '/features/how-i-grade/'}
                 More about how I grade
         .footer_links
-          %a{ href: '/'} Frank's Movie Log
-          %a{ href: '/'} Latest Updates
-          %a{ href: '/viewings/', data: { no_instant: true }} Viewing Log
-          %a{ href: '/features/how-i-grade/'} How I Grade
-       
+          %a{ href: '/' } Frank's Movie Log
+          %a{ href: '/' } Latest Updates
+          %a{ href: '/viewings/', data: { no_carnac: true } } Viewing Log
+          %a{ href: '/features/how-i-grade/' } How I Grade
+
       - unless development?
-        %script{ async: true, src: '//www.google-analytics.com/analytics.js', data: { no_instant: true }}
+        %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
         :javascript
           window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
           ga('create', 'UA-55282521-1', 'auto');
           var pl = window.location.pathname + window.location.search
           ga('send', 'pageview', { 'page': pl, 'title': document.title })
-      = javascript_include_tag('application.js', async: :async, data: { no_instant: true })
-      %script{ data: { no_instant: true } }
+      = javascript_include_tag('application.js', async: :async )
+      %script
         :plain
           (function(d) {var config={kitId:'ngs8sfs',scriptTimeout: 3000, active: window.set_rhythm },
             h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
