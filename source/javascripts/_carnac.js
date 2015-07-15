@@ -9,10 +9,8 @@
   }(function buildCarnacFactory() {
     'use strict';
 
-    var bar;
     var $currentLocationWithoutHash;
     var $hasTouch = 'createTouch' in document;
-    var $preloadTimer;
     var $ua = navigator.userAgent;
     var $urlToPreload;
     var supported;
@@ -29,6 +27,7 @@
     var $isWaitingForCompletion = false;
     var $trackedAssets = [];
 
+
     // Variables defined by public functions
     var $eventsCallbacks = {
       fetch: [],
@@ -37,34 +36,147 @@
       change: []
     };
 
+    // PROGRESS BAR
+    var progressBar = (function buildProgressBar() {
+      var $barContainer;
+      var $barElement;
+      var $barTransformProperty;
+      var $barProgress;
+      var $barTimer;
 
-for (i = blocks.length - 1; i >= 0; i--) {
-        b = blocks[i];
-        a = b.querySelector('a');
-        if (a.target // target="_blank" etc.
-            || a.hasAttribute('download')
-            || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
-            || (a.href.indexOf('#') > -1
-                && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
-            || isBlacklisted(a)
-           ) {
-          continue;
-        }
-        b.addEventListener('touchstart', touchstart);
-        b.addEventListener('mouseover', mouseover);
-        b.addEventListener('click', click);
+      function updatePositionAndScale() {
+        var landscape;
+        var scaleY;
+
+        /* Adapted from code by Sam Stephenson and Mislav Marohnić
+           http://signalvnoise.com/posts/2407
+        */
+
+        $barContainer.style.left = pageXOffset + 'px';
+        $barContainer.style.width = innerWidth + 'px';
+        $barContainer.style.top = pageYOffset + 'px';
+
+        landscape = 'orientation' in window && Math.abs(window.orientation) === 90;
+        scaleY = innerWidth / screen[landscape ? 'height' : 'width'] * 2;
+        /* We multiply the size by 2 because the progress bar is harder
+           to notice on a mobile device.
+        */
+        $barContainer.style[$barTransformProperty] = 'scaleY(' + scaleY + ')';
       }
 
+      function initProgressBar() {
+        var vendors;
+        var transitionProperty;
+        var i;
+        var style;
 
-    function validForCarnac(element) {
-      if (element.nodeName !== 'A')
+        $barContainer = document.createElement('div');
+        $barContainer.id = 'instantclick';
+        $barElement = document.createElement('div');
+        $barElement.id = 'instantclick-bar';
+        $barElement.className = 'instantclick-bar';
+        $barContainer.appendChild($barElement);
 
-      if (element.target
-        || element.hasAttribute('download')
-        || element)
-    }
+        vendors = ['Webkit', 'Moz', 'O'];
 
-    // HELPERS
+        $barTransformProperty = 'transform';
+        if (!($barTransformProperty in $barElement.style)) {
+          for (i = 0; i < 3; i++) {
+            if (vendors[i] + 'Transform' in $barElement.style) {
+              $barTransformProperty = vendors[i] + 'Transform';
+            }
+          }
+        }
+
+        transitionProperty = 'transition';
+        if (!(transitionProperty in $barElement.style)) {
+          for (i = 0; i < 3; i++) {
+            if (vendors[i] + 'Transition' in $barElement.style) {
+              transitionProperty = '-' + vendors[i].toLowerCase() + '-' + transitionProperty;
+            }
+          }
+        }
+
+        style = document.createElement('style');
+        style.innerHTML = '#instantclick{position:' + ($hasTouch ? 'absolute' : 'fixed') + ';top:0;left:0;width:100%;pointer-events:none;z-index:2147483647;' + transitionProperty + ':opacity .25s .1s}'
+          + '.instantclick-bar{background:#29d;width:100%;margin-left:-100%;height:2px;' + transitionProperty + ':all .25s}';
+        /* We set the bar's background in `.instantclick-bar` so that it can be
+           overriden in CSS with `#instantclick-bar`, as IDs have higher priority.
+        */
+        document.head.appendChild(style);
+
+        if ($hasTouch) {
+          updatePositionAndScale();
+          addEventListener('resize', updatePositionAndScale);
+          addEventListener('scroll', updatePositionAndScale);
+        }
+      }
+
+      function update() {
+        $barElement.style[$barTransformProperty] = 'translate(' + $barProgress + '%)';
+        if (!document.getElementById($barContainer.id)) {
+          document.body.appendChild($barContainer);
+        }
+      }
+
+      function jumpStart() {
+        $barProgress = 10;
+        update();
+      }
+
+      function inc() {
+        $barProgress += 1 + (Math.random() * 2);
+        if ($barProgress >= 98) {
+          $barProgress = 98;
+        } else {
+          $barTimer = setTimeout(inc, 500);
+        }
+        update();
+      }
+
+      function start(at, jump) {
+        $barProgress = at;
+        if (document.getElementById($barContainer.id)) {
+          document.body.removeChild($barContainer);
+        }
+        $barContainer.style.opacity = '1';
+        if (document.getElementById($barContainer.id)) {
+          document.body.removeChild($barContainer);
+          /* So there's no CSS animation if already done once and it goes from 1 to 0 */
+        }
+        update();
+        if (jump) {
+          setTimeout(jumpStart, 0);
+          /* Must be done in a timer, otherwise the CSS animation doesn't happen. */
+        }
+        clearTimeout($barTimer);
+        $barTimer = setTimeout(inc, 500);
+      }
+
+      function done() {
+        if (document.getElementById($barContainer.id)) {
+          clearTimeout($barTimer);
+          $barProgress = 100;
+          update();
+          $barContainer.style.opacity = '0';
+          /* If you're debugging, setting this to 0.5 is handy. */
+          return;
+        }
+
+        /* The bar container hasn't been appended: It's a new page. */
+        start($barProgress === 100 ? 0 : $barProgress);
+        /* $barProgress is 100 on popstate, usually. */
+        setTimeout(done, 0);
+        /* Must be done in a timer, otherwise the CSS animation doesn't happen. */
+      }
+
+      return {
+        init: initProgressBar,
+        start: start,
+        done: done
+      };
+    }());
+
     function removeHash(url) {
       var index = url.indexOf('#');
       if (index < 0) {
@@ -73,33 +185,29 @@ for (i = blocks.length - 1; i >= 0; i--) {
       return url.substr(0, index);
     }
 
-    function getLinkTarget(target) {
-      var currentTarget = target;
+    function getTarget(element) {
+      var domain = location.protocol + '//' + location.host;
+      var href;
 
-      while (currentTarget.nodeName !== 'A') {
-        currentTarget = currentTarget.parentNode;
+      if (element.target
+          || element.hasAttribute('download')
+          || element.hasAttribute('data-no-carnac')
+          || (element.nodeName !== 'A' && !element.hasAttribute('data-carnac'))) {
+        return null;
       }
 
-      return currentTarget;
-    }
-
-    function isBlacklisted(elem) {
-      var currentElement = elem;
-
-      do {
-        if (!currentElement.hasAttribute) { // Parent of <html>
-          break;
-        }
-        if (currentElement.hasAttribute('data-instant')) {
-          return false;
-        }
-        if (currentElement.hasAttribute('data-no-instant')) {
-          return true;
-        }
+      if (element.hasAttribute('data-carnac')) {
+        href = element.querySelector('a').href;
+      } else {
+        href = element.href;
       }
-      while (currentElement = currentElement.parentNode);
 
-      return false;
+      if (href.indexOf(domain + '/') !== 0
+          || (href.indexOf('#') > -1 && removeHash(href) === $currentLocationWithoutHash)) {
+        return null;
+      }
+
+      return href;
     }
 
     function triggerPageEvent(eventType, arg1) {
@@ -110,6 +218,67 @@ for (i = blocks.length - 1; i >= 0; i--) {
       }
 
       /* The `change` event takes one boolean argument: "isInitialLoad" */
+    }
+
+    function preload(urlToPreload) {
+      var url = urlToPreload;
+      if ('display' in $timing
+          && +new Date() - ($timing.start + $timing.display) < 100) {
+        /* After a page is displayed, if the user's cursor happens to be above
+           a link a mouseover event will be in most browsers triggered
+           automatically, and in other browsers it will be triggered when the
+           user moves his mouse by 1px.
+
+           Here are the behavior I noticed, all on Windows:
+           - Safari 5.1: auto-triggers after 0 ms
+           - IE 11: auto-triggers after 30-80 ms (depends on page's size?)
+           - Firefox: auto-triggers after 10 ms
+           - Opera 18: auto-triggers after 10 ms
+
+           - Chrome: triggers when cursor moved
+           - Opera 12.16: triggers when cursor moved
+
+           To remedy to this, we do not start preloading if last display
+           occurred less than 100 ms ago. If they happen to click on the link,
+           they will be redirected.
+        */
+
+        return;
+      }
+
+      if (!url) {
+        url = $urlToPreload;
+      }
+
+      if ($isPreloading && (url === $url || $isWaitingForCompletion)) {
+        return;
+      }
+
+      $isPreloading = true;
+      $isWaitingForCompletion = false;
+
+      $url = url;
+      $body = false;
+      $mustRedirect = false;
+      $timing = {
+        start: +new Date()
+      };
+      triggerPageEvent('fetch');
+      $xhr.open('GET', url);
+      $xhr.send();
+    }
+
+    function setPreloadingAsHalted() {
+      $isPreloading = false;
+      $isWaitingForCompletion = false;
+    }
+
+    function cancelPreload() {
+      if (!$isPreloading || $isWaitingForCompletion) {
+        return;
+      }
+      $xhr.abort();
+      setPreloadingAsHalted();
     }
 
     function changePage(title, body, newUrl, scrollY) {
@@ -143,84 +312,92 @@ for (i = blocks.length - 1; i >= 0; i--) {
       } else {
         scrollTo(0, scrollY);
       }
-      instantanize();
-      bar.done();
+      progressBar.done();
       triggerPageEvent('change', false);
     }
 
-    function setPreloadingAsHalted() {
-      $isPreloading = false;
-      $isWaitingForCompletion = false;
-    }
-
-
-    // EVENT HANDLERS
-    function mousedown(e) {
-      preload(getLinkTarget(e.target).href);
-    }
-
-    function mouseout() {
-      if ($preloadTimer) {
-        clearTimeout($preloadTimer);
-        $preloadTimer = false;
-        return;
+    function display(url) {
+      if (!('display' in $timing)) {
+        $timing.display = +new Date() - $timing.start;
       }
 
-      if (!$isPreloading || $isWaitingForCompletion) {
+      if ($isWaitingForCompletion) {
+        /*
+           If the page is waiting for completion, the user clicked twice while
+           the page was preloading. Either on the same link or on another
+           link. If it's the same link something might have gone wrong (or he
+           could have double clicked), so we send him to the page the old way.
+           If it's another link, it hasn't been preloaded, so we redirect the
+           user the old way.
+        */
+
+        location.href = url;
         return;
       }
-      $xhr.abort();
+      if ($mustRedirect) {
+        location.href = $url;
+        return;
+      }
+      if (!$body) {
+        progressBar.start(0, true);
+        triggerPageEvent('wait');
+        $isWaitingForCompletion = true;
+        return;
+      }
+      $history[$currentLocationWithoutHash].scrollY = pageYOffset;
       setPreloadingAsHalted();
+      changePage($title, $body, $url);
     }
 
-    function mouseover(e) {
-      var anchor;
+    function handleMouseOut() {
+      cancelPreload();
+    }
 
-      if (this.hasAttribute('data-instant-block')) {
-        anchor = this.querySelector('a');
-      } else {
-        anchor = e.target;
+    function handleFocus() {
+      var target = getTarget(this);
+
+      if (!target) {
+        return;
       }
 
-
-      // a = getLinkTarget(e.target)
-      this.addEventListener('mouseout', mouseout);
-
-      preload(anchor.href);
+      preload(target);
     }
 
-    function touchstart(e) {
-      // var a = getLinkTarget(e.target)
+    function handleMouseOver() {
+      var target = getTarget(this);
 
-      var anchor;
-
-      if (this.hasAttribute('data-instant-block')) {
-        anchor = this.querySelector('a');
-      } else {
-        anchor = e.target;
+      if (!target) {
+        return;
       }
 
-      this.removeEventListener('mouseover', mouseover);
-
-      preload(anchor.href);
+      preload(target);
     }
 
-    function click(e) {
-      var anchor;
+    function handleTouchStart() {
+      var target = getTarget(this);
+
+      if (!target) {
+        return;
+      }
+
+      preload(target);
+    }
+
+    function handleClick(e) {
+      var target;
 
       if (e.which > 1 || e.metaKey || e.ctrlKey) { // Opening in new tab
         return;
       }
 
-      e.preventDefault();
+      target = getTarget(this);
 
-      if (this.hasAttribute('data-instant-block')) {
-        anchor = this.querySelector('a');
-      } else {
-        anchor = e.target;
+      if (!target) {
+        return;
       }
 
-      display(anchor.href);
+      e.preventDefault();
+      display(target);
     }
 
     function createDocumentUsingFragment(html) {
@@ -305,334 +482,6 @@ for (i = blocks.length - 1; i >= 0; i--) {
       }
     }
 
-
-    // MAIN FUNCTIONS
-    function instantanize(isInitializing) {
-      var as = document.getElementsByTagName('a');
-      var a;
-      var b;
-      var i;
-      var j;
-      var blocks = document.querySelectorAll('[data-instant-block]');
-      var domain = location.protocol + '//' + location.host;
-      var scripts;
-      var script;
-      var copy;
-      var parentNode;
-      var nextSibling;
-
-      for (i = as.length - 1; i >= 0; i--) {
-        a = as[i];
-        if (a.target // target="_blank" etc.
-            || a.hasAttribute('download')
-            || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
-            || (a.href.indexOf('#') > -1
-                && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
-            || isBlacklisted(a)
-           ) {
-          continue;
-        }
-        a.addEventListener('touchstart', touchstart);
-        a.addEventListener('mouseover', mouseover);
-        a.addEventListener('click', click);
-      }
-
-      for (i = blocks.length - 1; i >= 0; i--) {
-        b = blocks[i];
-        a = b.querySelector('a');
-        if (a.target // target="_blank" etc.
-            || a.hasAttribute('download')
-            || a.href.indexOf(domain + '/') !== 0 // Another domain, or no href attribute
-            || (a.href.indexOf('#') > -1
-                && removeHash(a.href) === $currentLocationWithoutHash) // Anchor
-            || isBlacklisted(a)
-           ) {
-          continue;
-        }
-        b.addEventListener('touchstart', touchstart);
-        b.addEventListener('mouseover', mouseover);
-        b.addEventListener('click', click);
-      }
-
-      if (!isInitializing) {
-        scripts = document.body.getElementsByTagName('script');
-
-        for (i = 0, j = scripts.length; i < j; i++) {
-          script = scripts[i];
-          if (script.hasAttribute('data-no-instant') || script.type !== 'text/javascript') {
-            continue;
-          }
-          copy = document.createElement('script');
-          if (script.src) {
-            copy.src = script.src;
-          }
-          if (script.innerHTML) {
-            copy.innerHTML = script.innerHTML;
-          }
-          parentNode = script.parentNode;
-          nextSibling = script.nextSibling;
-          parentNode.removeChild(script);
-          parentNode.insertBefore(copy, nextSibling);
-        }
-      }
-    }
-
-    function preload(urlToPreload) {
-      var url = urlToPreload;
-      if ('display' in $timing
-          && +new Date() - ($timing.start + $timing.display) < 100) {
-        /* After a page is displayed, if the user's cursor happens to be above
-           a link a mouseover event will be in most browsers triggered
-           automatically, and in other browsers it will be triggered when the
-           user moves his mouse by 1px.
-
-           Here are the behavior I noticed, all on Windows:
-           - Safari 5.1: auto-triggers after 0 ms
-           - IE 11: auto-triggers after 30-80 ms (depends on page's size?)
-           - Firefox: auto-triggers after 10 ms
-           - Opera 18: auto-triggers after 10 ms
-
-           - Chrome: triggers when cursor moved
-           - Opera 12.16: triggers when cursor moved
-
-           To remedy to this, we do not start preloading if last display
-           occurred less than 100 ms ago. If they happen to click on the link,
-           they will be redirected.
-        */
-
-        return;
-      }
-      if ($preloadTimer) {
-        clearTimeout($preloadTimer);
-        $preloadTimer = false;
-      }
-
-      if (!url) {
-        url = $urlToPreload;
-      }
-
-      if ($isPreloading && (url === $url || $isWaitingForCompletion)) {
-        return;
-      }
-      $isPreloading = true;
-      $isWaitingForCompletion = false;
-
-      $url = url;
-      $body = false;
-      $mustRedirect = false;
-      $timing = {
-        start: +new Date()
-      };
-      triggerPageEvent('fetch');
-      $xhr.open('GET', url);
-      $xhr.send();
-    }
-
-    function display(url) {
-      if (!('display' in $timing)) {
-        $timing.display = +new Date() - $timing.start;
-      }
-      if ($preloadTimer) {
-        /* Happens when there’s a delay before preloading and that delay
-           hasn't expired (preloading didn't kick in).
-        */
-
-        if ($url && $url !== url) {
-          /* Happens when the user clicks on a link before preloading
-             kicks in while another link is already preloading.
-          */
-
-          location.href = url;
-          return;
-        }
-        preload(url);
-        bar.start(0, true);
-        triggerPageEvent('wait');
-        $isWaitingForCompletion = true;
-        return;
-      }
-      if (!$isPreloading || $isWaitingForCompletion) {
-        /* If the page isn't preloaded, it likely means the user has focused
-           on a link (with his Tab key) and then pressed Return, which
-           triggered a click.
-           Because very few people do this, it isn't worth handling this case
-           and preloading on focus (also, focusing on a link doesn't mean it's
-           likely that you'll "click" on it), so we just redirect them when
-           they "click".
-           It could also mean the user hovered over a link less than 100 ms
-           after a page display, thus we didn't start the preload (see
-           comments in `preload()` for the rationale behind this.)
-
-           If the page is waiting for completion, the user clicked twice while
-           the page was preloading. Either on the same link or on another
-           link. If it's the same link something might have gone wrong (or he
-           could have double clicked), so we send him to the page the old way.
-           If it's another link, it hasn't been preloaded, so we redirect the
-           user the old way.
-        */
-
-        location.href = url;
-        return;
-      }
-      if ($mustRedirect) {
-        location.href = $url;
-        return;
-      }
-      if (!$body) {
-        bar.start(0, true);
-        triggerPageEvent('wait');
-        $isWaitingForCompletion = true;
-        return;
-      }
-      $history[$currentLocationWithoutHash].scrollY = pageYOffset;
-      setPreloadingAsHalted();
-      changePage($title, $body, $url);
-    }
-
-
-    // PROGRESS BAR FUNCTIONS
-    bar = (function progressBarFactory() {
-      var $barContainer;
-      var $barElement;
-      var $barTransformProperty;
-      var $barProgress;
-      var $barTimer;
-
-      function init() {
-        var vendors;
-        var transitionProperty;
-        var i;
-        var style;
-
-        $barContainer = document.createElement('div');
-        $barContainer.id = 'instantclick';
-        $barElement = document.createElement('div');
-        $barElement.id = 'instantclick-bar';
-        $barElement.className = 'instantclick-bar';
-        $barContainer.appendChild($barElement);
-
-        vendors = ['Webkit', 'Moz', 'O'];
-
-        $barTransformProperty = 'transform';
-        if (!($barTransformProperty in $barElement.style)) {
-          for (i = 0; i < 3; i++) {
-            if (vendors[i] + 'Transform' in $barElement.style) {
-              $barTransformProperty = vendors[i] + 'Transform';
-            }
-          }
-        }
-
-        transitionProperty = 'transition';
-        if (!(transitionProperty in $barElement.style)) {
-          for (i = 0; i < 3; i++) {
-            if (vendors[i] + 'Transition' in $barElement.style) {
-              transitionProperty = '-' + vendors[i].toLowerCase() + '-' + transitionProperty;
-            }
-          }
-        }
-
-        style = document.createElement('style');
-        style.innerHTML = '#instantclick{position:' + ($hasTouch ? 'absolute' : 'fixed') + ';top:0;left:0;width:100%;pointer-events:none;z-index:2147483647;' + transitionProperty + ':opacity .25s .1s}'
-          + '.instantclick-bar{background:#29d;width:100%;margin-left:-100%;height:2px;' + transitionProperty + ':all .25s}';
-        /* We set the bar's background in `.instantclick-bar` so that it can be
-           overriden in CSS with `#instantclick-bar`, as IDs have higher priority.
-        */
-        document.head.appendChild(style);
-
-        if ($hasTouch) {
-          updatePositionAndScale();
-          addEventListener('resize', updatePositionAndScale);
-          addEventListener('scroll', updatePositionAndScale);
-        }
-      };
-
-      function start(at, jump) {
-        $barProgress = at;
-        if (document.getElementById($barContainer.id)) {
-          document.body.removeChild($barContainer);
-        }
-        $barContainer.style.opacity = '1'
-        if (document.getElementById($barContainer.id)) {
-          document.body.removeChild($barContainer);
-          /* So there's no CSS animation if already done once and it goes from 1 to 0 */
-        }
-        update();
-        if (jump) {
-          setTimeout(jumpStart, 0);
-          /* Must be done in a timer, otherwise the CSS animation doesn't happen. */
-        }
-        clearTimeout($barTimer);
-        $barTimer = setTimeout(inc, 500);
-      }
-
-      function jumpStart() {
-        $barProgress = 10;
-        update();
-      }
-
-      function inc() {
-        $barProgress += 1 + (Math.random() * 2);
-        if ($barProgress >= 98) {
-          $barProgress = 98;
-        }
-        else {
-          $barTimer = setTimeout(inc, 500);
-        }
-        update();
-      }
-
-      function update() {
-        $barElement.style[$barTransformProperty] = 'translate(' + $barProgress + '%)';
-        if (!document.getElementById($barContainer.id)) {
-          document.body.appendChild($barContainer);
-        }
-      }
-
-      function done() {
-        if (document.getElementById($barContainer.id)) {
-          clearTimeout($barTimer);
-          $barProgress = 100;
-          update();
-          $barContainer.style.opacity = '0';
-          /* If you're debugging, setting this to 0.5 is handy. */
-          return;
-        }
-
-        /* The bar container hasn't been appended: It's a new page. */
-        start($barProgress === 100 ? 0 : $barProgress);
-        /* $barProgress is 100 on popstate, usually. */
-        setTimeout(done, 0);
-        /* Must be done in a timer, otherwise the CSS animation doesn't happen. */
-      }
-
-      function updatePositionAndScale() {
-        var landscape;
-        var scaleY;
-
-        /* Adapted from code by Sam Stephenson and Mislav Marohnić
-           http://signalvnoise.com/posts/2407
-        */
-
-        $barContainer.style.left = pageXOffset + 'px';
-        $barContainer.style.width = innerWidth + 'px';
-        $barContainer.style.top = pageYOffset + 'px';
-
-        landscape = 'orientation' in window && Math.abs(window.orientation) === 90;
-        scaleY = innerWidth / screen[landscape ? 'height' : 'width'] * 2;
-        /* We multiply the size by 2 because the progress bar is harder
-           to notice on a mobile device.
-        */
-        $barContainer.style[$barTransformProperty] = 'scaleY(' + scaleY + ')';
-      }
-
-      return {
-        init: init,
-        start: start,
-        done: done
-      };
-    }());
-
-
     // PUBLIC VARIABLE AND FUNCTIONS
     supported = 'pushState' in history
                     && (!$ua.match('Android') || $ua.match('Chrome/'))
@@ -668,12 +517,15 @@ for (i = blocks.length - 1; i >= 0; i--) {
     */
 
     function addEventListeners() {
-      Gator(document).on('touchstart', 'a', touchstart);
-      Gator(document).on('touchstart', '[data-carnac-target]', touchstart);
-      Gator(document).on('mouseover', 'a', mouseover);
-      Gator(document).on('mouseover', '[data-carnac-target]', mouseover);
-      Gator(document).on('click', 'a', click);
-      Gator(document).on('click', '[data-carnac-target]', click);
+      Gator(document).on('touchstart', 'a', handleTouchStart);
+      Gator(document).on('touchstart', '[data-carnac]', handleTouchStart);
+      Gator(document).on('mouseover', 'a', handleMouseOver);
+      Gator(document).on('mouseover', '[data-carnac]', handleMouseOver);
+      Gator(document).on('mouseout', 'a', handleMouseOut);
+      Gator(document).on('mouseout', '[data-carnac]', handleMouseOut);
+      Gator(document).on('focus', 'a', handleFocus);
+      Gator(document).on('click', 'a', handleClick);
+      Gator(document).on('click', '[data-carnac]', handleClick);
     }
 
     function init() {
@@ -716,7 +568,7 @@ for (i = blocks.length - 1; i >= 0; i--) {
 
       addEventListeners();
 
-      bar.init();
+      progressBar.init();
 
       triggerPageEvent('change', true);
 
