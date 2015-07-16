@@ -39,7 +39,7 @@ pagination:
         .card_text
           = markdown(review.pull_quote)
         .card_actions.card_actions--with_divider
-          %a{ href: "/reviews/#{review.slug}/" }
+          %a{ href: "/reviews/#{review.slug}/", title: "Continue reading #{review.display_title.upcase}" }
             Continue reading
           &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)

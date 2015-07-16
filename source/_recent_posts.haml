@@ -26,7 +26,7 @@
           .card_text
             = markdown(post.pull_quote)
           .card_actions
-            %a{ href: "/reviews/#{post.slug}/" }
+            %a{ href: "/reviews/#{post.slug}/", title: "Continue reading #{post.display_title.upcase}" }
               Continue reading
             &nbsp;&middot; #{minutes_to_read(post.content)} min read
   .card_actions
