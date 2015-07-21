@@ -135,6 +135,7 @@ ready do
   end
 
   [
+    ['browse/reviews/hell-is-for-heroes-1962/', 'reviews/hell-is-for-heroes-1962'],
     ['browse/reviews/the-searchers-1956', 'reviews/the-searchers-1956/'],
     ['reviews/kingsman-the-secret-service-2015', 'reviews/kingsman-the-secret-service-2014/'],
     ['browse/reviews/dangerous-mission-1954', 'reviews/dangerous-mission-1954/'],
