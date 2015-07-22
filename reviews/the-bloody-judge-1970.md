@@ -7,26 +7,24 @@
 :grade: D
 :imdb_id: tt0064727
 :backdrop: https://lh3.googleusercontent.com/-cmiDNJgj2pw/VWkmDnZsmGI/AAAAAAAACuw/i8ThB0yMtUo/w1000-rj/the-bloody-judge-1970.jpg
-:pull_quote: For _The Bloody Judge_, the DVD extras are more interesting than the feature film.
+:pull_quote: The extras on _The Bloody Judge_ DVD are more interesting than the feature film.
 ---
-For _The Bloody Judge_, the DVD extras are more interesting than the feature film.
+The extras on _The Bloody Judge_ DVD are more interesting than the feature film.
 
-The story takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, an infamous judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes. 
+The story takes place in England during the final days of King James II. Christopher Lee plays George Jeffreys, an infamous judge who meted out death sentences to suppress the burgeoning rebellion. These sham trials became known as the Bloody Assizes.
 
-In a making-of featurette, Lee describes Jeffreys as a Jekyll-and-Hyde figure. Both a brilliant legal mind and a merciless executioner. Had the film focused on this dichotomy, it might have worked.
+In the aforementioned DVD extras, Lee describes Jeffreys as a Jekyll-and-Hyde figure: a brilliant legal mind but also a merciless executioner. Had the film focused on this dichotomy, it might have worked.
 
-Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses over a peasant girl named Mary. Mary's lover, Harry, is part of the rebellion. Jeffreys wants to arrest Harry, but Harry's father is a political ally. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
+It does not. Instead, the film revolves around a fictitious love triangle. Jeffreys obsesses over Mary, a young peasant girl. Mary's lover, Harry, is part of the rebellion. Jeffreys longs to arrest Harry, but Harry's father is a political ally of Jeffreys. Instead, Jeffreys arrests Mary. Harry frees her. Jeffreys captures them both. They escape. Then the revolution happens.
 
-There's also a blind oracle who may or may not be psychic.
+There's also a blind oracle who may be psychic, and a man dressed like Boris Karloff in _The Tower of London (1939)_ torturing a semi-nude woman covered in Technicolor blood.
 
-It's a mess of disparate plot points rooted in money. The film had multiple financiers and each wanted a different film. One wanted a horror movie. One wanted a historical drama. Another wanted an exploitation picture. The filmmakers tried to please everyone. 
+This mess of disparate plot-points has its roots in money. The production had multiple financiers, and each wanted a different film. One wanted a horror movie. Another wanted a historical drama. Yet another wanted an exploitation picture. The filmmakers tried to please everyone. At least no one wanted a comedy.
 
-At least no one wanted a comedy.
+The resulting compromise is less convoluted than it sounds. But it is boring. Think overlong, exposition-leaden scenes, interrupted by occasional bits of exploitation[^1].
 
-Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy.  Franco wanted something more "dynamic." I don't know what he meant by "dynamic" and I don't think Lee did either.
+Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy. Franco wanted something more "dynamic." I don't know what Franco meant by "dynamic" and I don't think Lee did either. The resulting performance is confusing. Lee often looks uncomfortable sitting down, shifting his weight. In the DVD extras, Lee explains that Jeffreys suffered from kidney stones. Unless you know this going in, you'll just think Jeffreys has to fart.
 
-The resulting mishmash is dull and disjointed. Think long, wooden, scenes leaden with exposition, interrupted by an occasional bit of exploitation[^1]. 
+The financing amalgam also explains the myriad of alternate titles. In the United States it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the DVD extras couldn't answer.
 
-The financing amalgam also explains the myriad of alternate titles. In the United States it was _Night of the Blood Monster_. In England it was _Witch Killer of Broadmoor_, even though there's no Broadmoor in the film. Granted, there's no Blood Monster either, but why Broadmoor? That's one question the making-of featurette couldn't answer.
-
-[^1]:  In this case, a man dressed like Boris Karloff in _The Tower of London (1939)_, torturing a semi-nude woman covered in Technicolor blood.  If you're in it for these bits, I recommend liberal use of the fast-forward button.
+[^1]: If you're in it for these bits, I recommend liberal use of the fast-forward button.

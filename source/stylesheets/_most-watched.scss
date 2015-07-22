@@ -67,17 +67,18 @@ $most-watched-divider-color: #eee;
   width: 100%;
 
   th {
-    position: relative;
-    vertical-align: bottom;
-    text-overflow: ellipsis;
-    line-height: 1.2rem;
-    letter-spacing: 0;
-    height: 2.4rem;
-    font-weight: normal;
-    font-size: .7rem;
     color: rgba(0,0,0, .54);
+    font-size: .7rem;
+    font-weight: normal;
+    height: 2.4rem;
+    letter-spacing: 0;
+    line-height: 1.2rem;
     padding-bottom: .4rem;
     padding: 0 .9rem;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
 
     &.numeric {
       text-align: right;
@@ -95,5 +96,9 @@ $most-watched-divider-color: #eee;
     &.numeric {
       text-align: right;
     }
+  }
+
+  tr:nth-child(odd) td {
+    background-color: rgba(0, 0, 0, .01);
   }
 }
