@@ -135,18 +135,19 @@ ready do
   end
 
   [
-    ['browse/reviews/hell-is-for-heroes-1962/', 'reviews/hell-is-for-heroes-1962'],
+    ['reviews/psycho-circus-1967', 'reviews/circus-of-fear-1966/'],
+    ['browse/reviews/hell-is-for-heroes-1962', 'reviews/hell-is-for-heroes-1962/'],
     ['browse/reviews/the-searchers-1956', 'reviews/the-searchers-1956/'],
     ['reviews/kingsman-the-secret-service-2015', 'reviews/kingsman-the-secret-service-2014/'],
     ['browse/reviews/dangerous-mission-1954', 'reviews/dangerous-mission-1954/'],
-    ['page/2', 'page-2'],
-    ['page/3', 'page-3'],
-    ['page/4', 'page-4'],
+    ['page/2', 'page-2/'],
+    ['page/3', 'page-3/'],
+    ['page/4', 'page-4/'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
   ].each do |redirect|
     old_slug, new_slug = redirect
-    proxy("#{old_slug}.html", 'redirect.html', locals: { new_slug: new_slug }, ignore: true)
+    proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
   end
 end
 
