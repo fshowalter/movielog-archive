@@ -7,7 +7,7 @@
 :imdb_id: tt0060865
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/-V2oeZLmfXdI/VWkks3W599I/AAAAAAAACug/1Bb2Sj9kJfw/w1000-rj/psycho-circus-1967.jpg
-:pull_quote: It’s not a bad movie, but given the talent involved _Circus of Fear_ is disappointing.
+:pull_quote: It’s not a bad movie, but given the talent involved, _Circus of Fear_ is disappointing.
 ---
 _Circus of Fear_ (_Psycho Circus_ here in the US) starts out so promising. An armored car rumbles down a London street. Cut to a man aboard a boat approaching the Tower Bridge. He raises his arm to check the time. Zoom in on his wristwatch. It’s early morning, just after dawn.
 
@@ -29,6 +29,6 @@ Now, the setting shifts to the winter home of the Barberini circus. The pacing s
 
 From here, the movie devolves into an unremarkable whodunit. An unseen, knife-throwing assailant picks off potential suspects. There are lots of red herrings and at least one plot twist you’ll see coming before everything is wrapped up.
 
-It’s not a bad movie, but given the talent involved _Circus of Fear_ is disappointing. Director John Moxey can build atmosphere (as the opening heist shows) but the convoluted plot gives him few opportunities. Christopher Lee spends much of his limited screen time with a ridiculous hood covering his face. And Klaus Kinski’s part feels tacked-on, given his limited, post-heist screen time consists of him wordlessly lurking about in the shadows.
+It’s not a bad movie, but given the talent involved, _Circus of Fear_ is disappointing. Director John Moxey can build atmosphere (as the opening heist shows) but the convoluted plot gives him few opportunities. Christopher Lee spends much of his limited screen time with a ridiculous hood covering his face. And Klaus Kinski’s part feels tacked-on, given his limited, post-heist screen time consists of him wordlessly lurking about in the shadows.
 
 It’s frustrating. We may learn the killer’s identity, but the real mystery lies in what the principals could have done with better material.
