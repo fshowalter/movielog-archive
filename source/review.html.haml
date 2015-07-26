@@ -7,9 +7,8 @@
   viewings = Movielog.viewings_for_title(title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-  title_no_year = review.display_title.reverse.gsub(/^(.*\d{4}[(] )/, '').reverse
-  description = review.pull_quote.gsub( "_#{title_no_year}_", title_no_year.upcase )
-  meta_description = escape_html(description_for_review(review: review)).gsub( "_#{title_no_year}_", "&#34;#{title_no_year}&#34;").html_safe
+  description = review.pull_quote.gsub( '_', '&#34;' )
+  meta_description = escape_html(description_for_review(review: review)).gsub( '_', '&#34;' ).html_safe
 - content_for(:head) do
 
   %meta{ name: 'description', content: meta_description }

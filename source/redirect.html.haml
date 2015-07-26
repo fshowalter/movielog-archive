@@ -4,6 +4,8 @@ sitemap_ignore: true
 !!!
 %html{ xmlns: 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en-us', lang: 'en-us' }
   %head
-    %meta{ 'http-equiv' => 'refresh', content: "0; url=http://www.franksmovielog.com/#{new_slug}" }
+    %title Moved
+    / %meta{ 'http-equiv' => 'refresh', content: "0; url=http://www.franksmovielog.com/#{new_slug}" }
     %link{ rel: 'canonical', href: "http://www.franksmovielog.com/#{new_slug}" }
   %body
+    This page has moved to <a href='/#{new_slug}'>http://www.franksmovielog.com/#{new_slug}</a>.
