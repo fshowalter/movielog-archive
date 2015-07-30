@@ -10,7 +10,7 @@ module Movielog
       i = 0
 
       while (description.length < 140 && i < paragraphs.length) do
-        description << paragraphs[i]
+        description << (' ' + paragraphs[i])
         i += 1
       end
 
