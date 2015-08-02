@@ -7,24 +7,22 @@
 :imdb_id: tt0022321
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/-zZQCZ7uRJkQ/VWj3-xH47NI/AAAAAAAACr4/TXbNeHmpxsI/w1000-rj/the-road-to-singapore-1931.jpg
-:pull_quote: At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums.
-
+:pull_quote: What makes _The Road to Singapore_ worth watching is William Powell’s performance.
 ---
-There's a shot in _The Road to Singapore_ that sums up the film. It's night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera then pans out, away from her window, and up, across acres and acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance.
-Now granted, the shot's tracking over an obvious paper mache model, but kudos to director Alfred Green for trying. This is a movie whose reach simply exceeds its grasp.
+_The Road to Singapore_ features a memorable tracking shot. It’s night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera pulls back and up, away from her window and over acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance.
 
-The woman in the shot is Doris Kenyon. She plays Phillipa. The man is William Powell. He plays Hugh. The setting is Khota, a small tropical island in the Pacific.
+Granted, the shot’s tracking over an obvious paper-mâché model, but kudos to director Alfred Green for trying. This is a movie whose reach exceeds its grasp.
 
-Phillipa is caught in an unhappy marriage to the local doctor. She wants him to sweep her off her feet, he wants her to find his socks.
+The man in the shot is Hugh, played by William Powell. The woman is Phillipa, played by Doris Kenyon.
 
-Hugh has just returned to the island after supposedly running off with another man’s wife. Hugh and Phillipa flirt. Her resolve weakens. Things come to a head when Phillipa, believing her husband to be out of town, accepts an invitation from Hugh to dine at his bungalow.
+The film opens with them en route to Khota, a small tropical island in the Pacific. Hugh has returned alone after supposedly running off with another man’s wife. Phillipa has come to marry the local doctor, a man she hardly knows. Hugh pursues Phillipa, but she rebukes his advances.
 
-At it’s heart, _The Road to Singapore_ is the story of an ill-conceived marriage. One helped along to dissolution by a preponderance of melodrama and jungle drums.
+After they arrive in Khota, Phillipa gets married. The marriage goes south fast. She wants him to sweep her off her feet, he wants her to find his socks.
 
-It tries for passionate drama, and might have come close for its time. Of course, it feels timid now. It has some bad moments, such as when its characters slip into that era’s favorite affectation of delivering their lines while staring off at nothing in particular.
+Hugh and Phillipa flirt. Her resolve weakens. Things come to a head when Phillipa, believing her husband to be out of town, accepts Hugh’s invitation to dine at his bungalow.
 
-But the film is entertaining thanks to Powell’s performance. Despite the subject matter, the film gives him ample opportunities to showcase his comedic timing. He ambles through much of the film exuding the urbane wit and charm that would become his trademark. He wins us over just as he wins over Phillipa. After all, who else could look at home in the jungle, dressed in a tuxedo?
+The film tries for passionate drama but falls short. Too many characters deliver their lines while staring off at nothing in particular. At least the pre-code script delivers a satisfying, and plausible, ending.
 
-
+What makes _The Road to Singapore_ worth watching is William Powell’s performance. Despite the tropical locale, Powell exudes the urbane wit and charm that would become his trademark. He ambles through the film, impervious to the mediocre melodrama. Powell doesn’t so much carry the movie as rise above it. 
 
 
