@@ -10,6 +10,12 @@ pagination:
     content_for(:title, "Page - #{pagination.page_num}")
   end
 
+- content_for(:head) do
+  - if pagination.prev_page
+    %link{ href: "https://www.franksmovielog.com#{pagination.prev_page.url}", rel: 'prev' }
+  - if pagination.next_page
+    %link{ href: "https://www.franksmovielog.com#{pagination.next_page.url}", rel: 'next' }
+
 %ol.latest_updates
   - pagination.each do |key|
     - post = posts[key]
@@ -59,7 +65,7 @@ pagination:
             Continue reading
 .latest_updates_pagination
   - if pagination.prev_page
-    %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url }
+    %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url}
       Newer
 
   - if pagination.next_page
