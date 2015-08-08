@@ -7,18 +7,20 @@
 :imdb_id: tt1951265
 :grade: F
 :backdrop: https://lh3.googleusercontent.com/-xLvA-f7_G5o/VWj4wt7CPTI/AAAAAAAACsM/F_MxYPZzbQk/w1000-rj/the-hunger-games-mockingjay-part-1-2014.jpg
-:pull_quote: Watching this film felt like watching the deleted scenes from a better movie. A movie where things actually happen.
+:pull_quote: "_The Hunger Games: Mockingjay - Part 1_ is a non-movie."
 ---
-Full disclosure: I haven’t seen the first two Hunger Games films, nor have I read the books.
+Full disclosure: I haven’t seen the first two _Hunger Games_ films, nor have I read the books.
 
-That said, the film does an admirable job bringing new viewers up to speed. Our heroine, Katniss Everdeen (Jennifer Lawrence) has just destroyed the titular Hunger Games, dealing a symbolic blow to the Evil Capitol. Rebel forces have rescued her, but they were unable to rescue her true love Peeta, who’s now in the Evil Capitol’s clutches.
+That said, the film does an admirable job bringing new viewers up to speed. Our heroine, Katniss Everdeen (Jennifer Lawrence) has just destroyed the titular Hunger Games, dealing a symbolic blow to the Evil Capitol. Rebel forces have rescued her, but they failed to rescue her true love Peeta, who’s now in the Evil Capitol’s clutches.
 
-In offering a plot summary, I find myself at a loss. Katniss frets about Peeta, walks through some rubble-strewn towns, and frets about Peeta some more. There’s little-to-no plot, and the characters end the film more-or-less where they started. You could edit the film down to fifteen minutes and tell the same story.
+In offering a plot summary for this installment, however, I am at a loss. Watching it felt like watching the deleted scenes from another film. A better one, where things actually happen.
 
-But The Hunger Games: Mockingjay - Part 1 is not fifteen minutes. It’s just over two hours long. Two hours of nothing but filler. It’s inexcusable.
+Here, we see Katniss fret about Peeta, walk through some rubble-strewn towns, and fret about Peeta some more. The threadbare plot culminates in a dull rescue mission that leaves the characters more-or-less where they started. It’s twenty minutes worthy of story stretched over two hours.
 
-A movie doesn’t need action. A quiet meditation on Katniss caught as pawn between the two forces vying for control of a dystopian society could be interesting. But the film deals in absolutes. The Heroic Rebels versus the Evil Capitol. With no gray area, the film loses any shot at creditable political commentary.
+There’s a misguided focus on the rebel’s exploitation of Katniss.  We see her struggle to film staged propaganda messages. Of course, she rises to the occasion once she’s on the ground amongst the weak and wounded. There are scenes of rebel leaders strategizing. One of the chief aids is, essentially, a publicist. There’s an interesting angle here, but the film paints its factions in such broad strokes that it loses any shot at creditable political commentary.
 
-Jennifer Lawrence is a talented actress capable of commanding our attention on screen, but one wouldn’t know it from watching this movie. Between the ill-fitting jumpsuit and pale makeup, she looks every bit as listless as the script. Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. Both manage to avoid rolling their eyes at the dialog. A feat I consider award-worthy.
+A movie doesn’t need explosive action or labyrinthine plot to succeed, but it does need a purpose. This film has none, save to gouge fans for the cost of an extra ticket.
 
-Watching The Hunger Games: Mockingjay - Part 1 felt like watching the deleted scenes from a better movie where things actually happen. This is a non-movie that exists only to gouge fans for the cost of an extra ticket. Fans would do well to save their money and time and skip to the real finale in The Hunger Games: Mockingjay - Part 2.
+Jennifer Lawrence is a talented actress capable of commanding our attention on screen, but one wouldn’t know it from watching her here. Between the ill-fitting jumpsuit and pale makeup, she looks every bit as listless as the script. Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. Both avoid rolling their eyes at the dialog, a feat I consider award-worthy.
+
+In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. Fans of the series should skip straight to the real finale in _The Hunger Games: Mockingjay - Part 2 (2015)_.
