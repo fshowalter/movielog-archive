@@ -38,4 +38,4 @@ _Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation. An am
 
 [^4]: _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein’s monster.
 
-[^5]: As a supernatural inevitability, in addition to asphyxiation and bludgeoning, Jason would seem immune to the laws of physics. Consider his going from outside the second-floor window to inside the first-floor kitchen in a matter of seconds without making a sound. 
+[^5]: As a supernatural inevitability, in addition to asphyxiation, Jason would seem immune to the laws of physics. Consider his going from outside the second-floor window to inside the first-floor kitchen in a matter of seconds without making a sound. 
