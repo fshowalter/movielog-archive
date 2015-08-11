@@ -20,7 +20,7 @@ This installment picks up where _Friday the 13th Part III (1982)_ ends[^1]. Hang
 
 But of course, he’s not dead.
 
-Jason wakes up, dispatches the improbably young hospital staff, then heads back to Crystal Lake to work through a house of oversexed teens.
+Jason wakes up, dispatches some improbably young hospital staff members, then heads back to Crystal Lake to work through a house of oversexed teens.
 
 This script operates on a simple, but proven, formula: titillate then shock[^2]. Show some nudity, then have Jason dispatch someone in a gruesome, over-the-top, fashion. To that end, it delivers.
 
