@@ -12,7 +12,7 @@
 
 _Maniac Cop_ is set in New York City. Not the bustling metropolis of today, but the seedy, dangerous cesspool Hollywood liked to conjure during the 70s and 80s. A vicious jungle where street punks, pimps, and pushers lurked around every darkened corner. The film embraces this atmosphere. Everything feels worn, lived-in, and used.
 
-The story concerns a series of killings perpetrated by a uniformed police officer. The killer frames young beat cop Jack Forrest (Bruce Campbell) for the murders. Grizzled detective Frank McCrae (Tom Atkins) doesn’t buy it.
+The story concerns a series of killings perpetrated by a uniformed police officer. The victims aren’t criminals, but random innocent people. The killer frames young beat cop Jack Forrest (Bruce Campbell) for the murders. Grizzled detective Frank McCrae (Tom Atkins) doesn’t buy it.
 
 Along with Jack’s cop girlfriend, McCrae tracks the killings to former cop Matt Cordell. Cordell was a legend on the force.  A super-cop who’s shoot-first-and-ask-questions-later mentality landed him on the wrong side of the law. The only trouble? Cordell died in prison.
 
