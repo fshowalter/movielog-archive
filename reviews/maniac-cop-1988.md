@@ -3,7 +3,7 @@
 :title: Maniac Cop (1988)
 :slug: maniac-cop-1988
 :display_title: Maniac Cop (1988)
-:date: 2015-08-12
+:date: 2015-08-13
 :imdb_id: tt0095583
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/r6mAYBecAG9bbhDxOWnkC1NPii0VYhG97oHLPTLJogU=w1000-rj
