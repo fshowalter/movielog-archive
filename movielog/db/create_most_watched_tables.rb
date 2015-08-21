@@ -38,7 +38,7 @@ module Movielog
         # rubocop:disable Metrics/MethodLength
         def most_watched_schema(type:, table:, threshold:)
           <<-SQL
-          DROP VIEW IF EXISTS most_viewed_#{type};
+          DROP VIEW IF EXISTS most_watched_#{type};
           CREATE VIEW most_watched_#{type} AS
           SELECT c.full_name,
           COUNT(DISTINCT c.title) AS movie_count,

@@ -7,25 +7,25 @@
 :imdb_id: tt0089173
 :grade: D
 :backdrop: https://lh5.googleusercontent.com/-KDi3ss9VzmI/VWjvl7gcVzI/AAAAAAAACqo/0UeZ6mpk46U/w1000-rj/friday-the-13th-a-new-beginning-1985.jpg
-:pull_quote: "Time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way."
+:pull_quote: "I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either."
 ---
-_What were they thinking?_
 
-That about sums up my reaction to _Friday the 13th: A New Beginning_. After nailing the formula in _Friday the 13th: The Final Chapter (1984)_, they throw everything out the window and nearly kill the franchise.
+After _Friday the 13th: The Final Chapter (1984)_ delivered the series’s highest grosses, Paramount made an odd decision. They ditched Jason and tried to reboot the franchise.
 
-This entry follows Tommy, the young boy who survived the previous film by hacking Jason’s body to pieces with a machete. He's seventeen now, and in a startling bit of plausibility, has spent the previous six years in a mental institution[^1].
+_Friday the 13th: The New Beginning_ follows Tommy, the boy we last saw hacking Jason apart with a machete. He’s seventeen now, having spent the previous six years in a state mental institution. This rare bit of plausibility sets the film in 1990, give or take a year.
 
-Tommy is a lackluster protagonist. He's superficial to the plot and says less than two-dozen words throughout the film. He spends most of his time either looking confused or violently acting out[^2].
+Despite being the nominal lead, Tommy's superficial to the plot and says under two-dozen words throughout the film. His scenes consist of him either looking confused or erupting in sudden violent outbursts.
 
-The film opens with Tommy arriving at a kind of halfway house for annoying teens[^3]. After one of the kids offs another with an axe, an unseen assailant begins murdering teens, staff, and pretty much everyone on screen.
+The setting is, of course, a remote camp. This time, a halfway house for troubled teens meant to ease their re-entry into society.
 
-Harkening back to the original  _Friday the 13th (1980)_, this entry is less a monster movie and more of a mystery thriller. But the execution is sloppy. Characters are introduced and killed in the same scene. Several of the performances, such as the backwoods mother and son living adjacent to the halfway house, veer well into camp. Worst of all, the eventual reveal is unsatisfying. It relies on some awkward exposition to explain the killer’s motive and even then makes little sense.
+The plot kicks into gear after one teen murders another with an axe then disappears into the surrounding woods. Following that, an unseen assailant begins murdering teens, staff, and pretty-much everyone else.
 
-But time has been kind to _Friday the 13th: A New Beginning_. Knowing that the franchise rights itself, fans can appreciate this entry in a so-bad-it’s-good kind of way. The nonsense plot, Tommy’s non-dialog, and the over-the-top performances are all good for a laugh. One of the characters even dies in an outhouse after eating some spicy enchiladas. What were they thinking, indeed.
+Harkening back to the original _Friday the 13th (1980)_, this entry withholds the killer’s identity until the finale. We’re offered several red-herrings, making this film more mystery-thriller than monster movie.
 
-[^1]: This puts the film in the then-future of 1990. I had to look this up. The series timeline gets really crazy from here on out as they keep skipping forward in time.
+But the execution is sloppy. The script introduces characters then kills them in the same scene. Several performances veer well into camp. One character even dies trapped in a graffiti-covered outhouse after eating some spicy enchiladas.
 
-[^2]: This petulant behavior may be a remnant of an earlier draft of the script. According to the IMDb, Cory Feldman was going to reprise his role as Tommy. But when he was unavailable due to The Goonies (1985), the filmmakers rewrote the part for an older actor. One suspects it was a very quick rewrite.
+Worse still, the killer’s eventual reveal elicits groans instead of gasps. The script offers an explanation via some awkward exposition, but it’s unsatisfying.
 
-[^3]: It’s not made clear, but one presumes the state is transferring Tommy since he'll soon age out of the system. But what happened to his sister?
+But time has been kind. Knowing the franchise rights itself, fans can laugh at the nonsense plot, Tommy’s non-dialog, and the hammy performances. I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either. Like any comically bad movie, it's best viewed with a crowd that knows what to expect.
 
+That said, it’s no surprise Paramount brought Jason back for the sequel, _Jason Lives: Friday the 13th Part VI (1986)_.
