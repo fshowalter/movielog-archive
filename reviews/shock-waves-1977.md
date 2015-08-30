@@ -11,17 +11,17 @@ pull_quote: "The characters in _Shock Waves_ are so inane, by the end, we’re r
 ---
 The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me. 
 
-The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script goes about stranding the boat on a remote island. This involves a series of contrived events, including having Carradine throw the ship’s navigation system overboard.
+The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script forces a series of contrived events to strand the boat on a remote island. The most ridiculous of which sees him throw the ship’s navigation system overboard.
 
-The island locations look great. The characters trudge through overgrown marshes and watery bogs to discover a crumbling hotel. The filmmakers struck gold here, shooting in an abandoned Biltmore. The decrepit luxury oozes atmosphere. 
+At least the island locations look great. The characters trudge through overgrown marshes and watery bogs to discover a crumbling hotel. The filmmakers struck gold here, shooting in an abandoned Biltmore. Its decrepit luxury oozes atmosphere. 
 
-But the script’s inanity is taxing. Moving through the hotel, the group discovers an aquarium teaming with exotic fish. Moments later, they seem surprised to find the hotel occupied. Did no one wonder who fed the fish? 
+But the script’s inanity is taxing. Moving through the hotel, the group discovers an aquarium teaming with exotic fish. Yet, moments later, they seem surprised to find the hotel occupied. 
 
 Peter Cushing plays the hotel’s lone resident, a morose Nazi living in self-imposed exile. He warns the group to leave the island, even telling them where they can find a boat. Do they listen? Of course not. 
 
 Both Cushing and Carradine have roles so minor they’re window dressing, but they’re the best parts of the film.
 
-Soon, undead Nazis are picking off the stranded visitors. They get a lot of help from the script. A veteran sailor impales his foot on a sea urchin after tromping barefoot through a murky inland stream. Later, five grown men and women lose a sailboat, their only chance at escape, in knee-deep water. After that, one man decides to flee alone down a waist-deep stream.
+Soon, undead Nazis are picking off the stranded visitors. They get a lot of help from the script. A veteran sailor impales his foot on a sea urchin after tromping barefoot through a murky inland stream. Later, five grown men and women lose a sailboat, their only chance at escape, in knee-deep water. After that, the group scatters and one man decides to flee alone down a waist-deep stream.
 
 The Nazis themselves are a nameless, nondescript unit of waterlogged storm troopers. We see them rising from the ocean depths, their expressionless faces clad with black goggles. It’s a memorable visual. In part because the film repeats it over and over. Nazis walk into the water. Nazis walk out of the water. Nazis sit up in shallow bogs of water like vampires rising from a coffin.
 
@@ -31,6 +31,6 @@ The characters in _Shock Waves_ are so inane, by the end, we’re rooting agains
 
 This alone isn’t a bad thing. One vicarious thrill of horror movies lies in seeing such foolish behavior punished. 
 
-But _Shock Waves_ disappoints. When claustrophobia guy jeopardizes the lives of everyone rather than quietly sneak away, we expect to see him offed in spectacular fashion. When his demise consists of a zombie pulling him underwater (just as the prior victim), it’s unfulfilling.
+But _Shock Waves_ disappoints. When claustrophobia guy jeopardizes the lives of everyone with his selfish behavior, we expect to see him offed in spectacular fashion. But his demise consists of a zombie pulling him underwater. 
 
-It’s a shame. The solid production and entertaining turns from Cushing and Carradine deserve a better script.
+It’s a shame. Even on an exploitation level, the film doesn’t deliver. The ripe premise, solid production and entertaining turns from Cushing and Carradine deserved better. 
