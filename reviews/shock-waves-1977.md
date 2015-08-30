@@ -3,7 +3,7 @@
 :title: Shock Waves (1977)
 :slug: shock-waves-1977
 :display_title: Shock Waves (1977)
-:date: 2015-08-24
+:date: 2015-08-29
 :imdb_id: tt0076704
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-rj
