@@ -7,7 +7,7 @@
 :imdb_id: tt0076704
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-rj
-pull_quote: "The characters in _Shock Wave_ are so inane, by the end, we’re rooting against them."
+pull_quote: "The characters in _Shock Waves_ are so inane, by the end, we’re rooting against them."
 ---
 The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me. 
 
@@ -27,7 +27,7 @@ The Nazis themselves are a nameless, nondescript unit of waterlogged storm troop
 
 Which brings us back to where _Shock Waves_ lost me. The four survivors are safe, locked in the hotel’s vault-like fridge. One becomes claustrophobic. He demands to leave. Knowing certain death lurks outside, the others say no. The claustrophobic man becomes enraged. He fires a flare gun into the fridge then flees into the zombie-infested night. The signal flare fills the fridge with smoke and blinds a woman. Rather than allow the smoke to clear, the two other survivors also flee, abandoning the blinded one.
 
-The characters in _Shock Wave_ are so inane, by the end, we’re rooting against them. We can’t connect with them because they don’t behave like human beings. They act like idiots.
+The characters in _Shock Waves_ are so inane, by the end, we’re rooting against them. We can’t connect with them because they don’t behave like human beings. They act like idiots.
 
 This alone isn’t a bad thing. One vicarious thrill of horror movies lies in seeing such foolish behavior punished. 
 
