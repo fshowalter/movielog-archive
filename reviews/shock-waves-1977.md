@@ -11,7 +11,7 @@ pull_quote: "The characters in _Shock Waves_ are so inane, by the end, we’re r
 ---
 The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me. 
 
-The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script goes about stranding the boat on a remote island. This involves a series of contrived events including having Carradine throw the ship’s navigation system overboard.
+The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script goes about stranding the boat on a remote island. This involves a series of contrived events, including having Carradine throw the ship’s navigation system overboard.
 
 The island locations look great. The characters trudge through overgrown marshes and watery bogs to discover a crumbling hotel. The filmmakers struck gold here, shooting in an abandoned Biltmore. The decrepit luxury oozes atmosphere. 
 
@@ -21,7 +21,7 @@ Peter Cushing plays the hotel’s lone resident, a morose Nazi living in self-im
 
 Both Cushing and Carradine have roles so minor they’re window dressing, but they’re the best parts of the film.
 
-Soon, undead Nazis are picking off the stranded visitors. They get a lot of help from the script. A veteran sailor impales his foot on a sea urchin after tromping barefoot through a murky inland stream. Later, five grown men and women lose a sailboat, their only chance at escape, in knee-deep water. After that, the survivors flee. Knowing the zombies thrive in water, most travel over land. One trudges off alone down a waist-deep stream.
+Soon, undead Nazis are picking off the stranded visitors. They get a lot of help from the script. A veteran sailor impales his foot on a sea urchin after tromping barefoot through a murky inland stream. Later, five grown men and women lose a sailboat, their only chance at escape, in knee-deep water. After that, one man decides to flee alone down a waist-deep stream.
 
 The Nazis themselves are a nameless, nondescript unit of waterlogged storm troopers. We see them rising from the ocean depths, their expressionless faces clad with black goggles. It’s a memorable visual. In part because the film repeats it over and over. Nazis walk into the water. Nazis walk out of the water. Nazis sit up in shallow bogs of water like vampires rising from a coffin.
 
