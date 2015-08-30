@@ -9,7 +9,7 @@
 :backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-rj
 pull_quote: "The characters in _Shock Wave_ are so inane, by the end, we’re rooting against them."
 ---
-The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one of the survivors gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me. 
+The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me. 
 
 The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script goes about stranding the boat on a remote island. This involves a series of contrived events including having Carradine throw the ship’s navigation system overboard.
 
