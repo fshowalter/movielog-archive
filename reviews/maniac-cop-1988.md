@@ -22,7 +22,7 @@ Jack soon realizes Cordell is out to kill the mayor and police commissioner duri
 
 Despite its meager budget, _Maniac Cop_ is a lot of fun. Perhaps it’s the cast. Campbell never takes himself too seriously, always acting as if he were impersonating a B-movie actor. And Atkins has made a career out of playing the same grizzled, hard-drinking cop. He delivers a conscious, but not condescending, stereotype. Just because the performance is familiar, doesn’t mean it’s any less welcome. Atkins plays McCrae with the perfect amount of gravitas.  His reaction during the scene where Richard Roundtree, as the police commissioner, tells him “You don’t smile very much,” made me laugh out loud.
 
-Along those lines, Director William Lustig injects a streak of black comedy. Consider the scene where Cordell asphyxiates a man in a block of wet concrete. Lustig smash cuts to the following morning as jackhammers work to extract the face-down corpse.
+Along those lines, director William Lustig injects a streak of black comedy. Consider the scene where Cordell asphyxiates a man in a block of wet concrete. Lustig smash cuts to the following morning as jackhammers work to extract the face-down corpse.
 
 That said, _Maniac Cop_ is not perfect. Cordell’s big reveal is something of a letdown. Robert Z’Dar is fine, but I couldn’t help thinking of Brian Thompson. The bigger problem is Jack’s girlfriend. Despite being a vice cop, she acts like a teenage girl, shrieking at every development. Not what you’d expect from a trained officer familiar with life-threatening situations. I don’t fault actress Laurene Landon. She’s convincing in some scenes and ridiculous in others. This falls on Lustig.
 
