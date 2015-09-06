@@ -1,7 +1,7 @@
 ---
 :sequence: 47
 :title: Due occhi diabolici (1990)
-:slug: two-evil-eyes-1991
+:slug: two-evil-eyes-1990
 :display_title: Two Evil Eyes (1990)
 :date: 2015-08-30
 :imdb_id: tt0100827
