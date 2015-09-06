@@ -3,7 +3,7 @@
 :title: Due occhi diabolici (1990)
 :slug: two-evil-eyes-1990
 :display_title: Two Evil Eyes (1990)
-:date: 2015-08-30
+:date: 2015-09-05
 :imdb_id: tt0100827
 :grade: 'C+'
 :backdrop: https://lh3.googleusercontent.com/FjcmoHWL96rt0VlcxWDqUH1lIA29WIy9UL5Xm7-_aFU=w1000-l75-rj
