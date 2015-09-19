@@ -14,7 +14,7 @@
 
 That’s how a learned doctor describes the titular character in _I, Monster_. Unfortunately, the script, from Robert Louis Stevenson’s _Strange Case of Dr. Jekyll and Mr Hyde_, doesn’t live up to its own hype.
 
-Christopher Lee plays Marlowe, a psychiatrist in early 20th century England exploring Freud’s theories of the id, ego and super-ego. Marlowe invents a drug that removes the ego and super-ego, leaving only the primal id.
+Christopher Lee, sporting an unwieldy hairpiece, plays Marlowe, a psychiatrist in early 20th century England exploring Freud’s theories of the id, ego and super-ego. Marlowe invents a drug that removes the ego and super-ego, leaving only the primal id.
 
 Well, mostly. At first, the subjects turn primal. Violent, lusty, or terrified. But later, the titular character shows signs of an ego, formulating long term plans and deferring gratification. I’m not sure we’re meant to notice this behavior.
 
@@ -22,7 +22,7 @@ Anyway. After dosing his cat, and a few of his patients, Marlowe begins experime
 
 In time, Marlow’s friend and solicitor Mr. Utterson, played by Peter Cushing, comes to believe Blake is blackmailing Marlowe. Seeking to aid his friend, Utterson investigates Blake, and begins to suspect the unthinkable truth.
 
-_I, Monster_ disappoints given its two leads. Lee and Cushing are their usual charismatic selves. Lee is magnetic during his transformation scenes. He sports an unwieldy toupee early on, but that’s only to exaggerate his physical changes as Blake later. Cushing’s character is little more than a plot device, but he’s still fun to watch. A Jekyll and Hyde story featuring these two shouldn’t be so forgettable.
+_I, Monster_ disappoints given its two leads. Lee is magnetic during his transformation scenes, and repulsive yet captivating as Blake. Cushing’s character is little more than a plot device, but he’s still fun to watch. A Jekyll and Hyde story featuring these two shouldn’t be so forgettable.
 
 Where the film shines is in its art direction. Marlowe’s laboratory has a cluttered, lived-in feel that lends atmosphere while avoiding the usual mad scientist tropes. His club sees cultured, well-dressed gentlemen sipping whiskey in overstuffed chairs while discussing professional and philosophical issues. I could almost smell the leather and tobacco.
 
