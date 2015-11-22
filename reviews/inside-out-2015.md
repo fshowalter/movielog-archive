@@ -1,6 +1,6 @@
 ---
 :sequence: 43
-:title: Inside Out (2015)
+:title: Inside Out (2015/I)
 :slug: inside-out-2015
 :display_title: Inside Out (2015)
 :date: 2015-07-11
@@ -45,7 +45,7 @@ Where are the consequences?
 
 This was a chance to show Riley adjusting to the move, but at a cost. Maybe part of her never comes back. Maybe the relationship with her parents is forever altered. Maybe when that island returns it’s different, maybe smaller. Anything but the saccharine, everything’s okay bit of fluff we’re given. Sure, new memories are now mixes of emotions instead of pure joy, but this is peddled as a wholly positive change. Where’s the trade-off?
 
-_Inside Out_ drives home the message that growing up means accepting sadness as a part of life, but can’t apply that to its own ending.
+_Inside Out_ drives home the message that growing up means accepting sadness as a part of life, yet it can’t apply that lesson to its own ending.
 
 [^1]: Saddest Disney scene I can remember. Seriously, Bambi’s mom has nothing on this.
 

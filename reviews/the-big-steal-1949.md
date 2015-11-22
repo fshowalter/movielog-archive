@@ -23,9 +23,9 @@ Thus, the film is set. It’s one big chase. Bendix chases Mitchum who, along wi
 
 On paper, it's another forgettable lower-budget entry from RKO, the once premier studio that had fallen to disarray under Howard Hughes. But thanks to a crackerjack script, _The Big Steal_ is better than it probably had any right to be. 
 
-The script is a thing of beauty. Consider how little information we're given as the movie begins. Rather than open with a flashback or exposition, we’re thrown right into one unnamed man confronting another over an event we know nothing about. That’s great storytelling. But it’s when Greer confronts Knowles that the script really sparkles.
+Consider how little information we're given as the movie begins. Rather than open with a flashback or exposition, we’re thrown right into one unnamed man confronting another over an event we know nothing about. That’s great storytelling. But it’s when Greer confronts Knowles that the script really sparkles.
 
-It's refreshing to see such an independent female character. She's self assured without being arrogant. Insistent without being whiny. The script may leave the fisticuffs to the male characters, but Greer's character holds her own in the numerous bouts of verbal sparring.
+It's refreshing to see such an independent female character. She's self assured without being arrogant. Insistent without being whiny. The script may leave the fisticuffs to the men, but Greer's character holds her own in the numerous bouts of verbal sparring.
 
 The script also does a great job of subverting our expectations. From the anything-but-inept Mexican police inspector, to Greer—not Mitchum—being the one to get them out of various jams, the script defies the genre’s conventions. 
 

@@ -29,7 +29,7 @@ And it’s when you compare this film to those, that one realizes how far Hammer
 
 This was a studio that, nineteen years prior, had revived the horror genre by injecting a liberal dose of gore and sex into the monster movie. The resulting films were edgy and fresh. 
 
-But time passed. By the time this film came out, Hammer’s core audience now had kids of their own. Hammer’s period monster movies were passé. They were your _parent’s_ horror movies. Even this wave of satanic themed films was on it’s nadir. Two years later _Halloween (1978)_ would usher in the slasher genre that would dominate horror for the next decade.
+But time passed. Those kids who flocked theaters for Hammer’s earlier films now had kids of their own. To this new generation, Hammer’s period monster movies were passé. They were your _parent’s_ horror movies. Even this wave of satanic themed films was on it’s nadir. Two years later _Halloween (1978)_ would usher in the slasher genre that would dominate horror for the next decade.
 
 By the time Hammer woke up and tried to tap into the mainstream horror pulse, it lacked the resources to pull off a competent film. Christopher Lee does his best, but Richard Widmark looks tired and annoyed. He’s just cashing a paycheck. 
 

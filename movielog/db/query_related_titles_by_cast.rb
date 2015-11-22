@@ -19,7 +19,7 @@ module Movielog
         def call(db:, title:)
           performers = {}
 
-          MovieDb.headline_cast_for_title(db: db, title: title).each do |performer|
+          MovieDb.headline_cast_for_title(db: db, title: title, count: 99).each do |performer|
             next unless reviewed_performer?(db: db, performer_full_name: performer.full_name)
 
             performers[performer] = review_titles_for_performer(

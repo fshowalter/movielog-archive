@@ -18,7 +18,7 @@ We learn Kurt has something of a notorious reputation and the castle is full of 
 
 There’s also Nevenka, once Kurt’s fiancée, now married to his younger brother. She claims to hate Kurt, but her reactions to his whip say otherwise. 
 
-Watching _The Whip and The Body_ is an immersive experience. Every frame drips gothic atmosphere. The castle interiors look wonderful. Blue-green hues mix with inky shadows across stone walls and floors. Think of the old Universal Monster sets brought to glorious technicolor life.
+Every frame in _The Whip and The Body_ drips gothic atmosphere. The castle interiors are all blue-green hues mixed with inky shadows across stone walls and floors. Think of the old Universal Monster sets brought to glorious technicolor life.
 
 But where those pictures may have hinted or implied sexual overtones, _The Whip and the Body_ is overt. Kurt flogs Nevenka and she likes it. By injecting a liberal dose of sex and violence, the film rejuvenates the haunted castle story.
 

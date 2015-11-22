@@ -35,6 +35,6 @@ But before we get to that, let me say that I liked the movie. The location photo
 
 Still with me? Okay. I didn’t love the ending. I didn’t hate it either. It felt like a missed opportunity. 
 
-Here’s why. The script touches on the notion of violence inspired by the media several times, but only in passing. I felt like the film was really building to something however, and when the heroine makes to leave town with her grandmother, it struck me. What if this is the end of the movie? She leaves, the killer is never caught. All the bits about inspired violence coalesce into a biting commentary. The killer will be there as long as he has an audience. It would even dovetail nicely with the original's ambiguous ending.
+Here’s why. The script touches on the notion of violence inspired by the media several times, but only in passing. I felt the film was building to something however, and when the heroine makes to leave town with her grandmother, it struck me. What if this is the end of the movie? She leaves and the killer is never caught. The end. All the bits about inspired violence coalesce into a biting commentary. The killer will be there as long as he has an audience. It would even dovetail nicely with the original's ambiguous ending.
 
 Sure, some folks would hate it, but I bet a lot of theater-goers hated the original’s ending too. And yet, that ending helped the original resonate enough to inspire a remake almost forty years later.

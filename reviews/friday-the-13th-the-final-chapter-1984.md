@@ -10,7 +10,7 @@
 :pull_quote: "_Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation."
 ---
 
-When _Friday the 13th: The Final Chapter_ premiered I was just a kid, still watching Saturday morning cartoons in my pajamas. What I knew of the _Friday the 13th_ films came via third-hand bits of lore relayed in wide-eyed whispers on the playground. 
+When _Friday the 13th: The Final Chapter_ premiered I was just a kid, still watching Saturday morning cartoons in my pajamas, my legs dangling off the couch. What I knew of the _Friday the 13th_ films came via third-hand bits of lore relayed in wide-eyed whispers on the playground.
 
 Jason was a hockey mask wearing monster who killed people in awful, horrific ways. I remember, at the video store, seeing the franchise’s iconic box covers. I felt certain those white stencils holding bloody knives or axes were gateways to pure, brutal terror.
 
@@ -38,4 +38,4 @@ _Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation. An am
 
 [^4]: _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein’s monster.
 
-[^5]: As a supernatural inevitability, in addition to asphyxiation, Jason would seem immune to the laws of physics. Consider his going from outside the second-floor window to inside the first-floor kitchen in a matter of seconds without making a sound. 
+[^5]: As a supernatural inevitability, in addition to asphyxiation, Jason would seem immune to the laws of physics. Consider his going from outside the second-floor window to inside the first-floor kitchen in a matter of seconds without making a sound.

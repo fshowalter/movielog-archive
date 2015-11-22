@@ -21,7 +21,7 @@ Next, we meet our protagonist, Jay. She's a nice girl, living in suburban Detroi
 
 Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman in a yellow dress. Jay doesn't see her, but a shaken Hugh insists they leave.
 
-Later that night, Jay has sex with Hugh in the backseat of his car. It's their first time together. Afterwards, Jay lies in the backseat talking to Jay while he fumbles around in the trunk. He finds what he's looking for and climbs back into the car behind her. Hugh cuts Jay off mid-sentence by covering her mouth with a rag. Jay struggles, but soon passes out.
+Later that night, Jay has sex with Hugh in the backseat of his car. It's their first time together. Afterwards, Jay lies in the backseat talking to Hugh while he fumbles around in the trunk. He finds what he's looking for and climbs back into the car behind her. Hugh cuts Jay off mid-sentence by covering her mouth with a rag. Jay struggles, but soon passes out.
 
 Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage. Hugh paces behind her, his eyes darting around. "You're not going to believe me," he begins, "but I need to you to remember what I'm saying."
 
@@ -37,7 +37,7 @@ Once again, Jay flees. The film breaks the narrative circle by having Jay crash 
 
 The strangers don't last long. It’s likely Jay never warned them, but perhaps she tried and they didn’t believe her. Either way, it's soon back after Jay, but this time her friends have a plan. 
 
-They go to the local indoor pool, where Jay waits in the center of the water[^2]. After some tense waiting, the thing shows up, but refuses to enter the water. Instead, it throws things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of Jay's friends before putting a bullet in the creature's head. The thing falls into the pool and dies trying to drag Jay under.
+They go to the local indoor pool, where Jay wades into the center of the water[^2]. After some tense waiting, the thing shows up, but refuses to enter the water. Instead, it throws things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of Jay's friends before putting a bullet in the creature's head. The thing falls into the pool and dies trying to drag Jay under.
 
 Or does it? The film isn't over. We see Jay having sex with another of her friends. The ambiguous final shot sees the pair walking hand-in-hand while someone approaches from behind. 
 

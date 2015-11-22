@@ -23,7 +23,7 @@ We learn that Johnny is out on bail. He’s planning to claim self-defense at th
 
 “What a hideout,” Johnny says. “No wonder we couldn’t find it until yesterday. It’s the last place in the world you’d expect anyone to hide.”
 
-Cut too Glacier National Park in Montana. We see Matt Hallett, played by Victor Mature, entering the park in a rented car. The guard at the gate notice’s a gun in Matt’s glove compartment and phones it in to Chief Ranger Joe, played by William Bendix.
+Cut to Glacier National Park in Montana. We see Matt Hallett, played by Victor Mature, entering the park in a rented car. The guard at the gate spies a gun in Matt’s glove compartment and phones it in to Chief Ranger Joe, played by William Bendix.
 
 For the next half-hour or so, the film plays like a would-be suspenseful mystery. The script tries in vain to make us suspect  Matt as the hired killer. It helps that Mature has a way of talking where his entire body remains motionless except his jaw. It kept reminding me of a ventriloquist’s dummy. Certainly creepy enough to be a believable sociopath.
 
@@ -37,4 +37,4 @@ Anyway, a little before the halfway point, Paul’s true identity is revealed. T
 
 Matt, now revealed as a cop working for the New York District Attorney’s office, sets out after Paul. Of course, Louise somehow ends up going with him. There’s some great location photography, and everything culminates in a showdown inside an ice fissure. It’s a scene that would have looked great shot in a real ice cave. Instead, the soundstage artifice is all the more glaring. You’ll be hard-pressed not to laugh.
 
-Like I said, _Dangerous Mission_ is not a good movie. The convoluted script and uneven production values see to that. But fans of Vincent Price should enjoy him here if for nothing else than the outfit he wears for the square-dance scene.
+As I said, _Dangerous Mission_ is not a good movie. The convoluted script and uneven production values see to that. But fans of Vincent Price should enjoy him here, if only for the outfit he wears for the square-dance scene.

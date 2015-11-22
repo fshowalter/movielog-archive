@@ -14,11 +14,13 @@ _Maniac Cop_ is set in New York City. Not the bustling metropolis of today, but 
 
 The story concerns a series of killings perpetrated by a uniformed police officer. The victims aren’t criminals, but random innocent people. The killer frames young beat cop Jack Forrest (Bruce Campbell) for the murders. Grizzled detective Frank McCrae (Tom Atkins) doesn’t buy it.
 
-Along with Jack’s cop girlfriend, McCrae tracks the killings to former cop Matt Cordell. Cordell was a legend on the force.  A super-cop who’s shoot-first-and-ask-questions-later mentality landed him on the wrong side of the law. The only trouble? Cordell died in prison.
+Along with Jack’s cop girlfriend, McCrae tracks the killings to former cop Matt Cordell. Cordell was a legend on the force.  A super-cop whose shoot-first-and-ask-questions-later mentality landed him on the wrong side of the law. The only trouble? Cordell died in prison.
 
-Or did he? There’s no explicit supernatural element, but Cordell’s resilience is superhuman. Think Michael Myers from the _Halloween_ franchise. Though one wonders about the scars lacing his face. He can recover from a brutal prison assault that saw him stabbed to a bloody pulp, but not a few slashes to the face? Does his body draw the line at cosmetic wounds?
+Or did he? There’s no explicit supernatural element, but Cordell’s resilience is superhuman. Think Michael Myers from the _Halloween_ franchise. Though one wonders about the scars lacing his face. He recovers from a prison assault that saw him stabbed to a bloody pulp, but a few slashes to the face are a bridge too far? Does his body draw the line at cosmetic wounds?
 
-Jack soon realizes Cordell is out to kill the mayor and police commissioner during the city’s big St. Patrick’s Day parade. Instead of staging the finale amidst the parade spectacle, the film betrays its budget and engineers a car chase to an abandoned warehouse. At least it’s an entertaining car chase, with some POV shots reminiscent of Campbell’s friend, director Sam Raimi. Raimi even turns up as a newsman introducing the parade.
+Jack soon realizes Cordell is out to kill the mayor and police commissioner. The film feints staging this during the city’s St. Patrick’s Day parade spectacle, but betrays its budget by engineering a car chase to an abandoned warehouse. 
+
+At least it’s an entertaining car chase. The POV shots are reminiscent of Campbell’s friend, director Sam Raimi, who turns up as a newsman introducing the parade.
 
 Despite its meager budget, _Maniac Cop_ is a lot of fun. Perhaps it’s the cast. Campbell never takes himself too seriously, always acting as if he were impersonating a B-movie actor. And Atkins has made a career out of playing the same grizzled, hard-drinking cop. He delivers a conscious, but not condescending, stereotype. Just because the performance is familiar, doesn’t mean it’s any less welcome. Atkins plays McCrae with the perfect amount of gravitas.  His reaction during the scene where Richard Roundtree, as the police commissioner, tells him “You don’t smile very much,” made me laugh out loud.
 

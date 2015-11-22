@@ -21,7 +21,7 @@ Not to worry though, the sheriff’s plucky teen daughter soon frees Tommy from 
 
 This entry cements Jason’s transition from deranged madman to supernatural monster. Jason now has super human strength. Bullets can’t kill him. Early on, Tommy looks to incinerate Jason, but the skies open up and the resulting rain prevents Tommy from striking a match. It’s a nice nod that casts Jason as something of a force of nature.
 
-This installment also sports a nice streak of self-referential black comedy. As Jason stalks a group of children, one boy asks another sarcastically: “So, what did you want to be when you grew up?”
+This installment also sports a nice streak of self-referential black comedy. As Jason stalks a group of children, one boy asks another: “So, what _did_ you want to be when you grew up?”
 
 Indeed, when Jason’s on screen this entry’s a lot of fun. Unfortunately, the plot revolves around Tommy.
 
@@ -29,6 +29,6 @@ A better script would have killed him off during the film’s opening sequence. 
 
 The focus on Tommy handicaps the supporting cast. Most of Jason’s victims are forgettable. The female camp counselors, in particular, feel interchangeable. They exist only as fodder for Jason, and thus, when Jason’s not on screen, they’re boring.
 
-_Jason Lives: Friday the 13th Part VI_ isn’t an awful movie. The depiction of Jason is great, and the fourth-wall humor is a nice touch. But the forced melodrama and bland supporting cast drag things down. The only character we’re interested in is Jason and when he’s off screen, this entry is a snooze.
+_Jason Lives: Friday the 13th Part VI_ isn’t an awful movie. The depiction of Jason is great, and the fourth-wall humor is a nice touch. But the forced melodrama and bland supporting cast drag things down. When Jason’s off screen, this entry is a snooze.
 
 [^1]: Ron Palillo, TV’s Horshak!

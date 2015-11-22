@@ -23,7 +23,7 @@ Joe ends up tailing Jo Anne to a dingy club where a magician is performing. Vinc
 
 At the bar, Joe meets Charlene, played by Ann Dvorak. Through Charlene, we learn the magician’s name is Maximilian. Charlene was one of his assistants. She’s just now decided to leave him, having grown tired of his manipulative ways. 
  
-Joe watches Jo Anne watching Maximilian. She seems enraptured by his performance. After the show, she approaches him and he tells her to meet him at his table. Joe’s seen enough.
+Joe watches Jo Anne. She seems enraptured by Maximilian’s performance and approaches him after the show. Maximilian’s tells her to meet him at his table. Joe’s seen enough.
 
 Before joining Jo Anne, however, Maximilian approaches Joe and Charlene at the bar. It’s here we get our first taste of Maximilian’s condescending wit. He tries to cajole Charlene into changing her mind. Joe tells Maximilian to scram. Maximilian replies with a sarcastic grin, “My friend, there is no one I would like disagreeing with more than you. However, under the circumstances, there’s hardly any point in continuing our conversation.” Then, to Charlene, “Till tomorrow, my dear.” 
 

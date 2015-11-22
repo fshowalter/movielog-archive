@@ -17,7 +17,7 @@ The girl runs down to the lake, walks the length of a short pier, and gets in a 
 
 The pier crumbles down, taking the dad with it. We flash forward to the little girl, now seventeen[^2]. Her name is Tina. She hasn’t been back to Crystal Lake since that day. She's returning now, along with her mother, at the coaxing of her smarmy psychiatrist, Dr. Crews. The good doctor says she must confront the death of her father by revisiting the scene.
 
-Tina and her mother arrive at the lake house. Dr. Crews is there waiting. There's also a house full of teens next door. One of them takes an instant interest in Tina. Perhaps he sees something we don't.
+Tina and her mother arrive at the lake house. Dr. Crews is there waiting. There's also a house full of teens next door. One of them takes an instant interest in Tina. He must see something we don't.
 
 A few needless scenes later, Tina inadvertently wakes up Jason via her telekinesis[^3]. Jason sets to work massacring the teens next door[^4].
 
@@ -25,7 +25,7 @@ Meanwhile, Tina’s mom uncovers Dr. Crews’ true intentions. There's a lot of 
 
 Okay, so the masses were right. This is an awful movie. Sitting through it was a chore. Like the song says, sometimes bad is bad. Lesson learned.
 
-But let's look on the bright side. Zombie Jason looks great. He's a big hulking monster. This entry also sees Jason make use of power tools[^5].
+But let's look on the bright side. Zombie Jason looks great. He's a big hulking monster who like power tools[^5].
 
 That's it for the bright side.
 

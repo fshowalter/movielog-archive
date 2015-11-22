@@ -1,5 +1,5 @@
---- 
-:movie: "X: The Unknown (1956)"
+---
+:movie: "X The Unknown (1956)"
 :number: 135
 :date: 2012-03-30
 :rating: 6
