@@ -3,7 +3,7 @@
 :title: And Now the Screaming Starts! (1973)
 :slug: and-now-the-screaming-starts-1973
 :display_title: And Now the Screaming Starts! (1973)
-:date: 2015-11-22
+:date: 2015-11-23
 :imdb_id: ''
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-EzkCY-3oyjk/VlJsFej4MXI/AAAAAAAADDo/QKejKVIP-8Y/w1000-Ic42-rj/and-now-the-screaming-starts-1973.png
