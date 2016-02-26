@@ -79,5 +79,5 @@ title: Most Watched
               - else
                 = result.display_title
             %td.numeric
-              %a{ href: "/viewings/?title=#{URI.escape(result.display_title)}", data: { no_instant: true } }
+              %a{ href: "/viewings/?title=#{URI.escape(result.display_title)}", data: { no_carnac: true } }
                 = result.count

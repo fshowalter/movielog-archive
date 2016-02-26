@@ -5,7 +5,7 @@ $post-slug-border-color: #eee;
 .post {
   background-color: $post-background-color;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
-  font-feature-settings: 'ordn', 'lnum';
+  font-feature-settings: 'kern', 'ordn', 'lnum';
   line-height: 1.3rem;
 
   .recent_posts_list:last-child {
@@ -98,7 +98,7 @@ $post-slug-border-color: #eee;
       padding-left: 2rem;
     }
   }
-  
+
   hr {
     display: none;
   }
@@ -106,7 +106,7 @@ $post-slug-border-color: #eee;
   li {
     font-size: .8rem;
     list-style-type: decimal;
-    
+
     &:before {
       content: '';
       display: block;
@@ -124,7 +124,7 @@ $post-slug-border-color: #eee;
     line-height: 1.4;
     margin-bottom: 0;
     padding-bottom: 1.3rem;
- 
+
     @media (min-width: $tablet-breakpoint) {
       font-size: .9rem;
       padding-bottom: 1.4rem;

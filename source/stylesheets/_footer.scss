@@ -67,7 +67,7 @@ $footer-card-background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  max-width: 10rem;
+  max-width: 12rem;
   padding-bottom: .8rem;
 
   @media(min-width: $tablet-breakpoint) {
@@ -116,7 +116,7 @@ $footer-card-background-color: #fff;
   letter-spacing: 1px;
   padding: 1.6rem .8rem .8rem;
   text-transform: uppercase;
-  
+
   a {
     padding: 0 .4rem .4rem;
 
