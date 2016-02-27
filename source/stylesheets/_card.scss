@@ -139,6 +139,7 @@ $card-divider-color: #eee;
 .card_text {
   color: rgba(0, 0, 0, .7);
   font-family: $serif;
+  font-feature-settings: 'kern', 'lnum';
   font-size: .8rem;
   font-weight: 400;
   line-height: 1.2rem;
