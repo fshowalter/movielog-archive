@@ -24,4 +24,4 @@ Besides Bogart, the only thing holding our interest is the script’s foresight.
 
 The result feels like one of Bogart’s pre-_Casablanca (1942)_ pictures. Ones that saw him cast in whatever B-production Warners was shooting that week. Only this time he’s playing the iconic, cynical Bogart character instead of a generic heavy.
 
-At one point, he says, “Hey, get me out of this Buck Rogers monkey suit, will ya?” He’s referring to the flight getup, but might have meant _Chain Lightning_ itself.
+And then there's the form-fitting flight getup. At one point Bogart pleads, “Hey, get me out of this Buck Rogers monkey suit, will ya?” He might have been talking about _Chain Lightning_ itself.
