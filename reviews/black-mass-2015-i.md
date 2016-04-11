@@ -1,6 +1,6 @@
 ---
 :sequence: 54
-:title: Black Mass (2015/I)
+:title: Black Mass (2015)
 :slug: black-mass-2015
 :display_title: Black Mass (2015)
 :date: 2016-02-06
