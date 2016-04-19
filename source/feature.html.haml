@@ -22,7 +22,7 @@
 
   .post_slug
     %span
-      #{feature.title}
+      &ldquo;#{feature.title}&rdquo;
     = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
 
 = partial(:post_navigation, locals: { current_post: feature })

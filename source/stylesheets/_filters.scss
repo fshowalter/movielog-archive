@@ -13,7 +13,7 @@ $filter-text-box-color: #555;
   box-sizing: border-box;
   color: $filter-text-box-color;
   display: block;
-  font-family: $sans;
+  font-family: $font-system;
   font-size: .8rem;
   height: 1.2rem;
   line-height: 1.2rem;
@@ -27,7 +27,7 @@ $filter-text-box-color: #555;
   border: 0;
   box-sizing: content-box;
   color: rgba(0, 0, 0, .4);
-  font-family: $sans;
+  font-family: $font-system;
   font-size: .75rem;
   line-height: 1.2rem;
   padding: 0;
@@ -80,8 +80,8 @@ $filter-text-box-color: #555;
 .filter-label {
   color: rgba(0, 0, 0, .3);
   display: block;
-  font-family: $sans;
-  font-size: .8rem;
+  font-family: $font-system;
+  font-size: .6rem;
   line-height: 1.6rem;
 }
 
@@ -89,7 +89,7 @@ $filter-text-box-color: #555;
   @extend %text-box;
   background-color: $filter-background-color;
   color: rgba(0, 0, 0, .7);
-  font-family: $sans;
+  font-family: $font-system;
   font-size: .8rem;
   text-indent: .01px;
   text-overflow: '';

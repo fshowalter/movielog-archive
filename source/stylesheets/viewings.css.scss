@@ -66,7 +66,7 @@ $viewings-card-divider-color: #eee;
 
 .viewings_filters-actions {
   color: rgba(0, 0, 0, .4);
-  font-family: $sans;
+  font-family: $font-system;
   font-size: .7rem;
   letter-spacing: -.01rem;
   line-height: 1.6rem;
@@ -121,8 +121,9 @@ $viewings-card-divider-color: #eee;
 }
 
 .viewings_list_item-slug {
-  color: rgba(0, 0, 0, .4);
-  font-size: .75rem;
+  color: rgba(0, 0, 0, .3);
+  font-family: $font-system;
+  font-size: .6rem;
   line-height: .9rem;
   min-height: 2rem;
   padding-left: 1px;

@@ -35,7 +35,7 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review_directed_by {
-  color: $review-directed-by-color;
+  color: rgba(0, 0, 0, .3);
   display: block;
   font-family: $sans;
   font-size: .75rem;
@@ -67,8 +67,10 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review_more_header {
-  color: rgba(0, 0, 0, .8);
-  background-color: white;
+  color: rgba(0, 0, 0, .3);
+  // background-color: white;
+  font-family: $font-system;
+  font-size: .8rem;
   margin-top: .8rem;
 
   @media(min-width: $tablet-breakpoint) {

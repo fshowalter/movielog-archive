@@ -59,7 +59,7 @@ $footer-card-background-color: #fff;
 }
 
 .footer-how_i_grade .card_text {
-  line-height: 1.7;
+  line-height: 1.58;
 }
 
 .footer_how_i_grade_list {
@@ -111,16 +111,18 @@ $footer-card-background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   font-family: $sans;
-  font-size: .6rem;
+  font-size: .5rem;
   justify-content: center;
   letter-spacing: 1px;
   padding: 1.6rem .8rem .8rem;
   text-transform: uppercase;
 
   a {
+    font-family: $font-system;
     padding: 0 .4rem .4rem;
 
     &:first-child {
+      font-family: $sans;
       font-size: .65rem;
       text-align: center;
       width: 100%;
