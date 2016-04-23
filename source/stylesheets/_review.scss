@@ -12,12 +12,13 @@ $review-more-background-color: #f1f1f1;
 
 .review_aka_list-heading {
   color: rgba(0, 0, 0, .3);
-  font-size: .8rem;
+  font-size: .7rem;
   font-weight: normal;
+  font-family: $font-system;
   line-height: 1.5;
 
   @media (min-width: $tablet-breakpoint) {
-    font-size: .9rem;
+    font-size: .7rem;
     line-height: 1.6rem;
   }
 }
@@ -37,8 +38,8 @@ $review-more-background-color: #f1f1f1;
 .review_directed_by {
   color: rgba(0, 0, 0, .3);
   display: block;
-  font-family: $sans;
-  font-size: .75rem;
+  font-family: $font-system;
+  font-size: .7rem;
   font-weight: 400;
   line-height: 1.2rem;
   margin: 0 .8rem;
@@ -47,9 +48,8 @@ $review-more-background-color: #f1f1f1;
   text-align: center;
 
   @media (min-width: $tablet-breakpoint) {
-    font-size: .9rem;
-    margin-top: 1.2rem;
-    padding: 0 0 1.2rem;
+    margin-top: .6rem;
+    padding: 0 0 1.8rem;
   }
 }
 
@@ -61,7 +61,7 @@ $review-more-background-color: #f1f1f1;
 
   @media (min-width: $tablet-breakpoint) {
     height: 1.4rem;
-    margin: 0 auto 1.4rem;
+    margin: 0 auto 2.4rem;
     width: 7rem;
   }
 }
