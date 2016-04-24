@@ -2,19 +2,14 @@ $review-directed-by-color: #9a9a9a;
 $review-more-background-color: #f1f1f1;
 
 .review_aka_list {
-  margin: .4rem .8rem;
+  margin: .4rem .8rem 1.6rem;
   text-align: center;
-
-  @media (min-width: $tablet-breakpoint) {
-    margin-bottom: 1.6rem;
-  }
 }
 
 .review_aka_list-heading {
   color: rgba(0, 0, 0, .3);
   font-size: .7rem;
   font-weight: normal;
-  font-family: $font-system;
   line-height: 1.5;
 
   @media (min-width: $tablet-breakpoint) {
@@ -25,14 +20,9 @@ $review-more-background-color: #f1f1f1;
 
 .review_aka_list-item {
   color: rgba(0, 0, 0, .6);
-  font-family: $sans;
   font-size: .8rem;
-  line-height: 1.2rem;
+  line-height: 1.25rem;
   margin: 0;
-
-  @media (min-width: $tablet-breakpoint) {
-    font-size: .9rem;
-  }
 }
 
 .review_directed_by {

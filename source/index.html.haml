@@ -22,45 +22,31 @@ pagination:
     - if post.is_a?(Movielog::Review)
       - review = post
       - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.card.card--with_shadow{ value: post.sequence, style: "z-index: 1#{post.sequence}" }
-        .latest_updates-item_anchor{ id: post.slug }
+      %li.card.card--with_shadow
         .card_header_wrap{ data: { carnac: true } }
-          %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
+          %header.card_header.card_header--with_date
             %h3.card_header-title
               %a{ href: "/reviews/#{review.slug}/"}
                 = "#{review.display_title}"
             = grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })
-            .card_header-date
-              = post.date.strftime('%b %-d, %Y')
           .card_backdrop{ data: { backdrop: review.backdrop } }
-        .card_slug
-          %span.abbreviation
-            = ' D'
-          %span.full
-            irected by
-          = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-          %span.full
-            Starring
-          = " #{headline_cast(title: review.title)}."
         .card_text
           = markdown(review.pull_quote)
-        .card_actions.card_actions--with_divider
+        .card_actions
           %a{ href: "/reviews/#{review.slug}/", title: "Continue reading #{review.display_title.upcase}" }
             Continue reading
-          &nbsp;&middot; #{minutes_to_read(review.content)} min read
     - elsif post.is_a?(Movielog::Feature)
       - feature = post
       %li.card.card--with_shadow{ value: post.sequence }
-        %a{ href: "/features/#{feature.slug}/"}
-          %header.card_header.card_header--with_date{ data: { sequence: post.sequence } }
+        .card_header_wrap{ data: { carnac: true } }
+          %header.card_header.card_header--with_date
             %h3.card_header-title
-              = feature.title
-            .card_header-date
-              = post.date.strftime('%b %-d, %Y')
+              %a{ href: "/features/#{feature.slug}/"}
+                = feature.title
           .card_backdrop{ data: { backdrop: feature.backdrop } }
         .card_text
           = markdown(feature.pull_quote)
-        .card_actions.card_actions--with_divider
+        .card_actions
           %a{ href: "/features/#{feature.slug}/" }
             Continue reading
 .latest_updates_pagination

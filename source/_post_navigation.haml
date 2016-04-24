@@ -20,17 +20,11 @@
                 = "#{title}"
             = grade_to_image_tag(grade: next_post.grade, options: { class: 'card_header-rating' })
           .card_backdrop{ data: { backdrop: next_post.backdrop } }
-          - if next_post.is_a?(Movielog::Review)
-            .card_slug
-              = ' D:'
-              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-              = " #{headline_cast(title: next_post.title)}."
         .card_text
           = markdown(next_post.pull_quote)
         .card_actions
           %a{ href: "/#{link_path}/#{next_post.slug}/", title: "Continue reading #{title.upcase}" }
             Continue reading
-          &nbsp;&middot; #{minutes_to_read(next_post.content)} min read
   - if prev_post
     - link_path = 'features'
     - title = prev_post.title
@@ -49,14 +43,8 @@
                 = "#{title}"
             = grade_to_image_tag(grade: prev_post.grade, options: { class: 'card_header-rating' })
           .card_backdrop{ data: { backdrop: prev_post.backdrop } }
-          - if prev_post.is_a?(Movielog::Review)
-            .card_slug
-              = ' D:'
-              = " #{directors.map { |d| "<span class='name'>#{d.first_name} #{d.last_name}</span>" }.to_sentence}. "
-              = " #{headline_cast(title: prev_post.title)}."
         .card_text
           = markdown(prev_post.pull_quote)
         .card_actions
           %a{ href: "/#{link_path}/#{prev_post.slug}/", title: "Continue reading #{title.upcase}" }
             Continue reading
-          &nbsp;&middot; #{minutes_to_read(prev_post.content)} min read

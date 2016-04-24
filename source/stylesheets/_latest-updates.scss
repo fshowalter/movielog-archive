@@ -8,7 +8,7 @@ $latest-updates-card-separator-color: #eee;
 .latest_updates {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 .4rem;
   padding: 0;
 
   > .card {
@@ -47,8 +47,6 @@ $latest-updates-card-separator-color: #eee;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    margin: 0;
-
     > .card {
       margin-right: .4rem;
       width: calc(50% - .4rem);

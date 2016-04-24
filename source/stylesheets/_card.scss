@@ -44,6 +44,9 @@ $card-divider-color: #eee;
 }
 
 .card_header_wrap {
+  display: flex;
+  flex-direction: column;
+
   .js & {
     cursor: pointer;
 
@@ -60,9 +63,11 @@ $card-divider-color: #eee;
 .card_header {
   display: flex;
   flex-wrap: wrap;
-  height: 3.6rem;
+  // height: 3.6rem;
   padding: .8rem;
   position: relative;
+  order: 2;
+
 }
 
 .card_header--with_date {
@@ -75,10 +80,9 @@ $card-divider-color: #eee;
 .card_header-title {
   color: rgba(0, 0, 0, .8);
   display: block;
-  font-family: $sans;
   font-size: .8rem;
   font-weight: 400;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
   margin: 0;
   overflow: hidden;
   padding: 0;
@@ -89,8 +93,8 @@ $card-divider-color: #eee;
 }
 
 .card_header-rating {
-  display: inline-block;
-  height: .7rem;
+  display: block;
+  height: .85rem;
   width: auto;
 }
 
@@ -110,13 +114,28 @@ $card-divider-color: #eee;
   }
 }
 
+.card-date {
+  color: rgba(0, 0, 0, .54);
+  font-size: .65rem;
+  display: inline;
+  font-feature-settings: 'lnum';
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
 .card_backdrop {
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 .4rem;
+  // margin: 0 .4rem;
   opacity: 0;
-  padding-top: 56.249999993%;
   transition: .8s opacity;
+
+  &:after {
+    padding-top: 56.249999993%;
+    height: 0;
+    content: '';
+    display: block;
+  }
 
   &.loaded {
     opacity: 1;
@@ -137,12 +156,11 @@ $card-divider-color: #eee;
 
 .card_text {
   color: rgba(0, 0, 0, .8);
-  font-family: $serif;
   font-feature-settings: 'kern', 'lnum';
-  font-size: .8rem;
-  font-weight: 400;
+  font-size: .7rem;
+  font-weight: 300;
   line-height: 1.2rem;
-  padding: .8rem;
+  padding: .6rem .8rem .8rem;
 
   p {
     &:last-child {
@@ -151,11 +169,19 @@ $card-divider-color: #eee;
   }
 }
 
+.card-subheader {
+  line-height: 2.4rem;
+  padding: 0 .8rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .54);
+}
+
 .card_actions {
   bottom: 0;
   color: rgba(0, 0, 0, .3);
-  font-family: $font-system;
   font-size: .6rem;
+  font-weight: 500;
   left: 0;
   line-height: 1.6rem;
   padding: .4rem .8rem;

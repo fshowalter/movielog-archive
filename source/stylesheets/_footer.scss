@@ -1,7 +1,7 @@
 $footer-card-background-color: #fff;
 
 .footer {
-  margin-top: .8rem;
+  margin: .8rem .4rem 0;
   color: rgba(0, 0, 0, .7);
 
   > .about {
@@ -39,7 +39,6 @@ $footer-card-background-color: #fff;
   @media(min-width: $tablet-breakpoint) {
     display: flex;
     flex-wrap: wrap;
-    margin: .8rem .4rem 0;
   }
 
   @media(min-width: $desktop-breakpoint) {
@@ -48,7 +47,6 @@ $footer-card-background-color: #fff;
 }
 
 .footer_header {
-  font-family: $sans;
   font-size: 1rem;
   font-weight: normal;
   letter-spacing: .1rem;
@@ -110,7 +108,6 @@ $footer-card-background-color: #fff;
 .footer_links {
   display: flex;
   flex-wrap: wrap;
-  font-family: $sans;
   font-size: .5rem;
   justify-content: center;
   letter-spacing: 1px;
@@ -118,12 +115,10 @@ $footer-card-background-color: #fff;
   text-transform: uppercase;
 
   a {
-    font-family: $font-system;
     padding: 0 .4rem .4rem;
 
     &:first-child {
-      font-family: $sans;
-      font-size: .65rem;
+      font-size: .6rem;
       text-align: center;
       width: 100%;
     }
