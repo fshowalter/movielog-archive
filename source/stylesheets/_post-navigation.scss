@@ -18,18 +18,18 @@
   @media(min-width: $tablet-breakpoint) {
     display: flex;
     flex-direction: column;
-  	width: calc(50% - .2rem);
+  	width: calc(50% - .4rem);
 
     .card {
       flex-grow: 1;
     }
 
   	&:first-child {
-  		margin-right: .2rem;
+  		margin-right: .4rem;
   	}
 
     &:last-child {
-      margin-left: .2rem;
+      margin-left: .4rem;
 
       .post_navigation-header {
         text-align: right;

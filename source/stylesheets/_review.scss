@@ -61,17 +61,17 @@ $review-more-background-color: #f1f1f1;
 
   @media (min-width: $tablet-breakpoint) {
     height: 1.4rem;
-    margin: 0 auto 2.4rem;
+    margin: 2rem auto 2.4rem;
     width: 7rem;
   }
 }
 
 .review_more_header {
   color: rgba(0, 0, 0, .3);
-  // background-color: white;
   font-family: $font-system;
   font-size: .8rem;
   margin-top: .8rem;
+  padding-bottom: 0;
 
   @media(min-width: $tablet-breakpoint) {
     margin-left: .4rem;
