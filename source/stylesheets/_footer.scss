@@ -47,13 +47,10 @@ $footer-card-background-color: #fff;
 }
 
 .footer_header {
-  font-size: 1rem;
-  font-weight: normal;
-  letter-spacing: .1rem;
-  line-height: 1.2rem;
+  // letter-spacing: .1rem;
   margin: 0;
   padding: 1.2rem .8rem .8rem;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .footer-how_i_grade .card_text {
@@ -65,8 +62,9 @@ $footer-card-background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  max-width: 12rem;
+  max-width: 9.5rem;
   padding-bottom: .8rem;
+  justify-content: space-between;
 
   @media(min-width: $tablet-breakpoint) {
     padding-bottom: 1.35rem;
@@ -74,17 +72,9 @@ $footer-card-background-color: #fff;
 }
 
 .footer_how_i_grade_list-grade {
-  padding-right: .8rem;
   position: relative;
-  width: 4.8rem;
-
-  &:after {
-    color: rgba(0, 0, 0, .2);
-    content: '...........';
-    position: absolute;
-    right: -25px;
-    top: -5px;
-  }
+  color: #eda829;
+  width: 4.5rem;
 }
 
 .footer_how_i_grade_list-rating {
@@ -95,7 +85,8 @@ $footer-card-background-color: #fff;
 .footer_how_i_grade_list-text {
   margin: 0;
   text-align: right;
-  width: calc(100% - 4.8rem);
+  min-width: calc(100% - 4.8rem);
+  flex-grow: 1;
 
   span {
     background-color: $footer-card-background-color;

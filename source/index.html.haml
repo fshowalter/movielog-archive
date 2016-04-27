@@ -27,8 +27,7 @@ pagination:
           %header.card_header.card_header--with_date
             %h3.card_header-title
               %a{ href: "/reviews/#{review.slug}/"}
-                = "#{review.display_title}"
-            = grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })
+                = "<span class='card-header_text'>#{review.title_without_year}</span> <span>#{grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })}</span>"
           .card_backdrop{ data: { backdrop: review.backdrop } }
         .card_text
           = markdown(review.pull_quote)

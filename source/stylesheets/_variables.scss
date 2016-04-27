@@ -3,10 +3,14 @@ $tablet-breakpoint: 48em;
 $desktop-breakpoint: 65.2em;
 $abbreviation-breakpoint: 44em;
 
+
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,latin-ext);
+// @import url(https://fonts.googleapis.com/css?family=Khula:800&subset=latin,latin-ext);
+
 // font-stacks
 $font-system:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 $sans: 'futura-pt', $font-system;
-$serif: 'freight-text-pro', Georgia,Cambria,"Times New Roman",Times,serif;
+$serif: 'Charter', 'Iowan Old Style', Georgia, Cambria, "Times New Roman", Times, serif;
 // $serif: "Times New Roman",Times,serif;
 
 // misc

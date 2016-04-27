@@ -58,7 +58,7 @@
           = partial(:about)
         - unless content_for?(:no_how_i_grade_footer)
           .card.card--with_shadow.footer-how_i_grade
-            %h2.footer_header
+            %h2.footer_header.card_header-title
               How I Grade
             .card_text
               %dl.footer_how_i_grade_list
@@ -111,9 +111,22 @@
               true
             );
           });
+      :javascript
+        WebFontConfig = { google: { families: [ 'Khula:800:latin,latin-ext' ] } };
+        (function() {
+          var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+          if (!iOS) {
+            return;
+          }
+
+          var wf = document.createElement('script');
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
+
       = javascript_include_tag('application.js', async: :async )
-      %script
-        :plain
-          (function(d) {var config={kitId:'ngs8sfs',scriptTimeout: 3000, active: window.set_rhythm },
-            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-          })(document);
+

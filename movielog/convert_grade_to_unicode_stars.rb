@@ -5,10 +5,10 @@ module Movielog
   class ConvertGradeToUnicodeStars
     UNICODE_STAR_FOR_LETTER_GRADE = {
       'A' => '★★★★★',
-      'B' => '★★★★☆',
-      'C' => '★★★☆☆',
-      'D' => '★★☆☆☆',
-      'F' => '★☆☆☆☆'
+      'B' => '★★★★',
+      'C' => '★★★',
+      'D' => '&#x2605;&#x2605;',
+      'F' => '★'
     }
     class << self
       def call(grade: grade)

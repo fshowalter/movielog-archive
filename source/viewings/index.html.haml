@@ -9,7 +9,7 @@ title: Viewing Log
   %h2.viewings_header Viewing Log
   .column
     .viewings_filters_card.card.card--with_shadow{ data: { filter_controls: true, target: '#viewings' }}
-      %h3.viewings_filters-header Filter and Sort
+      %h2.viewings_filters-header Filter and Sort
       .viewings_filters
         = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
         = range_filter(label: 'Year',
@@ -41,7 +41,7 @@ title: Viewing Log
     .viewings_see_also.card.card--with_shadow
       .card_header
         .card_header-title
-          See Also
+          Metrics
       %ul.viewings_see_also_list
         %li.viewings_see_also_list_item
           %a{ href: "/viewings/most-watched/" }

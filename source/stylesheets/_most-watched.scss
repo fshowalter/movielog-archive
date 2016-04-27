@@ -1,19 +1,20 @@
 $most-watched-divider-color: #eee;
 
 .most_watched_header {
-  font-size: 1rem;
+  color: rgba(0, 0, 0, .54);
+  font-size: .7rem;
   font-weight: normal;
-  height: 1.6rem;
-  letter-spacing: 1px;
-  margin: 1.2rem .8rem .4rem;
+  letter-spacing: .05rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 1.2rem .8rem 0;
   text-transform: uppercase;
-  width: 100%;
 }
 
 .most_watched {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 .4rem;
   padding: 0;
 
   > .card {
@@ -61,40 +62,46 @@ $most-watched-divider-color: #eee;
 .most_watched_table {
   border-collapse: collapse;
   position: relative;
-  font-family: $sans;
-  font-size: .8rem;
-  width: 100%;
+  font-size: .65rem;
+  width: calc(100% - .8rem);
+  margin-left: .8rem;
 
   th {
     color: rgba(0,0,0, .54);
-    font-size: .7rem;
-    font-weight: normal;
-    height: 2.4rem;
-    letter-spacing: 0;
-    line-height: 1.2rem;
-    padding-bottom: .4rem;
-    padding: 0 .9rem;
-    position: relative;
+    font-size: .6rem;
+    font-weight: 300;
+    // height: 2.4rem;
+    line-height: 2.8rem;
+    padding: 0 .8rem 0 0;
     text-align: left;
-    text-overflow: ellipsis;
     vertical-align: bottom;
+
+    &.numeric {
+      max-width: 0;
+      text-align: right;
+    }
+  }
+
+  td {
+    // position: relative;
+    vertical-align: top;
+    border-top: 1px solid $most-watched-divider-color;
+    border-bottom: 1px solid $most-watched-divider-color;
+    padding: 0 .8rem 0 0;
+    line-height: 2.4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 0;
+    font-weight: 300;
 
     &.numeric {
       text-align: right;
     }
   }
 
-  td {
-    position: relative;
-    vertical-align: top;
-    height: 2.4rem;
-    border-top: 1px solid $most-watched-divider-color;
-    border-bottom: 1px solid $most-watched-divider-color;
-    padding: .6rem .9rem 0;
-
-    &.numeric {
-      text-align: right;
-    }
+  tr:first-child td {
+    border-top: 0;
   }
 
   tr:nth-child(odd) td {

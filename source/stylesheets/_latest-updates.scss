@@ -47,6 +47,8 @@ $latest-updates-card-separator-color: #eee;
   }
 
   @media(min-width: $desktop-breakpoint) {
+    margin: 0;
+
     > .card {
       margin-right: .4rem;
       width: calc(50% - .4rem);
@@ -98,6 +100,7 @@ $latest-updates-card-separator-color: #eee;
 .latest_updates_pagination-item {
   color: $highlight;
   display: block;
+  font-weight: 600;
   line-height: 2.8rem;
   padding: 0 .8rem;
   position: relative;
@@ -132,7 +135,7 @@ $latest-updates-card-separator-color: #eee;
     content: '';
     height: 1rem;
     position: absolute;
-    top: .85rem;
+    top: .9rem;
     width: 1rem;
   }
 }

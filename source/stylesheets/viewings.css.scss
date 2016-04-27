@@ -6,6 +6,7 @@ $viewings-card-divider-color: #eee;
 
 .viewings {
   position: relative;
+  margin: 0 .4rem;
 
   &:after {
     clear: both;
@@ -50,13 +51,14 @@ $viewings-card-divider-color: #eee;
 }
 
 .viewings_header {
-  font-size: 1rem;
+  color: rgba(0, 0, 0, .54);
+  font-size: .7rem;
   font-weight: normal;
-  height: 1.6rem;
-  letter-spacing: 1px;
-  margin: 1.2rem .8rem .4rem;
+  letter-spacing: .05rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 1.2rem .8rem 0;
   text-transform: uppercase;
-  width: 100%;
 }
 
 .viewings_filters {
@@ -79,13 +81,19 @@ $viewings-card-divider-color: #eee;
 }
 
 .viewings_filters-header {
-  font-size: .8rem;
-  font-weight: normal;
-  letter-spacing: 1px;
-  line-height: 1.2rem;
+  font-size: .75rem;
+  font-weight: 600;
+  // letter-spacing: 1px;
+  line-height: 3.6rem;
   margin: 0;
-  padding: 1.2rem .8rem;
-  text-transform: uppercase;
+  padding: 0 .8rem;
+  // letter-spacing: 1px;
+  // text-transform: uppercase;
+  font-size: 1.15rem;
+  font-family: 'Khula', $font-system;
+  font-weight: 800;
+
+  // text-transform: uppercase;
 }
 
 .viewings_list {
@@ -108,11 +116,11 @@ $viewings-card-divider-color: #eee;
 .viewings_list_item-title {
   display: block;
   font-size: .75rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.6rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   white-space: nowrap;
 }
 
@@ -130,7 +138,11 @@ $viewings-card-divider-color: #eee;
 
 .viewings_see_also {
   margin-bottom: .8rem;
-  padding-bottom: 0;
+  padding-bottom: .8rem;
+
+  .card_header-title {
+    line-height: 2rem;
+  }
 }
 
 .viewings_see_also_list {
@@ -139,11 +151,14 @@ $viewings-card-divider-color: #eee;
 }
 
 .viewings_see_also_list_item {
-  border-top: solid 1px rgba(0, 0, 0, .07);
+  border-bottom: solid 1px rgba(0, 0, 0, .07);
   font-size: .7rem;
-  height: 2.4rem;
   line-height: 2.4rem;
   list-style-type: none;
-  margin: 0;
-  padding: 0 .8rem;
+  margin: 0 0 0 .8rem;
+  padding: 0 .8rem 0 0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
 }

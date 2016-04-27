@@ -2,7 +2,7 @@ $review-directed-by-color: #9a9a9a;
 $review-more-background-color: #f1f1f1;
 
 .review_aka_list {
-  margin: .4rem .8rem 1.6rem;
+  margin: 0 .8rem 0;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@ $review-more-background-color: #f1f1f1;
   color: rgba(0, 0, 0, .3);
   font-size: .7rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6rem;
 
   @media (min-width: $tablet-breakpoint) {
     font-size: .7rem;
@@ -20,8 +20,8 @@ $review-more-background-color: #f1f1f1;
 
 .review_aka_list-item {
   color: rgba(0, 0, 0, .6);
-  font-size: .8rem;
-  line-height: 1.25rem;
+  font-size: .75rem;
+  line-height: 1.2rem;
   margin: 0;
 }
 
@@ -46,7 +46,7 @@ $review-more-background-color: #f1f1f1;
 .review_rating {
   display: block;
   height: 1.2rem;
-  margin: 0 auto 2rem;
+  margin: 1.6rem auto 2rem;
   width: 6rem;
 
   @media (min-width: $tablet-breakpoint) {
@@ -57,11 +57,13 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review_more_header {
-  color: rgba(0, 0, 0, .3);
-  font-family: $font-system;
-  font-size: .8rem;
+  color: rgba(0, 0, 0, .54);
+  font-size: .7rem;
+  font-weight: normal;
   margin-top: .8rem;
   padding-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
 
   @media(min-width: $tablet-breakpoint) {
     margin-left: .4rem;
@@ -75,7 +77,7 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review_more_list {
-  margin-bottom: .8rem;
+  margin: 0 .4rem .8rem;
 
   .card {
     @media(min-width: $tablet-breakpoint) {
@@ -101,11 +103,6 @@ $review-more-background-color: #f1f1f1;
         }
       }
     }
-  }
-
-  @media(min-width: $tablet-breakpoint) {
-    margin-left: .4rem;
-    margin-right: .4rem;
   }
 
   @media(min-width: $desktop-breakpoint) {
