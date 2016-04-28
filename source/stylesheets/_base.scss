@@ -30,7 +30,7 @@ html {
 
 body {
   background-color: $body-background-color;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .87);
   padding-top: 2.4rem;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 input::placeholder {
-  color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, .38);
   font-size: .65rem;
   transform: translate(0, 0);
   transition: opacity .3s linear;

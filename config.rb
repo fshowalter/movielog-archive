@@ -11,6 +11,14 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def card_content_for_post(post)
+    if post.is_a?(Movielog::Review)
+      partial(:review_card_content, locals: { review: post })
+    elsif post.is_a?(Movielog::Feature)
+      partial(:feature_card_content, locals: { feature: post })
+    end
+  end
+
   def markdown(source)
     return source if source.blank?
     content = Tilt['markdown'].new(footnotes: true) { source }.render

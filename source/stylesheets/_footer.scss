@@ -57,44 +57,7 @@ $footer-card-background-color: #fff;
   line-height: 1.58;
 }
 
-.footer_how_i_grade_list {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  max-width: 9.5rem;
-  padding-bottom: .8rem;
-  justify-content: space-between;
 
-  @media(min-width: $tablet-breakpoint) {
-    padding-bottom: 1.35rem;
-  }
-}
-
-.footer_how_i_grade_list-grade {
-  position: relative;
-  color: #eda829;
-  width: 4.5rem;
-}
-
-.footer_how_i_grade_list-rating {
-  display: block;
-  width: 4rem;
-}
-
-.footer_how_i_grade_list-text {
-  margin: 0;
-  text-align: right;
-  min-width: calc(100% - 4.8rem);
-  flex-grow: 1;
-
-  span {
-    background-color: $footer-card-background-color;
-    display: inline-block;
-    padding-left: 3px;
-    position: relative;
-  }
-}
 
 .footer_links {
   display: flex;

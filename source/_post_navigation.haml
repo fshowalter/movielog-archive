@@ -3,48 +3,14 @@
 
 .post_navigation
   - if next_post
-    - link_path = 'features'
-    - title = next_post.title
-    - if next_post.is_a?(Movielog::Review)
-      - directors = MovieDb.directors_for_title(db: Movielog.db, title: next_post.title)
-      - link_path = 'reviews'
-      - title = next_post.display_title
     .post_navigation-item
-      %h2.post_navigation-header
+      %h2.post_navigation-header_next
         Next Post
-      .card.card--with_shadow
-        .card_header_wrap{ data: { carnac: true } }
-          .card_header
-            %h3.card_header-title
-              %a{ href: "/#{link_path}/#{next_post.slug}/"}
-                = "#{title}"
-            = grade_to_image_tag(grade: next_post.grade, options: { class: 'card_header-rating' })
-          .card_backdrop{ data: { backdrop: next_post.backdrop } }
-        .card_text
-          = markdown(next_post.pull_quote)
-        .card_actions
-          %a{ href: "/#{link_path}/#{next_post.slug}/", title: "Continue reading #{title.upcase}" }
-            Continue reading
+      .card
+        = card_content_for_post(next_post)
   - if prev_post
-    - link_path = 'features'
-    - title = prev_post.title
-    - if prev_post.is_a?(Movielog::Review)
-      - directors = MovieDb.directors_for_title(db: Movielog.db, title: prev_post.title)
-      - link_path = 'reviews'
-      - title = prev_post.display_title
     .post_navigation-item
-      %h2.post_navigation-header
+      %h2.post_navigation-header_prev
         Prev Post
-      .card.card--with_shadow
-        .card_header_wrap{ data: { carnac: true } }
-          .card_header
-            %h3.card_header-title
-              %a{ href: "/#{link_path}/#{prev_post.slug}/"}
-                = "#{title}"
-            = grade_to_image_tag(grade: prev_post.grade, options: { class: 'card_header-rating' })
-          .card_backdrop{ data: { backdrop: prev_post.backdrop } }
-        .card_text
-          = markdown(prev_post.pull_quote)
-        .card_actions
-          %a{ href: "/#{link_path}/#{prev_post.slug}/", title: "Continue reading #{title.upcase}" }
-            Continue reading
+      .card
+        = card_content_for_post(prev_post)

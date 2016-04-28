@@ -1,0 +1,11 @@
+%header.card-header{ data: { carnac: true } }
+  .card-header_backdrop{ data: { backdrop: review.backdrop } }
+  %h3.card-header_title
+    %a{ href: "/reviews/#{review.slug}/"}
+      = review.title_without_year
+  = grade_to_image_tag(grade: review.grade, options: { class: 'card-header_grade' })
+.card-content
+  = markdown(review.pull_quote)
+.card-actions
+  %a{ href: "/reviews/#{review.slug}/", title: "Continue reading #{review.display_title.upcase}" }
+    Continue reading

@@ -16,43 +16,20 @@ pagination:
   - if pagination.next_page
     %link{ href: "https://www.franksmovielog.com#{pagination.next_page.url}", rel: 'next' }
 
-%ol.latest_updates
+%ol.card_list
   - pagination.each do |key|
-    - post = posts[key]
-    - if post.is_a?(Movielog::Review)
-      - review = post
-      - directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
-      %li.card.card--with_shadow
-        .card_header_wrap{ data: { carnac: true } }
-          %header.card_header.card_header--with_date
-            %h3.card_header-title
-              %a{ href: "/reviews/#{review.slug}/"}
-                = "<span class='card-header_text'>#{review.title_without_year}</span> <span>#{grade_to_image_tag(grade: review.grade, options: { class: 'card_header-rating' })}</span>"
-          .card_backdrop{ data: { backdrop: review.backdrop } }
-        .card_text
-          = markdown(review.pull_quote)
-        .card_actions
-          %a{ href: "/reviews/#{review.slug}/", title: "Continue reading #{review.display_title.upcase}" }
-            Continue reading
-    - elsif post.is_a?(Movielog::Feature)
-      - feature = post
-      %li.card.card--with_shadow{ value: post.sequence }
-        .card_header_wrap{ data: { carnac: true } }
-          %header.card_header.card_header--with_date
-            %h3.card_header-title
-              %a{ href: "/features/#{feature.slug}/"}
-                = feature.title
-          .card_backdrop{ data: { backdrop: feature.backdrop } }
-        .card_text
-          = markdown(feature.pull_quote)
-        .card_actions
-          %a{ href: "/features/#{feature.slug}/" }
-            Continue reading
-.latest_updates_pagination
+    %li.card.card_list-item
+      = card_content_for_post(posts[key])
+
+.pagination
   - if pagination.prev_page
-    %a.latest_updates_pagination-item.newer{ href: pagination.prev_page.url}
+    %a.pagination-newer{ href: pagination.prev_page.url}
       Newer
+  - else
+    %span
 
   - if pagination.next_page
-    %a.latest_updates_pagination-item.older{ href: pagination.next_page.url }
+    %a.pagination-older{ href: pagination.next_page.url }
       Older
+  - else
+    %span

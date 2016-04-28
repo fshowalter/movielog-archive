@@ -2,157 +2,30 @@ $card-background-color: #fff;
 $card-count-background-color: #ddd;
 $card-divider-color: #eee;
 
-@mixin card-header-with-date {
-  justify-content: space-between;
-
-  > .card_header-title {
-    order: 1;
-    // width: calc(100% - 3.75rem);
-  }
-
-  > .card_header-rating {
-    order: 3;
-  }
-
-  > .card_header-date {
-    font-size: .6rem;
-    line-height: 1.2rem;
-    order: 2;
-    text-align: right;
-    text-transform: uppercase;
-    width: 3.75rem;
-
-    &:before {
-      content: '';
-    }
-  }
-}
-
 .card {
   background-color: $card-background-color;
   list-style-type: none;
-  padding-bottom: 2.4rem;
   position: relative;
-
-  > a:hover .card_header-title {
-    color: $highlight;
-  }
-}
-
-.card--with_shadow {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
-}
-
-.card_header_wrap {
   display: flex;
   flex-direction: column;
+}
+
+.card-header {
+  margin-bottom: .8rem;
 
   .js & {
     cursor: pointer;
-
-    a {
-      color: rgba(0, 0, 0, .75);
-    }
-  }
-
-  .js &:hover a {
-    // color: $highlight;
   }
 }
 
-.card_header {
-  display: flex;
-  flex-wrap: wrap;
-  // height: 3.6rem;
-  padding: .8rem;
-  position: relative;
-  order: 2;
-
-}
-
-.card_header--with_date {
-  @media(min-width: $desktop-breakpoint) {
-    @include card-header-with-date;
-  }
-}
-
-.card-grade {
-  color: #eda829;
-  font-family: 'Hiragino Sans', $font-system;
-}
-
-.card_header-title {
-  color: rgba(0, 0, 0, .7);
-  display: block;
-  font-size: 1.15rem;
-  font-family: 'Khula', $font-system;
-  font-weight: 900;
-  // line-height: 1.1rem;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  text-overflow: ellipsis;
-  // text-transform: uppercase;
-  white-space: nowrap;
-  width: 100%;
-
-  a {
-  }
-}
-
-.card-header_text {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  display: block;
-  overflow: hidden;
-  line-height: 1.3;
-}
-
-.card_header-rating {
-  display: block;
-  height: auto;
-  width: 4.5rem;
-  margin-top: .1rem;
-
-  @media(min-width: $tablet-breakpoint) {
-    width: 5rem;
-    margin-top: .2rem;
-  }
-}
-
-.card_header-date {
-  color: rgba(0, 0, 0, .3);
-  display: inline;
-  font-family: $font-system;
-  font-feature-settings: 'lnum';
-  font-size: .6rem;
-  font-weight: 400;
-  line-height: .8rem;
-  white-space: nowrap;
-
-  &:before {
-    content: ' \00a0on\00a0 ';
-    font-weight: normal;
-  }
-}
-
-.card-date {
-  color: rgba(0, 0, 0, .54);
-  font-size: .65rem;
-  display: inline;
-  font-feature-settings: 'lnum';
-  white-space: nowrap;
-  text-transform: uppercase;
-}
-
-.card_backdrop {
+.card-header_backdrop {
   background-repeat: no-repeat;
   background-size: cover;
-  // margin: 0 .4rem;
   opacity: 0;
   transition: .8s opacity;
 
-  &:after {
+  &:before {
     padding-top: 56.249999993%;
     height: 0;
     content: '';
@@ -162,62 +35,70 @@ $card-divider-color: #eee;
   &.loaded {
     opacity: 1;
   }
+}
 
-  @media(min-width: $tablet-breakpoint) {
-    margin: 0;
+.card-header_title {
+  padding: .8rem .8rem 0;
+  display: block;
+  font-size: 1.15rem;
+  font-family: 'Khula', $font-system;
+  font-weight: 900;
+  line-height: 1.6rem;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+
+  a {
+    color: rgba(0, 0, 0, .7);
+  }
+
+  .card > & {
+    padding: 1.2rem .8rem .8rem;
   }
 }
 
-.card_slug {
-  color: rgba(0, 0, 0, .3);
-  font-family: $font-system;
-  font-size: .6rem;
-  line-height: .8rem;
-  padding: .8rem .8rem 0;
+.card-header_grade {
+  display: block;
+  height: auto;
+  width: 4.5rem;
+  margin-left: .8rem;
+
+  @media(min-width: $tablet-breakpoint) {
+    width: 5rem;
+  }
 }
 
-.card_text {
+.card-content {
   color: rgba(0, 0, 0, .8);
   font-feature-settings: 'kern', 'lnum';
   font-size: .7rem;
   font-weight: 300;
   line-height: 1.2rem;
-  padding: .6rem .8rem .8rem;
+  padding: .8rem;
+  margin-top: auto;
+  flex-grow: 1;
 
   p {
+    margin-bottom: .6rem;
+
     &:last-child {
       margin-bottom: 0;
     }
   }
 }
 
-.card-subheader {
-  line-height: 2.4rem;
-  padding: 0 .8rem;
-  font-size: .7rem;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, .54);
-}
-
-.card_actions {
-  bottom: 0;
+.card-actions {
   color: rgba(0, 0, 0, .3);
   font-size: .6rem;
   font-weight: 600;
-  left: 0;
   line-height: 1.6rem;
   padding: .4rem .8rem;
-  position: absolute;
-  right: 0;
 
   a {
     display: inline-block;
     margin-right: .1rem;
     text-transform: uppercase;
   }
-}
-
-.card_actions--with_divider {
-  border-top: solid 1px $card-divider-color;
-  padding-top: .35rem;
 }

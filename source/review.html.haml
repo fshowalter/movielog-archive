@@ -63,23 +63,10 @@
     - next unless titles.length > 1
     %h2.footer_header.review_more_header
       More with #{performer.first_name} #{performer.last_name}
-    %ul.recent_posts_list.review_more_list
+    %ul.card_list
       - titles.each do |title|
-        - related_review = Movielog.reviews_by_title[title]
-        - directors = MovieDb.directors_for_title(db: Movielog.db, title: related_review.title)
-        %li.card.card--with_shadow{ class: "#{'half' if titles.length == 2 }"}
-          .card_header_wrap{ data: { carnac: true } }
-            .card_header
-              %h3.card_header-title
-                %a{ href: "/reviews/#{related_review.slug}/"}
-                  = "#{related_review.display_title}"
-              = grade_to_image_tag(grade: related_review.grade, options: { class: 'card_header-rating' })
-            .card_backdrop{ data: { backdrop: related_review.backdrop } }
-          .card_text
-            = markdown(related_review.pull_quote)
-          .card_actions
-            %a{ href: "/reviews/#{related_review.slug}/", title: "Continue reading #{related_review.display_title.upcase}" }
-              Continue reading
+        %li.card.card_list-item{ class: "#{'half' if titles.length == 2 }"}
+          = partial(:review_card_content, locals: { review: Movielog.reviews_by_title[title] })
 
 = partial(:post_navigation, locals: { current_post: review })
 
