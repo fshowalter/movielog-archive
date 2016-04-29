@@ -1,7 +1,6 @@
 $mast-background-color: #111110;
 $mast-breakpoint: 32em;
 $mast-foreground-color: #fff;
-$mast-highlight-color: #579;
 $mast-search-background-color: #f1f1f1;
 $mast-search-breakpoint: 63.625em;
 
@@ -60,7 +59,6 @@ $mast-search-breakpoint: 63.625em;
   -webkit-border-fit: border;
   color: $mast-foreground-color;
   display: block;
-  font-family: $sans;
   font-size: .6rem;
   -webkit-font-smoothing: inherit;
   font-weight: normal;
@@ -105,7 +103,7 @@ $mast-search-breakpoint: 63.625em;
   border-radius: 0;
   box-sizing: border-box;
   display: block;
-  font-family: $serif;
+  font-family: $font-system;
   font-size: .65rem;
   height: 2.3rem;
   padding: .2rem .4rem .2rem 2rem;
@@ -114,7 +112,7 @@ $mast-search-breakpoint: 63.625em;
   width: 100%;
 
   &::placeholder {
-    font-family: $sans;
+    font-family: $font-system;
     font-size: .65rem;
     line-height: auto;
     text-transform: uppercase;

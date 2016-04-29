@@ -1,84 +1,36 @@
-$footer-card-background-color: #fff;
-
 .footer {
-  margin: .8rem .4rem 0;
-  color: rgba(0, 0, 0, .7);
-
-  > .about {
-    margin-top: .8rem;
-
-    @media(min-width: $tablet-breakpoint) {
-      width: calc(50% - .2rem);
-      margin-right: .2rem;
-    }
-
-    @media(min-width: $desktop-breakpoint) {
-      width: calc(50% - .4rem);
-      margin-right: .4rem;
-    }
-  }
-
-  .footer-how_i_grade {
-    margin-top: .8rem;
-
-    @media(min-width: $tablet-breakpoint) {
-      width: calc(50% - .2rem);
-      margin-left: .2rem;
-    }
-
-    @media(min-width: $desktop-breakpoint) {
-      width: calc(50% - .4rem);
-      margin-left: .4rem;
-    }
-  }
-
-  > .recent_posts {
-    width: 100%;
-  }
-
-  @media(min-width: $tablet-breakpoint) {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media(min-width: $desktop-breakpoint) {
-    margin: .8rem 0 0;
-  }
+  // margin-top: .8rem;
 }
 
-.footer_header {
-  // letter-spacing: .1rem;
-  margin: 0;
-  padding: 1.2rem .8rem .8rem;
-  // text-transform: uppercase;
-}
-
-.footer-how_i_grade .card_text {
-  line-height: 1.58;
-}
-
-
-
-.footer_links {
+.footer-links {
   display: flex;
   flex-wrap: wrap;
-  font-size: .5rem;
+  font-size: .55rem;
   justify-content: center;
   letter-spacing: 1px;
   padding: 1.6rem .8rem .8rem;
   text-transform: uppercase;
+}
+
+.footer-link {
+  color: rgba(0, 0, 0, .54);
 
   a {
-    padding: 0 .4rem .4rem;
+    padding: 0 .4rem;
+  }
 
-    &:first-child {
-      font-size: .6rem;
-      text-align: center;
-      width: 100%;
+  &:first-child {
+    width: 100%;
+    text-align: center;
+    // font-weight: 600;
+    font-size: .6rem;
+    padding-bottom: .2rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      flex-grow: 1;
+      text-align: left;
+      width: auto;
     }
   }
-
-  @media(min-width: $tablet-breakpoint) {
-    width: 100%;
-  }
 }
+

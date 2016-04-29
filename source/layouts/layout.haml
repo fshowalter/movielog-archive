@@ -61,11 +61,13 @@
             .card_list-item.card
               = partial(:how_i_grade_card_content)
 
-        .footer_links
-          %a{ href: '/' } Frank's Movie Log
-          %a{ href: '/' } Latest Updates
-          %a{ href: '/viewings/', data: { no_carnac: true } } Viewing Log
-          %a{ href: '/features/how-i-grade/' } How I Grade
+        .footer-links
+          %span.footer-link
+            Frank's Movie Log
+          %span.footer-link
+            %a{ href: '/' } Latest Updates
+          %span.footer-link
+            %a{ href: '/viewings/', data: { no_carnac: true } } Viewing Log
 
       - unless development?
         %script{ async: true, src: '//www.google-analytics.com/analytics.js' }

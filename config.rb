@@ -19,6 +19,14 @@ helpers do
     end
   end
 
+  def href_for_post(post)
+    if post.is_a?(Movielog::Review)
+      "/reviews/#{post.slug}/"
+    elsif post.is_a?(Movielog::Feature)
+      "/features/#{post.slug}/"
+    end
+  end
+
   def markdown(source)
     return source if source.blank?
     content = Tilt['markdown'].new(footnotes: true) { source }.render

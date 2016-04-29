@@ -10,10 +10,10 @@
 ![5 stars](5-stars.svg) I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.
 
 * ### a good movie ###
-![4 stars](4-stars.svg) I really liked it. Unless you hate the genre or star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don’t disappoint either. 
+![4 stars](4-stars.svg) I really liked it. Unless you hate the genre or star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don’t disappoint either.
 
 * ### an okay movie ###
-![3 stars](3-stars.svg) I liked it. I wouldn’t recommend it, but I wouldn’t necessarily recommend _against_ it either. Many a summer blockbuster falls into this category. 
+![3 stars](3-stars.svg) I liked it. I wouldn’t recommend it, but I wouldn’t necessarily recommend _against_ it either. Many a summer blockbuster falls into this category.
 
 * ### a bad movie ###
 ![2 stars](2-stars.svg) I didn’t like it. Unless you have a deep-seeded love for the genre or star, avoid it. It wasn’t completely awful, but if I paid money to see it, I felt burned.

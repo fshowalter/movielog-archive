@@ -56,24 +56,14 @@ $review-more-background-color: #f1f1f1;
   }
 }
 
-.review_more_header {
+.review-more_header {
   color: rgba(0, 0, 0, .54);
   font-size: .7rem;
   font-weight: normal;
-  margin-top: .8rem;
+  margin: 1.2rem .8rem 0;
   padding-bottom: 0;
   text-transform: uppercase;
   letter-spacing: .05rem;
-
-  @media(min-width: $tablet-breakpoint) {
-    margin-left: .4rem;
-    margin-right: .4rem;
-  }
-
-  @media(min-width: $desktop-breakpoint) {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 .review_more_list {
@@ -109,4 +99,8 @@ $review-more-background-color: #f1f1f1;
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+.review-meta_title {
+  font-weight: 600;
 }

@@ -5,12 +5,12 @@
   - if next_post
     .post_navigation-item
       %h2.post_navigation-header_next
-        Next Post
+        %a{ href: href_for_post(next_post) } Next Post
       .card
         = card_content_for_post(next_post)
   - if prev_post
     .post_navigation-item
       %h2.post_navigation-header_prev
-        Prev Post
+        %a{ href: href_for_post(prev_post) } Prev Post
       .card
         = card_content_for_post(prev_post)
