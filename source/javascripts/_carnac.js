@@ -197,10 +197,10 @@
       }
 
       if (element.hasAttribute('data-carnac')) {
-        href = element.querySelector('a').href;
-      } else {
-        href = element.href;
+        return element.dataset.carnac;
       }
+
+      href = element.href;
 
       if (href.indexOf(domain + '/') !== 0
           || (href.indexOf('#') > -1 && removeHash(href) === $currentLocationWithoutHash)) {

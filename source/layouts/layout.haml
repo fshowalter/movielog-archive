@@ -54,20 +54,11 @@
       %footer.footer
         = yield_content(:footer) if content_for?(:footer)
 
-        - unless content_for?(:no_footer_cards)
-          .card_list
-            .card_list-item.card
-              = partial(:about_card_content)
-            .card_list-item.card
-              = partial(:how_i_grade_card_content)
-
         .footer-links
           %span.footer-link
-            Frank's Movie Log
+            %a{ href: '/' } Viewing Log
           %span.footer-link
-            %a{ href: '/' } Latest Updates
-          %span.footer-link
-            %a{ href: '/viewings/', data: { no_carnac: true } } Viewing Log
+            %a{ href: '/' } About
 
       - unless development?
         %script{ async: true, src: '//www.google-analytics.com/analytics.js' }

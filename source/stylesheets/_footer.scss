@@ -1,5 +1,12 @@
 .footer {
-  // margin-top: .8rem;
+  display: none;
+  border-top: 1px solid rgba(0,0,0,.15);
+  padding: .4rem 0 2rem;
+  margin: 1.2rem .8rem;
+
+   @media(min-width: $tablet-breakpoint) {
+    margin: 1.2rem;
+   }
 }
 
 .footer-links {
@@ -8,7 +15,6 @@
   font-size: .55rem;
   justify-content: center;
   letter-spacing: 1px;
-  padding: 1.6rem .8rem .8rem;
   text-transform: uppercase;
 }
 
@@ -20,17 +26,7 @@
   }
 
   &:first-child {
-    width: 100%;
-    text-align: center;
-    // font-weight: 600;
-    font-size: .6rem;
-    padding-bottom: .2rem;
-
-    @media(min-width: $tablet-breakpoint) {
-      flex-grow: 1;
-      text-align: left;
-      width: auto;
-    }
+    flex-grow: 1;
   }
 }
 

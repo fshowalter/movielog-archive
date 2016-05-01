@@ -19,7 +19,7 @@ $card-divider-color: #eee;
   }
 }
 
-.card-header_backdrop {
+.card-media {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -37,17 +37,17 @@ $card-divider-color: #eee;
   }
 }
 
-.card-header_title {
+.card-title {
   padding: .8rem .8rem 0;
   display: block;
   font-size: 1.15rem;
   font-family: 'Khula', $font-system;
   font-weight: 900;
-  line-height: 1.6rem;
+  line-height: unset;
   margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  // white-space: nowrap;
   width: 100%;
 
   a {

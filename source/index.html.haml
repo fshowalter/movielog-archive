@@ -22,14 +22,15 @@ pagination:
       = card_content_for_post(posts[key])
 
 .pagination
-  - if pagination.prev_page
-    %a.pagination-newer{ href: pagination.prev_page.url}
-      Newer
-  - else
-    %span
+  .pagination-wrap
+    - if pagination.prev_page
+      %a.pagination-newer{ href: pagination.prev_page.url}
+        Newer
+    - else
+      %span
 
-  - if pagination.next_page
-    %a.pagination-older{ href: pagination.next_page.url }
-      Older
-  - else
-    %span
+    - if pagination.next_page
+      %a.pagination-older{ href: pagination.next_page.url }
+        Older
+    - else
+      %span
