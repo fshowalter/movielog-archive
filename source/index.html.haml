@@ -9,13 +9,17 @@ pagination:
   unless pagination.page_num == 1
     content_for(:title, "Page - #{pagination.page_num}")
   end
+  content_for(:content_class, 'footer-padding')
 
 - content_for(:head) do
   - if pagination.prev_page
     %link{ href: "https://www.franksmovielog.com#{pagination.prev_page.url}", rel: 'prev' }
   - if pagination.next_page
     %link{ href: "https://www.franksmovielog.com#{pagination.next_page.url}", rel: 'next' }
-
+%h1.section_header
+  %span Latest Updates
+  - unless pagination.page_num == 1
+    %span= " Page #{pagination.page_num} of #{pagination.total_page_num}"
 %ol.card_list
   - pagination.each do |key|
     %li.card.card_list-item

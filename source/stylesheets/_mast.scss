@@ -18,6 +18,20 @@ $mast-search-breakpoint: 63.625em;
   width: 100%;
   z-index: 10000;
 
+  // background-color: #fff;
+  //   color: rgba(0, 0, 0, .87);
+
+  // @media(min-width: $desktop-breakpoint) {
+  //   box-shadow: 0 0 1px rgba(0,0,0,.15);
+  //   background-color: #fff;
+  //   color: rgba(0, 0, 0, .87);
+  // }
+
+}
+
+.mast-wrap {
+
+  position: relative;
 }
 
 .mast__title {
@@ -31,12 +45,23 @@ $mast-search-breakpoint: 63.625em;
 
   @media(min-width: $tablet-breakpoint) {
     padding: 0 1.2rem;
+    line-height: 2.8rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    line-height: 3.2rem;
   }
 }
 
 .mast__title-link {
   color: $mast-foreground-color;
   display: inline-block;
+
+  // color: rgba(0, 0, 0, .9);
+
+  // @media(min-width: $desktop-breakpoint) {
+  //   color: rgba(0, 0, 0, .87);
+  // }
 }
 
 .mast__search-form {
@@ -49,6 +74,14 @@ $mast-search-breakpoint: 63.625em;
 
   &.js-toggle_off {
     width: 0;
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    height: 2.7rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    height: 3.1rem;
   }
 }
 
@@ -75,8 +108,15 @@ $mast-search-breakpoint: 63.625em;
   width: 4rem;
   z-index: 1000;
 
+  // color: $highlight;
+
   @media(min-width: $tablet-breakpoint) {
     margin-right: .4rem;
+    height: 2.7rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    height: 3.1rem;
   }
 }
 
@@ -97,6 +137,20 @@ $mast-search-breakpoint: 63.625em;
     position: absolute;
     top: .5rem;
     width: 1.5rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      top: .65rem;
+      left: .8rem;
+      border-right-width: 4.8rem;
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+      top: .85rem;
+    }
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    border-right-width: 5.6rem;
   }
 }
 
@@ -119,10 +173,19 @@ $mast-search-breakpoint: 63.625em;
     font-family: $font-system;
     font-size: .65rem;
     line-height: auto;
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
 
   &:hover {
     border-color: rgba(85, 119, 153, .85);
+  }
+
+  @media(min-width: $tablet-breakpoint) {
+    height: 2.8rem;
+    padding-left: 2.6rem;
+  }
+
+  @media(min-width: $desktop-breakpoint) {
+    height: 3.2rem;
   }
 }

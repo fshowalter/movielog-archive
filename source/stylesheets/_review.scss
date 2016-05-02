@@ -66,38 +66,93 @@ $review-more-background-color: #f1f1f1;
   letter-spacing: .05rem;
 }
 
-.review_more_list {
-  margin: 0 .4rem .8rem;
-
-  .card {
-    @media(min-width: $tablet-breakpoint) {
-      &.half {
-        width: calc(50%);
-      }
-
-      &.half:first-child {
-        width: calc(50%);
-        border-right: 1px solid $recent-posts-border-color;
-
-        .card_backdrop {
-          margin-right: .35rem;
-        }
-      }
-
-      &.half:last-child {
-        width: calc(50%);
-        border-right: 0;
-
-        .card_backdrop {
-          margin-right: .4rem;
-        }
-      }
-    }
-  }
+.review-more_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 .8rem .1rem;
+  list-style-type: none;
+  justify-content: space-between;
 
   @media(min-width: $desktop-breakpoint) {
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 1.2rem;
+    margin-top: .8rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    -webkit-overflow-scrolling: none;
+  }
+
+  @media(min-width: $max-breakpoint) {
+    padding: 0;
+  }
+
+  .review-more_list-item {
+    min-width: 75vw;
+    margin-right: .8rem;
+
+    @media(min-width: $tablet-breakpoint) {
+      min-width: 45vw;
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+      margin-top: .8rem;
+      min-width: 0;
+      margin-right: 0;
+      width: 32%;
+
+      &:only-child,
+      &:first-child:nth-last-child(n) ~ li {
+        margin-top: 0;
+        flex-direction: row;
+        width: 100%;
+
+        .card-title {
+          font-size: 2rem;
+          line-height: normal;
+          margin-bottom: .2rem;
+        }
+
+        .card-header_grade {
+          width: 6rem;
+        }
+
+        .card-media_wrap {
+          width: 66.6666%;
+        }
+
+        .card-content_wrap {
+          width: 33.333%;
+          padding: 0 .4rem;
+          display: block;
+        }
+      }
+
+      /* two items */
+      &:first-child:nth-last-child(2),
+      &:first-child:nth-last-child(2) ~ li {
+        width: 49%;
+      }
+
+      /* three items */
+      &:first-child:nth-last-child(3),
+      &:first-child:nth-last-child(3) ~ li {
+        width: 33.3333%;
+      }
+
+      /* four items */
+      &:first-child:nth-last-child(4),
+      &:first-child:nth-last-child(4) ~ li {
+        width: 25%;
+      }
+
+      /* five items */
+      &:first-child:nth-last-child(5) ~ li {
+        width: 49%;
+      }
+    }
   }
 }
 

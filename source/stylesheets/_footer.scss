@@ -1,11 +1,19 @@
 .footer {
-  display: none;
+  // display: none;
   border-top: 1px solid rgba(0,0,0,.15);
-  padding: .4rem 0 2rem;
-  margin: 1.2rem .8rem;
+  padding: .4rem 0 0;
+  margin: 1.2rem .8rem .8rem;
 
    @media(min-width: $tablet-breakpoint) {
     margin: 1.2rem;
+   }
+
+   @media(min-width: $max-breakpoint) {
+    margin: 1.2rem 0;
+   }
+
+   .footer-padding & {
+    padding-bottom: 2.2rem;
    }
 }
 

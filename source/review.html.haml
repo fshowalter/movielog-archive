@@ -60,11 +60,11 @@
 - unless more_for_cast.empty?
   - more_for_cast.each do |performer, titles|
     - next unless titles.length > 1
-    %h2.review-more_header
+    %h2.section_header
       More with #{performer.first_name} #{performer.last_name}
-    %ul.card_list
+    %ul.review-more_list
       - titles.each do |title|
-        %li.card.card_list-item{ class: "#{'half' if titles.length == 2 }"}
+        %li.card.review-more_list-item
           = partial(:review_card_content, locals: { review: Movielog.reviews_by_title[title] })
 
 - content_for(:footer) do
