@@ -11,6 +11,42 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def person_slug(person)
+    Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
+  end
+
+  def array_window(array, size, center, even_size_resolution = :prioritize_greater)
+    return [] if size <= 0
+    return [array[center]] if size == 1
+    return array if size >= array.length
+
+    closest_limit = ->(size, index) {
+      return 0 if index < 0
+      return size - 1 if index >= size
+      index }
+    array_closest_limit = closest_limit.curry[array.length]
+
+    center = array_closest_limit[array.find_index(center)]
+
+    lower = array_closest_limit[center - size/2]
+    upper = array_closest_limit[center + size/2]
+    while (lower..upper).count < size
+      lower = array_closest_limit[lower - 1]
+      upper = array_closest_limit[upper + 1]
+    end
+
+    return array.slice(lower..upper) if (lower..upper).count == size
+
+    case even_size_resolution
+    when :prioritize_greater
+      return array.slice((lower + 1)..upper)
+    when :prioritize_lower
+      return array.slice(lower..(upper - 1))
+    else
+      raise ArgumentError, "#{even_size_resolution} is not a known resolution mechanism"
+    end
+  end
+
   def card_content_for_post(post)
     if post.is_a?(Movielog::Review)
       partial(:review_card_content, locals: { review: post })

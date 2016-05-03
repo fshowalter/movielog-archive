@@ -19,6 +19,12 @@ $card-divider-color: #eee;
   }
 }
 
+.card-content_wrap {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
 .card-media {
   background-repeat: no-repeat;
   background-size: cover;

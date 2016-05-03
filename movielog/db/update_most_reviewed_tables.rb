@@ -12,11 +12,25 @@ module Movielog
         # @param reviews [Enumerable] The reviews.
         # @return [void]
         def call(db:, reviews:)
-          CreateMostReviewedTables.call(db: db)
+          db.execute_batch(reviews_table_schema)
           insert_reviews(db: db, reviews: reviews)
+
+          CreateMostReviewedTables.call(db: db)
         end
 
         private
+
+        def reviews_table_schema
+          <<-SQL
+          DROP TABLE IF EXISTS "reviews";
+          CREATE TABLE "reviews" (
+            "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+            "title" varchar(255) NOT NULL,
+            "date" date NOT NULL,
+            CONSTRAINT fk_reviews_title FOREIGN KEY ("title") REFERENCES "movies" ("title"));
+          CREATE INDEX "index_reviews_on_title" ON "reviews" ("title");
+          SQL
+        end
 
         def insert_reviews(db:, reviews:)
           progress = progress_bar(title: 'inserting reviews', length: reviews.length)

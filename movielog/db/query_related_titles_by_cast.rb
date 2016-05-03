@@ -34,7 +34,7 @@ module Movielog
         def reviewed_performer?(db:, performer_full_name:)
           @reviewed_performers ||= begin
             db.results_as_hash = true
-            db.prepare('SELECT * FROM most_reviewed_performers')
+            db.prepare('SELECT * FROM most_reviewed_performers WHERE review_count > 4')
               .execute
               .each_with_object({}) do |row, a|
                 a[row['full_name']] = OpenStruct.new(row)
@@ -46,7 +46,7 @@ module Movielog
 
         def review_titles_for_performer(db:, title:, performer:)
           db.results_as_hash = true
-          review_titles = review_titles_for_performer_query(db: db).execute(performer, title)
+          review_titles = review_titles_for_performer_query(db: db).execute(performer)
           review_titles.map do |review_title|
             review_title['title']
           end
@@ -59,7 +59,6 @@ module Movielog
                 INNER JOIN performance_credits ON reviews.title = performance_credits.title
                 INNER JOIN movies on reviews.title = movies.title
                 WHERE performance_credits.full_name = ?
-                AND reviews.title != ?
                 ORDER BY movies.year DESC;
             SQL
           )
