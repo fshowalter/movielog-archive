@@ -57,9 +57,10 @@ module Movielog
             <<-SQL
               SELECT reviews.title FROM reviews
                 INNER JOIN performance_credits ON reviews.title = performance_credits.title
+                INNER JOIN movies on reviews.title = movies.title
                 WHERE performance_credits.full_name = ?
                 AND reviews.title != ?
-                ORDER BY reviews.date DESC;
+                ORDER BY movies.year DESC;
             SQL
           )
         end

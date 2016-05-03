@@ -13,7 +13,7 @@ module Movielog
         def call(db: db)
           db.execute_batch(reviews_table_schema)
           db.execute_batch(most_reviewed_schema(
-            type: 'performers', table: 'performance', threshold: 5))
+            type: 'performers', table: 'performance', threshold: 2))
           db.execute_batch(most_reviewed_schema(
             type: 'directors', table: 'direction', threshold: 2))
           db.execute_batch(most_reviewed_schema(
