@@ -61,16 +61,15 @@
   - more_for_cast.each do |performer, titles|
     - next unless titles.length > 4
     - related_titles = array_window(titles, 4, review.title)
-    %h2.section_header
+    %h2.section_header.review-more_list_header
       More with #{performer.first_name} #{performer.last_name}
+      %a.section_header-view_more{ href: "/cast-and-crew/#{person_slug(performer)}/" }
+        View all
     %ul.review-more_list
       - related_titles.each do |title|
         - next if title == review.title
         %li.card.review-more_list-item
           = partial(:review_card_content, locals: { review: Movielog.reviews_by_title[title] })
-      %li.review-more_list-more
-        %a{ href: "/cast-and-crew/#{person_slug(performer)}/" }
-          More with #{performer.first_name} #{performer.last_name}
 
 - content_for(:footer) do
   %script{ type: 'application/ld+json' }

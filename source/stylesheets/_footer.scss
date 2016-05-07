@@ -1,8 +1,8 @@
 .footer {
   // display: none;
-  border-top: 1px solid rgba(0,0,0,.15);
-  padding: .4rem 0 0;
-  margin: 1.2rem .8rem .8rem;
+  border-top: 1px solid #eee;
+  padding: .8rem;
+  margin: 1.2rem 0 0;
 
   @media(min-width: $tablet-breakpoint) {
     margin: 1.2rem;
@@ -16,10 +16,10 @@
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  font-size: .55rem;
+  font-size: .6rem;
   justify-content: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  // letter-spacing: 1px;
+  // text-transform: uppercase;
 }
 
 .footer-link {

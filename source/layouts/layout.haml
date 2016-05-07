@@ -39,17 +39,18 @@
   %body
     .content-container{ class: yield_content(:content_class) }
       %header.mast
-        %h1.mast__title
-          %a.mast__title-link{ href: '/', tabindex: 1 } Frank's Movie Log
-        %button.mast__search-toggle{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
-          Search
-        = form_tag 'https://www.google.com/search', method: :get, class: 'mast__search-form js-toggle js-toggle_off' do
-          = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-          .mast__search-wrap
-            = text_field_tag('q', placeholder: 'Search the Movie Log',
-                                  id: 'mastSearchInput',
-                                  class: 'mast__search-input',
-                                  tabindex: 2)
+        .mast-wrap
+          %h1.mast__title
+            %a.mast__title-link{ href: '/', tabindex: 1 } Frank's Movie Log
+          %button.mast__search-toggle{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
+            Search
+          = form_tag 'https://www.google.com/search', method: :get, class: 'mast__search-form js-toggle js-toggle_off' do
+            = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
+            .mast__search-wrap
+              = text_field_tag('q', placeholder: 'Search the Movie Log',
+                                    id: 'mastSearchInput',
+                                    class: 'mast__search-input',
+                                    tabindex: 2)
       = yield
       %footer.footer
         = yield_content(:footer) if content_for?(:footer)

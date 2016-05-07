@@ -19,6 +19,7 @@ pagination:
 %h1.section_header
   %span Latest Updates
   - unless pagination.page_num == 1
+    %span.section_header-separator= " - "
     %span= " Page #{pagination.page_num} of #{pagination.total_page_num}"
 %ol.card_list
   - pagination.each do |key|

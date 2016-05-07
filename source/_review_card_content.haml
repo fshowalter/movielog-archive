@@ -10,3 +10,6 @@
   .card-actions
     %a{ href: "/reviews/#{review.slug}/", title: "Continue reading #{review.display_title.upcase}" }
       Continue reading
+    %span.card-date
+      = review.date.strftime('%b %-d, %Y')
+

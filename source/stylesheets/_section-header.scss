@@ -2,12 +2,13 @@
   color: rgba(0, 0, 0, .54);
   font-size: .7rem;
   font-weight: normal;
-  margin: .8rem .8rem 0;
+  padding: .8rem .8rem 0;
   padding-bottom: 0;
   text-transform: uppercase;
   letter-spacing: .05rem;
   display: flex;
   justify-content: space-between;
+  // justify-content: center;
 
   @media(min-width: $tablet-breakpoint) {
     text-align: right;
@@ -33,5 +34,30 @@
     //   flex-grow: 1;
     //   margin-left: 1.2rem;
     // }
+  }
+}
+
+.section_header-separator {
+  margin: 0 .3rem;
+  display: none;
+}
+
+.section_header-view_more {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 1.2rem;
+
+  &:after {
+    content: '';
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: encode-svg('<svg fill="#579" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>');
+    background-repeat: no-repeat;
   }
 }

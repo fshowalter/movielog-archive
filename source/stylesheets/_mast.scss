@@ -1,13 +1,14 @@
-$mast-background-color: #111110;
+$mast-background-color: #fff;
 $mast-breakpoint: 32em;
-$mast-foreground-color: #fff;
+$mast-foreground-color: #000;
 $mast-search-background-color: #f1f1f1;
 $mast-search-breakpoint: 63.625em;
 
 .mast {
-  @include base-container;
+  // @include base-container;
   background-color: $mast-background-color;
   box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.12);
   color: $mast-foreground-color;
   left: 0;
   letter-spacing: 1px;
@@ -30,7 +31,8 @@ $mast-search-breakpoint: 63.625em;
 }
 
 .mast-wrap {
-
+  max-width: 64rem;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -42,6 +44,8 @@ $mast-search-breakpoint: 63.625em;
   margin: 0;
   order: 1;
   padding: 0 .8rem;
+  width: 100%;
+  text-align: left;
 
   @media(min-width: $tablet-breakpoint) {
     padding: 0 1.2rem;
@@ -49,7 +53,7 @@ $mast-search-breakpoint: 63.625em;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    line-height: 3.2rem;
+    // line-height: 3.2rem;
   }
 }
 
@@ -81,7 +85,7 @@ $mast-search-breakpoint: 63.625em;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    height: 3.1rem;
+    // height: 3.1rem;
   }
 }
 
@@ -116,7 +120,7 @@ $mast-search-breakpoint: 63.625em;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    height: 3.1rem;
+    // height: 3.1rem;
   }
 }
 
@@ -145,7 +149,7 @@ $mast-search-breakpoint: 63.625em;
     }
 
     @media(min-width: $desktop-breakpoint) {
-      top: .85rem;
+      // top: .85rem;
     }
   }
 
@@ -186,6 +190,6 @@ $mast-search-breakpoint: 63.625em;
   }
 
   @media(min-width: $desktop-breakpoint) {
-    height: 3.2rem;
+    // height: 3.2rem;
   }
 }
