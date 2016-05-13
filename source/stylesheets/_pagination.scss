@@ -3,12 +3,7 @@
   font-size: .7rem;
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background-color: #111110;
+  width: 100%;
   z-index: 100;
 
   // background-color: #fff;
@@ -20,7 +15,14 @@
 }
 
 .pagination {
+  @include base-container;
   // padding-top: 4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: .8rem;
+  background-color: #111110;
 
   @media(min-width: $desktop-breakpoint) {
     // padding-top: 1.8rem;

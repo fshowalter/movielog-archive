@@ -6,9 +6,22 @@ $card-divider-color: #eee;
   background-color: $card-background-color;
   list-style-type: none;
   position: relative;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+  // box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+  // border: 1px solid #ddd;
+  // padding: .75rem;
   display: flex;
   flex-direction: column;
+}
+
+.card-call_out {
+  text-transform: uppercase;
+  font-size: .7rem;
+  color: #999;
+  margin: 0;
+}
+
+.latest_update {
+  margin: .8rem;
 }
 
 .card-header {
@@ -23,6 +36,7 @@ $card-divider-color: #eee;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+  padding: .8rem .4rem;
 }
 
 .card-media {
@@ -44,7 +58,7 @@ $card-divider-color: #eee;
 }
 
 .card-title {
-  padding: .8rem .8rem 0;
+  padding: 0;
   display: block;
   font-size: 1.15rem;
   font-family: 'Khula', $font-system;
@@ -61,7 +75,7 @@ $card-divider-color: #eee;
   }
 
   .card > & {
-    padding: 1.2rem .8rem .8rem;
+    padding: 1.2rem 0 .8rem;
   }
 }
 
@@ -69,7 +83,7 @@ $card-divider-color: #eee;
   display: block;
   height: auto;
   width: 4.5rem;
-  margin-left: .8rem;
+  // margin-left: .1rem;
 
   @media(min-width: $tablet-breakpoint) {
     width: 5rem;
@@ -82,9 +96,9 @@ $card-divider-color: #eee;
   font-size: .7rem;
   font-weight: 300;
   line-height: 1.2rem;
-  padding: .8rem;
-  margin-top: auto;
-  flex-grow: 1;
+  padding: .8rem 0;
+  // margin-top: auto;
+  // flex-grow: 1;
 
   p {
     margin-bottom: .6rem;
@@ -100,7 +114,8 @@ $card-divider-color: #eee;
   font-size: .6rem;
   font-weight: 600;
   line-height: 1.6rem;
-  padding: .4rem .8rem;
+  padding: .4rem 0;
+  // display: none;
 
   a {
     display: inline-block;

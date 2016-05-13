@@ -1,40 +1,41 @@
 ---
 pagination:
   for: posts
-  per_page: 9
+  per_page: 20
   path: page-:num/index
 ---
+
 :ruby
   posts = Movielog.posts
-  unless pagination.page_num == 1
-    content_for(:title, "Page - #{pagination.page_num}")
-  end
-  content_for(:content_class, 'footer-padding')
 
-- content_for(:head) do
-  - if pagination.prev_page
-    %link{ href: "https://www.franksmovielog.com#{pagination.prev_page.url}", rel: 'prev' }
-  - if pagination.next_page
-    %link{ href: "https://www.franksmovielog.com#{pagination.next_page.url}", rel: 'next' }
-%h1.section_header
-  %span Latest Updates
-  - unless pagination.page_num == 1
-    %span= " Page #{pagination.page_num} of #{pagination.total_page_num}"
-%ol.card_list
+- releases = Movielog::Db::QueryRecentReviewedReleases.call(db: Movielog.db)
+.recent_releases-wrap
+  %ol.recent_releases
+    - limit = 0;
+    - releases.each do |release|
+      - break if limit == 3
+      %li.recent_release
+        - review = Movielog.reviews_by_title[release]
+        .card-media{ data: { backdrop: review.backdrop, carnac: "/reviews/#{review.slug}/" } }
+        %a.recent_release-wrap{ href: "/reviews/#{review.slug}/"}
+          %h3.recent_release-title
+            = review.title_without_year
+          = grade_to_image_tag(grade: review.grade, options: { class: 'recent_release-grade' })
+      - limit = limit + 1;
+
+%ol.post_list
   - pagination.each do |key|
-    %li.card.card_list-item
-      = card_content_for_post(posts[key])
+    - post = posts[key]
+    %li.post_list-post
+      %header.post_list-post_header
+        %h3.post_list-post_title
+          %a{ href: "/reviews/#{post.slug}/"}
+            = post.title_without_year
+        = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+        .post_list-post_date
+          = post.date.strftime('%b %-d, %Y')
+      .post_list-post_content_wrap
+        .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+        .post_list-post_content
+          = markdown(post.pull_quote)
 
-.pagination
-  .pagination-wrap
-    - if pagination.prev_page
-      %a.pagination-newer{ href: pagination.prev_page.url}
-        Newer
-    - else
-      %span
-
-    - if pagination.next_page
-      %a.pagination-older{ href: pagination.next_page.url }
-        Older
-    - else
-      %span
