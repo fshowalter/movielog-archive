@@ -24,13 +24,25 @@ $mast-search-breakpoint: 63.625em;
 }
 
 .mast-title {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: bold;
   font-style: normal;
   line-height: 3.1rem;
   margin: 0;
   position: absolute;
   left: .9rem;
+  // text-transform: uppercase;
+
+  a {
+    line-height: 3.1rem;
+    display: block;
+  }
+
+  @media only screen and (min-width: 50em) {
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
 }
 
 .mast-title_link {

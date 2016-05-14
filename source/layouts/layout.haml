@@ -56,11 +56,17 @@
 
         .footer-links
           %span.footer-link
-            %a{ href: '/' } More Reviews &rarr;
+            %a{ href: '/about' } About Site
+          %span.footer-link
+            %a{ href: '/features/how-i-grade' } How I Grade
           %span.footer-link
             %a{ href: '/viewings' } Viewing Log
-          %span.footer-link
-            %a{ href: '/about' } About
+        .footer-links
+          %span.footer-sub_link
+            %a{ href: 'https://twitter.com/FranksMovieLog' } Twitter
+          %span.footer-sub_link
+            %a{ href: '/feed.xml' } RSS
+
 
       - unless development?
         %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
