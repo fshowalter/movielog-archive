@@ -63,9 +63,31 @@ helpers do
     end
   end
 
-  def markdown(source)
+  def markdown(source, inline: false)
     return source if source.blank?
+
     content = Tilt['markdown'].new(footnotes: true) { source }.render
+
+    if inline
+      content.gsub!(/<\/?p>/, '');
+    end
+
+    reviews.values.each do |review|
+      content.gsub!(
+        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
+    end
+
+    content
+  end
+
+  def first_paragraph(source)
+    return source if source.blank?
+
+    source = source.split("\n\n", 2)[0]
+
+    content = Tilt['markdown'].new(footnotes: true) { source }.render
+
+    content.gsub!(/<\/?p>/, '');
 
     reviews.values.each do |review|
       content.gsub!(

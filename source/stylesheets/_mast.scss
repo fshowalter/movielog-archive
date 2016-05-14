@@ -25,7 +25,7 @@ $mast-search-breakpoint: 63.625em;
 
 .mast-title {
   font-size: 1.35rem;
-  font-weight: bold;
+  font-weight: 800;
   font-style: normal;
   line-height: 3.1rem;
   margin: 0;
@@ -34,19 +34,22 @@ $mast-search-breakpoint: 63.625em;
   // text-transform: uppercase;
 
   a {
-    line-height: 3.1rem;
-    display: block;
+    // line-height: 3.1rem;
+    display: inline-block;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: .2rem;
+color: #000;
+color: #fff;
+text-transform: uppercase;
+line-height: 1;
   }
 
-  @media only screen and (min-width: 50em) {
+  // @media only screen and (min-width: 50em) {
     left: 0;
     right: 0;
     text-align: center;
-  }
-}
-
-.mast-title_link {
-  color: #000;
+  // }
 }
 
 .mast-search_button {

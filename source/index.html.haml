@@ -19,8 +19,9 @@ pagination:
         .card-media{ data: { backdrop: review.backdrop, carnac: "/reviews/#{review.slug}/" } }
         %a.recent_release-wrap{ href: "/reviews/#{review.slug}/"}
           %h3.recent_release-title
-            = review.title_without_year
-          = grade_to_image_tag(grade: review.grade, options: { class: 'recent_release-grade' })
+            = markdown(review.pull_quote)
+            / %br
+            / = grade_to_image_tag(grade: review.grade, options: { class: 'recent_release-grade' })
       - limit = limit + 1;
 .page_wrap
   .main
@@ -31,15 +32,16 @@ pagination:
           %header.post_list-post_header
             %h3.post_list-post_title
               %a{ href: "/reviews/#{post.slug}/"}
-                = post.title_without_year
-            = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+                = markdown(truncate_words(post.pull_quote, length: 20), inline: true)
             .post_list-post_date
               = post.date.strftime('%b %-d, %Y')
 
           .post_list-post_content_wrap
-            .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+            .post_list-post_backdrop-wrap
+              .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
             .post_list-post_content
-              = markdown(post.pull_quote)
+              = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+              = first_paragraph(post.content)
     .more-wrap
       .more-header
         More from Frank's Movie Log
@@ -54,7 +56,7 @@ pagination:
             .more-post_list_post_backdrop{ data: { backdrop: review.backdrop, carnac: "/reviews/#{review.slug}/" } }
             %a.more-post_list_post_wrap{ href: "/reviews/#{review.slug}/"}
               %h3.more-post_list_post_title
-                = review.title_without_year
+                = markdown(truncate_words(review.pull_quote, length: 20), inline: true)
               = grade_to_image_tag(grade: review.grade, options: { class: 'more-post_list_post_grade' })
 
       - if pagination.next_page
