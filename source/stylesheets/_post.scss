@@ -4,8 +4,10 @@ $post-slug-border-color: #eee;
 
 .post {
   background-color: $post-background-color;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+  // box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
   line-height: 1.3rem;
+  max-width: 40rem;
+  padding-top: 1.75rem;
 
   .recent_posts_list:last-child {
     border-bottom: 0;
@@ -31,7 +33,6 @@ $post-slug-border-color: #eee;
 
 .post_title {
   color: $post-title-color;
-  font-family: 'Khula', $font-system;
   font-size: 1.4rem;
   font-weight: 900;
   line-height: 1.07;
@@ -49,7 +50,7 @@ $post-slug-border-color: #eee;
   font-family: $serif;
   font-feature-settings: 'kern', 'lnum';
   line-height: 1.35rem;
-  margin: 2rem auto 0;
+  margin: 2rem auto 2rem;
   max-width: 36.6rem;
   padding: 0 1rem;
   font-size: .9rem;

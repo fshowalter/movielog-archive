@@ -22,83 +22,112 @@
   %meta{ name: 'twitter:description', content: description }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
-%article.post
-  - if review.backdrop
-    .post_backdrop{ data: { backdrop: review.backdrop } }
+.page_wrap
+  .main
+    %article.post
+      %h2.review-pull_quote= inline_markdown(review.pull_quote)
+      - if review.backdrop
+        .post_backdrop{ data: { backdrop: review.backdrop } }
 
-  %h1.post_title= review.display_title
+      / %h1.post_title= review.display_title
 
-  - if aka_titles.any?
-    %dl.review_aka_list
-      %dt.review_aka_list-heading aka
-      - aka_titles.each do |aka_title|
-        %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
+      = grade_to_image_tag(grade: review.grade, options: { class: 'review_rating' })
 
-  = grade_to_image_tag(grade: review.grade, options: { class: 'review_rating' })
+      .post_content
+        = markdown(review.content)
+      / %p.post_slug
+      /   %span.review-meta_title
+      /     = review.title_without_year
+      /   = " (#{review.year})"
+      /   %span.abbreviation
+      /     = ' D'
+      /   %span.full
+      /     irected by
+      /   = " #{director_slug}. "
+      /   %span.full
+      /     Starring
+      /   = " #{headline_cast(title: review.title)}. Reviewed on #{review.date.strftime('%b %-d, %Y')}. I've seen it "
+      /   %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
+      /     = "#{pluralize(viewings.length, 'time')}. "
+      /   = "More at the "
+      /   %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
+      /     IMDb
+      /   = "."
+      - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
 
-  .post_content
-    = markdown(review.content)
-  %p.post_slug
-    %span.review-meta_title
-      = review.title_without_year
-    = " (#{review.year})"
-    %span.abbreviation
-      = ' D'
-    %span.full
-      irected by
-    = " #{director_slug}. "
-    %span.full
-      Starring
-    = " #{headline_cast(title: review.title)}. Reviewed on #{review.date.strftime('%b %-d, %Y')}. I've seen it "
-    %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
-      = "#{pluralize(viewings.length, 'time')}. "
-    = "More at the "
-    %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
-      IMDb
-    = "."
-    - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
-- unless more_for_cast.empty?
-  - more_for_cast.each do |performer, titles|
-    - next unless titles.length > 4
-    - related_titles = array_window(titles, 4, review.title)
-    %h2.section_header
-      More with #{performer.first_name} #{performer.last_name}
-    %ul.review-more_list
-      - related_titles.each do |title|
-        - next if title == review.title
-        %li.card.review-more_list-item
-          = partial(:review_card_content, locals: { review: Movielog.reviews_by_title[title] })
-      %li.review-more_list-more
-        %a{ href: "/cast-and-crew/#{person_slug(performer)}/" }
-          More with #{performer.first_name} #{performer.last_name}
+      - unless more_for_cast.empty?
+        - more_for_cast.each do |performer, titles|
+          - next unless titles.length > 3
+          - related_titles = array_window(titles, 4, review.title)
+          .related-wrap
+            %h3.related-header
+              More with #{performer.first_name} #{performer.last_name}
+            %ol.related-post_list
+              - related_titles.each do |title|
+                - next if title == review.title
+                - more_review = Movielog.reviews_by_title[title]
+                %li.related-post_list_post
+                  .related-post_list_post_backdrop{ data: { backdrop: more_review.backdrop, carnac: "/reviews/#{more_review.slug}/" } }
+                  %a.related-post_list_post_wrap{ href: "/reviews/#{more_review.slug}/"}
+                    %h3.related-post_list_post_title
+                      = markdown(truncate_words(more_review.pull_quote, length: 20), inline: true)
+                    = grade_to_image_tag(grade: more_review.grade, options: { class: 'related-post_list_post_grade' })
 
-- content_for(:footer) do
-  %script{ type: 'application/ld+json' }
-    :plain
-      {
-        "@context":"http://schema.org",
-        "@type":"Review",
-        "author":{
-          "@type":"Person",
-          "name":"Frank Showalter",
-          "sameAs":"https://www.frankshowalter.com"
-        },
-        "datePublished":"#{review.date.iso8601}",
-        "description":"#{description}",
-        "inLanguage":"en",
-        "itemReviewed":{
-          "@type":"Movie",
-          "name":"#{review.display_title}",
-          "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
-        },
-        "publisher":{
-          "@type":"Organization",
-          "name":"Frank's Movie Log",
-          "sameAs":"http://www.franksmovielog.com"
-        },
-        "reviewRating":{
-          "@type":"Rating",
-          "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3}
-        }
-      }
+      - content_for(:footer) do
+        %script{ type: 'application/ld+json' }
+          :plain
+            {
+              "@context":"http://schema.org",
+              "@type":"Review",
+              "author":{
+                "@type":"Person",
+                "name":"Frank Showalter",
+                "sameAs":"https://www.frankshowalter.com"
+              },
+              "datePublished":"#{review.date.iso8601}",
+              "description":"#{description}",
+              "inLanguage":"en",
+              "itemReviewed":{
+                "@type":"Movie",
+                "name":"#{review.display_title}",
+                "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
+              },
+              "publisher":{
+                "@type":"Organization",
+                "name":"Frank's Movie Log",
+                "sameAs":"http://www.franksmovielog.com"
+              },
+              "reviewRating":{
+                "@type":"Rating",
+                "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3}
+              }
+            }
+  .sidebar
+    .review-meta_container
+      %img.review-poster{ src: "https://lh3.googleusercontent.com/GrSjCgaT50iGGo1p4r887BQcPS0GPI7p5iYUe7QBoqBo4LY6m4oGdxpQOdjsl-93ZRxMK91AHvGk=w320-no" }
+      %header
+        %h1.review-sidebar_title= review.display_title
+        / = grade_to_image_tag(grade: review.grade, options: { class: 'review-grade' })
+        - if aka_titles.any?
+          %dl.review_aka_list
+            %dt.review_aka_list-heading aka
+            - aka_titles.each do |aka_title|
+              %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
 
+      %dl.review-credits
+        %dt.review-credit_label Directed By
+        - directors.each do |director|
+          %dd.review-credit_value= "#{director.first_name} #{director.last_name}"
+        %dt.review-credit_label Starring
+        - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
+          %dd.review-credit_value= "#{person.first_name} #{person.last_name}"
+        %p.review-slug
+          = "Published on "
+          = review.date.strftime('%b %-d, %Y')
+          = ". I've seen it "
+          %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
+            = "#{pluralize(viewings.length, 'time')}. "
+          = "More at the "
+          %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
+            IMDb
+          = "."

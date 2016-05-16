@@ -80,6 +80,21 @@ helpers do
     content
   end
 
+  def inline_markdown(source)
+    return source if source.blank?
+
+    content = Tilt['markdown'].new(footnotes: true) { source }.render
+
+    content.gsub!(/<\/?p>/, '');
+
+    reviews.values.each do |review|
+      content.gsub!(
+        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
+    end
+
+    content
+  end
+
   def first_paragraph(source)
     return source if source.blank?
 
