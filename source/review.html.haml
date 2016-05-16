@@ -25,9 +25,10 @@
 .page_wrap
   .main
     %article.post
-      %h2.review-pull_quote= inline_markdown(review.pull_quote)
+      %h1.post-title= inline_markdown(review.pull_quote)
       - if review.backdrop
-        .post_backdrop{ data: { backdrop: review.backdrop } }
+        .post-backdrop_wrap
+          .post_backdrop{ data: { backdrop: review.backdrop } }
 
       / %h1.post_title= review.display_title
 
@@ -104,7 +105,8 @@
             }
   .sidebar
     .review-meta_container
-      %img.review-poster{ src: "https://lh3.googleusercontent.com/GrSjCgaT50iGGo1p4r887BQcPS0GPI7p5iYUe7QBoqBo4LY6m4oGdxpQOdjsl-93ZRxMK91AHvGk=w320-no" }
+      -if review.poster
+        %img.review-poster{ src: review.poster }
       %header
         %h1.review-sidebar_title= review.display_title
         / = grade_to_image_tag(grade: review.grade, options: { class: 'review-grade' })
@@ -121,13 +123,13 @@
         %dt.review-credit_label Starring
         - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
           %dd.review-credit_value= "#{person.first_name} #{person.last_name}"
-        %p.review-slug
-          = "Published on "
-          = review.date.strftime('%b %-d, %Y')
-          = ". I've seen it "
-          %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
-            = "#{pluralize(viewings.length, 'time')}. "
-          = "More at the "
-          %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
-            IMDb
-          = "."
+      %p.review-slug
+        = "Published on "
+        = review.date.strftime('%b %-d, %Y')
+        = ". I've seen it "
+        %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
+          = "#{pluralize(viewings.length, 'time')}. "
+        = "More at the "
+        %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
+          IMDb
+        = "."

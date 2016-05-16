@@ -46,7 +46,7 @@ $review-more-background-color: #f1f1f1;
 .review_rating {
   display: block;
   height: 1.2rem;
-  margin: 1.6rem auto 2rem;
+  margin: 1.2rem auto;
   width: 6rem;
 
   @media (min-width: $tablet-breakpoint) {
@@ -155,27 +155,28 @@ $review-more-background-color: #f1f1f1;
 }
 
 .review-meta_container {
-  background-color: #fafafa;
-  border: 1px solid rgba(223,223,233,0.5);
-  border-radius: 5px;
-  padding: 1.55rem .9rem 0;
+  // background-color: #fafafa;
+  // border: 1px solid rgba(223,223,233,0.5);
+  // border-radius: 5px;
+  padding: 1.55rem 0 0;
 
   @media only screen and (min-width: 37.5em) {
     width: 46%;
   }
 
   @media only screen and (min-width: 64em) {
-    max-width: 17rem;
+    max-width: 14.5rem;
     margin: 1.75rem auto;
     width: 100%;
   }
 }
 
 .review-poster {
-  margin: 0;
-  width: 100%;
+  // margin: 0;
+  // width: 100%;
   display: block;
   margin-bottom: .75rem;
+  // margin: 0 .9rem .75rem;
 }
 
 .review-sidebar_title {
@@ -184,11 +185,14 @@ $review-more-background-color: #f1f1f1;
   font-size: 1rem;
   // text-align: center;
   display: block;
+  padding: 0;
 }
 
 .review-credits {
   // max-width: 13rem;
   margin: 0 auto;
+  padding: 0 0 1rem;
+  border-bottom: solid 1px #eaeaea;
 }
 
 .review-grade {
@@ -209,6 +213,8 @@ $review-more-background-color: #f1f1f1;
   font-family: $font-heading;
   font-weight: normal;
   color: #333;
+  // border-top: 1px solid #eaeaea;
+  // padding: 10px 40px 10px 20px;
 }
 
 .review-slug {
@@ -219,10 +225,10 @@ $review-more-background-color: #f1f1f1;
   line-height: 1.45;
   margin: 0 auto;
   max-width: 33rem;
-  padding: .8rem .8rem 2rem;
+  padding: .75rem 0 1rem;
 
   @media(min-width: $tablet-breakpoint) {
-    padding-left: 0;
-    padding-right: 0;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
