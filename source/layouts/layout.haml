@@ -42,14 +42,15 @@
         .mast
           %h1.mast-title
             %a.mast-title_link{ href: '/', tabindex: 1 } Frank's Movie Log
-          %button.mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
-            Search
           = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
             = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-            = text_field_tag('q', placeholder: 'Search the Movie Log',
+            .mast-search_input_wrap
+              = text_field_tag('q', placeholder: 'What are you looking for?',
                                     id: 'mastSearchInput',
                                     class: 'mast-search_input',
                                     tabindex: 2)
+          %button.mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
+            Search
       = yield
       %footer.footer
         = yield_content(:footer) if content_for?(:footer)
@@ -86,15 +87,6 @@
               true
             );
           });
-      :javascript
-        (function(d) {
-          var config = {
-            kitId: 'que3mqa',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
 
       = javascript_include_tag('application.js', async: :async )
 

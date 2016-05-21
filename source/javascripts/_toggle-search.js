@@ -16,7 +16,7 @@
       toggle.setAttribute('aria-expanded', false);
 
       Gator(menu).on('transitionend', function handleTransitionEnd(event) {
-        if (event.propertyName === 'width' || event.propertyName === 'opacity') {
+        if (event.propertyName === 'opacity') {
           Gator(this).off('transitionend');
           this.classList.remove('js-toggling');
           toggle.innerHTML = toggle.getAttribute('data-toggle-label');
@@ -35,7 +35,7 @@
       toggle.setAttribute('aria-expanded', true);
 
       Gator(menu).on('transitionend', function handleTransitionEnd(event) {
-        if (event.propertyName === 'width' || event.propertyName === 'opacity') {
+        if (event.propertyName === 'opacity') {
           Gator(this).off('transitionend');
           this.classList.remove('js-toggling');
           toggle.innerHTML = 'Cancel';
@@ -48,7 +48,7 @@
 
     Gator(document).on('click', '[data-toggle]', function handleSearchToggleClick() {
       var menu;
-      menu = this.nextSibling;
+      menu = this.previousSibling;
 
       if (!this.getAttribute('data-toggle-label')) {
         this.setAttribute('data-toggle-label', this.innerHTML);
