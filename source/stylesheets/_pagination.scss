@@ -96,8 +96,8 @@
 
 .related-header {
   color: #000;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: .8rem;
+  font-weight: normal;
   border-bottom: 1px solid #ddd;
   margin: 0 0 .5rem;
   padding-bottom: .2rem;
@@ -135,14 +135,13 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
   margin: 0;
   justify-content: space-between;
 }
 
 .related-post_list_post {
-  padding: 0 .9rem;
-  width: 50%;
+  // padding: 0 .9rem;
+  max-width: 32.2%;
   list-style-type: none;
 
   @media only screen and (min-width: 37.5em) {
@@ -172,15 +171,15 @@
 }
 
 .related-post_list_post_title {
-  font-size: .75rem;
-  font-weight: bold;
+  font-size: .65rem;
+  font-weight: normal;
   line-height: 1.2;
   margin: 0 0 .1rem 0;
-  color: #333;
+  color: #000;
 }
 
 .related-post_list_post_grade {
-  height: .65rem;
+  height: .55rem;
   display: block;
   margin-bottom: .5rem;
 }

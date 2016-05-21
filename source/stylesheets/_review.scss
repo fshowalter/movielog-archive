@@ -2,15 +2,17 @@ $review-directed-by-color: #9a9a9a;
 $review-more-background-color: #f1f1f1;
 
 .review_aka_list {
-  margin: 0 .8rem 0;
-  text-align: center;
+  margin: .5rem .9rem 0;
+  // text-align: center;
+  font-family: $font-heading;
 }
 
 .review_aka_list-heading {
-  color: rgba(0, 0, 0, .3);
-  font-size: .7rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .6rem;
   font-weight: normal;
-  line-height: 1.6rem;
+  // line-height: 1.6rem;
+  text-transform: uppercase;
 
   @media (min-width: $tablet-breakpoint) {
     font-size: .7rem;
@@ -20,8 +22,9 @@ $review-more-background-color: #f1f1f1;
 
 .review_aka_list-item {
   color: rgba(0, 0, 0, .6);
-  font-size: .75rem;
-  line-height: 1.2rem;
+  color: #333;
+  font-size: .8rem;
+  // line-height: 1.2rem;
   margin: 0;
 }
 
@@ -159,6 +162,8 @@ $review-more-background-color: #f1f1f1;
   // border: 1px solid rgba(223,223,233,0.5);
   // border-radius: 5px;
   padding: 1.55rem 0 0;
+  // margin: 0 auto;
+
 
   @media only screen and (min-width: 37.5em) {
     width: 46%;
@@ -175,8 +180,10 @@ $review-more-background-color: #f1f1f1;
   // margin: 0;
   // width: 100%;
   display: block;
-  margin-bottom: .75rem;
-  // margin: 0 .9rem .75rem;
+  // margin-bottom: .75rem;
+  // margin: 0 auto 1rem;
+  max-width: 14.5rem;
+  margin: 0 .9rem 1rem;
 }
 
 .review-sidebar_title {
@@ -185,14 +192,14 @@ $review-more-background-color: #f1f1f1;
   font-size: 1rem;
   // text-align: center;
   display: block;
-  padding: 0;
+  padding: 0 .9rem;
 }
 
 .review-credits {
   // max-width: 13rem;
   margin: 0 auto;
-  padding: 0 0 1rem;
-  border-bottom: solid 1px #eaeaea;
+  padding: 0 .9rem 1rem;
+  // border-bottom: solid 1px #eaeaea;
 }
 
 .review-grade {
@@ -219,13 +226,16 @@ $review-more-background-color: #f1f1f1;
 
 .review-slug {
   color: rgba(0, 0, 0, .4);
-  font-family: $font-system;
-  font-feature-settings: 'kern', 'lnum';
-  font-size: .65rem;
+  color: #666;
+  font-family: $font-heading;
+  // font-feature-settings: 'kern', 'lnum';
+  font-size: .75rem;
   line-height: 1.45;
-  margin: 0 auto;
+  margin: -1px 0 -1px 0;
   max-width: 33rem;
-  padding: .75rem 0 1rem;
+  padding: .75rem .9rem .75rem;
+  background-color: #f5f5f5;
+  border-radius: 3px;
 
   @media(min-width: $tablet-breakpoint) {
     // padding-left: 0;

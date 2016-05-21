@@ -39,10 +39,13 @@ $mast-search-breakpoint: 63.625em;
   font-weight: normal;
   background-color: rgba(0, 0, 0, 0.7);
   padding: .2rem;
-color: #000;
+// color: #000;
 color: #fff;
 text-transform: uppercase;
 line-height: 1;
+  // text-indent: 100%;
+  // overflow-x: hidden;
+
   }
 
   // @media only screen and (min-width: 50em) {
@@ -51,6 +54,7 @@ line-height: 1;
     text-align: center;
   // }
 }
+
 
 .mast-search_button {
   -webkit-appearance: none;
