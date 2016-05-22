@@ -6,11 +6,11 @@ $mast-foreground-color: #000;
 $mast-search-background-color: #f1f1f1;
 $mast-search-breakpoint: 63.625em;
 
-.mast-wrap {
+.mast {
   border-bottom: 1px solid #eaeaea;
 }
 
-.mast {
+.mast-wrap {
   height: 3rem;
   background: rgba(255,255,255,0.99);
   margin-bottom: 0;
@@ -18,11 +18,10 @@ $mast-search-breakpoint: 63.625em;
   width: 100%;
   z-index: 98;
   line-height: 3rem;
-  display: flex;
-  justify-content: flex-end;
   max-width: 1336px;
   margin: 0 auto;
   padding: 0 .9rem;
+  text-align: center;
 }
 
 .mast-title {
@@ -31,45 +30,33 @@ $mast-search-breakpoint: 63.625em;
   font-style: normal;
   line-height: 3.1rem;
   margin: 0;
-  position: absolute;
-  left: .9rem;
-  // text-transform: uppercase;
+}
 
-  a {
-    // line-height: 3.1rem;
-    display: inline-block;
+.mast-title_link {
+  display: inline-block;
   font-weight: normal;
   background-color: rgba(0, 0, 0, 0.7);
   padding: .2rem;
-// color: #000;
-color: #fff;
-text-transform: uppercase;
-line-height: 1;
-  // text-indent: 100%;
-  // overflow-x: hidden;
-
-  }
-
-  // @media only screen and (min-width: 50em) {
-    left: 0;
-    right: 0;
-    text-align: center;
-  // }
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
 }
-
 
 .mast-search_button {
   -webkit-appearance: none;
   background-color: transparent;
   border: 0;
   -webkit-border-fit: border;
+  -webkit-tap-highlight-color: #fff;
   display: block;
   margin: 0;
   z-index: 1000;
   text-indent: 100%;
   overflow: hidden;
   padding: 0;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
   background-color: #fff;
   width: 3rem;
   height: 100%;
@@ -94,13 +81,20 @@ line-height: 1;
 
 .mast-search_form {
   height: 100%;
-  width: 100%;
   z-index: 500;
   opacity: 1;
   transition: opacity .5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 3rem;
 
   &.js-toggle_off {
     opacity: 0;
+  }
+
+  @media only screen and (min-width: 49.94em) {
+    left: .9rem;
   }
 }
 

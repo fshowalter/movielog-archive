@@ -38,8 +38,8 @@
     %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' }
   %body
     .content-container{ class: yield_content(:content_class) }
-      %header.mast-wrap
-        .mast
+      %header.mast
+        .mast-wrap
           %h1.mast-title
             %a.mast-title_link{ href: '/', tabindex: 1 } Frank's Movie Log
           = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
