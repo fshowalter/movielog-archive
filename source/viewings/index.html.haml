@@ -2,52 +2,38 @@
 title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
-- content_for(:no_about_footer, 'true')
-- content_for(:no_how_i_grade_footer, 'true')
-- content_for(:inline_css, 'viewings')
-.page_wrap
+.viewings
   .sidebar
-    .sidebar-container
-      %h2.viewings_header Viewing Log
-      .column
-        .viewings_filters_card.card.card--with_shadow{ data: { filter_controls: true, target: '#viewings' }}
-          %h2.viewings_filters-header Filter and Sort
-          .viewings_filters
-            = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
-            = range_filter(label: 'Year',
-                           attribute: 'data-release-date-year',
-                           min: oldest_year(collection: viewings.values, date_method: :release_date),
-                           max: newest_year(collection: viewings.values, date_method: :release_date))
-            = sort_filter(label: 'Order By',
-                          attribute: 'viewing-date-desc',
-                          target: '#viewings',
-                          options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
-                                    ['Viewing Date (Oldest First)', 'viewing-date-asc'],
-                                    ['Release Date (Newest First)', 'release-date-desc'],
-                                    ['Release Date (Oldest First)', 'release-date-asc'],
-                                    %w(Title sort-title-asc)])
-  .main
-    %ol.column.card.card--with_shadow.viewings_list#viewings
-      - sorted_viewings.each do |key|
-        - viewing = viewings[key]
-        - review = reviews[viewing.title]
-        %li.viewings_list_item{ data_for_viewing(viewing: viewing) }
-          .viewings_list_item-title
-            - if review
-              %a{ href: "/reviews/#{review.slug}/" }
-                = "#{review.display_title}"
-            - else
-              = viewing.display_title
-          %div{ class: "viewings_list_item-slug #{'with-rating' if review}" }
-            = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
-    .column
-      .viewings_see_also.card.card--with_shadow
-        .card_header
-          .card_header-title
-            Metrics
-        %ul.viewings_see_also_list
-          %li.viewings_see_also_list_item
-            %a{ href: "/viewings/most-watched/" }
-              Most Watched
-
-  = javascript_include_tag('filters.js', async: true)
+    .viewings-sidebar_container
+      %h1.sidebar-heading Viewing Log
+      %p.sidebar-content Every movie I've seen since 2012.
+    .viewings-filters_container{ data: { filter_controls: true, target: '#viewings' }}
+      %h2.sidebar-heading Filter and Sort
+      .viewings_filters
+        = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
+        = range_filter(label: 'Year',
+                       attribute: 'data-release-date-year',
+                       min: oldest_year(collection: viewings.values, date_method: :release_date),
+                       max: newest_year(collection: viewings.values, date_method: :release_date))
+        = sort_filter(label: 'Order By',
+                      attribute: 'viewing-date-desc',
+                      target: '#viewings',
+                      options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
+                                ['Viewing Date (Oldest First)', 'viewing-date-asc'],
+                                ['Release Date (Newest First)', 'release-date-desc'],
+                                ['Release Date (Oldest First)', 'release-date-asc'],
+                                %w(Title sort-title-asc)])
+  %ol.viewings_list#viewings
+    - sorted_viewings.each do |key|
+      - viewing = viewings[key]
+      - review = reviews[viewing.title]
+      %li.viewings_list_item{ data_for_viewing(viewing: viewing) }
+        .viewings_list_item-title
+          - if review
+            %a{ href: "/reviews/#{review.slug}/" }
+              = "#{review.display_title}"
+          - else
+            = viewing.display_title
+        %div{ class: "viewings_list_item-slug #{'with-rating' if review}" }
+          = "#{viewing.date.strftime("%A the #{viewing.date.day.ordinalize} of %B %Y")} via #{viewing.venue}."
+= javascript_include_tag('filters.js', async: true)
