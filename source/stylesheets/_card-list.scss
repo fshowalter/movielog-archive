@@ -113,6 +113,7 @@
   margin: 0 auto;
   max-width: 1336px;
   flex-direction: column;
+  width: 100%;
 
   @media only screen and (min-width: 64em) {
     flex-direction: row;
