@@ -44,6 +44,8 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1336px;
+  list-style-type: none;
+
 
   @media only screen and (max-width: 49.94em) and (min-width: 37.5em) {
     width: 170vw;
@@ -59,7 +61,7 @@
   width: 100%;
   position: relative;
   margin-right: 1.05rem;
-  list-style-type: none;
+  display: block;
 
   @media only screen and (min-width: 49.94em) {
     &:last-child {

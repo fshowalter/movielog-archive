@@ -16,12 +16,11 @@ pagination:
       - break if limit == 3
       %li.recent_release
         - review = Movielog.reviews_by_title[release]
-        .card-media{ data: { backdrop: review.backdrop, carnac: "/reviews/#{review.slug}/" } }
-        %a.recent_release-wrap{ href: "/reviews/#{review.slug}/"}
-          %h3.recent_release-title
-            = markdown(review.pull_quote)
-            / %br
-            / = grade_to_image_tag(grade: review.grade, options: { class: 'recent_release-grade' })
+        %a{ href: "/reviews/#{review.slug}/", onclick:"window.ga('send', 'event', 'Index Banner', 'click', 'Index Banner click on #{review.slug}');"}
+          .card-media{ data: { backdrop: review.backdrop, carnac: "/reviews/#{review.slug}/" } }
+          .recent_release-wrap
+            %h3.recent_release-title
+              = markdown(review.pull_quote)
       - limit = limit + 1;
 .page_wrap
   .main
