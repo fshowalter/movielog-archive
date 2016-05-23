@@ -10,7 +10,12 @@ $viewings-card-divider-color: #eee;
   width: 100%;
   flex-grow: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  @media only screen and (min-width: 37.5em) {
+    flex-direction: row;
+  }
 
   // &:after {
   //   clear: both;
@@ -49,16 +54,36 @@ $viewings-card-divider-color: #eee;
   text-transform: uppercase;
 }
 
-.viewings-sidebar_container,
-.viewings-filters_container {
-  padding: 1.55rem .9rem 0;
-  margin: 0 .9rem;
+.viewings-sidebar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   @media only screen and (min-width: 37.5em) {
-    width: 46%;
+    width: 33.5%;
+    border-right: 1px solid #e5e5e5;
+    justify-content: flex-start;
+    padding: 0 .9rem;
   }
 
   @media only screen and (min-width: 64em) {
+    width: 33.5%;
+    border-top: 0;
+  }
+}
+
+.viewings-sidebar_container,
+.viewings-filters_container {
+  padding: 1.55rem .9rem 0;
+
+  @media only screen and (min-width: 37.5em) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media only screen and (min-width: 64em) {
+    padding-left: .9rem;
+    padding-right: .9rem;
     max-width: 18rem;
     width: 100%;
   }
@@ -67,7 +92,28 @@ $viewings-card-divider-color: #eee;
 .viewings-filters_container {
   background: #fafafa;
   border: 1px solid rgba(223,223,233,0.5);
-  border-radius: 5px;
+  border-left-width: 0;
+  border-right-width: 0;
+
+  @media only screen and (min-width: 37.5em) {
+    background: #fff;
+    border: 0;
+  }
+
+
+  @media only screen and (min-width: 64em) {
+    background: #fafafa;
+    border: 1px solid rgba(223,223,233,0.5);
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+
+
+  // @media only screen and (min-width: 37.5em) {
+  //   border-left-width: 1px;
+  //   border-right-width: 1px;
+  //   border-radius: 5px;
+  // }
 }
 
 .viewings_filters {
@@ -108,15 +154,18 @@ $viewings-card-divider-color: #eee;
 .viewings_list {
   margin: 0;
   padding: 0;
-  order: 2;
+  flex-grow: 1;
 
-  @media only screen and (min-width: 49.94em) {
-    padding-right: 1.8rem;
+  @media only screen and (min-width: 37.5em) {
     height: 100%;
     border-left: 1px solid #e5e5e5;
     width: 66.5%;
     left: -1px;
     position: relative;
+  }
+
+  @media only screen and (min-width: 64em) {
+    padding-right: 1.8rem;
   }
 }
 

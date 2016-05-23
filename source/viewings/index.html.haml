@@ -3,10 +3,10 @@ title: Viewing Log
 ---
 - sorted_viewings = viewings.keys.sort.reverse
 .viewings
-  .sidebar
+  .viewings-sidebar
     .viewings-sidebar_container
       %h1.sidebar-heading Viewing Log
-      %p.sidebar-content Every movie I've seen since 2012.
+      %p.sidebar-content I've watched #{viewings.length} movies since 2012.
     .viewings-filters_container{ data: { filter_controls: true, target: '#viewings' }}
       %h2.sidebar-heading Filter and Sort
       .viewings_filters

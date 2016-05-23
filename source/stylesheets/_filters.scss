@@ -20,6 +20,14 @@ $filter-text-box-color: #555;
   padding: 0;
   vertical-align: middle;
   width: 100%;
+
+  @media only screen and (min-width: 37.5em) {
+    background-color: #fff;
+  }
+
+  @media only screen and (min-width: 64em) {
+    background-color: $filter-background-color;
+  }
 }
 
 %numeric {
@@ -27,7 +35,7 @@ $filter-text-box-color: #555;
   background-color: $filter-background-color;
   border: 0;
   box-sizing: content-box;
-  color: rgba(0, 0, 0, .4);
+  color: $filter-text-box-color;
   font-size: .75rem;
   font-family: $font-heading;
   line-height: 1.2rem;
@@ -46,6 +54,14 @@ $filter-text-box-color: #555;
   &.max {
     align-self: flex-start;
     text-align: right;
+  }
+
+  @media only screen and (min-width: 37.5em) {
+    background-color: #fff;
+  }
+
+  @media only screen and (min-width: 64em) {
+    background-color: $filter-background-color;
   }
 }
 
@@ -91,10 +107,18 @@ $filter-text-box-color: #555;
   @extend %text-box;
   font-family: $font-heading;
   background-color: $filter-background-color;
-  color: rgba(0, 0, 0, .7);
+  color: $filter-text-box-color;
   font-size: .75rem;
   text-indent: .01px;
   text-overflow: '';
+
+  @media only screen and (min-width: 37.5em) {
+    background-color: #fff;
+  }
+
+  @media only screen and (min-width: 64em) {
+    background-color: $filter-background-color;
+  }
 }
 
 .filter-range {
@@ -124,6 +148,14 @@ $filter-text-box-color: #555;
   height: 2rem;
   margin: auto .8rem;
   position: relative;
+
+  @media only screen and (min-width: 37.5em) {
+    border-color: #fff;
+  }
+
+  @media only screen and (min-width: 64em) {
+    border-color: $filter-background-color;
+  }
 }
 
 .noUi-handle {
