@@ -14,7 +14,7 @@
 .page_wrap
   .main
     %article.post
-      %h1.post_title{ data: { rhythm: 0 } }= feature.title
+      %h1.post-title{ data: { rhythm: 0 } }= feature.title
 
       - if feature.backdrop
         .post-backdrop_wrap
@@ -24,7 +24,8 @@
         = markdown(feature.content)
 
   .sidebar
-    %p.review-slug
-      %span
-        &ldquo;#{feature.title}&rdquo;
-      = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
+    .review-meta_container
+      %p.feature-slug
+        %span
+          &ldquo;#{feature.title}&rdquo;
+        = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
