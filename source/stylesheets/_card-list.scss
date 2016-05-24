@@ -135,6 +135,8 @@
   @media only screen and (min-width: 64em) {
     width: 66.5%;
     border-left: 1px solid #e5e5e5;
+    position: relative;
+    left: -1px;
     order: 2;
   }
 }
