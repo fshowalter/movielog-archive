@@ -69,7 +69,7 @@
                 - more_review = Movielog.reviews_by_title[title]
                 %li.related-post_list_post
                   .related-post_list_post_backdrop{ data: { backdrop: more_review.backdrop, carnac: "/reviews/#{more_review.slug}/" } }
-                  %a.related-post_list_post_wrap{ href: "/reviews/#{more_review.slug}/"}
+                  %a.related-post_list_post_wrap{ href: "/reviews/#{more_review.slug}/", onclick:"window.ga('send', 'event', 'More With', 'click', 'More with click');"}
                     %h3.related-post_list_post_title
                       = markdown(truncate_words(more_review.pull_quote, length: 20), inline: true)
                     = grade_to_image_tag(grade: more_review.grade, options: { class: 'related-post_list_post_grade' })
