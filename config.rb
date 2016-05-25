@@ -15,6 +15,16 @@ helpers do
     Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
   end
 
+  def cast_and_crew_link(person)
+    name = "#{person.first_name} #{person.last_name}"
+
+    if Movielog.cast_and_crew.key?(person.full_name)
+      return link_to(name, "/cast-and-crew/#{Movielog.cast_and_crew[person.full_name].slug}/")
+    end
+
+    name
+  end
+
   def array_window(array, size, center, even_size_resolution = :prioritize_greater)
     return [] if size <= 0
     return [array[center]] if size == 1
@@ -221,6 +231,11 @@ ready do
   Movielog.features.each do |_id, feature|
     proxy("features/#{feature.slug}.html", 'feature.html',
           locals: { feature: feature, title: "#{feature.title}" }, ignore: true)
+  end
+
+  Movielog.cast_and_crew.each do |_id, person|
+    proxy("cast-and-crew/#{person.slug}.html", 'cast_and_crew.html',
+          locals: { person: person }, ignore: true)
   end
 
   [

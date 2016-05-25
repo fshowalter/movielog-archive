@@ -122,7 +122,7 @@
           %dd.review-credit_value= "#{director.first_name} #{director.last_name}"
         %dt.review-credit_label Starring
         - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
-          %dd.review-credit_value= "#{person.first_name} #{person.last_name}"
+          %dd.review-credit_value= cast_and_crew_link(person)
       %p.review-slug
         = "Published on "
         = review.date.strftime('%b %-d, %Y')

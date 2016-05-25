@@ -65,6 +65,10 @@ module Movielog
       ParseFeatures.call(features_path: features_path) || {}
     end
 
+    def cast_and_crew
+      Movielog::Db::QueryMostReviewedPersons.call(db: Movielog.db)
+    end
+
     def posts
       features.merge(reviews)
     end

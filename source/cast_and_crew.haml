@@ -1,0 +1,67 @@
+---
+---
+:ruby
+  content_for(:title, person.first_name)
+
+.cast_and_crew_page_wrap
+  .cast_and_crew_about
+    .cast_and_crew-about_panel
+      %h1.review-sidebar_title
+        #{person.first_name} #{person.last_name}
+
+  .cast_and_crew_main
+    - if person.direction_credits
+      %h2 Director
+      %ol.post_list
+        - person.direction_credits.each do |title|
+          - post = Movielog.reviews_by_title[title]
+          %li.cast_and_crew_post_list-post
+            %header.post_list-post_header
+              %h3.post_list-post_title
+                %a{ href: "/reviews/#{post.slug}/"}
+                  = post.display_title
+
+            .post_list-post_content_wrap
+              .post_list-post_backdrop-wrap
+                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+              .post_list-post_content
+                = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+                = markdown(post.pull_quote, inline: true)
+
+    - if person.performance_credits
+      %h2 Performer
+      %ol.post_list
+        - person.performance_credits.each do |title|
+          - post = Movielog.reviews_by_title[title]
+          %li.cast_and_crew_post_list-post
+            %header.post_list-post_header
+              %h3.post_list-post_title
+                %a{ href: "/reviews/#{post.slug}/"}
+                  = post.display_title
+                .grade
+                  = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+
+
+            .post_list-post_content_wrap
+              .post_list-post_backdrop-wrap
+                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+              .post_list-post_content
+                = markdown(post.pull_quote, inline: true)
+
+    - if person.writing_credits
+      %h2 Writer
+      %ol.post_list
+        - person.writing_credits.each do |title|
+          - post = Movielog.reviews_by_title[title]
+          %li.cast_and_crew_post_list-post
+            %header.post_list-post_header
+              %h3.post_list-post_title
+                %a{ href: "/reviews/#{post.slug}/"}
+                  = markdown(truncate_words(post.pull_quote, length: 20), inline: true)
+
+            .post_list-post_content_wrap
+              .post_list-post_backdrop-wrap
+                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+              .post_list-post_content
+                = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
+                = markdown(post.pull_quote, inline: true)
