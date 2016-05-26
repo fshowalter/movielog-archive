@@ -30,30 +30,11 @@
         .post-backdrop_wrap
           .post_backdrop{ data: { backdrop: review.backdrop } }
 
-      / %h1.post_title= review.display_title
-
       = grade_to_image_tag(grade: review.grade, options: { class: 'review_rating' })
 
       .post_content
         = markdown(review.content)
-      / %p.post_slug
-      /   %span.review-meta_title
-      /     = review.title_without_year
-      /   = " (#{review.year})"
-      /   %span.abbreviation
-      /     = ' D'
-      /   %span.full
-      /     irected by
-      /   = " #{director_slug}. "
-      /   %span.full
-      /     Starring
-      /   = " #{headline_cast(title: review.title)}. Reviewed on #{review.date.strftime('%b %-d, %Y')}. I've seen it "
-      /   %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
-      /     = "#{pluralize(viewings.length, 'time')}. "
-      /   = "More at the "
-      /   %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
-      /     IMDb
-      /   = "."
+
       - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
 
       - unless more_for_cast.empty?
@@ -109,7 +90,6 @@
         %img.review-poster{ src: review.poster }
       %header
         %h1.review-sidebar_title= review.display_title
-        / = grade_to_image_tag(grade: review.grade, options: { class: 'review-grade' })
         - if aka_titles.any?
           %dl.review_aka_list
             %dt.review_aka_list-heading aka
@@ -119,9 +99,12 @@
       %dl.review-credits
         %dt.review-credit_label Directed By
         - directors.each do |director|
-          %dd.review-credit_value= "#{director.first_name} #{director.last_name}"
+          %dd.review-credit_value= cast_and_crew_link(director)
         %dt.review-credit_label Starring
         - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
+          %dd.review-credit_value= cast_and_crew_link(person)
+        %dt.review-credit_label Written By
+        - MovieDb.writers_for_title(title: review.title, db: Movielog.db).each do |person|
           %dd.review-credit_value= cast_and_crew_link(person)
       %p.review-slug
         = "Published on "

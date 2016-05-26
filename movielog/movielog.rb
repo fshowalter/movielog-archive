@@ -53,6 +53,14 @@ module Movielog
       File.expand_path('../../features/', __FILE__)
     end
 
+    def avatars_path
+      File.expand_path('../../avatars/', __FILE__)
+    end
+
+    def avatars
+      ParseAvatars.call(avatars_path: avatars_path) || {}
+    end
+
     def viewings
       ParseViewings.call(viewings_path: viewings_path) || {}
     end

@@ -2,12 +2,13 @@
 ---
 :ruby
   content_for(:title, "#{person.first_name} #{person.last_name}")
+  avatar = Movielog.avatars[person.slug]
 
 .cast_and_crew_page_wrap
   .cast_and_crew_about
     .cast_and_crew-about_panel
-      - if sitemap.find_resource_by_path("images/avatars/#{person.slug}.jpg")
-        = image_tag("avatars/#{person.slug}.jpg", class: 'cast_and_crew-avatar')
+      - if avatar
+        .cast_and_crew-avatar{ data: { backdrop: avatar.image_url }}
 
       %h1.cast_and_crew-name
         #{person.first_name} #{person.last_name}

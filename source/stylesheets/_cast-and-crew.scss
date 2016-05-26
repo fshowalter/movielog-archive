@@ -5,15 +5,16 @@
   flex-direction: column;
   width: 100%;
 
-  @media only screen and (min-width: 64em) {
+  @media only screen and (min-width: 48em) {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
 .cast_and_crew_about {
-  @media only screen and (min-width: 37.5em) {
+  @media only screen and (min-width: 48em) {
     width: 33.33%;
+    margin: 0 .9rem;
   }
 }
 
@@ -25,6 +26,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 7px;
+  background-size: contain;
 }
 
 .cast_and_crew-name {
@@ -45,13 +47,18 @@
 
 .cast_and_crew-nav {
   background-clip: padding-box;
-  border-radius: 5px;
-  border: 1px solid #eaeaea;
-  max-width: 260px;
+  border-bottom: 1px solid #eaeaea;
   background-color: #fff;
-  margin: 1.5rem auto 0;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+
+  @media only screen and (min-width: 48em) {
+    max-width: 260px;
+    margin: 1.5rem auto 0;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+  }
 }
 
 .cast_and_crew-nav_item {
@@ -73,6 +80,7 @@
   padding: 10px 40px 10px 20px;
   position: relative;
   font-size: .8rem;
+  color: #222;
 
   &:after {
     content: '';
@@ -92,11 +100,16 @@
 
 .cast_and_crew-about_panel {
   background-color: #fafafa;
-  border: 1px solid rgba(223,223,233,0.5);
-  border-radius: 5px;
-  max-width: 260px;
+  border-bottom: 1px solid rgba(223,223,233,0.5);
+
   padding-top: 1rem;
-  margin: 2.3rem auto 0;
+
+  @media only screen and (min-width: 48em) {
+    max-width: 260px;
+    margin: 2.3rem auto 0;
+    border-radius: 5px;
+    border: 1px solid rgba(223,223,233,0.5);
+  }
 }
 
 .cast_and_crew_main {
@@ -104,7 +117,7 @@
   margin-top: 2.3rem;
   margin-bottom: 3rem;
 
-  @media only screen and (min-width: 37.5em) {
+  @media only screen and (min-width: 48em) {
     width: 66.66%;
   }
 }
@@ -113,6 +126,15 @@
   margin: 0 auto;
   padding: 0;
   max-width: 40rem;
+}
+
+.cast_and_crew-read_more {
+  font-size: .75rem;
+  color: #aaa;
+  line-height: 1.25rem;
+  margin-top: .1rem;
+  display: block;
+  font-family: $font-heading;
 }
 
 .cast_and_crew_post_list-post {
@@ -130,21 +152,5 @@
 
   &:last-child:after {
     display: none;
-  }
-
-  @media only screen and (min-width: 37.44em) {
-    // .post_list-post_content_wrap {
-    //   display: flex;
-    // }
-    // .post_list-post_backdrop-wrap {
-    //   width: 33.33%;
-    // }
-    // .post_list-post_content {
-    //   width: 66.67%;
-    //   padding-left: 0;
-    // }
-    // .post_list-post_title {
-    //   font-size: 1.1rem;
-    // }
   }
 }

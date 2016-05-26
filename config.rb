@@ -222,6 +222,14 @@ configure :build do
   activate :gzip
 end
 
+valid_cast_and_crew_slugs = Movielog.cast_and_crew.values.each_with_object([]) do |person, slugs|
+  slugs << person.slug
+end
+
+Movielog.avatars.keys.each do |slug|
+  raise "Invalid avatar slug: #{slug}" unless valid_cast_and_crew_slugs.include?(slug)
+end
+
 ready do
   Movielog.reviews.each do |_id, review|
     proxy("reviews/#{review.slug}.html", 'review.html',
