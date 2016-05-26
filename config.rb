@@ -256,7 +256,8 @@ ready do
     ['page/3', 'page-3/'],
     ['page/4', 'page-4/'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
-    ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/']
+    ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/'],
+    ['performers/robert-mitchum', 'cast-and-crew/robert-mitchum-i/']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
