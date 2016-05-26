@@ -17,21 +17,102 @@
   }
 }
 
+.cast_and_crew-avatar {
+  display: block;
+  height: 5.6rem;
+  width: 5.6rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
+}
+
+.cast_and_crew-name {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: normal;
+  margin: 0 0 1.2rem;
+}
+
+.cast_and_crew-stats {
+  color: #666;
+  text-align: center;
+  margin-bottom: .8rem;
+  line-height: 1.3;
+  font-size: .75rem;
+}
+
+.cast_and_crew-nav {
+  background-clip: padding-box;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  max-width: 260px;
+  background-color: #fff;
+  margin: 1.5rem auto 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.cast_and_crew-nav_item {
+  margin: 0;
+  padding: 0;
+}
+
+.cast_and_crew-section {
+  font-size: .65rem;
+  color: #aaa;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 0;
+}
+
+.cast_and_crew-nav_item_link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 40px 10px 20px;
+  position: relative;
+  font-size: .8rem;
+
+  &:after {
+    content: '';
+    background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048"><path d="M1315 1024q0-13-10-23L839 535q-10-10-23-10t-23 10l-50 50q-10 10-10 23t10 23l393 393-393 393q-10 10-10 23t10 23l50 50q10 10 23 10t23-10l466-466q10-10 10-23z" fill-opacity=".7"/></svg>');
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+  }
+}
+
+.cast_and_crew-nav_item_link + .cast_and_crew-nav_item_link {
+  border-top: 1px solid #eaeaea;
+}
+
 .cast_and_crew-about_panel {
   background-color: #fafafa;
   border: 1px solid rgba(223,223,233,0.5);
   border-radius: 5px;
   max-width: 260px;
-  padding-top: 1.25rem;
-  margin: 0 auto;
+  padding-top: 1rem;
+  margin: 2.3rem auto 0;
 }
 
 .cast_and_crew_main {
   padding: 0 .9rem;
+  margin-top: 2.3rem;
+  margin-bottom: 3rem;
 
   @media only screen and (min-width: 37.5em) {
     width: 66.66%;
   }
+}
+
+.cast_and_crew_post_list {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 40rem;
 }
 
 .cast_and_crew_post_list-post {
@@ -52,18 +133,18 @@
   }
 
   @media only screen and (min-width: 37.44em) {
-    .post_list-post_content_wrap {
-      display: flex;
-    }
-    .post_list-post_backdrop-wrap {
-      width: 33.33%;
-    }
-    .post_list-post_content {
-      width: 66.67%;
-      padding-left: 0;
-    }
-    .post_list-post_title {
-      font-size: 1.1rem;
-    }
+    // .post_list-post_content_wrap {
+    //   display: flex;
+    // }
+    // .post_list-post_backdrop-wrap {
+    //   width: 33.33%;
+    // }
+    // .post_list-post_content {
+    //   width: 66.67%;
+    //   padding-left: 0;
+    // }
+    // .post_list-post_title {
+    //   font-size: 1.1rem;
+    // }
   }
 }

@@ -36,14 +36,20 @@ module Movielog
           person = OpenStruct.new(row)
           full_name = person.full_name
           results[full_name] ||= person
-          results[full_name].slug ||= Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
+          results[full_name].slug ||= Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name} #{person.annotation}")
           results[full_name][table_name] = review_titles_for_person(db: db, table: table_name, full_name: full_name)
+
+          results[full_name][table_name].each do |title|
+            results[full_name].all ||= {}
+            results[full_name].all[title] = title
+          end
+
         end
 
         def name_query(db:, table:)
           db.prepare(
             <<-SQL
-              SELECT people.full_name, people.first_name, people.last_name
+              SELECT people.full_name, people.first_name, people.last_name, people.annotation
                 FROM #{table}
                 INNER JOIN people ON #{table}.full_name = people.full_name
             SQL
