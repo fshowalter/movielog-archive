@@ -12,11 +12,25 @@ module Movielog
         # @param viewings [Enumerable] The viewings.
         # @return [void]
         def call(db:, viewings:)
-          CreateMostWatchedTables.call(db: db)
+          db.execute_batch(viewings_table_schema)
           insert_viewings(db: db, viewings: viewings)
+
+          CreateMostWatchedTables.call(db: db)
         end
 
         private
+
+        def viewings_table_schema
+          <<-SQL
+          DROP TABLE IF EXISTS "viewings";
+          CREATE TABLE "viewings" (
+            "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+            "title" varchar(255) NOT NULL,
+            "date" date NOT NULL,
+            CONSTRAINT fk_viewings_title FOREIGN KEY ("title") REFERENCES "movies" ("title"));
+          CREATE INDEX "index_viewings_on_title" ON "viewings" ("title");
+          SQL
+        end
 
         def insert_viewings(db:, viewings:)
           progress = progress_bar(title: 'inserting viewings', length: viewings.length)

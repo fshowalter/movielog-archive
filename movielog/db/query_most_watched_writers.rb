@@ -25,7 +25,7 @@ module Movielog
         def most_watched_writers_query(db:)
           db.prepare(
             <<-SQL
-              SELECT people.first_name, people.last_name, most_watched_writers.watch_count AS count
+              SELECT people.full_name, people.first_name, people.last_name, most_watched_writers.watch_count AS count
                 FROM most_watched_writers
                 INNER JOIN people ON most_watched_writers.full_name = people.full_name
                 ORDER BY count DESC
