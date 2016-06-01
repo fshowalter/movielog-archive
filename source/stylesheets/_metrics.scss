@@ -2,7 +2,7 @@ $most-watched-divider-color: #eee;
 
 .metrics {
   position: relative;
-  max-width: 1336px;
+  max-width: 1008px;
   margin: 0 auto;
   width: 100%;
   flex-grow: 1;
@@ -10,26 +10,29 @@ $most-watched-divider-color: #eee;
   justify-content: flex-start;
   flex-direction: column;
 
-  @media only screen and (min-width: 37.5em) {
+  @media only screen and (min-width: 48em) {
     flex-direction: row;
+    padding-top: 1.5rem;
   }
 }
 
 .metrics-sidebar {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  margin-top: 1.5rem;
 
-  @media only screen and (min-width: 37.5em) {
-    width: 33.5%;
-    border-right: 1px solid #e5e5e5;
-    justify-content: flex-start;
-    padding: 0 .9rem;
+  @media only screen and (min-width: 48em) {
+    width: 33.33%;
+    margin: 0 .9rem;
   }
+}
 
-  @media only screen and (min-width: 64em) {
-    width: 33.5%;
-    border-top: 0;
+.metrics-main {
+  margin-top: 1.5rem;
+
+  @media only screen and (min-width: 48em) {
+    padding-right: .9rem;
+    padding-left: .9rem;
+    margin-top: 0;
+    width: 66.67%;
   }
 }
 
@@ -56,28 +59,31 @@ $most-watched-divider-color: #eee;
 }
 
 .metrics-title {
-  text-align: center;
-  margin: 0 0 1.2rem;
+  margin: .25rem 0 .8rem;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: normal;
 }
 
 .metrics-panel {
-  background-color: #fafafa;
-  border-bottom: 1px solid rgba(223,223,233,0.5);
-  padding: 1.55rem .9rem 0;
+  // background-color: #fafafa;
+  // border-bottom: 1px solid rgba(223,223,233,0.5);
+  padding: 0 .9rem 0;
 
 
   @media only screen and (min-width: 48em) {
     max-width: 260px;
-    margin: 2.3rem auto 0;
-    border-radius: 5px;
-    border: 1px solid rgba(223,223,233,0.5);
+    margin: 0 auto;
   }
+}
 
-  @media only screen and (min-width: 64em) {
-    padding-left: .9rem;
-    padding-right: .9rem;
-    width: 100%;
-  }
+.metrics-table_heading {
+  font-weight: bold;
+  font-family: $font-heading;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  margin: 0;
+  padding: .5rem 1rem .75rem;
 }
 
 .metrics-category {
@@ -99,22 +105,22 @@ $most-watched-divider-color: #eee;
   font-family: $font-heading;
   font-size: 1.2rem;
   margin: 0;
+
+  // color: rgba(0,0,0,0.5);
+  font-weight: normal;
 }
 
 .metrics-nav {
   background-clip: padding-box;
-  // border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
   background-color: #fff;
   list-style-type: none;
   padding: 0;
   margin: 0;
 
-  // @media only screen and (min-width: 48em) {
-  //   max-width: 260px;
-  //   margin: 1.5rem auto 0;
-  //   border-radius: 5px;
-  //   border: 1px solid #eaeaea;
-  // }
+  @media only screen and (min-width: 48em) {
+    border-bottom: 0;
+  }
 }
 
 .metrics-nav_item {
@@ -214,20 +220,34 @@ $most-watched-divider-color: #eee;
   }
 }
 
-.most_watched_table {
+.metrics-table {
   border-collapse: collapse;
   position: relative;
   font-size: .65rem;
-  width: calc(100% - .8rem);
-  margin-left: .8rem;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-left-width: 0;
+  border-right-width: 0;
+  font-family: $font-heading;
+  margin-bottom: 1.5rem;
+
+  &:last-child {
+    margin-bottom: 3rem;
+  }
+
+  @media only screen and (min-width: 48em) {
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
 
   th {
-    color: rgba(0,0,0, .54);
-    font-size: .6rem;
-    font-weight: 300;
+    color: #aaa;
+    font-size: .75rem;
+    font-weight: normal;
     // height: 2.4rem;
     line-height: 2.8rem;
-    padding: 0 .8rem 0 0;
+    border-bottom: solid 1px #eaeaea;
+    padding: 0 1rem;
     text-align: left;
     vertical-align: bottom;
 
@@ -242,13 +262,14 @@ $most-watched-divider-color: #eee;
     vertical-align: top;
     border-top: 1px solid $most-watched-divider-color;
     border-bottom: 1px solid $most-watched-divider-color;
-    padding: 0 .8rem 0 0;
+    padding: 0 1rem;
     line-height: 2.4rem;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 0;
-    font-weight: 300;
+    font-weight: normal;
+    font-size: .75rem;
 
     &.numeric {
       text-align: right;

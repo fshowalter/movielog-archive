@@ -9,8 +9,7 @@ title: Metrics
     .metrics-panel
       %h1.metrics-title
         Metrics
-      .metrics-avatar
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.57143783569336" height="32" viewBox="0 0 36.57143783569336 32" data-code="61953" data-tags="line-chart"><g fill="#444" transform="scale(0.03125 0.03125)"><path d="M1170.286 877.714v73.143h-1170.286v-877.714h73.143v804.571h1097.143zM1097.143 164.571v248.571q0 12-11.143 16.857t-20.286-4.286l-69.143-69.143-361.714 361.714q-5.714 5.714-13.143 5.714t-13.143-5.714l-133.143-133.143-237.714 237.714-109.714-109.714 334.286-334.286q5.714-5.714 13.143-5.714t13.143 5.714l133.143 133.143 265.143-265.143-69.143-69.143q-9.143-9.143-4.286-20.286t16.857-11.143h248.571q8 0 13.143 5.143t5.143 13.143z" /></g></svg>
+
 
     .metrics-category
       %h2.metrics-category_title
@@ -62,11 +61,7 @@ title: Metrics
         - Movielog::Db::QueryMostWatchedDirectors.call(db: Movielog.db, limit: 5).each do |result|
           %tr
             %td
-              - if cast_and_crew.key?(result.full_name)
-                %a{ href: "/reviews/#{cast_and_crew[result.full_name].slug}/" }
-                  #{result.first_name} #{result.last_name}
-              - else
-                #{result.first_name} #{result.last_name}
+              = cast_and_crew_link(result)
             %td.numeric
               = result.count
 
@@ -82,11 +77,7 @@ title: Metrics
         - Movielog::Db::QueryMostWatchedPerformers.call(db: Movielog.db, limit: 5).each do |result|
           %tr
             %td
-              - if cast_and_crew.key?(result.full_name)
-                %a{ href: "/reviews/#{cast_and_crew[result.full_name].slug}/" }
-                  #{result.first_name} #{result.last_name}
-              - else
-                #{result.first_name} #{result.last_name}
+              = cast_and_crew_link(result)
             %td.numeric
               = result.count
 
@@ -102,10 +93,6 @@ title: Metrics
         - Movielog::Db::QueryMostWatchedWriters.call(db: Movielog.db, limit: 5).each do |result|
           %tr
             %td
-              - if cast_and_crew.key?(result.full_name)
-                %a{ href: "/reviews/#{cast_and_crew[result.full_name].slug}/" }
-                  #{result.first_name} #{result.last_name}
-              - else
-                #{result.first_name} #{result.last_name}
+              = cast_and_crew_link(result)
             %td.numeric
               = result.count
