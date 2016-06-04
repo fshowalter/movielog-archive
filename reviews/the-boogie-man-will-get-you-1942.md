@@ -8,6 +8,7 @@
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-dJJggljS7xI/VWkfZNsyGhI/AAAAAAAACuA/PJrt8EkD7ng/w1000-rj/the-boogie-man-will-get-you-1942.jpg
 :pull_quote: Karloff and Lorre do their best, but _The Boogie Man Will Get You_ wastes their potential.
+:poster: https://lh3.googleusercontent.com/-N6BRWJSUWLb_Ll8B4nsmVvutqtsbwgaKeNazChnZaP-1Ke-0ShgQ93QR5AXpz5dXSRysp05JAln=w290-rj
 ---
 Despite its title, _The Boogie Man Will Get You_ is not a horror movie. It’s a dark comedy in the vein of _Arsenic and Old Lace (1944)_.
 
