@@ -30,14 +30,14 @@ pagination:
         %li.post_list-post
           %header.post_list-post_header
             %h3.post_list-post_title
-              %a{ href: "/reviews/#{post.slug}/"}
+              %a{ href: href_for_post(post) }
                 = markdown(truncate_words(post.pull_quote, length: 20), inline: true)
             .post_list-post_date
               = post.date.strftime('%b %-d, %Y')
 
           .post_list-post_content_wrap
             .post_list-post_backdrop-wrap
-              .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
+              .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: href_for_post(post) } }
             .post_list-post_content
               = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
               = first_paragraph(post.content)
