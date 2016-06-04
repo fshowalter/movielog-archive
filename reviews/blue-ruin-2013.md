@@ -8,6 +8,7 @@
 :grade: B+
 :backdrop: https://lh3.googleusercontent.com/-tLDupSSWpGo/VWkc9fS7iNI/AAAAAAAACtw/aMneYcPoIlA/w1000-rj/blue-ruin-2013.jpg
 :pull_quote: _Blue Ruin_ may not be perfect, but it’s damn close.
+:poster: https://lh3.googleusercontent.com/03ao3iQNrLNMowb8JBItKDN7jEqEHYWv02aOzZt21AuB1Nl0va-RMysV1XKV6CQ6sw1__Fz76Rdu=w290-rj
 ---
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it’s a terrifically tense and visceral experience.
 
