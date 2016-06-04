@@ -8,6 +8,7 @@
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-jzwWS-UIyDQ/VWknnTnwswI/AAAAAAAACvE/0WbrY9npuEs/w1000-rj/stake-land-2010.jpg
 :pull_quote: _Stake Land_ may not be a revelation, but it is a solid entry in the post-apocalyptic horror genre.
+:poster: https://lh3.googleusercontent.com/u5JmQXvsejwz6GOGUl-dY6osgESKzd1thU9LzpfDBsCMZGlyv-dDhRqbKG2d6Np7IA9ERQRBJK2R=w290-rj
 ---
 _Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac, searching for the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as weapons, dropping them out of helicopters into neighboring towns.
 
