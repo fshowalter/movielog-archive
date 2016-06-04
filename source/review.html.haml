@@ -86,36 +86,38 @@
             }
   .sidebar
     .review-meta_container
-      -if review.poster
-        %img.review-poster{ src: review.poster }
-      %header
-        %h1.review-sidebar_title= review.display_title
-        - if aka_titles.any?
-          %dl.review_aka_list
-            %dt.review_aka_list-heading aka
-            - aka_titles.each do |aka_title|
-              %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
-
-      %dl.review-credits
-        %dt.review-credit_label Directed By
-        - directors.each do |director|
-          %dd.review-credit_value= cast_and_crew_link(director)
-        %dt.review-credit_label Starring
-        - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
-          %dd.review-credit_value= cast_and_crew_link(person)
-        %dt.review-credit_label Written By
-        - MovieDb.writers_for_title(title: review.title, db: Movielog.db).each do |person|
-          %dd.review-credit_value= cast_and_crew_link(person)
-      %p.review-slug
-        = "Published on "
-        = review.date.strftime('%b %-d, %Y')
-        = ". I've seen it "
-        %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
-          = "#{pluralize(viewings.length, 'time')}. "
-        = "More at the "
-        %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
-          IMDb
-        = "."
+      .review-meta_container-column
+        -if review.poster
+          %img.review-poster{ src: review.poster }
+        %header
+          %h1.review-sidebar_title= review.display_title
+          - if aka_titles.any?
+            %dl.review_aka_list
+              %dt.review_aka_list-heading aka
+              - aka_titles.each do |aka_title|
+                %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
+      .review-meta_container-column
+        %dl.review-credits
+          %dt.review-credit_label Directed By
+          - directors.each do |director|
+            %dd.review-credit_value= cast_and_crew_link(director)
+          %dt.review-credit_label Starring
+          - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
+            %dd.review-credit_value= cast_and_crew_link(person)
+          %dt.review-credit_label Written By
+          - MovieDb.writers_for_title(title: review.title, db: Movielog.db).each do |person|
+            %dd.review-credit_value= cast_and_crew_link(person)
+      .review-meta_container-column
+        %p.review-slug
+          = "Published on "
+          = review.date.strftime('%b %-d, %Y')
+          = ". I've seen it "
+          %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
+            = "#{pluralize(viewings.length, 'time')}. "
+          = "More at the "
+          %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
+            IMDb
+          = "."
   .post-sharing_footer
     .post-sharing_footer-wrap
       %a.post-sharing_footer-link{ rel: 'nofollow', href: "http://facebook.com/sharer.php?u=#{URI.escape('https://www.franksmovielog.com/reviews/' + review.slug + '/&utm_medium="social_share"&utm_source="facebook"')}", onclick:"window.ga('send', 'event', 'Sharing Bar', 'click', 'Share to Facebook click');"}
