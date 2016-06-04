@@ -8,6 +8,7 @@
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/-V2oeZLmfXdI/VWkks3W599I/AAAAAAAACug/1Bb2Sj9kJfw/w1000-rj/psycho-circus-1967.jpg
 :pull_quote: It’s not a bad movie, but given the talent involved, _Circus of Fear_ is disappointing.
+:poster: https://lh3.googleusercontent.com/yCYLwJWAXELDfdxAfkC_ECXLvPaQf3uM1641Wol1fpcBp4imC_aEgkemlm-pKGufbbs1ZRdksl08=w290-rj
 ---
 _Circus of Fear_ (_Psycho Circus_ here in the US) starts out so promising. An armored car rumbles down a London street. Cut to a man aboard a boat approaching the Tower Bridge. He raises his arm to check the time. Zoom in on his wristwatch. It’s early morning, just after dawn.
 
