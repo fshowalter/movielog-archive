@@ -8,6 +8,7 @@
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-WAcdzwsNCqU/VWj5V9ZXBbI/AAAAAAAACsc/vdRRov6-mb0/w1000-rj/british-intelligence-1940.jpg
 :pull_quote: _British Intelligence_ may be overlong and beset with plot holes, but at least it’s got Karloff.
+:poster: https://lh3.googleusercontent.com/0rLOwMDz1qS05wIJhZPsVrZS3gkENWmbpKpCNSexXmrq9Xawr1YWgNdyD9EfPRknv-NEohZvt9p3=w290-rj
 ---
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. How else to review it? Plot is all it offers.
 

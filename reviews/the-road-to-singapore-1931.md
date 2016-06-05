@@ -8,6 +8,7 @@
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/-zZQCZ7uRJkQ/VWj3-xH47NI/AAAAAAAACr4/TXbNeHmpxsI/w1000-rj/the-road-to-singapore-1931.jpg
 :pull_quote: What makes _The Road to Singapore_ worth watching is William Powell’s performance.
+:poster: https://lh3.googleusercontent.com/WP6YroxApvQKnia0meG575fVwLGn4F9FDyE13o74WRWv2OkwvKHUTpLA5MOWLbQ4hoPMj4G9p-C5=w290-rj
 ---
 _The Road to Singapore_ features a memorable tracking shot. It’s night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera pulls back and up, away from her window and over acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance.
 
@@ -23,6 +24,6 @@ Hugh and Phillipa flirt. Her resolve weakens. Things come to a head when Phillip
 
 The film tries for passionate drama but falls short. Too many characters deliver their lines while staring off at nothing in particular. At least the pre-code script delivers a satisfying, and plausible, ending.
 
-What makes _The Road to Singapore_ worth watching is William Powell’s performance. Despite the tropical locale, Powell exudes the urbane wit and charm that would become his trademark. He ambles through the film, impervious to the mediocre melodrama. Powell doesn’t so much carry the movie as rise above it. 
+What makes _The Road to Singapore_ worth watching is William Powell’s performance. Despite the tropical locale, Powell exudes the urbane wit and charm that would become his trademark. He ambles through the film, impervious to the mediocre melodrama. Powell doesn’t so much carry the movie as rise above it.
 
 

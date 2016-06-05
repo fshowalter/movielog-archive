@@ -8,6 +8,7 @@
 :grade: F
 :backdrop: https://lh3.googleusercontent.com/-xLvA-f7_G5o/VWj4wt7CPTI/AAAAAAAACsM/F_MxYPZzbQk/w1000-rj/the-hunger-games-mockingjay-part-1-2014.jpg
 :pull_quote: "_The Hunger Games: Mockingjay - Part 1_ is a non-movie."
+:poster: https://lh3.googleusercontent.com/65F0fVQJt_deza6x5_9QHBxTKoPBLHr8eW12aVf8zeM0x1HhXBWxDaGuVFfztHA8e6DA_LoME4o4=w290-rj
 ---
 Full disclosure: I haven’t seen the first two _Hunger Games_ films, nor have I read the books.
 
@@ -28,5 +29,5 @@ A movie doesn’t need explosive action or labyrinthine plot to succeed, but it 
 Jennifer Lawrence is a talented actress capable of commanding our attention on screen, but one wouldn’t know it from watching her here. Between the ill-fitting jumpsuit and pale makeup, she looks every bit as listless as the script. Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. Both avoid rolling their eyes at the dialog, a feat I consider award-worthy.
 
 In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. Fans of the series should skip straight to the real finale in _The Hunger Games: Mockingjay - Part 2 (2015)_.
- 
+
 [^1]: Courtesy of William Strunk Jr’s classic style guide, _The Elements of Style_.
