@@ -8,6 +8,7 @@
 :grade: D
 :backdrop: https://lh5.googleusercontent.com/-v7GeD4cuLSg/VWjnzmxIfKI/AAAAAAAACpE/4SIMgozoRrU/w1000-rj/rachael-and-the-stranger-1948.jpg
 :pull_quote: "There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the hackneyed melodramatic fable they're given to work with is frustrating at best, and annoying at worst."
+:poster: https://lh3.googleusercontent.com/rzzfHZetJ-6iEJqpKOVh02G4kdN6FKFVFOYf1b3bdcEbs1xw2r9IVGFTjYCs-4cyePNTtx9Hj5Kc=w290-rj
 ---
 In _Rachel and the Stranger_, William Holden plays David Harvey. David is a pioneer farmer living with his young son Davey in the Ohio wilderness. David's wife Susan died the previous year, sinking him into depression. It's only after finding Davey using a page from one of his school books as a sail for a toy boat, that David resolves to find a new wife. Not for love, but because he knew how important it was to Susan that Davey not grow up "woodsy".
 
@@ -23,7 +24,7 @@ Things change when Jim, a family friend played by Robert Mitchum, arrives. Jim's
 
 Jim is attentive and charming. David gets jealous. Both men begin to vie for Rachel’s attention, culminating in a fist-fight that leads to Rachel leaving them both. They go after her. There's an obligatory Indian attack, then it's over.
 
-The three leads are solid. Young and Holden are convincing, and Mitchum is great as a laconic woodsman. But this is not a good movie. It takes us for simpletons incapable of picking up any subtlety. 
+The three leads are solid. Young and Holden are convincing, and Mitchum is great as a laconic woodsman. But this is not a good movie. It takes us for simpletons incapable of picking up any subtlety.
 
 Consider when, after arriving in the cabin, Rachael is clearing the table. David and Davey are talking. Davey says he won't be getting any music lessons. We see Rachael pause. This should have been it. Instead, the film cuts to a drawn-out close-up of Rachael. We see her look off screen, open her mouth to say something, then close it and look down at Davey. Davey looks back, daring her to talk. She doesn't and walks away. It's a ten second scene that should have played out in an instant.
 

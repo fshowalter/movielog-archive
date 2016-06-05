@@ -8,6 +8,7 @@
 :grade: D
 :backdrop: https://lh5.googleusercontent.com/-KDi3ss9VzmI/VWjvl7gcVzI/AAAAAAAACqo/0UeZ6mpk46U/w1000-rj/friday-the-13th-a-new-beginning-1985.jpg
 :pull_quote: "I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either."
+:poster: https://lh3.googleusercontent.com/PFMpCQBc0k5VWknYaKqvHgNSg6GUP5eLEVEK8I7bh3P2eRL-LdpwmD1MtgdndIwK4QidxGLG1Blj=w290-rj
 ---
 
 After _Friday the 13th: The Final Chapter (1984)_ delivered the series’s highest grosses, Paramount made an odd decision. They ditched Jason and tried to reboot the franchise.

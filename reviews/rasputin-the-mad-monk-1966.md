@@ -8,6 +8,7 @@
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-XZr8XNcR6jM/VW-V1KaIrEI/AAAAAAAACy0/qotdalSW7ts/w1000-rj/rasputin-the-mad-monk-1966.png
 :pull_quote: "Rasputin spends too much time drinking and dancing and not enough time chopping off hands. "
+:poster: https://lh3.googleusercontent.com/CPOq2BfVnIRKHLWWYRbrUOBTJp9vXngRJvx4nrmgTCsKZ_CG2VWuEzwaradVUOccL6V4QjeNo7qF=w290-rj
 ---
 _Rasputin: The Mad Monk_ opens with Rasputin, played by Christopher Lee, arriving at an inn and demanding wine. When he's told the innkeeper is unavailable due to his ill wife, an annoyed Rasputin marches upstairs. He storms into the bedroom, and proceeds to _will_ the disease out of the frail woman, drawing it into his now red-hot hands.
 
@@ -17,6 +18,6 @@ It’s a great introduction. If only the rest of the film lived up to it.
 
 As the story unfolds, Rasputin travels to Saint Petersburg. There he insinuates himself into the Tsaritsa's court by hypnotizing one of her ladies-in-waiting. Barbara Shelley plays the lady in question. There's a good bit where Rasputin, having just hypnotized Shelley's character into sleeping with him, tells her to leave some money on the dresser. As Rasputin's influence grows, members of the court begin to conspire against him. There's an overly elaborate plot involving poison, some grappling, then it's all over.
 
-Despite a terrific performance by Lee, and Hammer's solid production values[^1], the film underwhelms. It treats the character of Rasputin as a one-dimensional monster. This wouldn’t be so bad, but the talky script vacillates between biographical drama and horror without committing to either.  The result? Rasputin spends too much time drinking and dancing and not enough time chopping off hands. 
+Despite a terrific performance by Lee, and Hammer's solid production values[^1], the film underwhelms. It treats the character of Rasputin as a one-dimensional monster. This wouldn’t be so bad, but the talky script vacillates between biographical drama and horror without committing to either.  The result? Rasputin spends too much time drinking and dancing and not enough time chopping off hands.
 
 [^1]: Granted, they spliced in a ballroom shot from _Anastasia (1956)_.

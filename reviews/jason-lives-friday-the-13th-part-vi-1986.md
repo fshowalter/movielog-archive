@@ -8,6 +8,7 @@
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-jCjfRT1DMe8/VWjuxgmHAXI/AAAAAAAACqU/rPVQXVdlMPA/w1000-rj/jason-lives-friday-the-13th-part-vi-1986.jpg
 :pull_quote: "Whenever Jason’s off-screen, _Jason Lives: Friday the 13th Part VI_ is a snooze."
+:poster: https://lh3.googleusercontent.com/Bvw6L9mkB29IcrvPizJ1mOqACALyPpYps_ZZ5nZDjsn42drWKGh3Yd0WAozHQVHjoIdnxXbNxpC5=w290-rj
 ---
 Jason lives. Not _Friday the 13th Part VI: Jason Lives_, but _Jason Lives: Friday the 13th Part VI_. After the disappointing grosses of _Friday the 13th: A New Beginning (1985)_, Paramount wasn’t taking any chances.
 

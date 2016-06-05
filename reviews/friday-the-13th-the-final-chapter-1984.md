@@ -8,6 +8,7 @@
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/-YiQsxpasbDM/VWjynm8kB-I/AAAAAAAACrY/e2kZ5_sUh9o/w1000-rj/friday-the-13th-the-final-chapter-1984.jpg
 :pull_quote: "_Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation."
+:poster: https://lh3.googleusercontent.com/jHTTkIkjcpN3UPsl7QqJcq1lGyz0WYL1JHdlE-Hz8JKF9cFGNnOEH3O-Pe2MWKYiM-wvPHrp9fYk=w290-rj
 ---
 
 When _Friday the 13th: The Final Chapter_ premiered I was just a kid, still watching Saturday morning cartoons in my pajamas, my legs dangling off the couch. What I knew of the _Friday the 13th_ films came via third-hand bits of lore relayed in wide-eyed whispers on the playground.

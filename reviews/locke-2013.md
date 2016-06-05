@@ -8,6 +8,7 @@
 :grade: B
 :backdrop: https://lh3.googleusercontent.com/-BQhYxBV9STM/VWz2CX6l05I/AAAAAAAACxE/mQdo3jlp5MA/w1000-rj/locke-2013.png
 :pull_quote: "_Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in."
+:poster: https://lh3.googleusercontent.com/biR83w7l8Itvq1fS4VQ3Ko4RIOBYc746yhJk3d0LCEN5ZpRk1zkbNJ8TTTIPwsbOxj5hZ5BLljTx=w290-rj
 ---
 _Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in.
 
@@ -19,7 +20,7 @@ Ivan gets into his car. He pulls away from the curb and makes a call. He gets a 
 
 As the film unfolds we learn that Ivan is traveling to London from Birmingham. We also learn the circumstances surrounding the trip. Last year he had a one night stand while away on a job. The first and only time he's strayed in fifteen years of marriage. But the woman, Bethan, became pregnant. Now, the baby has come early and she's gone into labor.
 
-The rest of the film happens in near real-time, as Ivan juggles a series of calls. We learn more about him. He is both diligent and pragmatic. The kind of man who makes checklists but is able to adapt to unforeseen circumstances. 
+The rest of the film happens in near real-time, as Ivan juggles a series of calls. We learn more about him. He is both diligent and pragmatic. The kind of man who makes checklists but is able to adapt to unforeseen circumstances.
 
 And so it is with a deliberate logic that he approaches his current situation. He has fathered a child. Now he must do right by it. A deep-rooted psychological need drives him. Ivan's father abandoned him. Ivan refuses to do the same.
 

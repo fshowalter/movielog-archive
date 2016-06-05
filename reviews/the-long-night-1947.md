@@ -8,26 +8,27 @@
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-JV5O8iefVIA/VU7dOTf4crI/AAAAAAAACi8/lhlQLISf1pQ/w1000-rj/the-long-night-1947.jpg
 :pull_quote: _The Long Night_ starts well, only to lose its way in the third act.
+:poster: https://lh3.googleusercontent.com/llpQuKZiw7zecr8srS9xcOLflgavNeUQwqFtRFuT3DSEPP-binM123-iNW-xkLCrhpV6IHIna879=w290-rj
 ---
 _The Long Night_ starts well, only to lose its way in the third act.
 
-The story opens with a murder. We’re inside an apartment building on the working-class side of the tracks. We hear gunshots. A man staggers out of a unit holding his gut and tumbles down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s. 
+The story opens with a murder. We’re inside an apartment building on the working-class side of the tracks. We hear gunshots. A man staggers out of a unit holding his gut and tumbles down the stairs. The police arrive. They attempt to extract the shooter. Through a door, the shooter says he wants to be left alone. We recognize the voice as Henry Fonda’s.
 
-Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He’s a wholesome guy. He drinks milk and uses exclamations like, “No kidding!” 
+Through flashbacks, we learn that Henry Fonda plays Joe, a veteran recently returned from World War II. He’s a wholesome guy. He drinks milk and uses exclamations like, “No kidding!”
 
 One day, while working as a sandblaster at the local plant, Joe meets a young girl named Jo Anne, played by Barbara Bel Geddes. Joe and Jo Anne hit it off. The film would have us believe this is natural since they’re both orphans and they’re both named Joe. They begin dating. Joe falls hard.
 
 One night, Jo Anne cancels a date with Joe. She has something to do. Joe says that’s fine, but takes Jo Anne’s favorite stuffed animal hostage as a bit of insurance that she’ll see him again. It’s a nice touch that gives Joe some edge and helps make the film’s later events more plausible.
 
-Joe ends up tailing Jo Anne to a dingy club where a magician is performing. Vincent Price plays the magician. We recognize him as the man who was shot during the film’s opening. 
+Joe ends up tailing Jo Anne to a dingy club where a magician is performing. Vincent Price plays the magician. We recognize him as the man who was shot during the film’s opening.
 
-At the bar, Joe meets Charlene, played by Ann Dvorak. Through Charlene, we learn the magician’s name is Maximilian. Charlene was one of his assistants. She’s just now decided to leave him, having grown tired of his manipulative ways. 
- 
+At the bar, Joe meets Charlene, played by Ann Dvorak. Through Charlene, we learn the magician’s name is Maximilian. Charlene was one of his assistants. She’s just now decided to leave him, having grown tired of his manipulative ways.
+
 Joe watches Jo Anne. She seems enraptured by Maximilian’s performance and approaches him after the show. Maximilian’s tells her to meet him at his table. Joe’s seen enough.
 
-Before joining Jo Anne, however, Maximilian approaches Joe and Charlene at the bar. It’s here we get our first taste of Maximilian’s condescending wit. He tries to cajole Charlene into changing her mind. Joe tells Maximilian to scram. Maximilian replies with a sarcastic grin, “My friend, there is no one I would like disagreeing with more than you. However, under the circumstances, there’s hardly any point in continuing our conversation.” Then, to Charlene, “Till tomorrow, my dear.” 
+Before joining Jo Anne, however, Maximilian approaches Joe and Charlene at the bar. It’s here we get our first taste of Maximilian’s condescending wit. He tries to cajole Charlene into changing her mind. Joe tells Maximilian to scram. Maximilian replies with a sarcastic grin, “My friend, there is no one I would like disagreeing with more than you. However, under the circumstances, there’s hardly any point in continuing our conversation.” Then, to Charlene, “Till tomorrow, my dear.”
 
-Charlene develops a torch for Joe. Joe, feeling hurt by Jo Anne, uses Charlene for companionship. She’s more or less emotional collateral damage by the film’s end. Dvorak makes the most of a part that exists only to show Joe turning to the dark side when he thinks he’s lost Jo Anne. 
+Charlene develops a torch for Joe. Joe, feeling hurt by Jo Anne, uses Charlene for companionship. She’s more or less emotional collateral damage by the film’s end. Dvorak makes the most of a part that exists only to show Joe turning to the dark side when he thinks he’s lost Jo Anne.
 
 As the story goes on, we learn the depths of Maximilian’s debauchery. How he’s seduced and manipulated countless naive young girls like Jo Anne. Each new bit of knowledge cuts at Joe.
 

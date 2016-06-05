@@ -8,6 +8,7 @@
 :grade: B
 :backdrop: https://lh5.googleusercontent.com/-gtMuwDS_hXo/VW-XUh3louI/AAAAAAAACzY/puLJP8u5Jlk/w1000-rj/the-one-i-love-2014.png
 :pull_quote: "Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait."
+:poster: https://lh3.googleusercontent.com/GzQIGDPeNiT9CIiKYUbu2Y9LzDwX-c-I8EZnvX0osa2qYGmyUie82S6lLVVIeDETh0qmXqXZf7rI=w290-rj
 ---
 Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait.
 

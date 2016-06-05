@@ -8,10 +8,11 @@
 :grade: B
 :backdrop: https://lh5.googleusercontent.com/-waC6fxZQwTo/VW-WuGm-hkI/AAAAAAAACzE/ghTdM_xhc9Y/w1000-rj/the-devil-rides-out-1968.png
 :pull_quote: "Some films have no business working as well as they do. _The Devil Rides Out_ is one such film."
+:poster: https://lh3.googleusercontent.com/aC3erfcbfCY_l0ecM34z66NRTtusBNgD0TE1D_s7NaKvrdOdYWvFo0CJlc7gd4GckwxoVKjfv2vA=w290-rj
 ---
 Some films have no business working as well as they do. _The Devil Rides Out_ is one such film.
 
-Set in 1929, the story opens with the dashing Duke de Richleau awaiting the arrival of his good friend, Rex Van Ryn. The Duke is played by Hammer stalwart Christopher Lee who, in a rare change of pace, gets to play the hero and does a fine job of it. 
+Set in 1929, the story opens with the dashing Duke de Richleau awaiting the arrival of his good friend, Rex Van Ryn. The Duke is played by Hammer stalwart Christopher Lee who, in a rare change of pace, gets to play the hero and does a fine job of it.
 
 Rex arrives piloting his own biplane, which is the extent of the characterization the script allots him.  After landing, he and the Duke set out to call on their young friend, Simon. What they find upon arriving at Simon's palatial house alarms the Duke. It seems Simon has fallen in with a group of Satanists led by the sinister Mocata, played by Charles Gray. As the Duke says, “Simon is playing the most dangerous game known to mankind.”
 

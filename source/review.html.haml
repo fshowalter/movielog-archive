@@ -88,7 +88,7 @@
     .review-meta_container
       .review-meta_container-column
         -if review.poster
-          %img.review-poster{ src: review.poster }
+          %img.review-poster{ src: review.poster.gsub('=w290', '=w324') }
         %header
           %h1.review-sidebar_title= review.display_title
           - if aka_titles.any?

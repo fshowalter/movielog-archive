@@ -8,6 +8,7 @@
 :grade: A
 :backdrop: https://lh3.googleusercontent.com/-UcxLZIKHANg/VVg83CzzKKI/AAAAAAAACmg/u7YKyEIT0yc/w1000-rj/horror-of-dracula-1958.jpg
 :pull_quote: Buoyed by iconic performances from Cushing and Lee, _Horror of Dracula_ is a great film.
+:poster: https://lh3.googleusercontent.com/KOJM_V3kJpI68GCR29U1XU4cCK-TUDEY2jCNSHWG9Cac4zPU6lSC9t5tgMFbux5Sr2bGtV_p6WAv=w290-rj
 ---
 Howard Hawks once said that a good movie consisted of “three great scenes and no bad ones.” Hammer’s first entry in its _Dracula_ franchise gives us exactly that.
 

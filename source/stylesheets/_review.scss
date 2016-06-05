@@ -172,9 +172,10 @@ $review-more-background-color: #f1f1f1;
 
   @media only screen and (min-width: 64em) {
     flex-direction: column;
-    max-width: 14.5rem;
-    margin: .75rem auto;
-    width: 100%;
+    max-width: 18rem;
+    margin: .75rem;
+    float: left;
+    width: calc(100% - 1.8rem);
   }
 }
 
@@ -184,8 +185,9 @@ $review-more-background-color: #f1f1f1;
   display: block;
   // margin-bottom: .75rem;
   // margin: 0 auto 1rem;
-  max-width: 14.5rem;
+  max-width: 18rem;
   margin: 0 .9rem 1rem;
+  width: calc(100% - 1.8rem)
 }
 
 .review-sidebar_title {

@@ -8,22 +8,23 @@
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-kFt9KsDwME8/VU7dQYiZ57I/AAAAAAAACjI/JJpcOt8A9Io/w1000-rj/kingsman-the-secret-service-2014.jpg
 :pull_quote: "In the end, _Kingsman: The Secret Service_ is little more than an adolescent male super-spy fantasy. That said, it’s not bad."
+:poster: https://lh3.googleusercontent.com/QhlqZ-D217TqVLbQDH-sO9sD7dNtglCoaWbI_f33Ef_NTYjQyiXUIhry_nhOHSRmIhLg9N_hB_38=w290-rj
 ---
 _Kingsman: The Secret Service_ tells the story of a young man named Gary who goes by Eggsy. We’re never told how he got this nickname. The film is full of superfluous bits like this.
 
-Eggsy lives with his mother and infant sister in one of London’s ailing housing projects. His father died when he was just a toddler. These days, his mother has taken up with a low-level hood who degrades her and bullies Eggsy. 
+Eggsy lives with his mother and infant sister in one of London’s ailing housing projects. His father died when he was just a toddler. These days, his mother has taken up with a low-level hood who degrades her and bullies Eggsy.
 
-When a rare moment of defiance lands Eggsy in jail, Eggsy calls a mysterious number his mother gave him should he ever find himself in trouble. Shortly thereafter, Eggsy walks out of jail a free man. Outside the police station, Eggsy meets Harry Hart. 
+When a rare moment of defiance lands Eggsy in jail, Eggsy calls a mysterious number his mother gave him should he ever find himself in trouble. Shortly thereafter, Eggsy walks out of jail a free man. Outside the police station, Eggsy meets Harry Hart.
 
 Harry, played by Colin Firth, is a dapper gentleman cut from the David Niven cloth. The two go for a pint. Harry tells Eggsy that Eggsy’s father was a Kingsman, a member of an elite group of gentleman super-spies. He died saving Harry’s life. Eggsy is incredulous until he sees Harry take down a group of young thugs using nothing but an umbrella. Before he leaves, Harry offers Eggsy a chance to try out for the Kingsmen.
 
-And so Eggsy goes to spy-school. In keeping with the dapper gentleman theme, spy-school is more like boarding school than boot camp. When they're not practicing with sniper rifles or parachuting out of planes, the fresh-faced recruits wear uniforms resembling flannel suit pajamas. 
+And so Eggsy goes to spy-school. In keeping with the dapper gentleman theme, spy-school is more like boarding school than boot camp. When they're not practicing with sniper rifles or parachuting out of planes, the fresh-faced recruits wear uniforms resembling flannel suit pajamas.
 
 Of course, every spy story needs a super villain. Here we’re given Richmond Valentine, played by Samuel L. Jackson. Valentine is an internet billionaire who speaks with a lisp, hates the sight of blood, and dresses like a teenager. Convinced mankind is a virus doomed to destroy the planet, Valentine plans to wipe out eighty-five percent of the human race. Naturally, he’ll pick the fifteen percent that will survive.
 
 And every super villain needs a colorful henchman. Valentine has Gazelle, a double leg amputee whose prosthetics also act as swords capable of slicing a man in half. Spoiler alert: she slices someone in half.
 
-As the film builds to the inevitable confrontation between Eggsy and Valentine, it becomes increasingly ludicrous. Gazelle dismembers an armed cadre of elite security officers. Harry single-handedly kills a church full of people. Eggsy picks off Valentine’s henchman while somersaulting through the air in slow motion. Heads explode in a rainbow spray of gore. 
+As the film builds to the inevitable confrontation between Eggsy and Valentine, it becomes increasingly ludicrous. Gazelle dismembers an armed cadre of elite security officers. Harry single-handedly kills a church full of people. Eggsy picks off Valentine’s henchman while somersaulting through the air in slow motion. Heads explode in a rainbow spray of gore.
 
 Sure, it's silly, but the juxtaposition of the mild mannered Firth and the comical violence leaves the film with nowhere to go but over-the-top. There's even a scene between Firth and Samuel L. Jackson where they have a black-tie dinner consisting of Big Macs. I can't imagine anyone but Firth pulling that off.
 
