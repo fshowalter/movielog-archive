@@ -8,8 +8,9 @@
 :grade: 'C+'
 :backdrop: https://lh3.googleusercontent.com/FjcmoHWL96rt0VlcxWDqUH1lIA29WIy9UL5Xm7-_aFU=w1000-l75-rj
 :pull_quote: "Skip the first half of _Two Evil Eyes_. Or at least watch the second half first."
+:poster: https://lh3.googleusercontent.com/4nzsSHpL0PAPeVqFPKtvpq3qHdXc_e9D5f5JEdGM9u5xegT0FETpPoRO4AVgtLqm-ZLJp0B6U-lZ=w290-rj
 ---
-Skip the first half of _Two Evil Eyes_. Or at least watch the second half first. 
+Skip the first half of _Two Evil Eyes_. Or at least watch the second half first.
 
 The film comprises two hour-long segments based on the works of Edgar Allen Poe. The first, directed by George Romero, adapts _The Facts in the Case of M. Valdemar_. The second, directed by Dario Argento, loosely adapts _The Black Cat_.
 
@@ -35,7 +36,7 @@ Argento’s entry, _The Black Cat_ stars Harvey Keitel as Rod (short for Roderic
 
 As the story unfolds, Rod descends into madness culminating in murder. There are some supernatural elements, including the persistent titular feline, but they’re presented as possible figments of Rod’s imagination.
 
-Argento piles on the Poe references en route to a Grand Guignol conclusion that’s so over-the-top it’ll make you laugh and gag in the same breath. 
+Argento piles on the Poe references en route to a Grand Guignol conclusion that’s so over-the-top it’ll make you laugh and gag in the same breath.
 
 Final reveal aside, the film balances atmosphere and gore. Rod’s brownstone has a worn, lived-in feel. The narrow, shadow-filled rooms engender feelings of confinement. The city streets, feelings of isolation and anonymity. The gruesome murders Rod photographs are both inspired by Poe tales. Besides the halved corpse that opens the film, we see one with its mouth wired open after having its teeth pried out.
 

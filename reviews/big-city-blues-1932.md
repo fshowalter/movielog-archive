@@ -8,6 +8,7 @@
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-lase2i_TlqU/Vf4Ud4BsYuI/AAAAAAAADAQ/oUIWFE2WwVU/s1000-Ic42-rj/big-city-blues-1932.jpg
 :pull_quote: "I may have watched _Big City Blues_ for Bogart, but I enjoyed more than just his small role"
+:poster: https://lh3.googleusercontent.com/OqfOK2FijSzs_wxk9kGsrG-S65jFtk4XOpWLS1LEGLA1bka5sTY6mtn-9gy1QMqNR3LdrtWOaTuL=w290-rj
 ---
 
 I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film’s obscurity, my expectations were low.
@@ -28,4 +29,4 @@ The film plays as a cautionary fable, but the pre-code script imbues New York wi
 
 Linden plays Bud as naive without being cloying. The script helps. In a lesser film, Bud would be judgmental. Here, he doesn’t object to the bootleg gin and he knows his way around a dice game.
 
-This isn’t a great film, but it’s not a bad one either. It held my interest and even offered a chuckle or two via Gibboney’s rapid-fire dialog. I may have watched _Big City Blues_ for Bogart, but I enjoyed more than just his small role. 
+This isn’t a great film, but it’s not a bad one either. It held my interest and even offered a chuckle or two via Gibboney’s rapid-fire dialog. I may have watched _Big City Blues_ for Bogart, but I enjoyed more than just his small role.

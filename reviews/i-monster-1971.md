@@ -9,6 +9,7 @@
 :pull_quote: ""
 :backdrop: https://lh3.googleusercontent.com/-jhKA9oNj4a4/VftlBWJr0pI/AAAAAAAAC-A/dhBIvVcovaQ/s1000-Ic42-rj/i-monster-1971.jpg
 :pull_quote: _I, Monster_ disappoints given its two leads.
+:poster: https://lh3.googleusercontent.com/rWdxurq_j1MxUGFbZykge5iZmqQ4rdQ8dEDxcHpewxptndPpvLW5PzRsWmNHN-dTX-R5kdw4ufTd=w290-rj
 ---
 “He would be the most dangerous human being on earth. A monster.”
 
@@ -26,7 +27,7 @@ _I, Monster_ disappoints given its two leads. Lee is magnetic during his transfo
 
 Where the film shines is in its art direction. Marlowe’s laboratory has a cluttered, lived-in feel that lends atmosphere while avoiding the usual mad scientist tropes. His club sees cultured, well-dressed gentlemen sipping whiskey in overstuffed chairs while discussing professional and philosophical issues. I could almost smell the leather and tobacco.
 
-Yet, the film doesn’t work. Even at a scant 75 minutes, _I, Monster_ is too long. There’s just not enough story to sustain a feature length film. Having Marlow inject the serum instead of gulping a potion is a nice touch, but the script doesn’t run with the addiction metaphor. 
+Yet, the film doesn’t work. Even at a scant 75 minutes, _I, Monster_ is too long. There’s just not enough story to sustain a feature length film. Having Marlow inject the serum instead of gulping a potion is a nice touch, but the script doesn’t run with the addiction metaphor.
 
 Instead, we see characters walking down hallways, walking across rooms, and going up and down stairs. Lots of extraneous shots that add nothing, but seem necessary to pad the running time. Perhaps these bits were part of the abandoned attempt to utilize the Pulfrich effect for 3-D.
 
