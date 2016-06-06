@@ -8,16 +8,17 @@
 :grade: D
 :backdrop: https://lh4.googleusercontent.com/-3qgyA_4TF0I/VU7XWMEOs8I/AAAAAAAAChY/ix_9qvqspJY/w1000-rj/it-follows-2014.jpg
 :pull_quote: "_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography."
+:poster: https://lh3.googleusercontent.com/WVAXBSclsHeSPZ2fkU8y7rqrpz3FWHURt0RFnFUEQsuhX3xxFvEDeTOSqPclfyA52cuJkUXDE7Kh=w290-rj
 ---
-_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills. 
+_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills.
 
 The story opens at dusk. A girl half-dressed (but not nude) in high heels flees her suburban home. She runs into the street. Her wide eyes darting back over her shoulder. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds off into the darkness.
 
 She stops at a lake and walks down to the water. She sits down with the water at her back and makes a tearful call to her parents. She apologizes for past transgressions and says she loves them.
 
-Cut to the morning. The girl lies dead on the beach, her body twisted in a grotesque angle. 
+Cut to the morning. The girl lies dead on the beach, her body twisted in a grotesque angle.
 
-Next, we meet our protagonist, Jay. She's a nice girl, living in suburban Detroit. She's got a younger sister, and a couple of other friends that make up her social circle. She's been dating a guy named Hugh that she's pretty sweet on. 
+Next, we meet our protagonist, Jay. She's a nice girl, living in suburban Detroit. She's got a younger sister, and a couple of other friends that make up her social circle. She's been dating a guy named Hugh that she's pretty sweet on.
 
 Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman in a yellow dress. Jay doesn't see her, but a shaken Hugh insists they leave.
 
@@ -31,29 +32,29 @@ To prove his point, Hugh wheels Jay to the edge of the garage. In the overgrown 
 
 The thing soon comes for Jay at her house. It turns out to be invisible to those not cursed, so her friends are little help as an early warning system. Jay flees to a park.
 
-From there, Jay and her friends retreat to a neighbor's lake house. The next day, the thing catches up with them. Despite being invisible, the thing manhandles Jay's friends when they try to stop it. 
+From there, Jay and her friends retreat to a neighbor's lake house. The next day, the thing catches up with them. Despite being invisible, the thing manhandles Jay's friends when they try to stop it.
 
 Once again, Jay flees. The film breaks the narrative circle by having Jay crash her car in a cornfield. It's the same tired trope of the girl tripping while fleeing the monster. She wakes up in a hospital. Realizing she's in danger, but too injured to leave, Jay has sex with her neighbor, passing the curse. The neighbor turns out to be pretty dim-witted. The thing gets him in a matter of days. Jay flees again and ends up passing the curse to a pair of random strangers.
 
-The strangers don't last long. It’s likely Jay never warned them, but perhaps she tried and they didn’t believe her. Either way, it's soon back after Jay, but this time her friends have a plan. 
+The strangers don't last long. It’s likely Jay never warned them, but perhaps she tried and they didn’t believe her. Either way, it's soon back after Jay, but this time her friends have a plan.
 
 They go to the local indoor pool, where Jay wades into the center of the water[^2]. After some tense waiting, the thing shows up, but refuses to enter the water. Instead, it throws things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of Jay's friends before putting a bullet in the creature's head. The thing falls into the pool and dies trying to drag Jay under.
 
-Or does it? The film isn't over. We see Jay having sex with another of her friends. The ambiguous final shot sees the pair walking hand-in-hand while someone approaches from behind. 
+Or does it? The film isn't over. We see Jay having sex with another of her friends. The ambiguous final shot sees the pair walking hand-in-hand while someone approaches from behind.
 
 To be fair, this is a well-produced film dripping with atmosphere. The suburban locales evoke a lived-in feel and the Detroit cityscape reeks of urban decay. There's no hyper-kinetic editing or gimmicky found-footage. It's a slow burn. Well, maybe more like a slow singe. Given the script, I'm not sure this film could have been done any better.
 
-But about that script. 
+But about that script.
 
 The opening sequence reveals too much. Consider if we hadn’t seen what happened to the girl waiting by the lake.  Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having a breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
 
-Continuing the too-much-information trend, the film then explains the details of the curse. Worse still, it does it all through dialog.  Rule #1 of good storytelling: Show, don't tell. Rule #1 of good horror: Nothing is scarier than the unknown. 
+Continuing the too-much-information trend, the film then explains the details of the curse. Worse still, it does it all through dialog.  Rule #1 of good storytelling: Show, don't tell. Rule #1 of good horror: Nothing is scarier than the unknown.
 
-Imagine if the film cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house. We wouldn't know what had happened to her. When the creature showed up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like herpes today. 
+Imagine if the film cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house. We wouldn't know what had happened to her. When the creature showed up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like herpes today.
 
-Which leads me to the biggest problem of all. Yes this is a horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to someplace like Australia? Judging by the pool incident, it doesn't like water, which means it probably can't swim, which means you're safe. 
+Which leads me to the biggest problem of all. Yes this is a horrible curse, but it's manageable. Hell, the film even seems to admit as much. If the thing just walks, then couldn't one just fly to someplace like Australia? Judging by the pool incident, it doesn't like water, which means it probably can't swim, which means you're safe.
 
-And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse? 
+And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse?
 
 In the end, _It Follows_ offers little genuine horror, and the manufactured sense of dread wears thin well before the finale. Nor does it offer anything in the way of vicarious thrills. Its attempt to subvert slasher tropes only reinforces their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
 

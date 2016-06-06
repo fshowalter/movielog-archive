@@ -8,6 +8,7 @@
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/r6mAYBecAG9bbhDxOWnkC1NPii0VYhG97oHLPTLJogU=w1000-rj
 :pull_quote: Despite its meager budget, _Maniac Cop_ is a lot of fun.
+:poster: https://lh3.googleusercontent.com/c6jkosZEKQRNbnWzaY1EpG-6lrrh6xMy9FOHeGw6UsljXXwIGi2QkcsfAe2UFJbCMqkocj2kE9yb=w290-rj
 ---
 
 _Maniac Cop_ is set in New York City. Not the bustling metropolis of today, but the seedy, dangerous cesspool Hollywood liked to conjure during the 70s and 80s. A vicious jungle where street punks, pimps, and pushers lurked around every darkened corner. The film embraces this atmosphere. Everything feels worn, lived-in, and used.
@@ -18,7 +19,7 @@ Along with Jack’s cop girlfriend, McCrae tracks the killings to former cop Mat
 
 Or did he? There’s no explicit supernatural element, but Cordell’s resilience is superhuman. Think Michael Myers from the _Halloween_ franchise. Though one wonders about the scars lacing his face. He recovers from a prison assault that saw him stabbed to a bloody pulp, but a few slashes to the face are a bridge too far? Does his body draw the line at cosmetic wounds?
 
-Jack soon realizes Cordell is out to kill the mayor and police commissioner. The film feints staging this during the city’s St. Patrick’s Day parade spectacle, but betrays its budget by engineering a car chase to an abandoned warehouse. 
+Jack soon realizes Cordell is out to kill the mayor and police commissioner. The film feints staging this during the city’s St. Patrick’s Day parade spectacle, but betrays its budget by engineering a car chase to an abandoned warehouse.
 
 At least it’s an entertaining car chase. The POV shots are reminiscent of Campbell’s friend, director Sam Raimi, who turns up as a newsman introducing the parade.
 

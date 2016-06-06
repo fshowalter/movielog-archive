@@ -9,6 +9,7 @@
 :backdrop: https://lh5.googleusercontent.com/-WfnrWG-xYvg/VXYpwJ7RY_I/AAAAAAAACz4/Rsx3TqyNK_Q/w1000-rj/the-city-of-the-dead-1960.jpg
 :pull_quote: One could say _The City of the Dead_ was ahead of its time. That elements of it would be copied by so many other films they would later be labeled as tropes. But I’ll leave the academia to others. Suffice it to say the film _works_.
 :pull_quote_short: Lee’s performance, like the film, is an overlooked gem.
+:poster: https://lh3.googleusercontent.com/mZdAhaaWa-TRX56DApB_7nfMva5OkZYRmkWaEm_3TnulpRrOrqFPlwo2Njqca7ZZY_55iZ9fiQzr=w290-rj
 ---
 _The City of the Dead_ opens in a small, fog-shrouded village. The locals have gathered to burn Elizabeth Selwyn for the crime of witchcraft.[^1] As the flames consume her, Elizabeth pledges her soul to Lucifer in exchange for eternal life. The bloodthirsty villagers drown her out, chanting “Burn witch, burn!”
 
@@ -22,9 +23,9 @@ Before long, Nan’s pulling up to a desolate filling station in the dead of nig
 
 Outside of town, Nan picks up a hitchhiker, played by Valentine Dyall. Dyall’s performance is all ominous menace. When he speaks, it’s as though someone is talking _through_ him.
 
-When Nan finally arrives in Whitewood, we recognize it from the opening sequence. The town drips atmosphere, from the fog-laced streets to the dark, claustrophobic interiors. Nan turns to her passenger who, of course, has vanished. 
+When Nan finally arrives in Whitewood, we recognize it from the opening sequence. The town drips atmosphere, from the fog-laced streets to the dark, claustrophobic interiors. Nan turns to her passenger who, of course, has vanished.
 
-Nan checks into the local inn. The proprietor bears an uncanny resemblance to Elizabeth Selwyn. 
+Nan checks into the local inn. The proprietor bears an uncanny resemblance to Elizabeth Selwyn.
 
 Can you see where this is going?
 
@@ -44,7 +45,7 @@ Indeed, Lee's performance, like the film, is an overlooked gem. While critics la
 
 To that end, one could say _The City of the Dead_ was ahead of its time. That elements like the filling station attendant attempting to warn the unsuspecting strangers, or the red-herring protagonist, have been copied by so many other films they're now regarded as tropes. But I’ll leave the academia to others. Suffice it to say the film _works_.
 
-[^1]: A likely inspiration for the witch burning skit in _Monty Python and the Holy Grail (1975)_. 
+[^1]: A likely inspiration for the witch burning skit in _Monty Python and the Holy Grail (1975)_.
 
 [^2]: According to [the article on Wikipedia](http://en.wikipedia.org/wiki/The_City_of_the_Dead_(film)), producer Milton Subotsky added the character of Bill when he rewrote George Baxt’s script.
 
