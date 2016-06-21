@@ -18,10 +18,10 @@ html {
   font-family: $font-system;
   font-feature-settings: 'kern';
   font-size: 20px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
   line-height: 24px;
-  text-rendering: optimizeLegibility;
+  // text-rendering: optimizeLegibility;
 
 
   @media (min-width: $tablet-breakpoint) {

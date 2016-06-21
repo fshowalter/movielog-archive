@@ -8,7 +8,7 @@
 :grade: A-
 :backdrop: https://lh3.googleusercontent.com/-6jSXqnyudUY/VU7atevBl1I/AAAAAAAACiE/-ZX5oipaPG4/w1000-rj/a-girl-walks-home-alone-at-night-2014.jpg
 :pull_quote: "_A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.”"
-:pull_quote_short: _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders.
+:headline: _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders.
 :poster: https://lh3.googleusercontent.com/cxQ8rfz81M85BpaS8ADdUCO4cHvOsvEM8VSLzyofra4SsR64HWnz-QCbdwjUeJDTq1JLuDAQeKs6=w290-rj
 ---
 _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.”

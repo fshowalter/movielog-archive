@@ -11,6 +11,37 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def next_items(pagination, count = 4)
+    array = pagination.pageable_context.set
+    first = pagination.per_page * pagination.page_num
+    last = first + (count - 1)
+
+    if last > array.length
+      return array.slice(first)
+    end
+
+    return array.slice(first, count)
+  end
+
+  def category_link_for_post(post, options = {})
+    link = '/'
+    text = 'Unknown'
+
+    if post.is_a?(Movielog::Review)
+      link = '/reviews/'
+      text = 'Reviews'
+    elsif post.is_a?(Movielog::Feature)
+      link = '/features/'
+      text = 'Features'
+    end
+
+    link_to(text, link, options)
+  end
+
+  def post_for_key(key)
+    Movielog.posts[key]
+  end
+
   def person_slug(person)
     Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
   end
@@ -111,8 +142,6 @@ helpers do
     source = source.split("\n\n", 2)[0]
 
     content = Tilt['markdown'].new(footnotes: true) { source }.render
-
-    content.gsub!(/<\/?p>/, '');
 
     reviews.values.each do |review|
       content.gsub!(

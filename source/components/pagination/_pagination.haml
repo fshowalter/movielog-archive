@@ -1,0 +1,16 @@
+.pagination
+  .pagination-heading
+    More from Frank's Movie Log
+  %ol.pagination-list
+    - next_items(pagination).each do |key|
+      - post = post_for_key(key)
+      %li.pagination-list_item
+        %a{ href: href_for_post(post) }
+          .pagination-backdrop{ data: { backdrop: post.backdrop } }
+          .pagination-headline
+            = markdown(post.headline, inline: true)
+
+  - if pagination.next_page
+    .pagination-more
+      %a.pagination-more_link{ href: pagination.next_page.url }
+        More posts

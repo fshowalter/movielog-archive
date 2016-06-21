@@ -7,7 +7,7 @@
 :imdb_id: tt0039581
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-JV5O8iefVIA/VU7dOTf4crI/AAAAAAAACi8/lhlQLISf1pQ/w1000-rj/the-long-night-1947.jpg
-:pull_quote: _The Long Night_ starts well, only to lose its way in the third act.
+:headline: _The Long Night_ starts well, only to lose its way in the third act.
 :poster: https://lh3.googleusercontent.com/llpQuKZiw7zecr8srS9xcOLflgavNeUQwqFtRFuT3DSEPP-binM123-iNW-xkLCrhpV6IHIna879=w290-rj
 ---
 _The Long Night_ starts well, only to lose its way in the third act.

@@ -10,7 +10,7 @@
         #{yield_content(:title)} | #{Movielog.site_title}
       - else
         #{Movielog.site_title}
-    = stylesheet_link_tag 'application', relative: false
+    = stylesheet_link_tag 'app', relative: false
     - if content_for?(:head)
       = yield_content(:head)
     - if content_for?(:inline_css)
@@ -38,38 +38,9 @@
     %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' }
   %body
     .content-container{ class: yield_content(:content_class) }
-      %header.mast
-        .mast-wrap
-          %h1.mast-title
-            %a.mast-title_link{ href: '/', tabindex: 1 } Frank's Movie Log
-          = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
-            = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-            .mast-search_input_wrap
-              = text_field_tag('q', placeholder: 'What are you looking for?',
-                                    id: 'mastSearchInput',
-                                    class: 'mast-search_input',
-                                    tabindex: 2)
-          %button.mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
-            Search
+      = partial 'components/mast/mast'
       = yield
-      %footer.footer
-        = yield_content(:footer) if content_for?(:footer)
-
-        .footer-links
-          %span.footer-link
-            %a{ href: '/about/' } About Site
-          %span.footer-link
-            %a{ href: '/features/how-i-grade/' } How I Grade
-          %span.footer-link
-            %a{ href: '/viewings/' } Viewing Log
-            %span.footer-link
-            %a{ href: '/metrics/' } Metrics
-        .footer-links
-          %span.footer-sub_link
-            %a{ href: 'https://twitter.com/FranksMovieLog' } Twitter
-          %span.footer-sub_link
-            %a{ href: '/feed.xml' } RSS
-
+      = partial 'components/footer/footer'
 
       - unless development?
         %script{ async: true, src: '//www.google-analytics.com/analytics.js' }

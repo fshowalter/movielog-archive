@@ -16,6 +16,7 @@ gem 'middleman-minify-html'
 
 gem 'haml'
 gem 'sass'
+gem 'sass-globbing', '1.1.0'
 gem 'redcarpet'
 gem 'uglifier'
 gem 'execjs'

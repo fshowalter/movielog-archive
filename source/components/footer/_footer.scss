@@ -1,0 +1,31 @@
+.footer {
+  border-top: solid 1px #e5e5e5;
+  padding: 44px 1.12rem 30px;
+  margin-bottom: 3rem;
+}
+
+.footer-list {
+  text-align: center;
+  margin: 0 0 .88rem;
+  line-height: 1.75;
+  padding: 0;
+}
+
+.footer-list_item {
+  display: inline;
+  padding: 0 8px;
+}
+
+.footer-link {
+  text-rendering: optimizeLegibility;
+  color: #717171;
+  letter-spacing: .3px;
+  font-size: .94rem;
+}
+
+.footer-sub_link {
+  text-rendering: optimizeLegibility;
+  color: #b5b5b5;
+  letter-spacing: .3px;
+  font-size: .8rem;
+}
