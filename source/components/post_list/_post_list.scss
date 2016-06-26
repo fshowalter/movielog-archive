@@ -1,15 +1,6 @@
-.shared_from {
-  font-size: 13px;
-  color: #aaa;
-  line-height: 1.4;
-  margin-left: 13px;
-  margin-bottom: 15px;
-  word-wrap: break-word;
-}
-
 .post_list {
 	margin: 0;
-  padding: 0;
+  padding: 0 1.12rem;
   list-style-type: none;
 }
 
@@ -57,16 +48,27 @@
   color: #aaa;
   font-size: 13px;
   margin-bottom: 15px;
-  min-height: 44px;
 }
 
 .post_list-meta_category {
   color: rgba(0,0,0,0.75);
   font-size: 15px;
+  display: inline-block;
+
+  &:after {
+    content: '\00B7';
+    color: #aaa;
+    margin: 0 4px;
+    display: inline-block;
+  }
 }
 
 .post_list-meta_category_link {
   color: inherit;
+  display: inline-block;
+}
+
+.post_list-meta_date {
   display: inline-block;
 }
 

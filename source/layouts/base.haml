@@ -37,32 +37,31 @@
     %link{ rel: 'alternate', type: 'application/atom+xml', title: 'Feed', href: '/feed.xml' }
     %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' }
   %body
-    .content-container{ class: yield_content(:content_class) }
-      = partial 'components/mast/mast'
-      = yield
-      = partial 'components/footer/footer'
+    = partial 'components/mast/mast'
+    = yield
+    = partial 'components/footer/footer'
 
-      - unless development?
-        %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
-        :javascript
-          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-          ga('create', 'UA-55282521-1', 'auto');
-          var pl = window.location.pathname + window.location.search
-          ga('send', 'pageview', { 'page': pl, 'title': document.title })
-          var scrollTrackConfig = {};
-          ga('require', 'scrollDepthTracker', '/javascripts/scroll-depth-tracker.js', scrollTrackConfig)
+    - unless development?
+      %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
+      :javascript
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-55282521-1', 'auto');
+        var pl = window.location.pathname + window.location.search
+        ga('send', 'pageview', { 'page': pl, 'title': document.title })
+        var scrollTrackConfig = {};
+        ga('require', 'scrollDepthTracker', '/javascripts/scroll-depth-tracker.js', scrollTrackConfig)
 
-          window.addEventListener('error', function (err) {
-            var lineAndColumnInfo = err.colno ? ' line:' + err.lineno +', column:'+ err.colno : ' line:' + err.lineno;
-            ga('send',
-              'event',
-              'JavaScript Error',
-              err.message,
-              err.filename + lineAndColumnInfo + ' -> ' +  navigator.userAgent,
-              0,
-              true
-            );
-          });
+        window.addEventListener('error', function (err) {
+          var lineAndColumnInfo = err.colno ? ' line:' + err.lineno +', column:'+ err.colno : ' line:' + err.lineno;
+          ga('send',
+            'event',
+            'JavaScript Error',
+            err.message,
+            err.filename + lineAndColumnInfo + ' -> ' +  navigator.userAgent,
+            0,
+            true
+          );
+        });
 
-      = javascript_include_tag('application.js', async: :async )
+    = javascript_include_tag('application.js', async: :async )
 

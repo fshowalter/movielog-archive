@@ -1,0 +1,18 @@
+%ol.post_list
+  - review_titles.each do |title|
+    - review = Movielog.reviews_by_title[title]
+    %li.review_list-item
+      %article.review_list-review
+        %header
+          %h3.post_list-headline
+            %a.post_list-header_link{ href: "/reviews/#{review.slug}/"}
+              = review.title_without_year
+          .post_list-meta
+            .post_list-meta_date
+              = review.date.strftime('%b %-d, %Y')
+        .post_list-content
+          .post_list-backdrop_wrap
+            %a{ href: "/reviews/#{review.slug}/"}
+              .post_list-backdrop{ data: { backdrop: review.backdrop } }
+          .post_list-excerpt
+            = markdown(review.pull_quote)

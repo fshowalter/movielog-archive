@@ -1,8 +1,8 @@
-$filter-background-color: #fafafa;
-$filter-border-color: #ddd;
-$filter-slider-active-handle-background-color: #e9e9e9;
-$filter-slider-background-color: rgba(0,0,0,.05);
-$filter-text-box-color: #555;
+$filter-background-color: #fff;
+$filter-border-color: #eaeaea;
+$filter-slider-active-handle-background-color: #eaeaea;
+$filter-slider-background-color: rgba(0,0,0,.02);
+$filter-text-box-color: #222;
 
 %text-box {
   -moz-appearance: none;
@@ -14,20 +14,11 @@ $filter-text-box-color: #555;
   box-sizing: border-box;
   color: $filter-text-box-color;
   display: block;
-  font-size: .7rem;
-  height: 1.2rem;
-  line-height: 1.2rem;
+  font-family: 'ProximaNovaCond';
+  font-size: 1rem;
   padding: 0;
   vertical-align: middle;
   width: 100%;
-
-  @media only screen and (min-width: 37.5em) {
-    background-color: #fff;
-  }
-
-  @media only screen and (min-width: 64em) {
-    background-color: $filter-background-color;
-  }
 }
 
 %numeric {
@@ -36,11 +27,11 @@ $filter-text-box-color: #555;
   border: 0;
   box-sizing: content-box;
   color: $filter-text-box-color;
-  font-size: .75rem;
-  font-family: $font-heading;
+  font-size: 1rem;
+  font-family: 'ProximaNovaCond';
   line-height: 1.2rem;
   padding: 0;
-  width: 60px;
+  width: 2rem;
 
   &::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -55,14 +46,6 @@ $filter-text-box-color: #555;
     align-self: flex-start;
     text-align: right;
   }
-
-  @media only screen and (min-width: 37.5em) {
-    background-color: #fff;
-  }
-
-  @media only screen and (min-width: 64em) {
-    background-color: $filter-background-color;
-  }
 }
 
 .filter-text_box {
@@ -70,21 +53,23 @@ $filter-text-box-color: #555;
 }
 
 .filter-text_box::placeholder {
-  font-size: .6rem;
-  // text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'ProximaNovaCond';
+  color: rgba(0, 0, 0, .5);
 }
 
 .filter-text_box_wrap {
   border-bottom: solid 1px $filter-border-color;
-  margin-bottom: .4rem;
-  padding-bottom: .35rem;
+  margin-bottom: 8px;
+  padding-bottom: 7px;
 }
 
 .filter-numeric {
   @extend %numeric;
-  width: 2rem;
+  width: 3rem;
 
-  @media (min-width: $tablet-breakpoint) {
+  @media (min-width: 50em) {
     line-height: 1.4rem;
     height: 1.4rem;
     width: 2rem;
@@ -92,33 +77,23 @@ $filter-text-box-color: #555;
 }
 
 .filter-control {
-  margin-bottom: 1.2rem;
+  margin-bottom: 24px;
 }
 
 .filter-label {
-  color: rgba(0, 0, 0, .5);
+  color: #aaa;
   display: block;
-  font-size: .7rem;
-  line-height: 1.6rem;
-  font-family: $font-heading;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
 .filter-select {
   @extend %text-box;
-  font-family: $font-heading;
   background-color: $filter-background-color;
   color: $filter-text-box-color;
-  font-size: .75rem;
+  font-size: 1rem;
   text-indent: .01px;
   text-overflow: '';
-
-  @media only screen and (min-width: 37.5em) {
-    background-color: #fff;
-  }
-
-  @media only screen and (min-width: 64em) {
-    background-color: $filter-background-color;
-  }
 }
 
 .filter-range {

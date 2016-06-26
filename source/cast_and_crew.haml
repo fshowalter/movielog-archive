@@ -1,86 +1,20 @@
 ---
+layout: :columns
 ---
 :ruby
   content_for(:title, "#{person.first_name} #{person.last_name}")
-  avatar = Movielog.avatars[person.slug]
 
-.cast_and_crew_page_wrap
-  .cast_and_crew_about
-    .cast_and_crew-about_panel
-      - if avatar
-        .cast_and_crew-avatar{ data: { backdrop: avatar.image_url }}
+- content_for :layout_column_1 do
+  = partial('components/cast_and_crew_card/cast_and_crew_card', locals: { person: person })
+- content_for :layout_column_2 do
+  - if person.direction_credits
+    %h2.cast_and_crew-section_heading#director Director
+    = partial('components/review_list/review_list', locals: { review_titles: person.direction_credits })
 
-      %h1.cast_and_crew-name
-        #{person.first_name} #{person.last_name}
-      .cast_and_crew-stats
-        #{person.all.keys.length} reviewed titles.
+  - if person.performance_credits
+    %h2.cast_and_crew-section_heading#performer Performer
+    = partial('components/review_list/review_list', locals: { review_titles: person.performance_credits })
 
-    %ul.cast_and_crew-nav
-      - if person.direction_credits
-        %li.cast_and_crew-nav_item
-          %a.cast_and_crew-nav_item_link{ href: '#director'}
-            Director
-      - if person.performance_credits
-        %li.cast_and_crew-nav_item
-          %a.cast_and_crew-nav_item_link{ href: '#performer'}
-            Performer
-      - if person.writing_credits
-        %li.cast_and_crew-nav_item
-          %a.cast_and_crew-nav_item_link{ href: '#writer'}
-            Writer
-
-  .cast_and_crew_main
-    - if person.direction_credits
-      %h2.cast_and_crew-section#director Director
-      %ol.cast_and_crew_post_list
-        - person.direction_credits.each do |title|
-          - post = Movielog.reviews_by_title[title]
-          %li.cast_and_crew_post_list-post
-            %header.post_list-post_header
-              %h3.post_list-post_title
-                %a{ href: "/reviews/#{post.slug}/"}
-                  = post.display_title
-
-            .post_list-post_content_wrap
-              .post_list-post_backdrop-wrap
-                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
-              .post_list-post_content
-                = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
-                = markdown(post.pull_quote, inline: true)
-
-    - if person.performance_credits
-      %h2.cast_and_crew-section#performer Performer
-      %ol.cast_and_crew_post_list
-        - person.performance_credits.each do |title|
-          - post = Movielog.reviews_by_title[title]
-          %li.cast_and_crew_post_list-post
-            %header.post_list-post_header
-              %h3.post_list-post_title
-                %a{ href: "/reviews/#{post.slug}/"}
-                  = post.display_title
-
-
-            .post_list-post_content_wrap
-              .post_list-post_backdrop-wrap
-                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
-              .post_list-post_content
-                = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
-                = markdown(post.pull_quote, inline: true)
-
-    - if person.writing_credits
-      %h2.cast_and_crew-section#writer Writer
-      %ol.cast_and_crew_post_list
-        - person.writing_credits.each do |title|
-          - post = Movielog.reviews_by_title[title]
-          %li.cast_and_crew_post_list-post
-            %header.post_list-post_header
-              %h3.post_list-post_title
-                %a{ href: "/reviews/#{post.slug}/"}
-                  = markdown(truncate_words(post.pull_quote, length: 20), inline: true)
-
-            .post_list-post_content_wrap
-              .post_list-post_backdrop-wrap
-                .post_list-post_backdrop{ data: { backdrop: post.backdrop, carnac: "/reviews/#{post.slug}/" } }
-              .post_list-post_content
-                = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-post_grade' })
-                = markdown(post.pull_quote, inline: true)
+  - if person.writing_credits
+    %h2.cast_and_crew-section_heading#writer Writer
+    = partial('components/review_list/review_list', locals: { review_titles: person.writing_credits })

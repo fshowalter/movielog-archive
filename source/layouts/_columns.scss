@@ -1,0 +1,34 @@
+.layout-columns {
+  position: relative;
+}
+
+.layout-columns-content {
+  width: 100%;
+  margin: 0 auto;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  @media only screen and (min-width: 50em) {
+    min-width: calc(800px);
+    max-width: calc(1000px + 2.24rem);
+    width: 66.66%;
+  }
+}
+
+.layout-columns-column_1 {
+  @media only screen and (min-width: 50em) {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+.layout-columns-column_2 {
+  @media only screen and (min-width: 50em) {
+    width: 66.67%;
+    float: right;
+  }
+}

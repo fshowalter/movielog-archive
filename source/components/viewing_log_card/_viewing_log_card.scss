@@ -1,0 +1,47 @@
+.viewing_log_card {
+  @media only screen and (min-width: 50em) {
+    margin: 24px auto 0;
+  }
+}
+
+.viewing_log_card-header {
+  background-color: #fafafa;
+  border-bottom: 1px solid rgba(223,223,233,0.5);
+
+  padding: 35px 0 44px;
+
+  @media only screen and (min-width: 50em) {
+    max-width: 16.25rem;
+    margin: 0 1.12rem;
+    border-radius: 5px;
+    border: 1px solid rgba(223,223,233,0.5);
+  }
+}
+
+.viewing_log_card-heading {
+  text-align: center;
+}
+
+.viewing_log_card-slug {
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 8px;
+  line-height: 1.12rem;
+  font-size: .88rem;
+}
+
+.viewing_log_card-filters_heading {
+  display: block;
+  text-decoration: none;
+  padding: 18px 32px 18px 16px;
+  position: relative;
+  font-size: 19px;
+  color: #acacac;
+  font-weight: normal;
+  margin: 0;
+}
+
+.viewing_log_card-filters_content {
+  padding: 0 1.12rem 15px;
+  border-bottom: 1px solid #eaeaea;
+}
