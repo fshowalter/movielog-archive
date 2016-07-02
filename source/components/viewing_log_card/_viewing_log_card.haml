@@ -9,7 +9,7 @@
     %h2.viewing_log_card-filters_heading Filter and Sort
     .viewing_log_card-filters_content
       = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
-      = range_filter(label: 'Year',
+      = range_filter(label: 'Release Year',
                      attribute: 'data-release-date-year',
                      min: oldest_year(collection: viewings.values, date_method: :release_date),
                      max: newest_year(collection: viewings.values, date_method: :release_date))

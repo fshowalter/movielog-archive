@@ -53,7 +53,7 @@ $filter-text-box-color: #222;
 }
 
 .filter-text_box::placeholder {
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: normal;
   font-family: 'ProximaNovaCond';
   color: rgba(0, 0, 0, .5);
@@ -77,14 +77,15 @@ $filter-text-box-color: #222;
 }
 
 .filter-control {
-  margin-bottom: 24px;
+  margin-bottom: 35px;
 }
 
 .filter-label {
   color: #aaa;
   display: block;
-  font-size: 1rem;
-  line-height: 1.75rem;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2.2;
 }
 
 .filter-select {

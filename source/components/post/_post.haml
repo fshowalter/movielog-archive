@@ -1,0 +1,9 @@
+%article.post
+  %h1.post-headline= inline_markdown(post.headline)
+  - if post.backdrop
+    .post-backdrop_wrap
+      .post-backdrop{ data: { backdrop: post.backdrop } }
+
+  .post-content
+    = markdown(post.content)
+  = yield_content(:post) if content_for?(:post)

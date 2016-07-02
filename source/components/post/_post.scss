@@ -1,0 +1,33 @@
+.post {
+  padding: 0 1.12rem;
+}
+
+.post-headline {
+  font-size: 32px;
+}
+
+.post-backdrop {
+  margin: 3px -1.12rem 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: .8s opacity;
+  cursor: pointer;
+
+  &:before {
+    padding-top: 56.249999993%;
+    height: 0;
+    content: '';
+    display: block;
+  }
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+.post-content p {
+  font-family: "ElizabethSerif",Georgia,serif;
+  font-size: 15px;
+  line-height: 28px;
+}

@@ -1,0 +1,43 @@
+.viewings_list {
+  padding: 0;
+  margin: 0 0 35px;
+
+  @media only screen and (min-width: 50em) {
+    margin-top: 24px;
+  }
+}
+
+.viewings_list-item {
+  font-weight: normal;
+  list-style-type: none;
+  padding: 18px 1.12rem 0;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: rgba(0,0,0,0.07);
+    margin: 18px -1.12rem 0;
+  }
+
+  @media only screen and (min-width: 50em) {
+    &:after {
+      margin-left: 0;
+    }
+  }
+}
+
+.viewings_list-item_title {
+  display: block;
+  font-size: 18px;
+  line-height: 1.8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viewings_list-item_slug {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.3;
+}

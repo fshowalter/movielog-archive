@@ -1,20 +1,13 @@
-.viewing_log_card {
-  @media only screen and (min-width: 50em) {
-    margin: 24px auto 0;
-  }
-}
-
 .viewing_log_card-header {
   background-color: #fafafa;
-  border-bottom: 1px solid rgba(223,223,233,0.5);
+  border-bottom: 1px solid #eaeaea;
 
   padding: 35px 0 44px;
 
   @media only screen and (min-width: 50em) {
-    max-width: 16.25rem;
-    margin: 0 1.12rem;
+    border: 1px solid #eaeaea;
     border-radius: 5px;
-    border: 1px solid rgba(223,223,233,0.5);
+    margin: 42px 1.12rem 0;
   }
 }
 
@@ -30,18 +23,30 @@
   font-size: .88rem;
 }
 
+.viewing_log_card-filters {
+  @media only screen and (min-width: 50em) {
+    margin: 1.5rem 1.12rem;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+  }
+}
+
 .viewing_log_card-filters_heading {
   display: block;
   text-decoration: none;
   padding: 18px 32px 18px 16px;
   position: relative;
   font-size: 19px;
-  color: #acacac;
+  color: #aaa;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 18px;
 }
 
 .viewing_log_card-filters_content {
-  padding: 0 1.12rem 15px;
+  padding: 0 1.12rem;
   border-bottom: 1px solid #eaeaea;
+
+  @media only screen and (min-width: 50em) {
+    border-bottom: 0;
+  }
 }

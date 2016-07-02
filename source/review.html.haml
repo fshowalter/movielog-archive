@@ -1,4 +1,5 @@
 ---
+layout: :single
 ---
 :ruby
   review = Movielog.reviews[review.sequence]
@@ -7,10 +8,10 @@
   viewings = Movielog.viewings_for_title(title: review.title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.title)
   director_slug = directors.map { |d| "#{d.first_name} #{d.last_name}" }.to_sentence
-  description = review.pull_quote.gsub( '_', '&#34;' ).html_safe
+  description = review.headline.gsub( '_', '&#34;' ).html_safe
   meta_description = escape_html(description_for_review(review: review)).gsub( '_', '&#34;' ).html_safe
-- content_for(:head) do
 
+- content_for(:head) do
   %meta{ name: 'description', content: meta_description }
   %meta{ property: 'og:title', content: review.display_title }
   %meta{ property: 'og:url', content: "https://www.franksmovielog.com/reviews/#{review.slug}" }
@@ -22,111 +23,105 @@
   %meta{ name: 'twitter:description', content: description }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
-.page_wrap
-  .main
-    %article.post
-      %h1.post-title= inline_markdown(review.pull_quote)
-      - if review.backdrop
-        .post-backdrop_wrap
-          .post_backdrop{ data: { backdrop: review.backdrop } }
 
-      = grade_to_image_tag(grade: review.grade, options: { class: 'review_rating' })
+- content_for :post do
+  <strong>Grade:</strong> #{review.grade}
 
-      .post_content
-        = markdown(review.content)
+= partial('components/post/post', locals: { post: review })
 
-      - more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
+- more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
 
-      - unless more_for_cast.empty?
-        - more_for_cast.each do |performer, titles|
-          - next unless titles.length > 3
-          - related_titles = array_window(titles, 4, review.title)
-          .related-wrap
-            %h3.related-header
-              More with #{performer.first_name} #{performer.last_name}
-            %ol.related-post_list
-              - related_titles.each do |title|
-                - next if title == review.title
-                - more_review = Movielog.reviews_by_title[title]
-                %li.related-post_list_post
-                  .related-post_list_post_backdrop{ data: { backdrop: more_review.backdrop, carnac: "/reviews/#{more_review.slug}/" } }
-                  %a.related-post_list_post_wrap{ href: "/reviews/#{more_review.slug}/", onclick:"window.ga('send', 'event', 'More With', 'click', 'More with click');"}
-                    %h3.related-post_list_post_title
-                      = markdown(truncate_words(more_review.pull_quote, length: 20), inline: true)
-                    = grade_to_image_tag(grade: more_review.grade, options: { class: 'related-post_list_post_grade' })
+- unless more_for_cast.empty?
+  - more_for_cast.each do |performer, titles|
+    - next unless titles.length > 3
+    - related_titles = array_window(titles, 4, review.title)
+    .related-wrap
+      %h3.related-header
+        More with #{performer.first_name} #{performer.last_name}
+      %ol.related-post_list
+        - related_titles.each do |title|
+          - next if title == review.title
+          - more_review = Movielog.reviews_by_title[title]
+          %li.related-post_list_post
+            .related-post_list_post_backdrop{ data: { backdrop: more_review.backdrop, carnac: "/reviews/#{more_review.slug}/" } }
+            %a.related-post_list_post_wrap{ href: "/reviews/#{more_review.slug}/", onclick:"window.ga('send', 'event', 'More With', 'click', 'More with click');"}
+              %h3.related-post_list_post_title
+                = markdown(truncate_words(more_review.headline, length: 20), inline: true)
+              = grade_to_image_tag(grade: more_review.grade, options: { class: 'related-post_list_post_grade' })
 
-      - content_for(:footer) do
-        %script{ type: 'application/ld+json' }
-          :plain
-            {
-              "@context":"http://schema.org",
-              "@type":"Review",
-              "author":{
-                "@type":"Person",
-                "name":"Frank Showalter",
-                "sameAs":"https://www.frankshowalter.com"
-              },
-              "datePublished":"#{review.date.iso8601}",
-              "description":"#{description}",
-              "inLanguage":"en",
-              "itemReviewed":{
-                "@type":"Movie",
-                "name":"#{review.display_title}",
-                "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
-              },
-              "publisher":{
-                "@type":"Organization",
-                "name":"Frank's Movie Log",
-                "sameAs":"http://www.franksmovielog.com"
-              },
-              "reviewRating":{
-                "@type":"Rating",
-                "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3}
-              }
-            }
-  .sidebar
-    .review-meta_container
-      .review-meta_container-column
-        -if review.poster
-          %img.review-poster{ src: review.poster.gsub('=w290', '=w324') }
-        %header
-          %h1.review-sidebar_title= review.display_title
-          - if aka_titles.any?
-            %dl.review_aka_list
-              %dt.review_aka_list-heading aka
-              - aka_titles.each do |aka_title|
-                %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
-      .review-meta_container-column
-        %dl.review-credits
-          %dt.review-credit_label Directed By
-          - directors.each do |director|
-            %dd.review-credit_value= cast_and_crew_link(director)
-          %dt.review-credit_label Starring
-          - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
-            %dd.review-credit_value= cast_and_crew_link(person)
-          %dt.review-credit_label Written By
-          - MovieDb.writers_for_title(title: review.title, db: Movielog.db).each do |person|
-            %dd.review-credit_value= cast_and_crew_link(person)
-      .review-meta_container-column
-        %p.review-slug
-          = "Published on "
-          = review.date.strftime('%b %-d, %Y')
-          = ". I've seen it "
-          %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
-            = "#{pluralize(viewings.length, 'time')}. "
-          = "More at the "
-          %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
-            IMDb
-          = "."
-  .post-sharing_footer
-    .post-sharing_footer-wrap
-      %a.post-sharing_footer-link{ rel: 'nofollow', href: "http://facebook.com/sharer.php?u=#{URI.escape('https://www.franksmovielog.com/reviews/' + review.slug + '/&utm_medium="social_share"&utm_source="facebook"')}", onclick:"window.ga('send', 'event', 'Sharing Bar', 'click', 'Share to Facebook click');"}
-        %span.post-sharing_footer-facebook
-          %svg{ viewBox: "0 0 18 18" }
-            %path{ d: "M7.003 17l-.006-7H4l.006-3h2.997V4.995C7.003 2.408 8.457 1 10.808 1c1.126 0 1.91.082 2.192.12v2.877h-1.447c-1.278 0-1.526.597-1.526 1.472V7h2.866l-.403 3h-2.47l.007 7H7.003z" }
-          Share
-      %a.post-sharing_footer-link{ rel: 'nofollow', href: "http://twitter.com/share?text=#{URI.escape(review.pull_quote)}&amp;url=#{URI.escape('https://www.franksmovielog.com/reviews/' + review.slug + '/&utm_medium="social_share"&utm_source="twitter"')}", onclick: "window.ga('send', 'event', 'Sharing Bar', 'click', 'Share to Twitter click');" }
-        %span.post-sharing_footer-twitter
-          %svg{ viewBox: "0 0 18 18" }
-            %path{ d: "M12.077 2c-1.812 0-3.282 1.582-3.282 3.534 0 .277.03.547.085.806-2.728-.148-5.147-1.555-6.766-3.693-.283.522-.445 1.13-.445 1.777 0 1.226.58 2.308 1.46 2.942-.54-.02-1.05-.178-1.49-.443v.045c0 1.712 1.13 3.14 2.63 3.465-.28.08-.57.124-.87.124-.21 0-.418-.022-.62-.063.418 1.404 1.63 2.426 3.067 2.455-1.125.94-2.54 1.51-4.078 1.51-.267 0-.528-.02-.785-.05 1.46 1 3.185 1.59 5.04 1.59 6.037 0 9.34-5.39 9.34-10.06 0-.153-.005-.306-.01-.457.64-.5 1.197-1.12 1.637-1.83-.59.28-1.22.47-1.885.557.677-.437 1.198-1.13 1.443-1.955-.633.405-1.336.7-2.084.858C13.88 2.43 13.028 2 12.08 2" }
-          Tweet
+%script{ type: 'application/ld+json' }
+  :plain
+    {
+      "@context":"http://schema.org",
+      "@type":"Review",
+      "author":{
+        "@type":"Person",
+        "name":"Frank Showalter",
+        "sameAs":"https://www.frankshowalter.com"
+      },
+      "datePublished":"#{review.date.iso8601}",
+      "description":"#{description}",
+      "inLanguage":"en",
+      "itemReviewed":{
+        "@type":"Movie",
+        "name":"#{review.display_title}",
+        "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
+      },
+      "publisher":{
+        "@type":"Organization",
+        "name":"Frank's Movie Log",
+        "sameAs":"http://www.franksmovielog.com"
+      },
+      "reviewRating":{
+        "@type":"Rating",
+        "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3}
+      }
+    }
+
+.sidebar
+  .review-meta_container
+    .review-meta_container-column
+      -if review.poster
+        %img.review-poster{ src: review.poster.gsub('=w290', '=w324') }
+      %header
+        %h1.review-sidebar_title= review.display_title
+        - if aka_titles.any?
+          %dl.review_aka_list
+            %dt.review_aka_list-heading aka
+            - aka_titles.each do |aka_title|
+              %dd.review_aka_list-item= aka_title unless aka_title == review.display_title
+    .review-meta_container-column
+      %dl.review-credits
+        %dt.review-credit_label Directed By
+        - directors.each do |director|
+          %dd.review-credit_value= cast_and_crew_link(director)
+        %dt.review-credit_label Starring
+        - MovieDb.headline_cast_for_title(title: review.title, db: Movielog.db, count: 6).each do |person|
+          %dd.review-credit_value= cast_and_crew_link(person)
+        %dt.review-credit_label Written By
+        - MovieDb.writers_for_title(title: review.title, db: Movielog.db).each do |person|
+          %dd.review-credit_value= cast_and_crew_link(person)
+    .review-meta_container-column
+      %p.review-slug
+        = "Published on "
+        = review.date.strftime('%b %-d, %Y')
+        = ". I've seen it "
+        %a{ href: "/viewings/?title=#{URI.escape(review.display_title)}", data: { no_carnac: true } }
+          = "#{pluralize(viewings.length, 'time')}. "
+        = "More at the "
+        %a{ itemprop: 'sameAs', href: "http://www.imdb.com/title/#{review.imdb_id}/" }
+          IMDb
+        = "."
+
+.post-sharing_footer
+  .post-sharing_footer-wrap
+    %a.post-sharing_footer-link{ rel: 'nofollow', href: "http://facebook.com/sharer.php?u=#{URI.escape('https://www.franksmovielog.com/reviews/' + review.slug + '/&utm_medium="social_share"&utm_source="facebook"')}", onclick:"window.ga('send', 'event', 'Sharing Bar', 'click', 'Share to Facebook click');"}
+      %span.post-sharing_footer-facebook
+        %svg{ viewBox: "0 0 18 18" }
+          %path{ d: "M7.003 17l-.006-7H4l.006-3h2.997V4.995C7.003 2.408 8.457 1 10.808 1c1.126 0 1.91.082 2.192.12v2.877h-1.447c-1.278 0-1.526.597-1.526 1.472V7h2.866l-.403 3h-2.47l.007 7H7.003z" }
+        Share
+    %a.post-sharing_footer-link{ rel: 'nofollow', href: "http://twitter.com/share?text=#{URI.escape(review.headline)}&amp;url=#{URI.escape('https://www.franksmovielog.com/reviews/' + review.slug + '/&utm_medium="social_share"&utm_source="twitter"')}", onclick: "window.ga('send', 'event', 'Sharing Bar', 'click', 'Share to Twitter click');" }
+      %span.post-sharing_footer-twitter
+        %svg{ viewBox: "0 0 18 18" }
+          %path{ d: "M12.077 2c-1.812 0-3.282 1.582-3.282 3.534 0 .277.03.547.085.806-2.728-.148-5.147-1.555-6.766-3.693-.283.522-.445 1.13-.445 1.777 0 1.226.58 2.308 1.46 2.942-.54-.02-1.05-.178-1.49-.443v.045c0 1.712 1.13 3.14 2.63 3.465-.28.08-.57.124-.87.124-.21 0-.418-.022-.62-.063.418 1.404 1.63 2.426 3.067 2.455-1.125.94-2.54 1.51-4.078 1.51-.267 0-.528-.02-.785-.05 1.46 1 3.185 1.59 5.04 1.59 6.037 0 9.34-5.39 9.34-10.06 0-.153-.005-.306-.01-.457.64-.5 1.197-1.12 1.637-1.83-.59.28-1.22.47-1.885.557.677-.437 1.198-1.13 1.443-1.955-.633.405-1.336.7-2.084.858C13.88 2.43 13.028 2 12.08 2" }
+        Tweet
