@@ -1,6 +1,5 @@
 .pagination {
   margin-bottom: 40px;
-  max-width: 63rem;
 }
 
 .pagination-heading {
@@ -9,11 +8,12 @@
   text-rendering: optimizeLegibility;
   font-weight: bold;
   word-wrap: break-word;
+  margin: 0 1.12rem;
   padding-bottom: 1px;
 }
 
 .pagination-list {
-  margin: 0 -1.12rem;
+  margin: 0;
   max-width: none;
   width: auto;
   padding: 0;
