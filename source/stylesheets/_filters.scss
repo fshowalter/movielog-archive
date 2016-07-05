@@ -2,7 +2,7 @@ $filter-background-color: #fff;
 $filter-border-color: #eaeaea;
 $filter-slider-active-handle-background-color: #eaeaea;
 $filter-slider-background-color: rgba(0,0,0,.02);
-$filter-text-box-color: #222;
+$filter-text-box-color: #555;
 
 %text-box {
   -moz-appearance: none;
@@ -15,7 +15,7 @@ $filter-text-box-color: #222;
   color: $filter-text-box-color;
   display: block;
   font-family: 'ProximaNovaCond';
-  font-size: 1rem;
+  font-size: .88rem;
   padding: 0;
   vertical-align: middle;
   width: 100%;
@@ -27,7 +27,7 @@ $filter-text-box-color: #222;
   border: 0;
   box-sizing: content-box;
   color: $filter-text-box-color;
-  font-size: 1rem;
+  font-size: .88rem;
   font-family: 'ProximaNovaCond';
   line-height: 1.2rem;
   padding: 0;
@@ -53,7 +53,7 @@ $filter-text-box-color: #222;
 }
 
 .filter-text_box::placeholder {
-  font-size: 15px;
+  font-size: .88rem;
   font-weight: normal;
   font-family: 'ProximaNovaCond';
   color: rgba(0, 0, 0, .5);
@@ -83,7 +83,7 @@ $filter-text-box-color: #222;
 .filter-label {
   color: #aaa;
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 2.2;
 }
@@ -92,7 +92,7 @@ $filter-text-box-color: #222;
   @extend %text-box;
   background-color: $filter-background-color;
   color: $filter-text-box-color;
-  font-size: 1rem;
+  font-size: 15px;
   text-indent: .01px;
   text-overflow: '';
 }

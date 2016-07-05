@@ -8,7 +8,7 @@
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-EzkCY-3oyjk/VlJsFej4MXI/AAAAAAAADDo/QKejKVIP-8Y/w1000-Ic42-rj/and-now-the-screaming-starts-1973.png
 :poster: https://lh3.googleusercontent.com/LwNDBCEbZcaTH-7sIB4K3Z-nQ-RsANzUKnviD2Q1oFNFd9GHpDKC6KXdT97Cch4GZLC4od6i5U9D=w290-rj
-:pull_quote: "_And Now the Screaming Starts_ has all the ingredients for solid gothic thriller. It just screws up the recipe."
+:headline: "_And Now the Screaming Starts_ Has All the Ingredients, Screws up the Recipe"
 ---
 
 The severed hand is surprisingly effective.

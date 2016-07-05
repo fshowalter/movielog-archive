@@ -4,10 +4,10 @@
   background: rgba(255, 255, 255, .99);
   line-height: 59px;
   position: relative;
+  overflow: hidden;
 }
 
 .mast-wrap {
-  overflow: hidden;
   height: 100%;
 
   @media only screen and (min-width: 50em) {

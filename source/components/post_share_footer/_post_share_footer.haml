@@ -1,0 +1,15 @@
+:ruby
+  headline = post.headline.gsub(/(_[^_]*_)/) { |match| match.upcase.gsub('_', '') }
+
+.post_share_footer
+  .post_share_footer-wrap
+    %a.post_share_footer-link{ rel: 'nofollow', href: "http://facebook.com/sharer.php?u=#{URI.escape('https://www.franksmovielog.com' + href_for_post(post) + '/&utm_medium="social_share"&utm_source="facebook"')}", onclick:"window.ga('send', 'event', 'Post Share Footer', 'click', 'Share to Facebook click');"}
+      %span.post_share_footer-facebook
+        %svg{ viewBox: "0 0 18 18" }
+          %path{ d: "M7.003 17l-.006-7H4l.006-3h2.997V4.995C7.003 2.408 8.457 1 10.808 1c1.126 0 1.91.082 2.192.12v2.877h-1.447c-1.278 0-1.526.597-1.526 1.472V7h2.866l-.403 3h-2.47l.007 7H7.003z" }
+        Share
+    %a.post_share_footer-link{ rel: 'nofollow', href: "http://twitter.com/share?text=#{URI.escape(headline)}&amp;url=#{URI.escape('https://www.franksmovielog.com' + href_for_post(post) + '/&utm_medium="social_share"&utm_source="twitter"')}", onclick: "window.ga('send', 'event', 'Post Share Footer', 'click', 'Share to Twitter click');" }
+      %span.post_share_footer-twitter
+        %svg{ viewBox: "0 0 18 18" }
+          %path{ d: "M12.077 2c-1.812 0-3.282 1.582-3.282 3.534 0 .277.03.547.085.806-2.728-.148-5.147-1.555-6.766-3.693-.283.522-.445 1.13-.445 1.777 0 1.226.58 2.308 1.46 2.942-.54-.02-1.05-.178-1.49-.443v.045c0 1.712 1.13 3.14 2.63 3.465-.28.08-.57.124-.87.124-.21 0-.418-.022-.62-.063.418 1.404 1.63 2.426 3.067 2.455-1.125.94-2.54 1.51-4.078 1.51-.267 0-.528-.02-.785-.05 1.46 1 3.185 1.59 5.04 1.59 6.037 0 9.34-5.39 9.34-10.06 0-.153-.005-.306-.01-.457.64-.5 1.197-1.12 1.637-1.83-.59.28-1.22.47-1.885.557.677-.437 1.198-1.13 1.443-1.955-.633.405-1.336.7-2.084.858C13.88 2.43 13.028 2 12.08 2" }
+        Tweet

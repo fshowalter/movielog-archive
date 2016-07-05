@@ -1,0 +1,10 @@
+.more_posts
+  .more_posts-heading
+    = heading
+  %ol.more_posts-list
+    - more_posts.each do |post|
+      %li.more_posts-list_item
+        %a{ href: href_for_post(post) }
+          .more_posts-backdrop{ data: { backdrop: post.backdrop } }
+          .more_posts-headline
+            = markdown(post.headline, inline: true)

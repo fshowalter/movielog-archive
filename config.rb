@@ -46,11 +46,11 @@ helpers do
     Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
   end
 
-  def cast_and_crew_link(person)
+  def cast_and_crew_link(person, options = {})
     name = "#{person.first_name} #{person.last_name}"
 
     if Movielog.cast_and_crew.key?(person.full_name)
-      return link_to(name, "/cast-and-crew/#{Movielog.cast_and_crew[person.full_name].slug}/")
+      return link_to(name, "/cast-and-crew/#{Movielog.cast_and_crew[person.full_name].slug}/", options)
     end
 
     name

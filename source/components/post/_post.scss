@@ -1,13 +1,22 @@
 .post {
   padding: 0 1.12rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .post-headline {
   font-size: 32px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-backdrop_wrap {
+  margin: 0;
 }
 
 .post-backdrop {
-  margin: 3px -1.12rem 20px;
+  margin: 3px -1.12rem 0;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -26,8 +35,34 @@
   }
 }
 
-.post-content p {
+.post p {
   font-family: "ElizabethSerif",Georgia,serif;
   font-size: 15px;
   line-height: 28px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 31.3125em) {
+    font-size: 21px;
+    line-height: 1.58;
+    margin-bottom: 21px;
+  }
+}
+
+.post-grade {
+  display: block;
+  height: 28px;
+  margin: 40px auto 48px;
+  width: 140px;
+}
+
+.post-backdrop_caption {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 21px;
+  margin-top: .5rem;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
 }

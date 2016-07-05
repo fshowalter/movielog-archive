@@ -8,7 +8,7 @@
 :grade: D+
 :pull_quote: ""
 :backdrop: https://lh3.googleusercontent.com/-jhKA9oNj4a4/VftlBWJr0pI/AAAAAAAAC-A/dhBIvVcovaQ/s1000-Ic42-rj/i-monster-1971.jpg
-:pull_quote: _I, Monster_ disappoints given its two leads.
+:headline: _I, Monster_ disappoints given its two leads.
 :poster: https://lh3.googleusercontent.com/rWdxurq_j1MxUGFbZykge5iZmqQ4rdQ8dEDxcHpewxptndPpvLW5PzRsWmNHN-dTX-R5kdw4ufTd=w290-rj
 ---
 “He would be the most dangerous human being on earth. A monster.”

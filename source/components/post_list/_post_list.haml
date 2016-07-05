@@ -14,7 +14,7 @@
               = post.date.strftime('%b %-d, %Y')
 
         .post_list-content
-          .post_list-backdrop_wrap
+          %a.post_list-backdrop_wrap{ href: href_for_post(post) }
             .post_list-backdrop{ data: { backdrop: post.backdrop } }
           .post_list-excerpt
             = first_paragraph(post.content)

@@ -7,7 +7,7 @@
 :imdb_id: tt0068230
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-dpJAk_37aV0/VgNWYPY-uHI/AAAAAAAADBY/dg5KNqqrEYA/w1000-Ic42-rj/asylum-1972.jpg
-:pull_quote: "Instead of exploiting its able cast, _Asylum_’s script relies on special effects the production can’t deliver. "
+:headline: "_Asylum_’s Script Relies on Special Effects the Production Can’t Deliver"
 :poster: https://lh3.googleusercontent.com/Y_YMZHr_C0ZENeKNvqQnfKyeTeFdKfImPUVqux-_McxYH5XpP01UF8fh4nIjX1Mwwe-a3MjPEKN_=w290-rj
 ---
 
