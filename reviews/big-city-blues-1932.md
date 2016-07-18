@@ -1,14 +1,13 @@
 ---
 :sequence: 50
-:title: Big City Blues (1932)
+:title: Big City Blues
+:db_title: Big City Blues (1932)
 :slug: big-city-blues-1932
-:display_title: Big City Blues (1932)
 :date: 2015-09-21
 :imdb_id: tt0022676
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-lase2i_TlqU/Vf4Ud4BsYuI/AAAAAAAADAQ/oUIWFE2WwVU/s1000-Ic42-rj/big-city-blues-1932.jpg
-:pull_quote: "I may have watched _Big City Blues_ for Bogart, but I enjoyed more than just his small role"
-:poster: https://lh3.googleusercontent.com/OqfOK2FijSzs_wxk9kGsrG-S65jFtk4XOpWLS1LEGLA1bka5sTY6mtn-9gy1QMqNR3LdrtWOaTuL=w290-rj
+:capsule: "I came for Bogart, but enjoyed more than just his small role."
 ---
 
 I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film’s obscurity, my expectations were low.

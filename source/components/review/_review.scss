@@ -1,0 +1,139 @@
+.review-title {
+  margin-top: 20px;
+  // text-align: center;
+  font-size: 28px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.review-grade {
+  display: block;
+  height: 25px;
+  margin: 20px auto 30px;
+  width: 125px;
+}
+
+.review-wrap {
+
+  @media (min-width: 50.3125em) {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eaeaea;
+    padding-top: 28px;
+  }
+}
+
+.review-meta {
+  padding: 20px 0 0;
+  border-top: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
+  // text-align: center;
+  // margin: 0 1.12rem 28px;
+
+  @media(min-width: 43.75em) {
+    max-width: 700px;
+    margin: 0 auto 28px;
+  }
+
+  @media (min-width: 31.3125em) {
+    flex-grow: 1;
+  }
+}
+
+.review-meta  p {
+  font-feature-settings: 'ordn', 'lnum';
+  font-family: "freight-text-pro",Georgia,serif;
+  font-size: 20px;
+  letter-spacing: .16px;
+  line-height: 26px;
+
+  @media (min-width: 31.3125em) {
+    font-size: 21px;
+    line-height: 1.58;
+    margin-bottom: 21px;
+  }
+}
+
+.review-meta_title {
+  font-weight: bold;
+  display: block;
+}
+
+.review-meta_aka_heading {
+  &:after {
+    content: ': ';
+  }
+}
+
+.review-meta_aka_title {
+  white-space: nowrap;
+  font-style: italic;
+
+  &:after {
+    content: ' | ';
+    white-space: normal;
+  }
+
+  &:last-of-type:after {
+    content: '';
+  }
+}
+
+.review-meta_director {
+  display: block;
+
+  // &:after {
+  //   content: ' | '
+  // }
+}
+
+.review-meta_country {
+  display: block;
+}
+
+.review-meta_seen {
+  display: block;
+}
+
+.review-content {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: -1.12rem;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #eaeaea;
+  }
+
+  p:first-child:first-line {
+    color: #000;
+  }
+}
+
+.review-tags {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.4;
+  // text-align: center;
+}
+
+.review-tags_list {
+  margin: 0 0 40px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-tags_list_item {
+  display: inline-block;
+}
+
+.review-tags_link {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 0 8px 8px 0;
+  display: block;
+}

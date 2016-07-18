@@ -1,0 +1,19 @@
+.post_content {
+  padding: 0 20px;
+}
+
+.post_content p {
+  font-feature-settings: 'ordn', 'lnum';
+  font-family: "freight-text-pro",Georgia,serif;
+  font-size: 20px;
+  letter-spacing: .16px;
+  line-height: 28px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+
+  @media (min-width: 31.3125em) {
+    font-size: 21px;
+    line-height: 1.58;
+    margin-bottom: 21px;
+  }
+}

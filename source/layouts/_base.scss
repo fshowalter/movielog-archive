@@ -12,17 +12,18 @@ body, html {
 
 body {
   background: #fff;
-  color: #222;
-  font-family: 'ProximaNovaCond', sans-serif;
+  color: rgba(0, 0, 0, .8);
+  font-family: 'proxima-nova-condensed', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 24px;
   margin: 0;
   padding: 0;
   position: relative;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
-  margin-bottom: 1.25rem;
+  // margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }

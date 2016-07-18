@@ -1,0 +1,23 @@
+.post_backdrop_wrap {
+  margin: 0;
+}
+
+.post_backdrop {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: .8s opacity;
+  cursor: pointer;
+
+  &:before {
+    padding-top: 56.249999993%;
+    height: 0;
+    content: '';
+    display: block;
+  }
+
+  &.loaded {
+    opacity: 1;
+  }
+}

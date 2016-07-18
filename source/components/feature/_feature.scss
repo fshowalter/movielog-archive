@@ -1,0 +1,37 @@
+.feature {
+  padding-top: 20px;
+
+  @media (min-width: 50em) {
+    padding-top: 30px;
+  }
+}
+
+.feature-headline {
+  margin: 0 20px 20px;
+  line-height: 1.2;
+  font-size: 30px;
+
+  @media (min-width: 50em) {
+    font-size: 40px;
+  }
+}
+
+.feature-content {
+  padding: 0 20px;
+  font-feature-settings: 'ordn', 'lnum';
+  font-family: "freight-text-pro",Georgia,serif;
+  font-size: 20px;
+  letter-spacing: .16px;
+  line-height: 28px;
+  max-width: 740px;
+  margin: 30px auto 40px;
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: 31.3125em) {
+    font-size: 21px;
+    line-height: 1.58;
+  }
+}

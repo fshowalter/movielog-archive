@@ -1,20 +1,18 @@
 %ol.post_list
-  - posts.each do |key|
-    - post = post_for_key(key)
-    %li.post_list-item
+  - posts.each_with_index do |post, index|
+    %li{ class: index == 0 ? 'post_list-item--splash' : 'post_list-item' }
       %article.post_list-post
-        %header
-          %h3.post_list-headline
-            %a.post_list-header_link{ href: href_for_post(post) }
-              = markdown(post.headline, inline: true)
-          .post_list-meta
-            .post_list-meta_category
-              = category_link_for_post(post, class: 'post_list-meta_category_link')
-            .post_list-meta_date
-              = post.date.strftime('%b %-d, %Y')
-
+        / .post_list-date
+        /   = post.date.strftime('%b %-d, %Y')
         .post_list-content
           %a.post_list-backdrop_wrap{ href: href_for_post(post) }
             .post_list-backdrop{ data: { backdrop: post.backdrop } }
+          %header.post_list-header
+            %h3.post_list-headline
+              %a.post_list-header_link{ href: href_for_post(post) }
+                = post.title
+          = grade_to_image_tag(grade: post.grade, options: { class: 'post_list-grade' })
           .post_list-excerpt
-            = first_paragraph(post.content)
+            %p
+              = post.capsule
+            %a.post_list-read_more{ href: href_for_post(post) }Read more...

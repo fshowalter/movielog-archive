@@ -9,12 +9,15 @@ layout: :columns
 - content_for :layout_column_2 do
   - if person.direction_credits
     %h2.cast_and_crew-section_heading#director Director
-    = partial('components/review_list/review_list', locals: { review_titles: person.direction_credits })
+    - posts = person.direction_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })
 
   - if person.performance_credits
     %h2.cast_and_crew-section_heading#performer Performer
-    = partial('components/review_list/review_list', locals: { review_titles: person.performance_credits })
+    - posts = person.performance_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })
 
   - if person.writing_credits
     %h2.cast_and_crew-section_heading#writer Writer
-    = partial('components/review_list/review_list', locals: { review_titles: person.writing_credits })
+    - posts = person.writing_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })

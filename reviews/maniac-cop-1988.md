@@ -1,14 +1,13 @@
 ---
 :sequence: 45
-:title: Maniac Cop (1988)
+:title: Maniac Cop
+:db_title: Maniac Cop (1988)
 :slug: maniac-cop-1988
-:display_title: Maniac Cop (1988)
 :date: 2015-08-13
 :imdb_id: tt0095583
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/r6mAYBecAG9bbhDxOWnkC1NPii0VYhG97oHLPTLJogU=w1000-rj
-:pull_quote: Despite its meager budget, _Maniac Cop_ is a lot of fun.
-:poster: https://lh3.googleusercontent.com/c6jkosZEKQRNbnWzaY1EpG-6lrrh6xMy9FOHeGw6UsljXXwIGi2QkcsfAe2UFJbCMqkocj2kE9yb=w290-rj
+:capsule: A lot of fun, despite its meager budget.
 ---
 
 _Maniac Cop_ is set in New York City. Not the bustling metropolis of today, but the seedy, dangerous cesspool Hollywood liked to conjure during the 70s and 80s. A vicious jungle where street punks, pimps, and pushers lurked around every darkened corner. The film embraces this atmosphere. Everything feels worn, lived-in, and used.

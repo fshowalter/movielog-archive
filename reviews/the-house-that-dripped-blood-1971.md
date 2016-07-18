@@ -1,14 +1,13 @@
 ---
 :sequence: 53
-:title: The House That Dripped Blood (1971)
+:title: The House That Dripped Blood
+:db_title: The House That Dripped Blood (1971)
 :slug: the-house-that-dripped-blood-1971
-:display_title: The House That Dripped Blood (1971)
 :date: 2015-11-25
 :imdb_id: tt0065854
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-VoTxqBnhNEQ/VlRORd6InRI/AAAAAAAADEg/5f5u9KnFYGQ/w1000-Ic42-rj/the-house-that-drippped-blood-1971.png
-:poster: https://lh3.googleusercontent.com/GrSjCgaT50iGGo1p4r887BQcPS0GPI7p5iYUe7QBoqBo4LY6m4oGdxpQOdjsl-93ZRxMK91AHvGk=w302-rj
-:headline: "Christopher Lee’s Segment Is Enough to Recommend _The House that Dripped Blood_."
+:capsule: "Christopher Lee’s segment makes the movie."
 ---
 
 Reviewing anthology movies is hard. I picture you, dear reader, trudging through endless paragraphs of plot synopsis and I feel guilty. I have let you down.

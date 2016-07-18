@@ -1,14 +1,13 @@
 ---
 :sequence: 44
-:title: Hell Is for Heroes (1962)
+:title: Hell Is for Heroes
+:db_title: Hell Is for Heroes (1962)
 :slug: hell-is-for-heroes-1962
-:display_title: Hell Is for Heroes (1962)
 :date: 2015-07-15
 :imdb_id: tt0056062
 :grade: B
 :backdrop: https://lh5.googleusercontent.com/-zElWMBrjz74/VabygZuT7uI/AAAAAAAAC3o/5M9XI1OPCxk/w1000-rj/hell-is-for-heroes-1962.jpg
-:pull_quote: _Hell Is for Heroes_ saw Steve McQueen piss off the cast, crew and studio, yet still make a good movie.
-:poster: https://lh3.googleusercontent.com/RWVfKIpDa8M099fXiPQF32YTvYVmBIQRACLxPKCsdmzW1TEGUiaEX3uF8KyXbdYK9kHLCzRrkMc4=w290-rj
+:capsule: Steve McQueen pisses off the cast, crew and studio; still makes a good movie.
 ---
 _Hell Is for Heroes_ tells the story of a small squad of American soldiers. It’s 1944 and the group has seen its share of action on the European lines. Now, they’re enjoying a break in a bombed-out village near the Siegfried Line.
 

@@ -115,7 +115,7 @@ helpers do
 
     reviews.values.each do |review|
       content.gsub!(
-        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
+        review.title, link_to(review.title, "/reviews/#{review.slug}/"))
     end
 
     content

@@ -6,5 +6,8 @@
       %li.more_posts-list_item
         %a{ href: href_for_post(post) }
           .more_posts-backdrop{ data: { backdrop: post.backdrop } }
+          = grade_to_image_tag(grade: post.grade, options: { class: 'more_posts-grade' })
+          .more_posts-title
+            = post.title
           .more_posts-headline
-            = markdown(post.headline, inline: true)
+            = post.capsule

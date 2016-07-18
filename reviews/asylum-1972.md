@@ -1,14 +1,13 @@
 ---
 :sequence: 51
-:title: Asylum (1972/I)
+:title: Asylum
+:db_title: Asylum (1972/I)
 :slug: asylum-1972
-:display_title: Asylum (1972)
 :date: 2015-11-21
 :imdb_id: tt0068230
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-dpJAk_37aV0/VgNWYPY-uHI/AAAAAAAADBY/dg5KNqqrEYA/w1000-Ic42-rj/asylum-1972.jpg
-:headline: "_Asylum_’s Script Relies on Special Effects the Production Can’t Deliver"
-:poster: https://lh3.googleusercontent.com/Y_YMZHr_C0ZENeKNvqQnfKyeTeFdKfImPUVqux-_McxYH5XpP01UF8fh4nIjX1Mwwe-a3MjPEKN_=w290-rj
+:capsule: "The special effects are more laughable than scary."
 ---
 
 _Asylum_ is another anthology horror from Amicus Productions. As with _The House That Dripped Blood (1971)_, the script comes courtesy of Robert Bloch.

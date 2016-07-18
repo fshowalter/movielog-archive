@@ -1,31 +1,23 @@
 ---
+layout: :single
 ---
 :ruby
-  content_for(:title, feature.title)
+  content_for(:title, feature.headline)
+  headline = feature.headline.gsub(/(_[^_]*_)/) { |match| match.upcase.gsub('_', '') }
+  description = first_paragraph(feature.content)
 
 - content_for(:head) do
-  %meta{ name: 'description', content: feature.pull_quote }
+  %meta{ property: 'og:title', content: headline }
+  %meta{ property: 'og:url', content: "https://www.franksmovielog.com/features/#{feature.slug}" }
+  %meta{ property: 'og:image', content: feature.backdrop }
+  %meta{ property: 'og:description', content: description }
+
+  %meta{ name: 'description', content: description }
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }
-  %meta{ name: 'twitter:title', content: feature.title }
-  %meta{ name: 'twitter:description', content: markdown(feature.pull_quote) }
+  %meta{ name: 'twitter:title', content: headline }
+  %meta{ name: 'twitter:description', content: description }
   %meta{ name: 'twitter:image', content: feature.backdrop }
 
-.page_wrap
-  .main
-    %article.post
-      %h1.post-title{ data: { rhythm: 0 } }= feature.title
-
-      - if feature.backdrop
-        .post-backdrop_wrap
-          .post_backdrop{ data: { backdrop: feature.backdrop } }
-
-      .post_content{ class: feature.slug, data: { rhythm: 0 } }
-        = markdown(feature.content)
-
-  .sidebar
-    .review-meta_container
-      %p.feature-slug
-        %span
-          &ldquo;#{feature.title}&rdquo;
-        = " was published on #{feature.date.strftime('%b %-d, %Y')}. "
+= partial('components/feature/feature', locals: { feature: feature })
+= partial('components/post_share_footer/post_share_footer', locals: { post: feature })

@@ -1,15 +1,13 @@
 ---
 :sequence: 41
-:title: The City of the Dead (1960)
+:title: The City of the Dead
+:db_title: The City of the Dead (1960)
 :slug: the-city-of-the-dead-1960
-:display_title: The City of the Dead (1960)
 :date: 2015-06-13
 :imdb_id: tt0053719
 :grade: B
 :backdrop: https://lh5.googleusercontent.com/-WfnrWG-xYvg/VXYpwJ7RY_I/AAAAAAAACz4/Rsx3TqyNK_Q/w1000-rj/the-city-of-the-dead-1960.jpg
-:pull_quote: One could say _The City of the Dead_ was ahead of its time. That elements of it would be copied by so many other films they would later be labeled as tropes. But I’ll leave the academia to others. Suffice it to say the film _works_.
-:pull_quote_short: Lee’s performance, like the film, is an overlooked gem.
-:poster: https://lh3.googleusercontent.com/mZdAhaaWa-TRX56DApB_7nfMva5OkZYRmkWaEm_3TnulpRrOrqFPlwo2Njqca7ZZY_55iZ9fiQzr=w290-rj
+:capsule: Lee’s performance, like the film, is an overlooked gem.
 ---
 _The City of the Dead_ opens in a small, fog-shrouded village. The locals have gathered to burn Elizabeth Selwyn for the crime of witchcraft.[^1] As the flames consume her, Elizabeth pledges her soul to Lucifer in exchange for eternal life. The bloodthirsty villagers drown her out, chanting “Burn witch, burn!”
 

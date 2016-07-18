@@ -3,12 +3,11 @@ layout: :single
 ---
 :ruby
   review = Movielog.reviews[review.sequence]
-  content_for(:title, "#{review.display_title} Movie Review")
-  description = review.headline.gsub( '_', '&#34;' ).html_safe
-  meta_description = escape_html(description_for_review(review: review)).gsub( '_', '&#34;' ).html_safe
-  more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.title)
-  viewings = Movielog.viewings_for_title(title: review.title)
+  description = review.capsule
+  meta_description = review.capsule
 
+- content_for(:title) do
+  #{review.display_title} Movie Review
 
 - content_for(:head) do
   %meta{ name: 'description', content: meta_description }
@@ -22,21 +21,8 @@ layout: :single
   %meta{ name: 'twitter:description', content: description }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
-
-- content_for :post do
-  %p
-    <strong>Grade: #{review.grade}</strong>
-  = partial('components/credits/credits', locals: { review: review, viewings: viewings })
-  / - unless more_for_cast.empty?
-  /   - more_for_cast.each do |performer, titles|
-  /     - next unless titles.length > 3
-  /     - related_titles = array_window(titles, 4, review.title).select{ |title| title != review.title }.map{ |title| Movielog.reviews_by_title[title] }
-  /     = partial('components/more_posts/more_posts', locals: { heading: "More with #{performer.first_name} #{performer.last_name}" , more_posts: related_titles })
-
-= partial('components/post/post', locals: { post: review })
+= partial('components/review/review', locals: { review: review })
 = partial('components/post_share_footer/post_share_footer', locals: { post: review })
-
-
 
 %script{ type: 'application/ld+json' }
   :plain
@@ -66,6 +52,4 @@ layout: :single
         "ratingValue": #{Movielog::ConvertGradeToNumber.call(grade: review.grade) / 3}
       }
     }
-
-
 

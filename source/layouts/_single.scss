@@ -1,12 +1,12 @@
 .layout-single {
   position: relative;
   width: 100%;
-  padding-top: 35px;
+  // padding-top: 35px;
   margin: 0 auto;
 
   @media only screen and (min-width: 50em) {
     min-width: calc(800px);
-    max-width: calc(1000px + 2.24rem);
+    max-width: calc(1000px);
     width: 66.66%;
   }
 }

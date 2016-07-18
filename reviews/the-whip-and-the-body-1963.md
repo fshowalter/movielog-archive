@@ -1,14 +1,13 @@
 ---
 :sequence: 49
-:title: La frusta e il corpo (1963)
+:title: The Whip and the Body
+:db_title: La frusta e il corpo (1963)
 :slug: the-whip-and-the-body-1963
-:display_title: The Whip and the Body (1963)
 :date: 2015-09-19
 :imdb_id: tt0057078
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-fYYTXXKxuAI/Vf3bBHFK8dI/AAAAAAAAC_c/UVk2CFzTDb0/w1000-Ic42-rj/the-whip-and-the-body-1963.jpg
-:pull_quote: "Any film starring Christopher Lee as a ghost whipping a half-nude woman as she moans in ecstasy can’t be all bad."
-:poster: https://lh3.googleusercontent.com/e4D3V5Co0p9vv5dK6pxPOy-sCx8NDXR3YoqJ0fuCoAL50XCfhKqeX8AkXfV0sV-wgv5XWHIHXLeZ=w290-rj
+:capsule: "Christopher Lee as a ghost, whipping a half-nude woman as she moans in ecstasy."
 ---
 
 Any film starring Christopher Lee as a ghost whipping a half-nude woman as she moans in ecstasy can’t be all bad.

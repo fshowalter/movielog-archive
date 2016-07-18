@@ -1,14 +1,13 @@
 ---
 :sequence: 39
-:title: It Follows (2014)
+:title: It Follows
+:db_title: It Follows (2014)
 :slug: it-follows-2014
-:display_title: It Follows (2014)
 :date: 2015-04-11
 :imdb_id: tt3235888
 :grade: D
 :backdrop: https://lh4.googleusercontent.com/-3qgyA_4TF0I/VU7XWMEOs8I/AAAAAAAAChY/ix_9qvqspJY/w1000-rj/it-follows-2014.jpg
-:pull_quote: "_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography."
-:poster: https://lh3.googleusercontent.com/WVAXBSclsHeSPZ2fkU8y7rqrpz3FWHURt0RFnFUEQsuhX3xxFvEDeTOSqPclfyA52cuJkUXDE7Kh=w290-rj
+:capsule: "The perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography."
 ---
 _It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills.
 

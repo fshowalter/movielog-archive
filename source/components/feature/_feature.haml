@@ -1,0 +1,8 @@
+%article.feature
+  %h1.feature-headline
+    = markdown(feature.headline, inline: true)
+
+  = partial('components/post_backdrop/post_backdrop', locals: { backdrop: feature.backdrop })
+
+  .feature-content
+    = markdown(feature.date.strftime('%b %-d, %Y&mdash;') + feature.content)

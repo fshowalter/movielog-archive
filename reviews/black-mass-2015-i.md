@@ -1,14 +1,13 @@
 ---
 :sequence: 54
-:title: Black Mass (2015)
+:title: Black Mass
+:db_title: Black Mass (2015)
 :slug: black-mass-2015
-:display_title: Black Mass (2015)
 :date: 2016-02-06
 :imdb_id: tt1355683
 :grade: D+
 :backdrop: "https://lh3.googleusercontent.com/-kRxczPrTtu4/Vlw5cJ8pHwI/AAAAAAAADFc/cTbMIuZYPGI/w1000-Ic42-rj/black-mass-2015.jpg"
-:pull_quote: "With no psychological insight, _Black Mass_ feels hollow."
-:poster: https://lh3.googleusercontent.com/TCQB_tqlaygNkgC-C4hIzpodXKlN6lSzvhD_Rg00jcmDOx9IB9ApUkb-14uUjFp0dmzDrGaNnoPc=w290-rj
+:capsule: "All makeup, no depth."
 ---
 
 Based on a true story, _Black Mass_ sees Johnny Depp made up as a balding and paunchy James “Whitey” Bulger. The film follows Bulger’s ascent from small-time hood to crime-lord of South Boston. A journey made possible by the FBI.

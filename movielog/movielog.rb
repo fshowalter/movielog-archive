@@ -17,7 +17,7 @@ module Movielog
 
     def reviews_by_title
       reviews.values.each_with_object({}) do |review, hash|
-        hash[review.title] = review
+        hash[(review.db_title || review.title)] = review
       end
     end
 

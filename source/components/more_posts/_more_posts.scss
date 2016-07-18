@@ -1,12 +1,12 @@
 .more_posts {
   margin-bottom: 40px;
-  margin: 0 0 18px;
+  margin: 0 auto 20px;
+  max-width: 700px;
 }
 
 .more_posts-heading {
   font-size: 16px;
   text-rendering: optimizeLegibility;
-  font-weight: 400;
   word-wrap: break-word;
   padding-bottom: 4px;
   border-bottom: 1px solid #ddd;
@@ -15,11 +15,11 @@
 
 .more_posts-list {
   padding: 0;
-  width: 100%;
   margin: 0;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   &:after {
     content: '';
@@ -29,11 +29,15 @@
 }
 
 .more_posts-list_item {
-  max-width: 32%;
-  width: 32%;
+  width: 50%;
   display: block;
-  height: auto;
+  padding-right: 10px;
   margin-bottom: 20px;
+
+  &:nth-child(even) {
+    padding-right: 0;
+    padding-left: 10px;
+  }
 }
 
 .more_posts-backdrop {
@@ -57,8 +61,7 @@
 }
 
 .more_posts-headline {
-  font-size: 13px;
-  font-weight: normal;
+  font-size: 14px;
   line-height: 15px;
   color: #333;
   display: block;

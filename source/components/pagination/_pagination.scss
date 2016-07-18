@@ -8,7 +8,7 @@
   text-rendering: optimizeLegibility;
   font-weight: bold;
   word-wrap: break-word;
-  margin: 0 1.12rem;
+  margin: 0 20px;
   padding-bottom: 1px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .pagination-list_item {
-  padding: 0 1.12rem;
+  padding: 0 20px;
   margin: auto auto 20px;
   width: 50%;
   float: left;
@@ -88,7 +88,7 @@
 }
 
 .pagination-more_link {
-  padding: .4525rem 57px .39rem 1.375rem;
+  padding: 0 60px 0 20px;
   color: #000;
   display: inline-block;
   margin-top: 2rem;
@@ -97,17 +97,17 @@
   border-radius: 5px;
   position: relative;
   font-size: .94rem;
-  line-height: normal;
+  line-height: 38px;
 
   &:after {
     content: '';
     position: absolute;
     background-image: encode-svg('<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path d="M6.165 3.874c-.217-.204-.22-.53-.008-.73.206-.192.56-.195.776.008l5.902 5.48c.11.102.165.236.165.37-.002.126-.055.262-.165.365l-5.902 5.478c-.217.204-.564.207-.776.007-.206-.193-.21-.525.008-.728L11.69 9 6.165 3.873z"></path></svg>');
-    right: 22px;
+    right: 20px;
     width: 20px;
     height: 20px;
     background-size: contain;
     opacity: .3;
-    top: 4px;
+    top: 9px;
   }
 }

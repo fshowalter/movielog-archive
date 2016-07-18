@@ -10,7 +10,7 @@ module Movielog
   	end
 
   	def year
-  		self.display_title[/\(([^\)]+)\)$/, 1]
+  		(self.db_title || self.display_title)[/\(([^\)]+)\)$/, 1]
   	end
   end
 end

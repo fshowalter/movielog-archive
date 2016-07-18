@@ -1,4 +1,25 @@
 @font-face {
+  font-family: 'woodford';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/woodfordbourne-regular-webfont.woff2') format("woff2"); }
+@font-face {
+  font-family: 'woodford';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/woodfordbourne-italic-webfont.woff2') format("woff2"); }
+@font-face {
+  font-family: 'woodford';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/woodfordbourne-bold-webfont.woff2') format("woff2"); }
+@font-face {
+  font-family: 'woodford';
+  font-weight: bold;
+  font-style: italic;
+  src: url('/fonts/woodfordbourne-bolditalic-webfont.woff2') format("woff2"); }
+
+@font-face {
   font-family: 'ProximaNovaCond';
   font-weight: normal;
   font-style: normal;

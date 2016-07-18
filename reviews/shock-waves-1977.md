@@ -1,14 +1,13 @@
 ---
 :sequence: 46
-:title: Shock Waves (1977)
+:title: Shock Waves
+:db_title: Shock Waves (1977)
 :slug: shock-waves-1977
-:display_title: Shock Waves (1977)
 :date: 2015-08-29
 :imdb_id: tt0076704
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-rj
-pull_quote: "The characters in _Shock Waves_ are so inane, by the end, we’re rooting against them."
-:poster: https://lh3.googleusercontent.com/y7cE3tohRICPV_tej87PkkdMKlRLHWbGkmbmQfZFCczSPpIiWpYgcKaPjcpoS4-DHWUELwAGOlT-=w290-rj
+:capsule: "The characters are so inane, by the end, we’re rooting against them."
 ---
 The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me.
 

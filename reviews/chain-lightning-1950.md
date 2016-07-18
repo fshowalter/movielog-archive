@@ -1,16 +1,14 @@
 ---
 
 :sequence: 55
-:title: Chain Lightning (1950)
+:title: Chain Lightning
 :slug: chain-lightning-1950
-:display_title: Chain Lightning (1950)
+:db_title: Chain Lightning (1950)
 :date: 2016-02-17
 :imdb_id: tt0042324
 :grade: D+
 :backdrop: "https://lh3.googleusercontent.com/fXE6R_a57mB0-5L6fujb4hR1tEKUQ9FdNVRfjfmNjtwHrQHXAm5QJ8MOKSyLkERibOmdMlUcLRcv=w1000-rj"
-:backdrop_caption: "This is not the skin-tight flight suit."
-:headline: "There’s a passable story buried in _Chain Lightning_, but Bogart’s wrong for the role."
-:poster: https://lh3.googleusercontent.com/Prn3lda_X58WLo8aGM5RMpMp-W2_9JubanyC8ttmmDC7SmYAavqK1jd5dxNQ3nTBvt0ruFq3sHeY=w290-rj
+:capsule: "Bogart looks ridiculous."
 ---
 
 The skin-tight flight suit is a bridge too far.

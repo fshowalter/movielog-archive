@@ -1,14 +1,13 @@
 ---
 :sequence: 52
-:title: And Now the Screaming Starts! (1973)
+:title: And Now the Screaming Starts!
+:db_title: And Now the Screaming Starts! (1973)
 :slug: and-now-the-screaming-starts-1973
-:display_title: And Now the Screaming Starts! (1973)
 :date: 2015-11-23
 :imdb_id: ''
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-EzkCY-3oyjk/VlJsFej4MXI/AAAAAAAADDo/QKejKVIP-8Y/w1000-Ic42-rj/and-now-the-screaming-starts-1973.png
-:poster: https://lh3.googleusercontent.com/LwNDBCEbZcaTH-7sIB4K3Z-nQ-RsANzUKnviD2Q1oFNFd9GHpDKC6KXdT97Cch4GZLC4od6i5U9D=w290-rj
-:headline: "_And Now the Screaming Starts_ Has All the Ingredients, Screws up the Recipe"
+:capsule: "It has all the ingredients, but screws up the recipe."
 ---
 
 The severed hand is surprisingly effective.

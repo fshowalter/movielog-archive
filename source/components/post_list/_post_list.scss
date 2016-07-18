@@ -1,79 +1,104 @@
 .post_list {
 	margin: 0;
-  padding: 0 1.12rem;
   list-style-type: none;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.post_list-item {
-  margin: 0 0 30px 0;
+.post_list-item, .post_list-item--splash {
+  margin: 0 0 20px 0;
   padding: 0;
+  width: 48%;
 
-  &:after {
-    content: '';
-    display: block;
-    height: 1px;
-    background-color: #e5e5e5;
-    margin-top: 30px;
-    margin-right: 0;
+  // &:after {
+  //   content: '';
+  //   display: block;
+  //   height: 1px;
+  //   background-color: #e5e5e5;
+  //   margin-top: 30px;
+  //   margin-right: 0;
+  // }
+
+  // &:last-of-type:after {
+  //   display: none;
+  // }
+}
+
+.post_list-item--splash {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-right: -20px;
+
+  .post_list-headline {
+    padding: 0 20px;
+    font-size: 26px;
   }
 
-  &:nth-child(3n + 3) {
-    .post_list-backdrop_wrap {
-      @media only screen and (min-width: 37.5em) {
-        width: 33.33%;
-        margin-bottom: 0;
-      }
-    }
+  .post_list-excerpt {
+    padding: 0 20px;
 
-    .post_list-excerpt {
-      @media only screen and (min-width: 37.5em) {
-        width: 66.67%;
-        padding-left: 0;
-      }
+    p {
+      font-size: 18px;
     }
   }
+
+  .post_list-grade {
+    margin-left: 20px;
+    width: 25%;
+  }
+
+  .post_list-date {
+    padding: 0 20px;
+  }
+}
+
+.post_list-item--thumb {
+  .post_list-backdrop_wrap {
+    @media only screen and (min-width: 37.5em) {
+      width: 33.33%;
+      margin-bottom: 0;
+    }
+  }
+
+  .post_list-excerpt {
+    @media only screen and (min-width: 37.5em) {
+      width: 66.67%;
+      padding-left: 0;
+    }
+  }
+}
+
+.post_list-header {
+  padding: 0;
 }
 
 .post_list-headline {
-  font-size: 24px;
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 10px 0 0;
+  // text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.18;
+  width: 95%;
 }
 
 .post_list-header_link {
   color: inherit;
 }
 
-.post_list-meta {
-  line-height: 1.4;
-  color: #aaa;
-  font-size: 13px;
-  margin-bottom: 15px;
-}
-
-.post_list-meta_category {
-  color: rgba(0,0,0,0.75);
-  font-size: 15px;
-  display: inline-block;
-
-  &:after {
-    content: '\00B7';
-    color: #aaa;
-    margin: 0 4px;
-    display: inline-block;
-  }
-}
-
-.post_list-meta_category_link {
-  color: inherit;
-  display: inline-block;
-}
-
-.post_list-meta_date {
-  display: inline-block;
+.post_list-date {
+  line-height: 20px;
+  color: rgba(0,0,0,.44);
+  font-size: 12px;
+  margin: 20px 3px 0;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 00;
 }
 
 .post_list-content {
-  margin: 0 -1.12rem;
+  margin: 0;
   max-width: none;
   width: auto;
 
@@ -90,16 +115,20 @@
 }
 
 .post_list-backdrop_wrap {
-  @media only screen and (min-width: 37.5em) {
-    padding-left: 1.12rem;
-    padding-right: 1.12rem;
+  // @media only screen and (min-width: 37.5em) {
+    // padding-left: 20px;
+    // padding-right: 20px;
     width: 100%;
-    float: left;
-  }
+    display: block;
+  // }
+}
+
+.post_list-item--splash .post_list-backdrop_wrap {
+  padding: 0;
 }
 
 .post_list-backdrop {
-  margin: 3px 0 20px;
+  margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -119,22 +148,40 @@
 }
 
 .post_list-excerpt {
-  padding-left: 1.12rem;
-  padding-right: 1.12rem;
-  width: 100%;
-  float: left;
+  // padding-left: 20px;
+  // padding-right: 20px;
+  width: 90%;
+  // float: left;
 
-  @media only screen and (min-width: 37.5em) {
-    padding-left: 1.12rem;
-    padding-right: 1.12rem;
-    width: 83.33%;
-    float: left;
-  }
+  // @media only screen and (min-width: 37.5em) {
+  //   width: 83.33%;
+  //   float: left;
+  // }
+}
+
+.post_list-grade {
+  height: auto;
+  width: 50%;
+  display: block;
+  margin: 5px 20px 10px -.5px
 }
 
 .post_list-excerpt p {
-  font-family: "ElizabethSerif",Georgia,serif;
+  // font-feature-settings: 'ordn', 'lnum';
+  // font-family: sans-serif;
+  // font-family: "freight-text-pro",Georgia,serif;
   font-size: 16px;
-  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: .16px;
+  line-height: 1.18;
   margin-bottom: 0;
+}
+
+.post_list-read_more {
+  font-size: 15px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 30px;
 }

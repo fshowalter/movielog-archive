@@ -2,9 +2,7 @@
 layout: :single
 pagination:
   for: posts
-  per_page: 20
+  per_page: 19
   path: page-:num/index
 ---
-
-= partial('components/post_list/post_list', locals: { posts: pagination })
-= partial('components/pagination/pagination', locals: { pagination: pagination })
+= partial('components/home/home', locals: { pagination: pagination })

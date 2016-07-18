@@ -1,15 +1,13 @@
 ---
 :sequence: 48
-:title: I, Monster (1971)
+:title: I, Monster
 :slug: i-monster-1971
-:display_title: I, Monster (1971)
+:db_title: I, Monster (1971)
 :date: 2015-09-18
 :imdb_id: tt0068727
 :grade: D+
-:pull_quote: ""
 :backdrop: https://lh3.googleusercontent.com/-jhKA9oNj4a4/VftlBWJr0pI/AAAAAAAAC-A/dhBIvVcovaQ/s1000-Ic42-rj/i-monster-1971.jpg
-:headline: _I, Monster_ disappoints given its two leads.
-:poster: https://lh3.googleusercontent.com/rWdxurq_j1MxUGFbZykge5iZmqQ4rdQ8dEDxcHpewxptndPpvLW5PzRsWmNHN-dTX-R5kdw4ufTd=w290-rj
+:capsule: Disappointing, given the two leads.
 ---
 “He would be the most dangerous human being on earth. A monster.”
 

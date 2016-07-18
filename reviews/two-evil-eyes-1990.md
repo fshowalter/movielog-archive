@@ -1,14 +1,13 @@
 ---
 :sequence: 47
-:title: Due occhi diabolici (1990)
+:title: Two Evil Eyes
+:db_title: Due occhi diabolici (1990)
 :slug: two-evil-eyes-1990
-:display_title: Two Evil Eyes (1990)
 :date: 2015-09-05
 :imdb_id: tt0100827
 :grade: 'C+'
 :backdrop: https://lh3.googleusercontent.com/FjcmoHWL96rt0VlcxWDqUH1lIA29WIy9UL5Xm7-_aFU=w1000-l75-rj
-:pull_quote: "Skip the first half of _Two Evil Eyes_. Or at least watch the second half first."
-:poster: https://lh3.googleusercontent.com/4nzsSHpL0PAPeVqFPKtvpq3qHdXc_e9D5f5JEdGM9u5xegT0FETpPoRO4AVgtLqm-ZLJp0B6U-lZ=w290-rj
+:capsule: "Skip the first half, or at least watch the second half first."
 ---
 Skip the first half of _Two Evil Eyes_. Or at least watch the second half first.
 

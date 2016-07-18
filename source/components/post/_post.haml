@@ -1,14 +1,2 @@
-:ruby
-  directors = MovieDb.directors_for_title(db: Movielog.db, title: post.title)
-
 %article.post
-  %h1.post-headline= inline_markdown(post.headline)
-  - if post.backdrop
-    .post-backdrop_wrap
-      .post-backdrop{ data: { backdrop: post.backdrop } }
-  - if post.grade
-    = grade_to_image_tag(grade: post.grade, options: { class: 'post-grade' })
-
-  .post-content
-    = markdown(post.content)
-  = yield_content(:post) if content_for?(:post)
+  = yield
