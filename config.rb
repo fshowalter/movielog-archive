@@ -144,8 +144,9 @@ helpers do
     content = Tilt['markdown'].new(footnotes: true) { source }.render
 
     reviews.values.each do |review|
+      title = review.display_title || review.db_title
       content.gsub!(
-        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
+        title, link_to(title, "/reviews/#{review.slug}/"))
     end
 
     content

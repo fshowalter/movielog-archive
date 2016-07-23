@@ -1,14 +1,13 @@
 ---
 
 :sequence: 55
-:title: Chain Lightning
+:title: Chain Lightning (1950)
 :slug: chain-lightning-1950
 :db_title: Chain Lightning (1950)
 :date: 2016-02-17
 :imdb_id: tt0042324
 :grade: D+
 :backdrop: "https://lh3.googleusercontent.com/fXE6R_a57mB0-5L6fujb4hR1tEKUQ9FdNVRfjfmNjtwHrQHXAm5QJ8MOKSyLkERibOmdMlUcLRcv=w1000-rj"
-:capsule: "Bogart looks ridiculous."
 ---
 
 The skin-tight flight suit is a bridge too far.
