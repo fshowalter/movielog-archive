@@ -1,16 +1,18 @@
 %ol.post_list
   - posts.each_with_index do |post, index|
-    %li.post_list-item
+    %li.post_list-item{ class: index == 0 ? '' : 'post_list-item--thumb' }
       %article.post_list-post
-        %header.post_list-header
-          %h3.post_list-title
-            %a.post_list-header_link{ href: href_for_post(post) }
-              = post.title
+        .post_list-date_wrap
           .post_list-date
-            = post.date.strftime('%b %-d, %Y')
-        %a.post_list-backdrop_wrap{ href: href_for_post(post) }
-          .post_list-backdrop{ data: { backdrop: post.backdrop } }
+            = post.date.strftime('%d %b %y')
         .post_list-content
+          %header.post_list-header
+            %h3.post_list-title
+              %a.post_list-header_link{ href: href_for_post(post) }
+                = post.title
+          %a.post_list-backdrop_wrap{ href: href_for_post(post) }
+            .post_list-backdrop{ data: { backdrop: post.backdrop } }
           .post_list-excerpt
             = first_paragraph(grade_to_image_tag(grade: post.grade, options: { class: 'post_list-grade' }) + ' ' + post.content)
             / %a.post_list-read_more{ href: href_for_post(post) }Read more...
+

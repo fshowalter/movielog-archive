@@ -2,34 +2,5 @@
   posts = pagination.map{ |k| post_for_key(k) }
 
 .home
-  .home-main
-    = partial('components/post_list/post_list', locals: { posts: posts })
-    = partial('components/pagination/pagination', locals: { pagination: pagination })
-  .home-sidebar
-    %h2.home-sidebar_heading <strong>About</strong> the Movielog
-    %p
-      Hi there. I'm Frank. <a href='/viewings/' data-no-carnac>I watch a lot of movies.</a> Once upon a time, I reviewed everything I watched, but these days I aim for quality over quantity. I’m not a great writer. Maybe not even a good one. But with practice I can be better.
-    %h2.home-sidebar_heading <strong>How</strong> I Grade
-    %dl.how_i_grade_list
-      %dt.how_i_grade_list-grade
-        = grade_to_image_tag(grade: 'A', options: { class: 'home-sidebar_grade' })
-      %dd.how_i_grade_list-text
-        %span a great movie
-      %dt.how_i_grade_list-grade
-        = grade_to_image_tag(grade: 'B', options: { class: 'home-sidebar_grade' })
-      %dd.how_i_grade_list-text
-        %span  a good movie
-      %dt.how_i_grade_list-grade
-        = grade_to_image_tag(grade: 'C', options: { class: 'home-sidebar_grade' })
-      %dd.how_i_grade_list-text
-        %span an okay movie
-      %dt.how_i_grade_list-grade
-        = grade_to_image_tag(grade: 'D', options: { class: 'home-sidebar_grade' })
-      %dd.how_i_grade_list-text
-        %span a bad movie
-      %dt.how_i_grade_list-grade
-        = grade_to_image_tag(grade: 'F', options: { class: 'home-sidebar_grade' })
-      %dd.how_i_grade_list-text
-        %span an awful movie
-
-    %p Grading systems are harder than one would think. It's all about nuance. <a href='/features/how-i-grade/'>I think a 5-star system works, but I’m not married to the idea.</a>
+  = partial('components/post_list/post_list', locals: { posts: posts })
+  = partial('components/pagination/pagination', locals: { pagination: pagination })

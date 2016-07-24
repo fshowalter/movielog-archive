@@ -1,7 +1,7 @@
 .more_posts {
-  margin-bottom: 40px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   max-width: 700px;
+  padding-bottom: 30px;
 }
 
 .more_posts-heading {
@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
   padding-bottom: 4px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e9e7e0;
   margin: 0 0 10px;
 }
 
@@ -29,14 +29,13 @@
 }
 
 .more_posts-list_item {
-  width: 50%;
+  width: 23%;
   display: block;
-  padding-right: 10px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 
   &:nth-child(even) {
-    padding-right: 0;
-    padding-left: 10px;
+    // padding-right: 0;
+    // padding-left: 10px;
   }
 }
 
@@ -60,10 +59,16 @@
   }
 }
 
-.more_posts-headline {
+.more_posts-grade {
+  width: 40%;
+}
+
+.more_posts-title {
   font-size: 14px;
   line-height: 15px;
   color: #333;
   display: block;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
+  width: 95%;
 }

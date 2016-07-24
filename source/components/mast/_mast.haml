@@ -1,7 +1,15 @@
 %header.mast
   .mast-wrap
-    %h1.mast-title
-      %a.mast-title_link{ href: '/', tabindex: 1 } Frank's Movie Log
+    %ul.mast-nav
+      %li.mast-nav_item
+        %a{ href: '/' }
+          Home
+      %li.mast-nav_item
+        %a{ href: '/reviews' }
+          Reviews
+      %li.mast-nav_item
+        %a{ href: '/how-i-grade' }
+          How I Grade
     = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
       = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
       .mast-search_input_wrap
@@ -11,3 +19,6 @@
                               tabindex: 2)
     %button.mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
       Search
+.mast-title_wrap
+  %h1.mast-title
+    Frank's Movie Log <span>I’m not a great writer. Maybe not even a good one. But with practice I can be better.</span>

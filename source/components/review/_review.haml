@@ -11,7 +11,7 @@
   = partial('components/post_backdrop/post_backdrop', locals: { backdrop: review.backdrop })
 
   %h1.review-title
-    = review.title
+    = review.title_without_year
 
   = grade_to_image_tag(grade: review.grade, options: { class: 'review-grade' })
 
@@ -19,26 +19,25 @@
     .review-content
       = markdown(review.date.strftime('%b %-d, %Y&mdash;') + review.content + "<p><strong>Grade: #{review.grade}</strong>")
 
-    .review-meta
-      %p
-        %span.review-meta_title
-          = review.title
-        %span.review-meta_director
-          D:&nbsp;#{ directors.map{ |p| cast_and_crew_link(p) }.join(' & ') }
-        %span.review-meta_country
-          #{ review.year } | #{ info.country } | #{ info.running_time }&nbsp;mins. |
-        - if aka_titles.any?
-          %span.review-meta_aka
-            %span.review-meta_aka_heading
-              aka
-            - aka_titles.each do |aka_title|
-              - next if aka_title.start_with?(review.title)
-              %span.review-meta_aka_title
-                = aka_title.gsub(/\([^\)]+\)$/, '').strip
-        %span.review-meta_seen
-          = " I've&nbsp;seen&nbsp;it&nbsp;"
-          %a{ href: "/viewings/?title=#{URI.escape(review.title)}", data: { no_carnac: true } }
-            = "#{pluralize(viewings.length, 'time')}."
+    %p.review-meta
+      %span.review-meta_title
+        = review.title
+      %span.review-meta_director
+        D:&nbsp;#{ directors.map{ |p| cast_and_crew_link(p) }.join(' & ') }
+      %span.review-meta_country
+        #{ review.year } | #{ info.country } | #{ info.running_time }&nbsp;mins. |
+      - if aka_titles.any?
+        %span.review-meta_aka
+          %span.review-meta_aka_heading
+            aka
+          - aka_titles.each do |aka_title|
+            - next if aka_title.start_with?(review.title)
+            %span.review-meta_aka_title
+              = aka_title.gsub(/\([^\)]+\)$/, '').strip
+      %span.review-meta_seen
+        = " I've&nbsp;seen&nbsp;it&nbsp;"
+        %a{ href: "/viewings/?title=#{URI.escape(review.title)}", data: { no_carnac: true } }
+          = "#{pluralize(viewings.length, 'time')}."
 
 
     .review-tags

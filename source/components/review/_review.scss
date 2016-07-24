@@ -1,16 +1,23 @@
+.review {
+  padding-bottom: 30px;
+}
+
 .review-title {
-  margin-top: 20px;
+  // margin-top: 20px;
   // text-align: center;
-  font-size: 28px;
-  padding: 0 20px;
-  margin-bottom: 20px;
+  font-size: 42px;
+  padding: 30px 20px 20px;
+  margin-bottom: 0;
+  line-height: 1.1;
+  // font-style: italic;
+  text-align: center;
 }
 
 .review-grade {
   display: block;
-  height: 25px;
-  margin: 20px auto 30px;
-  width: 125px;
+  height: auto;
+  margin: 10px auto 30px;
+  width: 15%;
 }
 
 .review-wrap {
@@ -24,23 +31,25 @@
 }
 
 .review-meta {
-  padding: 20px 0 0;
-  border-top: 1px solid #eaeaea;
+  // order: 1;
+  // padding: 30px 0 0;
+  // width: 180px;
   // border-bottom: 1px solid #eaeaea;
   // text-align: center;
   // margin: 0 1.12rem 28px;
+  // display: flex;
+  max-width: 700px;
+  margin: 30px auto 30px;
 
   @media(min-width: 43.75em) {
-    max-width: 700px;
-    margin: 0 auto 28px;
+    // max-width: 700px;
+    // margin: 0 auto 28px;
   }
 
   @media (min-width: 31.3125em) {
-    flex-grow: 1;
+    // flex-grow: 1;
   }
-}
 
-.review-meta  p {
   font-feature-settings: 'ordn', 'lnum';
   font-family: "freight-text-pro",Georgia,serif;
   font-size: 20px;
@@ -57,6 +66,7 @@
 .review-meta_title {
   font-weight: bold;
   display: block;
+  white-space: nowrap;
 }
 
 .review-meta_aka_heading {
@@ -68,6 +78,7 @@
 .review-meta_aka_title {
   white-space: nowrap;
   font-style: italic;
+  // display: block;
 
   &:after {
     content: ' | ';
@@ -97,20 +108,35 @@
 
 .review-content {
   position: relative;
+  border-bottom: 1px solid #e9e7e0;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  // padding: 0 0 0 30px;
+  // padding-right: 10px;
+  // order: 2;
 
-  &:before {
-    content: '';
-    position: absolute;
-    left: -1.12rem;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    background-color: #eaeaea;
-  }
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   width: 1px;
+  //   height: 100%;
+  //   background-color: #e9e7e0;
+  // }
 
   p:first-child:first-line {
+    font-variant: small-caps;
+    font-size: 23px;
     color: #000;
   }
+}
+
+.review .post_content {
+  // display: flex;
+  // flex-wrap: wrap;
+  // // border-top: solid 1px #e9e7e0;
+  // justify-content: space-between;
 }
 
 .review-tags {
@@ -121,9 +147,9 @@
 }
 
 .review-tags_list {
-  margin: 0 0 40px;
+  padding: 0 0 40px;
   list-style-type: none;
-  padding: 0;
+  margin: 0;
 }
 
 .review-tags_list_item {
