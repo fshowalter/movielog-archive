@@ -5,13 +5,13 @@
 
 .footer-list {
   text-align: center;
-  margin: 0 0 .88rem;
+  margin: 0 0 10px;
   line-height: 1.75;
   padding: 0;
 }
 
 .footer-list_item {
-  display: inline;
+  display: inline-block;
   padding: 0 8px;
 }
 
@@ -20,6 +20,7 @@
   color: #717171;
   letter-spacing: .3px;
   font-size: .94rem;
+  white-space: nowrap;
 }
 
 .footer-sub_link {

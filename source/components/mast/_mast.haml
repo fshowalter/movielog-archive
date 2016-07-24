@@ -2,13 +2,13 @@
   .mast-wrap
     %ul.mast-nav
       %li.mast-nav_item
-        %a{ href: '/' }
+        %a{ href: '/',  class: current_page.url == '/' ? 'active' : '' }
           Home
       %li.mast-nav_item
-        %a{ href: '/reviews' }
+        %a{ href: '/reviews', class: current_page.url == '/reviews' ? 'active' : '' }
           Reviews
       %li.mast-nav_item
-        %a{ href: '/how-i-grade' }
+        %a{ href: '/how-i-grade', class: current_page.url == '/how-i-grade' ? 'active' : '' }
           How I Grade
     = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
       = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
@@ -21,4 +21,6 @@
       Search
 .mast-title_wrap
   %h1.mast-title
-    Frank's Movie Log <span>I’m not a great writer. Maybe not even a good one. But with practice I can be better.</span>
+    Frank's Movie Log
+  .mast-sub_title
+    I’m not a great writer. Maybe not even a good one. But with practice I can be better.</span>

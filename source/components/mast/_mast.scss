@@ -6,7 +6,7 @@
 }
 
 .mast-nav {
-  margin: 0 0 0 110px;
+  margin: 0;
   padding: 0;
   font-size: 13px;
   font-weight: 800;
@@ -19,14 +19,33 @@
   a {
     color: inherit;
   }
+
+  @media only screen and (min-width: 40.625em) {
+    margin-left: 98px;
+  }
 }
 
 .mast-nav_item {
-  margin: 0 13px;
+  margin: 0 10px;
   line-height: 40px;
 
-  &:first-child {
-    margin-left: 0;
+  a {
+    display: inline-block;
+    position: relative;
+
+    &.active {
+      color: #fff;
+
+      &:after {
+        content: '';
+        background: #e9e7e0;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
   }
 }
 
@@ -35,7 +54,7 @@
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  padding-left: 110px;
+  padding: 30px 20px 30px 75px;
   border-bottom: 2px solid #e9e7e0;
 
   &:before {
@@ -43,31 +62,56 @@
     color: #fff;
     background: #222;
     border-radius: 50%;
-    width: 52px;
-    height: 52px;
+    width: 42px;
+    height: 42px;
     text-align: center;
     position: absolute;
-    left: 35px;
+    left: 16px;
     top: 35px;
-    font-size: 32px;
-    line-height: 52px;
+    font-size: 27px;
+    line-height: 42px;
+  }
+
+  @media only screen and (min-width: 40.625em) {
+    padding-left: 110px;
+
+    &:before {
+      border-radius: 50%;
+      width: 52px;
+      height: 52px;
+      left: 35px;
+      top: 35px;
+      font-size: 32px;
+      line-height: 52px;
+    }
   }
 }
 
 .mast-title {
-  padding: 30px 10px 30px 0;
+  padding: 0;
   line-height: 1.2;
   font-style: normal;
   margin: 0;
   display: inline-block;
+  font-size: 27px;
 
-  span {
-    font-size: 20px;
-    color: #aaa;
-    display: block;
+  @media only screen and (min-width: 40.625em) {
+    font-size: 32px;
   }
 }
 
+.mast-sub_title {
+  font-size: 18px;
+  color: #aaa;
+  // color: #a9a287;
+  display: block;
+  line-height: 1.2;
+  margin-left: .5px;
+
+  @media only screen and (min-width: 40.625em) {
+    font-size: 20px;
+  }
+}
 
 .mast-wrap {
   height: 100%;
@@ -94,65 +138,58 @@
 
 .mast-search_button {
   -webkit-appearance: none;
-  background-color: transparent;
-  border: 0;
+  background-color: #1f1f1f;
+  border: 1px solid #444;
   -webkit-border-fit: border;
   -webkit-tap-highlight-color: #fff;
   display: block;
   margin: 0;
   z-index: 1000;
-  text-indent: 50px;
+  text-indent: 37px;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 50px;
-  height: 100%;
+  right: 3px;
+  top: 3px;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
 
   &:before {
-    background-image: encode-svg('<svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/> <path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-image: encode-svg('<svg fill="#c9c4b3" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/> <path d="M0 0h24v24H0z" fill="none"/></svg>');
     background-size: contain;
     width: 24px;
     height: 24px;
     content: '';
     position: absolute;
-    top: 17px;
-    right: 20px;
+    top: 4px;
+    right: 4px;
     transition: background-image;
 
     .js-toggle_off + & {
-      background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path fill="#333" d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/></svg>');
-    }
-
-    @media only screen and (min-width: 64em) {
-      right: 0;
+      background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path fill="#c9c4b3" d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/></svg>');
     }
   }
 }
 
 .mast-search_form {
-  height: 100%;
+  height: 40px;
+  border: 3px solid #222;
   z-index: 500;
   opacity: 1;
   transition: opacity .5s ease;
   position: absolute;
   top: 0;
   left: 0;
-  right: 50px;
+  right: 35px;
 
   &.js-toggle_off {
     opacity: 0;
   }
 
   @media only screen and (min-width: 50em) {
-    width: 25%;
-    right: 20px;
+    width: 40%;
     left: auto;
-
-    &.js-toggle_off {
-      opacity: 1;
-    }
   }
 }
 
@@ -188,14 +225,10 @@
     height: 24px;
     content: '';
     position: absolute;
-    top: 13px;
-    left: 1.12rem;
+    top: 6px;
+    left: 16px;
   }
   position: relative;
   width: 100%;
   height: 100%;
-
-  @media only screen and (min-width: 50em) {
-    left: -50%;
-  }
 }

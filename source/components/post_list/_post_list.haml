@@ -9,7 +9,7 @@
           %header.post_list-header
             %h3.post_list-title
               %a.post_list-header_link{ href: href_for_post(post) }
-                = post.title
+                = post.title_without_year
           %a.post_list-backdrop_wrap{ href: href_for_post(post) }
             .post_list-backdrop{ data: { backdrop: post.backdrop } }
           .post_list-excerpt
