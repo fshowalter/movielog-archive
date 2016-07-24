@@ -4,7 +4,7 @@
       %article.post_list-post
         .post_list-date_wrap
           .post_list-date
-            = post.date.strftime('%d %b %y')
+            = post.date.strftime('<span class="post_list-date_day">%d</span> <span class="post_list-date_month">%b</span> <span class="post_list-date_year">%Y</span>')
         .post_list-content
           %header.post_list-header
             %h3.post_list-title

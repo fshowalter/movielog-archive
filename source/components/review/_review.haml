@@ -1,5 +1,5 @@
 :ruby
-  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title)
+  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title).reject{ |t| t.start_with?(review.title) }
   cast = MovieDb.headline_cast_for_title(title: review.db_title, db: Movielog.db, count: 100)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
   info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
@@ -17,7 +17,7 @@
 
   = partial('components/post_content/post_content') do
     .review-content
-      = markdown(review.date.strftime('%b %-d, %Y&mdash;') + review.content + "<p><strong>Grade: #{review.grade}</strong>")
+      = markdown(review.date.strftime('<time>%b %-d, %Y</time>&mdash;') + review.content + "<p><strong>Grade: #{review.grade}</strong>")
 
     %p.review-meta
       %span.review-meta_title
