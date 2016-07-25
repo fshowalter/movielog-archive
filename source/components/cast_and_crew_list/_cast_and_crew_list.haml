@@ -1,0 +1,15 @@
+.cast_and_crew_list-wrap
+  - if person.direction_credits
+    %h2.cast_and_crew_list-heading#director Director
+    - posts = person.direction_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })
+
+  - if person.performance_credits
+    %h2.cast_and_crew_list-heading#performer Performer
+    - posts = person.performance_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })
+
+  - if person.writing_credits
+    %h2.cast_and_crew_list-heading#writer Writer
+    - posts = person.writing_credits.map{ |t| Movielog.reviews_by_title[t] }
+    = partial('components/post_list/post_list', locals: { posts: posts })

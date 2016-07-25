@@ -5,6 +5,7 @@
 .layout-columns-content {
   width: 100%;
   margin: 0 auto;
+  background: #fff;
 
   &:after {
     content: '';
@@ -13,9 +14,7 @@
   }
 
   @media only screen and (min-width: 50em) {
-    min-width: calc(800px);
-    max-width: calc(1000px + 2.24rem);
-    width: 66.66%;
+    max-width: calc(1000px);
   }
 }
 

@@ -5,19 +5,6 @@ layout: :columns
   content_for(:title, "#{person.first_name} #{person.last_name}")
 
 - content_for :layout_column_1 do
-  = partial('components/cast_and_crew_card/cast_and_crew_card', locals: { person: person })
+  = partial('components/cast_and_crew_header/cast_and_crew_header', locals: { person: person })
 - content_for :layout_column_2 do
-  - if person.direction_credits
-    %h2.cast_and_crew-section_heading#director Director
-    - posts = person.direction_credits.map{ |t| Movielog.reviews_by_title[t] }
-    = partial('components/post_list/post_list', locals: { posts: posts })
-
-  - if person.performance_credits
-    %h2.cast_and_crew-section_heading#performer Performer
-    - posts = person.performance_credits.map{ |t| Movielog.reviews_by_title[t] }
-    = partial('components/post_list/post_list', locals: { posts: posts })
-
-  - if person.writing_credits
-    %h2.cast_and_crew-section_heading#writer Writer
-    - posts = person.writing_credits.map{ |t| Movielog.reviews_by_title[t] }
-    = partial('components/post_list/post_list', locals: { posts: posts })
+  = partial('components/cast_and_crew_list/cast_and_crew_list', locals: { person: person })
