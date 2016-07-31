@@ -1,0 +1,25 @@
+:ruby
+  viewings = Movielog.viewings_for_title(title: review.db_title)
+  directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
+  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title).reject{ |t| t.start_with?(review.title) }
+  info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
+
+%p.review_meta
+  %span.review_meta-title
+    = review.title
+  %span.review_meta-director
+    D: #{ directors.map{ |p| cast_and_crew_link(p) }.join(' & ') }
+  %span.review_meta-country
+    #{ review.year } | #{ info.country } | #{ info.running_time }&nbsp;mins. |
+  - if aka_titles.any?
+    %span.review_meta-aka
+      %span.review_meta-aka_heading
+        aka
+      - aka_titles.each do |aka_title|
+        - next if aka_title.start_with?(review.title)
+        %span.review_meta-aka_title
+          = aka_title.gsub(/\([^\)]+\)$/, '').strip
+  %span.review_meta-seen
+    = " I've seen it "
+    %a{ href: "/viewings/?title=#{URI.escape(review.title)}", data: { no_carnac: true } }
+      = "#{pluralize(viewings.length, 'time')}."

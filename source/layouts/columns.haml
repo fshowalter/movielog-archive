@@ -1,8 +1,0 @@
-= wrap_layout :base do
-  %section.layout-columns
-    .layout-columns-content
-      .layout-columns-column_1
-        = yield_content(:layout_column_1) if content_for?(:layout_column_1)
-      .layout-columns-column_2
-        = yield_content(:layout_column_2) if content_for?(:layout_column_2)
-

@@ -1,0 +1,16 @@
+.viewings_filters{ data: { filter_controls: true, target: '#viewings' }}
+  %h2.viewings_filters-heading Filter and Sort
+  .viewings_filters-content
+    = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
+    = range_filter(label: 'Release Year',
+                   attribute: 'data-release-date-year',
+                   min: oldest_year(collection: viewings.values, date_method: :release_date),
+                   max: newest_year(collection: viewings.values, date_method: :release_date))
+    = sort_filter(label: 'Order By',
+                  attribute: 'viewing-date-desc',
+                  target: '#viewings',
+                  options: [['Viewing Date (Newest First)', 'viewing-date-desc'],
+                            ['Viewing Date (Oldest First)', 'viewing-date-asc'],
+                            ['Release Date (Newest First)', 'release-date-desc'],
+                            ['Release Date (Oldest First)', 'release-date-asc'],
+                            %w(Title sort-title-asc)])

@@ -2,10 +2,13 @@
 title: Viewing Log
 layout: :columns
 ---
-- sorted_viewings = viewings.keys.sort.reverse
+:ruby
+  sorted_viewings = viewings.keys.sort.reverse
+
 - content_for :layout_column_1 do
-  = partial('components/viewing_log_card/viewing_log_card', locals: { viewings: viewings })
+  = partial('viewings/viewings_header', locals: { viewings: viewings })
+  = partial('viewings/viewings_filters', locals: { viewings: viewings })
 
 - content_for :layout_column_2 do
-  = partial('components/viewings_list/viewings_list', locals: { viewing_keys: sorted_viewings })
+  = partial('viewings/viewings_list', locals: { viewing_keys: sorted_viewings })
   = javascript_include_tag('filters.js', async: true)

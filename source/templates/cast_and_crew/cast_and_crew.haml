@@ -1,0 +1,8 @@
+---
+layout: :layout_single
+---
+:ruby
+  content_for(:title, "#{person.first_name} #{person.last_name}")
+
+= partial('templates/cast_and_crew/cast_and_crew_header', locals: { person: person })
+= partial('templates/cast_and_crew/cast_and_crew_credits', locals: { person: person })

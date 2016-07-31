@@ -1,21 +1,21 @@
-.footer {
+.layout_footer {
   padding: 40px 20px 60px;
   background-color: #222;
 }
 
-.footer-list {
+.layout_footer-list {
   text-align: center;
   margin: 0 0 10px;
   line-height: 1.75;
   padding: 0;
 }
 
-.footer-list_item {
+.layout_footer-list_item {
   display: inline-block;
   padding: 0 8px;
 }
 
-.footer-link {
+.layout_footer-link {
   text-rendering: optimizeLegibility;
   color: #717171;
   letter-spacing: .3px;
@@ -23,7 +23,7 @@
   white-space: nowrap;
 }
 
-.footer-sub_link {
+.layout_footer-sub_link {
   text-rendering: optimizeLegibility;
   color: #b5b5b5;
   letter-spacing: .3px;

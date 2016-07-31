@@ -1,0 +1,131 @@
+.cast_and_crew_credits {
+  padding: 0 20px 80px;
+
+  @media only screen and (min-width: 40.625em) {
+    padding: 0 110px 80px;
+  }
+}
+
+.cast_and_crew_credits-heading {
+  color: #a9a287;
+  font-weight: normal;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e9e7e0;
+  margin: 0 0 30px;
+}
+
+.cast_and_crew_credits-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.cast_and_crew_credits-credit {
+  margin: 0;
+  padding: 0;
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 1px;
+    background-color: #e9e7e0;
+    margin: 40px  0;
+  }
+
+  &:last-of-type:after {
+    display: none;
+  }
+}
+
+.cast_and_crew_credits-title {
+  color: inherit;
+  margin: 0 0 10px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+  word-break: normal;
+
+  @media only screen and (min-width: 56.25em) {
+    float: right;
+    width: 66%;
+    padding-left: 20px;
+  }
+}
+
+.cast_and_crew_credits-backdrop_wrap {
+  display: block;
+  margin: 0 0 10px;
+  border: 9px solid #e9e7e0;
+
+  @media only screen and (min-width: 37.5em) {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 56.25em) {
+    float: left;
+    width: 33%;
+    margin: 0 0 40px;
+  }
+}
+
+.cast_and_crew_credits-backdrop {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: .8s opacity;
+  cursor: pointer;
+
+  &:before {
+    padding-top: 56.249999993%;
+    height: 0;
+    content: '';
+    display: block;
+  }
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+.cast_and_crew_credits-grade {
+  height: auto;
+  width: 95px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+
+.cast_and_crew_credits-excerpt {
+  @media only screen and (min-width: 56.25em) {
+    float: right;
+    width: 66%;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.cast_and_crew_credits-excerpt p {
+  font-weight: 400;
+  letter-spacing: .16px;
+  margin-bottom: 0;
+
+  font-feature-settings: 'ordn', 'lnum';
+  font-family: "freight-text-pro",Georgia,serif;
+  font-family: "Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 700px;
+}

@@ -1,19 +1,24 @@
+@import '../../stylesheets/mixin_body_text';
+
 .post_content {
   padding: 0 20px;
-}
+  max-width: 740px;
+  margin: 0 auto;
 
-.post_content p {
-  font-feature-settings: 'ordn', 'lnum';
-  font-family: "freight-text-pro",Georgia,serif;
-  font-size: 20px;
-  letter-spacing: .16px;
-  line-height: 28px;
-  max-width: 700px;
-  margin: 0 auto 30px;
+  time {
+    font-variant: normal !important;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 
-  @media (min-width: 31.3125em) {
-    font-size: 21px;
-    line-height: 1.58;
-    margin-bottom: 21px;
+  p {
+    @include body-text;
+  }
+
+  p:first-child:first-line {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 23px;
+    color: #000;
   }
 }

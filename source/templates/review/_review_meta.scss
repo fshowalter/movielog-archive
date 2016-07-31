@@ -1,0 +1,45 @@
+@import '../../stylesheets/mixin_body_text';
+
+.review_meta {
+  @include body-text;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid #e9e7e0;
+}
+
+.review_meta-title {
+  font-weight: bold;
+  display: block;
+}
+
+.review_meta-aka_heading {
+  &:after {
+    content: ': ';
+  }
+}
+
+.review_meta-aka_title {
+  font-style: italic;
+  // display: block;
+
+  &:after {
+    content: ' | ';
+    white-space: normal;
+  }
+
+  &:last-of-type:after {
+    content: '';
+  }
+}
+
+.review_meta-director {
+  display: block;
+}
+
+.review_meta-country {
+  display: block;
+}
+
+.review_meta-seen {
+  display: block;
+}

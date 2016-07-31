@@ -1,8 +1,8 @@
 $filter-background-color: #fff;
-$filter-border-color: #eaeaea;
+$filter-border-color: #e9e7e0;
 $filter-slider-active-handle-background-color: #eaeaea;
 $filter-slider-background-color: rgba(0,0,0,.02);
-$filter-text-box-color: #555;
+$filter-text-box-color: #aaa;
 
 %text-box {
   -moz-appearance: none;
@@ -14,8 +14,8 @@ $filter-text-box-color: #555;
   box-sizing: border-box;
   color: $filter-text-box-color;
   display: block;
-  font-family: 'ProximaNovaCond';
-  font-size: .88rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
   padding: 0;
   vertical-align: middle;
   width: 100%;
@@ -27,11 +27,11 @@ $filter-text-box-color: #555;
   border: 0;
   box-sizing: content-box;
   color: $filter-text-box-color;
-  font-size: .88rem;
-  font-family: 'ProximaNovaCond';
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.2rem;
   padding: 0;
-  width: 2rem;
+  width: 25%;
 
   &::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -53,10 +53,10 @@ $filter-text-box-color: #555;
 }
 
 .filter-text_box::placeholder {
-  font-size: .88rem;
+  font-size: 14px;
   font-weight: normal;
-  font-family: 'ProximaNovaCond';
-  color: rgba(0, 0, 0, .5);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #aaa;
 }
 
 .filter-text_box_wrap {
@@ -72,7 +72,7 @@ $filter-text-box-color: #555;
   @media (min-width: 50em) {
     line-height: 1.4rem;
     height: 1.4rem;
-    width: 2rem;
+    // width: 2rem;
   }
 }
 
@@ -81,7 +81,7 @@ $filter-text-box-color: #555;
 }
 
 .filter-label {
-  color: #aaa;
+  color: #a9a287;
   display: block;
   font-size: 15px;
   font-weight: normal;
@@ -136,7 +136,7 @@ $filter-text-box-color: #555;
 
 .noUi-handle {
   background-color: $filter-background-color;
-  border: 1px solid rgba(0, 0, 0, .3);
+  border: 1px solid #a9a287;
   border-radius: 50%;
   height: 2rem;
   left: -1rem;

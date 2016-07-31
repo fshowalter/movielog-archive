@@ -1,0 +1,20 @@
+:ruby
+  more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.db_title)
+
+- unless more_for_cast.empty?
+  - more_for_cast.each do |performer, titles|
+    - next unless titles.length > 4
+    - reviews = array_window(titles, 5, review.db_title).select{ |title| title != review.db_title }.map{ |title| Movielog.reviews_by_title[title] }
+    .review_more
+      .review_more-heading
+        More with <span>#{performer.first_name} #{performer.last_name}</span>
+      %ol.review_more-list
+        - reviews.each do |review|
+          %li.review_more-list_item
+            %a{ href: "/reviews/#{review.slug}/" }
+              .review_more-backdrop{ data: { backdrop: review.backdrop } }
+              .review_more-title
+                = review.title_without_year
+              = grade_to_image_tag(grade: review.grade, options: { class: 'review_more-grade' })
+
+

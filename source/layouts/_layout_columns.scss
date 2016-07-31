@@ -1,8 +1,5 @@
 .layout-columns {
   position: relative;
-}
-
-.layout-columns-content {
   width: 100%;
   margin: 0 auto;
   background: #fff;
@@ -14,20 +11,20 @@
   }
 
   @media only screen and (min-width: 50em) {
-    max-width: calc(1000px);
+    max-width: 1000px;
   }
 }
 
 .layout-columns-column_1 {
   @media only screen and (min-width: 50em) {
-    width: 33.33%;
+    width: 38.196601126%;
     float: left;
   }
 }
 
 .layout-columns-column_2 {
   @media only screen and (min-width: 50em) {
-    width: 66.67%;
+    width: 61.803398875%;
     float: right;
   }
 }

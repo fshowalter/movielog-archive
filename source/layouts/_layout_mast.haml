@@ -1,27 +1,27 @@
-%header.mast
-  .mast-wrap
-    %ul.mast-nav
-      %li.mast-nav_item
+%header.layout_mast
+  .layout_mast-wrap
+    %ul.layout_mast-nav
+      %li.layout_mast-nav_item
         %a{ href: '/',  class: current_page.url == '/' ? 'active' : '' }
           Home
-      %li.mast-nav_item
+      %li.layout_mast-nav_item
         %a{ href: '/reviews', class: current_page.url == '/reviews' ? 'active' : '' }
           Reviews
-      %li.mast-nav_item
+      %li.layout_mast-nav_item
         %a{ href: '/how-i-grade', class: current_page.url == '/how-i-grade' ? 'active' : '' }
           How I Grade
     = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
       = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
-      .mast-search_input_wrap
+      .layout_mast-search_input_wrap
         = text_field_tag('q', placeholder: 'What are you looking for?',
                               id: 'mastSearchInput',
                               class: 'mast-search_input',
                               tabindex: 2)
-    %button.mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
+    %button.layout_mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
       Search
-.mast-title_wrap
-  %h1.mast-title
-    %a.mast-title_link{ href: '/' }
+.layout_mast-title_wrap
+  %h1.layout_mast-title
+    %a.layout_mast-title_link{ href: '/' }
       Frank's Movie Log
-  .mast-sub_title
+  .layout_mast-sub_title
     I’m not a great writer. Maybe not even a good one. <span class="nowrap">But with practice I can be better.</span>

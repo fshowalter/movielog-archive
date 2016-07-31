@@ -141,7 +141,7 @@ helpers do
 
     source = source.split("\n\n", 2)[0]
 
-    content = Tilt['markdown'].new(footnotes: true) { source }.render
+    content = Tilt['markdown'].new(footnotes: false) { source }.render
 
     reviews.values.each do |review|
       title = review.display_title || review.db_title
@@ -262,7 +262,7 @@ end
 
 ready do
   Movielog.reviews.each do |_id, review|
-    proxy("reviews/#{review.slug}.html", 'review.html',
+    proxy("reviews/#{review.slug}.html", 'templates/review/review.html',
           locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
   end
 
@@ -272,7 +272,7 @@ ready do
   end
 
   Movielog.cast_and_crew.each do |_id, person|
-    proxy("cast-and-crew/#{person.slug}.html", 'cast_and_crew.html',
+    proxy("cast-and-crew/#{person.slug}.html", 'templates/cast_and_crew/cast_and_crew.html',
           locals: { person: person }, ignore: true)
   end
 
