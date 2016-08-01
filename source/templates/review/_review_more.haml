@@ -8,13 +8,4 @@
     .review_more
       .review_more-heading
         More with <span>#{performer.first_name} #{performer.last_name}</span>
-      %ol.review_more-list
-        - reviews.each do |review|
-          %li.review_more-list_item
-            %a{ href: "/reviews/#{review.slug}/" }
-              .review_more-backdrop{ data: { backdrop: review.backdrop } }
-              .review_more-title
-                = review.title_without_year
-              = grade_to_image_tag(grade: review.grade, options: { class: 'review_more-grade' })
-
-
+      = partial('components/more_list/more_list', locals: { reviews: reviews })

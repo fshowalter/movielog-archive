@@ -1,0 +1,44 @@
+@import 'source/components/more_list/more_list';
+
+.home_pagination {
+  margin-bottom: 40px;
+}
+
+.home_pagination-more_heading {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e9e7e0;
+  margin: 60px 0 10px;
+}
+
+.home_pagination-next_page {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home_pagination-next_page_link {
+  padding: 0 60px 0 20px;
+  color: #000;
+  display: inline-block;
+  margin-top: 2rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  font-size: .94rem;
+  line-height: 38px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: encode-svg('<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path d="M6.165 3.874c-.217-.204-.22-.53-.008-.73.206-.192.56-.195.776.008l5.902 5.48c.11.102.165.236.165.37-.002.126-.055.262-.165.365l-5.902 5.478c-.217.204-.564.207-.776.007-.206-.193-.21-.525.008-.728L11.69 9 6.165 3.873z"></path></svg>');
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    opacity: .3;
+    top: 9px;
+  }
+}

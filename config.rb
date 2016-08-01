@@ -136,12 +136,19 @@ helpers do
     content
   end
 
+  def inline_css(file)
+    filename = File.expand_path("../#{yield_content(:inline_css)}", __FILE__)
+    style = Tilt['scss'].new() { File.open(filename, 'rb') { |f| f.read } }.render
+
+    Middleman::Extensions::MinifyCss::SassCompressor.compress(style)
+  end
+
   def first_paragraph(source)
     return source if source.blank?
 
     source = source.split("\n\n", 2)[0]
 
-    content = Tilt['markdown'].new(footnotes: false) { source }.render
+    content = Tilt['markdown'].new(footnotes: false) { source }.render.gsub(/\[\^\d\]/, '')
 
     reviews.values.each do |review|
       title = review.display_title || review.db_title
@@ -211,7 +218,9 @@ page 'feed.xml', mime_type: 'text/xml'
 activate :directory_indexes
 
 page '/googlee90f4c89e6c3d418.html', directory_index: false
-page '404.html', directory_index: false
+# page '404.html', directory_index: false
+
+ignore 'templates/*'
 
 activate :autoprefixer do |config|
   config.inline = true
@@ -221,10 +230,6 @@ end
 activate :pagination do
   pageable_set :reviews do
     Movielog.reviews.keys.sort.reverse
-  end
-
-  pageable_set :posts do
-    Movielog.posts.keys.sort.reverse
   end
 end
 
@@ -261,14 +266,12 @@ Movielog.avatars.keys.each do |slug|
 end
 
 ready do
+  proxy('index.html', 'templates/home/home.html')
+  proxy('404.html', 'templates/404/404.html')
+
   Movielog.reviews.each do |_id, review|
     proxy("reviews/#{review.slug}.html", 'templates/review/review.html',
           locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
-  end
-
-  Movielog.features.each do |_id, feature|
-    proxy("features/#{feature.slug}.html", 'feature.html',
-          locals: { feature: feature, title: "#{feature.title}" }, ignore: true)
   end
 
   Movielog.cast_and_crew.each do |_id, person|

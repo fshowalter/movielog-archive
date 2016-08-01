@@ -1,6 +1,5 @@
 .layout_mast {
   height: 40px;
-  background: #222;
   position: relative;
   overflow: hidden;
 }
@@ -54,7 +53,7 @@
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 30px 75px 30px 75px;
+  padding: 30px 20px 30px 75px;
   border-bottom: 2px solid #e9e7e0;
 
   // &:before {
@@ -123,6 +122,7 @@
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
+  background: #222;
 }
 
 .layout_mast-title_link {

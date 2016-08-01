@@ -10,14 +10,12 @@
         #{yield_content(:title)} | #{Movielog.site_title}
       - else
         #{Movielog.site_title}
-    = stylesheet_link_tag 'app', relative: false
+    / = stylesheet_link_tag 'app', relative: false
     - if content_for?(:head)
       = yield_content(:head)
     - if content_for?(:inline_css)
-      - inline_css_file  = sitemap.resources.select { |p| p.source_file.match(/#{yield_content(:inline_css)}[.]css[.]scss$/) }.first
-      - if inline_css_file
-        %style{ type: 'text/css' }
-          = inline_css_file.render
+      %style{ type: 'text/css' }
+        = inline_css(yield_content(:inline_css))
 
     %link{ rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-touch-icon-57x57.png' }
     %link{ rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-touch-icon-114x114.png' }

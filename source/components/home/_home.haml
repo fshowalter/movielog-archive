@@ -1,6 +1,0 @@
-:ruby
-  posts = pagination.map{ |k| post_for_key(k) }
-
-.home
-  = partial('components/post_list/post_list', locals: { posts: posts })
-  = partial('components/pagination/pagination', locals: { pagination: pagination })

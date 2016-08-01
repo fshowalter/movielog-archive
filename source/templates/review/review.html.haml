@@ -4,9 +4,8 @@ layout: :layout_single
 :ruby
   review = Movielog.reviews[review.sequence]
   description = Nokogiri::HTML(Tilt['markdown'].new(footnotes: false) { review.content.split("\n\n", 2)[0] }.render).text
-
-- content_for(:title) do
-  #{review.display_title} Movie Review
+  content_for(:inline_css, 'source/templates/review/review.scss')
+  content_for(:title, "#{review.display_title} Movie Review")
 
 - content_for(:head) do
   %meta{ name: 'description', content: description }

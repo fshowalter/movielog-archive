@@ -1,12 +1,9 @@
 :ruby
-  avatar = Movielog.avatars[person.slug]
   credits = []
   credits << 'directed by' if person.direction_credits
   credits << 'with' if person.performance_credits
   credits << 'written by' if person.writing_credits
 
 %header.cast_and_crew_header
-  - if avatar
-    .cast_and_crew_header-avatar{ data: { backdrop: avatar.image_url }}
   %h1.cast_and_crew_header-heading
     <span>Reviews of movies #{credits.to_sentence}</span> #{person.first_name} #{person.last_name}

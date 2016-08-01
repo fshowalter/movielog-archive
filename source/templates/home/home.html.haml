@@ -1,0 +1,15 @@
+---
+layout: :layout_single
+pagination:
+  for: reviews
+  per_page: 20
+  path: page-:num/index
+---
+:ruby
+  posts = pagination.map{ |k| post_for_key(k) }
+  content_for(:inline_css, 'source/templates/home/home.scss')
+
+.home
+  = partial('templates/home/home_post_list', locals: { posts: posts })
+  = partial('templates/home/home_pagination', locals: { pagination: pagination })
+

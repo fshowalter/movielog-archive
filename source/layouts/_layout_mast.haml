@@ -10,12 +10,12 @@
       %li.layout_mast-nav_item
         %a{ href: '/how-i-grade', class: current_page.url == '/how-i-grade' ? 'active' : '' }
           How I Grade
-    = form_tag 'https://www.google.com/search', method: :get, class: 'mast-search_form js-toggle js-toggle_off' do
+    = form_tag 'https://www.google.com/search', method: :get, class: 'layout_mast-search_form js-toggle js-toggle_off' do
       = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'
       .layout_mast-search_input_wrap
         = text_field_tag('q', placeholder: 'What are you looking for?',
                               id: 'mastSearchInput',
-                              class: 'mast-search_input',
+                              class: 'layout_mast-search_input',
                               tabindex: 2)
     %button.layout_mast-search_button{ data: { toggle: true }, accessKey: 'S', tabindex: 3 }
       Search

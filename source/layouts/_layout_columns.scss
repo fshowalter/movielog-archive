@@ -1,4 +1,4 @@
-.layout-columns {
+.layout_columns {
   position: relative;
   width: 100%;
   margin: 0 auto;
@@ -15,14 +15,14 @@
   }
 }
 
-.layout-columns-column_1 {
+.layout_columns-column_1 {
   @media only screen and (min-width: 50em) {
     width: 38.196601126%;
     float: left;
   }
 }
 
-.layout-columns-column_2 {
+.layout_columns-column_2 {
   @media only screen and (min-width: 50em) {
     width: 61.803398875%;
     float: right;
