@@ -220,7 +220,7 @@ activate :directory_indexes
 page '/googlee90f4c89e6c3d418.html', directory_index: false
 # page '404.html', directory_index: false
 
-ignore 'templates/*'
+# ignore 'templates/*'
 
 activate :autoprefixer do |config|
   config.inline = true
@@ -261,21 +261,17 @@ valid_cast_and_crew_slugs = Movielog.cast_and_crew.values.each_with_object([]) d
   slugs << person.slug
 end
 
-Movielog.avatars.keys.each do |slug|
-  raise "Invalid avatar slug: #{slug}" unless valid_cast_and_crew_slugs.include?(slug)
-end
-
 ready do
-  proxy('index.html', 'templates/home/home.html')
+  proxy('index.html', 'templates/home/home.html', ignore: true)
   proxy('404.html', 'templates/404/404.html')
 
   Movielog.reviews.each do |_id, review|
-    proxy("reviews/#{review.slug}.html", 'templates/review/review.html',
+    proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
           locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
   end
 
   Movielog.cast_and_crew.each do |_id, person|
-    proxy("cast-and-crew/#{person.slug}.html", 'templates/cast_and_crew/cast_and_crew.html',
+    proxy("cast-and-crew/#{person.slug}/index.html", 'templates/cast_and_crew/cast_and_crew.html',
           locals: { person: person }, ignore: true)
   end
 

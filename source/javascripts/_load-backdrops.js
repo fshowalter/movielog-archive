@@ -20,8 +20,16 @@
     }
 
     function updateBackgroundImageForNode(node, retinaMultiplier) {
-      node.style.backgroundImage = 'url(' + backgroundImageUrlForNode(node, retinaMultiplier) + ')';
-      node.classList.add('loaded');
+      var imageUrl = backgroundImageUrlForNode(node, retinaMultiplier);
+      var image = new Image();
+
+      image.onload = function cacheImage() {
+        node.style.backgroundImage = 'url(' + imageUrl + ')';
+        node.classList.add('loaded');
+        image = null;
+      };
+
+      image.src = imageUrl;
     }
 
     function updateBackgroundImages() {
@@ -86,25 +94,25 @@
       updateBackgroundImages();
     }, false);
 
-    function documentIsFinishedLoading() {
-      return /^complete|^i|^c/.test( document.readyState);
-    }
+    // function documentIsFinishedLoading() {
+    //   return /^complete|^i|^c/.test( document.readyState);
+    // }
 
     function update() {
-      var intervalId;
+      // var intervalId;
 
-      if (documentIsFinishedLoading()) {
-        requestAnimationFrame(updateBackgroundImages);
-      } else {
-        intervalId = setInterval( function updateOnceDocumentHasFinishedLoading() {
-          // When the document has finished loading, stop checking for new images
-          // https://github.com/ded/domready/blob/master/ready.js#L15
-          if (documentIsFinishedLoading()) {
-            requestAnimationFrame(updateBackgroundImages);
-            clearInterval(intervalId);
-          }
-        }, 250 );
-      }
+      // if (documentIsFinishedLoading()) {
+      requestAnimationFrame(updateBackgroundImages);
+      // } else {
+      //   intervalId = setInterval( function updateOnceDocumentHasFinishedLoading() {
+      //     // When the document has finished loading, stop checking for new images
+      //     // https://github.com/ded/domready/blob/master/ready.js#L15
+      //     if (documentIsFinishedLoading()) {
+      //       requestAnimationFrame(updateBackgroundImages);
+      //       clearInterval(intervalId);
+      //     }
+      //   }, 250 );
+      // }
     }
 
     window.MovielogBackdrops = {
