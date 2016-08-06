@@ -8,6 +8,7 @@ pagination:
 :ruby
   posts = pagination.map{ |k| post_for_key(k) }
   content_for(:inline_css, 'source/templates/home/home.scss')
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
 
 .home
   = partial('templates/home/home_post_list', locals: { posts: posts })

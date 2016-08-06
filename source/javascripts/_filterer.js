@@ -1,8 +1,8 @@
-/* global Gator */
-
 (
   function initFilterer(factory) {
     'use strict';
+
+    var filterControls = document.querySelector('[data-filter-controls]');
 
     function underscoreDebounce(func, wait, immediate) {
       var args;
@@ -42,7 +42,7 @@
       };
     }
 
-    Gator(document).on('filter-changed', '[data-filter-controls]', function handleFilterChanged(e) {
+    filterControls.addEventListener('filter-changed', function handleFilterChanged(e) {
       var filterer;
 
       filterer = this.movielogFilterer;

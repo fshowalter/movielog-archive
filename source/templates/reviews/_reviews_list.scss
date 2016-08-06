@@ -1,0 +1,49 @@
+.reviews_list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.reviews_list-item {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #e9e7e0;
+    margin: 0;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+  }
+}
+
+.reviews_list-title {
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 20px 20px 0;
+}
+
+.reviews_list-slug {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+  padding: 0 20px 20px;
+}
+
+.reviews_list-grade {
+  height: auto;
+  width: 95px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}

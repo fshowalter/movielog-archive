@@ -1,0 +1,58 @@
+.metrics_nav {
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid #e9e7e0;
+}
+
+.metrics_nav-heading {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  font-size: 19px;
+  color: #a9a287;
+  font-weight: normal;
+  margin: 0;
+  border-bottom: 1px solid #e9e7e0;
+}
+
+.metrics_nav-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.metrics_nav-item {
+  border-bottom: 1px solid #e9e7e0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.metrics_nav-item_link {
+  padding: 0 20px;
+  display: block;
+  line-height: 39px;
+  position: relative;
+  color: inherit;
+
+  &:after {
+    content: '';
+    background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048"><path d="M1315 1024q0-13-10-23L839 535q-10-10-23-10t-23 10l-50 50q-10 10-10 23t10 23l393 393-393 393q-10 10-10 23t10 23l50 50q10 10 23 10t23-10l466-466q10-10 10-23z" fill-opacity=".7"/></svg>');
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+  }
+
+  &:hover {
+    color: #579;
+
+    &:after {
+      background-image: encode-svg('<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048"><path d="M1315 1024q0-13-10-23L839 535q-10-10-23-10t-23 10l-50 50q-10 10-10 23t10 23l393 393-393 393q-10 10-10 23t10 23l50 50q10 10 23 10t23-10l466-466q10-10 10-23z" fill="#579"/></svg>');
+    }
+  }
+}

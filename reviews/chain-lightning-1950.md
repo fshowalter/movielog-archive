@@ -8,7 +8,7 @@
 :imdb_id: tt0042324
 :grade: D+
 :backdrop_uri: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAgME/8QAHhAAAgICAwEBAAAAAAAAAAAAAQIDEQAhBBIiYQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ATjUqqgTu5Owu6BOKsqvObUbbsPmV/PYrFypAfet5lldnR3Y+qqwKwGliHK6yBTXWtYZWHUMda8jDA//Z"
-:backdrop: "https://lh3.googleusercontent.com/fXE6R_a57mB0-5L6fujb4hR1tEKUQ9FdNVRfjfmNjtwHrQHXAm5QJ8MOKSyLkERibOmdMlUcLRcv=w1000-rj"
+:backdrop: "https://lh3.googleusercontent.com/fXE6R_a57mB0-5L6fujb4hR1tEKUQ9FdNVRfjfmNjtwHrQHXAm5QJ8MOKSyLkERibOmdMlUcLRcv=w1000-l75-rj"
 ---
 
 The skin-tight flight suit is a bridge too far.

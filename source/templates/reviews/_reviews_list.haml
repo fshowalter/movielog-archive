@@ -1,0 +1,8 @@
+%ul.reviews_list#reviews
+  - reviews.each do |_title, review|
+    %li.reviews_list-item{ data_for_review(review: review) }
+      .reviews_list-title
+        %a{ href: "/reviews/#{review.slug}/" }
+          = "#{review.display_title}"
+      .reviews_list-slug
+        = "#{grade_to_image_tag(grade: review.grade, options: { class: 'reviews_list-grade' })} on #{review.date.strftime('%d %b %Y')}"

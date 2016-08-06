@@ -28,3 +28,10 @@
   width: 33%;
   max-width: 150px;
 }
+
+.review .post_content > p:first-child:first-line {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 23px;
+  color: #000;
+}

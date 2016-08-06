@@ -1,0 +1,15 @@
+---
+title: Viewing Log
+layout: :layout_columns
+---
+:ruby
+  content_for(:inline_css, 'source/templates/viewings/viewings.scss')
+  sorted_viewings = viewings.keys.sort.reverse
+
+- content_for :layout_column_1 do
+  = partial('templates/viewings/viewings_header', locals: { viewings: viewings })
+  = partial('templates/viewings/viewings_filters', locals: { viewings: viewings })
+
+- content_for :layout_column_2 do
+  = partial('templates/viewings/viewings_list', locals: { viewing_keys: sorted_viewings })
+  = javascript_include_tag('filters.js', async: true)

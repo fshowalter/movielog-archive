@@ -1,3 +1,5 @@
+@import 'source/stylesheets/js';
+
 html {
   box-sizing: border-box;
 }
@@ -48,17 +50,6 @@ h6 {
   padding: 0;
   text-rendering: optimizeLegibility;
   word-break: break-word;
-}
-
-.layout-content {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  background: #fff;
-
-  @media only screen and (min-width: 50em) {
-    max-width: 1000px;
-  }
 }
 
 @import 'layout_mast';

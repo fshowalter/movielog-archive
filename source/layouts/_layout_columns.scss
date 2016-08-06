@@ -1,3 +1,5 @@
+@import 'layout_base';
+
 .layout_columns {
   position: relative;
   width: 100%;
@@ -16,6 +18,9 @@
 }
 
 .layout_columns-column_1 {
+  display: inline-block;
+  width: 100%;
+
   @media only screen and (min-width: 50em) {
     width: 38.196601126%;
     float: left;

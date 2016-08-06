@@ -1,37 +1,18 @@
+@import 'source/components/post_backdrop/post_backdrop';
+@import 'source/components/post_content/post_content';
+
 .feature {
-  padding-top: 20px;
-
-  @media (min-width: 50em) {
-    padding-top: 30px;
-  }
+  padding-bottom: 30px;
 }
 
-.feature-headline {
-  margin: 0 20px 20px;
-  line-height: 1.2;
-  font-size: 30px;
+.feature-title {
+  font-size: 32px;
+  padding: 30px 20px 20px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-align: center;
 
-  @media (min-width: 50em) {
-    font-size: 40px;
-  }
-}
-
-.feature-content {
-  padding: 0 20px;
-  font-feature-settings: 'ordn', 'lnum';
-  font-family: "freight-text-pro",Georgia,serif;
-  font-size: 20px;
-  letter-spacing: .16px;
-  line-height: 28px;
-  max-width: 740px;
-  margin: 30px auto 40px;
-
-  p {
-    margin-bottom: 30px;
-  }
-
-  @media (min-width: 31.3125em) {
-    font-size: 21px;
-    line-height: 1.58;
+  @media only screen and (min-width: 35em) {
+    font-size: 42px;
   }
 }

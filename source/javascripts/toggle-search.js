@@ -1,10 +1,8 @@
-// = require _gator
-
-/* global Gator */
-
 (
   function initSearchToggle() {
     'use strict';
+
+    var toggleElements = document.querySelectorAll('[data-toggle]');
 
     function hide(menu, toggle) {
       if (menu.classList.contains('js-toggle_off')) {
@@ -15,9 +13,9 @@
       menu.setAttribute('aria-expanded', false);
       toggle.setAttribute('aria-expanded', false);
 
-      Gator(menu).on('transitionend', function handleTransitionEnd(event) {
+      menu.addEventListener('transitionend', function handleTransitionEnd(event) {
         if (event.propertyName === 'opacity') {
-          Gator(this).off('transitionend');
+          menu.removeEventListener('transitionend', handleTransitionEnd);
           this.classList.remove('js-toggling');
           toggle.innerHTML = toggle.getAttribute('data-toggle-label');
         }
@@ -34,9 +32,9 @@
       menu.setAttribute('aria-expanded', true);
       toggle.setAttribute('aria-expanded', true);
 
-      Gator(menu).on('transitionend', function handleTransitionEnd(event) {
+      menu.addEventListener('transitionend', function handleTransitionEnd(event) {
         if (event.propertyName === 'opacity') {
-          Gator(this).off('transitionend');
+          menu.removeEventListener('transitionend', handleTransitionEnd);
           this.classList.remove('js-toggling');
           toggle.innerHTML = 'Cancel';
           if (!/iPad|iPhone|iPod/g.test(navigator.userAgent)) {
@@ -46,7 +44,7 @@
       });
     }
 
-    Gator(document).on('click', '[data-toggle]', function handleSearchToggleClick() {
+    function handleSearchToggleClick() {
       var menu;
       menu = this.previousSibling;
 
@@ -63,7 +61,13 @@
       } else {
         hide(menu, this);
       }
-    });
+    }
+
+    function addEventListenerToItemsInNodeList(list, event, fn) {
+      Array.prototype.forEach.call(list, function addEventListenerToNodeListItem(item) {
+        item.addEventListener(event, fn, false);
+      });
+    }
 
     document.documentElement.classList.add('js');
 
@@ -74,6 +78,8 @@
     document.documentElement.addEventListener('keydown', function handleKeyDownToAddOutline() {
       return document.documentElement.classList.remove('js-no_outline');
     });
+
+    addEventListenerToItemsInNodeList(toggleElements, 'click', handleSearchToggleClick);
   }()
 );
 

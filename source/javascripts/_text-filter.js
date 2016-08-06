@@ -1,27 +1,29 @@
-/* global Gator */
-
 (
   function initSorter(factory) {
     'use strict';
 
-    Gator(document).on('keyup', '[data-filter-type="text"]', function handleTextFilterKeyUp() {
-      var event;
+    var textFilterElements = document.querySelectorAll('[data-filter-type="text"]');
 
-      if (!this.movielogFilter) {
-        factory.create(this);
-      }
+    Array.prototype.forEach.call(textFilterElements, function addEventListenersToNodeListItem(filterElement) {
+      filterElement.addEventListener('keyup', function handleTextFilterKeyUp() {
+        var event;
 
-      if (window.CustomEvent) {
-        event = new CustomEvent('filter-changed', {
-          'bubbles': true,
-          'cancelable': false
-        });
-      } else {
-        event = document.createEvent('CustomEvent');
-        event.initCustomEvent('filter-changed', true, true);
-      }
+        if (!this.movielogFilter) {
+          factory.create(this);
+        }
 
-      this.dispatchEvent(event);
+        if (window.CustomEvent) {
+          event = new CustomEvent('filter-changed', {
+            'bubbles': true,
+            'cancelable': false
+          });
+        } else {
+          event = document.createEvent('CustomEvent');
+          event.initCustomEvent('filter-changed', true, true);
+        }
+
+        this.dispatchEvent(event);
+      });
     });
   }(function buildTextFilterFactory() {
     'use strict';

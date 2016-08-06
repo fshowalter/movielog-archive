@@ -34,37 +34,10 @@
     %meta{ name: 'msapplication-TileImage', content: '/mstile-144x144.png' }
     %link{ rel: 'alternate', type: 'application/atom+xml', title: 'Feed', href: '/feed.xml' }
     %link{ href: "https://www.franksmovielog.com#{current_page.url}", rel: 'canonical' }
-    %link{ href: "https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i", rel: "stylesheet" }
-    %script
-      :plain
-        (function(d) {var config={kitId:'que3mqa',scriptTimeout: 3000 },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
   %body
     = partial 'layouts/layout_mast'
     = yield
     = partial 'layouts/layout_footer'
-
-    - unless development?
-      %script{ async: true, src: '//www.google-analytics.com/analytics.js' }
-      :javascript
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-55282521-1', 'auto');
-        var pl = window.location.pathname + window.location.search
-        ga('send', 'pageview', { 'page': pl, 'title': document.title })
-        var scrollTrackConfig = {};
-        ga('require', 'scrollDepthTracker', '/javascripts/scroll-depth-tracker.js', scrollTrackConfig)
-
-        window.addEventListener('error', function (err) {
-          var lineAndColumnInfo = err.colno ? ' line:' + err.lineno +', column:'+ err.colno : ' line:' + err.lineno;
-          ga('send',
-            'event',
-            'JavaScript Error',
-            err.message,
-            err.filename + lineAndColumnInfo + ' -> ' +  navigator.userAgent,
-            0,
-            true
-          );
-        });
-
-    = javascript_include_tag('application.js', async: :async )
+    = javascript_include_tag('toggle-search')
+    - if content_for?(:javascript)
+      = yield_content(:javascript)

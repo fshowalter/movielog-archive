@@ -182,6 +182,9 @@ helpers do
   def reviews
     @reviews ||= begin
       Movielog.reviews.values.each_with_object({}) do |review, hash|
+        info = MovieDb.info_for_title(db: Movielog.db, title: (review.db_title || review.title))
+        review.sortable_title = info.sortable_title
+        review.release_date = info.release_date
         hash[review.title] = review
       end
     end
@@ -263,7 +266,12 @@ end
 
 ready do
   proxy('index.html', 'templates/home/home.html', ignore: true)
-  proxy('404.html', 'templates/404/404.html')
+  proxy('404.html', 'templates/404/404.html', ignore: true)
+  proxy('viewings/index.html', 'templates/viewings/viewings.html', ignore: true)
+  proxy('reviews/index.html', 'templates/reviews/reviews.html', ignore: true)
+  proxy('how-i-grade/index.html', 'templates/how_i_grade/how_i_grade.html', ignore: true)
+  proxy('about/index.html', 'templates/about/about.html', ignore: true)
+  proxy('metrics/index.html', 'templates/metrics/metrics.html', ignore: true)
 
   Movielog.reviews.each do |_id, review|
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',

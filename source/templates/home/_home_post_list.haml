@@ -9,8 +9,9 @@
           %h3.home_post_list-title
             %a.home_post_list-header_link{ href: href_for_post(post) }
               = post.title_without_year
-        %a.home_post_list-backdrop_wrap{ href: href_for_post(post), style: "background-image: url(#{post.backdrop_uri})" }
+        %a.home_post_list-backdrop_wrap{ href: href_for_post(post) }
           .home_post_list-backdrop{ data: { backdrop: post.backdrop } }
+            %img.home_post_list-backdrop_placeholder{ src: post.backdrop_uri }
         .home_post_list-excerpt
-          = first_paragraph(grade_to_image_tag(grade: post.grade, options: { class: 'home_post_list-grade' }) + ' ' + post.content)
+          = first_paragraph(grade_to_image_tag(grade: post.grade, options: { class: 'home_post_list-grade', width: '95px', height: '19px' }) + ' ' + post.content)
 

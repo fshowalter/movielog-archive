@@ -88,6 +88,7 @@
   border: 9px solid #e9e7e0;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 
   @media only screen and (min-width: 37.5em) {
     margin: 0 0 10px;
@@ -100,12 +101,20 @@
 
 }
 
+.home_post_list-backdrop_placeholder {
+  opacity: 1;
+  transition: .8s opacity linear;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .home_post_list-backdrop {
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
-  transition: .8s opacity linear;
   cursor: pointer;
 
   &:before {
@@ -116,7 +125,9 @@
   }
 
   &.loaded {
-    opacity: 1;
+    .home_post_list-backdrop_placeholder {
+      opacity: 0;
+    }
   }
 }
 

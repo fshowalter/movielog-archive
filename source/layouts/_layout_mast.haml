@@ -5,10 +5,10 @@
         %a{ href: '/',  class: current_page.url == '/' ? 'active' : '' }
           Home
       %li.layout_mast-nav_item
-        %a{ href: '/reviews', class: current_page.url == '/reviews' ? 'active' : '' }
+        %a{ href: '/reviews/', class: current_page.url == '/reviews/' ? 'active' : '' }
           Reviews
       %li.layout_mast-nav_item
-        %a{ href: '/how-i-grade', class: current_page.url == '/how-i-grade' ? 'active' : '' }
+        %a{ href: '/how-i-grade/', class: current_page.url == '/how-i-grade/' ? 'active' : '' }
           How I Grade
     = form_tag 'https://www.google.com/search', method: :get, class: 'layout_mast-search_form js-toggle js-toggle_off' do
       = hidden_field_tag 'q', value: 'site:www.franksmovielog.com'

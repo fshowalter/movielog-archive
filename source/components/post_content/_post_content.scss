@@ -14,11 +14,32 @@
   p {
     @include body-text;
   }
+}
 
-  p:first-child:first-line {
-    font-variant: small-caps;
-    text-transform: lowercase;
-    font-size: 23px;
-    color: #000;
+.post_content .footnotes {
+  position: relative;
+  padding-top: 20px;
+
+  &:before {
+    background-color: #e9e7e0;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  ol {
+    padding: 0 20px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }

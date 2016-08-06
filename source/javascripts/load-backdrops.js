@@ -94,25 +94,8 @@
       updateBackgroundImages();
     }, false);
 
-    // function documentIsFinishedLoading() {
-    //   return /^complete|^i|^c/.test( document.readyState);
-    // }
-
     function update() {
-      // var intervalId;
-
-      // if (documentIsFinishedLoading()) {
       requestAnimationFrame(updateBackgroundImages);
-      // } else {
-      //   intervalId = setInterval( function updateOnceDocumentHasFinishedLoading() {
-      //     // When the document has finished loading, stop checking for new images
-      //     // https://github.com/ded/domready/blob/master/ready.js#L15
-      //     if (documentIsFinishedLoading()) {
-      //       requestAnimationFrame(updateBackgroundImages);
-      //       clearInterval(intervalId);
-      //     }
-      //   }, 250 );
-      // }
     }
 
     window.MovielogBackdrops = {

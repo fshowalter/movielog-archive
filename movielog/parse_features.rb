@@ -25,7 +25,7 @@ module Movielog
         return unless content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
         data = YAML.load(Regexp.last_match[1])
         data[:content] = $POSTMATCH
-        features[data[:sequence]] = Feature.new(data)
+        features[data[:slug]] = Feature.new(data)
       end
     end
   end

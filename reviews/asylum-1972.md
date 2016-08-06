@@ -1,6 +1,6 @@
 ---
 :sequence: 51
-:title: Asylum
+:title: Asylum (1972)
 :db_title: Asylum (1972/I)
 :slug: asylum-1972
 :date: 2015-11-21

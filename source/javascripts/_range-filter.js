@@ -1,15 +1,17 @@
-/* global Gator, noUiSlider */
+/* global noUiSlider */
 
 (
   function initSorter(factory) {
     'use strict';
 
-    Gator(document).on(['mousedown', 'MSPointerDown', 'touchstart'], '[data-filter-type="range"]', function handleRangeFilterMouseDown(e) {
+    var rangeFilters = document.querySelectorAll('[data-filter-type="range"]');
+
+    function handleRangeFilterInit(e) {
       var filter;
 
-      Gator(document).off(['mousedown', 'MSPointerDown', 'touchstart'], '[data-filter-type="range"]');
-
       e.preventDefault();
+
+      e.target.removeEventListener(e.type, handleRangeFilterInit);
 
       filter = this.movielogFilter;
 
@@ -20,16 +22,22 @@
       setTimeout(function redispatchMouseDownEvent() {
         e.target.dispatchEvent(e);
       }, 10);
-    });
+    }
 
-    Gator(document).on('keydown', '[data-filter-type="range"]', function handleRangeFilterKeyDown(e) {
-      if (e.which !== 9) {
-        Gator(document).off('keydown', '[data-filter-type="range"]');
+    Array.prototype.forEach.call(rangeFilters, function addEventListenersToNodeListItem(filterElement) {
+      Array.prototype.forEach.call(['mousedown', 'MSPointerDown', 'touchstart'], function bindHandleRangeFilterInit(event) {
+        filterElement.addEventListener(event, handleRangeFilterInit, false);
+      });
 
-        if (this.movielogFilter) {
-          factory.create(this);
+      filterElement.addEventListener('keydown', function handleRangeFilterKeyDown(e) {
+        if (e.which !== 9) {
+          filterElement.removeEventListener('keydown', handleRangeFilterKeyDown);
+
+          if (this.movielogFilter) {
+            factory.create(this);
+          }
         }
-      }
+      });
     });
   }(function buildTextFilterFactory() {
     'use strict';

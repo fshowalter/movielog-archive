@@ -4,7 +4,9 @@
   function initSorter(factory) {
     'use strict';
 
-    Gator(document).on('change', '[data-sorter]', function handleSorterChange(e) {
+    var sorterElement = document.querySelector('[data-sorter]');
+
+    sorterElement.addEventListener('change', function handleSorterChange(e) {
       var sorter;
 
       e.preventDefault();
