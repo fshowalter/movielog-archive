@@ -37,11 +37,29 @@ module Movielog
     end
 
     #
+    # Responsible for handling the update sub-command.
+    #
+    class Update < Thor
+      desc 'viewings', 'update the viewing entries'
+      def viewings
+        Console::UpdateViewings.call
+      end
+
+      desc 'reviews', 'update the review entries'
+      def reviews
+        Console::UpdateReviews.call
+      end
+    end
+
+    #
     # Responsible for processing the movielog command.
     #
     class App < Thor
       desc 'new <type>', 'create a new <type> entry'
       subcommand 'new', New
+
+      desc 'update <type>', 'update <type> entries'
+      subcommand 'update', Update
     end
 
     App.start(ARGV)

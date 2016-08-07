@@ -1,3 +1,4 @@
-- if backdrop
+- if post.backdrop
   .post_backdrop_wrap
-    .post_backdrop{ data: { backdrop: backdrop } }
+    .post_backdrop{ data: { backdrop: post.backdrop } }
+      %img.backdrop_placeholder{ src: post.backdrop_uri }

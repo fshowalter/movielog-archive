@@ -1,5 +1,6 @@
 .post_backdrop_wrap {
   margin: 0;
+  position: relative;
 }
 
 .post_backdrop {
@@ -20,4 +21,14 @@
   &.loaded {
     opacity: 1;
   }
+}
+
+.post-backdrop_placeholder {
+  opacity: 1;
+  transition: .8s opacity linear;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }

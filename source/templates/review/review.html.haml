@@ -5,7 +5,8 @@ layout: :layout_single
   review = Movielog.reviews[review.sequence]
   description = Nokogiri::HTML(Tilt['markdown'].new(footnotes: false) { review.content.split("\n\n", 2)[0] }.render).text
   content_for(:inline_css, 'source/templates/review/review.scss')
-  content_for(:title, "#{review.display_title} Movie Review")
+  content_for(:title, "#{review.title} Movie Review")
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
 
 - content_for(:head) do
   %meta{ name: 'description', content: description }
@@ -20,7 +21,7 @@ layout: :layout_single
   %meta{ name: 'twitter:image', content: review.backdrop }
 
 %article.review
-  = partial('components/post_backdrop/post_backdrop', locals: { backdrop: review.backdrop })
+  = partial('components/post_backdrop/post_backdrop', locals: { post: review })
 
   %h1.review-title
     = review.title_without_year
@@ -35,8 +36,6 @@ layout: :layout_single
     = partial('templates/review/review_tags', locals: { review: review })
 
     = partial('templates/review/review_more', locals: { review: review })
-
-
 
 %script{ type: 'application/ld+json' }
   :plain
