@@ -3,6 +3,7 @@ title: Viewing Log
 layout: :layout_columns
 ---
 :ruby
+  content_for(:title, 'Viewing Log')
   content_for(:inline_css, 'source/templates/viewings/viewings.scss')
   sorted_viewings = viewings.keys.sort.reverse
 

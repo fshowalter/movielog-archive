@@ -1,0 +1,4 @@
+%ol.cast_and_crew_list
+  - people.each do |person|
+    %li.cast_and_crew_list-item{ data_for_person(person: person, credits_method: credits_method) }
+      <a href="/cast-and-crew/#{person.slug}/" class="cast_and_crew_list-name">#{person.first_name} #{person.last_name}</a> (#{person.send(credits_method).length})

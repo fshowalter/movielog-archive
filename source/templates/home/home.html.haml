@@ -6,11 +6,11 @@ pagination:
   path: page-:num/index
 ---
 :ruby
-  posts = pagination.map{ |k| post_for_key(k) }
+  reviews = pagination.map{ |k| Movielog.reviews[k] }
   content_for(:inline_css, 'source/templates/home/home.scss')
   content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
 
 .home
-  = partial('templates/home/home_post_list', locals: { posts: posts })
+  = partial('templates/home/home_review_list', locals: { reviews: reviews })
   = partial('templates/home/home_pagination', locals: { pagination: pagination })
 

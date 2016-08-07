@@ -1,0 +1,23 @@
+@import 'source/stylesheets/filters';
+
+.cast_and_crew_filters {
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid #e9e7e0;
+}
+
+.cast_and_crew_filters-heading {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  font-size: 19px;
+  color: #a9a287;
+  font-weight: normal;
+  margin: 0 0 20px;
+  border-bottom: 1px solid #e9e7e0;
+}
+
+.cast_and_crew_filters-content {
+  padding: 0 20px;
+}

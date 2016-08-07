@@ -17,15 +17,24 @@
         sorter = factory.create(e.target);
       }
 
-      sorter.sort();
+      sorter.lists.forEach(function iterateOverLists(list) {
+        sorter.sortList(list);
+      });
     });
   }(function buildSorterFactory() {
     'use strict';
 
     function Sorter(node) {
+      var lists = [];
       this.element = node;
-      this.list = document.querySelector(node.dataset.target);
-      this.dataMap = Sorter.mapItems(this.list.querySelectorAll(Sorter.DEFAULTS.itemsSelector));
+      this.lists = lists;
+
+      Array.prototype.forEach.call(document.querySelectorAll(node.dataset.target), function mapList(listElement) {
+        lists.push({
+          listElement: listElement,
+          dataMap: Sorter.mapItems(listElement.querySelectorAll(Sorter.DEFAULTS.itemsSelector))
+        });
+      });
     }
 
     Sorter.DEFAULTS = {
@@ -124,7 +133,7 @@
       return map;
     };
 
-    Sorter.prototype.sortDataMap = function sortDataMap(sorter) {
+    Sorter.prototype.sortDataMap = function sortDataMap(sorter, dataMap) {
       var attribute;
       var sortAttributeAndOrder;
       var sortOrder;
@@ -140,7 +149,7 @@
       attribute = Sorter.camelCase(attribute);
       sortFunction = sortOrder === 'desc' ? Sorter.descendingSort : Sorter.ascendingSort;
 
-      return sorter.dataMap[attribute].sort(sortFunction);
+      return dataMap[attribute].sort(sortFunction);
     };
 
     Sorter.camelCase = function camelCase(str) {
@@ -151,21 +160,21 @@
     };
 
 
-    Sorter.prototype.sort = function sort() {
+    Sorter.prototype.sortList = function sort(list) {
       var i;
       var len;
       var reinsert;
       var sortedItem;
       var sortedItems;
 
-      reinsert = Sorter.removeElementToInsertLater(this.list);
+      reinsert = Sorter.removeElementToInsertLater(list.listElement);
 
-      this.list.innerHTML = '';
-      sortedItems = Sorter.prototype.sortDataMap(this);
+      list.listElement.innerHTML = '';
+      sortedItems = Sorter.prototype.sortDataMap(this, list.dataMap);
 
       for (i = 0, len = sortedItems.length; i < len; i++) {
         sortedItem = sortedItems[i];
-        this.list.appendChild(sortedItem.item);
+        list.listElement.appendChild(sortedItem.item);
       }
 
       return reinsert();

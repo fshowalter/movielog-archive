@@ -3,10 +3,7 @@ layout: :layout_columns
 ---
 :ruby
   content_for(:inline_css, 'source/templates/reviews/reviews.scss')
-  content_for(:javascript) do
-    javascript_include_tag('load-backdrops.js', async: :async )
-    javascript_include_tag('filters.js', async: :async )
-  end
+  content_for(:javascript, javascript_include_tag('filters.js', async: :async ))
 
 - content_for :layout_column_1 do
   = partial('templates/reviews/reviews_header', locals: { reviews: reviews })

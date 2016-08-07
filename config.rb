@@ -272,6 +272,7 @@ ready do
   proxy('how-i-grade/index.html', 'templates/how_i_grade/how_i_grade.html', ignore: true)
   proxy('about/index.html', 'templates/about/about.html', ignore: true)
   proxy('metrics/index.html', 'templates/metrics/metrics.html', ignore: true)
+  proxy('cast-and-crew/index.html', 'templates/cast_and_crew/cast_and_crew.html', ignore: true)
 
   Movielog.reviews.each do |_id, review|
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
@@ -279,7 +280,7 @@ ready do
   end
 
   Movielog.cast_and_crew.each do |_id, person|
-    proxy("cast-and-crew/#{person.slug}/index.html", 'templates/cast_and_crew/cast_and_crew.html',
+    proxy("cast-and-crew/#{person.slug}/index.html", 'templates/reviews_for_person/reviews_for_person.html',
           locals: { person: person }, ignore: true)
   end
 

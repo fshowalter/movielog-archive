@@ -1,7 +1,7 @@
 :ruby
   next_items = (next_items(pagination) || []).map { |key| post_for_key(key) }
 
-- if next_items
+- if pagination.next_page
   .home_pagination-more_heading
     More from Frank's Movie Log
   = partial('components/more_list/more_list', locals: { reviews: next_items })

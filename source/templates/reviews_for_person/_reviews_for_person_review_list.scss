@@ -1,4 +1,4 @@
-.cast_and_crew_credits {
+.reviews_for_person_review_list {
   padding: 0 20px 80px;
 
   @media only screen and (min-width: 40.625em) {
@@ -6,7 +6,7 @@
   }
 }
 
-.cast_and_crew_credits-heading {
+.reviews_for_person_review_list-heading {
   color: #aaa;
   font-weight: normal;
   font-size: 16px;
@@ -17,7 +17,7 @@
   margin: 0 0 30px;
 }
 
-.cast_and_crew_credits-list {
+.reviews_for_person_review_list-list {
   margin: 0;
   list-style-type: none;
   padding: 0;
@@ -29,7 +29,7 @@
   }
 }
 
-.cast_and_crew_credits-credit {
+.reviews_for_person_review_list-credit {
   margin: 0;
   padding: 0;
 
@@ -47,7 +47,7 @@
   }
 }
 
-.cast_and_crew_credits-title {
+.reviews_for_person_review_list-title {
   color: inherit;
   margin: 0 0 10px;
   font-size: 26px;
@@ -62,7 +62,7 @@
   }
 }
 
-.cast_and_crew_credits-backdrop_wrap {
+.reviews_for_person_review_list-backdrop_wrap {
   display: block;
   margin: 0 0 10px;
   border: 9px solid #e9e7e0;
@@ -79,7 +79,7 @@
   }
 }
 
-.cast_and_crew_credits-backdrop {
+.reviews_for_person_review_list-backdrop {
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +99,7 @@
   }
 }
 
-.cast_and_crew_credits-grade {
+.reviews_for_person_review_list-grade {
   height: auto;
   width: 95px;
   display: inline-block;
@@ -108,7 +108,7 @@
 }
 
 
-.cast_and_crew_credits-excerpt {
+.reviews_for_person_review_list-excerpt {
   @media only screen and (min-width: 56.25em) {
     float: right;
     width: 66%;
@@ -117,7 +117,7 @@
   }
 }
 
-.cast_and_crew_credits-excerpt p {
+.reviews_for_person_review_list-excerpt p {
   font-weight: 400;
   letter-spacing: .16px;
   margin-bottom: 0;
