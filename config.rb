@@ -96,12 +96,8 @@ helpers do
     end
   end
 
-  def href_for_post(post)
-    if post.is_a?(Movielog::Review)
-      "/reviews/#{post.slug}/"
-    elsif post.is_a?(Movielog::Feature)
-      "/features/#{post.slug}/"
-    end
+  def href_for_review(review)
+    "/reviews/#{review.slug}/"
   end
 
   def markdown(source, inline: false)

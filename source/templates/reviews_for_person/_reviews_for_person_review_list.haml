@@ -18,16 +18,16 @@
   - lists.each do |list|
     - if list[:credits]
       %h2.reviews_for_person_review_list-heading{ id: list[:text].downcase }
-        <b>#{list[:text]}</b> (#{list[:credits].length} titles)
-      - posts = list[:credits].map{ |t| Movielog.reviews_by_title[t] }
+        #{list[:text]} (#{list[:credits].length} titles)
+      - reviews = list[:credits].map{ |t| Movielog.reviews_by_title[t] }
       %ol.reviews_for_person_review_list-list
-        - posts.each_with_index do |post, index|
+        - reviews.each do |review|
           %li.reviews_for_person_review_list-credit
             %h3
-              %a.reviews_for_person_review_list-title{ href: href_for_post(post) }
-                = post.display_title
-            %a.reviews_for_person_review_list-backdrop_wrap{ href: href_for_post(post) }
-              .reviews_for_person_review_list-backdrop{ data: { backdrop: post.backdrop } }
+              %a.reviews_for_person_review_list-title{ href: href_for_review(review) }
+                = review.title
+            %a.reviews_for_person_review_list-backdrop_wrap{ href: href_for_review(review) }
+              .reviews_for_person_review_list-backdrop{ data: { backdrop: review.backdrop } }
             .reviews_for_person_review_list-excerpt
-              = first_paragraph(grade_to_image_tag(grade: post.grade, options: { class: 'reviews_for_person_review_list-grade' }) + ' ' + post.content)
+              = first_paragraph(grade_to_image_tag(grade: review.grade, options: { class: 'reviews_for_person_review_list-grade' }) + ' ' + review.content)
 

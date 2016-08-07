@@ -1,3 +1,5 @@
+@import 'source/stylesheets/variables';
+
 .viewings_header {
   padding: 35px 20px 20px;
   text-align: center;
@@ -10,13 +12,13 @@
 }
 
 .viewings_header-heading {
-  margin-bottom: 0;
   line-height: 60px;
+  margin-bottom: 0;
 }
 
 .viewings_header-slug {
-  color: #aaa;
-  margin-bottom: 0;
-  line-height: 20px;
+  color: $color_secondary_text;
   font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 0;
 }

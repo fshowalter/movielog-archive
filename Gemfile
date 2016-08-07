@@ -22,8 +22,6 @@ gem 'uglifier'
 gem 'execjs'
 gem 'listen', '~> 2.7.0'
 gem 'oj'
-gem 'google-api-client'
-gem 'twitter'
 
 gem 'inquirer'
 gem 'nokogiri'

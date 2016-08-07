@@ -1,3 +1,4 @@
+@import 'source/stylesheets/variables';
 @import 'source/stylesheets/js';
 
 html {
@@ -19,7 +20,7 @@ body, html {
 }
 
 body {
-  background: #e9e7e0;
+  background: $color_background;
   color: rgba(0, 0, 0, .8);
   font-family: "Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", Times, serif;
   font-style: normal;

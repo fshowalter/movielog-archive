@@ -12,3 +12,5 @@ linters:
       - noUi-stacking
       - noUiSlider
       - noUi-state-drag
+  NameFormat:
+      convention: snake_case
