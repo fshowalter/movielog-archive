@@ -1,14 +1,12 @@
 ---
 :sequence: 30
 :title: Curse of the Crimson Altar (1968)
+:db_title: Curse of the Crimson Altar (1968)
 :slug: curse-of-the-crimson-altar-1968
-:display_title: Curse of the Crimson Altar (1968)
 :date: 2015-02-09
 :imdb_id: tt0062833
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-uTYB6p8q_Yo/VW-TB1KU3CI/AAAAAAAACx8/yRLsLlDGiIY/w1000-rj/curse-of-the-crimson-altar-1968.png
-:pull_quote: "_Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) has a good cast, but it is not a good film."
-:poster: https://lh3.googleusercontent.com/Qq2Zt2leahAazqBBkqIXG-loexYYfVEvh_0mfxyFhS5PVNaNdO6PQMnkhFNajkJXVWfUWaREo5x_=w290-rj
 ---
 _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) has a good cast, but it is not a good film. This is evident from the opening scene.
 

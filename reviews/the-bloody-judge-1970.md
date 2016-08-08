@@ -1,14 +1,12 @@
 ---
 :sequence: 3
-:title: Il trono di fuoco (1970)
+:title: The Bloody Judge (1970)
+:db_title: Il trono di fuoco (1970)
 :slug: the-bloody-judge-1970
-:display_title: The Bloody Judge (1970)
 :date: 2014-08-03
 :grade: D
 :imdb_id: tt0064727
 :backdrop: https://lh3.googleusercontent.com/-cmiDNJgj2pw/VWkmDnZsmGI/AAAAAAAACuw/i8ThB0yMtUo/w1000-rj/the-bloody-judge-1970.jpg
-:pull_quote: The extras on _The Bloody Judge_ DVD are more interesting than the feature film.
-:poster: https://lh3.googleusercontent.com/EhF1o2eGWyCJm2ZrDHfFRnsFV3YinUI3NJJxOYBzy84KdoumhlXhTpi5cv9MObPIO3O0kdx62M26=w260-rj
 ---
 The extras on _The Bloody Judge_ DVD are more interesting than the feature film.
 

@@ -1,15 +1,13 @@
 ---
 :sequence: 35
 :title: A Girl Walks Home Alone at Night (2014)
+:db_title: A Girl Walks Home Alone at Night (2014)
 :slug: a-girl-walks-home-alone-at-night-2014
-:display_title: A Girl Walks Home Alone at Night (2014)
 :date: 2015-03-06
 :imdb_id: tt2326554
 :grade: A-
-:backdrop: https://lh3.googleusercontent.com/-6jSXqnyudUY/VU7atevBl1I/AAAAAAAACiE/-ZX5oipaPG4/w1000-rj/a-girl-walks-home-alone-at-night-2014.jpg
-:pull_quote: "_A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.”"
-:headline: _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders.
-:poster: https://lh3.googleusercontent.com/cxQ8rfz81M85BpaS8ADdUCO4cHvOsvEM8VSLzyofra4SsR64HWnz-QCbdwjUeJDTq1JLuDAQeKs6=w290-rj
+:backdrop: https://lh3.googleusercontent.com/pu8hbqW6Zeezb3vsEy5OGKE2F0rK6bbD5nUYn2Dqs7-Uzt71trlcHYc1YmlyFG0iX18Npr4CVCIe=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+bx//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAAFAAIE/8QAIhAAAgIBAgcBAAAAAAAAAAAAAQIAEQMxQRITISKhsfEE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC1fvSj04r8zd+tiuChwEM1G9unyGaRLCx5ec3ox9QDbI3kl8yhczqooAkCSB//Z"
 ---
 _A Girl Walks Home Alone at Night_ bills itself as the first Iranian Vampire Western. This is misleading. Like all good movies, it transcends borders. A more accurate tagline might be “The first Persian language Vampire Western.”
 

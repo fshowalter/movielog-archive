@@ -7,7 +7,6 @@
 :imdb_id: tt0057078
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-fYYTXXKxuAI/Vf3bBHFK8dI/AAAAAAAAC_c/UVk2CFzTDb0/w1000-Ic42-rj/the-whip-and-the-body-1963.jpg
-:capsule: "Christopher Lee as a ghost, whipping a half-nude woman as she moans in ecstasy."
 ---
 
 Any film starring Christopher Lee as a ghost whipping a half-nude woman as she moans in ecstasy can’t be all bad.

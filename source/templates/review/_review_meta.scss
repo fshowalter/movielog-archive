@@ -1,10 +1,11 @@
-@import '../../stylesheets/mixin_body_text';
+@import 'source/stylesheets/variables';
+@import 'source/stylesheets/mixin_body_text';
 
 .review_meta {
   @include body-text;
+  border-top: 1px solid $color_primary;
   margin: 40px 0 20px;
   padding: 20px 0;
-  border-top: 1px solid #e9e7e0;
 }
 
 .review_meta-title {
@@ -18,11 +19,15 @@
   }
 }
 
+.review_meta-divider {
+  color: $color_accent;
+}
+
 .review_meta-aka_title {
   font-style: italic;
-  // display: block;
 
   &:after {
+    color: $color_accent;
     content: ' | ';
     white-space: normal;
   }

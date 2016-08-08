@@ -7,7 +7,6 @@
 :imdb_id: tt0068230
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/-dpJAk_37aV0/VgNWYPY-uHI/AAAAAAAADBY/dg5KNqqrEYA/w1000-Ic42-rj/asylum-1972.jpg
-:capsule: "The special effects are more laughable than scary."
 ---
 
 _Asylum_ is another anthology horror from Amicus Productions. As with _The House That Dripped Blood (1971)_, the script comes courtesy of Robert Bloch.

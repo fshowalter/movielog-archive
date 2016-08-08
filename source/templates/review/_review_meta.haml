@@ -10,7 +10,7 @@
   %span.review_meta-director
     D: #{ directors.map{ |p| cast_and_crew_link(p) }.join(' & ') }
   %span.review_meta-country
-    #{ review.year } | #{ info.country } | #{ info.running_time }&thinsp;mins. |
+    #{ review.year } <span class="review_meta-divider">|</span> #{ info.country } <span class="review_meta-divider">|</span> #{ info.running_time }&thinsp;mins.
   - if aka_titles.any?
     %span.review_meta-aka
       %span.review_meta-aka_heading

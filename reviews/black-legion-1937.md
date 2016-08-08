@@ -1,14 +1,12 @@
 ---
 :sequence: 5
 :title: Black Legion (1937)
+:db_title: Black Legion (1937)
 :slug: black-legion-1937
-:display_title: Black Legion (1937)
 :date: 2014-08-22
 :grade: C
 :imdb_id: tt0027367
 :backdrop: https://lh3.googleusercontent.com/-uPa7fad268A/VWkjrisKLWI/AAAAAAAACuQ/pIhibNovL_M/w1000-rj/black-legion-1937.jpg
-:pull_quote: _Black Legion_ should have been Humphrey Bogart’s breakout film.
-:poster: https://lh3.googleusercontent.com/krS89iwxMZQtaG2kZBwaapK3OpsATLdTWhOWy_vT76KYIZQgzqVotbG0B4c77uvxM_qJzt-d19F-=w290-rj
 ---
 _Black Legion_ should have been Humphrey Bogart’s breakout film. He delivers a fearless performance as Frank Taylor, a senior machinist and family man who’s in line for a rich promotion to foreman. To Frank’s shock, he’s passed over in favor of a younger coworker named Dombrowski from an immigrant family. Feeling angry and cheated, Frank falls in with the titular Legion, a black-robed hate group.
 

@@ -1,14 +1,24 @@
-.post_backdrop_wrap {
+.post_backdrop-wrap {
   margin: 0;
   position: relative;
+}
+
+
+.post_backdrop-placeholder {
+  opacity: 1;
+  transition: .8s opacity linear;
+  position: absolute;
+  transition: .8s opacity;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .post_backdrop {
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
-  transition: .8s opacity;
   cursor: pointer;
 
   &:before {
@@ -19,16 +29,8 @@
   }
 
   &.loaded {
-    opacity: 1;
+    .post_backdrop-placeholder {
+      opacity: 0;
+    }
   }
-}
-
-.post-backdrop_placeholder {
-  opacity: 1;
-  transition: .8s opacity linear;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
 }

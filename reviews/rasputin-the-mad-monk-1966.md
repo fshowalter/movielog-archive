@@ -1,14 +1,12 @@
 ---
 :sequence: 27
 :title: 'Rasputin: The Mad Monk (1966)'
+:db_title: 'Rasputin: The Mad Monk (1966)'
 :slug: rasputin-the-mad-monk-1966
-:display_title: 'Rasputin: The Mad Monk (1966)'
 :date: 2015-01-30
 :imdb_id: tt0059635
 :grade: D+
 :backdrop: https://lh5.googleusercontent.com/-XZr8XNcR6jM/VW-V1KaIrEI/AAAAAAAACy0/qotdalSW7ts/w1000-rj/rasputin-the-mad-monk-1966.png
-:pull_quote: "Rasputin spends too much time drinking and dancing and not enough time chopping off hands. "
-:poster: https://lh3.googleusercontent.com/CPOq2BfVnIRKHLWWYRbrUOBTJp9vXngRJvx4nrmgTCsKZ_CG2VWuEzwaradVUOccL6V4QjeNo7qF=w290-rj
 ---
 _Rasputin: The Mad Monk_ opens with Rasputin, played by Christopher Lee, arriving at an inn and demanding wine. When he's told the innkeeper is unavailable due to his ill wife, an annoyed Rasputin marches upstairs. He storms into the bedroom, and proceeds to _will_ the disease out of the frail woman, drawing it into his now red-hot hands.
 

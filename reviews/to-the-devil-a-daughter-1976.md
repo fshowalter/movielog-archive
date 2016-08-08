@@ -1,14 +1,12 @@
 ---
 :sequence: 34
 :title: To the Devil a Daughter (1976)
+:db_title: To the Devil a Daughter (1976)
 :slug: to-the-devil-a-daughter-1976
-:display_title: To the Devil a Daughter (1976)
 :date: 2015-03-02
 :imdb_id: tt0075334
 :grade: D+
 :backdrop: https://lh3.googleusercontent.com/--QNucO_HHo0/VU7bigIQJDI/AAAAAAAACio/Kf7dH_d-TLY/w1000-rj/to-the-devil-a-daughter-1976.jpg
-:headline: _To the Devil a Daughter_ Was a Mercy Killing
-:poster: https://lh3.googleusercontent.com/nRvWWQ-JWXg9iuR9jf2HAPDrjO1cqSHybvIQ7pMrZ75ZG-wdZplXJknfIIRbBbVVWUN45acPkTR1=w290-rj
 ---
 _To the Devil a Daughter_ was the final film of Hammer Film Productions[^1]. The studio rose to prominence with films such as _Curse of Frankenstein (1957)_ and _Horror of Dracula (1958)_. Unlike those staged, period pieces, this film is set in contemporary times and shot on location. It represented a big departure for Hammer, but it was too little too late.
 

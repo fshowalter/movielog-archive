@@ -38,7 +38,7 @@ module Movielog
           insert_reviews_statement = prepare_insert_reviews_statement(db: db)
 
           reviews.values.each do |review|
-            insert_reviews_statement.execute(title: review.title, date: review.date.iso8601)
+            insert_reviews_statement.execute(title: review.db_title, date: review.date.iso8601)
             progress.increment
           end
         end

@@ -2,13 +2,13 @@
 @import 'source/stylesheets/filters';
 
 .viewings_filters {
-  border: 1px solid $color_background;
+  border: 1px solid $color_primary;
   border-radius: 5px;
   margin: 20px;
 }
 
 .viewings_filters-heading {
-  border-bottom: 1px solid $color_background;
+  border-bottom: 1px solid $color_primary;
   color: $color_accent;
   display: block;
   font-size: 19px;

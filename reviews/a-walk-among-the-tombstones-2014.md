@@ -1,14 +1,12 @@
 ---
 :sequence: 8
 :title: A Walk Among the Tombstones (2014)
+:db_title: A Walk Among the Tombstones (2014)
 :slug: a-walk-among-the-tombstones-2014
-:display_title: A Walk Among the Tombstones (2014)
 :date: 2014-09-25
 :imdb_id: tt0365907
 :grade: F
 :backdrop: https://lh5.googleusercontent.com/-sWBL0-NDWw4/VWkcSLprqnI/AAAAAAAACtg/dwUrbYDSNYY/w1000-rj/a-walk-among-the-tombstones-2014.jpg
-:pull_quote: _A Walk Among the Tombstones_ is a frustratingly inept piece of storytelling.
-:poster: https://lh3.googleusercontent.com/pcej5Mbbw7RGTOs7zcr50kDbf9Od9hiWWnmPq7MSvdIIbxeQ6dVb4BGoK0GOzzUkl_mG-yENNRgp=w290-rj
 ---
 
 _A Walk Among the Tombstones_ stars Liam Neeson as Matthew Scudder, a recovering alcoholic and ex-cop. Scudder quit the force after gunning down some street toughs robbing his neighborhood bar. His superiors called him a hero and gave him a commendation. Scudder quit anyway. He quit drinking too. Later, we learn his actions weren’t quite so heroic.

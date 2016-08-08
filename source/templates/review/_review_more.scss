@@ -1,3 +1,4 @@
+@import 'source/stylesheets/variables';
 @import 'source/components/more_list/more_list';
 
 .review_more {
@@ -7,12 +8,12 @@
 }
 
 .review_more-heading {
+  border-bottom: 1px solid $color_primary;
   font-size: 16px;
+  margin: 0 0 10px;
+  padding-bottom: 4px;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #e9e7e0;
-  margin: 0 0 10px;
 
   span {
     font-weight: bold;

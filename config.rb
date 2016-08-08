@@ -65,8 +65,9 @@ helpers do
       return 0 if index < 0
       return size - 1 if index >= size
       index }
-    array_closest_limit = closest_limit.curry[array.length]
 
+    array_closest_limit = closest_limit.curry[array.length]
+    raise center.inspect if array.find_index(center).nil?
     center = array_closest_limit[array.find_index(center)]
 
     lower = array_closest_limit[center - size/2]

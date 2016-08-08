@@ -1,7 +1,13 @@
+@import 'source/stylesheets/variables';
+
 .reviews_list {
-  padding: 0;
-  margin: 0;
   list-style-type: none;
+  margin: 0;
+  padding: 0 0 60px;
+
+  @media only screen and (min-width: 50em) {
+    margin-top: 30px;
+  }
 }
 
 .reviews_list-item {
@@ -10,14 +16,14 @@
   position: relative;
 
   &:after {
-    position: absolute;
+    background-color: $color_primary;
+    bottom: 0;
     content: '';
     display: block;
     height: 1px;
-    background-color: #e9e7e0;
-    margin: 0;
-    bottom: 0;
     left: 20px;
+    margin: 0;
+    position: absolute;
     right: 0;
   }
 }
@@ -27,23 +33,23 @@
   font-size: 18px;
   line-height: 40px;
   overflow: hidden;
+  padding: 20px 20px 0;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 20px 20px 0;
 }
 
 .reviews_list-slug {
-  color: #aaa;
+  color: $color_text_hint;
   font-size: 15px;
   line-height: 20px;
-  text-rendering: optimizeLegibility;
   padding: 0 20px 20px;
+  text-rendering: optimizeLegibility;
 }
 
 .reviews_list-grade {
-  height: auto;
-  width: 95px;
   display: inline-block;
+  height: auto;
   position: relative;
   top: 3px;
+  width: 95px;
 }

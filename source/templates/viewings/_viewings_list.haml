@@ -5,8 +5,8 @@
     %li.viewings_list-item{ data_for_viewing(viewing: viewing) }
       .viewings_list-item_title
         - if review
-          %a{ href: "/reviews/#{review.slug}/" }
-            = "#{review.display_title}"
+          %a{ href: href_for_review(review) }
+            = review.title
         - else
           = viewing.display_title
       %div{ class: "viewings_list-item_slug #{'with-rating' if review}" }

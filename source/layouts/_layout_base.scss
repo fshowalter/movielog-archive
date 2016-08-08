@@ -10,7 +10,7 @@ html {
 }
 
 a {
-  color: #579;
+  color: $color_link;
   text-decoration: none;
   line-height: inherit;
 }
@@ -20,8 +20,8 @@ body, html {
 }
 
 body {
-  background: $color_background;
-  color: rgba(0, 0, 0, .8);
+  background: $color_primary;
+  color: $color_text_primary;
   font-family: "Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 500;

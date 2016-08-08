@@ -16,7 +16,7 @@
   position: relative;
 
   &:after {
-    background-color: $color_background;
+    background-color: $color_primary;
     bottom: 0;
     content: '';
     display: block;
@@ -39,7 +39,7 @@
 }
 
 .viewings_list-item_slug {
-  color: $color_hint_text;
+  color: $color_text_hint;
   font-size: 15px;
   line-height: 20px;
   padding: 0 20px 20px;

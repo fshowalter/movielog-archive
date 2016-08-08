@@ -7,7 +7,6 @@
 :imdb_id: tt0022676
 :grade: C+
 :backdrop: https://lh3.googleusercontent.com/-lase2i_TlqU/Vf4Ud4BsYuI/AAAAAAAADAQ/oUIWFE2WwVU/s1000-Ic42-rj/big-city-blues-1932.jpg
-:capsule: "I came for Bogart, but enjoyed more than just his small role."
 ---
 
 I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film’s obscurity, my expectations were low.
