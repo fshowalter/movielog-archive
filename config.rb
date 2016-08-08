@@ -191,7 +191,7 @@ helpers do
     @viewings ||= begin
       viewings = Movielog.viewings
       viewings.values.each do |viewing|
-        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.title)
+        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
         viewing.sortable_title = info.sortable_title
         viewing.release_date = info.release_date
       end

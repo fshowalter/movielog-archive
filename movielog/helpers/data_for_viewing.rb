@@ -6,7 +6,7 @@ module Movielog
     def data_for_viewing(viewing:)
       {
         data: {
-          title: viewing.display_title,
+          title: viewing.title,
           sort_title: viewing.sortable_title,
           release_date: viewing.release_date.iso8601,
           release_date_year: viewing.release_date.year,

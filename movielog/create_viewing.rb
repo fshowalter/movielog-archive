@@ -26,8 +26,8 @@ module Movielog
       def build_viewing(number:, title:, display_title:, date:, venue:)
         {
           number: number,
-          title: title,
-          display_title: display_title,
+          db_title: title,
+          title: display_title,
           date: date,
           venue: venue
         }
