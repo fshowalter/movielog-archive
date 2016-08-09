@@ -6,7 +6,8 @@
 :date: 2015-11-23
 :imdb_id: 'tt0069715'
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-EzkCY-3oyjk/VlJsFej4MXI/AAAAAAAADDo/QKejKVIP-8Y/w1000-Ic42-rj/and-now-the-screaming-starts-1973.png
+:backdrop: https://lh3.googleusercontent.com/ARAju_iOzOZS1h9gLHUDw4QAGydv9SsG4HZQsJiX5a8f3ycYf4GtzXm8UcCk5yNsH-Kf_mWJe2cA=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71///zm8H////6/+b98/gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Ozs+Pj47Pj4+Pj47Pj47Oz47Pjs7Ozs7Ozs7Ozs7Ozs+Oz47Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAgEDBf/EACAQAAIBAwQDAAAAAAAAAAAAAAECACExQREiYYEDBBL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AyiAEBGvcdl2/QtmKtfC+uLR2p6yctAqhJMIH/9k="
 ---
 
 The severed hand is surprisingly effective.

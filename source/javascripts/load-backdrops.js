@@ -9,7 +9,7 @@
     }
 
     function updateWidthInImageUrl(baseUrl, width) {
-      return baseUrl.replace(/w\d*-rj/, 'w' + width + '-rj');
+      return baseUrl.replace(/w\d*-l75-rj/, 'w' + width + '-l75-rj');
     }
 
     function backgroundImageUrlForNode(node, retinaMultiplier) {

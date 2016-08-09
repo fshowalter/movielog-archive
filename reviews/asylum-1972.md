@@ -6,7 +6,8 @@
 :date: 2015-11-21
 :imdb_id: tt0068230
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-dpJAk_37aV0/VgNWYPY-uHI/AAAAAAAADBY/dg5KNqqrEYA/w1000-Ic42-rj/asylum-1972.jpg
+:backdrop: https://lh3.googleusercontent.com/vWbQ1BsWKuqKq1IweFXLKqjbv4uj3SXMUqTcCFtf3q_hZJEabfVxWIsxpxZeLAwBOGo5l0wHcWaF=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHhceGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Ozs+Pj4+Pj4+Pjs7Pj4+Ozs7Oz47Pjs+Pjs+Ozs+Pjs7Oz47Oz4+Ozs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwIEBf/EACIQAAICAQIHAQAAAAAAAAAAAAECABEDEiEUQUJRUnKhBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AMsBDVDn3j+DV2GnIi35GhK+R3NptpBJoCNzM2nEL6b+SKC4MrbqAR7CEb+ZEfGSws3CUD//2Q=="
 ---
 
 _Asylum_ is another anthology horror from Amicus Productions. As with _The House That Dripped Blood (1971)_, the script comes courtesy of Robert Bloch.

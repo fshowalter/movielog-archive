@@ -6,7 +6,8 @@
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
-:backdrop: https://lh3.googleusercontent.com/-V2oeZLmfXdI/VWkks3W599I/AAAAAAAACug/1Bb2Sj9kJfw/w1000-rj/psycho-circus-1967.jpg
+:backdrop: https://lh3.googleusercontent.com/aXE82W8Mw9kT5TdK5jxSwp6V4ZPEfNOdUOHru2g9ByJm-nrg6dVKjtqqArVYcZn0mnu3RAO-hXWc=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPCk8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj47Oz47Pj4+Ozs7Pj4+Pjs7Oz47Oz47Pj47Pjs+Oz47Oz4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAADAAL/xAAiEAEAAQMCBwEAAAAAAAAAAAABAgARQQMEEhMhIjFxsRT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwAZbXR5ZPm3vgSg20U1h4Ww2abUifmg5BSg268cnPWqEkoRv2xgHqqsK384PhVUH//Z"
 ---
 _Circus of Fear_ (_Psycho Circus_ here in the US) starts out so promising. An armored car rumbles down a London street. Cut to a man aboard a boat approaching the Tower Bridge. He raises his arm to check the time. Zoom in on his wristwatch. It’s early morning, just after dawn.
 

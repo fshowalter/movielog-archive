@@ -6,7 +6,8 @@
 :date: 2014-08-22
 :grade: C
 :imdb_id: tt0027367
-:backdrop: https://lh3.googleusercontent.com/-uPa7fad268A/VWkjrisKLWI/AAAAAAAACuQ/pIhibNovL_M/w1000-rj/black-legion-1937.jpg
+:backdrop: https://lh3.googleusercontent.com/ydbbv2p_Zmu022O8GHrOPsYYW5UD8it2BtfxaRu-yq8jsOAGlH2sBvhhgamigF6TxULlnnWHmJwk=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAABAwACBP/EACIQAAIBBAEEAwAAAAAAAAAAAAECEQADBBIhEyIx0SNhof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBSZI6KbEFmfUDxAIiaONc3s7N2i4dOPoTNLgHrqVEW0lePBgmqhimPiamPkP7Hug0nH3t2nDv3WweKlHJdkvsisVVeAAYgVKD/2Q=="
 ---
 _Black Legion_ should have been Humphrey Bogart’s breakout film. He delivers a fearless performance as Frank Taylor, a senior machinist and family man who’s in line for a rich promotion to foreman. To Frank’s shock, he’s passed over in favor of a younger coworker named Dombrowski from an immigrant family. Feeling angry and cheated, Frank falls in with the titular Legion, a black-robed hate group.
 

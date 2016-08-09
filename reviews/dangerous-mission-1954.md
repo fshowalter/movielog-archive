@@ -2,13 +2,12 @@
 :sequence: 36
 :title: Dangerous Mission (1954)
 :slug: dangerous-mission-1954
-:display_title: Dangerous Mission (1954)
+:db_title: Dangerous Mission (1954)
 :date: 2015-03-28
 :imdb_id: tt0046891
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-Wo_vWoActow/VVg3UdYAp1I/AAAAAAAAClc/L6nVyTwqrDY/w1000-rj/dangerous-mission-1954.jpg
-:headline: _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory.
-:poster: https://lh3.googleusercontent.com/ZkHw_DsbJLe84uTdOuIon3MmN3j5065EhvnBH-d0qXSCyHsOOwdn7rntdtgHleH-jkLj0s62Pxoj=w290-rj
+:backdrop: https://lh3.googleusercontent.com/z76KalgJLrwKnwnw7QqQF3Zcd_WahiLinJO11JdeAdcmAMee8AFIlzBqhJBrsmm2vDtfCdIrp2nX=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAwQC/8QAIxAAAQMDAgcAAAAAAAAAAAAAAQACEQQhMQNBIiVhcYGSsf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwChtQSS0u7yMR8wkv1WtEyfKxPNXDYuv6hLrOEagFhEoKG1pMyG53QmUgAp22FwDjohB//Z"
 ---
 _Dangerous Mission_ isn’t a very good movie. But for some folks it may be worth a look. To explain why, I must venture into spoiler territory.
 

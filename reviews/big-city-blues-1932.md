@@ -6,7 +6,8 @@
 :date: 2015-09-21
 :imdb_id: tt0022676
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-lase2i_TlqU/Vf4Ud4BsYuI/AAAAAAAADAQ/oUIWFE2WwVU/s1000-Ic42-rj/big-city-blues-1932.jpg
+:backdrop: https://lh3.googleusercontent.com/No22yUXPMksosLp6bX1NHDxgotjK_F9Ya0KvrxCJMhMCFTQTlUFLOsTh1uP8yK-CpORwr8dGSeT1=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMSGSgjFSMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAADAAT/xAAgEAABAwQDAQEAAAAAAAAAAAABAAIDERIhYQQxQXET/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ABnEHFjujYC7wEaR/vE4gNitGK5z8VMTJx335tONZCOFokMpcKlsYI10gQ8l7ABHBUU7IOVLYHuhYxsbiBaPdKQf/9k="
 ---
 
 I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film’s obscurity, my expectations were low.

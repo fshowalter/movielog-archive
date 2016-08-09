@@ -2,13 +2,12 @@
 :sequence: 7
 :title: Blue Ruin (2013)
 :slug: blue-ruin-2013
-:display_title: Blue Ruin (2013)
+:db_title: Blue Ruin (2013)
 :date: 2014-09-22
 :imdb_id: tt2359024
 :grade: B+
-:backdrop: https://lh3.googleusercontent.com/-tLDupSSWpGo/VWkc9fS7iNI/AAAAAAAACtw/aMneYcPoIlA/w1000-rj/blue-ruin-2013.jpg
-:pull_quote: _Blue Ruin_ may not be perfect, but it’s damn close.
-:poster: https://lh3.googleusercontent.com/03ao3iQNrLNMowb8JBItKDN7jEqEHYWv02aOzZt21AuB1Nl0va-RMysV1XKV6CQ6sw1__Fz76Rdu=w290-rj
+:backdrop: https://lh3.googleusercontent.com/Ko49ftdvfb2UfhMpxE0Dv3MYPIGIB2B84BGgTHlWwaHmWuDSYX5vfUqnmg1cDZKcdWxL4atzMibA=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pjs+Pj4+Pj4+Pj4+Pj4+Ozs7Pjs+Ozs+Pj4+Pjs+Pjs+Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAADAgD/xAAgEAACAgAGAwAAAAAAAAAAAAABAgARAwQhQlFxEjFB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/ADTOMTTBBpYo2Yq5rDxAaU+Q+aQFA4jJxI0Yk4q7lIPYmkn2e5o0R//Z"
 ---
 Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it’s a terrifically tense and visceral experience.
 

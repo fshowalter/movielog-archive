@@ -6,7 +6,8 @@
 :date: 2014-09-25
 :imdb_id: tt0365907
 :grade: F
-:backdrop: https://lh5.googleusercontent.com/-sWBL0-NDWw4/VWkcSLprqnI/AAAAAAAACtg/dwUrbYDSNYY/w1000-rj/a-walk-among-the-tombstones-2014.jpg
+:backdrop: https://lh3.googleusercontent.com/YfYku0PGaBvyOL9G64koUOgF-U-qCUM8BHEmzQRyDTuFcKK9QqZiQqTjjgrp_WmaiPHUvWriPPBX=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKXs+Pj4+Pj4+Pj4+Pj47Pj47Pj4+Pj4+Pj47Pjs7Pjs+Pj4+Oz4+Pj4+Pjs7Pjs7Ozs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwIEBf/EABwQAAEFAQEBAAAAAAAAAAAAAAEAAgMRIRJBMf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AKrJIy4ct0BOl7YCeKz6NCziTSk2V5zs0cOqhpr42Ai3E54hLJNoUH//2Q=="
 ---
 
 _A Walk Among the Tombstones_ stars Liam Neeson as Matthew Scudder, a recovering alcoholic and ex-cop. Scudder quit the force after gunning down some street toughs robbing his neighborhood bar. His superiors called him a hero and gave him a commendation. Scudder quit anyway. He quit drinking too. Later, we learn his actions weren’t quite so heroic.

@@ -11,7 +11,7 @@
               = review.title_without_year
         %a.home_review_list-backdrop_wrap{ href: "/reviews/#{review.slug}/" }
           .home_review_list-backdrop{ data: { backdrop: review.backdrop } }
-            %img.home_review_list-backdrop_placeholder{ src: review.backdrop_uri }
+            %img.home_review_list-backdrop_placeholder{ src: review.backdrop_placeholder }
         .home_review_list-excerpt
           = first_paragraph(grade_to_image_tag(grade: review.grade, options: { class: 'home_review_list-grade', width: '95px', height: '19px' }) + ' ' + review.content)
 

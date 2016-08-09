@@ -1,14 +1,13 @@
 ---
 :sequence: 10
 :title: British Intelligence (1940)
+:db_title: British Intelligence (1940)
 :slug: british-intelligence-1940
-:display_title: British Intelligence (1940)
 :date: 2014-10-13
 :imdb_id: tt0032283
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-WAcdzwsNCqU/VWj5V9ZXBbI/AAAAAAAACsc/vdRRov6-mb0/w1000-rj/british-intelligence-1940.jpg
-:pull_quote: _British Intelligence_ may be overlong and beset with plot holes, but at least it’s got Karloff.
-:poster: https://lh3.googleusercontent.com/0rLOwMDz1qS05wIJhZPsVrZS3gkENWmbpKpCNSexXmrq9Xawr1YWgNdyD9EfPRknv-NEohZvt9p3=w290-rj
+:backdrop: https://lh3.googleusercontent.com/sPvYsCpXgXZa0YAaU6X6WHitaQM6meKbimewqoJmViEWoLHTxiHpcU8kkTavXXT_Mfk0g3gJuIWf=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMDUwdjU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAwQF/8QAIRAAAgIBAgcAAAAAAAAAAAAAAQIAERIDIQQTIjFBseH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ai0+HbJsrVQDV7ZGP4dMFVfLGr+S9wOTUzD0sGGxDH0YE+qUOq+Jtb2MIodoQP//Z"
 ---
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. How else to review it? Plot is all it offers.
 

@@ -6,7 +6,8 @@
 :date: 2015-02-09
 :imdb_id: tt0062833
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-uTYB6p8q_Yo/VW-TB1KU3CI/AAAAAAAACx8/yRLsLlDGiIY/w1000-rj/curse-of-the-crimson-altar-1968.png
+:backdrop: https://lh3.googleusercontent.com/1LcSNRj44yxQioQPpvxs6SYZm-4Rv4CSWTNYSTDO_s05QwaZAvnm6fyz6mFn_TUIMGg5U-sssxv9=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PG9YXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj47Pj4+Pj4+Pj4+Pj4+Oz47Pjs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAADBAUA/8QAJBAAAgEDAgYDAAAAAAAAAAAAAQIhAAMREmEEIjFBUXEFEyP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwH/xAAWEQEBAQAAAAAAAAAAAAAAAAARABL/2gAMAwEAAhEDEQA/AJKcxwxJ2qjwln82YRAMx2ovxzHUFjASI3pNmZ+JulmYnUR1PSaCzCYb7Ax1C0czzYHvv5zWoN266sADAHgVqxqYv//Z"
 ---
 _Curse of the Crimson Altar_ (_The Crimson Cult_ here in the USA) has a good cast, but it is not a good film. This is evident from the opening scene.
 

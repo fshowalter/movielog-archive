@@ -6,7 +6,8 @@
 :date: 2016-02-06
 :imdb_id: tt1355683
 :grade: D+
-:backdrop: "https://lh3.googleusercontent.com/-kRxczPrTtu4/Vlw5cJ8pHwI/AAAAAAAADFc/cTbMIuZYPGI/w1000-Ic42-rj/black-mass-2015.jpg"
+:backdrop: https://lh3.googleusercontent.com/hpK784BJIMAgPi4-toiRP4LCjxRXEuK1VBqsDmAFjMu5wD_49HtopxMBYOEUa2PUGiliFwEieLbI=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+bx//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Oz4+Pj4+Pj4+Pjs+Oz4+Pjs+Pj4+Oz47Ozs+Ozs+Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAACBf/EACEQAAICAgEEAwAAAAAAAAAAAAECABEDBCEjMkGxBRIU/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ALu7TYtOuAWNCjKYPkHfAAUHFKW+1VM7KOmIXVVTpOSOauCPNsthRUXqADuJsyRTWJ/Ah8m/ckYq//9k="
 ---
 
 Based on a true story, _Black Mass_ sees Johnny Depp made up as a balding and paunchy James “Whitey” Bulger. The film follows Bulger’s ascent from small-time hood to crime-lord of South Boston. A journey made possible by the FBI.
