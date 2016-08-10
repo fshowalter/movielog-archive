@@ -2,13 +2,12 @@
 :sequence: 32
 :title: 'Kingsman: The Secret Service (2014)'
 :slug: kingsman-the-secret-service-2014
-:display_title: 'Kingsman: The Secret Service (2014)'
+:db_title: 'Kingsman: The Secret Service (2014)'
 :date: 2015-02-23
 :imdb_id: tt2802144
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-kFt9KsDwME8/VU7dQYiZ57I/AAAAAAAACjI/JJpcOt8A9Io/w1000-rj/kingsman-the-secret-service-2014.jpg
-:pull_quote: "In the end, _Kingsman: The Secret Service_ is little more than an adolescent male super-spy fantasy. That said, it’s not bad."
-:poster: https://lh3.googleusercontent.com/QhlqZ-D217TqVLbQDH-sO9sD7dNtglCoaWbI_f33Ef_NTYjQyiXUIhry_nhOHSRmIhLg9N_hB_38=w290-rj
+:backdrop: https://lh3.googleusercontent.com/PIUuFvSyKy2M-U54e16a0VnL_1XQgDcvMSkGCbEW19XRI7yZWOn0UoePvBo_kN7ABUKrbw_r4Dcr=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Ozs+Pj4+Oz47Ozs+Pj4+Pj4+Ozs+Pjs7Pj4+Oz4+Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAADBAD/xAAdEAEAAgICAwAAAAAAAAAAAAABAAIDESFxMVHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCLG0MYHFvO4g0dllTUkq8RKOqWevsIaTGGnuaAL7miH//Z"
 ---
 _Kingsman: The Secret Service_ tells the story of a young man named Gary who goes by Eggsy. We’re never told how he got this nickname. The film is full of superfluous bits like this.
 

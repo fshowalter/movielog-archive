@@ -6,7 +6,8 @@
 :date: 2014-12-29
 :imdb_id: tt0051554
 :grade: A
-:backdrop: https://lh3.googleusercontent.com/-UcxLZIKHANg/VVg83CzzKKI/AAAAAAAACmg/u7YKyEIT0yc/w1000-rj/horror-of-dracula-1958.jpg
+:backdrop: https://lh3.googleusercontent.com/xZSrxjiKk-JcURl8TA6olNd9Bd2yD4-Kii59BAkHN2Q5v_wb1fQMOB3NGi_SX42oPXWgB_M-BGee=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAAEAAMF/8QAIhAAAQMDAwUAAAAAAAAAAAAAAgABEQMhMRIyQRMicYGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6n21AaWh43YTq/QoG4NUIjttwq6QjAPHDN8QyMtJjNon3KBJ0D1XYp5wokthvCiD//2Q=="
 ---
 Howard Hawks once said that a good movie consisted of “three great scenes and no bad ones.” Hammer’s first entry in its _Dracula_ franchise gives us exactly that.
 

@@ -6,7 +6,8 @@
 :date: 2014-08-03
 :grade: D
 :imdb_id: tt0064727
-:backdrop: https://lh3.googleusercontent.com/-cmiDNJgj2pw/VWkmDnZsmGI/AAAAAAAACuw/i8ThB0yMtUo/w1000-rj/the-bloody-judge-1970.jpg
+:backdrop: https://lh3.googleusercontent.com/NZCn_6ildwpckDcHyDrqDXGVRwBF6VMfT35u9GfZbGCaM6YhT_OwOwtv6EarXdKhrTzrhB7xqjcp=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Oz4+Pj4+Pj4+Oz47Pj47Oz4+Oz4+Oz4+Pj4+Pj4+Pj4+Oz47Pj4+Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAABAv/EAB8QAQACAgAHAAAAAAAAAAAAAAECEQADBBIhMWGBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AFqHiQq2sNHUTIbGIB4rs5jRJi70aSFjlbNk48FFjJFlTkYLEgl9G1+5MV0yeT25MIH/2Q=="
 ---
 The extras on _The Bloody Judge_ DVD are more interesting than the feature film.
 

@@ -2,13 +2,12 @@
 :sequence: 2
 :title: Stake Land (2010)
 :slug: stake-land-2010
-:display_title: Stake Land (2010)
+:db_title: Stake Land (2010)
 :date: 2014-07-01
 :imdb_id: tt1464580
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-jzwWS-UIyDQ/VWknnTnwswI/AAAAAAAACvE/0WbrY9npuEs/w1000-rj/stake-land-2010.jpg
-:pull_quote: _Stake Land_ may not be a revelation, but it is a solid entry in the post-apocalyptic horror genre.
-:poster: https://lh3.googleusercontent.com/u5JmQXvsejwz6GOGUl-dY6osgESKzd1thU9LzpfDBsCMZGlyv-dDhRqbKG2d6Np7IA9ERQRBJK2R=w290-rj
+:backdrop: https://lh3.googleusercontent.com/Q2kMPyTeOGo_FTB6jIctN6BYkcm72p5R4OtS0FiuwHsWTaz0vxJs5Y--z-CYvqDUDD2scRSUlFjP=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDRwjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj47Pj47Pj47Pjs+Pj4+Pj4+Oz47Pj4+Ozs+Ozs7Ozs7Oz47Ozs+Pjs+Ozs+Pjs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAEAwD/xAAiEAABBAECBwAAAAAAAAAAAAABAAIDEQRywRITISUxUpH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJHG5eEeOifYDwhgua+RrjZugkY08ksE4e6wKr6jTdJZdeyBbMdksTXtuisq457fDpWUH//Z"
 ---
 _Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac, searching for the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as weapons, dropping them out of helicopters into neighboring towns.
 

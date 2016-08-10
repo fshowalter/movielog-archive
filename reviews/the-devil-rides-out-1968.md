@@ -6,7 +6,8 @@
 :date: 2015-01-29
 :imdb_id: tt0062885
 :grade: B
-:backdrop: https://lh5.googleusercontent.com/-waC6fxZQwTo/VW-WuGm-hkI/AAAAAAAACzE/ghTdM_xhc9Y/w1000-rj/the-devil-rides-out-1968.png
+:backdrop: https://lh3.googleusercontent.com/UVnrLEJIdpZbox7iHbfIIxccqT0ickUlhkL_GeD21uadJsYiugDi0BCHV4PlQol9Sa04XRG22QW6=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Oz4+Pj4+Pjs+Pj4+Pj4+Pj4+Pj4+Pj4+Pjs7Ozs7Oz47Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUC/8QAIhAAAgIBAQkAAAAAAAAAAAAAAQIAAxFxBAUSITEyQVGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCVSgbmYw/C1mCCVPn1NburR2UMoIJGc6x3bakooY1KELOAcfZFEPUwg3cdYSD/2Q=="
 ---
 Some films have no business working as well as they do. _The Devil Rides Out_ is one such film.
 

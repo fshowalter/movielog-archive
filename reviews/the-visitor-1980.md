@@ -1,13 +1,13 @@
 ---
 :sequence: 38
-:title: The Visitor
+:title: The Visitor (1980)
 :db_title: Stridulum (1979)
 :slug: the-visitor-1980
 :date: 2015-04-03
 :imdb_id: ‘’
 :grade: D+
-:backdrop: https://lh5.googleusercontent.com/-vbYz7fewpAs/VWZzTGAlDtI/AAAAAAAACn0/zB0TpzOhFYw/w1000-rj/the-visitor-1980.jpg
-:capsule: How did John Huston end up starring in a film this bizarre?
+:backdrop: https://lh3.googleusercontent.com/X656IiSeABubVQGy9w8eTl0BLWFo0BjpKchOjXDhLLOujGu5tAu6RZXnkTQEFGMX6gUzBVZH4BDL=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+bx//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj47Oz4+Pj4+Pj47Oz4+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwECBP/EAB4QAAICAgIDAAAAAAAAAAAAAAECABEDYTFxBBMU/8QAFgEAAwAAAAAAAAAAAAAAAAAAAAID/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhQf/aAAwDAQACEQMRAD8AS5GLCzkHQllyEKGXhuJn8wn0qNxmAn506k8PNh7ZrN3CSSbhCQ//2Q=="
 ---
 As I see it, my job as a reviewer is threefold. I endeavor to describe what a given movie is about, convey a sense of the viewing experience[^1], and give you an idea of how I felt about it.
 

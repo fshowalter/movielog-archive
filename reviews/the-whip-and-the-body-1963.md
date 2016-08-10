@@ -1,12 +1,13 @@
 ---
 :sequence: 49
-:title: The Whip and the Body
+:title: The Whip and the Body (1963)
 :db_title: La frusta e il corpo (1963)
 :slug: the-whip-and-the-body-1963
 :date: 2015-09-19
 :imdb_id: tt0057078
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-fYYTXXKxuAI/Vf3bBHFK8dI/AAAAAAAAC_c/UVk2CFzTDb0/w1000-Ic42-rj/the-whip-and-the-body-1963.jpg
+:backdrop: https://lh3.googleusercontent.com/fifxFZb9pcOx7ZjGtLDRL6zn3eYy9ke08B5D9fzhyxQePsbqxxNLAkvfhYLHO6M0BM5iPd_lKD1I=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Oz4+Pj4+Pj4+Pj4+Pj4+Pj4+Pjs+Pj4+Pj4+Pj4+Pj4+Pj47Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAACBf/EAB8QAAEDBAMBAAAAAAAAAAAAAAEAAhEDITFBBCJRE//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAh/9oADAMBAAIRAxEAPwBZwkB0QN3iypVbRbXJY4fEjRwm+ZbhmN5WW+wCWDGK80gernkemFEFRLSX/9k="
 ---
 
 Any film starring Christopher Lee as a ghost whipping a half-nude woman as she moans in ecstasy can’t be all bad.

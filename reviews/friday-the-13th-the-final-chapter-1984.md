@@ -2,13 +2,12 @@
 :sequence: 14
 :title: 'Friday the 13th: The Final Chapter (1984)'
 :slug: friday-the-13th-the-final-chapter-1984
-:display_title: 'Friday the 13th: The Final Chapter (1984)'
+:db_title: 'Friday the 13th: The Final Chapter (1984)'
 :date: 2014-12-14
 :imdb_id: tt0087298
 :grade: C
-:backdrop: https://lh3.googleusercontent.com/-YiQsxpasbDM/VWjynm8kB-I/AAAAAAAACrY/e2kZ5_sUh9o/w1000-rj/friday-the-13th-the-final-chapter-1984.jpg
-:pull_quote: "_Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation."
-:poster: https://lh3.googleusercontent.com/jHTTkIkjcpN3UPsl7QqJcq1lGyz0WYL1JHdlE-Hz8JKF9cFGNnOEH3O-Pe2MWKYiM-wvPHrp9fYk=w290-rj
+:backdrop: https://lh3.googleusercontent.com/5gLekMnjZhdxLLUT_iDIiJLecHFklEePTQjRnythR4PZCXyvSrASuQL7fPWztHBLW06oXWKZjrCR=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pj4+Pj4+Pj47Oz4+Pj4+Oz47Oz47Pjs+Pjs+Pjs7Ozs+Ozs7Pj4+Ozs+Oz4+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAADAAIF/8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACERIhMVEEEyL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMltnyRKfkFtDQD6yjxMbVntHVVF4yggcZcTsyolpGlFQf/Z"
 ---
 
 When _Friday the 13th: The Final Chapter_ premiered I was just a kid, still watching Saturday morning cartoons in my pajamas, my legs dangling off the couch. What I knew of the _Friday the 13th_ films came via third-hand bits of lore relayed in wide-eyed whispers on the playground.

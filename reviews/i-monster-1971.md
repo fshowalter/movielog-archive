@@ -6,7 +6,8 @@
 :date: 2015-09-18
 :imdb_id: tt0068727
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/-jhKA9oNj4a4/VftlBWJr0pI/AAAAAAAAC-A/dhBIvVcovaQ/s1000-Ic42-rj/i-monster-1971.jpg
+:backdrop: https://lh3.googleusercontent.com/5_vAuJSCJl6_O3CMC1kfX4itw-YsZeHruBCUYIxD4esamQG5Re4SknKkLDA_diB5h3sD1Nl8rz8G=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDUwdkE1dvilgKX4+Pj47Pj4+Ozs+Pj47Pjs+Pjs+Oz47Ozs+Oz4+Ozs+Ozs+Ozs7Oz4+Pjs+Ozs+Oz4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAADAAIB/8QAIBABAAIBAwUBAAAAAAAAAAAAAQACIRESEwRRYaHwA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAADH/2gAMAwEAAhEDEQA/AOPT7LBa5jTUIS14L62cVfvUIDmfIQTD+mnexIxVubQ2jKYMGJRD/9k="
 ---
 “He would be the most dangerous human being on earth. A monster.”
 

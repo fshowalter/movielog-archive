@@ -2,13 +2,12 @@
 :sequence: 31
 :title: Where Danger Lives (1950)
 :slug: where-danger-lives-1950
-:display_title: Where Danger Lives (1950)
+:db_title: Where Danger Lives (1950)
 :date: 2015-02-14
 :imdb_id: tt0043131
 :grade: F
-:backdrop: https://lh3.googleusercontent.com/-g1bbHLALOM4/VW-SOFqplsI/AAAAAAAACxs/P423zl72Vfg/w1000-rj/where-danger-lives-1950.png
-:pull_quote: "I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes."
-:poster: https://lh3.googleusercontent.com/VkA0_Q_8fDRVVzKoRAPyM0ZPabL58aSPgzWb8iT2crL9zsB36LELzANlL5mrWYjeyDf4jGu7uGPU=w290-rj
+:backdrop: https://lh3.googleusercontent.com/fQ2E4VfY-N3dHPFxN9tKl1daU68LpBCxP5um19WosjUbaVrB1A_Rce16Xvenhf8ioRFXzqucKeHR=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAABBAADBf/EACAQAAICAgEFAQAAAAAAAAAAAAECAxEAIUEEEjJRcSL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ASSMEyN+TdgYViQpEwO349ZZ0Sq/U9rC13rH54YzHJaDS2K4wMWZOxhRGxe8mHz2xJP3Jgf/Z"
 ---
 I usually warn folks when I’m going to spoil plot points, but in the case of _Where Danger Lives_, I don't think it matters. This is one of those films where the hero takes the entire movie to deduce what the audience figures out in the first ten minutes.
 

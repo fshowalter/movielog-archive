@@ -1,14 +1,13 @@
 ---
 :sequence: 9
 :title: For the Defense (1930)
+:db_title: For the Defense (1930)
 :slug: for-the-defense-1930
-:display_title: For the Defense (1930)
 :date: 2014-10-11
 :imdb_id: tt0020896
 :grade: C-
-:backdrop: https://lh3.googleusercontent.com/-WO2OZZSGbJQ/VWj6l501aSI/AAAAAAAACso/6pBMm54AoGE/w1000-rj/for-the-defense-1930.jpg
-:pull_quote: As melodramas go, _For the Defense_ isn’t a bad one.
-:poster: https://lh3.googleusercontent.com/TKzBQbizSYLKXrQHTyxCEOogdo5AYyLntgkaorIcJ8O6nR4tKFPJnWl2wW6Kz-aqDJp-kUKHQiHu=w290-rj
+:backdrop: https://lh3.googleusercontent.com/izIbheo1FQIySii0KKsEkitb-_hrfMO4rvc80ZUngZvhD2e3CtEO7Vtkai4eLiAVwvLaty4uLphg=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwECBP/EACEQAAICAQIHAAAAAAAAAAAAAAECAAMRITESEyIyQYHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKVEWOAyglfB1B3+yKFrtFj2llYZxg7CZwSDoYq1j1DOhgPTmcPefUIhVBUHEIH/2Q=="
 ---
 _For the Defense_ stars William Powell as Bill Foster. Bill is a slick defense lawyer famous for using any technicality or loophole to get his clients an acquittal, despite their obvious guilt. He’s so well-respected in the underworld that, when his car’s stolen, the crooks return it after getting a look at the registration.
 

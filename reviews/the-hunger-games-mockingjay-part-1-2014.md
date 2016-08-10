@@ -2,13 +2,12 @@
 :sequence: 12
 :title: 'The Hunger Games: Mockingjay - Part 1 (2014)'
 :slug: the-hunger-games-mockingjay-part-1-2014
-:display_title: 'The Hunger Games: Mockingjay - Part 1 (2014)'
+:db_title: 'The Hunger Games: Mockingjay - Part 1 (2014)'
 :date: 2014-12-06
 :imdb_id: tt1951265
 :grade: F
-:backdrop: https://lh3.googleusercontent.com/-xLvA-f7_G5o/VWj4wt7CPTI/AAAAAAAACsM/F_MxYPZzbQk/w1000-rj/the-hunger-games-mockingjay-part-1-2014.jpg
-:pull_quote: "_The Hunger Games: Mockingjay - Part 1_ is a non-movie."
-:poster: https://lh3.googleusercontent.com/65F0fVQJt_deza6x5_9QHBxTKoPBLHr8eW12aVf8zeM0x1HhXBWxDaGuVFfztHA8e6DA_LoME4o4=w290-rj
+:backdrop: https://lh3.googleusercontent.com/g-VHudKdnlcKkM8taxWVY8DAKDFRRG4pEn1EV4QTOssig6Pv92cOHmruefAVQXKtgX3SAGzjN6Ix=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj47P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAACBAADBf/EAB8QAAEDBAMBAAAAAAAAAAAAAAEAAgMEESFBEjFRE//EABYBAAMAAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwAXvtETbpFR18bI3se0uJOc6VZzC+/izoifoSkVM9UytnndJx430VEv2oghv//Z"
 ---
 Full disclosure: I haven’t seen the first two _Hunger Games_ films, nor have I read the books.
 

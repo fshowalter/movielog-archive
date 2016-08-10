@@ -2,13 +2,12 @@
 :sequence: 33
 :title: The Long Night (1947)
 :slug: the-long-night-1947
-:display_title: The Long Night (1947)
+:db_title: The Long Night (1947)
 :date: 2015-02-26
 :imdb_id: tt0039581
 :grade: D+
-:backdrop: https://lh5.googleusercontent.com/-JV5O8iefVIA/VU7dOTf4crI/AAAAAAAACi8/lhlQLISf1pQ/w1000-rj/the-long-night-1947.jpg
-:headline: _The Long Night_ starts well, only to lose its way in the third act.
-:poster: https://lh3.googleusercontent.com/llpQuKZiw7zecr8srS9xcOLflgavNeUQwqFtRFuT3DSEPP-binM123-iNW-xkLCrhpV6IHIna879=w290-rj
+:backdrop: https://lh3.googleusercontent.com/1z94bhIshDI1Tc2ghru9TQsP3Rlkldgghd_kcdE3wbwlvd-S4iAJ8AlaheqztYZeF3xgAG3xYgis=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAABAv/EAB8QAAICAgEFAAAAAAAAAAAAAAECABEDEjETISJRYf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAznH01xhvPWuIhlxlVYsRZa4I5XLqNu3E1kJ1v5AW0Yk0pklWfckD/2Q=="
 ---
 _The Long Night_ starts well, only to lose its way in the third act.
 

@@ -1,13 +1,13 @@
 ---
 :sequence: 37
-:title: Three on a Match
+:title: Three on a Match (1932)
 :db_title: Three on a Match (1932)
 :slug: three-on-a-match-1932
 :date: 2015-03-31
 :imdb_id: tt0023590
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-hyNzM-BZlZg/VU7Z8rff5gI/AAAAAAAACh0/8GjYCPjHPyg/w1000-rj/three-on-a-match-1932.jpg
-:capsule: Only a cast this good could overcome such a crazy script.
+:backdrop: https://lh3.googleusercontent.com/omXJrngN3x7_G6hv4Inr_G_t8eX5iD5SxukH1f7bIWTJCgNUg_TOYTmPp-tR66hkceVEf1H1HN2x=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAwL/xAAfEAEAAQQCAwEAAAAAAAAAAAABAgADEVESQSJhoSH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AhemwjGIspSc4OvX2lpiEWL25NtZtg2xTLukgwtBO9yjceb+uu6VOU5cnyaUH/9k="
 ---
 Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled the entire movie business, from production to distribution. The studios contracted performers and paid them a salary. The performers worked five days a week like anyone else. When one film wrapped, they moved to another. Thus, films like _Three on a Match_ came stock-piled with current and future stars.
 

@@ -6,7 +6,8 @@
 :date: 2015-01-30
 :imdb_id: tt0059635
 :grade: D+
-:backdrop: https://lh5.googleusercontent.com/-XZr8XNcR6jM/VW-V1KaIrEI/AAAAAAAACy0/qotdalSW7ts/w1000-rj/rasputin-the-mad-monk-1966.png
+:backdrop: https://lh3.googleusercontent.com/zoVm0covcRxfSkVZhQpUDO4wKAsTOasJ5UQAAiRtj9powFT65Ex39oXrdOah3otQmyL4AAqG0QCS=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUD/8QAIhAAAgEDAwUBAAAAAAAAAAAAAQIRAAMhBDFREhRBQpET/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJVpSW9YGYJ3in7jae5rVZD02yp6gB8pRsPiKybnnegr9uBj9HEeBFFLaRmezLEkzvRQf//Z"
 ---
 _Rasputin: The Mad Monk_ opens with Rasputin, played by Christopher Lee, arriving at an inn and demanding wine. When he's told the innkeeper is unavailable due to his ill wife, an annoyed Rasputin marches upstairs. He storms into the bedroom, and proceeds to _will_ the disease out of the frail woman, drawing it into his now red-hot hands.
 

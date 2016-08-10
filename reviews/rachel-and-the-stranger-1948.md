@@ -2,13 +2,12 @@
 :sequence: 23
 :title: Rachel and the Stranger (1948)
 :slug: rachel-and-the-stranger-1948
-:display_title: Rachel and the Stranger (1948)
+:db_title: Rachel and the Stranger (1948)
 :date: 2015-01-15
 :imdb_id: tt0040720
 :grade: D
-:backdrop: https://lh5.googleusercontent.com/-v7GeD4cuLSg/VWjnzmxIfKI/AAAAAAAACpE/4SIMgozoRrU/w1000-rj/rachael-and-the-stranger-1948.jpg
-:pull_quote: "There's a kernel of a good story here, and the three leads are more than capable of pulling it off. But the hackneyed melodramatic fable they're given to work with is frustrating at best, and annoying at worst."
-:poster: https://lh3.googleusercontent.com/rzzfHZetJ-6iEJqpKOVh02G4kdN6FKFVFOYf1b3bdcEbs1xw2r9IVGFTjYCs-4cyePNTtx9Hj5Kc=w290-rj
+:backdrop: https://lh3.googleusercontent.com/Kjw9VnmIjl1U_qU9L60043gx0uY1YJFsAXgiqP-5vwFEB_cd83oOC8Q4p5jQwB4HE_Lb_u3UJRa6=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAABAgQA/8QAIRAAAgEDAwUAAAAAAAAAAAAAAQIRAAMSBCFhEzFBUdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ABVGuCDcgCIY0wTTsIznMGZ7mo9PLDNiS3uaS+xLoPGXygN3TJ1D0yChAKniK1UIouKGfcwN54rUH/9k="
 ---
 In _Rachel and the Stranger_, William Holden plays David Harvey. David is a pioneer farmer living with his young son Davey in the Ohio wilderness. David's wife Susan died the previous year, sinking him into depression. It's only after finding Davey using a page from one of his school books as a sail for a toy boat, that David resolves to find a new wife. Not for love, but because he knew how important it was to Susan that Davey not grow up "woodsy".
 

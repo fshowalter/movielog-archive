@@ -2,13 +2,12 @@
 :sequence: 21
 :title: She Couldn't Say No (1954)
 :slug: she-couldnt-say-no-1954
-:display_title: She Couldn't Say No (1954)
+:db_title: She Couldn't Say No (1954)
 :date: 2015-01-10
 :imdb_id: tt0047476
 :grade: C-
-:backdrop: https://lh3.googleusercontent.com/-tc4p9wx4ajU/VWjopNUTr6I/AAAAAAAACpU/oCOLDsSu5Gs/w1000-rj/she-couldnt-say-no-1954.jpg
-:pull_quote: "Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down."
-:poster: https://lh3.googleusercontent.com/tMeL0u6hxDzjnEdygOKBNStXOonuuwCBJbuTImcbfE-RdgIZnW00icvplYDVNWaLAF82uiKudAiz=w290-rj
+:backdrop: https://lh3.googleusercontent.com/4AJYTsQWful3uSw1ftA7gUA6D4byCu_bPn-gWY2TsgTkJaX5e3W674n5_LcmJ1e5YDWYCBsnyzVD=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHhceDSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAEAAP/xAAkEAACAgIBAQkAAAAAAAAAAAABAgMRAAQhIgUTMTJBUXGBkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDSLs6KGYO3VQ9PDJtKIy27dT3yK4zVncRRUfMQD+HCdpO8boUNEcj5rAYmhB3Yt2v6ywmvs7L69s9m/YZYH//Z"
 ---
 Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down.
 

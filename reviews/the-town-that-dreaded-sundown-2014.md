@@ -2,13 +2,12 @@
 :sequence: 29
 :title: The Town That Dreaded Sundown (2014)
 :slug: the-town-that-dreaded-sundown-2014
-:display_title: The Town That Dreaded Sundown (2014)
+:db_title: The Town That Dreaded Sundown (2014)
 :date: 2015-02-06
 :imdb_id: tt2561546
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-janqs2XnWtE/VW-T9n8zeLI/AAAAAAAACyQ/GRYkznL4lzY/w1000-rj/the-town-that-dreaded-sundown-2014.png
-:pull_quote: "_The Town That Dreaded Sundown_ may be the first rural giallo."
-:poster: https://lh3.googleusercontent.com/KnhR6ndDe7AcLEU8jR_-72uYgP76Q8Jn1Oe8SQTrXVjEBnJunyi60qZcSHnMXh8bb8hu3dIS9-YV=w290-rj
+:backdrop: https://lh3.googleusercontent.com/VU3VIUxRh0TzzOtkPINSI7CHiKakTyKTim0oQz5EnEeypnKpRT94Bn6NDFSC0qmV88qO1bixq8q_=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m7X////6/+b9//gBKy0tPDU8dkFBduyljKX4+Pj4+Pj4+Pjs+Pj4+Oz4+Pj4+Pj4+Pj47Oz47Oz47Pjs+Pjs+Ozs7Ozs7Pjs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAwQF/8QAIBAAAgEDBAMAAAAAAAAAAAAAAAERAkFxISMxUwMEE//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aj8UNKI4sU6UUzrhEHqvcg0rAS/s+up4AakoAE//Z"
 ---
 _The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for the original film, _The Town That Dreaded Sundown (1976)_, which screens every Halloween somewhere in Texarkana.
 

@@ -1,13 +1,13 @@
 ---
 :sequence: 40
-:title: WolfCop
+:title: WolfCop (2014)
 :db_title: WolfCop (2014)
 :slug: wolfcop-2014
 :date: 2015-04-18
 :imdb_id: tt2781516
 :grade: B
-:backdrop: https://lh6.googleusercontent.com/-oquGAT5t--M/VU64-prE3qI/AAAAAAAAChA/mIIS1h81S8o/w1000-rj/wolfcop-2014.jpg
-:capsule: Ridiculous in the best possible way.
+:backdrop: https://lh3.googleusercontent.com/SX46hDUP681L7GqRpyYpYgB-fw6L830qD4OseTQhczUpd2eYb-ZgzbxMPGdE4ltlPDv26eLr4D85=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Oz4+Ozs+Pj47Oz4+Pj47Pj47Ozs+Pjs7Pj4+Pj4+Ozs+Pj4+Pj4+Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAwQB/8QAIxAAAQMDAgcAAAAAAAAAAAAAAQACEQMhMVGxBBIiIzNygf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ah4ftuD2u5S4xIyAsfTl/QJAzZKoEisIOuyqxXaBYCwUSzQZOn1CRW8z/AGO6FB//2Q=="
 ---
 _WolfCop_ is about an alcoholic sheriff’s deputy who becomes a werewolf and uses his newfound powers to clean up his small town. It’s ridiculous in the best possible way.
 

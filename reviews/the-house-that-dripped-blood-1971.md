@@ -6,7 +6,8 @@
 :date: 2015-11-25
 :imdb_id: tt0065854
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/-VoTxqBnhNEQ/VlRORd6InRI/AAAAAAAADEg/5f5u9KnFYGQ/w1000-Ic42-rj/the-house-that-drippped-blood-1971.png
+:backdrop: https://lh3.googleusercontent.com/FMMgkimfRtPRm2id-f-ft-JjAMqk0TwHmvQnGRypZmP1imYN_H1srF3U69u_UnE9SHs0kDvsEXck=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8akFBdviljKXs+Oz4+Pjs+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Ozs7Oz47Pjs+Oz47Pj4+Pjs+Oz47Pj47P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAABAgADBP/EAB8QAQACAQQDAQAAAAAAAAAAAAEAAgMRITFBInGxEv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AMOSqlf3dXeHHTFe1y66FFHXuV1W55KxcinHUIQrZqabkkZ5fb9kkn//2Q=="
 ---
 
 Reviewing anthology movies is hard. I picture you, dear reader, trudging through endless paragraphs of plot synopsis and I feel guilty. I have let you down.

@@ -1,13 +1,13 @@
 ---
 :sequence: 44
-:title: Hell Is for Heroes
+:title: Hell Is for Heroes (1962)
 :db_title: Hell Is for Heroes (1962)
 :slug: hell-is-for-heroes-1962
 :date: 2015-07-15
 :imdb_id: tt0056062
 :grade: B
-:backdrop: https://lh5.googleusercontent.com/-zElWMBrjz74/VabygZuT7uI/AAAAAAAAC3o/5M9XI1OPCxk/w1000-rj/hell-is-for-heroes-1962.jpg
-:capsule: Steve McQueen pisses off the cast, crew and studio; still makes a good movie.
+:backdrop: https://lh3.googleusercontent.com/bPsLsdHJ4IZlzMf0un4haSvga8kjwuHH10Ex33GI4uB-3FiNVVBdylydvyu1SZ9f90bsAvYNR1Gz=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAZAAABBQAAAAAAAAAAAAAAAAACAAEDBAX/xAAfEAACAQQCAwAAAAAAAAAAAAABAgADERIhMUEEIlH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AqUTi4JUWbcfyMFq1AoCqLaHUkrKBQQgDR1CIDeKGbbYg3gZ7synkW60IoLswt7Hj7FA//9k="
 ---
 _Hell Is for Heroes_ tells the story of a small squad of American soldiers. It’s 1944 and the group has seen its share of action on the European lines. Now, they’re enjoying a break in a bombed-out village near the Siegfried Line.
 

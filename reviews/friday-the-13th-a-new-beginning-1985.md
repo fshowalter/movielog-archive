@@ -2,13 +2,12 @@
 :sequence: 17
 :title: 'Friday the 13th: A New Beginning (1985)'
 :slug: friday-the-13th-a-new-beginning-1985
-:display_title: 'Friday the 13th: A New Beginning (1985)'
+:db_title: 'Friday the 13th: A New Beginning (1985)'
 :date: 2014-12-31
 :imdb_id: tt0089173
 :grade: D
-:backdrop: https://lh5.googleusercontent.com/-KDi3ss9VzmI/VWjvl7gcVzI/AAAAAAAACqo/0UeZ6mpk46U/w1000-rj/friday-the-13th-a-new-beginning-1985.jpg
-:pull_quote: "I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either."
-:poster: https://lh3.googleusercontent.com/PFMpCQBc0k5VWknYaKqvHgNSg6GUP5eLEVEK8I7bh3P2eRL-LdpwmD1MtgdndIwK4QidxGLG1Blj=w290-rj
+:backdrop: https://lh3.googleusercontent.com/T4f7nWbCkgjD0VA_P35rVAlo6Wt6N6lKJYPtgd7Rl3etKmTSlpFcTo6Uzc-fo5SUHgeCt8kHX665=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pjs+Pj4+Oz47Oz47Oz47Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAQID/8QAHhAAAgIBBQEAAAAAAAAAAAAAAQIAAxEhImGR4RL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIWhQ30OhIqY2WOuMBTpKBIGkdB3Nz7Ak9NjNtfAhNoSL//Z"
 ---
 
 After _Friday the 13th: The Final Chapter (1984)_ delivered the series’s highest grosses, Paramount made an odd decision. They ditched Jason and tried to reboot the franchise.

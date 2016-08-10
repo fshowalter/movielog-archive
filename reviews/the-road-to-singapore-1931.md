@@ -2,13 +2,12 @@
 :sequence: 11
 :title: The Road to Singapore (1931)
 :slug: the-road-to-singapore-1931
-:display_title: The Road to Singapore (1931)
+:db_title: The Road to Singapore (1931)
 :date: 2014-10-22
 :imdb_id: tt0022321
 :grade: C
-:backdrop: https://lh3.googleusercontent.com/-zZQCZ7uRJkQ/VWj3-xH47NI/AAAAAAAACr4/TXbNeHmpxsI/w1000-rj/the-road-to-singapore-1931.jpg
-:pull_quote: What makes _The Road to Singapore_ worth watching is William Powell’s performance.
-:poster: https://lh3.googleusercontent.com/WP6YroxApvQKnia0meG575fVwLGn4F9FDyE13o74WRWv2OkwvKHUTpLA5MOWLbQ4hoPMj4G9p-C5=w290-rj
+:backdrop: https://lh3.googleusercontent.com/6hCIxMnwVuNf9tznxqSFJgGkCS6cWHDQnTrchCm7GzcFubZ3MbQsNUa-Vn17UVuehIlayW4hnx7s=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAwQF/8QAHBAAAgIDAQEAAAAAAAAAAAAAAREAAgMhMRMS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMqtfu4HHG+HqSMaYHIgEjIFKrVFba0zAlNUUQiIRmQuzPYQP//Z"
 ---
 _The Road to Singapore_ features a memorable tracking shot. It’s night. Cross-fade from natives pounding jungle drums to a woman gazing out her bedroom window. The camera pulls back and up, away from her window and over acres of dark jungle to settle behind a man standing on his porch, gazing at the woman’s bungalow in the distance.
 

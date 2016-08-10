@@ -2,13 +2,12 @@
 :sequence: 24
 :title: The Angry Hills (1959)
 :slug: the-angry-hills-1959
-:display_title: The Angry Hills (1959)
+:db_title: The Angry Hills (1959)
 :date: 2015-01-17
 :imdb_id: tt0052563
 :grade: D
-:backdrop: https://lh3.googleusercontent.com/-0ITxcHZ7znw/VVg1fLhXVQI/AAAAAAAAClM/V0MojGxNt4c/w1000-rj/the-angry-hills-1959.jpg
-:pull_quote: "In the end, _The Angry Hills_ isn't really a movie at all. Instead we’re given the beginning of one movie, the middle of another, and the end of yet another."
-:poster: https://lh3.googleusercontent.com/EAvDkxfWA7sCmE30_X09_V1FmJOspEeW5TK4ulXYiHvvX9Ra7I9KkhXTEjmYEyKcmlyvAyf4MvKM=w290-rj
+:backdrop: https://lh3.googleusercontent.com/bxpcU3-mQgz64E7Wm6i3C2IVnOVChfDFkbfAWFel7Nc_osYy6WHLUutYhF1q_sKoKncOBbcdQ468=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAZAAABBQAAAAAAAAAAAAAAAAADAAECBAX/xAAjEAACAQQCAAcAAAAAAAAAAAABAgMABBEhEiIVMTJBUWGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AAlVaPJiZNepicCgQ8uQ6sQPPFbNkolseMnYMpzk/ZqlCSLcAawoOtUDeHXKkgKuM67e1KoyXtxC5RJTxHzv9NKg/9k="
 ---
 _The Angry Hills_ starts well enough. It's 1941. Robert Mitchum plays Mike Morrison, an American Correspondent who has just arrived in Greece. The Nazis are preparing to take the country and Mike plans to be on the next plane out. A member of the Greek resistance presents Mike with a list of Nazi collaborators. He urges Mike to take the list to British Intelligence. Mike declines, saying he doesn’t want to get involved. Later, while out with a friend, Mike discovers the list in his jacket.  Mike attempts to unload the list to another Greek agent, but Gestapo agents are already on Mike's tail. They force him to flee through the darkened back streets of Athens. Mike escapes by hitching a ride on a British convoy.
 

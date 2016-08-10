@@ -1,6 +1,6 @@
 ---
 :sequence: 50
-:title: Big City Blues
+:title: Big City Blues (1932)
 :db_title: Big City Blues (1932)
 :slug: big-city-blues-1932
 :date: 2015-09-21

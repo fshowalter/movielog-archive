@@ -2,13 +2,12 @@
 :sequence: 25
 :title: The One I Love (2014)
 :slug: the-one-i-love-2014
-:display_title: The One I Love (2014)
+:db_title: The One I Love (2014)
 :date: 2015-01-25
 :imdb_id: tt2756032
 :grade: B
-:backdrop: https://lh5.googleusercontent.com/-gtMuwDS_hXo/VW-XUh3louI/AAAAAAAACzY/puLJP8u5Jlk/w1000-rj/the-one-i-love-2014.png
-:pull_quote: "Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait."
-:poster: https://lh3.googleusercontent.com/GzQIGDPeNiT9CIiKYUbu2Y9LzDwX-c-I8EZnvX0osa2qYGmyUie82S6lLVVIeDETh0qmXqXZf7rI=w290-rj
+:backdrop: https://lh3.googleusercontent.com/hJu2pF93kIsXJNyCx_JEpJiz-LO3fcpr4hNK4o946_zQ9XABJNbQdFc0X0vwTrOBB2Pq6KWNBS1n=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMSGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Oz4+Pj4+Pj4+Pj4+Pj4+Oz4+Pj4+Pj4+Ozs+Pj4+Oz4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAACBf/EACEQAAICAQMFAQAAAAAAAAAAAAECAAMREyExBCMyQWES/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AGbOrssHZ0xty2Zn02XW3s2Fctuf1tHU6Wm+sM6knjyMvgVNhYFLALGFTlW0gR6LSQV6hrMkZP2SWYr/2Q=="
 ---
 Warning: There be spoilers here. It's not possible to talk about _The One I Love_ in a meaningful way without them. But it’s a movie best seen with an open mind. So I encourage you, if you haven't seen it, to do so. It's not perfect, but the first two acts are brilliant and it's original enough to warrant a look. Go ahead, I'll wait.
 

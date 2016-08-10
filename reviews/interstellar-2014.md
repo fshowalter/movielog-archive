@@ -2,13 +2,12 @@
 :sequence: 15
 :title: Interstellar (2014)
 :slug: interstellar-2014
-:display_title: Interstellar (2014)
+:db_title: Interstellar (2014)
 :date: 2014-12-25
 :imdb_id: 'tt0816692'
 :grade: C
-:backdrop: https://lh3.googleusercontent.com/-vX12SITEdOo/VWjwXrJh-FI/AAAAAAAACq8/OJz7BBTV8SY/w1000-rj/interstellar-2014.jpg
-:pull_quote: _Interstellar_ doesn’t transcend the science fiction genre, it abandons it.
-:poster: https://lh3.googleusercontent.com/QkINyZ98i0mpys4Z7FaJTMx_d05pkc4UyF5nBlUOhomEEiYNIreRTUe0RtwwfRQ2uld2HP6ZVQ_d=w290-rj
+:backdrop: https://lh3.googleusercontent.com/7mrV1NDLwyteDGTF-4GNvapXi9gqiG5xrme19skMVJcZDYkLHk1fhUNXoW_5C0eUKUTdkvzF7-62=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////u/+b9//gBKy0tPC08dkE1duyljJn47Pj4+Pjs+Ozs+Ozs7Pjs7Ozs7Oz47Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAZAAABBQAAAAAAAAAAAAAAAAADAAECBAX/xAAhEAEAAgEBCQAAAAAAAAAAAAABAAIRIQMxMjNBUWGB8P/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A1MpVWppBbDLa1brbKue3iO2VsLpIHNv90iBmoPAPqKU7XtnexSD/2Q=="
 ---
 I know where _Interstellar_ went wrong. I knew the instant it happened. I may have uttered a small groan. But I’m getting ahead of myself.
 

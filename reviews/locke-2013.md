@@ -2,13 +2,12 @@
 :sequence: 22
 :title: Locke (2013)
 :slug: locke-2013
-:display_title: Locke (2013)
+:db_title: Locke (2013)
 :date: 2015-01-14
 :imdb_id: tt2692904
 :grade: B
-:backdrop: https://lh3.googleusercontent.com/-BQhYxBV9STM/VWz2CX6l05I/AAAAAAAACxE/mQdo3jlp5MA/w1000-rj/locke-2013.png
-:pull_quote: "_Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in."
-:poster: https://lh3.googleusercontent.com/biR83w7l8Itvq1fS4VQ3Ko4RIOBYc746yhJk3d0LCEN5ZpRk1zkbNJ8TTTIPwsbOxj5hZ5BLljTx=w290-rj
+:backdrop: https://lh3.googleusercontent.com/QARxqlTfARa2HePu0AmLnUq8vlJnGm9Db-oqh3zpdTZABJY3msB7rz2IyUxC0XqLZACepZkfudcK=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj47Pj4+Pj4+Pj4+Oz4+Ozs+Oz4+Pj4+Pj47Pj4+Pj47Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBAABBf/EAB0QAAICAgMBAAAAAAAAAAAAAAABAgMRMSEicQT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AMgbrojCqTsXdrMWnoV0k1wUDC2fRZNpylnCwvCAiFCY/9k="
 ---
 _Locke_ is not a great film, but it is a good one. If you're on the fence about seeing it, do so. Don't read any further, as we're going to talk about plot and this movie works best the less you know going in.
 

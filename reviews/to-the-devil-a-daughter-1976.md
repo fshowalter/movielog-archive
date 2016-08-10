@@ -6,7 +6,8 @@
 :date: 2015-03-02
 :imdb_id: tt0075334
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/--QNucO_HHo0/VU7bigIQJDI/AAAAAAAACio/Kf7dH_d-TLY/w1000-rj/to-the-devil-a-daughter-1976.jpg
+:backdrop: https://lh3.googleusercontent.com/cjvXqZhP9yYCOm3j9KzwkxCqeueiQHesXMiaM5IcWVmeIxBN9IMCvuem4hxGBIJecRm9O7ZiqSe1=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviZjKX4+Pj4+Pj4+Pj4+Pj4+Oz47Pj4+Pj4+Pj4+Pjs+Oz47Ozs+Pj4+Pj47Ozs+Ozs+Oz4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAABAECBf/EAB8QAAIBBAIDAAAAAAAAAAAAAAECAAMRITEEExJBgf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwBJLHkFiVe2c6k1vHtwAL5sPUco0aaoAEGdy3IoU+lnCAMoJBEIWU+/kIwFVgCRmEmnL//Z"
 ---
 _To the Devil a Daughter_ was the final film of Hammer Film Productions[^1]. The studio rose to prominence with films such as _Curse of Frankenstein (1957)_ and _Horror of Dracula (1958)_. Unlike those staged, period pieces, this film is set in contemporary times and shot on location. It represented a big departure for Hammer, but it was too little too late.
 

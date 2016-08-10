@@ -1,12 +1,13 @@
 ---
 :sequence: 41
-:title: The City of the Dead
+:title: The City of the Dead (1960)
 :db_title: The City of the Dead (1960)
 :slug: the-city-of-the-dead-1960
 :date: 2015-06-13
 :imdb_id: tt0053719
 :grade: B
-:backdrop: https://lh5.googleusercontent.com/-WfnrWG-xYvg/VXYpwJ7RY_I/AAAAAAAACz4/Rsx3TqyNK_Q/w1000-rj/the-city-of-the-dead-1960.jpg
+:backdrop: https://lh3.googleusercontent.com/rozrO7YOlxUdiUiigRLF6GhCZHoyJyJxtZfiBAwZ23qyGrtejMgm4Wtcms9rQ-mBeNwM9pLE2dgT=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H/8//6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAZAAABBQAAAAAAAAAAAAAAAAADAAECBAX/xAAfEAACAgAHAQAAAAAAAAAAAAAAAQIRAyExM0FRcRL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AzFD5V2sicoutGV7YXC25eMBqfTEEhFPDi2uBAf/Z"
 ---
 _The City of the Dead_ opens in a small, fog-shrouded village. The locals have gathered to burn Elizabeth Selwyn for the crime of witchcraft.[^1] As the flames consume her, Elizabeth pledges her soul to Lucifer in exchange for eternal life. The bloodthirsty villagers drown her out, chanting “Burn witch, burn!”
 

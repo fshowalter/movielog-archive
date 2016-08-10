@@ -1,13 +1,13 @@
 ---
 :sequence: 46
-:title: Shock Waves
+:title: Shock Waves (1977)
 :db_title: Shock Waves (1977)
 :slug: shock-waves-1977
 :date: 2015-08-29
 :imdb_id: tt0076704
 :grade: D+
-:backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-rj
-:capsule: "The characters are so inane, by the end, we’re rooting against them."
+:backdrop: https://lh3.googleusercontent.com/lzLOK11xD98IrAW7Kbn1eyuF8NFIwU6__3tRUlCA9F8=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgaISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pjs+Pj4+Pj4+Pj4+Ozs+Pj4+Oz4+Pj47Pjs7Pj47Pjs+Pjs7Ozs+Ozs+Pjs7Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAEAQD/xAAjEAABBAEBCQAAAAAAAAAAAAABAAIDEUESBRMVITJRYXGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBHEGRwapLL8DuguEkjjNLek4yrumO2gGuFj2rONEpY26HlCAc7mskEm+o/VlB//9k="
 ---
 The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me.
 

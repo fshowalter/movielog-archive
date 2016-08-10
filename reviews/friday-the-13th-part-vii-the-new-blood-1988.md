@@ -2,13 +2,12 @@
 :sequence: 19
 :title: 'Friday the 13th Part VII: The New Blood (1988)'
 :slug: friday-the-13th-part-vii-the-new-blood-1988
-:display_title: 'Friday the 13th Part VII: The New Blood (1988)'
+:db_title: 'Friday the 13th Part VII: The New Blood (1988)'
 :date: 2015-01-05
 :imdb_id: tt0095179
 :grade: F
-:backdrop: https://lh5.googleusercontent.com/-GQZD9U4k5xk/VWjtLmbOjXI/AAAAAAAACqI/iwZa0FMZil8/w1000-rj/friday-the-13th-part-vii-the-new-blood-1988.png1988.jpg
-:pull_quote: "In _Friday the 13th Part VII: The New Blood_, it’s the audience, not Jason’s quarry that suffers."
-:poster: https://lh3.googleusercontent.com/CnQ2fnl5AIpBSz92xiliSRuHMwliN4n4YbNp9xf3B6KoloKHH0eA4UVHHysT-R-mUIl6mFSSQxEE=w290-rj
+:backdrop: https://lh3.googleusercontent.com/asLRVhJegGObdZ0oK3RVyS4hp53zcgZnsV0cjnZ4niW_DCjbcY_279queK9juy2QqIlg0GX288SL=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Oz4+Oz4+Pjs7Pj47Pj4+Pj47Pj4+Ozs7Oz4+Ozs+Ozs+Pjs7Pjs7Ozs7Ozs+Ozs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwECBf/EACEQAAICAQIHAAAAAAAAAAAAAAECABGxIZEDBBNBUVJh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAwDAQACEQMRAD8AyEQu1DfxGngrVBwfol+TJDvXYHBirIGkQnor7GEAxArOsJRV/9k="
 ---
 There’s a lesson here.
 

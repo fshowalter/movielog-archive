@@ -2,13 +2,12 @@
 :sequence: 20
 :title: 'Friday the 13th Part VIII: Jason Takes Manhattan (1989)'
 :slug: friday-the-13th-part-viii-jason-takes-manhattan-1989
-:display_title: 'Friday the 13th Part VIII: Jason Takes Manhattan (1989)'
+:db_title: 'Friday the 13th Part VIII: Jason Takes Manhattan (1989)'
 :date: 2015-01-07
 :imdb_id: tt0097388
 :grade: D-
-:backdrop: https://lh3.googleusercontent.com/-Mn4iyhJY2rQ/VWjp38X2MrI/AAAAAAAACpk/1aNpULQU0HA/w1000-rj/friday-the-13th-part-viii-jason-takes-manhattan-1989.jpg
-:pull_quote: "_Friday the 13th Part VIII: Jason Takes Manhattan_ is more disappointing than awful."
-:poster: https://lh3.googleusercontent.com/iIDDgKLwPmOrfW9wIcSaOJpIXiw1Z9tBZfDlLkYVpjQ4dvzCG4jRHYtmuHCVRh1mLGJpV7XncKHs=w290-rj
+:backdrop: https://lh3.googleusercontent.com/_EvDtOqf4Wg1fgqGCXiOOE-eJb0NegkIaEnT1BrOOG0PsJFBNUNd-UJLyoMOfNzghIuf2ogSi63d=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwIEBf/EACIQAAEDAwMFAAAAAAAAAAAAAAEAAhEDEiEEMVEUIkFxwf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAMAwEAAhEDEQA/AM2uWHUYaLR42TqrqPTFrabAScEDuCrO3PtO0jQ6o0OEgn4ioMoXtm4DiUJrzmIEDAgDlCEf/9k="
 ---
 
 I was barely a teenager when _Friday the 13th Part VIII: Jason Takes Manhattan_ premiered. Too young to buy a ticket. Not that I wanted to. By that point, slasher films were passé.

@@ -2,13 +2,12 @@
 :sequence: 28
 :title: The Big Steal (1949)
 :slug: the-big-steal-1949
-:display_title: The Big Steal (1949)
+:db_title: The Big Steal (1949)
 :date: 2015-02-04
 :imdb_id: tt0041178
 :grade: B-
-:backdrop: https://lh5.googleusercontent.com/-xl7-kxPSOlc/VW-VIi23IfI/AAAAAAAACyk/uZKO5w4Dfv8/w1000-rj/the-big-steal-1949.png
-:pull_quote: "_The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog."
-:poster: https://lh3.googleusercontent.com/nBDI5NCjREeDNe9c-IVhCj7xolCj2urFIs01UidAHQ-F3SyQJJvL4zruoY5K0oKQTnDf9FE0Oou5=w290-rj
+:backdrop: https://lh3.googleusercontent.com/qgbW3x9IUo7Sww-2Q9yzsGz-IFjQxSRn4yVBTYEECEK4T4pvZDIQzusD68Y4jxsVWhGdWIB8LAmh=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrOrYqMyP+/2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAgQD/8QAHRAAAgIDAAMAAAAAAAAAAAAAAQIAEQMhMRIT8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCJUxMhAVdHnlGVUcl3b2YlNAFzf3JMRfYjgDkDbIFxkBhjut0p1CTQgf/Z"
 ---
 Like any good script, _The Big Steal_ starts as late into the story as possible. Aboard an ocean liner that's just docked in Veracruz, Mexico, William Bendix bursts into Robert Mitchum's cabin holding a gun. He's after something he believes Mitchum stole. Mitchum says he doesn't have it. “You’ve got the wrong man,” Mitchum says. Bendix isn’t buying it. He moves to arrest Mitchum. Mitchum overpowers Bendix, knocking him out. Mitchum takes Bendix's gun and identification. The identification reads: Captain Vincent Blake of the US Army.
 

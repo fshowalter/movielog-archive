@@ -1,13 +1,13 @@
 ---
 :sequence: 39
-:title: It Follows
+:title: It Follows (2014)
 :db_title: It Follows (2014)
 :slug: it-follows-2014
 :date: 2015-04-11
 :imdb_id: tt3235888
 :grade: D
-:backdrop: https://lh4.googleusercontent.com/-3qgyA_4TF0I/VU7XWMEOs8I/AAAAAAAAChY/ix_9qvqspJY/w1000-rj/it-follows-2014.jpg
-:capsule: "The perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography."
+:backdrop: https://lh3.googleusercontent.com/9S11fAh0QotgcS-aCIaYT3I6So5ZU6QQPoVVGxpXexfg4DRRhSWKKbhmY626wS2TeN1KkJxpb3Yt=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Oz4+Pj4+Oz47Pj47Ozs+Pj4+Pj47Pjs7Pjs7Pj4+Pjs+Oz47Oz4+Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAADAAUC/8QAHBABAAICAwEAAAAAAAAAAAAAAQACEXESITEi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDOcFcytQDPLonNV4u4i/BuBFlfBZRKvUpJ/9k="
 ---
 _It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills.
 

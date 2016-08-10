@@ -1,13 +1,13 @@
 ---
 :sequence: 45
-:title: Maniac Cop
+:title: Maniac Cop (1988)
 :db_title: Maniac Cop (1988)
 :slug: maniac-cop-1988
 :date: 2015-08-13
 :imdb_id: tt0095583
 :grade: C+
-:backdrop: https://lh3.googleusercontent.com/r6mAYBecAG9bbhDxOWnkC1NPii0VYhG97oHLPTLJogU=w1000-rj
-:capsule: A lot of fun, despite its meager budget.
+:backdrop: https://lh3.googleusercontent.com/r6mAYBecAG9bbhDxOWnkC1NPii0VYhG97oHLPTLJogU=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDSgjISMtHygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX47Pj4+Pj4+Oz47Pj4+Ozs7Pj47Oz47Pjs7Pjs7Ozs7Oz47Oz47Pjs+Pjs7Ozs+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAEAwD/xAAdEAACAgIDAQAAAAAAAAAAAAABAgADETISI0EE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8Am20gAqOSzEEHlmXbeD+w9qjzECfWVeoMpyDNBJY9dQVDgTSgr//Z"
 ---
 
 _Maniac Cop_ is set in New York City. Not the bustling metropolis of today, but the seedy, dangerous cesspool Hollywood liked to conjure during the 70s and 80s. A vicious jungle where street punks, pimps, and pushers lurked around every darkened corner. The film embraces this atmosphere. Everything feels worn, lived-in, and used.

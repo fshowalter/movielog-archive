@@ -1,13 +1,13 @@
 ---
 :sequence: 42
-:title: The Searchers
+:title: The Searchers (1956)
 :db_title: The Searchers (1956)
 :slug: the-searchers-1956
 :date: 2015-06-20
 :imdb_id: tt0049730
 :grade: A-
-:backdrop: https://lh5.googleusercontent.com/-52gRzn2iTqc/VYILgMtHSCI/AAAAAAAAC1Q/OnhGiZRJVII/w1000-rj/the-searchers-1956.jpg
-:capsule: A very good film about a very flawed man.
+:backdrop: https://lh3.googleusercontent.com/4xYSro3rbmAVocTfVcIeORIoBqNEHEL5SfVOyGsh-pjNKxoFYbv1xNiifC2u8D_6oIU81Ul3lYpi=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8akFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj47Oz47Pjs7Pj4+Oz4+Pj47Oz4+Pjs7Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAABBAACA//EACIQAAEDAQkBAAAAAAAAAAAAAAEAAhEDFCExM0FRYYHBEv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AYtToBDPneUq+rUfWaRUBbrI9RiXxJiAcUTl9o2nixeDgLuSosjcooz//2Q=="
 ---
 _The Searchers_ is a very good film about a very flawed man.
 
