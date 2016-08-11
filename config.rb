@@ -218,9 +218,8 @@ page 'feed.xml', mime_type: 'text/xml'
 activate :directory_indexes
 
 page '/googlee90f4c89e6c3d418.html', directory_index: false
-# page '404.html', directory_index: false
 
-# ignore 'templates/*'
+ignore 'templates/*'
 
 activate :autoprefixer do |config|
   config.inline = true
@@ -263,7 +262,7 @@ end
 
 ready do
   proxy('index.html', 'templates/home/home.html', ignore: true)
-  proxy('404.html', 'templates/404/404.html', ignore: true)
+  proxy('404.html', 'templates/404/404.html', directory_index: false, ignore: true)
   proxy('viewings/index.html', 'templates/viewings/viewings.html', ignore: true)
   proxy('reviews/index.html', 'templates/reviews/reviews.html', ignore: true)
   proxy('how-i-grade/index.html', 'templates/how_i_grade/how_i_grade.html', ignore: true)
