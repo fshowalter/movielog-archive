@@ -1,5 +1,5 @@
 :ruby
-  next_items = (next_items(pagination) || []).map { |key| post_for_key(key) }
+  next_items = (next_items(pagination) || []).map { |key| Movielog.reviews[key] }
 
 - if pagination.next_page
   .home_pagination-more_heading

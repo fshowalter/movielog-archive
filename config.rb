@@ -11,6 +11,10 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def load_relative(file, source)
+    load File.join(File.expand_path(File.dirname(source)), "#{file}.rb")
+  end
+
   def next_items(pagination, count = 4)
     array = pagination.pageable_context.set
     first = pagination.per_page * pagination.page_num
@@ -36,10 +40,6 @@ helpers do
     end
 
     link_to(text, link, options)
-  end
-
-  def post_for_key(key)
-    Movielog.posts[key]
   end
 
   def person_slug(person)

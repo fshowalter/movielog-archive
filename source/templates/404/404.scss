@@ -1,0 +1,11 @@
+@import 'source/layouts/layout_single';
+@import 'source/components/page/page';
+
+.not_found-search_input {
+  width: 100%;
+  line-height: 38px;
+  font-size: 20px;
+  padding: 2px 20px;
+  border-radius: 5px;
+  border: 1px solid #e9e7e0;
+}

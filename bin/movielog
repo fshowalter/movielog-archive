@@ -25,9 +25,9 @@ module Movielog
         Console::CreateReview.call
       end
 
-      desc 'feature', 'create a new feature entry'
-      def feature
-        Console::CreateFeature.call
+      desc 'page', 'create a new page entry'
+      def page
+        Console::CreatePage.call
       end
 
       desc 'review_tweet', 'tweet a review'

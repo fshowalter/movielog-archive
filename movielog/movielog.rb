@@ -17,7 +17,7 @@ module Movielog
 
     def reviews_by_title
       reviews.values.each_with_object({}) do |review, hash|
-        hash[(review.db_title || review.title)] = review
+        hash[review.db_title] = review
       end
     end
 
@@ -49,8 +49,8 @@ module Movielog
       File.expand_path('../../reviews/', __FILE__)
     end
 
-    def features_path
-      File.expand_path('../../features/', __FILE__)
+    def pages_path
+      File.expand_path('../../pages/', __FILE__)
     end
 
     def avatars_path
@@ -69,8 +69,8 @@ module Movielog
       ParseReviews.call(reviews_path: reviews_path) || {}
     end
 
-    def features
-      ParseFeatures.call(features_path: features_path) || {}
+    def pages
+      ParsePages.call(pages_path: pages_path) || {}
     end
 
     def cast_and_crew
@@ -86,7 +86,7 @@ module Movielog
     end
 
     def viewings_for_title(title:)
-      viewings.values.select { |viewing| viewing.title == title }
+      viewings.values.select { |viewing| viewing.db_title == title }
     end
   end
 end

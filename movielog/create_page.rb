@@ -2,12 +2,12 @@ require 'active_support/core_ext/hash/slice'
 
 module Movielog
   #
-  # Responsible for creating new features.
+  # Responsible for creating new pages.
   #
-  class CreateFeature
+  class CreatePage
     class << self
-      def call(features_path:, title:, sequence:, slug:)
-        file_name = new_feature_file_name(features_path, slug)
+      def call(pages_path:, title:, sequence:, slug:)
+        file_name = new_page_file_name(pages_path, slug)
 
         front_matter = {
           title: title,
@@ -24,8 +24,8 @@ module Movielog
 
       private
 
-      def new_feature_file_name(features_path, slug)
-        File.join(features_path, slug + '.md')
+      def new_page_file_name(pages_path, slug)
+        File.join(pages_path, slug + '.md')
       end
     end
   end

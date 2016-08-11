@@ -3,8 +3,8 @@
 :sequence: 13
 :slug: how-i-grade
 :date: 2014-12-07
-:backdrop: https://lh6.googleusercontent.com/-2nDTenMcBWI/VWpHS4CLBjI/AAAAAAAACv8/57TwXsv-T14/w1000-rj/how-i-grade.jpg
-:pull_quote: Grading systems are harder than one would think. It's all about nuance. I think a 5-star system works, but I’m not married to the idea.
+:backdrop: https://lh3.googleusercontent.com/pNKh2GOyobs4BZMqBJlYSj5PEQCAkg6hkwAjfEU4RAHFdB1902cxfnn8gcU-raMGsYzWMUj2T6Qw=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAABBAADBf/EAB8QAAICAgEFAAAAAAAAAAAAAAECABEDEiFBUVJhcv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDMVDVhaI9y07lWF0PoRXZu5hHJ5gMYhiRayBGa/KSDUDoJIH//2Q=="
 ---
 * ### a great movie ###
 ![5 stars](5-stars.svg) I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.

@@ -1,8 +1,0 @@
-%article.feature
-  = partial('components/post_backdrop/post_backdrop', locals: { post: feature })
-
-  %h1.feature-title
-    = feature.title
-
-  = partial('components/post_content/post_content') do
-    = markdown(feature.content)

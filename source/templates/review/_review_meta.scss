@@ -25,15 +25,25 @@
 
 .review_meta-aka_title {
   font-style: italic;
+  white-space: nowrap;
+  display: block;
 
-  &:after {
-    color: $color_accent;
-    content: ' | ';
-    white-space: normal;
+  &:nth-of-type(2) {
+    display: inline;
   }
 
-  &:last-of-type:after {
-    content: '';
+  @media only screen and (min-width: 40.625em) {
+    display: inline;
+
+    &:after {
+      color: $color_accent;
+      content: '|';
+      white-space: normal;
+    }
+
+    &:last-of-type:after {
+      content: '';
+    }
   }
 }
 

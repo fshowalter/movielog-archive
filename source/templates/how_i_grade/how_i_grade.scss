@@ -1,5 +1,5 @@
 @import 'source/layouts/layout_single';
-@import 'source/components/feature/feature';
+@import 'source/components/page/page';
 
 %horizontal-rule {
   background-color: #e9e7e0;
@@ -48,7 +48,7 @@
     }
   }
 
-  img {
+  .post_content img {
     display: inline-block;
     height: 17px;
     position: relative;

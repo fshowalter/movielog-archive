@@ -3,8 +3,8 @@
 :title: Welcome Back
 :slug: welcome-back
 :date: 2014-07-01
-:backdrop: https://lh3.googleusercontent.com/-YmKuAshhNOA/VWkpL5MkOqI/AAAAAAAACvU/L7JP7IhnlTg/w1000-rj/welcome-back.jpg
-:headline: Welcome Back
+:backdrop: https://lh3.googleusercontent.com/r3mimS9sgoo40iDf9onOQ-jSneqQREYYBcig4u4Wlp-8Hl9XDbmKdGyQT9jXvaduU7RoQUxiXdI6=w1000-l75-rj
+:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviZjKX4+Pj4+Pj4+Pj47Oz47Pj47Oz47Pj47Ozs7Pjs+Pj4+Ozs7Ozs7Pj4+Ozs7Pjs+Pj47P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAACBAADBf/EAB8QAAICAgEFAAAAAAAAAAAAAAECABESMQMEE0Fhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Az1J0Nxjm43VM3VDiaOI+xfphlyC/CmEhLNRNgqYoHcJO1X1Ukrkgn//Z"
 ---
 
 Hey there, Frank here.

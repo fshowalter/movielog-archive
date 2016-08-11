@@ -2,10 +2,9 @@
 layout: :layout_single
 ---
 :ruby
-  feature = Movielog.features['welcome-back']
-  content_for(:title, feature.title)
+  page = Movielog.pages['welcome-back']
+  content_for(:title, page.title)
   content_for(:inline_css, 'source/templates/about/about.scss')
   content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
 
-.how_i_grade
-  = partial('components/feature/feature', locals: { feature: feature })
+= partial('components/page/page', locals: { page: page })
