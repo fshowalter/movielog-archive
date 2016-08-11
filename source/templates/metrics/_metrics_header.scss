@@ -1,3 +1,5 @@
+@import 'source/stylesheets/variables';
+
 .metrics_header {
   padding: 35px 20px 20px;
   text-align: center;
@@ -10,13 +12,13 @@
 }
 
 .metrics_header-heading {
-  margin-bottom: 0;
   line-height: 60px;
+  margin-bottom: 0;
 }
 
 .metrics_header-slug {
-  color: #aaa;
-  margin-bottom: 0;
-  line-height: 20px;
+  color: $color_text_secondary;
   font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 0;
 }

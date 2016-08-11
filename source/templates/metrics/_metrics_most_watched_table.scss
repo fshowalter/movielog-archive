@@ -1,13 +1,15 @@
+@import 'source/stylesheets/variables';
+
 .metrics_most_watched_table {
+  border: 1px solid $color_primary;
   border-radius: 5px;
-  border: 1px solid #e9e7e0;
   width: 100%;
 
   td {
-    border-top: 1px solid #e9e7e0;
-    padding: 0 20px;
-    border-right: 1px solid #e9e7e0;
+    border-right: 1px solid $color_primary;
+    border-top: 1px solid $color_primary;
     line-height: 29px;
+    padding: 0 20px;
 
     &:last-child {
       border-right: 0;
@@ -16,11 +18,12 @@
 }
 
 .metrics_most_watched_table-header {
-  text-align: left;
   padding: 0 20px;
+  text-align: left;
 }
 
 .metrics_most_watched_table-viewings_column {
+  font-feature-settings: 'tnum';
   padding: 0 20px;
   text-align: right;
   width: 15%;

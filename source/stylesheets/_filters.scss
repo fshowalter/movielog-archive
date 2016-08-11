@@ -1,20 +1,22 @@
-$filter-background-color: #fff;
-$filter-border-color: #e9e7e0;
-$filter-slider-active-handle-background-color: #eaeaea;
-$filter-slider-background-color: rgba(0,0,0,.02);
-$filter-text-box-color: #aaa;
+@import 'source/stylesheets/variables';
 
-%text-box {
+$filter_background_color: #fff;
+$filter_border_color: $color_primary;
+$filter_slider_active_handle_background_color: #eaeaea;
+$filter_slider_background_color: rgba(0, 0, 0, .02);
+$filter_text_box_color: $color_text_secondary;
+
+%text_box {
   -moz-appearance: none;
   -webkit-appearance: none;
   backface-visibility: hidden;
-  background-color: $filter-background-color;
+  background-color: $filter_background_color;
   border: 0;
   border-radius: 0;
   box-sizing: border-box;
-  color: $filter-text-box-color;
+  color: $filter_text_box_color;
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $font_family_system;
   font-size: 16px;
   padding: 0;
   vertical-align: middle;
@@ -23,12 +25,12 @@ $filter-text-box-color: #aaa;
 
 %numeric {
   -moz-appearance: textfield;
-  background-color: $filter-background-color;
+  background-color: $filter_background_color;
   border: 0;
   box-sizing: content-box;
-  color: $filter-text-box-color;
+  color: $filter_text_box_color;
+  font-family: $font_family_system;
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.2rem;
   padding: 0;
   width: 25%;
@@ -49,18 +51,18 @@ $filter-text-box-color: #aaa;
 }
 
 .filter-text_box {
-  @extend %text-box;
+  @extend %text_box;
 }
 
 .filter-text_box::placeholder {
+  color: $color_text_hint;
+  font-family: $font_family_system;
   font-size: 14px;
   font-weight: normal;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #aaa;
 }
 
 .filter-text_box_wrap {
-  border-bottom: solid 1px $filter-border-color;
+  border-bottom: solid 1px $filter_border_color;
   margin-bottom: 8px;
   padding-bottom: 7px;
 }
@@ -70,9 +72,8 @@ $filter-text-box-color: #aaa;
   width: 3rem;
 
   @media (min-width: 50em) {
-    line-height: 1.4rem;
     height: 1.4rem;
-    // width: 2rem;
+    line-height: 1.4rem;
   }
 }
 
@@ -81,7 +82,7 @@ $filter-text-box-color: #aaa;
 }
 
 .filter-label {
-  color: #a9a287;
+  color: $color_accent;
   display: block;
   font-size: 15px;
   font-weight: normal;
@@ -89,9 +90,9 @@ $filter-text-box-color: #aaa;
 }
 
 .filter-select {
-  @extend %text-box;
-  background-color: $filter-background-color;
-  color: $filter-text-box-color;
+  @extend %text_box;
+  background-color: $filter_background_color;
+  color: $filter_text_box_color;
   font-size: 15px;
   text-indent: .01px;
   text-overflow: '';
@@ -104,7 +105,7 @@ $filter-text-box-color: #aaa;
 }
 
 .noUi-target * {
-  background-color: $filter-slider-background-color;
+  background-color: $filter_slider_background_color;
   box-sizing: border-box;
   cursor: default;
   touch-action: none;
@@ -118,25 +119,21 @@ $filter-text-box-color: #aaa;
 }
 
 .noUi-base {
-  background: $filter-slider-background-color;
-  border-bottom: solid .5rem $filter-background-color;
-  border-top: solid .5rem $filter-background-color;
+  background: $filter_slider_background_color;
+  border-bottom: solid .5rem $filter_background_color;
+  border-top: solid .5rem $filter_background_color;
   height: 2rem;
   margin: auto .8rem;
   position: relative;
 
   @media only screen and (min-width: 37.5em) {
-    border-color: #fff;
-  }
-
-  @media only screen and (min-width: 64em) {
-    border-color: $filter-background-color;
+    border-color: $filter_background_color;
   }
 }
 
 .noUi-handle {
-  background-color: $filter-background-color;
-  border: 1px solid #a9a287;
+  background-color: $filter_background_color;
+  border: 1px solid $color_accent;
   border-radius: 50%;
   height: 2rem;
   left: -1rem;
@@ -147,8 +144,8 @@ $filter-text-box-color: #aaa;
 }
 
 .noUi-active {
-  background-color: $filter-slider-active-handle-background-color;
-  box-shadow: inset 0 0 5px $filter-border-color;
+  background-color: $filter_slider_active_handle_background_color;
+  box-shadow: inset 0 0 5px $filter_border_color;
 }
 
 .noUiSlider {
@@ -161,10 +158,6 @@ $filter-text-box-color: #aaa;
   position: absolute;
   right: 0;
   top: 0;
-
-  + .noUi-origin {
-    background: inherit !important;
-  }
 }
 
 .noUi-stacking .noUi-handle {
