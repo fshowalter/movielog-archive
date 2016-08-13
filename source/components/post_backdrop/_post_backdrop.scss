@@ -1,3 +1,5 @@
+@import 'source/stylesheets/variables';
+
 .post_backdrop-wrap {
   margin: 0;
   position: relative;
@@ -5,27 +7,26 @@
 
 
 .post_backdrop-placeholder {
-  opacity: 1;
-  transition: .8s opacity linear;
-  position: absolute;
-  transition: .8s opacity;
-  left: 0;
-  top: 0;
   height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition: .8s opacity linear;
   width: 100%;
 }
 
 .post_backdrop {
-  margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  margin: 0;
 
   &:before {
-    padding-top: 56.249999993%;
-    height: 0;
     content: '';
     display: block;
+    height: 0;
+    padding-top: 56.249999993%;
   }
 
   &.loaded {

@@ -1,45 +1,40 @@
+@import 'source/stylesheets/variables';
 @import 'source/stylesheets/mixin_body_text';
 
 .post_content {
-  padding: 0 20px;
-  max-width: 740px;
   margin: 0 auto;
-
-  time {
-    font-variant: normal !important;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
+  max-width: 740px;
+  padding: 0 20px;
 
   p {
-    @include body-text;
-  }
-}
-
-.post_content .footnotes {
-  position: relative;
-  padding-top: 20px;
-
-  &:before {
-    background-color: #e9e7e0;
-    content: '';
-    display: block;
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    @include body_text;
   }
 
-  hr {
-    display: none;
-  }
+  .footnotes {
+    padding-top: 20px;
+    position: relative;
 
-  ol {
-    padding: 0 20px;
-  }
+    &:before {
+      background-color: $color_primary;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
 
-  p {
-    font-size: 18px;
+    hr {
+      display: none;
+    }
+
+    ol {
+      padding: 0 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
   }
 }

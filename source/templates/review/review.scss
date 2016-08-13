@@ -10,11 +10,14 @@ $review_post_content_first_line_color: #000;
 .review {
   padding-bottom: 30px;
 
-  .post_content > p:first-child:first-line {
-    color: $review_post_content_first_line_color;
-    font-size: 23px;
-    font-variant: small-caps;
-    text-transform: lowercase;
+  .post_content {
+    time {
+      text-transform: uppercase;
+    }
+
+    > p:first-child:first-line {
+      font-weight: bold;
+    }
   }
 }
 

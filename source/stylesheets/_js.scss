@@ -1,11 +1,6 @@
 .js .js-toggle {
   backface-visibility: hidden;
-  // display: block;
-  // overflow: hidden;
   transform: translate3d(0, 0, 0);
-  // transition-duration: .3s;
-  // transition-property: width, visibility;
-  // transition-timing-function: ease-in-out;
 }
 
 .js .js-toggle_off:not(.js-toggling) {

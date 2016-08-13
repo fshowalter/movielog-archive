@@ -15,10 +15,10 @@ module Movielog
           viewing = Movielog::CreateViewing.call(**viewing_data)
 
           puts "\n Created Viewing ##{Bold.call(text: viewing.number.to_s)}!\n" \
-          " #{Bold.call(text: '        Title:')} #{viewing.title}\n" \
-          " #{Bold.call(text: 'Display Title:')} #{viewing.display_title}\n" \
-          " #{Bold.call(text: '         Date:')} #{viewing.date}\n" \
-          " #{Bold.call(text: '        Venue:')} #{viewing.venue}\n\n"
+          " #{Bold.call(text: '   Title:')} #{viewing.title}\n" \
+          " #{Bold.call(text: 'DB Title:')} #{viewing.db_title}\n" \
+          " #{Bold.call(text: '    Date:')} #{viewing.date}\n" \
+          " #{Bold.call(text: '   Venue:')} #{viewing.venue}\n\n"
 
           viewing
         end

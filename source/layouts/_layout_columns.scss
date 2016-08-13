@@ -1,15 +1,16 @@
+@import 'source/stylesheets/variables';
 @import 'layout_base';
 
 .layout_columns {
+  background: $color_content;
+  margin: 0 auto;
   position: relative;
   width: 100%;
-  margin: 0 auto;
-  background: #fff;
 
   &:after {
+    clear: both;
     content: '';
     display: table;
-    clear: both;
   }
 
   @media only screen and (min-width: 50em) {
@@ -22,14 +23,14 @@
   width: 100%;
 
   @media only screen and (min-width: 50em) {
-    width: 38.196601126%;
     float: left;
+    width: 38.196601126%;
   }
 }
 
 .layout_columns-column_2 {
   @media only screen and (min-width: 50em) {
-    width: 61.803398875%;
     float: right;
+    width: 61.803398875%;
   }
 }

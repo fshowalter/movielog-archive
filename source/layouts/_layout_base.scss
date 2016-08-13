@@ -5,17 +5,20 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 a {
   color: $color_link;
-  text-decoration: none;
   line-height: inherit;
+  text-decoration: none;
 }
 
-body, html {
+body,
+html {
   font-size: 16px;
 }
 
@@ -23,19 +26,19 @@ body {
   background: $color_primary;
   color: $color_text_primary;
   font-family: "Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-font-smoothing: antialiased;
 }
 
 p {
   margin: 0;
-  word-break: break-word;
   text-rendering: optimizeLegibility;
+  word-break: break-word;
 }
 
 h1,
