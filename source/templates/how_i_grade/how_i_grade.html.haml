@@ -5,7 +5,7 @@ layout: :layout_single
   page = Movielog.pages['how-i-grade']
   content_for(:title, page.title)
   content_for(:inline_css, 'source/templates/how_i_grade/how_i_grade.scss')
-  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
 
 .how_i_grade
   = partial('components/page/page', locals: { page: page })

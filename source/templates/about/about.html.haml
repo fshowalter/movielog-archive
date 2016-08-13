@@ -5,6 +5,6 @@ layout: :layout_single
   page = Movielog.pages['welcome-back']
   content_for(:title, page.title)
   content_for(:inline_css, 'source/templates/about/about.scss')
-  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
 
 = partial('components/page/page', locals: { page: page })

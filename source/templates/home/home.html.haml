@@ -6,9 +6,9 @@ pagination:
   path: page-:num/index
 ---
 :ruby
-  reviews = pagination.map{ |k| Movielog.reviews[k] }
+  reviews = pagination.map { |k| Movielog.reviews[k] }
   content_for(:inline_css, 'source/templates/home/home.scss')
-  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
 
 .home
   = partial('templates/home/home_review_list', locals: { reviews: reviews })

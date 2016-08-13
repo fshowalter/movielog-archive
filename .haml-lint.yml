@@ -1,7 +1,7 @@
 skip_frontmatter: true
 linters:
   LineLength:
-    max: 99
+    max: 120
   UnnecessaryStringOutput:
     enabled: false
   UnnecessaryInterpolation:

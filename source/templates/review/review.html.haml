@@ -3,10 +3,18 @@ layout: :layout_single
 ---
 :ruby
   review = Movielog.reviews[review.sequence]
-  description = Nokogiri::HTML(Tilt['markdown'].new(footnotes: false) { review.content.split("\n\n", 2)[0] }.render).text
+  description = Nokogiri::HTML(first_paragraph(review.content)).text
   content_for(:inline_css, 'source/templates/review/review.scss')
   content_for(:title, "#{review.title} Movie Review")
-  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
+
+  review_content = lambda do |r|
+    date = r.date.strftime('<time>%b %-d, %Y</time>&mdash;')
+    content = r.content
+    grade = "<p><strong>Grade: #{r.grade}</strong>"
+
+    markdown(date + content + grade)
+  end
 
 - content_for(:head) do
   %meta{ name: 'description', content: description }
@@ -29,7 +37,7 @@ layout: :layout_single
   = grade_to_image_tag(grade: review.grade, options: { class: 'review-grade' })
 
   = partial('components/post_content/post_content') do
-    = markdown(review.date.strftime('<time>%b %-d, %Y</time>&mdash;') + review.content + "<p><strong>Grade: #{review.grade}</strong>")
+    = review_content.call(review)
 
     = partial('templates/review/review_meta', locals: { review: review })
 

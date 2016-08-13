@@ -1,10 +1,16 @@
 :ruby
   more_for_cast = Movielog::Db::QueryRelatedTitlesByCast.call(db: Movielog.db, title: review.db_title)
+  titles_minus_current_review = lambda do |titles, current_review|
+    current_db_title = current_review.db_title
+    window  = array_window(titles, 5, current_db_title)
+    window.select { |title| title != current_db_title }
+      .map { |title| Movielog.reviews_by_title[title] }
+  end
 
 - unless more_for_cast.empty?
   - more_for_cast.each do |performer, titles|
     - next unless titles.length > 4
-    - reviews = array_window(titles, 5, review.db_title).select{ |title| title != review.db_title }.map{ |title| Movielog.reviews_by_title[title] }
+    - reviews = titles_minus_current_review.call(titles, review)
     .review_more
       .review_more-heading
         More with <span>#{performer.first_name} #{performer.last_name}</span>

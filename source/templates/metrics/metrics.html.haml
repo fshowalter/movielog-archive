@@ -4,13 +4,13 @@ layout: :layout_columns
 ---
 :ruby
   reviews = Movielog.reviews_by_title
-  cast_and_crew = Movielog.cast_and_crew
-
   content_for(:title, 'Metrics')
   content_for(:inline_css, 'source/templates/metrics/metrics.scss')
 
   most_watched_titles = Movielog::Db::QueryMostWatchedTitles.call(db: Movielog.db, limit: 10).map do |result|
-    title = reviews.key?(result.title) ? link_to(result.display_title, "/reviews/#{reviews[result.title].slug}/") : result.display_title
+    title = result.display_title
+    title = link_to(result.display_title, "/reviews/#{reviews[result.title].slug}/") if reviews.key?(result.title)
+
     link = link_to(result.count, "/viewings/?title=#{URI.escape(result.display_title)}")
 
     [title, link]
@@ -35,14 +35,18 @@ layout: :layout_columns
 
 - content_for :layout_column_2 do
   .metrics
-    %h3#most-watched-titles.metrics-heading Most Watched Titles
-    = partial('templates/metrics/metrics_most_watched_table', locals: { column_1_label: 'Title', rows: most_watched_titles })
+    %h3.metrics-heading#most-watched-titles Most Watched Titles
+    = partial('templates/metrics/metrics_most_watched_table',
+      locals: { column_1_label: 'Title', rows: most_watched_titles })
 
-    %h3#most-watched-directors.metrics-heading Most Watched Directors
-    = partial('templates/metrics/metrics_most_watched_table', locals: { column_1_label: 'Director', rows: most_watched_directors })
+    %h3.metrics-heading#most-watched-directors Most Watched Directors
+    = partial('templates/metrics/metrics_most_watched_table',
+      locals: { column_1_label: 'Director', rows: most_watched_directors })
 
-    %h3#most-watched-performers.metrics-heading Most Watched Performers
-    = partial('templates/metrics/metrics_most_watched_table', locals: { column_1_label: 'Performer', rows: most_watched_performers })
+    %h3.metrics-heading#most-watched-performers Most Watched Performers
+    = partial('templates/metrics/metrics_most_watched_table',
+      locals: { column_1_label: 'Performer', rows: most_watched_performers })
 
-    %h3#most-watched-writers.metrics-heading Most Watched Writers
-    = partial('templates/metrics/metrics_most_watched_table', locals: { column_1_label: 'Writer', rows: most_watched_writers })
+    %h3.metrics-heading#most-watched-writers Most Watched Writers
+    = partial('templates/metrics/metrics_most_watched_table',
+      locals: { column_1_label: 'Writer', rows: most_watched_writers })

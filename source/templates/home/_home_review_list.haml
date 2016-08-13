@@ -1,5 +1,18 @@
+:ruby
+  excerpt_for_review = lambda do |review|
+    grade = grade_to_image_tag(
+      grade: review.grade,
+      options: {
+        class: 'home_review_list-grade',
+        width: '95px',
+        height: '19px'
+      })
+
+    first_paragraph(grade + ' ' + review.content)
+  end
+
 %ol.home_review_list
-  - reviews.each_with_index do |review, index|
+  - reviews.each do |review|
     %li.home_review_list-item
       %article.home_review_list-review
         .home_review_list-date_wrap
@@ -7,11 +20,11 @@
             = review.date.strftime('%d %b %Y')
         %header.home_review_list-header
           %h3.home_review_list-title
-            %a.home_review_list-header_link{ href: "/reviews/#{review.slug}/" }
+            %a.home_review_list-header_link{ href: href_for_review(review) }
               = review.title_without_year
-        %a.home_review_list-backdrop_wrap{ href: "/reviews/#{review.slug}/" }
+        %a.home_review_list-backdrop_wrap{ href: href_for_review(review) }
           .home_review_list-backdrop{ data: { backdrop: review.backdrop } }
             %img.home_review_list-backdrop_placeholder{ src: review.backdrop_placeholder }
         .home_review_list-excerpt
-          = first_paragraph(grade_to_image_tag(grade: review.grade, options: { class: 'home_review_list-grade', width: '95px', height: '19px' }) + ' ' + review.content)
+          = excerpt_for_review.call(review)
 

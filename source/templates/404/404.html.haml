@@ -6,6 +6,6 @@ sitemap_ignore: true
   page = Movielog.pages['not-found']
   content_for(:title, 'Not Found')
   content_for(:inline_css, 'source/templates/404/404.scss')
-  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
 
 = partial('components/page/page', locals: { page: page })

@@ -5,7 +5,7 @@
 
 .review_tags
   %ul.review_tags-list
-    - [ directors, cast, writers ].each do |group|
+    - [directors, cast, writers].each do |group|
       - group.each do |person|
         - next unless Movielog.cast_and_crew.key?(person.full_name)
         %li.review_tags-list_item= cast_and_crew_link(person, class: 'review_tags-link')

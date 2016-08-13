@@ -3,16 +3,13 @@ title: Reviewed Cast and Crew
 layout: :layout_columns
 ---
 :ruby
-  reviews = Movielog.reviews_by_title
-  cast_and_crew = Movielog.cast_and_crew
-
   content_for(:title, 'Reviewed Cast and Crew')
   content_for(:inline_css, 'source/templates/cast_and_crew/cast_and_crew.scss')
-  content_for(:javascript, javascript_include_tag('filters.js', async: :async ))
+  content_for(:javascript, javascript_include_tag('filters.js', async: :async))
 
-  directors = Movielog.cast_and_crew.values.select { |p| p.direction_credits }
-  performers = Movielog.cast_and_crew.values.select { |p| p.performance_credits }
-  writers = Movielog.cast_and_crew.values.select { |p| p.writing_credits }
+  directors = Movielog.cast_and_crew.values.select(&:direction_credits)
+  performers = Movielog.cast_and_crew.values.select(&:performance_credits)
+  writers = Movielog.cast_and_crew.values.select(&:writing_credits)
 
 
 - content_for :layout_column_1 do
@@ -21,12 +18,15 @@ layout: :layout_columns
 
 - content_for :layout_column_2 do
   .cast_and_crew
-    %h3#directors.cast_and_crew-heading Directors
-    = partial('templates/cast_and_crew/cast_and_crew_list', locals: { people: directors, credits_method: :direction_credits })
+    %h3.cast_and_crew-heading#directors Directors
+    = partial('templates/cast_and_crew/cast_and_crew_list',
+      locals: { people: directors, credits_method: :direction_credits })
 
-    %h3#performers.cast_and_crew-heading Performers
-    = partial('templates/cast_and_crew/cast_and_crew_list', locals: { people: performers, credits_method: :performance_credits })
+    %h3.cast_and_crew-heading#performers Performers
+    = partial('templates/cast_and_crew/cast_and_crew_list',
+      locals: { people: performers, credits_method: :performance_credits })
 
-    %h3#writers.cast_and_crew-heading Writers
-    = partial('templates/cast_and_crew/cast_and_crew_list', locals: { people: writers, credits_method: :writing_credits })
+    %h3.cast_and_crew-heading#writers Writers
+    = partial('templates/cast_and_crew/cast_and_crew_list',
+      locals: { people: writers, credits_method: :writing_credits })
 
