@@ -1,3 +1,5 @@
+require 'padrino-helpers'
+
 module Movielog
   #
   # Responsible for providing helper methods to test template helpers.
@@ -20,10 +22,10 @@ module Movielog
     include ::Padrino::Helpers::RenderHelpers
     include ::Padrino::Helpers::NumberHelpers
 
-    require 'middleman-more/core_extensions/default_helpers'
-    Middleman::CoreExtensions::DefaultHelpers.defined_helpers.each do |helper|
-      include helper
-    end
+    # require 'middleman-more/core_extensions/default_helpers'
+    # Middleman::CoreExtensions::DefaultHelpers.defined_helpers.each do |helper|
+    #   include helper
+    # end
 
     Dir[File.expand_path('../../../movielog/helpers/*.rb', __FILE__)].each do |file|
       require file
