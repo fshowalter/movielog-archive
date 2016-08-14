@@ -20,16 +20,16 @@ describe Movielog::Db::QueryMostReviewedPersons do
     }
 
     reviews = {
-      '1' => OpenStruct.new({
+      '1' => OpenStruct.new(
         title: 'Rio Bravo (1959)',
         db_title: 'Rio Bravo (1959)',
         date: Date.parse('2011-03-12')
-      }),
-      '2' => OpenStruct.new({
+      ),
+      '2' => OpenStruct.new(
         title: "Ocean's 11 (1960)",
         db_title: "Ocean's 11 (1960)",
         date: Date.parse('2011-06-11')
-      })
+      )
     }
 
     cast_and_crew = {
