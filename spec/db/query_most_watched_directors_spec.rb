@@ -30,7 +30,7 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         year: '1996',
         sortable_title: 'Thinner (1996)',
         aka_titles: []
-      },
+      }
     }
 
     viewings = {
@@ -40,7 +40,7 @@ describe Movielog::Db::QueryMostWatchedDirectors do
       4 => OpenStruct.new(title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
       5 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
       6 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
-      7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
+      7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12'))
     }
 
     cast_and_crew = {
@@ -63,11 +63,11 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         director_credits: [
           {
             title: 'Fright Night (1985)',
-            notes: nil,
+            notes: nil
           },
           {
             title: "Child's Play (1988)",
-            notes: nil,
+            notes: nil
           }
         ]
       }
