@@ -42,7 +42,7 @@ describe Movielog::Db::QueryMostWatchedTitles do
       6 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
       7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
       8 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-03-12')),
-      9 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14')),
+      9 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14'))
     }
 
     cast_and_crew = {

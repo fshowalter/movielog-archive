@@ -20,7 +20,7 @@ describe Movielog::Helpers do
             release_date: '1980-06-01',
             release_date_year: 1980,
             review_date: '2011-03-12',
-            grade: '17',
+            grade: '17'
           }
         )
     end
