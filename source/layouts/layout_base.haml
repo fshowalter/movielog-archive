@@ -10,7 +10,6 @@
         #{yield_content(:title)} | #{Movielog.site_title}
       - else
         #{Movielog.site_title}
-    / = stylesheet_link_tag 'app', relative: false
     - if content_for?(:head)
       = yield_content(:head)
     - if content_for?(:inline_css)

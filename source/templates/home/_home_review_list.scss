@@ -47,12 +47,10 @@
 }
 
 .home_review_list-review {
-  @media only screen and (min-width: 40.625em) {
-    &:after {
-      clear: both;
-      content: '';
-      display: table;
-    }
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
   }
 }
 
@@ -92,11 +90,6 @@
   display: block;
   margin: 0 0 10px;
   position: relative;
-
-  @media only screen and (min-width: 37.5em) {
-    margin: 0 0 10px;
-    padding: 0;
-  }
 
   @media only screen and (min-width: 56.25em) {
     margin-bottom: 15px;

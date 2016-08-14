@@ -70,7 +70,7 @@ $color_search_button_border: #444;
 
 .layout_mast-title {
   display: inline-block;
-  font-size: 27px;
+  font-size: 26px;
   font-style: normal;
   line-height: 1.2;
   margin: 0;
@@ -84,12 +84,12 @@ $color_search_button_border: #444;
 .layout_mast-sub_title {
   color: $color_text_secondary;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
   margin-left: .5px;
 
   @media only screen and (min-width: 40.625em) {
-    font-size: 20px;
+    font-size: 18px;
 
     .nowrap {
       white-space: nowrap;
@@ -200,13 +200,13 @@ $color_search_button_border: #444;
   border-radius: 0;
   box-sizing: border-box;
   display: block;
-  font-size: 1rem;
+  font-size: 16px;
   height: 100%;
   padding: .2rem 1.12rem .2rem 50px;
   width: 100%;
 
   &::placeholder {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: auto;
   }
 

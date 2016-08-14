@@ -126,7 +126,7 @@ $filter_text_box_color: $color_text_secondary;
   margin: auto .8rem;
   position: relative;
 
-  @media only screen and (min-width: 37.5em) {
+  @media only screen and (min-width: 35em) {
     border-color: $filter_background_color;
   }
 }
