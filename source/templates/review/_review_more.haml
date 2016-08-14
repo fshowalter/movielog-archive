@@ -42,5 +42,5 @@
     - reviews = titles_minus_current_review.call(titles, review)
     .review_more
       .review_more-heading
-        More with <span>#{performer.first_name} #{performer.last_name}</span>
+        More with #{cast_and_crew_link(performer, class: 'review_more-person_link')}
       = partial('components/more_list/more_list', locals: { reviews: reviews })

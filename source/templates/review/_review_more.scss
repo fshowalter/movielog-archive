@@ -14,8 +14,9 @@
   padding-bottom: 4px;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
+}
 
-  span {
-    font-weight: bold;
-  }
+.review_more-person_link {
+  color: inherit;
+  font-weight: bold;
 }
