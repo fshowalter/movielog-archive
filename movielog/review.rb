@@ -6,7 +6,7 @@ module Movielog
   #
   class Review < OpenStruct
     def title_without_year
-      title.gsub(/\([^\)]+\)$/, '')
+      title.gsub(/\([^\)]+\)$/, '').strip
     end
 
     def year

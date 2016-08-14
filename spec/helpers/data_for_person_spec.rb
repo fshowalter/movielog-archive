@@ -16,7 +16,6 @@ describe Movielog::Helpers do
       )
 
       expect(context.data_for_person(person: person, credits_method: :performance_credits)).to eq(
-
           data: {
             name: 'Peter Cushing',
             sort_name: 'Cushing, Peter',
