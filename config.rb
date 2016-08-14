@@ -174,7 +174,8 @@ ready do
     ['reviews/how-i-grade', 'how-i-grade/'],
     ['reviews/welcome-back', 'about/'],
     ['features/how-i-grade', 'how-i-grade/'],
-    ['features/welcome-back', 'about/']
+    ['features/welcome-back', 'about/'],
+    ['feed', 'feed.xml']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
