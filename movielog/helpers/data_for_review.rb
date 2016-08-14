@@ -6,7 +6,7 @@ module Movielog
     def data_for_review(review:)
       {
         data: {
-          title: review.display_title,
+          title: review.title,
           sort_title: review.sortable_title,
           release_date: review.release_date.iso8601,
           release_date_year: review.release_date.year,
