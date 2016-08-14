@@ -6,12 +6,15 @@ describe Movielog::Helpers do
   describe '#text_filter' do
     it 'returns a javascript range filter' do
       filter = context.text_filter(
-          placeholder: 'Search Titles', attribute: 'data-title')
+          label: 'Title',
+          placeholder: 'Search Titles',
+          attribute: 'data-title')
       expect(filter).to eq(
         "<div class=\"filter-control\">" \
-        "<div class=\"search-wrap clearable-wrap\">" \
-        "<input type=\"text\" name=\"data-title\" " \
-        "placeholder=\"Search Titles\" class=\"filter-text-box\" " \
+        "<label for=\"title\" class=\"filter-label\">Title</label>" \
+        "<div class=\"filter-text_box_wrap\">" \
+        "<input type=\"text\" name=\"title\" " \
+        "placeholder=\"Search Titles\" class=\"filter-text_box\" " \
         "data-filter-attribute=\"data-title\" data-filter-type=\"text\" /></div></div>")
     end
   end

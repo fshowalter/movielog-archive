@@ -17,7 +17,7 @@ module Movielog
         # @param title [string] The title.
         # @return [void]
         def call(db:)
-          recent_reviewed_releases_query(db: db).execute().each_with_object([]) do |title, titles|
+          recent_reviewed_releases_query(db: db).execute.each_with_object([]) do |title, titles|
             titles << title[0]
           end
         end

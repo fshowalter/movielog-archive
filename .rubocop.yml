@@ -1,5 +1,5 @@
 Metrics/LineLength:
-  Max: 99
+  Max: 120
 
 Metrics/ParameterLists:
   CountKeywordArgs: false

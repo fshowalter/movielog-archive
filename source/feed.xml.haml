@@ -1,11 +1,18 @@
 ---
 layout: false
 ---
+:ruby
+  review_content = lambda do |r|
+    content = r.content
+    grade = "<p><strong>Grade: #{r.grade}</strong>"
+
+    markdown(content + grade)
+  end
+
 !!! XML
 %feed{ xmlns: 'http://www.w3.org/2005/Atom' }
-  - posts = Movielog.posts
-  - sorted_keys = posts.keys.sort.reverse
   %title= Movielog.site_title
+  %subtitle= "I'm not a great writer. Maybe not even a good one. But with practice I can be better."
   %link{ href: "#{Movielog.site_url}/feed.xml", rel: 'self' }/
   %link{ href: Movielog.site_url }/
   %updated= Time.now.xmlschema
@@ -13,24 +20,14 @@ layout: false
   %author
     %name Frank Showalter
 
-  - sorted_keys.each_with_index do |key, index|
+  - Movielog.reviews.each_with_index do |review, index|
     - break if index > 9
-    - post = posts[key]
     %entry
-      - if post.is_a?(Movielog::Review)
-        - link = "/reviews/#{post.slug}/"
-        - review = post
-        %title
-          #{review.sequence}. #{review.display_title} #{grade_to_unicode_stars(grade: review.grade)}
-        %link{ href: "#{Movielog.site_url}/reviews/#{review.slug}/" }
-        %id #{Movielog.site_url}/reviews/#{review.slug}
-      - else
-        - link = "/features/#{post.slug}/"
-        %title
-          #{post.sequence}. #{post.title}
-        %link{ href: "#{Movielog.site_url}/features/#{post.slug}/" }
-        %id #{Movielog.site_url}/features/#{post.slug}
-      %updated= post.date.xmlschema
+      %title
+        #{review.sequence}. #{review.title} #{grade_to_unicode_stars(grade: review.grade)}
+      %link{ href: "#{Movielog.site_url}#{href_for_review(review)}/" }
+      %id #{Movielog.site_url}#{href_for_review(review)}
+      %updated= review.date.xmlschema
       %content{ type: 'html' }
-        = CGI.escapeHTML("<a href=\"#{link}\">#{image_tag(post.backdrop)}</a>")
-        = CGI.escapeHTML(markdown(post.content))
+        = CGI.escapeHTML("<a href=\"#{href_for_review(review)}\">#{image_tag(review.backdrop)}</a>")
+        = CGI.escapeHTML(review_content.call(review))

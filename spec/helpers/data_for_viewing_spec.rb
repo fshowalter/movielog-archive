@@ -6,16 +6,18 @@ describe Movielog::Helpers do
   describe '#data_for_viewing' do
     it 'returns a data hash for the given viewing' do
       viewing = OpenStruct.new(
-        sortable_title: 'Rio Bravo (1959)',
-        release_date: Date.parse('1959-06-01'),
+        title: 'The Beyond (1980)',
+        sortable_title: 'Beyond, The (1980)',
+        release_date: Date.parse('1980-06-01'),
         date: '2011-03-12')
 
       expect(context.data_for_viewing(viewing: viewing)).to eq(
 
           data: {
-            title: 'Rio Bravo (1959)',
-            release_date: '1959-06-01',
-            release_date_year: 1959,
+            title: 'The Beyond (1980)',
+            sort_title: 'Beyond, The (1980)',
+            release_date: '1980-06-01',
+            release_date_year: 1980,
             viewing_date: '2011-03-12'
           }
         )

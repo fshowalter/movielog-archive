@@ -95,7 +95,7 @@ describe Movielog::Console::CreateViewing do
     expect(viewing.to_h).to eq(
 
         title: 'Rio Bravo (1959)',
-        display_title: 'Rio Bravo (1959)',
+        db_title: 'Rio Bravo (1959)',
         number: 12,
         venue: 'Blu-ray',
         date: Date.parse('2014-8-30')

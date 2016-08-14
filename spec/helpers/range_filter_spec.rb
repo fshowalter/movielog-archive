@@ -9,7 +9,7 @@ describe Movielog::Helpers do
           label: 'Year', attribute: 'data-year', min: '1959', max: '2014')
       expect(filter).to eq(
         "<div class=\"filter-control\">" \
-        "<label for=\"year\" class=\"filter-label\">Year: </label>" \
+        "<label for=\"year\" class=\"filter-label\">Year</label>" \
         "<div class=\"filter-range\" data-filter-attribute=\"data-year\" " \
         "data-filter-type=\"range\" data-filter-min-value=\"1959\" " \
         "data-filter-max-value=\"2014\"><div class=\"noUiSlider noUi-target\">" \

@@ -12,9 +12,9 @@ module Movielog
         def call
           title = ask_for_title
           page = Movielog::CreatePage.call(pages_path: Movielog.pages_path,
-                                                 title: title,
-                                                 sequence: Movielog.next_post_number,
-                                                 slug: Movielog::Slugize.call(text: title))
+                                           title: title,
+                                           sequence: Movielog.next_post_number,
+                                           slug: Movielog::Slugize.call(text: title))
 
           puts "\n Created Page #{Bold.call(text: page.title)}!\n" \
           " #{Bold.call(text: '     Sequence:')} #{page.sequence}\n"

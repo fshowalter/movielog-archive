@@ -8,7 +8,7 @@ gem 'middleman-sprockets', '>=3.1.2'
 # Live-reloading plugin
 gem 'middleman-livereload'
 
-gem 'middleman-pagination'
+gem 'middleman-pagination', path: '../middleman-pagination'
 gem 'middleman-deploy'
 gem 'middleman-sitemap', path: '../middleman-sitemap'
 gem 'middleman-autoprefixer'
@@ -27,7 +27,7 @@ gem 'inquirer'
 gem 'nokogiri'
 gem 'movie_db', path: '../movie_db'
 
-gem 'rubocop'
+gem 'rubocop', require: false
 gem 'scss-lint'
 gem 'haml-lint'
 gem 'csscss'

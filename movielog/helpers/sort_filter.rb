@@ -11,9 +11,8 @@ module Movielog
       data['target'] = target
       html_options['data'] = data
       html_options[:options] = options
-      field_tag = select_tag(filter_control_attribute(attribute), html_options)
-      filter_control(
-        control: content_tag(:div, field_tag, class: 'filter-text-box-wrap'), label: label)
+      field_tag = select_tag(filter_control_attribute(label.downcase), html_options)
+      filter_control(control: field_tag, label: label)
     end
   end
 end

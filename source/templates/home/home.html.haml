@@ -6,11 +6,11 @@ pagination:
   path: page-:num/index
 ---
 :ruby
-  reviews = pagination.map { |k| Movielog.reviews[k] }
+  content_for(:title, "Page #{pagination.page_num}") unless pagination.page_num == 1
   content_for(:inline_css, 'source/templates/home/home.scss')
   content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
 
 .home
-  = partial('templates/home/home_review_list', locals: { reviews: reviews })
+  = partial('templates/home/home_review_list', locals: { reviews: pagination })
   = partial('templates/home/home_pagination', locals: { pagination: pagination })
 

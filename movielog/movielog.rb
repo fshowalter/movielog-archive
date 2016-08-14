@@ -26,7 +26,7 @@ module Movielog
     end
 
     def next_post_number
-      posts.length + 1
+      (reviews.length + pages.length) + 1
     end
 
     def db
@@ -35,10 +35,6 @@ module Movielog
 
     def viewed_titles
       viewings.values.map(&:title).uniq
-    end
-
-    def reviewed_titles
-      reviews.values.map(&:title).uniq
     end
 
     def viewings_path
@@ -53,20 +49,15 @@ module Movielog
       File.expand_path('../../pages/', __FILE__)
     end
 
-    def avatars_path
-      File.expand_path('../../avatars/', __FILE__)
-    end
-
-    def avatars
-      ParseAvatars.call(avatars_path: avatars_path) || {}
-    end
-
     def viewings
       ParseViewings.call(viewings_path: viewings_path) || {}
     end
 
     def reviews
-      ParseReviews.call(reviews_path: reviews_path) || {}
+      parsed_reviews = ParseReviews.call(reviews_path: reviews_path) || {}
+      parsed_reviews.keys.sort.reverse.each_with_object([]) do |sequence, collection|
+        collection << parsed_reviews[sequence]
+      end
     end
 
     def pages
@@ -75,10 +66,6 @@ module Movielog
 
     def cast_and_crew
       Movielog::Db::QueryMostReviewedPersons.call(db: Movielog.db)
-    end
-
-    def posts
-      features.merge(reviews)
     end
 
     def venues

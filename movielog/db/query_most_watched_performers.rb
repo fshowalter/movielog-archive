@@ -16,7 +16,7 @@ module Movielog
           db.results_as_hash = true
 
           most_watched_performers_query(db: db).execute(limit).each_with_object([]) do | row, a |
-            a << OpenStruct.new(row);
+            a << OpenStruct.new(row)
           end
         end
 

@@ -9,7 +9,7 @@ describe Movielog::ParseReviews do
 :sequence: 5
 :title: Black Legion (1937)
 :slug: black-legion-1937
-:display_title: Black Legion (1937)
+:db_title: Black Legion (1937)
 :date: 2014-08-22
 :grade: C
 :imdb_id: tt0027367
@@ -20,9 +20,9 @@ Review 1 content.
       'review2.md' => <<-EOF
 ---
 :sequence: 4
-:title: Circus of Fear (1966)
+:db_title: Circus of Fear (1966)
 :slug: psycho-circus-1967
-:display_title: Psycho-Circus (1967)
+:title: Psycho-Circus (1967)
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
@@ -43,7 +43,7 @@ Review 2 content.
     expect(reviews[5].sequence).to eq 5
     expect(reviews[5].content).to eq "Review 1 content.\n"
 
-    expect(reviews[4].title).to eq 'Circus of Fear (1966)'
+    expect(reviews[4].db_title).to eq 'Circus of Fear (1966)'
     expect(reviews[4].sequence).to eq 4
     expect(reviews[4].content).to eq "Review 2 content.\n"
   end

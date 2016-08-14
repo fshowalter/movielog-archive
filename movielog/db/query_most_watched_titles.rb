@@ -16,7 +16,7 @@ module Movielog
           db.results_as_hash = true
 
           most_watched_titles_query(db: db).execute(limit).each_with_object([]) do | row, a |
-            a << OpenStruct.new(row);
+            a << OpenStruct.new(row)
           end
         end
 
@@ -28,8 +28,7 @@ module Movielog
               SELECT viewings.title, movies.display_title, count(viewings.title) AS count
                 FROM viewings
                 INNER JOIN movies ON viewings.title = movies.title
-                GROUP BY viewings.title
-                HAVING count > 1
+                GROUP BY viewings.title HAVING count > 1
                 ORDER BY count DESC
                 LIMIT ?;
             SQL

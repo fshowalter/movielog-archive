@@ -4,7 +4,7 @@ module Movielog
   #
   module Helpers
     def filter_control(control:, label: nil)
-      label = filter_control_label(label) if label
+      label = filter_control_label(label: label) if label
 
       content_tag(:div, class: 'filter-control') do
         [

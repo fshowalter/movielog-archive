@@ -105,49 +105,57 @@ describe Movielog::Db::UpdateMostWatchedTables do
     most_watched_info = [
       {
         'cid' => 0,
-        'name' => 'full_name',
-        'type' => 'varchar(255)',
-        'notnull' => 0,
+        'name' => 'id',
+        'type' => 'INTEGER',
+        'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 1
       },
       {
         'cid' => 1,
-        'name' => 'movie_count',
-        'type' => '',
-        'notnull' => 0,
+        'name' => 'full_name',
+        'type' => 'varchar(255)',
+        'notnull' => 1,
         'dflt_value' => nil,
         'pk' => 0
       },
       {
         'cid' => 2,
-        'name' => 'watched_movie_count',
-        'type' => '',
-        'notnull' => 0,
+        'name' => 'movie_count',
+        'type' => 'INTEGER',
+        'notnull' => 1,
         'dflt_value' => nil,
         'pk' => 0
       },
       {
         'cid' => 3,
-        'name' => 'percent_seen',
-        'type' => '',
-        'notnull' => 0,
+        'name' => 'watched_movie_count',
+        'type' => 'INTEGER',
+        'notnull' => 1,
         'dflt_value' => nil,
         'pk' => 0
       },
       {
         'cid' => 4,
-        'name' => 'watch_count',
-        'type' => '',
-        'notnull' => 0,
+        'name' => 'percent_seen',
+        'type' => 'FLOAT',
+        'notnull' => 1,
         'dflt_value' => nil,
         'pk' => 0
       },
       {
         'cid' => 5,
+        'name' => 'watch_count',
+        'type' => 'INTEGER',
+        'notnull' => 1,
+        'dflt_value' => nil,
+        'pk' => 0
+      },
+      {
+        'cid' => 6,
         'name' => 'most_recent_watch_date',
-        'type' => '',
-        'notnull' => 0,
+        'type' => 'DATE',
+        'notnull' => 1,
         'dflt_value' => nil,
         'pk' => 0
       }

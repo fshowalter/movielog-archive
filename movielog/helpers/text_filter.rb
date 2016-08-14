@@ -11,7 +11,7 @@ module Movielog
       options['data']['filter-attribute'] = attribute
       options['data']['filter-type'] = 'text'
 
-      field_tag = text_field_tag(attribute, options)
+      field_tag = text_field_tag(label.downcase, options)
 
       filter_control(control: content_tag(
         :div, field_tag, class: 'filter-text_box_wrap'), label: label)

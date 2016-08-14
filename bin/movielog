@@ -29,11 +29,6 @@ module Movielog
       def page
         Console::CreatePage.call
       end
-
-      desc 'review_tweet', 'tweet a review'
-      def review_tweet
-        Console::CreateReviewTweet.call
-      end
     end
 
     #
@@ -48,22 +43,6 @@ module Movielog
       desc 'reviews', 'update the review entries'
       def reviews
         Console::UpdateReviews.call
-      end
-
-      desc 'fix_files', 'fix viewings'
-      def fix_files
-        Dir['viewings/*.yml'].each_with_object({}) do |file, viewings|
-          viewing = YAML.load(IO.read(file))
-          viewing = {
-            number: viewing[:number],
-            title: viewing[:display_title],
-            db_title: viewing[:title],
-            date: viewing[:date],
-            venue: viewing[:venue]
-          }
-
-          File.open(file, 'w') { |file| file.write(viewing.to_yaml) }
-        end
       end
     end
 

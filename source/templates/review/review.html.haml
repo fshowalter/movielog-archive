@@ -2,11 +2,14 @@
 layout: :layout_single
 ---
 :ruby
-  review = Movielog.reviews[review.sequence]
   description = Nokogiri::HTML(first_paragraph(review.content)).text
   content_for(:inline_css, 'source/templates/review/review.scss')
   content_for(:title, "#{review.title} Movie Review")
   content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
+  director = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
+    .map { |p| "#{p.first_name} #{p.last_name}" }
+    .first
+  info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
 
   review_content = lambda do |r|
     date = r.date.strftime('<time>%b %-d, %Y</time>&mdash;')
@@ -56,12 +59,18 @@ layout: :layout_single
         "sameAs":"https://www.frankshowalter.com"
       },
       "datePublished":"#{review.date.iso8601}",
-      "description":"#{description}",
+      "description":"#{truncate(description, length: 200)}",
       "inLanguage":"en",
       "itemReviewed":{
         "@type":"Movie",
-        "name":"#{review.display_title}",
-        "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/"
+        "name":"#{review.title}",
+        "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/",
+        "image": "#{review.backdrop}",
+        "datePublished": "#{info.release_date.iso8601}",
+        "director": {
+          "@type":"Person",
+          "name": "#{director}"
+        }
       },
       "publisher":{
         "@type":"Organization",

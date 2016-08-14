@@ -1,4 +1,10 @@
 PATH
+  remote: ../middleman-pagination
+  specs:
+    middleman-pagination (1.2.0)
+      middleman-core (~> 3.3)
+
+PATH
   remote: ../middleman-sitemap
   specs:
     middleman-sitemap (0.0.13)
@@ -96,8 +102,6 @@ GEM
     middleman-minify-html (3.4.0)
       htmlcompressor (~> 0.1.0)
       middleman-core (>= 3.2)
-    middleman-pagination (1.1.1)
-      middleman-core (~> 3.2)
     middleman-sprockets (3.3.10)
       middleman-core (~> 3.3)
       sprockets (~> 2.12.1)
@@ -216,7 +220,7 @@ DEPENDENCIES
   middleman-deploy
   middleman-livereload
   middleman-minify-html
-  middleman-pagination
+  middleman-pagination!
   middleman-sitemap!
   middleman-sprockets (>= 3.1.2)
   movie_db!

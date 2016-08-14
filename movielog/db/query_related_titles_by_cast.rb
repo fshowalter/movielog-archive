@@ -23,7 +23,7 @@ module Movielog
             next unless reviewed_performer?(db: db, performer_full_name: performer.full_name)
 
             performers[performer] = review_titles_for_performer(
-              db: db, title: title, performer: performer.full_name)
+              db: db, performer: performer.full_name)
           end
 
           performers
@@ -44,7 +44,7 @@ module Movielog
           @reviewed_performers.key?(performer_full_name)
         end
 
-        def review_titles_for_performer(db:, title:, performer:)
+        def review_titles_for_performer(db:, performer:)
           db.results_as_hash = true
           review_titles = review_titles_for_performer_query(db: db).execute(performer)
           review_titles.map do |review_title|

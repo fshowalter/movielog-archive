@@ -19,7 +19,7 @@ module Movielog
         content = "#{front_matter.to_yaml}---\n"
         File.open(file_name, 'w') { |file| file.write(content) }
 
-        Feature.new(front_matter)
+        Page.new(front_matter)
       end
 
       private

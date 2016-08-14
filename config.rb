@@ -11,41 +11,6 @@ helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def load_relative(file, source)
-    load File.join(File.expand_path(File.dirname(source)), "#{file}.rb")
-  end
-
-  def next_items(pagination, count = 4)
-    array = pagination.pageable_context.set
-    first = pagination.per_page * pagination.page_num
-    last = first + (count - 1)
-
-    if last > array.length
-      return array.slice(first)
-    end
-
-    return array.slice(first, count)
-  end
-
-  def category_link_for_post(post, options = {})
-    link = '/'
-    text = 'Unknown'
-
-    if post.is_a?(Movielog::Review)
-      link = '/reviews/'
-      text = 'Reviews'
-    elsif post.is_a?(Movielog::Feature)
-      link = '/features/'
-      text = 'Features'
-    end
-
-    link_to(text, link, options)
-  end
-
-  def person_slug(person)
-    Movielog::Slugize.call(text: "#{person.first_name} #{person.last_name}")
-  end
-
   def cast_and_crew_link(person, options = {})
     name = "#{person.first_name} #{person.last_name}"
 
@@ -56,86 +21,29 @@ helpers do
     name
   end
 
-  def array_window(array, size, center, even_size_resolution = :prioritize_greater)
-    return [] if size <= 0
-    return [array[center]] if size == 1
-    return array if size >= array.length
-
-    closest_limit = ->(size, index) {
-      return 0 if index < 0
-      return size - 1 if index >= size
-      index }
-
-    array_closest_limit = closest_limit.curry[array.length]
-    raise center.inspect if array.find_index(center).nil?
-    center = array_closest_limit[array.find_index(center)]
-
-    lower = array_closest_limit[center - size/2]
-    upper = array_closest_limit[center + size/2]
-    while (lower..upper).count < size
-      lower = array_closest_limit[lower - 1]
-      upper = array_closest_limit[upper + 1]
-    end
-
-    return array.slice(lower..upper) if (lower..upper).count == size
-
-    case even_size_resolution
-    when :prioritize_greater
-      return array.slice((lower + 1)..upper)
-    when :prioritize_lower
-      return array.slice(lower..(upper - 1))
-    else
-      raise ArgumentError, "#{even_size_resolution} is not a known resolution mechanism"
-    end
-  end
-
-  def card_content_for_post(post)
-    if post.is_a?(Movielog::Review)
-      partial(:review_card_content, locals: { review: post })
-    elsif post.is_a?(Movielog::Feature)
-      partial(:feature_card_content, locals: { feature: post })
-    end
-  end
-
   def href_for_review(review)
     "/reviews/#{review.slug}/"
   end
 
-  def markdown(source, inline: false)
+  def link_review_titles!(text)
+    Movielog.reviews.each do |review|
+      text.gsub!(review.title, link_to(review.title, href_for_review(review)))
+    end
+  end
+
+  def markdown(source)
     return source if source.blank?
 
     content = Tilt['markdown'].new(footnotes: true) { source }.render
 
-    if inline
-      content.gsub!(/<\/?p>/, '');
-    end
-
-    reviews.values.each do |review|
-      content.gsub!(
-        review.title, link_to(review.title, "/reviews/#{review.slug}/"))
-    end
+    link_review_titles!(content)
 
     content
   end
 
-  def inline_markdown(source)
-    return source if source.blank?
-
-    content = Tilt['markdown'].new(footnotes: true) { source }.render
-
-    content.gsub!(/<\/?p>/, '');
-
-    reviews.values.each do |review|
-      content.gsub!(
-        review.display_title, link_to(review.display_title, "/reviews/#{review.slug}/"))
-    end
-
-    content
-  end
-
-  def inline_css(file)
+  def inline_css(_file)
     filename = File.expand_path("../#{yield_content(:inline_css)}", __FILE__)
-    style = Tilt['scss'].new() { File.open(filename, 'rb') { |f| f.read } }.render
+    style = Tilt['scss'].new { File.open(filename, 'rb') { |f| f.read } }.render
 
     Middleman::Extensions::MinifyCss::SassCompressor.compress(style)
   end
@@ -145,40 +53,16 @@ helpers do
 
     source = source.split("\n\n", 2)[0]
 
-    content = Tilt['markdown'].new(footnotes: false) { source }.render.gsub(/\[\^\d\]/, '')
+    content = Tilt['markdown'].new { source }.render.gsub(/\[\^\d\]/, '')
 
-    reviews.values.each do |review|
-      title = review.display_title || review.db_title
-      content.gsub!(
-        title, link_to(title, "/reviews/#{review.slug}/"))
-    end
+    link_review_titles!(content)
 
     content
   end
 
-  def minutes_to_read(source)
-    return 0 if source.blank?
-
-    wordcount = source.scan(/[[:alpha:]]+/).count
-
-    count = wordcount / 275
-
-    return 1 if count == 0
-
-    count
-  end
-
-  def inline_svg(filename, options = {})
-    file = sprockets.find_asset(filename).to_s.force_encoding('UTF-8')
-    doc = Nokogiri::HTML::DocumentFragment.parse file
-    svg = doc.at_css 'svg'
-    svg['class'] = options[:class] if options[:class].present?
-    doc.to_html
-  end
-
   def reviews
     @reviews ||= begin
-      Movielog.reviews.values.each_with_object({}) do |review, hash|
+      Movielog.reviews.each_with_object({}) do |review, hash|
         info = MovieDb.info_for_title(db: Movielog.db, title: (review.db_title || review.title))
         review.sortable_title = info.sortable_title
         review.release_date = info.release_date
@@ -197,10 +81,6 @@ helpers do
       end
       viewings
     end
-  end
-
-  def sorted_posts
-    Movielog.posts.keys.sort.reverse
   end
 end
 
@@ -228,7 +108,7 @@ end
 
 activate :pagination do
   pageable_set :reviews do
-    Movielog.reviews.keys.sort.reverse
+    Movielog.reviews
   end
 end
 
@@ -256,10 +136,6 @@ configure :build do
   activate :gzip
 end
 
-valid_cast_and_crew_slugs = Movielog.cast_and_crew.values.each_with_object([]) do |person, slugs|
-  slugs << person.slug
-end
-
 ready do
   proxy('index.html', 'templates/home/home.html', ignore: true)
   proxy('404.html', 'templates/404/404.html', directory_index: false, ignore: true)
@@ -270,7 +146,7 @@ ready do
   proxy('metrics/index.html', 'templates/metrics/metrics.html', ignore: true)
   proxy('cast-and-crew/index.html', 'templates/cast_and_crew/cast_and_crew.html', ignore: true)
 
-  Movielog.reviews.each do |_id, review|
+  Movielog.reviews.each do |review|
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
           locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
   end
@@ -291,7 +167,13 @@ ready do
     ['page/4', 'page-4/'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/'],
-    ['performers/robert-mitchum', 'cast-and-crew/robert-mitchum-i/']
+    ['performers/robert-mitchum', 'cast-and-crew/robert-mitchum-i/'],
+    ['browse/humphrey-bogart', 'cast-and-crew/humphrey-bogart/'],
+    ['browse/peter-cushing', 'cast-and-crew/peter-cushing/'],
+    ['reviews/how-i-grade', '/how-i-grade/'],
+    ['reviews/welcome-back', '/about/'],
+    ['features/how-i-grade', '/how-i-grade/'],
+    ['features/welcome-back', '/about/']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)

@@ -10,8 +10,6 @@ describe Movielog::ParsePages do
 :title: Page 1
 :slug: page-1
 :date: 2014-07-01
-:description: >
-  Wherin I test the parse pages page.
 ---
 Page 1 content.
       EOF
@@ -22,8 +20,6 @@ Page 1 content.
 :title: Page 2
 :slug: page-2
 :date: 2014-07-01
-:description: >
-  Wherin I continue to test the parse pages page.
 ---
 Page 2 content.
       EOF
@@ -37,13 +33,13 @@ Page 2 content.
 
     expect(pages.length).to eq 2
 
-    expect(pages[1].title).to eq 'Page 1'
-    expect(pages[1].sequence).to eq 1
-    expect(pages[1].content).to eq "Page 1 content.\n"
+    expect(pages['page-1'].title).to eq 'Page 1'
+    expect(pages['page-1'].sequence).to eq 1
+    expect(pages['page-1'].content).to eq "Page 1 content.\n"
 
-    expect(pages[2].title).to eq 'Page 2'
-    expect(pages[2].sequence).to eq 2
-    expect(pages[2].content).to eq "Page 2 content.\n"
+    expect(pages['page-2'].title).to eq 'Page 2'
+    expect(pages['page-2'].sequence).to eq 2
+    expect(pages['page-2'].content).to eq "Page 2 content.\n"
   end
 
   context 'when error parsing yaml' do
@@ -86,8 +82,6 @@ Page 1 content.
 :title: Page 2
 :slug: page-2
 :date: 2014-07-01
-:description: >
-  Wherin I continue to test the parse pages page.
 ---
 Page 2 content.
         EOF
