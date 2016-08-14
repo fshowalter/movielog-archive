@@ -168,12 +168,13 @@ ready do
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/'],
     ['performers/robert-mitchum', 'cast-and-crew/robert-mitchum-i/'],
+    ['browse/reviews', 'reviews/'],
     ['browse/humphrey-bogart', 'cast-and-crew/humphrey-bogart/'],
     ['browse/peter-cushing', 'cast-and-crew/peter-cushing/'],
-    ['reviews/how-i-grade', '/how-i-grade/'],
-    ['reviews/welcome-back', '/about/'],
-    ['features/how-i-grade', '/how-i-grade/'],
-    ['features/welcome-back', '/about/']
+    ['reviews/how-i-grade', 'how-i-grade/'],
+    ['reviews/welcome-back', 'about/'],
+    ['features/how-i-grade', 'how-i-grade/'],
+    ['features/welcome-back', 'about/']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
