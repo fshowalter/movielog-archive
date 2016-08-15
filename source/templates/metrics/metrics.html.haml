@@ -3,13 +3,12 @@ title: Metrics
 layout: :layout_columns
 ---
 :ruby
-  reviews = Movielog.reviews_by_title
   content_for(:title, 'Metrics')
   content_for(:inline_css, 'source/templates/metrics/metrics.scss')
 
   most_watched_titles = Movielog::Db::QueryMostWatchedTitles.call(db: Movielog.db, limit: 10).map do |result|
     title = result.display_title
-    title = link_to(result.display_title, "/reviews/#{reviews[result.title].slug}/") if reviews.key?(result.title)
+    title = link_to(result.display_title, href_for_review(reviews[result.title])) if reviews.key?(result.title)
 
     link = link_to(result.count, "/viewings/?title=#{URI.escape(result.display_title)}")
 

@@ -26,7 +26,7 @@ module Movielog
 
         data = YAML.load(Regexp.last_match[1])
         data[:content] = $POSTMATCH
-        reviews[data[:sequence]] = Review.new(data)
+        reviews[data[:db_title]] = Review.new(data)
       end
     end
   end

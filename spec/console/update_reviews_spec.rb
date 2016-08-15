@@ -3,6 +3,7 @@ require 'support/io_helper'
 
 describe Movielog::Console::UpdateReviews do
   before(:each) do
+    expect(Movielog).to receive(:reviews).and_return({})
   end
 
   it 'calls Movielog::Db::UpdateMostReviewedTables' do

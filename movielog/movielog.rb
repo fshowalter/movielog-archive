@@ -15,12 +15,6 @@ module Movielog
       "Frank's Movie Log"
     end
 
-    def reviews_by_title
-      reviews.each_with_object({}) do |review, hash|
-        hash[review.db_title] = review
-      end
-    end
-
     def next_viewing_number
       viewings.length + 1
     end
@@ -50,14 +44,27 @@ module Movielog
     end
 
     def viewings
-      ParseViewings.call(viewings_path: viewings_path) || {}
+      viewings = ParseViewings.call(viewings_path: viewings_path) || {}
+      viewings.values.each do |viewing|
+        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
+        viewing.sortable_title = info.sortable_title
+        viewing.release_date = info.release_date
+      end
+      viewings
     end
 
     def reviews
-      parsed_reviews = ParseReviews.call(reviews_path: reviews_path) || {}
-      parsed_reviews.keys.sort.reverse.each_with_object([]) do |sequence, collection|
-        collection << parsed_reviews[sequence]
+      reviews = ParseReviews.call(reviews_path: reviews_path) || {}
+      reviews.values.each do |review, hash|
+        info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
+        review.sortable_title = info.sortable_title
+        review.release_date = info.release_date
       end
+      reviews
+    end
+
+    def reviews_by_sequence
+      reviews.values.sort_by(&:sequence).reverse
     end
 
     def pages

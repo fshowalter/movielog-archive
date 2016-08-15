@@ -33,7 +33,7 @@
     current_db_title = current_review.db_title
     window  = array_window.call(titles, 5, current_db_title)
     window.select { |title| title != current_db_title }
-      .map { |title| Movielog.reviews_by_title[title] }
+      .map { |title| Movielog.reviews[title] }
   end
 
 - unless more_for_cast.empty?

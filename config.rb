@@ -26,7 +26,7 @@ helpers do
   end
 
   def link_review_titles!(text)
-    Movielog.reviews.each do |review|
+    Movielog.reviews.values.each do |review|
       text.gsub!(review.title, link_to(review.title, href_for_review(review)))
     end
   end
@@ -59,29 +59,6 @@ helpers do
 
     content
   end
-
-  def reviews
-    @reviews ||= begin
-      Movielog.reviews.each_with_object({}) do |review, hash|
-        info = MovieDb.info_for_title(db: Movielog.db, title: (review.db_title || review.title))
-        review.sortable_title = info.sortable_title
-        review.release_date = info.release_date
-        hash[review.title] = review
-      end
-    end
-  end
-
-  def viewings
-    @viewings ||= begin
-      viewings = Movielog.viewings
-      viewings.values.each do |viewing|
-        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
-        viewing.sortable_title = info.sortable_title
-        viewing.release_date = info.release_date
-      end
-      viewings
-    end
-  end
 end
 
 set :css_dir, 'stylesheets'
@@ -108,7 +85,7 @@ end
 
 activate :pagination do
   pageable_set :reviews do
-    Movielog.reviews
+    Movielog.reviews_by_sequence
   end
 end
 
@@ -146,7 +123,7 @@ ready do
   proxy('metrics/index.html', 'templates/metrics/metrics.html', ignore: true)
   proxy('cast-and-crew/index.html', 'templates/cast_and_crew/cast_and_crew.html', ignore: true)
 
-  Movielog.reviews.each do |review|
+  Movielog.reviews.values.each do |review|
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
           locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
   end

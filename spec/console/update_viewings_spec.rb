@@ -3,6 +3,7 @@ require 'support/io_helper'
 
 describe Movielog::Console::UpdateViewings do
   before(:each) do
+    expect(Movielog).to receive(:viewings).and_return({})
   end
 
   it 'calls Movielog::Db::UpdateMostWatchedTables' do

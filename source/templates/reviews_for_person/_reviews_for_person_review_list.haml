@@ -31,7 +31,7 @@
     - if list[:credits]
       %h2.reviews_for_person_review_list-heading{ id: list[:text].downcase }
         #{list[:text]} (#{list[:credits].length} titles)
-      - reviews = list[:credits].map { |t| Movielog.reviews_by_title[t] }
+      - reviews = list[:credits].map { |t| Movielog.reviews[t] }
       %ol.reviews_for_person_review_list-list
         - reviews.each do |review|
           %li.reviews_for_person_review_list-credit

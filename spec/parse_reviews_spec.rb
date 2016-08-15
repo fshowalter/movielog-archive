@@ -39,13 +39,13 @@ Review 2 content.
 
     expect(reviews.length).to eq 2
 
-    expect(reviews[5].title).to eq 'Black Legion (1937)'
-    expect(reviews[5].sequence).to eq 5
-    expect(reviews[5].content).to eq "Review 1 content.\n"
+    expect(reviews['Black Legion (1937)'].title).to eq 'Black Legion (1937)'
+    expect(reviews['Black Legion (1937)'].sequence).to eq 5
+    expect(reviews['Black Legion (1937)'].content).to eq "Review 1 content.\n"
 
-    expect(reviews[4].db_title).to eq 'Circus of Fear (1966)'
-    expect(reviews[4].sequence).to eq 4
-    expect(reviews[4].content).to eq "Review 2 content.\n"
+    expect(reviews['Circus of Fear (1966)'].db_title).to eq 'Circus of Fear (1966)'
+    expect(reviews['Circus of Fear (1966)'].sequence).to eq 4
+    expect(reviews['Circus of Fear (1966)'].content).to eq "Review 2 content.\n"
   end
 
   context 'when error parsing yaml' do

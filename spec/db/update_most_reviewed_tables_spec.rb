@@ -68,7 +68,7 @@ describe Movielog::Db::UpdateMostReviewedTables do
 
   let(:reviews) do
     {
-      1 => OpenStruct.new(db_title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12'))
+      'Rio Bravo (1959)' => OpenStruct.new(db_title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12'))
     }
   end
 

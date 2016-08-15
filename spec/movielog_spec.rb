@@ -1,6 +1,14 @@
 require 'spec_helper'
 
 describe Movielog do
+  before(:each) do
+    allow(MovieDb).to receive(:info_for_title) do
+      OpenStruct.new({
+        sortable_title: 'stubbed title',
+        release_date: 'stubbed release date' })
+    end
+  end
+
   describe '#site_url' do
     it 'returns the site url' do
       expect(Movielog.site_url).to eq 'https://www.franksmovielog.com'
@@ -18,12 +26,29 @@ describe Movielog do
       expect(Movielog::ParseViewings).to(
         receive(:call).with(viewings_path: Movielog.viewings_path)) do
         {
-          1 => 'a viewing',
-          2 => 'another viewing'
+          1 => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
+          2 => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
         }
       end
 
       expect(Movielog.next_viewing_number).to eq 3
+    end
+  end
+
+  describe '#reviews_by_sequence' do
+    it 'returns the reviews sorted by sequence in reverse' do
+      expect(Movielog::ParseReviews).to(
+        receive(:call).with(reviews_path: Movielog.reviews_path)) do
+        {
+          'title 1' => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
+          'title 2' => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
+        }
+      end
+
+      reviews_by_sequence = Movielog.reviews_by_sequence
+
+      expect(reviews_by_sequence.first.db_title).to eq('title 1')
+      expect(reviews_by_sequence.last.db_title).to eq('title 2')
     end
   end
 
@@ -32,8 +57,8 @@ describe Movielog do
       expect(Movielog::ParseReviews).to(
         receive(:call).with(reviews_path: Movielog.reviews_path)) do
         {
-          1 => 'a review',
-          3 => 'another review'
+          'title 1' => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
+          'title 2' => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
         }
       end
 
@@ -51,6 +76,14 @@ describe Movielog do
   describe '#db' do
     it 'returns a new movie_db instance' do
       expect(Movielog.db).to be_an_instance_of(SQLite3::Database)
+    end
+  end
+
+  describe '#cast_and_crew' do
+    it 'calls Movielog::Db::QueryMostReviewedPersons' do
+      expect(Movielog::Db::QueryMostReviewedPersons).to receive(:call)
+
+      Movielog.cast_and_crew
     end
   end
 
