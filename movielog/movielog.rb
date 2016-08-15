@@ -44,23 +44,27 @@ module Movielog
     end
 
     def viewings
-      viewings = ParseViewings.call(viewings_path: viewings_path) || {}
-      viewings.values.each do |viewing|
-        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
-        viewing.sortable_title = info.sortable_title
-        viewing.release_date = info.release_date
+      @viewings ||= begin
+        viewings = ParseViewings.call(viewings_path: viewings_path) || {}
+        viewings.values.each do |viewing|
+          info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
+          viewing.sortable_title = info.sortable_title
+          viewing.release_date = info.release_date
+        end
+        viewings
       end
-      viewings
     end
 
     def reviews
-      reviews = ParseReviews.call(reviews_path: reviews_path) || {}
-      reviews.values.each do |review, _hash|
-        info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
-        review.sortable_title = info.sortable_title
-        review.release_date = info.release_date
+      @reviews ||= begin
+        reviews = ParseReviews.call(reviews_path: reviews_path) || {}
+        reviews.values.each do |review, hash|
+          info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
+          review.sortable_title = info.sortable_title
+          review.release_date = info.release_date
+        end
+        reviews
       end
-      reviews
     end
 
     def reviews_by_sequence

@@ -10,7 +10,7 @@
   end
 
 %ul.reviews_list#reviews
-  - reviews.values.sort_by(&:title).each do |review|
+  - reviews.sort_by(&:title).each do |review|
     %li.reviews_list-item{ data_for_review(review: review) }
       .reviews_list-title
         %a{ href: href_for_review(review) }

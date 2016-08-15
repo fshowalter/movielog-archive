@@ -1,7 +1,10 @@
+:ruby
+  sorted_viewings = viewings.keys.sort.reverse
+
+
 %ol.viewings_list#viewings
-  - viewing_keys.each do |key|
-    - viewing = viewings[key]
-    - review = reviews[viewing.db_title]
+  - viewings.values.sort_by(&:sequence).reverse.each do |viewing|
+    - review = Movielog.reviews[viewing.db_title]
     %li.viewings_list-item{ data_for_viewing(viewing: viewing) }
       .viewings_list-item_title
         - if review

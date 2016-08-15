@@ -4,8 +4,8 @@
     = text_filter(placeholder: 'Enter all or part of a title', attribute: 'data-title', label: 'Title')
     = range_filter(label: 'Release Year',
                    attribute: 'data-release-date-year',
-                   min: oldest_year(collection: reviews.values, date_method: :release_date),
-                   max: newest_year(collection: reviews.values, date_method: :release_date))
+                   min: oldest_year(collection: reviews, date_method: :release_date),
+                   max: newest_year(collection: reviews, date_method: :release_date))
     = sort_filter(label: 'Order By',
                   attribute: 'sort-title-asc',
                   target: '#reviews',

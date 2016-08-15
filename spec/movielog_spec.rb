@@ -9,6 +9,11 @@ describe Movielog do
     end
   end
 
+  after(:each) do
+    Movielog.instance_variable_set(:@reviews, nil)
+    Movielog.instance_variable_set(:@viewings, nil)
+  end
+
   describe '#site_url' do
     it 'returns the site url' do
       expect(Movielog.site_url).to eq 'https://www.franksmovielog.com'
