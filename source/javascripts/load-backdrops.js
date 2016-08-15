@@ -5,7 +5,7 @@
     var debouncedUpdate;
 
     function retinaWidth(node, retinaMultiplier) {
-      return node.offsetWidth * retinaMultiplier;
+      return Math.ceil(node.offsetWidth * retinaMultiplier);
     }
 
     function updateWidthInImageUrl(baseUrl, width) {
