@@ -3,9 +3,9 @@ require 'spec_helper'
 describe Movielog do
   before(:each) do
     allow(MovieDb).to receive(:info_for_title) do
-      OpenStruct.new({
+      OpenStruct.new(
         sortable_title: 'stubbed title',
-        release_date: 'stubbed release date' })
+        release_date: 'stubbed release date')
     end
   end
 
@@ -26,8 +26,8 @@ describe Movielog do
       expect(Movielog::ParseViewings).to(
         receive(:call).with(viewings_path: Movielog.viewings_path)) do
         {
-          1 => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
-          2 => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
+          1 => OpenStruct.new(db_title: 'title 1', sequence: 2),
+          2 => OpenStruct.new(db_title: 'title 2', sequence: 1)
         }
       end
 
@@ -40,8 +40,8 @@ describe Movielog do
       expect(Movielog::ParseReviews).to(
         receive(:call).with(reviews_path: Movielog.reviews_path)) do
         {
-          'title 1' => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
-          'title 2' => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
+          'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
+          'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
         }
       end
 
@@ -57,8 +57,8 @@ describe Movielog do
       expect(Movielog::ParseReviews).to(
         receive(:call).with(reviews_path: Movielog.reviews_path)) do
         {
-          'title 1' => OpenStruct.new({ db_title: 'title 1', sequence: 2 }),
-          'title 2' => OpenStruct.new({ db_title: 'title 2', sequence: 1 })
+          'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
+          'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
         }
       end
 

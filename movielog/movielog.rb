@@ -55,7 +55,7 @@ module Movielog
 
     def reviews
       reviews = ParseReviews.call(reviews_path: reviews_path) || {}
-      reviews.values.each do |review, hash|
+      reviews.values.each do |review, _hash|
         info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
         review.sortable_title = info.sortable_title
         review.release_date = info.release_date
