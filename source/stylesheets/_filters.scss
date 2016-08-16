@@ -104,12 +104,6 @@ $filter_text_box_color: $color_text_secondary;
   justify-content: space-around;
 }
 
-.filter-checkbox {
-  display: block;
-  color: $filter_text_box_color;
-  font-size: 15px;
-}
-
 .noUi-target * {
   background-color: $filter_slider_background_color;
   box-sizing: border-box;
