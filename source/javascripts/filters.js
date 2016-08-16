@@ -3,6 +3,7 @@
 // = require _filterer
 // = require _text-filter
 // = require _range-filter
+// = require _select_filter
 
 (
   function setFiltersFromQueryString() {

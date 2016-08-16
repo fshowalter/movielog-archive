@@ -1,3 +1,8 @@
+:ruby
+  venues = Movielog.venues.each_with_index.each_with_object([]) do |(venue, index), array|
+    array << [venue, index]
+  end
+
 .viewings_filters{ data: { filter_controls: true, target: '#viewings' }}
   %h2.viewings_filters-heading Filter and Sort
   .viewings_filters-content
@@ -6,6 +11,9 @@
                    attribute: 'data-release-date-year',
                    min: oldest_year(collection: viewings.values, date_method: :release_date),
                    max: newest_year(collection: viewings.values, date_method: :release_date))
+    = select_filter(label: 'Venue',
+                          attribute: 'data-venue',
+                          options: venues)
     = sort_filter(label: 'Order By',
                   attribute: 'viewing-date-desc',
                   target: '#viewings',
