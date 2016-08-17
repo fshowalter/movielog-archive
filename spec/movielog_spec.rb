@@ -9,11 +9,6 @@ describe Movielog do
     end
   end
 
-  after(:each) do
-    Movielog.instance_variable_set(:@reviews, nil)
-    Movielog.instance_variable_set(:@viewings, nil)
-  end
-
   describe '#site_url' do
     it 'returns the site url' do
       expect(Movielog.site_url).to eq 'https://www.franksmovielog.com'
@@ -94,15 +89,14 @@ describe Movielog do
 
   describe '#viewed_titles' do
     it 'returns a unique collection of viewed titles' do
-      expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)) do
+      expect(Movielog).to(receive(:viewings)) do
         {
-          1 => OpenStruct.new(title: 'Rio Bravo (1959)'),
-          2 => OpenStruct.new(title: 'The Big Sleep (1946)'),
-          3 => OpenStruct.new(title: 'Reservoir Dogs (1992)'),
-          4 => OpenStruct.new(title: 'North by Northwest (1959)'),
-          5 => OpenStruct.new(title: 'Rio Bravo (1959)'),
-          6 => OpenStruct.new(title: 'Some Like it Hot (1959)')
+          1 => OpenStruct.new(db_title: 'Rio Bravo (1959)'),
+          2 => OpenStruct.new(db_title: 'The Big Sleep (1946)'),
+          3 => OpenStruct.new(db_title: 'Reservoir Dogs (1992)'),
+          4 => OpenStruct.new(db_title: 'North by Northwest (1959)'),
+          5 => OpenStruct.new(db_title: 'Rio Bravo (1959)'),
+          6 => OpenStruct.new(db_title: 'Some Like it Hot (1959)')
         }
       end
 

@@ -89,7 +89,7 @@ describe Movielog::Console::CreateReview do
 
     review = Movielog::Console::CreateReview.call
     expect(review.title).to eq 'Rio Bravo (1959)'
-    expect(review.display_title).to eq 'Rio Bravo (1959)'
+    expect(review.db_title).to eq 'Rio Bravo (1959)'
     expect(review.sequence).to eq 2
   end
 end
