@@ -41,6 +41,8 @@
             %a.reviews_for_person_review_list-backdrop_wrap{ href: href_for_review(review) }
               .reviews_for_person_review_list-backdrop{ data: { backdrop: review.backdrop } }
                 %img.reviews_for_person_review_list-backdrop_placeholder{ src: review.backdrop_placeholder }
+              %noscript
+                %img.backdrop-noscript{ src: review.backdrop }
             .reviews_for_person_review_list-excerpt
               = excerpt_for_review.call(review)
 

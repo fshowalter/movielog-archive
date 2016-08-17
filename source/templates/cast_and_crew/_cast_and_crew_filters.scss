@@ -5,6 +5,12 @@
   border: 1px solid $color_primary;
   border-radius: 5px;
   margin: 20px;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.js-filters .cast_and_crew_filters {
+  opacity: 1;
 }
 
 .cast_and_crew_filters-heading {

@@ -25,6 +25,8 @@
         %a.home_review_list-backdrop_wrap{ href: href_for_review(review) }
           .home_review_list-backdrop{ data: { backdrop: review.backdrop } }
             %img.home_review_list-backdrop_placeholder{ src: review.backdrop_placeholder }
+            %noscript
+              %img.backdrop-noscript{ src: review.backdrop }
         .home_review_list-excerpt
           = excerpt_for_review.call(review)
 

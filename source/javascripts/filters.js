@@ -44,5 +44,7 @@
         }
       }
     }
+
+    document.documentElement.classList.add('js-filters');
   }()
 );

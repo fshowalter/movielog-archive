@@ -183,14 +183,14 @@ $color_search_button_border: #444;
   transition: opacity .5s ease;
   z-index: 500;
 
-  &.js-toggle_off {
-    opacity: 0;
-  }
-
   @media only screen and (min-width: 50em) {
     left: auto;
     width: 40%;
   }
+}
+
+.js .layout_mast-search_form.js-toggle_off {
+  opacity: 0;
 }
 
 .layout_mast-search_input {

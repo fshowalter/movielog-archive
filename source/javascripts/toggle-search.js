@@ -69,7 +69,7 @@
       });
     }
 
-    document.documentElement.classList.add('js');
+    document.documentElement.classList.add('js-search');
 
     document.documentElement.addEventListener('mousedown', function handleMouseDownToRemoveOutline() {
       return document.documentElement.classList.add('js-no_outline');
