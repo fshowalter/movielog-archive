@@ -9,9 +9,9 @@ module Movielog
       def call(reviews_path:, title:, display_title:, sequence:, slug:)
         file_name = File.join(reviews_path, slug + '.md')
 
-        front_matter = front_matter(title: title,
+        front_matter = front_matter(db_title: title,
                                     sequence: sequence,
-                                    display_title: display_title,
+                                    title: display_title,
                                     slug: slug)
 
         content = "#{front_matter.to_yaml}---\n"
@@ -23,15 +23,16 @@ module Movielog
 
       private
 
-      def front_matter(title:, display_title:, sequence:, slug:)
+      def front_matter(db_title:, title:, sequence:, slug:)
         {
           sequence: sequence,
+          db_title: db_title,
           title: title,
           slug: slug,
-          display_title: display_title,
           date: Date.today,
           imdb_id: '',
-          grade: ''
+          grade: '',
+          backdrop: ''
         }
       end
     end

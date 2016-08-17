@@ -39,7 +39,7 @@
     = partial 'layouts/layout_mast'
     = yield
     = partial 'layouts/layout_footer'
-    = javascript_include_tag('toggle-search', async: true)
+    = javascript_include_tag('toggle-search', async: :async)
     - if content_for?(:javascript)
       = yield_content(:javascript)
     - if build?

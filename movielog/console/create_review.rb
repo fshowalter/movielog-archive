@@ -13,9 +13,9 @@ module Movielog
           movie = ask_for_title
           review = create_review(movie)
 
-          puts "\n Created Review #{Bold.call(text: review.display_title)}!\n" \
-          " #{Bold.call(text: '        Title:')} #{review.title}\n" \
-          " #{Bold.call(text: '     Sequence:')} #{review.sequence}\n"
+          puts "\n Created Review #{Bold.call(text: review.title)}!\n" \
+          " #{Bold.call(text: '       db_title:')} #{review.db_title}\n" \
+          " #{Bold.call(text: '     sequence:')} #{review.sequence}\n"
 
           review
         end
