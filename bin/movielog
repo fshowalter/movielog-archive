@@ -29,6 +29,11 @@ module Movielog
       def page
         Console::CreatePage.call
       end
+
+      desc 'placeholder', 'create a new image placeholder'
+      def placeholder
+        Console::CreatePlaceholder.call
+      end
     end
 
     #
