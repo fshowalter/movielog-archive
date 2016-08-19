@@ -2,6 +2,7 @@
 layout: :layout_single
 ---
 :ruby
+  review = Movielog.reviews[review.db_title]
   description = Nokogiri::HTML(first_paragraph(review.content)).text
   content_for(:inline_css, 'source/templates/review/review.scss')
   content_for(:title, "#{review.title} Movie Review")

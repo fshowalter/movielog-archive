@@ -9,12 +9,14 @@
 :backdrop: 'https://lh3.googleusercontent.com/XCwo6MGUFHR5-etMd1PLMYPRVT3H2Kv6FBZ-hSnNgRSXRAlAw2Ktg28pc-fzYS9dE6MgfIrgGEZF=w1000-l75-rj'
 :backdrop_placeholder: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////j8H////6/9r9/+wBKy0tPDU8dkFBdvilgKX4+Oz4+Oz47Pjs+Pj4+Pj4+Pjs7Pjs7Oz47Pjs7Ozs7Pj47Oz4+Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAQMC/8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECESExAxIyQXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AL0MxartpjsouT8J6N3JsgclcBTyAH//2Q=='
 ---
-The killer nun is trash, but not pure trash, and that's a shame.
+_The Killer Nun_ is trash, but not pure trash, and that’s a shame.
 
-The premise is overflows with potential. Anita eckberg plays sister x, an icy, strict nun working at a hospital. Under her charge are various oddball characters, elderly twins, a livacious late middle age exerciser forever clad in a track suit, a young nun who looks at her with carnal devotion.
+The premise has potential. Anita Ekberg plays Sister Gertrude, the icy matron of a hospital overflowing with oddball characters. These include a pair of elderly twins, a lusty late-middle-age fitness buff, and Sister Matthieu, a young nun who eyes Sister Gertrude with carnal desire.
 
-All is not well with sister x. She harbors a morphine addiction, and resorts to stealing to support it. In an excursion outside the hospital, she has sex with a stranger in a darkened hallway. She complains of intense headaches and begins treating her charges with increasing cruelty, including stomping an elderly woman's dentures to pieces. It all culminates with her instructing one of the other nuns to "say you're a dirty whore!"
+Early on, the script piles on the ridiculous. Sister Gertrude steals to support a morphine addiction she acquired while recovering from brain surgery. On an excursion outside the hospital, she has anonymous sex in a darkened hallway. Back at work, she complains of intense headaches and stomps an elderly patient’s dentures to pieces. Things reach an apex when a naked Sister Matthieu confesses her desires and Sister Gertrude orders her to “Say you’re a dirty whore!”
 
-Here's where the film goes wrong. Instead of sister x going full bonkers and offing the various patients, the film begins layering on plot. Y arrives as the new head physician. Patients do end up dead, but it's clear sister x isn't the murderer. There are a few more bits of outrageousness, but the film takes itself too seriously to give into its own ridiculousness.bas a result, things drag. The 85 minute running time feels closer to two hours.
+But instead of having Sister Gertrude go full-bonkers and off her assorted patients, the script gets talky. Sister Gertrude enacts a convoluted scheme to replace the head physician in a dead-end plot thread.
 
-As I've said before, I can forgive a lot in an exploitation picture. Bad acting, shabby effects, stilted dialog, no problem. But boredom? For a "nun-sploitation" picture, that's a cardinal sin.
+Worst of all, when the murders finally start, it’s clear Sister Gertrude isn’t the culprit. As a result, things drag while we wait for the characters to discover what we already know.
+
+I can forgive much in an exploitation picture. Bad acting? Comes with the territory. Shabby effects? At least they tried. Stilted dialog? Good for a laugh. But boredom? For a “nunsploitation” picture, that’s a cardinal sin.
