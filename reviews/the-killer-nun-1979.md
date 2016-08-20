@@ -11,12 +11,16 @@
 ---
 _The Killer Nun_ is trash, but not pure trash, and that’s a shame.
 
-The premise has potential. Anita Ekberg plays Sister Gertrude, the icy matron of a hospital overflowing with oddball characters. These include a pair of elderly twins, a lusty late-middle-age fitness buff, and Sister Matthieu, a young nun who eyes Sister Gertrude with carnal desire.
+Anita Ekberg plays Sister Gertrude, a hospital matron. Assisting her is Sister Matthieu, a young nun who eyes Sister Gertrude with carnal desire.
 
-Early on, the script piles on the ridiculous. Sister Gertrude steals to support a morphine addiction she acquired while recovering from brain surgery. On an excursion outside the hospital, she has anonymous sex in a darkened hallway. Back at work, she complains of intense headaches and stomps an elderly patient’s dentures to pieces. Things reach an apex when a naked Sister Matthieu confesses her desires and Sister Gertrude orders her to “Say you’re a dirty whore!”
+Sister Gertrude is not well. She steals to support a morphine addiction she acquired while recovering from brain surgery. On an excursion outside the hospital, she has anonymous sex in a darkened hallway. Back at work, she complains of intense headaches.
 
-But instead of having Sister Gertrude go full-bonkers and off her assorted patients, the script gets talky. Sister Gertrude enacts a convoluted scheme to replace the head physician in a dead-end plot thread.
+Her behavior becomes more erratic and violent. She stomps a patient’s dentures to pieces. She forces an elderly group to exercise to near fatal exhaustion.
 
-Worst of all, when the murders finally start, it’s clear Sister Gertrude isn’t the culprit. As a result, things drag while we wait for the characters to discover what we already know.
+The script reaches a tipping point when a naked Sister Matthieu confesses her desires. Sister Gertrude smiles an icy smile and orders Sister Matthieu to “Say you’re a dirty whore.”
+
+And here's where things go wrong. Instead of having Sister Gertrude go full-bonkers and become the titular "killer nun", the script gets talky. Sister Gertrude enacts a convoluted scheme to replace the head physician in a dead-end plot thread
+
+Worst of all, when the murders finally start, we know Sister Gertrude isn't the culprit. As a result, things drag while we wait for the characters to catch up.
 
 I can forgive much in an exploitation picture. Bad acting? Comes with the territory. Shabby effects? At least they tried. Stilted dialog? Good for a laugh. But boredom? For a “nunsploitation” picture, that’s a cardinal sin.
