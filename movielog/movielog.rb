@@ -45,25 +45,29 @@ module Movielog
 
     def viewings(getInfo: true)
       viewings = ParseViewings.call(viewings_path: viewings_path) || {}
+
+      return viewings unless getInfo
+
       viewings.values.each do |viewing|
-        if getInfo
-          info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
-          viewing.sortable_title = info.sortable_title
-          viewing.release_date = info.release_date
-        end
+        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
+        viewing.sortable_title = info.sortable_title
+        viewing.release_date = info.release_date
       end
+
       viewings
     end
 
     def reviews(getInfo: true)
       reviews = ParseReviews.call(reviews_path: reviews_path) || {}
+
+      return reviews unless getInfo
+
       reviews.values.each do |review|
-        if getInfo
-          info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
-          review.sortable_title = info.sortable_title
-          review.release_date = info.release_date
-        end
+        info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
+        review.sortable_title = info.sortable_title
+        review.release_date = info.release_date
       end
+
       reviews
     end
 
