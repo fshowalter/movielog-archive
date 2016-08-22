@@ -11,7 +11,8 @@ module Movielog
         # Responsible for processing an update viewings command.
         #
         def call
-          Movielog::Db::UpdateMostWatchedTables.call(db: Movielog.db, viewings: Movielog.viewings)
+          Movielog::Db::UpdateMostWatchedTables.call(
+            db: Movielog.db, viewings: Movielog.viewings(getInfo: false))
         end
       end
     end

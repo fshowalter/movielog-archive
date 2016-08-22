@@ -43,22 +43,26 @@ module Movielog
       File.expand_path('../../pages/', __FILE__)
     end
 
-    def viewings
+    def viewings(getInfo: true)
       viewings = ParseViewings.call(viewings_path: viewings_path) || {}
       viewings.values.each do |viewing|
-        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
-        viewing.sortable_title = info.sortable_title
-        viewing.release_date = info.release_date
+        if getInfo
+          info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
+          viewing.sortable_title = info.sortable_title
+          viewing.release_date = info.release_date
+        end
       end
       viewings
     end
 
-    def reviews
+    def reviews(getInfo: true)
       reviews = ParseReviews.call(reviews_path: reviews_path) || {}
       reviews.values.each do |review|
-        info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
-        review.sortable_title = info.sortable_title
-        review.release_date = info.release_date
+        if getInfo
+          info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
+          review.sortable_title = info.sortable_title
+          review.release_date = info.release_date
+        end
       end
       reviews
     end
