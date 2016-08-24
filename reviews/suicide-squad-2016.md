@@ -18,9 +18,9 @@ The team lacks edge. Deadshot won't kill women or children. Harley's just a brat
 
 The only characters packing genuine menace are Waller and The Joker, neither of whom is on the team.
 
-The Joker is hardly in the film. Jared Leto mashes up Heath Ledger's intensity in The Dark Knight (2008) with Jack Nicholson's flamboyant camp in Batman (1989). The resulting performance commands your attention, as would a train wreck.
+The Joker is hardly in the film. Jared Leto mashes up Heath Ledger's intensity in The Dark Knight (2008) with Jack Nicholson's flamboyant camp in Batman (1989). The resulting performance commands your attention; as would a train wreck.
 
-There's also a Batman cameo, but that too disappoints. In Batman v Superman: Dawn of Justice (2016), Batman erupted from the shadows to cripple thugs with brutal efficiency. Here, he floats down well-lit side streets and taps super-villains on the shoulder.
+Even the Batman cameo disappoints. In Batman v Superman: Dawn of Justice (2016), Batman erupted from the shadows to cripple thugs with brutal efficiency. Here, he floats down well-lit side streets and taps super-villains on the shoulder.
 
 Back to Suicide Squad.
 
