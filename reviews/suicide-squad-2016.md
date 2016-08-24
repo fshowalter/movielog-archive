@@ -14,7 +14,7 @@ You'd think an ancient demon threatening armageddon would be hard to forget, but
 
 The plot concerns a group of incarcerated super-villains brought together to form a super-powered Delta Force. Will Smith plays Deadshot, an assassin who never misses. Margot Robbie plays Harley Quinn, a former psychiatrist whose super-power is finding the Joker attractive. Viola Davis plays Amanda Waller, the puppet-master who sells the project to the Washington brass. The rest of the cast fall somewhere between underwritten and forgettable.
 
-The team lacks edge. Deadshot won't kill women or children. Harley's just a brat in love with a psycho. This isn't The Dirty Dozen (1976), it's The Bad News Bears (1976).
+The team lacks edge. Deadshot won't kill women or children. Harley's just a brat in love with a psycho. The Dirty Dozen (1976), this ain't.
 
 The only characters packing genuine menace are Waller and The Joker, neither of whom is on the team.
 
@@ -27,4 +27,3 @@ Back to Suicide Squad.
 The film struggled to hold my interest. There's a scene eighty-some-minutes in where the squad rescues Amanda Waller. I thought the movie over. But I'd forgotten the film's antagonists, a pair of supernatural entities bent on world destruction. Or some-such. Instead of the end-credits, I had to sit through forty more minutes of predictable plot points and bad CGI, most of which I’d forgotten by the following morning.
 
 That's Suicide Squad in a nutshell.
-
