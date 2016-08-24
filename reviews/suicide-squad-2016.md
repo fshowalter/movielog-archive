@@ -24,6 +24,6 @@ Even the Batman cameo disappoints. In Batman v Superman: Dawn of Justice (2016),
 
 Back to Suicide Squad.
 
-The film struggled to hold my interest. There's a scene eighty-some-minutes in where the squad rescues Waller. I thought the movie over. But I'd forgotten the film's antagonists, a pair of supernatural entities bent on world destruction or some-such. Instead of the end-credits, I had to sit through forty more minutes of predictable plot points and bad CGI, most of which I’d forgotten by the following morning.
+The film struggled to hold my interest. There's a scene eighty-some-minutes in where the squad rescues Waller. I thought the movie over. But I'd forgotten the film's antagonists, a pair of supernatural entities bent on world destruction or some-such. Instead of the end-credits, I had to sit through forty more minutes of predictable plot and bad CGI, most of which I’d forgotten by the following morning.
 
 That's Suicide Squad in a nutshell.
