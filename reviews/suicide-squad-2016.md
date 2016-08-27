@@ -10,7 +10,7 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8djVBdviljJn47Pj4+Oz47Oz4+Pj47Pj4+Pj4+Pjs+Pjs7Pj4+Oz4+Pjs7Oz47Ozs+Pj4+Pjs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAACAwABBf/EAB8QAAIBAgcAAAAAAAAAAAAAAAABAhIhAzEyUWGB8P/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AzUo72DnTCdLWXIluzGYmuXYhT9YgBCT/2Q=="
 ---
 
-Can you forget a movie while you’re watching it?
+What fresh hell is this?
 
 _Suicide Squad_ concerns a group of incarcerated super-villains made to form a super-powered Delta Force. Will Smith plays Deadshot, an assassin who never misses. Margot Robbie plays Harley Quinn, a former psychiatrist whose super-power is finding The Joker attractive. Viola Davis plays Amanda Waller, the puppet-master who sells the project to the Washington brass. The rest of the cast fall somewhere between underwritten and extraneous.
 
@@ -22,7 +22,5 @@ The only characters packing genuine menace are Waller and The Joker, neither of 
 
 The Joker is hardly in the film. Jared Leto mashes up Heath Ledger's intensity in _The Dark Knight (2008)_ with Jack Nicholson's flamboyant camp in _Batman (1989)_. The resulting performance is awful, but at least it holds your attention.
 
-The rest is forgettable. There's a scene eighty-some-minutes in where the squad rescues Waller. I thought the movie over. But I'd forgotten the film's antagonists, a pair of supernatural entities bent on world destruction or some-such. Instead of the end-credits, I faced forty more minutes of contrived plot and overwrought CGI, most of which I've since forgotten.
-
-That’s _Suicide Squad_ in a nutshell.
+The rest is forgettable. There's a scene eighty-some-minutes in where the squad rescues Waller. I thought the movie over. But I'd forgotten the film's antagonists, a pair of supernatural entities bent on world destruction or some-such. Instead of the end-credits, I faced forty more minutes of contrived plot and overwrought CGI, most of which I'd forgotten before I left the theater.
 
