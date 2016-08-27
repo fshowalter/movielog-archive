@@ -9,6 +9,12 @@
 :backdrop: https://lh3.googleusercontent.com/Q2kMPyTeOGo_FTB6jIctN6BYkcm72p5R4OtS0FiuwHsWTaz0vxJs5Y--z-CYvqDUDD2scRSUlFjP=w1000-l75-rj
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDRwjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj47Pj47Pj47Pjs+Pj4+Pj4+Oz47Pj4+Ozs+Ozs7Ozs7Oz47Ozs+Pjs+Ozs+Pjs+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAEAwD/xAAiEAABBAECBwAAAAAAAAAAAAABAAIDEQRywRITISUxUpH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJHG5eEeOifYDwhgua+RrjZugkY08ksE4e6wKr6jTdJZdeyBbMdksTXtuisq457fDpWUH//Z"
 ---
+In Stake Land the bad guys attack the good guys by dropping vampires out of helicopters.
+
+Why are you still reading? Either that makes you want to see the movie, or there’s something wrong with you.
+
+Okay, full disclosure, the bad guys only do that once.
+
 _Stake Land_ is set in a near-future where vamps (a kind of fast-running-zombie/vampire hybrid) have overrun the world. Enigmatic loner Mister takes in orphaned teen Martin. The pair head out in Mister's old Cadillac, searching for the fabled land of New Eden. Along the way, they run up against a fundamentalist neo-nazi militia that uses vamps as weapons, dropping them out of helicopters into neighboring towns.
 
 After a grisly opening sequence where a vamp drains and discards the corpse of an infant, _Stake Land_ keeps its baddies off-screen as much as possible. Instead, it's content to let the scenery establish atmosphere. Deserted strip malls. Desolate two-lane blacktops. Overgrown buildings. Rusted scrapheaps. An urban wilderness. It's more western than horror until the super-bloody third act.
