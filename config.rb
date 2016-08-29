@@ -4,7 +4,7 @@ require 'time'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, ignore: [/\/coverage\//, /\.haml_lint\./]
 end
 
 helpers Movielog::Helpers

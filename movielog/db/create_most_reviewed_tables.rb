@@ -10,7 +10,7 @@ module Movielog
         #
         # @param db [SQLite3::Database] The database.
         # @return [void]
-        def call(db: db)
+        def call(db:)
           db.execute_batch(most_reviewed_schema(
             type: 'performers', table: 'performance', threshold: 2))
           db.execute_batch(most_reviewed_schema(

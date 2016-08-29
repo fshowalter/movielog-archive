@@ -11,7 +11,7 @@ module Movielog
       'F' => '★'
     }
     class << self
-      def call(grade: grade)
+      def call(grade:)
         return '' if grade.blank?
         UNICODE_STAR_FOR_LETTER_GRADE[grade[0]]
       end

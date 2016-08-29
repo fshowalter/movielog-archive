@@ -19,7 +19,7 @@ module Movielog
       'F' => 5
     }
     class << self
-      def call(grade: grade)
+      def call(grade:)
         NUMBER_FOR_LETTER_GRADE[grade]
       end
     end

@@ -6,7 +6,7 @@ module Movielog
   #
   class ParsePages
     class << self
-      def call(pages_path: pages_path)
+      def call(pages_path:)
         Dir["#{pages_path}/*.md"].each_with_object({}) do |file, pages|
           begin
             read_file(file: file, pages: pages)

@@ -47,7 +47,7 @@ module Movielog
           ProgressBar.create(title: title, total: length, format: '%t |%w| %e')
         end
 
-        def prepare_insert_viewing_statement(db: db)
+        def prepare_insert_viewing_statement(db:)
           db.prepare(
           <<-SQL
           INSERT INTO viewings (title, date)

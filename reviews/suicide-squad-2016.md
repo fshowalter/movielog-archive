@@ -5,16 +5,16 @@
 :slug: suicide-squad-2016
 :date: 2016-08-21
 :imdb_id: tt1386697
-:grade: D
+:grade: F
 :backdrop: 'https://lh3.googleusercontent.com/L01xxwaB8vaZvOMiNDzVOC1Zpc_5Q9yvh2aiaLXA780phd7z09v35NeuYvOXmIbQFnaQ1bb4PzKn=w1000-l75-rj'
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8djVBdviljJn47Pj4+Oz47Oz4+Pj47Pj4+Pj4+Pjs+Pjs7Pj4+Oz4+Pjs7Oz47Ozs+Pj4+Pjs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAACAwABBf/EAB8QAAIBAgcAAAAAAAAAAAAAAAABAhIhAzEyUWGB8P/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AzUo72DnTCdLWXIluzGYmuXYhT9YgBCT/2Q=="
 ---
 
-What fresh hell is this?
+You'd think an ancient demon threatening armageddon would be hard to forget, but _Suicide Squad_ proves otherwise.
 
-_Suicide Squad_ concerns a group of incarcerated super-villains made to form a super-powered Delta Force. Will Smith plays Deadshot, an assassin who never misses. Margot Robbie plays Harley Quinn, a former psychiatrist whose super-power is finding The Joker attractive. Viola Davis plays Amanda Waller, the puppet-master who sells the project to the Washington brass. The rest of the cast fall somewhere between underwritten and extraneous.
+The plot concerns a group of incarcerated super-villains made to form a super-powered Delta Force. Will Smith plays Deadshot, an assassin who never misses. Margot Robbie plays Harley Quinn, a former psychiatrist whose super-power is finding The Joker attractive. Viola Davis plays Amanda Waller, the puppet-master who sells the project to the Washington brass. The rest of the cast fall somewhere between underwritten and extraneous.
 
-The team lacks edge. Deadshot won't kill women or children. Harley's just a brat in love with a psycho. _The Dirty Dozen (1976)_, this ain't.
+_The Dirty Dozen (1976)_, this ain't. Deadshot won't kill women or children. Harley's just a brat in love with a psycho. _The Bad News Bears (1976)_ had more edge.
 
 Even the Batman cameo disappoints. In _Batman v Superman: Dawn of Justice (2016)_, Batman erupted from the shadows to cripple thugs with brutal efficiency. Here, he floats down well-lit side streets to tap super-villains on the shoulder.
 

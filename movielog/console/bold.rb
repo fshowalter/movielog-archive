@@ -5,7 +5,7 @@ module Movielog
     #
     class Bold
       class << self
-        def call(text: text)
+        def call(text:)
           term = Term::ANSIColor
           term.cyan text
         end

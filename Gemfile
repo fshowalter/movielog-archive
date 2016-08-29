@@ -6,7 +6,7 @@ gem 'middleman-core', '~>3.3.2'
 gem 'middleman-sprockets', '>=3.1.2'
 
 # Live-reloading plugin
-gem 'middleman-livereload'
+gem 'middleman-livereload', '3.4.6'
 
 gem 'middleman-pagination', path: '../middleman-pagination'
 gem 'middleman-deploy'
@@ -29,7 +29,7 @@ gem 'movie_db', path: '../movie_db'
 
 gem 'rubocop', require: false
 gem 'scss-lint'
-gem 'haml-lint'
+gem 'haml_lint'
 gem 'csscss'
 gem 'yard'
 gem 'rspec', require: false

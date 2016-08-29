@@ -16,7 +16,7 @@ module Movielog
 
       private
 
-      def url_encode(text: text)
+      def url_encode(text:)
         URI.escape(text, /[^\w+-]/i)
       end
     end

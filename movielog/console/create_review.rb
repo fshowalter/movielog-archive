@@ -30,7 +30,7 @@ module Movielog
                                       slug: slugize(text: movie.display_title))
         end
 
-        def slugize(text: text)
+        def slugize(text:)
           Movielog::Slugize.call(text: text)
         end
 
