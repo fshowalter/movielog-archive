@@ -2,7 +2,8 @@
   review_slug = lambda do |review|
     grade = grade_to_image_tag(
       grade: review.grade,
-      options: { class: 'reviews_list-grade' })
+      options: { class: 'reviews_list-grade' }
+    )
 
     date = review.date.strftime('%d %b %Y')
 
