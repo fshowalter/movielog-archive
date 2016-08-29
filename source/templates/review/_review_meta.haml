@@ -1,8 +1,7 @@
 :ruby
   viewings = Movielog.viewings_for_title(title: review.db_title)
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
-  aka_titles = MovieDb.aka_titles_for_title(
-    db: Movielog.db, title: review.db_title, display_title: review.title)
+  aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title)
     .reject { |t| t.start_with?(review.title) }
 
   info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
