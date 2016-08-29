@@ -3,7 +3,7 @@
 :db_title: Suicide Squad (2016)
 :title: Suicide Squad (2016)
 :slug: suicide-squad-2016
-:date: 2016-08-21
+:date: 2016-08-29
 :imdb_id: tt1386697
 :grade: F
 :backdrop: 'https://lh3.googleusercontent.com/L01xxwaB8vaZvOMiNDzVOC1Zpc_5Q9yvh2aiaLXA780phd7z09v35NeuYvOXmIbQFnaQ1bb4PzKn=w1000-l75-rj'
