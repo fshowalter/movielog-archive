@@ -8,8 +8,8 @@ layout: :layout_single
   content_for(:title, "#{review.title} Movie Review")
   content_for(:javascript, javascript_include_tag('load-backdrops.js', async: :async))
   director = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
-    .map { |p| "#{p.first_name} #{p.last_name}" }
-    .first
+                    .map { |p| "#{p.first_name} #{p.last_name}" }
+                    .first
   info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
 
   review_content = lambda do |r|
