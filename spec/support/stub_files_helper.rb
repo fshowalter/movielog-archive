@@ -3,7 +3,7 @@ module Movielog
   # Responsible for stubbing review/viewing/feature files.
   #
   module StubFilesHelper
-    def stub_files(files: files, path: path)
+    def stub_files(files:, path:)
       expect(Dir).to receive(:[]).with(path) do
         stub_dir_enumerable(files: files.keys)
       end
@@ -13,7 +13,7 @@ module Movielog
       end
     end
 
-    def stub_dir_enumerable(files: files)
+    def stub_dir_enumerable(files:)
       enumerable_stub = double('enumerable')
       expect(enumerable_stub).to receive(:each_with_object) do |object, &block|
         files.each { |file| block.call(file, object) }
