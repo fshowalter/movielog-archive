@@ -15,6 +15,6 @@
     %li.reviews_list-item{ data_for_review(review: review) }
       .reviews_list-title
         %a{ href: href_for_review(review) }
-          = "#{review.title}"
+          = review.title
       .reviews_list-slug
         = review_slug.call(review)
