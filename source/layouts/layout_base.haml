@@ -9,7 +9,7 @@
       - elsif content_for?(:title)
         #{yield_content(:title)} | #{Movielog.site_title}
       - else
-        #{Movielog.site_title}
+        = Movielog.site_title
     - if content_for?(:head)
       = yield_content(:head)
     :javascript
