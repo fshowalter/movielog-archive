@@ -24,6 +24,7 @@ module Movielog
         end
 
         private
+
         # rubocop:disable Metrics/MethodLength
         def most_reviewed_schema(type:, table:, threshold:)
           <<-SQL
