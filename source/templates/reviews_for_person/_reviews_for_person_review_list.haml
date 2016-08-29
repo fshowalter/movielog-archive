@@ -21,7 +21,8 @@
         class: 'reviews_for_person_review_list-grade',
         width: '90px',
         height: '18px'
-      })
+      }
+    )
 
     first_paragraph(grade + ' ' + review.content)
   end
@@ -45,4 +46,3 @@
                 %img.backdrop-noscript{ src: review.backdrop }
             .reviews_for_person_review_list-excerpt
               = excerpt_for_review.call(review)
-
