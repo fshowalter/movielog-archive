@@ -1,6 +1,6 @@
 :ruby
 %ol.viewings_list#viewings
-  - viewings.values.sort_by(&:sequence).reverse.each do |viewing|
+  - viewings.values.sort_by(&:number).reverse.each do |viewing|
     - review = Movielog.reviews[viewing.db_title]
     %li.viewings_list-item{ data_for_viewing(viewing: viewing) }
       .viewings_list-item_title
