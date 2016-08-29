@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for converting a letter grade into a number.
@@ -17,7 +18,7 @@ module Movielog
       'D' => 7,
       'D-' => 6,
       'F' => 5
-    }
+    }.freeze
     class << self
       def call(grade:)
         NUMBER_FOR_LETTER_GRADE[grade]

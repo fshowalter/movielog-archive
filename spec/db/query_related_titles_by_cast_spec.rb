@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 describe Movielog::Db::QueryRelatedTitlesByCast do
@@ -78,13 +79,12 @@ describe Movielog::Db::QueryRelatedTitlesByCast do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Feathers',
-            position_in_credits: '4'
-          },
+            position_in_credits: '4' },
           { title: "Ocean's 11 (1960)",
             notes: nil,
             role: 'Beatrice Ocean',
-            position_in_credits: '5'
-          }]
+            position_in_credits: '5' }
+        ]
       },
       'Martin, Dean' => {
         full_name: 'Martin, Dean',
@@ -95,13 +95,11 @@ describe Movielog::Db::QueryRelatedTitlesByCast do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: "Dude ('Borachón')",
-            position_in_credits: '2'
-          },
+            position_in_credits: '2' },
           { title: "Ocean's 11 (1960)",
             notes: nil,
             role: 'Sam Harmon',
-            position_in_credits: '2'
-          },
+            position_in_credits: '2' },
           {
             title: 'Some Came Running (1958)',
             notes: nil,
@@ -131,8 +129,8 @@ describe Movielog::Db::QueryRelatedTitlesByCast do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Sheriff John T. Chance',
-            position_in_credits: '1'
-          }]
+            position_in_credits: '1' }
+        ]
       },
       'Nelson, Ricky' => {
         full_name: 'Nelson, Ricky',
@@ -143,8 +141,8 @@ describe Movielog::Db::QueryRelatedTitlesByCast do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Colorado Ryan',
-            position_in_credits: '3'
-          }]
+            position_in_credits: '3' }
+        ]
       }
     }
 

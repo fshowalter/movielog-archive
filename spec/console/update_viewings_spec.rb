@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 require 'support/io_helper'
 
@@ -11,5 +12,4 @@ describe Movielog::Console::UpdateViewings do
 
     Movielog::Console::UpdateViewings.call
   end
-
 end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   module Db
     #
@@ -15,7 +16,7 @@ module Movielog
         def call(db:, limit: 10)
           db.results_as_hash = true
 
-          most_watched_directors_query(db: db).execute(limit).each_with_object([]) do | row, a |
+          most_watched_directors_query(db: db).execute(limit).each_with_object([]) do |row, a|
             a << OpenStruct.new(row)
           end
         end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for converting a letter grade into a unicode star sequence.
@@ -9,7 +10,7 @@ module Movielog
       'C' => '★★★',
       'D' => '&#x2605;&#x2605;',
       'F' => '★'
-    }
+    }.freeze
     class << self
       def call(grade:)
         return '' if grade.blank?

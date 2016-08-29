@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for providing template helper methods.
@@ -14,7 +15,8 @@ module Movielog
       field_tag = text_field_tag(label.downcase, options)
 
       filter_control(control: content_tag(
-        :div, field_tag, class: 'filter-text_box_wrap'), label: label)
+        :div, field_tag, class: 'filter-text_box_wrap'
+      ), label: label)
     end
   end
 end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 describe Movielog::Db::QueryMostWatchedTitles do
@@ -55,8 +56,7 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Feathers',
-            position_in_credits: '4'
-          }
+            position_in_credits: '4' }
         ]
       },
       'Martin, Dean' => {
@@ -68,8 +68,7 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: "Dude ('Borachón')",
-            position_in_credits: '2'
-          }
+            position_in_credits: '2' }
         ]
       },
       'Sarandon, Chris' => {
@@ -81,13 +80,12 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: 'Fright Night (1985)',
             notes: nil,
             role: 'Jerry Dandrige',
-            position_in_credits: '1'
-          },
+            position_in_credits: '1' },
           { title: "Child's Play (1988)",
             notes: nil,
             role: 'Mike Norris',
-            position_in_credits: '1'
-          }]
+            position_in_credits: '1' }
+        ]
       }
     }
 

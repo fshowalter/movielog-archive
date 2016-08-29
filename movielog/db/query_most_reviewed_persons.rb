@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   module Db
     #
@@ -25,7 +26,7 @@ module Movielog
         private
 
         def process(db:, results:, most_reviewed:, credit_type:)
-          name_query(db: db, table: "most_reviewed_#{most_reviewed}").execute.each do | row |
+          name_query(db: db, table: "most_reviewed_#{most_reviewed}").execute.each do |row|
             add_results_for_row(db: db, results: results, row: row, table_name: "#{credit_type}_credits")
           end
         end

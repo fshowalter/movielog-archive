@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 require 'support/io_helper'
 
@@ -20,5 +21,4 @@ describe Movielog::Console::CreatePage do
     expect(page.sequence).to eq 2
     expect(page.slug).to eq 'test-page'
   end
-
 end

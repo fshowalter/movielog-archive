@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'movielog/movielog'
 require 'active_support/core_ext/array/conversions'
 require 'time'
@@ -43,7 +44,7 @@ helpers do
 
   def inline_css(_file)
     filename = File.expand_path("../#{yield_content(:inline_css)}", __FILE__)
-    style = Tilt['scss'].new { File.open(filename, 'rb') { |f| f.read } }.render
+    style = Tilt['scss'].new { File.open(filename, 'rb', &:read) }.render
 
     Middleman::Extensions::MinifyCss::SassCompressor.compress(style)
   end

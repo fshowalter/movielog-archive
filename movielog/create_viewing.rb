@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for creating new viewing instances.
@@ -7,7 +8,7 @@ module Movielog
       #
       # Responsible for creating a new viewing instance.
       #
-      def call(viewings_path:, title:, date:, display_title:, venue:, number:, slug:) # rubocop: disable Metrics/ParameterLists, Metrics/LineLength
+      def call(viewings_path:, title:, date:, display_title:, venue:, number:, slug:) # rubocop: disable Metrics/LineLength
         file_name = File.join(viewings_path, format('%04d', number) + '-' + slug + '.yml')
 
         viewing = build_viewing(number: number,

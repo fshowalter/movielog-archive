@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 describe Movielog::Db::QueryMostWatchedDirectors do
@@ -51,8 +52,7 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         annotation: nil,
         director_credits: [
           { title: 'Rio Bravo (1959)',
-            notes: nil
-          }
+            notes: nil }
         ]
       },
       'Holland, Tom' => {

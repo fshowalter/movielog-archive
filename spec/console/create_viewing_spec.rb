@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 require 'support/io_helper'
 
@@ -23,8 +24,8 @@ describe Movielog::Console::CreateViewing do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Feathers',
-            position_in_credits: '4'
-          }]
+            position_in_credits: '4' }
+        ]
       },
       'Martin, Dean' => {
         full_name: 'Martin, Dean',
@@ -35,8 +36,8 @@ describe Movielog::Console::CreateViewing do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: "Dude ('Borachón')",
-            position_in_credits: '2'
-          }]
+            position_in_credits: '2' }
+        ]
       },
       'Wayne, John' => {
         full_name: 'Wayne, John',
@@ -47,8 +48,8 @@ describe Movielog::Console::CreateViewing do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Sheriff John T. Chance',
-            position_in_credits: '1'
-          }]
+            position_in_credits: '1' }
+        ]
       },
       'Nelson, Ricky' => {
         full_name: 'Nelson, Ricky',
@@ -59,8 +60,8 @@ describe Movielog::Console::CreateViewing do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Colorado Ryan',
-            position_in_credits: '3'
-          }]
+            position_in_credits: '3' }
+        ]
       }
     }
 
@@ -94,11 +95,11 @@ describe Movielog::Console::CreateViewing do
     viewing = Movielog::Console::CreateViewing.call
     expect(viewing.to_h).to eq(
 
-        title: 'Rio Bravo (1959)',
-        db_title: 'Rio Bravo (1959)',
-        number: 12,
-        venue: 'Blu-ray',
-        date: Date.parse('2014-8-30')
-      )
+      title: 'Rio Bravo (1959)',
+      db_title: 'Rio Bravo (1959)',
+      number: 12,
+      venue: 'Blu-ray',
+      date: Date.parse('2014-8-30')
+    )
   end
 end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'inquirer'
 
 # overload all necessary methods of iohelper
@@ -13,15 +14,15 @@ module IOHelper
       @output = ''
     end
 
-    def rerender(sth) # rubocop:disable Style/TrivialAccessors
+    def rerender(sth)
       @output = sth
     end
 
-    def read_key_while(_return_char = false, &block)
+    def read_key_while(_return_char = false)
       chop_index = nil
       Array(@keys).each_with_index do |key, index|
         chop_index = index
-        break unless block.call(key)
+        break unless yield(key)
       end
       @keys.slice!(0, chop_index + 1) if chop_index
     end

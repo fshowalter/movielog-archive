@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   module Db
     #
@@ -23,7 +24,8 @@ module Movielog
             next unless reviewed_performer?(db: db, performer_full_name: performer.full_name)
 
             performers[performer] = review_titles_for_performer(
-              db: db, performer: performer.full_name)
+              db: db, performer: performer.full_name
+            )
           end
 
           performers

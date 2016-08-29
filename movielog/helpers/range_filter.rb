@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for providing template helper methods.
@@ -20,9 +21,11 @@ module Movielog
             [
               build_slider(context: context),
               context.input_tag(
-                :number, value: min, min: min, max: max, step: 1, class: 'filter-numeric min'),
+                :number, value: min, min: min, max: max, step: 1, class: 'filter-numeric min'
+              ),
               context.input_tag(
-                :number, value: max, min: min, max: max, step: 1, class: 'filter-numeric max')
+                :number, value: max, min: min, max: max, step: 1, class: 'filter-numeric max'
+              )
             ].join.html_safe
           end
         end
@@ -44,7 +47,8 @@ module Movielog
           context.content_tag(
             :div,
             context.content_tag(:div, nil, class: "noUi-handle noUi-handle-#{position}"),
-            class: "noUi-origin noUi-origin-#{position}", style: "left: #{left};")
+            class: "noUi-origin noUi-origin-#{position}", style: "left: #{left};"
+          )
         end
 
         def range_filter_options(attribute:, min:, max:)

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 describe Movielog do
@@ -5,7 +6,8 @@ describe Movielog do
     allow(MovieDb).to receive(:info_for_title) do
       OpenStruct.new(
         sortable_title: 'stubbed title',
-        release_date: 'stubbed release date')
+        release_date: 'stubbed release date'
+      )
     end
   end
 
@@ -24,7 +26,8 @@ describe Movielog do
   describe '#next_viewing_number' do
     it 'returns the number of viewings plus one' do
       expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)) do
+        receive(:call).with(viewings_path: Movielog.viewings_path)
+      ) do
         {
           1 => OpenStruct.new(db_title: 'title 1', sequence: 2),
           2 => OpenStruct.new(db_title: 'title 2', sequence: 1)
@@ -38,7 +41,8 @@ describe Movielog do
   describe '#reviews_by_sequence' do
     it 'returns the reviews sorted by sequence in reverse' do
       expect(Movielog::ParseReviews).to(
-        receive(:call).with(reviews_path: Movielog.reviews_path)) do
+        receive(:call).with(reviews_path: Movielog.reviews_path)
+      ) do
         {
           'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
           'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
@@ -55,7 +59,8 @@ describe Movielog do
   describe '#next_post_number' do
     it 'returns the number of reviews and features plus one' do
       expect(Movielog::ParseReviews).to(
-        receive(:call).with(reviews_path: Movielog.reviews_path)) do
+        receive(:call).with(reviews_path: Movielog.reviews_path)
+      ) do
         {
           'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
           'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
@@ -63,7 +68,8 @@ describe Movielog do
       end
 
       expect(Movielog::ParsePages).to(
-        receive(:call).with(pages_path: Movielog.pages_path)) do
+        receive(:call).with(pages_path: Movielog.pages_path)
+      ) do
         {
           2 => 'a page'
         }
@@ -101,19 +107,20 @@ describe Movielog do
       end
 
       expect(Movielog.viewed_titles).to match_array([
-        'Rio Bravo (1959)',
-        'The Big Sleep (1946)',
-        'Reservoir Dogs (1992)',
-        'North by Northwest (1959)',
-        'Some Like it Hot (1959)'
-      ])
+                                                      'Rio Bravo (1959)',
+                                                      'The Big Sleep (1946)',
+                                                      'Reservoir Dogs (1992)',
+                                                      'North by Northwest (1959)',
+                                                      'Some Like it Hot (1959)'
+                                                    ])
     end
   end
 
   describe '#venues' do
     it 'returns a unique collection of venues' do
       expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)) do
+        receive(:call).with(viewings_path: Movielog.viewings_path)
+      ) do
         {
           1 => OpenStruct.new(venue: 'Blu-ray'),
           2 => OpenStruct.new(venue: 'Amazon Instant'),
@@ -124,18 +131,19 @@ describe Movielog do
       end
 
       expect(Movielog.venues).to eq([
-        'Amazon Instant',
-        'Blu-ray',
-        'DVD',
-        'Netflix Streaming'
-      ])
+                                      'Amazon Instant',
+                                      'Blu-ray',
+                                      'DVD',
+                                      'Netflix Streaming'
+                                    ])
     end
   end
 
   describe '#viewings_for_title' do
     it 'returns a collection of viewings for the given title' do
       expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)) do
+        receive(:call).with(viewings_path: Movielog.viewings_path)
+      ) do
         {
           1 => OpenStruct.new(db_title: 'Rio Bravo (1959)', sequence: 1),
           2 => OpenStruct.new(db_title: 'The Big Sleep (1946)', sequence: 2),

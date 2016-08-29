@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for converting text to a format suitable for use in a url.
@@ -7,7 +8,7 @@ module Movielog
       def call(text:, replacement: '-')
         slugged = text.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
         slugged.gsub!('&', 'and')
-        slugged.gsub!(':', '')
+        slugged.delete!(':')
         slugged.gsub!(/[^\w_\-#{Regexp.escape(replacement)}]+/i, replacement)
         slugged.gsub!(/#{replacement}{2,}/i, replacement)
         slugged.gsub!(/^#{replacement}|#{replacement}$/i, '')

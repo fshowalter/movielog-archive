@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   #
   # Responsible for providing template helper methods.
@@ -27,7 +28,7 @@ module Movielog
         'C' => ['3-stars.svg', '3 Stars (out of 5)'],
         'D' => ['2-stars.svg', '2 Stars (out of 5)'],
         'F' => ['1-star.svg', '1 Star (out of 5)']
-      }
+      }.freeze
 
       class << self
         def call(grade:)

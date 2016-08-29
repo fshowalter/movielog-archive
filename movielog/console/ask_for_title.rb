@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   module Console
     #
@@ -30,7 +31,8 @@ module Movielog
           results.each do |movie|
             movie.headline_cast = MovieDb.headline_cast_for_title(db: db, title: movie.title)
             movie.aka_titles = MovieDb.aka_titles_for_title(
-              db: db, title: movie.title, display_title: movie.display_title)
+              db: db, title: movie.title, display_title: movie.display_title
+            )
           end
 
           results

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Movielog
   module Db
     #
@@ -49,7 +50,7 @@ module Movielog
 
         def prepare_insert_reviews_statement(db:)
           db.prepare(
-          <<-SQL
+            <<-SQL
           INSERT INTO reviews (title, date)
             VALUES (:title, :date)
           SQL

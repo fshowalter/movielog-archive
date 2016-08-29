@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'movie_db'
 
 Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
