@@ -3,7 +3,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem 'middleman-core', '~>3.3.2'
+gem 'middleman-core', '~>3.4.0'
 gem 'middleman-sprockets', '>=3.1.2'
 
 # Live-reloading plugin
@@ -21,7 +21,6 @@ gem 'sass-globbing', '1.1.0'
 gem 'redcarpet'
 gem 'uglifier'
 gem 'execjs'
-gem 'listen', '~> 2.7.0'
 gem 'oj'
 
 gem 'inquirer'

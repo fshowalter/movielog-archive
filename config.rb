@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 require 'movielog/movielog'
 require 'active_support/core_ext/array/conversions'
+require 'active_support/core_ext/integer/inflections'
 require 'time'
 
 # Reload the browser automatically whenever files change
