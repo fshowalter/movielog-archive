@@ -94,6 +94,7 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
+  deploy.clean = true
 end
 
 activate :sitemap, hostname: 'https://www.franksmovielog.com'
