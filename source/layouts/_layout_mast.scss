@@ -5,9 +5,13 @@ $color_search_button_background: #1f1f1f;
 $color_search_button_border: #444;
 
 .layout_mast {
-  height: 40px;
+  height: 80px;
   overflow: hidden;
   position: relative;
+}
+
+.js .layout_mast {
+  height: 40px;
 }
 
 .layout_mast-nav {
@@ -142,7 +146,7 @@ $color_search_button_border: #444;
   border: 1px solid $color_search_button_border;
   -webkit-border-fit: border;
   border-radius: 4px;
-  display: block;
+  display: none;
   height: 34px;
   margin: 0;
   overflow: hidden;
@@ -172,14 +176,18 @@ $color_search_button_border: #444;
   }
 }
 
+.js .layout_mast-search_button {
+  display: block;
+}
+
 .layout_mast-search_form {
-  border: 3px solid $color_mast_background;
+  border: 2px solid $color_mast_background;
   height: 40px;
   left: 0;
   opacity: 1;
   position: absolute;
-  right: 35px;
-  top: 0;
+  right: 0;
+  top: 40px;
   transition: opacity .5s ease;
   z-index: 500;
 
@@ -187,6 +195,12 @@ $color_search_button_border: #444;
     left: auto;
     width: 40%;
   }
+}
+
+.js .layout_mast-search_form {
+  top: 0;
+  right: 35px;
+  border-width: 3px;
 }
 
 .js .layout_mast-search_form.js-toggle_off {
