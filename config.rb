@@ -176,6 +176,9 @@ module Sass::Script::Functions # rubocop:disable Style/ClassAndModuleChildren
   end
 end
 
+#
+# Opened to fix build deleting the .git directory.
+#
 module Middleman::Cli
   class BuildAction < ::Thor::Actions::EmptyDirectory
     # Remove files which were not built in this cycle
@@ -186,8 +189,8 @@ module Middleman::Cli
       end
 
       ::Middleman::Util.glob_directory(@build_dir.join('**', '*'))
-        .select { |d| File.directory?(d) }
-        .each do |d|
+                       .select { |d| File.directory?(d) }
+                       .each do |d|
         base.remove_file d, force: true if directory_empty? d
       end
     end
