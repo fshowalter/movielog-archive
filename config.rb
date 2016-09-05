@@ -179,7 +179,7 @@ end
 #
 # Opened to fix build deleting the .git directory.
 #
-module Middleman::Cli
+module Middleman::Cli # rubocop:disable Style/ClassAndModuleChildren
   class BuildAction < ::Thor::Actions::EmptyDirectory
     # Remove files which were not built in this cycle
     # @return [void]
