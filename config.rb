@@ -175,3 +175,21 @@ module Sass::Script::Functions # rubocop:disable Style/ClassAndModuleChildren
     Sass::Script::String.new(data_url)
   end
 end
+
+module Middleman::Cli
+  class BuildAction < ::Thor::Actions::EmptyDirectory
+    # Remove files which were not built in this cycle
+    # @return [void]
+    def clean!
+      @to_clean.each do |f|
+        base.remove_file(f, force: true) unless f =~ /\.git/
+      end
+
+      ::Middleman::Util.glob_directory(@build_dir.join('**', '*'))
+        .select { |d| File.directory?(d) }
+        .each do |d|
+        base.remove_file d, force: true if directory_empty? d
+      end
+    end
+  end
+end
