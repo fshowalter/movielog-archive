@@ -17,4 +17,4 @@ Turns out, it's a remake of _The Phantom City (1928)_ and even recycles some of 
 
 As for Wayne, his performance is stiff and unsure, miles from his signature laconic persona.  At twenty-five, he was still learning.
 
-And then there's Blue Washington as Wayne's sidekick. It's an unfunny and demeaning role that sees him referred to as "boy" by Wayne and "watermelon mouth" by the villains. It makes an already bad movie uncomfortable.
+And then there's Blue Washington as Wayne's sidekick. It's an unfunny and demeaning role that sees him referred to as "boy" by Wayne and "watermelon mouth" by the villains. It makes a bad movie even worse.
