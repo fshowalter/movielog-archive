@@ -10,22 +10,22 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo91jIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj47Pj4+Pj47Pj4+Ozs7Pjs+Pjs+Oz4+Pjs7Oz47Ozs7Ozs7Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUB/8QAHRAAAQQCAwAAAAAAAAAAAAAAEQABAgMSMxQjQv/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIRAxEAPwCbVJpTAT3XlGOHlnKm07k5GT84Fxiho4XtcXOELLdqEolf/9k="
 ---
 
-_Don't Breathe_ offers ample tension but little logic.
+Don't Breathe offers ample tension but little logic.
 
-The plot sees a group of teens break into a blind man's home in search of cash. The script offers an explanation for a man holding so much cash in a dilapidated house, but it’s one the kids could not have known going in.
+The plot sees a group of teens break into a blind man's home in search of cash. There's a reason he's holding so much cash in a dilapidated house, but it's one the kids couldn't have known when they planned the robbery.
 
-It’s an early tip-off to the film’s biggest problem: it makes no sense. The script takes pains to setup explanations for all the character’s behavior, but there’s not plausible. They exist only to support the plot.
+It's a tip-off to the film's biggest problem: it makes no sense. The script takes pains to explain itself via awkward exposition, but that isn't enough. In a good script, a character's actions seem inevitable, here they seem obligatory.
 
-Consider when the kids first enter they house. They take off their shoes. The explanation offered is to avoid making noise, but in a creaky old house, does it matter? What if they had to escape quickly? No, the true reason they have to take off their shoes is so the old man can later develop super-senses and smell them, and thus realize how many people are in his house.
+Consider how the kids take off their shoes when they enter the house to avoid making noise. Upon reflection this falls apart. In a creaky old house, weight, not footwear, matters. And what if they had to flee? No, the only reason they remove their shoes is so the old man can later develop super-sense and smell them, because the script needs him to know how many people are in his house.
 
-Or later, once the kids are inside, their plan is to search everywhere but the bedroom. You know, the one place folks would likely keep a large amount of cash? The script doesn’t even try to explain this one.
+The inanity continues with the kids plan once they're inside. They search everywhere but the bedroom. You know, the place most folks would keep a secret stash of cash? The script doesn't even try to explain this one.
 
-Or even later, when the kids find themselves trapped in the man's home. The man, who turns out to be something of an aged Wolverine, is armed and chasing them. Where do the kids flee? Why the cellar, of course! Because that's a natural instinct when trying to escape a house.
+But the worst of the improbable plotting comes when the kids find themselves trapped in the house. The man, who bears a more than passing resemblance to an aged Wolverine, is armed and chasing them. Where do the kids flee? Why, the cellar, of course! Because where else would you go when trying to escape a house?
 
-To the film's credit, it manages to keep you from realizing these logic gaps while you’re watching by ratcheting up the on screen tension to visceral levels. I let out a rare gasp when a character gave away his presence via a creaky floorboard.
+To the film's credit, it distracts you by ratcheting the tension to visceral levels. I let out a rare audible gasp when one character gave away his presence via a creaky floorboard.
 
-But as the film goes on this becomes unsustainable. Plot twists soon supplant tension as the distraction of choice. The film’s already suspect logic goes out the window as gross-outs replace suspense.
+But this proves unsustainable, even for only 88 minutes. Plot twists soon supplant tension. The film's already suspect logic goes out the window as gross-outs replace suspense.
 
-By this point I’d lost patience with the film. Despite being armed and ferocious, the old man is still blind. Grab a hammer, crowbar, or one of the myriad of other tools the film takes pains to highlight, hide behind a door, and club him when he comes into the room.
+By this point, I'd lost patience. The old man may be armed and ferocious, but he's still blind. Grab a hammer, crowbar, or one of the other tools the film highlights, hide behind a door, and club the old man when he enters the room.
 
-If may be titled _Don't Breathe_, but a more accurate title might be _Don't Think_.
+It's called Don't Breathe, but a better title would be Don't Think.
