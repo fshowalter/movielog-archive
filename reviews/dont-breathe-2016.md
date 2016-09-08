@@ -12,20 +12,20 @@
 
 Don't Breathe offers ample tension but little logic.
 
-The plot sees a group of teens break into a blind man's home in search of cash. There's a reason he's holding so much cash in a dilapidated house, but it's one the kids couldn't have known when they planned the robbery.
+The plot sees a trio of teens break into a blind man's home in search of cash. There's a reason the man's keeping so much money in his dilapidated house, but the kids couldn't have known it when they planned the robbery.
 
-It's a tip-off to the film's biggest problem: it makes no sense. The script takes pains to explain itself via awkward exposition, but that isn't enough. In a good script, a character's actions seem inevitable, here they seem obligatory.
+And that the film's biggest problem: it makes no sense. The script proffers explanations via awkward exposition, but it's not enough. A character's actions should feel inevitable, here they feel obligatory.
 
-Consider how the kids take off their shoes when they enter the house to avoid making noise. Upon reflection this falls apart. In a creaky old house, weight, not footwear, matters. And what if they had to flee? No, the only reason they remove their shoes is so the old man can later develop super-sense and smell them, because the script needs him to know how many people are in his house.
+Consider how the kids leave their shoes by the door when they enter the house. Not to avoid making noise as they walk, but so the man can later smell the shoes and learn the number of people in his house.
 
-The inanity continues with the kids plan once they're inside. They search everywhere but the bedroom. You know, the place most folks would keep a secret stash of cash? The script doesn't even try to explain this one.
+The forced plotting continues with the kids searching everywhere in the house save the man's bedroom. The script doesn't even try to explain this one.
 
-But the worst of the improbable plotting comes when the kids find themselves trapped in the house. The man, who bears a more than passing resemblance to an aged Wolverine, is armed and chasing them. Where do the kids flee? Why, the cellar, of course! Because where else would you go when trying to escape a house?
+I reached my limit when the kids, trapped and running from the pistol wielding man, flee into the cellar. Because where else would one run when trying to escape a house?
 
-To the film's credit, it distracts you by ratcheting the tension to visceral levels. I let out a rare audible gasp when one character gave away his presence via a creaky floorboard.
+To the film's credit, it distracts you from these logic gaps by ratcheting the tension to visceral levels. I let out an audible gasp when one character gave away his presence via a creaky floorboard.
 
-But this proves unsustainable, even for only 88 minutes. Plot twists soon supplant tension. The film's already suspect logic goes out the window as gross-outs replace suspense.
+But the film can't sustain this approach. As it wears on, plot twists replace tension. It's already suspect logic goes out the window as gross-outs supplant suspense.
 
-By this point, I'd lost patience. The old man may be armed and ferocious, but he's still blind. Grab a hammer, crowbar, or one of the other tools the film highlights, hide behind a door, and club the old man when he enters the room.
+By this point, I'd lost patience. The man may pack a pistol and a mean left hook, but he's still blind. Grab a hammer, crowbar, or similar tool, hide behind a door, and club him when he enters the room.
 
-It's called Don't Breathe, but a better title would be Don't Think.
+Instead of Don't Breathe, they should have called it Don't Think.
