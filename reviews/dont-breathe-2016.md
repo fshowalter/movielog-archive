@@ -10,20 +10,16 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeDSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo91jIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj47Pj4+Pj47Pj4+Ozs7Pjs+Pjs+Oz4+Pjs7Oz47Ozs7Ozs7Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUB/8QAHRAAAQQCAwAAAAAAAAAAAAAAEQABAgMSMxQjQv/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIRAxEAPwCbVJpTAT3XlGOHlnKm07k5GT84Fxiho4XtcXOELLdqEolf/9k="
 ---
 
-_Don't Breathe_ wastes a great setup.
+The more I think about _Don't Breathe_, the less I like it.
 
-The story sees a teen trio burgle a blind man's dilapidated Detroit home. But the mark proves resourceful, and soon the kids are fighting to escape.
+The story sees a trio of teens burgle a blind man's dilapidated Detroit home. But the mark proves resourceful, and soon the kids are fighting to escape.
 
-The film shines during the kids' first encounter with the blind man. These scenes crackle with palpable tension. I gasped aloud when one character revealed his presence via a creaky floorboard.
+Getting the kids into the house takes forever. We sit through pages of clunky exposition meant to endear the kids to us. It does not.
 
-Then the script ruins everything.
+Once inside, we’re treated to the film’s lone highlight. The kids' initial encounter with the blind man crackles with palpable tension. I gasped aloud when one character revealed his presence via a creaky floorboard.
 
-Forced plotting masquerading as cleverness plagues the film. Consider the kids removing their shoes when they enter the house. Later, the blind man smells the shoe pile to discern the number of people inside his home. Using one improbable act to set up another isn't clever, it's lazy writing.
+Then the plot kicks in, shuffling the characters from one set piece to another with no relatable behavior or convincing motivation. It's lazy writing run amok.
 
-The film teams with it. Like the kids searching everywhere save the bedroom. Or later, when the trapped kids flee into the cellar. Or everything after that.
+As time passed, I grew restless. The script ignores the obvious. The man is blind. Grab a hammer, hide behind a door, and brain him. None of the teens try it.
 
-As time passed, I lost patience. The script ignores the obvious. The man is blind. Grab a hammer, hide behind a door, and brain him.
-
-A sense of humor might have saved it. But the film piles one outlandish plot twist upon another without even a wink toward its own inanity. Worse still, it gets downright ugly, insulting more than our intelligence.
-
-The premise holds potential, but the execution frustrates. The more I think about _Don't Breathe_, the less I like it.
+A sense of humor might have saved the movie. But it piles one outlandish plot twist upon another without even a wink toward its own inanity. Even worse, the twists turn downright ugly, proving _Don't Breathe_ would rather push our buttons than tell a compelling story.
