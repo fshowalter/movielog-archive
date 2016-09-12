@@ -9,9 +9,9 @@
 :backdrop: https://lh3.googleusercontent.com/yl-Rqf7_LBlfsTZ4M_YWpKDl55lGDGKRlJnBs90OWN9L8dgRIaHZZ2mb8ZUjBMSTjWUiOgheTMoD=w1000-l75-rj
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAQMC/8QAIRAAAgIBAwUBAAAAAAAAAAAAAQIAEQMiMVEhQWFx0QT/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A1hUZEcM2o2B4k7yisfA7e41052rptKfr3J4+QFjdlWjYPBhIISqADaoQP//Z"
 ---
-Even the most ardent John Wayne fans will struggle with _Haunted Gold_.
+I like John Wayne, but I struggled with _Haunted Gold_.
 
-Wayne plays a cowboy investigating an abandoned mine. It's a talky story involving half-shares in mines, frame-ups, betrayals, and a mysterious Phantom.
+Wayne plays a cowboy investigating an abandoned mine. It's a dull, talky story involving half-shares in mines, frame-ups, betrayals, and a mysterious Phantom.
 
 Turns out, it's a remake of _The Phantom City (1928)_ and even recycles some of that picture's footage. In true B-movie fashion, those shots use a different film stock.
 
