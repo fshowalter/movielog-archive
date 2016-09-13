@@ -198,13 +198,13 @@ $color_search_button_border: #444;
 }
 
 .js .layout_mast-search_form {
-  top: 0;
-  right: 35px;
   border-width: 3px;
-}
+  right: 35px;
+  top: 0;
 
-.js .layout_mast-search_form.js-toggle_off {
-  opacity: 0;
+  &.js-toggle_off {
+    opacity: 0;
+  }
 }
 
 .layout_mast-search_input {
