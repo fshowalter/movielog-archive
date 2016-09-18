@@ -156,7 +156,8 @@ ready do
     ['features/how-i-grade', 'how-i-grade/'],
     ['features/welcome-back', 'about/'],
     ['feed', 'feed.xml'],
-    ['browse/reviews/haunted-gold-1932', 'reviews/haunted-gold-1932/']
+    ['browse/reviews/haunted-gold-1932', 'reviews/haunted-gold-1932/'],
+    ['browse/reviews/ride-him-cowboy-1932', 'reviews/ride-him-cowboy-1932/']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
