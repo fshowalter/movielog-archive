@@ -3,7 +3,7 @@
 :db_title: Ride Him, Cowboy (1932)
 :title: Ride Him, Cowboy (1932)
 :slug: ride-him-cowboy-1932
-:date: 2016-09-13
+:date: 2016-09-19
 :imdb_id: tt0023396
 :grade: 'D+'
 :backdrop: https://lh3.googleusercontent.com/E-QB2xmfRBF3cjt4GWqiNxjZOqiPaHo5_wbatcoAr0x6dppxSllTDAwdazWYBsjB_T2p5RAE_LGY=w1000-l75-rj
