@@ -21,7 +21,7 @@ See, I also spent a lot of time tinkering with this site. My day job is software
 
 So I'm declaring review bankruptcy.
 
-What's that mean? Well, in a nutshell, I'm starting over. I've still got the list (over in the [viewing log](/viewings)) of everything I've seen since January 1st 2012, but I'm starting over on reviews.
+What's that mean? Well, in a nutshell, I'm starting over. I've still got the list (over in the [viewing log](/viewings/)) of everything I've seen since January 1st 2012, but I'm starting over on reviews.
 
 One of my goals when I started the site was to become a better writer by forcing myself to write more. But writing a review for every movie I watch isn't going to help if the reviews are crap.
 
