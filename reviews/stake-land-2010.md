@@ -19,4 +19,4 @@ The production values and supporting performances are better than the film's all
 
 But _Stake Land_ isn't without its problems. The voice-over narration feels unnecessary. And I couldn't buy co-writer Nick Damici as Mister. His eyes betray the grizzled facade. Warren Oates would have been perfect, were he forty years younger and not dead.
 
-That said, did I mention the bad guys drop vampires from helicopters?
+But hey, did I mention the bad guys drop vampires from helicopters?
