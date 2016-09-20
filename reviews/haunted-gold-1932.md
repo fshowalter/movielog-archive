@@ -12,13 +12,13 @@
 
 I like John Wayne, but I struggled with _Haunted Gold_.
 
-This was the first movie produced under a six-picture contract Wayne signed with Warner Bros.
+This was the first movie produced under a six-picture contract Wayne signed with Warner Bros. It's a remake of _The Phantom City (1928)_.
 
 When Warner Bros. acquired First National Pictures a few years prior, they inherited the rights to several silent westerns starring Ken Maynard. These were popular, A-list productions featuring Maynard’s impressive stunt work.
 
 Warner Bros. sought to remake the Maynard silents with sound, recycling as much footage as possible, reshooting only the close-ups and interiors. All they needed was an actor who matched Maynard’s build. Enter Wayne.
 
-In this remake of _The Phantom City (1928)_, Wayne plays a cowboy investigating an abandoned mine. It’s a dull, talky story involving half-shares in mines, frame-ups, betrayals, and a mysterious Phantom. One assumes Maynard's version had more life.
+Wayne plays a cowboy investigating an abandoned mine. It’s a dull, talky story involving half-shares in mines, frame-ups, betrayals, and a mysterious Phantom. One assumes Maynard's version had more life.
 
 Wayne's performance is stiff and unsure, lacking even a glimpse of his signature laconic persona.
 

@@ -18,7 +18,7 @@ When Warner Bros. acquired First National Pictures a few years prior, they inher
 
 Warner Bros. sought to remake the Maynard silents with sound, recycling as much footage as possible, reshooting only the close-ups and interiors. All they needed was an actor who matched Maynard’s build. Enter Wayne.
 
-This time, Wayne plays a wandering cowboy who tries to apprehend a mysterious outlaw known as The Hawk, only to end up framed for the outlaw's crimes.
+Wayne plays a wandering cowboy who tries to apprehend a mysterious outlaw known as The Hawk, only to end up framed for the outlaw's crimes.
 
 The opening sequence reveals The Hawk's identity, so there's no mystery. It also telegraphs the finale by introducing someone who can identify The Hawk. Granted, said person lies comatose but, as the doctor says, “He'll be fine.”
 
