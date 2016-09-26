@@ -12,7 +12,7 @@
 
 _The Witch_ gets better with each viewing.
 
-Without revealing too much, the story follows a Puritan family exiled from their plantation in 17th century New England. Alone in the wild, they establish a small farm outside a looming forest. Tragedies beset them. As the stress mounts, they turn against one-another, unaware of the horror lurking in the woods nearby.
+Without revealing too much, the story follows a Puritan family exiled from their plantation in 17th century New England. Alone in the wild, they establish a small farm outside a looming forest. Tragedies beset them. As the stress mounts, they turn against one another, unaware of the horror lurking in the woods nearby.
 
 The film requires active listening. Writer-director Robert Eggers sourced his dialog from documents and diaries written during the film’s period. The resulting English sounds a step removed from our own, packed with “thee”s and “thou”s and unfamiliar inflections. Those expecting to sit back, tune out, and be entertained may find themselves frustrated.
 
@@ -23,8 +23,3 @@ Eggers's commitment seems to have inspired his cast. Everyone impresses, but pre
 This isn’t a film of jump-scares, or gory set pieces. The story marches with a grim, nihilistic inevitability. Take out the supernatural elements and you still have a riveting drama.
 
 And that’s what makes _The Witch_ so special. It works as a horror movie. It works as a drama. It works as a fable. It works as an indictment of patriarchal societies. Like all great films, it rewards subsequent viewings. Whether you're savoring the attention to detail, or exploring the subtext, the film satisfies. As of this writing, I’ve seen it twice. That's not nearly enough.
-
-
-
-
-
