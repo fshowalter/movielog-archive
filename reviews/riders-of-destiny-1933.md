@@ -3,7 +3,7 @@
 :db_title: Riders of Destiny (1933)
 :title: Riders of Destiny (1933)
 :slug: riders-of-destiny-1933
-:date: 2016-09-28
+:date: 2016-10-03
 :imdb_id: tt0024500
 :grade: D
 :backdrop: 'https://lh3.googleusercontent.com/XQ2i0QG1HLggAkzMOlhIq5OtUnqD7MgY0WHbIdKxNDMyCEzlFNnQ5iKW-qG8I2CKbWqMvUPaEj1U=w1000-l75-rj'
