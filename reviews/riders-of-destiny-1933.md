@@ -12,14 +12,12 @@
 
 _Riders of Destiny_ is not a good movie, but it is an important one.
 
-It was John Wayne’s first film for Monogram Pictures. Over the next two years, Monogram cast Wayne as the lead in 16 pictures, all westerns. These productions were quick and cheap, wrapping in about a week with a budget of around ten-thousand dollars. Unlike the oaters Wayne was shooting for Warner Bros., which were remakes featuring recycled footage, these were original productions with original stunt work.
+It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice belongs to the director's son, and it's clear Wayne won't win any lip-sync awards. After his introduction, Wayne evades some evil henchmen in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. With laughable dialog and stilted pacing, the film works best when it cuts to the action.
 
-Wayne would bond with these stunt men over drinks and card games. Their physicality and mannerisms would, along with some coaching from sometime costar Paul Fix, shape the iconic John Wayne persona. His performance here is still stiff and rough around the edges, but he's given freedom to experiment with his posture, gait, and cadence.
+Overseen by Yakima Canutt, the stunts impress. Their straightforward presentation conveys a visceral tension even big-budget productions fail to match. One, a horse and rider diving over a cliff and into a lake below proved so impressive, the studio recycled it for later productions.
 
-The plot sees Wayne as a singing cowboy who becomes embroiled in a water-rights dispute between some ranchers and a shady businessman.
+This was John Wayne's first film for Monogram Pictures. Over the next two years, Monogram would cast Wayne as the lead in 16 productions, all westerns. They were quick and cheap shoots, wrapping in a week with budgets of around ten-thousand dollars.
 
-It doesn't start well. Wayne's singing is done by the director's son, and it's clear Wayne isn't going to win any lip sync awards. After his introduction, he evades some of the bad guy's henchmen in a scene that tries for slapstick but fails.
+These films offered Wayne the freedom to experiment with his posture, gait, and cadence. During production, Wayne bonded with the stuntmen, many actual cowboys, over drinks and card games. Their physicality and mannerisms formed the foundation of the iconic John Wayne persona.
 
-But things get somewhat better. The supporting cast includes Gabby Hayes and Earl Dwire, a pair of fine character actors. The stunts, overseen by Yakima Canutt, impress. One, a horse and rider diving over a cliff and into a lake below would be recycled for later productions.
-
-I wouldn't recommend _Riders of Destiny_, it’s far too uneven, with laughable dialog and stilted plotting. But it is an interesting look at the work Marion Morrison put in to become John Wayne.
+I wouldn't recommend _Riders of Destiny_, but it marks an important step on the road Marion Morrison took to become John Wayne.
