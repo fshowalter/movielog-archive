@@ -12,7 +12,7 @@
 
 _Riders of Destiny_ is not a good movie, but it is an important one.
 
-It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice belongs to the director's son, and it's clear Wayne won't win any lip-sync awards. After his introduction, Wayne evades some evil henchmen in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. With laughable dialog and stilted pacing, the film works best when it cuts to the action.
+It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice isn't Wayne's, and it's clear he won't win any lip-sync awards. After his introduction, Wayne evades some evil henchmen in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. It’s full of laughable dialog and stilted pacing and only works when it cuts to the action.
 
 Overseen by Yakima Canutt, the stunts impress. Their straightforward presentation conveys a visceral tension even big-budget productions fail to match. One, a horse and rider diving over a cliff and into a lake below proved so impressive, the studio recycled it for later productions.
 
