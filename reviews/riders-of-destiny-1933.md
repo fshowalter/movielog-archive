@@ -12,12 +12,12 @@
 
 _Riders of Destiny_ is not a good movie, but it is an important one.
 
-It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice isn't Wayne's, and it's clear he won't win any lip-sync awards. After his introduction, Wayne evades some evil henchmen in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. It’s full of laughable dialog and stilted pacing and only works when it cuts to the action.
+It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice isn't Wayne's, and it's clear he won't win any lip-sync awards. After his introduction, Wayne evades some bad guys in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. Suffering from laughable dialog and stilted pacing, the film works best when it cuts to the action.
 
-Overseen by Yakima Canutt, the stunts impress. Their straightforward presentation conveys a visceral tension even big-budget productions fail to match. One, a horse and rider diving over a cliff and into a lake below proved so impressive, the studio recycled it for later productions.
+Overseen by Yakima Canutt, the stunts pack a raw, visceral energy. One, a horse and rider diving off a cliff into a lake, proved so impressive, the studio recycled it for later productions.
 
 This was John Wayne's first film for Monogram Pictures. Over the next two years, Monogram would cast Wayne as the lead in 16 productions, all westerns. They were quick and cheap shoots, wrapping in a week with budgets of around ten-thousand dollars.
 
-These films offered Wayne the freedom to experiment with his posture, gait, and cadence. During production, Wayne bonded with the stuntmen, many actual cowboys, over drinks and card games. Their physicality and mannerisms formed the foundation of the iconic John Wayne persona.
+With these films, Wayne began crafting his on-screen image. During production, he bonded with the stuntmen over drinks and card games. Many were real cowboys. Wayne’s desire to emulate their physicality and mannerisms formed the foundation of his iconic posture, gait, and cadence.
 
-I wouldn't recommend _Riders of Destiny_, but it marks an important step on the road Marion Morrison took to become John Wayne.
+I wouldn't recommend _Riders of Destiny_, but for John Wayne fans it's an opportunity to watch the fledgling actor workshop a persona that would become legend.
