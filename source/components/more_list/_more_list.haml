@@ -1,5 +1,5 @@
 %ol.more_list
-  - reviews.each do |review|
+  - Array(reviews).each do |review|
     %li.more_list-item
       %a.more_list-item_wrap{ href: "/reviews/#{review.slug}/" }
         .more_list-backdrop_wrap
