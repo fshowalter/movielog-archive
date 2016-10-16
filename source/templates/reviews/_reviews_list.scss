@@ -33,6 +33,7 @@
 }
 
 .reviews_list-title {
+  align-items: baseline;
   display: flex;
 
   a {
@@ -60,8 +61,10 @@
 
 .reviews_list-slug {
   color: $color_text_hint;
+  font-family: $font_family_system;
   font-feature-settings: 'tnum';
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: normal;
   margin-left: 10px;
   text-align: right;
   text-rendering: optimizeLegibility;
