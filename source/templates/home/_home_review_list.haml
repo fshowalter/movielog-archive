@@ -4,8 +4,8 @@
       grade: review.grade,
       options: {
         class: 'home_review_list-grade',
-        width: '95px',
-        height: '19px'
+        width: '95',
+        height: '19'
       }
     )
 
@@ -25,9 +25,9 @@
               = review.title_without_year
         %a.home_review_list-backdrop_wrap{ href: href_for_review(review) }
           .home_review_list-backdrop{ data: { backdrop: review.backdrop } }
-            %img.home_review_list-backdrop_placeholder{ src: review.backdrop_placeholder }
+            %img.home_review_list-backdrop_placeholder{ src: review.backdrop_placeholder, alt: 'Backdrop placeholder' }
             %noscript
-              %img.backdrop-noscript{ src: review.backdrop }
+              %img.backdrop-noscript{ src: review.backdrop, alt: review.title }
         .home_review_list-excerpt
           = excerpt_for_review.call(review)
 

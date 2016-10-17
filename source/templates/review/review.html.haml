@@ -13,7 +13,7 @@ layout: :layout_single
   info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
 
   review_content = lambda do |r|
-    date = r.date.strftime('<time>%b %-d, %Y</time>&mdash;')
+    date = r.date.strftime('<time datetime="%Y-%m-%d">%b %-d, %Y</time>&mdash;')
     content = r.content
     grade = "<p><strong>Grade: #{r.grade}</strong>"
 
