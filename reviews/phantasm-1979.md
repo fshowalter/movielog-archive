@@ -10,18 +10,18 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PG9YXUlkkYCZlo+AjIqgtOa3oKrarYqMyP/Lzu718///j8H////6/+b9//gBKy0tPDU8dkFBdviljJns+Pj4+Ozs+Ozs+Oz4+Ozs+Ozs7Oz47Ozs7Pjs+Ozs7Ozs7Ozs+Ozs7Ozs7Ozs7Ozs7P/AABEIAAwAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAwECBf/EAB4QAAICAQUBAAAAAAAAAAAAAAABAhEhMUJRYYED/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDJ+dK2xiUYNR5yJ2+lrblHqgHNZAmWoBX/2Q=="
 ---
 
-I was still watching Saturday morning cartoons and struggling with cursive writing when I first saw _Phantasm_. It scared the crap out of me.
+I was still watching Saturday morning cartoons and struggling with cursive writing when I first saw _Phantasm_. It traumatized  me.
 
-The story concerns a kid not much older than my young self. One who'd put away his toys but hadn't yet discovered girls. His parents died a few months earlier in a car crash. Now, he follows his older brother everywhere. In the process, he uncovers some strange goings-on involving the local mortician, played by Angus Scrimm.
+It’s told from a kid’s point-of view. A boy who’s put away his toys but hasn't yet discovered girls. His parents died a few months earlier in a car crash. Now, he follows his older brother everywhere. In the process, he uncovers some strange goings-on involving the local mortician, played by Angus Scrimm.
 
-I won’t reveal any more, as much of the film's joy comes from the unexpected way writer-director Don Coscarelli runs with this setup. It’s executed from a child's point of view and plays like a nightmare. Often, we sense we’re missing something. In a lesser film, these gaps would feel like plot holes. Here, they add to the film’s unrelenting sense of unease.
+I love how writer-director Don Coscarelli avoids traditional plot tropes. When no one believes him, the kid breaks into the mortuary. After evading a lethal flying ball, he escapes with a gruesome piece of evidence. The next morning, he shows his older brother, who takes a single look and says, “Okay, I believe you.” A lesser film would see the boy lose the evidence during his escape, or have the older brother dismiss it with some awkward rationalization.
 
-Though it’s often lumped in with the slasher pictures that dominated early 80s horror, _Phantasm_ stands apart. It’s equal parts science fiction and dark fantasy. Take out the brief nudity and iconic steel ball, and you'd have a PG-13 film.
+I won’t reveal any more of the plot, as much of the film's joy comes from the unexpected directions it takes. It plays like a surreal nightmare. Scenes feel disjointed. We often sense we’re missing something. These seeming plot holes only add to the film’s unrelenting sense of unease.
 
-But about that ball. Those with squeamish stomaches may find it rough. As a special effect, it’s a collision of imagination,  exploitation, and blood. Lots of blood.
+Though it’s often lumped in with the slasher pictures that dominated early 80s horror, _Phantasm_ stands apart. It’s equal parts science fiction and dark fantasy. Take out the brief nudity and iconic chrome ball, and you'd have a PG-13 film.
 
-That ball pushed my younger self over the edge. I had nightmares for weeks. Not bad for a movie made by a 27-year-old director on a $300,000 budget.
+But about that ball. Those with squeamish stomachs may find it rough. As a special effect, it’s a collision of imagination,  exploitation, and blood. Lots of blood.
 
-So much of the film, from the stark white mortuary interiors to Scrimm himself, looks unsettling. It sounds unsettling too, with an ominous, disconcerting score that adds to the film's impact.
+That ball pushed my younger self over the edge. I had nightmares for weeks. So much of the film, from the stark white mortuary interiors to Scrimm himself, looks unsettling. It sounds unsettling too, with an ominous, disconcerting score that adds to the film's impact.
 
-Watching it now, _Phantasm_ plays like a remake of the film I saw as a child. Scenes tug at memories of a more brutal experience. One that traumatized me, carving itself into my malleable psyche, sewing the seeds of my predilection for nihilistic, nightmarish horror. _Phantasm_ may not be perfect, but it made a lasting impression.
+Watching it now, _Phantasm_ plays like a remake of the film I saw as a child. Scenes tug at memories of a more brutal experience. One that carved itself into my malleable psyche and sewed the seeds of my predilection for nihilistic, nightmarish horror. _Phantasm_ may not be perfect, but it made an impression.
