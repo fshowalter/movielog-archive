@@ -10,14 +10,16 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+bx//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Oz4+Pj4+Pj4+Pjs+Pj4+Pj47Pj47Ozs7Ozs7Oz4+Pjs+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAAAgEDBP/EABwQAQACAgMBAAAAAAAAAAAAAAEAAhEhAzFBUf/EABUBAQEAAAAAAAAAAAAAAAAAAAIA/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDBxIZHUh5QsptPsWu6GY1e8eSw5Vby2XwhC9TPUJBH/9k="
 ---
 
-_Torso_ features a masked killer stalking a group of college students. Though this description calls to mind countless low-budget slashers, _Torso_ stands apart.
+_Torso_ executes a generic plot with panache.
 
-It has a real story. The killer’s identity is kept secret. We get countless red herrings. Pretty much every man is a suspect, and that’s key. The film’s original title translates to "Bodies bear traces of carnal violence” and the underlying theme is sexual violence against women. Again, while this calls to mind the tired sex-equals-death trope that dominated 80s horror, _Torso_ stands apart.
+The film takes place in scenic Perugia, Italy. We meet a group of female students attending the local university. A series of murders by a masked killer spooks them. One thinks she recognizes the murder weapon. She and the others seek refuge in a cliff-side villa. The killer, of course, follows.
 
-The film paints its heroines as strong, independent women. When the murders begin, they band together and seek refuge in a cliffside villa. While not a great strategic move, it’s refreshing to see them do something other than run to the nearest man for protection.
+It plays as a mystery, inviting us to guess killer’s identity. The script proffers a myriad of suspects, painting almost every male character as possessive, misogynistic, or perverted. The few that appear normal feel suspect by comparison. I thought I knew who the killer was, but guessed wrong.
 
-But what really sets _Torso_ apart is the exquisite cinematography. There’s a scene early, where the killer tracks a girl through a swampy marsh. The lighting, camerawork, and setting come together to create a kinetic claustrophobia. It’s a stylistic triumph reminiscent of Hitchcock. One you can appreciate while remaining immersed in the narrative.
+Mystery aside, what I enjoyed most about _Torso_ was its style. There’s a scene where the killer tracks a girl through a swampy marsh. The lighting, camerawork, and editing create a kind of kinetic claustrophobia. The more she runs, the more her world shrinks. Even as the tension held me rapt, the sheer craft made me smile.
 
-And it gets better. There’s a scene where one of the girls finds herself locked in a bedroom. She slides a piece of newspaper under the door in the hopes of catching the key as she forces it out of the lock. Just as she does—
+And it gets better. Later, a woman finds herself locked in a bedroom. She slides a piece of newspaper under the door, hoping to catch the key as she forces it out of the lock. Just as she does…
 
-Well, I’m not going to spoil it. Suffice it to say the film’s final twenty-or-so minutes are almost dialog-free, and exist as a master class in suspense. They’re so good, we can forgive the killer’s awkward exposition as he explains his psychosis.
+I won’t spoil it. Instead, I’ll say the film’s final twenty-or-so minutes are almost dialog-free and serve as a master class in suspense. They’re so good, I forgave the finale, which sees the killer reveal his identity and explain his psychosis via some awkward and disappointing exposition.
+
+My only problem with _Torso_ lies with its heroines. I liked how the film paints them as strong, independent women. Fleeing to a remote outpost wasn't the smartest move, but it was refreshing to see them do something besides run to the nearest man for protection. But they lacked distinct personalities. Aside from Suzy Kendall’s character, the women felt interchangeable and never endeared themselves. It’s a common problem with mysteries. We learn more about the various red herrings than about the protagonists.

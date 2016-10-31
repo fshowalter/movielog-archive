@@ -9,7 +9,7 @@
 :backdrop: https://lh3.googleusercontent.com/OMpZiglJuL3bU5GhdEMzSavAoz6fELXuLp_nvDcJStltZUPZj7sBhRg3J7dYUbcwOy6lyMZ_qQ9Z=w1000-l75-rj
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tMCkwajU1auyZgJns7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAADBQACBP/EACMQAAIBAwEJAAAAAAAAAAAAAAECAAMEEUEFEhMUISIxUaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AJf1xx6VMXTUcAlt35L2rmpSXlWFMAgtlPPuL9odl+SoGSmT0zoZs2OoFo7alsQGJYSQckD//2Q=="
 ---
-Even the terrific pairing of Boris Karloff and Peter Lorre can't save this mess.
+Not even the terrific pairing of Boris Karloff and Peter Lorre can save this mess.
 
 Karloff plays Nathaniel Billings, an eccentric but earnest old professor. Billings spends his days working in the basement laboratory of his crumbling New England tavern home.
 
