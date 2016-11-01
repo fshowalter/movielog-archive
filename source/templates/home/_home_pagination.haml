@@ -14,6 +14,12 @@
 
   next_reviews = next_items.call(pagination)
 
+  prev_link = pagination.prev_page ? "<link rel='prev' href='#{pagination.prev_page.url}' />" : nil
+  next_link = pagination.next_page ? "<link rel='next' href='#{pagination.next_page.url}' />" : nil
+
+  content_for(:head, [prev_link, next_link].join)
+
+
 - if pagination.next_page
   .home_pagination-more_heading
     More from Frank's Movie Log
