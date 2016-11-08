@@ -6,6 +6,9 @@ layout: :layout_columns
   content_for(:title, 'Viewing Log')
   content_for(:inline_css, 'source/templates/viewings/viewings.scss')
 
+- content_for(:head) do
+  %link{ rel: 'canonical', href: 'https://www.franksmovielog.com/viewings/' }
+
 - content_for :layout_column_1 do
   = partial('templates/viewings/viewings_header', locals: { viewings: Movielog.viewings })
   = partial('templates/viewings/viewings_filters', locals: { viewings: Movielog.viewings })
