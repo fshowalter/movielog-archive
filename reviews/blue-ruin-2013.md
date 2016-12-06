@@ -9,38 +9,35 @@
 :backdrop: https://lh3.googleusercontent.com/Ko49ftdvfb2UfhMpxE0Dv3MYPIGIB2B84BGgTHlWwaHmWuDSYX5vfUqnmg1cDZKcdWxL4atzMibA=w1000-l75-rj
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pjs+Pj4+Pj4+Pj4+Pj4+Ozs7Pjs+Ozs+Pj4+Pjs+Pjs+Pj4+P/AABEIAAsAFAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAADAgD/xAAgEAACAgAGAwAAAAAAAAAAAAABAgARAwQhQlFxEjFB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/ADTOMTTBBpYo2Yq5rDxAaU+Q+aQFA4jJxI0Yk4q7lIPYmkn2e5o0R//Z"
 ---
-Consider the novelty of _Blue Ruin_. There are no explosions, no car chases, and the only gunfight happens off-screen. And yet, it’s a terrifically tense and visceral experience.
 
-The story follows Dwight, a homeless man on the Delaware coast. When we first meet him, Dwight is taking a bath inside a cozy single-family home. Just as he gets comfortable, Dwight hears the owners arrive and hurries out of the house. It’s an elegant metaphor. As we’ll learn, Dwight has spent much of his adult life running.
+_Blue Ruin_ is a near-perfect rural neo-noir.
 
-One morning, the local police rouse Dwight and take him to the station. He’s not in trouble, but the officers have news and want Dwight in a safe place when he hears it.
+Macon Blair stars as Dwight. As the film opens, he's easing into a warm bath inside a cozy single-family home on the Delaware coast. Just as he relaxes, the owners arrive and Dwight hurries out of the house. It's an elegant metaphor because, as we'll learn, Dwight has been running for much of his adult life.
 
-The man who killed Dwight’s mother and father is getting an early parole.
+One morning, the local police rouse Dwight in the rusty car he calls home and take him to the police station. The officers call him by name and treat him with kindness. He's not in trouble, they just want him in a safe place when he hears the news: the man who murdered Dwight's parents has received an early parole.
 
-Dwight takes the news with an eerie calm. He returns to the rusty car he sleeps in, replaces the battery, fills up the tank, and heads home to Virginia.
+Dwight listens with a wordless, eerie calm. He returns to his car, replaces the battery, fills up the tank, and heads home to Virginia.
 
-Dwight travels to the local prison. He arrives in time to see Will Cleland, the man who murdered his parents, walk free. From his car, Dwight watches the Cleland clan arrive in white limousine to greet Will. Dwight’s expression is a window into the mix of bile and nausea churning in his gut.
+Dwight arrives in time to watch his parents' killer, Wade Cleland Jr., walk free. As the raucous Cleland clan collect Wade in a white limousine, Dwight's expression mirrors the mix of bile and nausea churning in his gut.
 
-Dwight follows the limo to a nearby dive-bar. He slips in unnoticed and waits in the restroom. We see the fear in his eyes. Dwight wanted a gun, but all he could afford was the small shiv he grips in his sweaty hand.
+Dwight tails the limo to a nearby dive bar. He slips in unnoticed and waits in the restroom. His wide eyes dart around. He wanted a gun, but could only afford the small shiv in his sweaty hand.
 
-Soon, Will enters the restroom and Dwight exacts his revenge. It’s a brutal, clumsy bit of violence that leaves Dwight blood-soaked and shaken. Dwight sneaks out of the bar and pops the limo’s tire with his shiv, gashing his hand. Another metaphor. There are no clean getaways. Dwight returns to his car and reaches for his keys…
+Soon, Wade enters the restroom and Dwight exacts his revenge. It's a brutal, clumsy bit of violence that leaves Dwight blood-soaked and shaken. Dwight sneaks out of the bar and slashes the limo's tire, gashing his hand in the process. Dwight returns to his car and reaches for his keys, but they're gone. He lost them during the fight.
 
-But they’re not there. Dwight lost them during the fight. It’s a plot point that should feel predictable and forced. Instead, it feels natural, almost inescapable. Dwight steals the limo and makes his escape, knowing full-well the police will trace his car.
+In a lesser film, this would seem predictable and forced. Here, it feels natural, almost inescapable. Dwight steals the limo and escapes, knowing the police will trace his abandoned car. There are no clean getaways.
 
-With nowhere to go, Dwight turns to his estranged sister. Their meeting communicates volumes about Dwight’s state of mind. After their parents’ death, Dwight disappeared. Unable to cope with his grief, Dwight dropped out of society. Meanwhile, his sister grieved and moved on. She now has two small children Dwight has never met.
+With nowhere to go, Dwight turns to his estranged sister. After their parents' death, Dwight disappeared. His sister grieved and moved on. She's raising two small children who've never met their uncle.
 
-As they talk, Dwight realizes the Clelands never reported the murder. Meaning they intend to exact their own revenge. Knowing the Clelands will track his car back to his sister’s house, Dwight convinces her to leave town with her family. Once she’s safe, Dwight waits for the inevitable.
+As they talk, Dwight keeps one eye on the local TV news. He soon realizes with horror that the Clelands haven't reported the murder. Meaning they intend to exact their own revenge. Knowing the Clelands will track his car back to his sister, Dwight convinces her to leave town with her family. Once she's safe, Dwight awaits the inevitable.
 
-_Blue Ruin_ is a straightforward rural noir. No flashbacks or quirky characters. No cinematic allusions or pop-culture references. Just a simple revenge story told well.
+_Blue Ruin_ unwinds in a simple, straightforward manner. No flashbacks or quirky characters. No pop-culture references. No explosions or car chases. Just a solid story told well.
 
-Well, almost. Fair warning, I’m going to spoil a couple of plot points as I nitpick what’s an otherwise great film. If you haven’t seen the movie, give it a look, then come back and read the rest.
+Well, almost. Fair warning, I'm about to nitpick an otherwise great film. Consider it tough love.
 
-Still here? Okay, here goes.
+My first problem lies with a single line. It comes when a friend of Dwight's says he does a lot of target shooting. If you've seen the film, you know this line telegraphs what should have been a surprising plot point. For a film that's so judicious with its dialog, it's a glaring blemish.
 
-Remember when Ben takes Dwight back to his cabin? Dwight asks Ben if he’s a hunter, and Ben replies no, he mostly does target shooting. For a film that’s so judicious with its dialog, one that does such a good job of showing versus telling, this feels sloppy. Because now we know Ben will snipe the guy in Dwight’s car. If a gun is introduced in Act 1 it must go off by Act 3. It’s the only plot point that feels cinematic instead of organic.
+Yes, it's one line. I told you I'm nitpicking. That said, the next issue proves more substantial, as it goes to the heart of the story.
 
-Yes, it’s one line. I told you these were nitpicks. But the next issue is a bit bigger.
+We're told Dwight's parents were murdered because Dwight's father had an affair with Wade Cleland Jr.'s mother. During the movie, this seems plausible, but in retrospect, it falls apart. The Cleland clan keep a machine gun duct-taped under their easy chair and delight in the thought of murdering Dwight's sister and her children. How does Dwight's father hook up with a woman who raised such gun-crazy, foaming-at-the-mouth psychos? The characters tell us it happened, but the movie offers nothing to support it.
 
-Dwight’s parents were killed because Dwight’s father fell in love with Will Cleland’s mother. Watching the movie, this seems plausible enough, but in retrospect it doesn’t hold up. Consider the Cleland clan. They keep a machine gun duct-taped under the easy chair. Now consider Dwight and his sister. How does Dwight’s father, who raised such meek children, hook up with a woman who raised such gun-crazy, foaming-at-the-mouth psychos? The characters tell us it happened, but the movie shows us nothing to support it.
-
-These bits only stand out because the rest of the film feels so authentic and true. _Blue Ruin_ may not be perfect, but it’s damn close.
+These bits only stand out because the rest of the film rings so true. _Blue Ruin_ may not be perfect, but it's damn close.

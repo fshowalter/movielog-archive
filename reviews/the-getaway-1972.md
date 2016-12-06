@@ -16,9 +16,9 @@ Steve McQueen stars as Doc McCoy, an incarcerated bank robber. The opening credi
 
 Doc finds himself near breaking after his expected parole is denied. When his wife Carol (Ali McGraw) visits him in jail, Doc cuts the visit short, telling her to contact a man named Beynon and tell him “I'm for sale. His price.”
 
-Beynon is a greasy operator who sits on the parole board. Ben Johnson plays him as pure slime. When Carol enters Beynon's office, his cronies ogle her like wolves.
+Beynon (Ben Johnson) is a greasy operator who sits on the parole board. He pulls some strings and Doc is paroled.
 
-Beynon pulls some strings and Doc is paroled. Doc's reunion with Carol is tentative. The near-wordless scenes convey the sudden change in their lives. It's a touch  of genuine sweetness that transcends the film's exploitative nature. Reunited, the two experience a brief respite before Doc meets with Beynon to repay his debt.
+Doc's reunion with Carol is a touch of genuine sweetness that transcends the film's exploitative nature. The near-wordless scenes convey the sudden change in their lives. Reunited, the two experience a brief respite before Doc meets with Beynon to repay his debt.
 
 The job is a local bank. Beynon has already picked the crew. Doc would rather use his own guys, but Beynon won't budge. With no leverage, Doc agrees.
 
@@ -26,13 +26,13 @@ The robbery, of course, goes wrong. One of Beynon's guys panics. Things get bloo
 
 Thirty minutes into the film, the real story begins. Doc and Carol head for Mexico with the loot. The law and Beynon's gang pursue.
 
-I love how the film avoids painting Doc as a hero. He kills without hesitation and smacks Carol when he's angry with her. Despite this, we root for him. He wants to do better but it's a battle we fear he'll lose.
+I love how the film avoids painting Doc as a hero. He kills without hesitation. There's even a rough scene where smacks Carol. And yet, McQueen's performance engenders sympathy. You sense Doc's desire to be a better man but fear he'll lose the battle.
 
-It's part of the film's overall sense of dread. In pursuit of Doc, one of Beynon's gang takes a husband and wife hostage. The wife falls for their captor, degrading herself and humiliating her husband. As Doc and Carol flee, we're sure they won't make it. Even when they escape, we're certain the next close-call will be their last. Chalk that up to Peckinpah's commitment to grounding the film in a plausible reality.
+It's part of the film's overall sense of dread. In pursuit of Doc, one of Beynon's gang takes a husband and wife hostage. The wife falls for their captor, degrading herself and humiliating her husband. As Doc and Carol flee, you're sure they won't make it. Even when they escape, you're certain the next close-call will be their last. Chalk that up to Peckinpah's commitment to grounding the film in a plausible reality.
 
 The sets look worn and dusty. The characters glisten with a perpetual sheen of sweat from the oppressive Texas heat. They eat greasy cheeseburgers, hole up in dingy motels, and travel in oversized cars.
 
-And those cars make for gripping chase scenes. Characters panic, oversteer, fishtail and crash. Watching the film, we appreciate the difficulty of piloting such large metal boats down narrow streets at high speeds.
+And those cars make for gripping chase scenes. As characters panic, oversteer, fishtail, and crash, you appreciate the challenge of controlling such large vehicles at high speeds.
 
 But the film's highlight belongs to an on-foot chase. After a con-man switches locker keys with Carol and snags the loot, Doc engages in a desperate pursuit through a crowded train station. The dialog-free sequence crackles with tension and echoes vintage Hitchcock.
 
