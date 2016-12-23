@@ -2,7 +2,7 @@
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
   cast = MovieDb.headline_cast_for_title(title: review.db_title, db: Movielog.db, count: 100)
   writers = MovieDb.writers_for_title(title: review.db_title, db: Movielog.db)
-  tags = (directors + cast + writers).uniq { |p| p.full_name }
+  tags = (directors + cast + writers).uniq(&:full_name)
 
 .review_tags
   %ul.review_tags-list
