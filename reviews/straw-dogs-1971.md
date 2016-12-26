@@ -28,7 +28,7 @@ It's a hard scene to watch. I've seen the film multiple times, and it doesn't ge
 
 Then Peckinpah twists the knife. He quick cuts between the present and Amy's intimate memories of David. Amy's anger toward David swirls and churns inside her. Her resignation turns to passion as she turns from victim to betrayer and embraces her former lover.
 
-Finally, Peckinpah goes for the jugular. As Amy and Charlie lay entwined, one of Charlie's goon friends enters, holding a shotgun. With some reluctance, Charlie steps aside and watches his friend force himself on Amy at gunpoint. Amy's shrieks surround us as her violation is absolute.
+Finally, as Amy and Charlie lay entwined, Peckinpah goes for the jugular. One of Charlie's goon friends enters, holding a shotgun. With some reluctance, Charlie steps aside and watches his friend force himself on Amy at gunpoint. Amy's shrieks surround us as her violation is absolute.
 
 Controversial? Absolutely. Gratuitous? No. The scene is horrifying but necessary. It drives an unspoken wedge between David and Amy, setting up the rest of the story.
 
