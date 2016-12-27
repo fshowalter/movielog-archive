@@ -3,7 +3,7 @@
 :db_title: Jack Frost (1997) (V)
 :title: Jack Frost (1997)
 :slug: jack-frost-1997
-:date: 2016-12-25
+:date: 2016-12-26
 :imdb_id: tt0116671
 :grade: F
 :backdrop: https://lh3.googleusercontent.com/sDgsisYLTBNCXNTYRP_8YyW1QO2Y2F38NTQO9YUd_iNl42SVTrWRxPggfw078QizjMa-ks4GLJyrDzauoLzJAuDJHCpsoQopIUrgSlMfO0NlSHGtYvMNRXVF5CRdcHHFBPezew=w1000-l75-rj
