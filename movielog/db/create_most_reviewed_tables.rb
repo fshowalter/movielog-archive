@@ -52,6 +52,7 @@ module Movielog
           LEFT OUTER JOIN (movies m INNER JOIN reviews r ON m.title = r.title) ON c.title = m.title
           GROUP BY c.full_name
           HAVING review_count >= #{threshold};
+          PRAGMA vacuum;
           SQL
         end
         # rubocop:enable Metrics/LineLength
