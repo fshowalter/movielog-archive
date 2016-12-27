@@ -36,7 +36,8 @@ module Movielog
             "watched_movie_count" INTEGER NOT NULL,
             "percent_seen" FLOAT NOT NULL,
             "watch_count" INTEGER NOT NULL,
-            "most_recent_watch_date" DATE NOT NULL);
+            "most_recent_watch_date" DATE NOT NULL,
+            CONSTRAINT "fk_most_watched_#{type}_full_name" FOREIGN KEY ("full_name") REFERENCES "people" ("full_name"));
 
           CREATE INDEX "index_most_watched_#{type}_on_watched_movie_count" ON "most_watched_#{type}" ("watched_movie_count");
 

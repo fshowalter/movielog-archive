@@ -36,7 +36,8 @@ module Movielog
             "reviewed_movie_count" INTEGER NOT NULL,
             "percent_reviewed" FLOAT NOT NULL,
             "review_count" INTEGER NOT NULL,
-            "most_recent_review_date" DATE NOT NULL);
+            "most_recent_review_date" DATE NOT NULL,
+            CONSTRAINT "fk_most_reviewed_#{type}_full_name" FOREIGN KEY ("full_name") REFERENCES "people" ("full_name"));
 
           CREATE INDEX "index_most_reviewed_#{type}_on_review_count" ON "most_reviewed_#{type}" ("review_count");
 
@@ -52,6 +53,7 @@ module Movielog
           LEFT OUTER JOIN (movies m INNER JOIN reviews r ON m.title = r.title) ON c.title = m.title
           GROUP BY c.full_name
           HAVING review_count >= #{threshold};
+
           PRAGMA vacuum;
           SQL
         end

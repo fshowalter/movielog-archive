@@ -26,6 +26,7 @@ gem 'oj'
 gem 'inquirer'
 gem 'nokogiri'
 gem 'movie_db', path: '../movie_db'
+gem 'ruby-prof'
 
 gem 'rubocop', require: false
 gem 'scss-lint'

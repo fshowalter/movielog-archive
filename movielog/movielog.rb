@@ -81,7 +81,7 @@ module Movielog
     end
 
     def cast_and_crew
-      Movielog::Db::QueryMostReviewedPersons.call(db: Movielog.db)
+      @cast_and_crew ||= Movielog::Db::QueryMostReviewedPersons.call(db: Movielog.db)
     end
 
     def venues
