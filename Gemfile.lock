@@ -1,24 +1,4 @@
 PATH
-  remote: ../middleman-livereload
-  specs:
-    middleman-livereload (3.4.6)
-      em-websocket (~> 0.5.1)
-      middleman-core (>= 3.3)
-      rack-livereload (~> 0.3.15)
-
-PATH
-  remote: ../middleman-pagination
-  specs:
-    middleman-pagination (1.2.0)
-      middleman-core (~> 3.3)
-
-PATH
-  remote: ../middleman-sitemap
-  specs:
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
-
-PATH
   remote: ../movie_db
   specs:
     movie_db (1.0.0)
@@ -26,6 +6,26 @@ PATH
       ruby-progressbar
       sixarm_ruby_unaccent
       sqlite3
+
+PATH
+  remote: extensions/middleman-livereload
+  specs:
+    middleman-livereload (3.4.6)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
+
+PATH
+  remote: extensions/middleman-pagination
+  specs:
+    middleman-pagination (1.2.0)
+      middleman-core (~> 3.3)
+
+PATH
+  remote: extensions/middleman-sitemap
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
 
 GEM
   remote: http://rubygems.org/
