@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.summary = %q{LiveReload support for Middleman}
   s.description = %q{LiveReload support for Middleman}
   s.license = "MIT"
-  s.files = `git ls-files -z`.split("\0")
-  s.test_files = `git ls-files -z -- {fixtures,features}/*`.split("\0")
+  s.files = Dir['**/*.*']
+  s.test_files = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
   s.required_ruby_version = '>= 1.9.3'
   s.add_dependency("middleman-core", [">= 3.3"])
