@@ -10,7 +10,7 @@
 :backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkE1dvilgKX47Pjs7Oz4+Ozs+Ozs+Pjs7Ozs7Oz47Ozs+Ozs+Ozs7Ozs7Ozs7Pjs+Ozs7Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAABAUC/8QAHBAAAQQDAQAAAAAAAAAAAAAAAQADESECEjHw/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1xnSBIJ2ikLIFTYF2uDkSRasfpjA+4gk0ARD1EH//Z"
 ---
 
-Sam Peckinpah's _Straw Dogs_ is an ugly, brutal, nihilistic horror film. It's also brilliant.
+Sam Peckinpah's _Straw Dogs_ is an ugly, brutal, nihilistic, gut-punch of a horror film.
 
 Horror fans will recognize the plot. A young couple moves to a small, isolated village where they hope to renovate an old house. They ignore repeated warnings to leave and bad things happen, culminating in the young lovers barricading themselves in their home, fighting to keep an unspeakable evil from gaining entry.
 
@@ -34,7 +34,7 @@ Controversial? Absolutely. Gratuitous? No. The scene is horrifying but necessary
 
 The finale sees Charlie and gang laying siege to David and Amy's house. It's a familiar scene in horror films; the men could just as easily be zombies or other monsters, and Peckinpah uses lots of low-angle shots and foggy backlighting. But the real horror isn't what's trying to get in, it's what's coming out between David and Amy.
 
-A series of plot-driven coincidences have led to David sheltering a mentally challenged man in the couple's attic. The mob outside believes this man murdered a local girl earlier that evening. When the attacks start, Amy urges David to acquiesce to the mob's demands and turn the man over, but David refuses. Bitter that David will stand up for a stranger but not her, Amy refuses to help. This proves the turning point in their relationship. Later, when Amy's in trouble, she yells for Charlie. It's a gut-punch.
+A series of plot-driven coincidences have led to David sheltering a mentally challenged man in the couple's attic. The mob outside believes this man murdered a local girl earlier that evening. When the attacks start, Amy urges David to acquiesce to the mob's demands and turn the man over, but David refuses. Bitter that David will stand up for a stranger but not her, Amy refuses to help. This proves the turning point in their relationship. Later, when Amy's in trouble, she yells for Charlie.
 
 It's easy to dismiss _Straw Dogs_ as misogynistic, but that's short-sighted. This film hates everyone. While Amy is assaulted, David's out hunting with the very men who attack her. Of course, the trip was just a ruse to lure him away, but David only accepted to buddy-up with alpha-male Charlie. David would label himself a pacifist but behaves as a sycophant.
 
