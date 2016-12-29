@@ -22,6 +22,49 @@ describe Movielog do
     end
   end
 
+  describe '#movies' do
+    it 'calls MovieDb.fetch_viewings' do
+      expect(Movielog).to(receive(:viewed_db_titles)).and_return('viewed db titles')
+      expect(MovieDb).to(receive(:fetch_movies)).and_return('fetch_viewings data')
+
+      expect(Movielog.movies).to eq 'fetch_viewings data'
+    end
+  end
+
+  describe '#viewings' do
+    it 'calls Movielog::ParseViewings' do
+      expect(Movielog::ParseViewings).to(receive(:call)).and_return('parse viewings data')
+
+      expect(Movielog.viewings).to eq 'parse viewings data'
+    end
+  end
+
+  describe '#reviews' do
+    it 'calls Movielog::ParseReviews' do
+      expect(Movielog::ParseReviews).to(receive(:call)).and_return('parse reviews data')
+
+      expect(Movielog.reviews).to eq 'parse reviews data'
+    end
+
+    describe 'when #cache_reviews is true' do
+      before(:each) do
+        Movielog.cache_reviews = true
+      end
+
+      after(:each) do
+        Movielog.cache_reviews = false
+      end
+
+      it 'caches reviews' do
+        expect(Movielog::ParseReviews).to(receive(:call)).and_return('parse reviews data')
+
+        expect(Movielog.reviews).to eq 'parse reviews data'
+
+        expect(Movielog.instance_variable_get('@reviews')).to eq 'parse reviews data'
+      end
+    end
+  end
+
   describe '#reviews_by_sequence' do
     it 'returns the reviews sorted by sequence in reverse' do
       expect(Movielog::ParseReviews).to(

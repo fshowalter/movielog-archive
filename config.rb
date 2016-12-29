@@ -6,7 +6,7 @@ require 'time'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload, ignore: [/coverage/, /\.haml_lint\./]
+  activate :livereload, ignore: [/coverage/, /\.haml_lint\./, /spec/]
 end
 
 configure :build do
