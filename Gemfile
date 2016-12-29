@@ -15,6 +15,7 @@ gem 'middleman-sitemap', path: '../middleman-sitemap'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 
+gem 'thor', '0.19.1'
 gem 'haml'
 gem 'sass'
 gem 'sass-globbing', '1.1.0'
