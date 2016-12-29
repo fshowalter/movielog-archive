@@ -7,7 +7,7 @@ gem 'middleman-core', '~>3.4.0'
 gem 'middleman-sprockets', '>=3.1.2'
 
 # Live-reloading plugin
-gem 'middleman-livereload', '3.4.6'
+gem 'middleman-livereload', path: '../middleman-livereload'
 
 gem 'middleman-pagination', path: '../middleman-pagination'
 gem 'middleman-deploy'
