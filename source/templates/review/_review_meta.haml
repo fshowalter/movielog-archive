@@ -1,12 +1,12 @@
 :ruby
-  viewings = Movielog.viewings_for_title(title: review.db_title)
+  number_of_viewings = Movielog.viewings_for_db_title(db_title: review.db_title).length
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
   aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title)
                       .reject { |t| t.start_with?(review.title) }
 
-  info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
+  movie = Movielog.movies[review.db_title]
   divider = '<span class="review_meta-divider">|</span>'
-  country = info.country.gsub('|', divider)
+  country = movie.country.gsub('|', divider)
 
 
 .review_meta
@@ -15,7 +15,7 @@
   %span.review_meta-director
     D: #{directors.map { |p| cast_and_crew_link(p) }.join(' & ')}
   %span.review_meta-country
-    #{review.year} #{divider} #{country} #{divider} #{info.running_time}&thinsp;mins.
+    #{review.year} #{divider} #{country} #{divider} #{movie.running_time}&thinsp;mins.
   - if aka_titles.any?
     %span.review_meta-aka
       %span.review_meta-aka_heading
@@ -27,4 +27,4 @@
   %span.review_meta-seen
     = "I've seen it "
     %a{ href: "/viewings/?title=#{URI.escape(review.title)}" }
-      = "#{pluralize(viewings.length, 'time')}."
+      = "#{pluralize(number_of_viewings, 'time')}."

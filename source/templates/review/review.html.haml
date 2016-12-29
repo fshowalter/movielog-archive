@@ -10,7 +10,7 @@ layout: :layout_single
   director = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
                     .map { |p| "#{p.first_name} #{p.last_name}" }
                     .first
-  info = MovieDb.info_for_title(title: review.db_title, db: Movielog.db)
+  movie = Movielog.movies[review.db_title]
 
   review_content = lambda do |r|
     content = r.content
@@ -67,7 +67,7 @@ layout: :layout_single
         "name":"#{review.title}",
         "sameAs":"http://www.imdb.com/title/#{review.imdb_id}/",
         "image": "#{review.backdrop}",
-        "datePublished": "#{info.release_date.iso8601}",
+        "datePublished": "#{movie.release_date.iso8601}",
         "director": {
           "@type":"Person",
           "name": "#{director}"

@@ -2,15 +2,6 @@
 require 'spec_helper'
 
 describe Movielog do
-  before(:each) do
-    allow(MovieDb).to receive(:info_for_title) do
-      OpenStruct.new(
-        sortable_title: 'stubbed title',
-        release_date: 'stubbed release date'
-      )
-    end
-  end
-
   describe '#site_url' do
     it 'returns the site url' do
       expect(Movielog.site_url).to eq 'https://www.franksmovielog.com'
@@ -25,14 +16,7 @@ describe Movielog do
 
   describe '#next_viewing_number' do
     it 'returns the number of viewings plus one' do
-      expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)
-      ) do
-        {
-          1 => OpenStruct.new(db_title: 'title 1', sequence: 2),
-          2 => OpenStruct.new(db_title: 'title 2', sequence: 1)
-        }
-      end
+      expect(Movielog).to(receive(:viewings)).and_return(1 => 'viewing 1', 2 => 'viewing 2')
 
       expect(Movielog.next_viewing_number).to eq 3
     end
@@ -93,7 +77,7 @@ describe Movielog do
     end
   end
 
-  describe '#viewed_titles' do
+  describe '#viewed_db_titles' do
     it 'returns a unique collection of viewed titles' do
       expect(Movielog).to(receive(:viewings)) do
         {
@@ -106,21 +90,19 @@ describe Movielog do
         }
       end
 
-      expect(Movielog.viewed_titles).to match_array([
-                                                      'Rio Bravo (1959)',
-                                                      'The Big Sleep (1946)',
-                                                      'Reservoir Dogs (1992)',
-                                                      'North by Northwest (1959)',
-                                                      'Some Like it Hot (1959)'
-                                                    ])
+      expect(Movielog.viewed_db_titles).to match_array([
+                                                         'Rio Bravo (1959)',
+                                                         'The Big Sleep (1946)',
+                                                         'Reservoir Dogs (1992)',
+                                                         'North by Northwest (1959)',
+                                                         'Some Like it Hot (1959)'
+                                                       ])
     end
   end
 
   describe '#venues' do
     it 'returns a unique collection of venues' do
-      expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)
-      ) do
+      expect(Movielog).to(receive(:viewings)) do
         {
           1 => OpenStruct.new(venue: 'Blu-ray'),
           2 => OpenStruct.new(venue: 'Amazon Instant'),
@@ -139,11 +121,9 @@ describe Movielog do
     end
   end
 
-  describe '#viewings_for_title' do
+  describe '#viewings_for_db_title' do
     it 'returns a collection of viewings for the given title' do
-      expect(Movielog::ParseViewings).to(
-        receive(:call).with(viewings_path: Movielog.viewings_path)
-      ) do
+      expect(Movielog).to(receive(:viewings)) do
         {
           1 => OpenStruct.new(db_title: 'Rio Bravo (1959)', sequence: 1),
           2 => OpenStruct.new(db_title: 'The Big Sleep (1946)', sequence: 2),
@@ -154,7 +134,7 @@ describe Movielog do
         }
       end
 
-      viewings = Movielog.viewings_for_title(title: 'Rio Bravo (1959)')
+      viewings = Movielog.viewings_for_db_title(db_title: 'Rio Bravo (1959)')
       expect(viewings.length).to eq 2
       expect(viewings.first.db_title).to eq 'Rio Bravo (1959)'
       expect(viewings.first.sequence).to eq 1

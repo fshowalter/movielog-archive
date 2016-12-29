@@ -36,8 +36,7 @@ module Movielog
             "watched_movie_count" INTEGER NOT NULL,
             "percent_seen" FLOAT NOT NULL,
             "watch_count" INTEGER NOT NULL,
-            "most_recent_watch_date" DATE NOT NULL,
-            CONSTRAINT "fk_most_watched_#{type}_full_name" FOREIGN KEY ("full_name") REFERENCES "people" ("full_name"));
+            "most_recent_watch_date" DATE NOT NULL);
 
           CREATE INDEX "index_most_watched_#{type}_on_watched_movie_count" ON "most_watched_#{type}" ("watched_movie_count");
 
@@ -53,6 +52,8 @@ module Movielog
           LEFT OUTER JOIN (movies m INNER JOIN viewings v ON m.title = v.title) ON c.title = m.title
           GROUP BY c.full_name
           HAVING watch_count >= #{threshold};
+
+          CREATE UNIQUE INDEX "index_most_watched_#{type}_on_full_name" ON "most_watched_#{type}" ("full_name");
 
           PRAGMA vacuum;
           SQL

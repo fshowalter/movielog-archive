@@ -4,13 +4,15 @@ module Movielog
   # Responsible for providing template helper methods.
   #
   module Helpers
-    def data_for_viewing(viewing:)
+    def data_for_viewing(viewing:) # rubocop:disable Metrics/MethodLength
+      movie = Movielog.movies[viewing.db_title]
+
       {
         data: {
-          title: viewing.title,
-          sort_title: viewing.sortable_title,
-          release_date: viewing.release_date.iso8601,
-          release_date_year: viewing.release_date.year,
+          title: movie.title,
+          sort_title: movie.sortable_title,
+          release_date: movie.release_date.iso8601,
+          release_date_year: movie.release_date.year,
           viewing_date: viewing.date,
           venue: Movielog.venues.index(viewing.venue)
         }

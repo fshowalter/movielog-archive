@@ -11,7 +11,7 @@ module Movielog
         Dir["#{viewings_path}/*.yml"].each_with_object({}) do |file, viewings|
           viewing = read_viewing(file)
           next unless viewing.is_a?(Hash)
-          viewings[viewing[:number]] = OpenStruct.new(viewing)
+          viewings[viewing[:number]] = Movielog::Viewing.new(viewing)
         end
       end
 

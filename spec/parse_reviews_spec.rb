@@ -9,11 +9,13 @@ describe Movielog::ParseReviews do
 ---
 :sequence: 5
 :title: Black Legion (1937)
-:slug: black-legion-1937
 :db_title: Black Legion (1937)
+:slug: black-legion-1937
 :date: 2014-08-22
 :grade: C
 :imdb_id: tt0027367
+:backdrop: https://image.url
+:backdrop_placeholder: 'placeholder'
 ---
 Review 1 content.
       EOF
@@ -21,12 +23,14 @@ Review 1 content.
       'review2.md' => <<-EOF
 ---
 :sequence: 4
+:title: Psycho-Circus (1967)
 :db_title: Circus of Fear (1966)
 :slug: psycho-circus-1967
-:title: Psycho-Circus (1967)
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
+:backdrop: https://image.url
+:backdrop_placeholder: 'placeholder'
 ---
 Review 2 content.
       EOF
@@ -86,12 +90,14 @@ Review 1 content.
         'review2.md' => <<-EOF
 ---
 :sequence: 4
-:title: Circus of Fear (1966)
+:title: Psycho-Circus (1967)
+:db_title: Circus of Fear (1966)
 :slug: psycho-circus-1967
-:display_title: Psycho-Circus (1967)
 :date: 2014-08-11
 :imdb_id: tt0060865
 :grade: C
+:backdrop: https://image.url
+:backdrop_placeholder: 'placeholder'
 ---
 Review 2 content.
       EOF

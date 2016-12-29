@@ -9,6 +9,10 @@ configure :development do
   activate :livereload, ignore: [%r{/coverage/}, /\.haml_lint\./]
 end
 
+configure :build do
+  Movielog.cache_reviews = true
+end
+
 helpers Movielog::Helpers
 
 # Methods defined in the helpers block are available in templates
@@ -127,8 +131,9 @@ ready do
   proxy('cast-and-crew/index.html', 'templates/cast_and_crew/cast_and_crew.html', ignore: true)
 
   Movielog.reviews.values.each do |review|
+    movie = Movielog.movies[review.db_title]
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
-          locals: { review: review, title: "#{review.display_title} Movie Review" }, ignore: true)
+          locals: { review: review, title: "#{movie.display_title} Movie Review" }, ignore: true)
   end
 
   Movielog.cast_and_crew.each do |_id, person|

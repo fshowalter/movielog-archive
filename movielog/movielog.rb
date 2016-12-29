@@ -8,6 +8,8 @@ Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
 #
 module Movielog
   class << self
+    attr_accessor :cache_reviews
+
     def site_url
       'https://www.franksmovielog.com'
     end
@@ -16,11 +18,11 @@ module Movielog
       "Frank's Movie Log"
     end
 
-    def next_viewing_number
+    def next_viewing_number(viewings: Movielog.viewings)
       viewings.length + 1
     end
 
-    def next_post_number
+    def next_post_number(reviews: Movielog.reviews, pages: Movielog.pages)
       (reviews.length + pages.length) + 1
     end
 
@@ -28,68 +30,56 @@ module Movielog
       @db ||= MovieDb.new(movie_db_dir: File.expand_path('../../movie_db/', __FILE__))
     end
 
-    def viewed_titles
-      viewings.values.map(&:db_title).uniq
+    def movies(db: Movielog.db, db_titles: Movielog.viewed_db_titles)
+      @movies ||= MovieDb.fetch_movies(db: db, titles: db_titles)
+    end
+
+    def viewed_db_titles(viewings: Movielog.viewings)
+      @viewed_db_titles ||= viewings.values.map(&:db_title).uniq
     end
 
     def viewings_path
-      File.expand_path('../../viewings/', __FILE__)
+      @viewings_path ||= File.expand_path('../../viewings/', __FILE__)
     end
 
     def reviews_path
-      File.expand_path('../../reviews/', __FILE__)
+      @reviews_path ||= File.expand_path('../../reviews/', __FILE__)
     end
 
     def pages_path
-      File.expand_path('../../pages/', __FILE__)
+      @pages_path ||= File.expand_path('../../pages/', __FILE__)
     end
 
-    def viewings(getInfo: true)
-      viewings = ParseViewings.call(viewings_path: viewings_path) || {}
+    def viewings(viewings_path: Movielog.viewings_path)
+      @viewings ||= ParseViewings.call(viewings_path: viewings_path) || {}
+    end
 
-      return viewings unless getInfo
-
-      viewings.values.each do |viewing|
-        info = MovieDb.info_for_title(db: Movielog.db, title: viewing.db_title)
-        viewing.sortable_title = info.sortable_title
-        viewing.release_date = info.release_date
+    def reviews(reviews_path: Movielog.reviews_path)
+      if cache_reviews
+        @reviews ||= ParseReviews.call(reviews_path: reviews_path) || {}
+      else
+        ParseReviews.call(reviews_path: reviews_path) || {}
       end
-
-      viewings
     end
 
-    def reviews(getInfo: true)
-      reviews = ParseReviews.call(reviews_path: reviews_path) || {}
-
-      return reviews unless getInfo
-
-      reviews.values.each do |review|
-        info = MovieDb.info_for_title(db: Movielog.db, title: review.db_title)
-        review.sortable_title = info.sortable_title
-        review.release_date = info.release_date
-      end
-
-      reviews
+    def reviews_by_sequence(reviews: Movielog.reviews)
+      @reviews_by_sequence ||= reviews.values.sort_by(&:sequence).reverse
     end
 
-    def reviews_by_sequence
-      reviews.values.sort_by(&:sequence).reverse
+    def pages(pages_path: Movielog.pages_path)
+      @pages ||= ParsePages.call(pages_path: pages_path) || {}
     end
 
-    def pages
-      ParsePages.call(pages_path: pages_path) || {}
+    def cast_and_crew(db: Movielog.db)
+      @cast_and_crew ||= Movielog::Db::QueryMostReviewedPersons.call(db: db)
     end
 
-    def cast_and_crew
-      @cast_and_crew ||= Movielog::Db::QueryMostReviewedPersons.call(db: Movielog.db)
+    def venues(viewings: Movielog.viewings)
+      @venues ||= viewings.values.map(&:venue).uniq.sort
     end
 
-    def venues
-      viewings.values.map(&:venue).uniq.sort
-    end
-
-    def viewings_for_title(title:)
-      viewings.values.select { |viewing| viewing.db_title == title }
+    def viewings_for_db_title(viewings: Movielog.viewings, db_title:)
+      viewings.values.select { |viewing| viewing.db_title == db_title }
     end
   end
 end

@@ -10,10 +10,18 @@ describe Movielog::Helpers do
         receive(:venues).and_return(['test venue'])
       )
 
-      viewing = OpenStruct.new(
+      expect(Movielog).to(
+        receive(:movies).and_return('The Beyond (1980)' => MovieDb::Movie.new(
+          'title' => 'The Beyond (1980)',
+          'sortable_title' => 'Beyond, The (1980)',
+          'release_date' => '1980-06-01'
+        ))
+      )
+
+      viewing = Movielog::Viewing.new(
+        number: 1,
         title: 'The Beyond (1980)',
-        sortable_title: 'Beyond, The (1980)',
-        release_date: Date.parse('1980-06-01'),
+        db_title: 'The Beyond (1980)',
         date: '2011-03-12',
         venue: 'test venue'
       )

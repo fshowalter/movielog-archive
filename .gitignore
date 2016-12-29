@@ -29,3 +29,4 @@ twitter.yml
 tmdb.yml
 
 *.sublime-*
+/profile

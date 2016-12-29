@@ -19,12 +19,12 @@ module Movielog
 
         File.open(file_name, 'w') { |file| file.write(content) }
 
-        Review.new(front_matter)
+        OpenStruct.new(front_matter)
       end
 
       private
 
-      def front_matter(db_title:, title:, sequence:, slug:)
+      def front_matter(db_title:, title:, sequence:, slug:) # rubocop:disable Metrics/MethodLength
         {
           sequence: sequence,
           db_title: db_title,
@@ -33,7 +33,8 @@ module Movielog
           date: Date.today,
           imdb_id: '',
           grade: '',
-          backdrop: ''
+          backdrop: '',
+          backdrop_placeholder: ''
         }
       end
     end

@@ -8,13 +8,16 @@ describe Movielog::Helpers do
     it 'returns a data hash for the given review' do
       review = OpenStruct.new(
         title: 'The Beyond (1980)',
-        sortable_title: 'Beyond, The (1980)',
-        release_date: Date.parse('1980-06-01'),
+        db_title: 'The Beyond (1980)',
         date: '2011-03-12',
         grade: 'A+'
       )
 
-      expect(context.data_for_review(review: review)).to eq(
+      movie = OpenStruct.new(title: 'The Beyond (1980)',
+                             sortable_title: 'Beyond, The (1980)',
+                             release_date: Date.parse('1980-06-01'))
+
+      expect(context.data_for_review(movie: movie, review: review)).to eq(
 
         data: {
           title: 'The Beyond (1980)',

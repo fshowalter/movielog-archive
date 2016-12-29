@@ -9,7 +9,7 @@ describe Movielog::ParseViewings do
 ---
 :number: 5
 :title: Black Legion (1937)
-:display_title: Black Legion (1937)
+:db_title: Black Legion (1937)
 :date: 2014-08-22
 :venue: TCM HD
 ---
@@ -18,8 +18,8 @@ describe Movielog::ParseViewings do
       'viewing2.yml' => <<-EOF
 ---
 :number: 4
-:title: Circus of Fear (1966)
-:display_title: Psycho-Circus (1967)
+:title: Psycho-Circus (1967)
+:db_title: Circus of Fear (1966)
 :date: 2014-08-11
 :venue: DVD
 ---
@@ -37,7 +37,7 @@ describe Movielog::ParseViewings do
     expect(viewings[5].title).to eq 'Black Legion (1937)'
     expect(viewings[5].number).to eq 5
 
-    expect(viewings[4].title).to eq 'Circus of Fear (1966)'
+    expect(viewings[4].title).to eq 'Psycho-Circus (1967)'
     expect(viewings[4].number).to eq 4
   end
 
@@ -76,8 +76,8 @@ describe Movielog::ParseViewings do
         'viewing2.yml' => <<-EOF
 ---
 :number: 4
-:title: Circus of Fear (1966)
-:display_title: Psycho-Circus (1967)
+:title: Psycho-Circus (1967)
+:db_title: Circus of Fear (1966)
 :date: 2014-08-11
 :venue: DVD
 ---
