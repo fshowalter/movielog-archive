@@ -29,6 +29,7 @@ gem 'nokogiri'
 gem 'movie_db', path: '../movie_db'
 gem 'ruby-prof', require: false
 
+
 gem 'rubocop', require: false
 gem 'scss-lint'
 gem 'haml_lint'
