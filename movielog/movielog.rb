@@ -63,7 +63,11 @@ module Movielog
     end
 
     def reviews_by_sequence(reviews: Movielog.reviews)
-      @reviews_by_sequence ||= reviews.values.sort_by(&:sequence).reverse
+      if cache_reviews
+        @reviews_by_sequence ||= reviews.values.sort_by(&:sequence).reverse
+      else
+        reviews.values.sort_by(&:sequence).reverse
+      end
     end
 
     def pages(pages_path: Movielog.pages_path)

@@ -13,7 +13,7 @@ module Movielog
         #
         def call
           Movielog::Db::UpdateMostWatchedTables.call(
-            db: Movielog.db, viewings: Movielog.viewings(getInfo: false)
+            db: Movielog.db, viewings: Movielog.viewings
           )
         end
       end

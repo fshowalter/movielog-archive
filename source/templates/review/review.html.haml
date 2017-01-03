@@ -22,13 +22,13 @@ layout: :layout_single
 
 - content_for(:head) do
   %meta{ name: 'description', content: description }
-  %meta{ property: 'og:title', content: review.title }
+  %meta{ property: 'og:title', content: "#{review.title} Movie Review | #{Movielog.site_title}" }
   %meta{ property: 'og:url', content: "https://www.franksmovielog.com/reviews/#{review.slug}" }
   %meta{ property: 'og:image', content: review.backdrop }
   %meta{ property: 'og:description', content: description }
   %meta{ name: 'twitter:card', content: 'summary_large_image' }
   %meta{ name: 'twitter:site', content: '@franksmovielog' }
-  %meta{ name: 'twitter:title', content: review.title }
+  %meta{ name: 'twitter:title', content: "#{review.title} Movie Review | #{Movielog.site_title}" }
   %meta{ name: 'twitter:description', content: description }
   %meta{ name: 'twitter:image', content: review.backdrop }
 
@@ -75,7 +75,7 @@ layout: :layout_single
       },
       "publisher":{
         "@type":"Organization",
-        "name":"Frank's Movie Log",
+        "name":"#{Movielog.site_title}",
         "sameAs":"https://www.franksmovielog.com"
       },
       "reviewRating":{

@@ -1,6 +1,4 @@
 # frozen_string_literal: true
-require 'ostruct'
-
 module Movielog
   #
   # Responsible for holding review data.

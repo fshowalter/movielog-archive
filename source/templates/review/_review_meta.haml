@@ -21,7 +21,7 @@
       %span.review_meta-aka_heading
         aka
       - aka_titles.each do |aka_title|
-        - next if aka_title.start_with?(review.title)
+        - next if aka_title.start_with?(review.title_without_year)
         %span.review_meta-aka_title
           = " #{aka_title.gsub(/\([^\)]+\)$/, '').strip} "
   %span.review_meta-seen

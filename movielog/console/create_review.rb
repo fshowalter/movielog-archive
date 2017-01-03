@@ -12,7 +12,7 @@ module Movielog
         # @return [Movielog::Review] the created review.
         def call
           movie = ask_for_title
-          review = create_review(movie)
+          review = create_review(movie: movie)
 
           puts "\n Created Review #{Bold.call(text: review.title)}!\n" \
           " #{Bold.call(text: '       db_title:')} #{review.db_title}\n" \
@@ -23,7 +23,7 @@ module Movielog
 
         private
 
-        def create_review(movie)
+        def create_review(movie:)
           Movielog::CreateReview.call(reviews_path: Movielog.reviews_path,
                                       title: movie.title,
                                       display_title: movie.display_title,
@@ -37,7 +37,7 @@ module Movielog
 
         def ask_for_title
           query_proc = lambda do |db, query|
-            MovieDb.search_within_titles(db: db, query: query, titles: Movielog.viewed_titles)
+            MovieDb.search_within_titles(db: db, query: query, titles: Movielog.viewed_db_titles)
           end
 
           db = Movielog.db
