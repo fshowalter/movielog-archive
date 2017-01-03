@@ -67,9 +67,7 @@ describe Movielog do
 
   describe '#reviews_by_sequence' do
     it 'returns the reviews sorted by sequence in reverse' do
-      expect(Movielog::ParseReviews).to(
-        receive(:call).with(reviews_path: Movielog.reviews_path)
-      ) do
+      expect(Movielog).to(receive(:reviews)) do
         {
           'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
           'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
@@ -80,6 +78,32 @@ describe Movielog do
 
       expect(reviews_by_sequence.first.db_title).to eq('title 1')
       expect(reviews_by_sequence.last.db_title).to eq('title 2')
+    end
+
+    describe 'when #cache_reviews is true' do
+      before(:each) do
+        Movielog.cache_reviews = true
+      end
+
+      after(:each) do
+        Movielog.cache_reviews = false
+      end
+
+      it 'caches reviews_by_sequence' do
+        expect(Movielog).to(receive(:reviews)) do
+          {
+            'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
+            'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
+          }
+        end
+
+        reviews_by_sequence = Movielog.reviews_by_sequence
+
+        expect(reviews_by_sequence.first.db_title).to eq('title 1')
+        expect(reviews_by_sequence.last.db_title).to eq('title 2')
+
+        expect(Movielog.instance_variable_get('@reviews_by_sequence').length).to eq 2
+      end
     end
   end
 
