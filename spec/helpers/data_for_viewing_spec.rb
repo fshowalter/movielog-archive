@@ -12,7 +12,7 @@ describe Movielog::Helpers do
 
       expect(Movielog).to(
         receive(:movies).and_return('The Beyond (1980)' => MovieDb::Movie.new(
-          'title' => 'The Beyond (1980)',
+          'display_title' => 'The Beyond (1980)',
           'sortable_title' => 'Beyond, The (1980)',
           'release_date' => '1980-06-01'
         ))
