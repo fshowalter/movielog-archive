@@ -80,7 +80,7 @@ describe Movielog::Console::CreateReview do
 
     expect(Movielog::Console::CreateReview).to(receive(:puts))
     expect(Movielog).to receive(:next_post_number).and_return(2)
-    expect(Movielog).to receive(:viewed_titles) do
+    expect(Movielog).to receive(:viewed_db_titles) do
       [
         'Rio Bravo (1959)',
         'Reservoir Dogs (1992)',
