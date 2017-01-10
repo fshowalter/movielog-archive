@@ -148,6 +148,7 @@ ready do
     ['reviews/kingsman-the-secret-service-2015', 'reviews/kingsman-the-secret-service-2014/'],
     ['browse/reviews/dangerous-mission-1954', 'reviews/dangerous-mission-1954/'],
     ['browse/reviews/straw-dogs-1971', 'reviews/straw-dogs-1971/'],
+    ['browse/reviews/oceans-thirteen-2007', 'reviews/oceans-thirteen-2007/'],
     ['page/2', 'page-2/'],
     ['page/3', 'page-3/'],
     ['page/4', 'page-4/'],
