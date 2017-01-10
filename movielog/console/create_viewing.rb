@@ -41,10 +41,11 @@ module Movielog
         end
 
         def ask_for_title
-          query_proc = ->(db, query) { MovieDb.search_titles(db: db, query: query) }
-
           db = Movielog.db
-          AskForTitle.call(db: db, query_proc: query_proc)
+
+          query_proc = ->(query) { MovieDb.search_titles(db: db, query: query) }
+
+          AskForMovie.call(db: db, query_proc: query_proc)
         end
 
         def ask_for_venue(venues: Movielog.venues)

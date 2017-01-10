@@ -7,26 +7,34 @@ module Movielog
   #
   class CreatePage
     class << self
-      def call(pages_path:, title:, sequence:, slug:)
-        file_name = new_page_file_name(pages_path, slug)
+      def call(pages_path: Movielog.pages_path, title:)
+        front_matter = build_front_matter(title: title)
 
-        front_matter = {
-          title: title,
-          sequence: sequence,
-          slug: slug,
-          date: Date.today
-        }
+        write_file(pages_path: pages_path, front_matter: front_matter)
 
-        content = "#{front_matter.to_yaml}---\n"
-        File.open(file_name, 'w') { |file| file.write(content) }
-
-        Page.new(front_matter)
+        OpenStruct.new(front_matter)
       end
 
       private
 
-      def new_page_file_name(pages_path, slug)
-        File.join(pages_path, slug + '.md')
+      def build_front_matter(title:)
+        slug = Movielog::Slugize.call(text: title)
+
+        {
+          slug: id,
+          title: title,
+          date: Date.today,
+          backdrop: '',
+          backdrop_placeholder: nil,
+        }
+      end
+
+      def write_file(pages_path:, front_matter:)
+        file_name = File.join(pages_path, front_matter[:slug] + '.md')
+
+        content = "#{front_matter.to_yaml}---\n"
+
+        File.open(file_name, 'w') { |file| file.write(content) }
       end
     end
   end

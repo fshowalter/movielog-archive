@@ -5,37 +5,36 @@ source 'http://rubygems.org'
 
 gem 'middleman-core', '~>3.4.0'
 gem 'middleman-sprockets', '>=3.1.2'
-
-# Live-reloading plugin
 gem 'middleman-livereload', path: 'extensions/middleman-livereload'
 
-gem 'middleman-pagination', path: 'extensions/middleman-pagination'
-gem 'middleman-deploy'
-gem 'middleman-sitemap', path: 'extensions/middleman-sitemap'
 gem 'middleman-autoprefixer'
+gem 'middleman-deploy'
 gem 'middleman-minify-html'
+gem 'middleman-pagination', path: 'extensions/middleman-pagination'
+gem 'middleman-sitemap', path: 'extensions/middleman-sitemap'
 
-gem 'thor', '0.19.1'
+gem 'awesome_print', require: false
+gem 'execjs'
 gem 'haml'
+gem 'oj'
+gem 'redcarpet'
 gem 'sass'
 gem 'sass-globbing', '1.1.0'
-gem 'redcarpet'
+gem 'thor', '0.19.1'
 gem 'uglifier'
-gem 'execjs'
-gem 'oj'
 
 gem 'inquirer'
-gem 'nokogiri'
 gem 'movie_db', path: '../movie_db'
-gem 'ruby-prof', require: false
+gem 'nokogiri'
 
-gem 'rubocop', require: false
-gem 'scss-lint'
-gem 'haml_lint'
 gem 'csscss'
-gem 'yard'
-gem 'rspec', require: false
-gem 'simplecov', require: false
-gem 'fuubar'
 gem 'fakeweb', require: false
+gem 'fuubar'
+gem 'haml_lint'
 gem 'pry', require: false
+gem 'rspec', require: false
+gem 'rubocop', require: false
+gem 'ruby-prof', require: false
+gem 'scss-lint'
+gem 'simplecov', require: false
+gem 'yard'

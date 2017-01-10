@@ -1,5 +1,4 @@
 ---
-:sequence: 0
 :title: Not Found
 :slug: not-found
 :date: 2014-07-01

@@ -7,35 +7,45 @@ module Movielog
   #
   class CreateReview
     class << self
-      def call(reviews_path:, title:, display_title:, sequence:, slug:)
-        file_name = File.join(reviews_path, slug + '.md')
+      def call(
+          reviews_path: Movielog.reviews_path,
+          sequence: Movielog.next_review_sequence,
+          movie:)
 
-        front_matter = front_matter(db_title: title,
-                                    sequence: sequence,
-                                    title: display_title,
-                                    slug: slug)
+        front_matter = build_front_matter(sequence: sequence, movie: movie)
 
-        content = "#{front_matter.to_yaml}---\n"
-
-        File.open(file_name, 'w') { |file| file.write(content) }
+        write_file(reviews_path: reviews_path, front_matter: front_matter)
 
         OpenStruct.new(front_matter)
       end
 
       private
 
-      def front_matter(db_title:, title:, sequence:, slug:) # rubocop:disable Metrics/MethodLength
+      def build_front_matter(sequence:, movie:)
+        slug = Movielog::Slugize.call(text: movie.display_title)
+
         {
           sequence: sequence,
-          db_title: db_title,
-          title: title,
+          db_title: movie.title,
+          title: movie.display_title,
           slug: slug,
           date: Date.today,
           imdb_id: '',
           grade: '',
           backdrop: '',
-          backdrop_placeholder: ''
+          backdrop_placeholder: nil
         }
+      end
+
+      def write_file(reviews_path:, front_matter:)
+        file_name = File.join(
+          reviews_path,
+          front_matter[:slug] + '.md',
+        )
+
+        content = "#{front_matter.to_yaml}---\n"
+
+        File.open(file_name, 'w') { |file| file.write(content) }
       end
     end
   end

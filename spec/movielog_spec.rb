@@ -107,29 +107,6 @@ describe Movielog do
     end
   end
 
-  describe '#next_post_number' do
-    it 'returns the number of reviews and features plus one' do
-      expect(Movielog::ParseReviews).to(
-        receive(:call).with(reviews_path: Movielog.reviews_path)
-      ) do
-        {
-          'title 1' => OpenStruct.new(db_title: 'title 1', sequence: 2),
-          'title 2' => OpenStruct.new(db_title: 'title 2', sequence: 1)
-        }
-      end
-
-      expect(Movielog::ParsePages).to(
-        receive(:call).with(pages_path: Movielog.pages_path)
-      ) do
-        {
-          2 => 'a page'
-        }
-      end
-
-      expect(Movielog.next_post_number).to eq 4
-    end
-  end
-
   describe '#db' do
     it 'returns a new movie_db instance' do
       expect(Movielog.db).to be_an_instance_of(SQLite3::Database)

@@ -1,5 +1,4 @@
 ---
-:sequence: 1
 :title: Welcome Back
 :slug: welcome-back
 :date: 2014-07-01

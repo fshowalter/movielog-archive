@@ -22,8 +22,8 @@ module Movielog
       viewings.length + 1
     end
 
-    def next_post_number(reviews: Movielog.reviews, pages: Movielog.pages)
-      (reviews.length + pages.length) + 1
+    def next_review_sequence(reviews: Movielog.reviews)
+      reviews.length + 1
     end
 
     def db

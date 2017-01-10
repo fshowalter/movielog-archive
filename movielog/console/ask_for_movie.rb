@@ -2,9 +2,9 @@
 module Movielog
   module Console
     #
-    # Responsible for providing a console interface for searching and selecting movie titles.
+    # Responsible for providing a console interface for searching and selecting movies.
     #
-    class AskForTitle
+    class AskForMovie
       class << self
         def call(db:, query_proc:)
           result = nil
@@ -26,7 +26,7 @@ module Movielog
         private
 
         def search_titles(db:, query_proc:, query:)
-          results = query_proc.call(db, query)
+          results = query_proc.call(query)
 
           results.each do |movie|
             movie.headline_cast = MovieDb.headline_cast_for_title(db: db, title: movie.title)
