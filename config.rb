@@ -159,6 +159,7 @@ ready do
     ['browse/humphrey-bogart', 'cast-and-crew/humphrey-bogart/'],
     ['browse/sam-peckinpah', 'cast-and-crew/sam-peckinpah/'],
     ['browse/peter-cushing', 'cast-and-crew/peter-cushing/'],
+    ['performers/yakima-canutt', 'cast-and-crew/yakima-canutt/'],
     ['reviews/how-i-grade', 'how-i-grade/'],
     ['reviews/welcome-back', 'about/'],
     ['features/how-i-grade', 'how-i-grade/'],
