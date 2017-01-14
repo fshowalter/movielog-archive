@@ -7,7 +7,7 @@ describe Movielog::ParseViewings do
     {
       'viewing1.yml' => <<-EOF,
 ---
-:number: 5
+:number: 4
 :title: Black Legion (1937)
 :db_title: Black Legion (1937)
 :date: 2014-08-22
@@ -17,7 +17,7 @@ describe Movielog::ParseViewings do
 
       'viewing2.yml' => <<-EOF
 ---
-:number: 4
+:number: 5
 :title: Psycho-Circus (1967)
 :db_title: Circus of Fear (1966)
 :date: 2014-08-11
@@ -34,11 +34,11 @@ describe Movielog::ParseViewings do
 
     expect(viewings.length).to eq 2
 
-    expect(viewings[5].title).to eq 'Black Legion (1937)'
-    expect(viewings[5].number).to eq 5
+    expect(viewings.first.title).to eq 'Psycho-Circus (1967)'
+    expect(viewings.first.number).to eq 5
 
-    expect(viewings[4].title).to eq 'Psycho-Circus (1967)'
-    expect(viewings[4].number).to eq 4
+    expect(viewings.last.title).to eq 'Black Legion (1937)'
+    expect(viewings.last.number).to eq 4
   end
 
   context 'when error parsing yaml' do

@@ -9,28 +9,28 @@ describe Movielog::Db::QueryMostReviewedPersons do
         display_title: 'Rio Bravo (1959)',
         year: '1959',
         sortable_title: 'Rio Bravo (1959)',
-        aka_titles: ["Howard Hawks' Rio Bravo"]
+        aka_titles: ["Howard Hawks' Rio Bravo"],
       },
       "Ocean's 11 (1960)" => {
         title: "Ocean's 11 (1960)",
         display_title: "Ocean's 11 (1960)",
         year: '1960',
         sortable_title: "Ocean's 11 (1960)",
-        aka_titles: []
-      }
+        aka_titles: [],
+      },
     }
 
     reviews = {
       '1' => OpenStruct.new(
         title: 'Rio Bravo (1959)',
         db_title: 'Rio Bravo (1959)',
-        date: Date.parse('2011-03-12')
+        date: Date.parse('2011-03-12'),
       ),
       '2' => OpenStruct.new(
         title: "Ocean's 11 (1960)",
         db_title: "Ocean's 11 (1960)",
-        date: Date.parse('2011-06-11')
-      )
+        date: Date.parse('2011-06-11'),
+      ),
     }
 
     cast_and_crew = {
@@ -47,8 +47,8 @@ describe Movielog::Db::QueryMostReviewedPersons do
           { title: "Ocean's 11 (1960)",
             notes: nil,
             role: 'Beatrice Ocean',
-            position_in_credits: '5' }
-        ]
+            position_in_credits: '5' },
+        ],
       },
       'Martin, Dean' => {
         full_name: 'Martin, Dean',
@@ -63,8 +63,8 @@ describe Movielog::Db::QueryMostReviewedPersons do
           { title: "Ocean's 11 (1960)",
             notes: nil,
             role: 'Sam Harmon',
-            position_in_credits: '2' }
-        ]
+            position_in_credits: '2' },
+        ],
       },
       'Wayne, John' => {
         full_name: 'Wayne, John',
@@ -75,8 +75,8 @@ describe Movielog::Db::QueryMostReviewedPersons do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Sheriff John T. Chance',
-            position_in_credits: '1' }
-        ]
+            position_in_credits: '1' },
+        ],
       },
       'Nelson, Ricky' => {
         full_name: 'Nelson, Ricky',
@@ -87,9 +87,9 @@ describe Movielog::Db::QueryMostReviewedPersons do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Colorado Ryan',
-            position_in_credits: '3' }
-        ]
-      }
+            position_in_credits: '3' },
+        ],
+      },
     }
 
     db = stub_movie_db(titles: titles, cast_and_crew: cast_and_crew)

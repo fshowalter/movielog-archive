@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require 'inquirer'
+require 'awesome_print'
 
 module Movielog
   module Console
@@ -11,44 +12,28 @@ module Movielog
         #
         # Responsible for processing a new viewing command.
         #
-        # @return [Hash] The new viewing.
-        def call
-          viewing = Movielog::CreateViewing.call(**viewing_data)
+        # @return [OpenStruct] The new viewing.
+        def call(query_proc: Movielog.method(:search_for_movie), venues: Movielog.venues)
+          movie = AskForMovie.call(query_proc: query_proc)
+          viewing = Movielog::CreateViewing.call(**build_viewing_data(movie: movie, venues: venues))
 
-          puts "\n Created Viewing ##{Bold.call(text: viewing.number.to_s)}!\n" \
-          " #{Bold.call(text: '   Title:')} #{viewing.title}\n" \
-          " #{Bold.call(text: 'DB Title:')} #{viewing.db_title}\n" \
-          " #{Bold.call(text: '    Date:')} #{viewing.date}\n" \
-          " #{Bold.call(text: '   Venue:')} #{viewing.venue}\n\n"
+          puts "\n Created Viewing ##{Bold.call(text: viewing.number.to_s)}!\n"
+          ap(viewing.to_h, ruby19_syntax: true)
 
           viewing
         end
 
         private
 
-        def viewing_data
-          movie = ask_for_title
-
+        def build_viewing_data(movie:, venues:)
           {
-            viewings_path: Movielog.viewings_path,
-            title: movie.title,
-            display_title: movie.display_title,
+            movie: movie,
             date: ask_for_date,
-            venue: ask_for_venue,
-            number: Movielog.next_viewing_number,
-            slug: Movielog::Slugize.call(text: movie.display_title)
+            venue: ask_for_venue(venues: venues),
           }
         end
 
-        def ask_for_title
-          db = Movielog.db
-
-          query_proc = ->(query) { MovieDb.search_titles(db: db, query: query) }
-
-          AskForMovie.call(db: db, query_proc: query_proc)
-        end
-
-        def ask_for_venue(venues: Movielog.venues)
+        def ask_for_venue(venues:)
           venue = nil
           choices = venues + ['Add New Venue']
 

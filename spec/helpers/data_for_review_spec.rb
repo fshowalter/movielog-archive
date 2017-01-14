@@ -10,7 +10,7 @@ describe Movielog::Helpers do
         title: 'The Beyond (1980)',
         db_title: 'The Beyond (1980)',
         date: '2011-03-12',
-        grade: 'A+'
+        grade: 'A+',
       )
 
       movie = OpenStruct.new(title: 'The Beyond (1980)',
@@ -25,8 +25,8 @@ describe Movielog::Helpers do
           release_date: '1980-06-01',
           release_date_year: 1980,
           review_date: '2011-03-12',
-          grade: '17'
-        }
+          grade: '17',
+        },
       )
     end
   end

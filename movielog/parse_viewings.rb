@@ -8,11 +8,11 @@ module Movielog
   class ParseViewings
     class << self
       def call(viewings_path:)
-        Dir["#{viewings_path}/*.yml"].each_with_object({}) do |file, viewings|
-          viewing = read_viewing(file)
-          next unless viewing.is_a?(Hash)
-          viewings[viewing[:number]] = Movielog::Viewing.new(viewing)
-        end
+        Dir["#{viewings_path}/*.yml"].map do |file|
+          viewing_data = read_viewing(file)
+          next unless viewing_data.is_a?(Hash)
+          Movielog::Viewing.new(viewing_data)
+        end.compact.sort_by(&:number).reverse
       end
 
       private

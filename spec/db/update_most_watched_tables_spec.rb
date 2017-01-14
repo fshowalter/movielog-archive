@@ -9,8 +9,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
         display_title: 'Rio Bravo (1959)',
         year: '1959',
         sortable_title: 'Rio Bravo (1959)',
-        aka_titles: ["Howard Hawks' Rio Bravo"]
-      }
+        aka_titles: ["Howard Hawks' Rio Bravo"],
+      },
     }
 
     cast_and_crew = {
@@ -23,8 +23,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Feathers',
-            position_in_credits: '4' }
-        ]
+            position_in_credits: '4' },
+        ],
       },
       'Martin, Dean' => {
         full_name: 'Martin, Dean',
@@ -35,8 +35,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: "Dude ('Borachón')",
-            position_in_credits: '2' }
-        ]
+            position_in_credits: '2' },
+        ],
       },
       'Wayne, John' => {
         full_name: 'Wayne, John',
@@ -47,8 +47,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Sheriff John T. Chance',
-            position_in_credits: '1' }
-        ]
+            position_in_credits: '1' },
+        ],
       },
       'Nelson, Ricky' => {
         full_name: 'Nelson, Ricky',
@@ -59,9 +59,9 @@ describe Movielog::Db::UpdateMostWatchedTables do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Colorado Ryan',
-            position_in_credits: '3' }
-        ]
-      }
+            position_in_credits: '3' },
+        ],
+      },
     }
 
     stub_movie_db(titles: titles, cast_and_crew: cast_and_crew)
@@ -69,7 +69,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
 
   let(:viewings) do
     {
-      1 => OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12'))
+      1 => OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
     }
   end
 
@@ -83,7 +83,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'INTEGER',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 1
+        'pk' => 1,
       },
       {
         'cid' => 1,
@@ -91,7 +91,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'varchar(255)',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 2,
@@ -99,8 +99,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'date',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
-      }
+        'pk' => 0,
+      },
     ]
 
     most_watched_info = [
@@ -110,7 +110,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'INTEGER',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 1
+        'pk' => 1,
       },
       {
         'cid' => 1,
@@ -118,7 +118,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'varchar(255)',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 2,
@@ -126,7 +126,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'INTEGER',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 3,
@@ -134,7 +134,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'INTEGER',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 4,
@@ -142,7 +142,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'FLOAT',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 5,
@@ -150,7 +150,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'INTEGER',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
+        'pk' => 0,
       },
       {
         'cid' => 6,
@@ -158,8 +158,8 @@ describe Movielog::Db::UpdateMostWatchedTables do
         'type' => 'DATE',
         'notnull' => 1,
         'dflt_value' => nil,
-        'pk' => 0
-      }
+        'pk' => 0,
+      },
     ]
 
     expect(db.table_info('viewings')).to eq viewings_info

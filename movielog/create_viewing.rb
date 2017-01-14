@@ -1,37 +1,46 @@
 # frozen_string_literal: true
 module Movielog
   #
-  # Responsible for creating new viewing instances.
+  # Responsible for creating new viewing files.
   #
   class CreateViewing
     class << self
       #
-      # Responsible for creating a new viewing instance.
+      # Responsible for creating a new viewing file.
       #
-      def call(viewings_path:, title:, date:, display_title:, venue:, number:, slug:) # rubocop: disable Metrics/LineLength
-        file_name = File.join(viewings_path, format('%04d', number) + '-' + slug + '.yml')
+      def call(
+        viewings_path: Movielog.viewings_path,
+        sequence: Movielog.next_viewing_sequence,
+        movie:,
+        date:,
+        venue:
+      )
+        front_matter = {
+          number: sequence,
+          db_title: movie.title,
+          title: movie.display_title,
+          date: date,
+          venue: venue,
+        }
 
-        viewing = build_viewing(number: number,
-                                title: title,
-                                display_title: display_title,
-                                date: date,
-                                venue: venue)
+        write_file(viewings_path: viewings_path, front_matter: front_matter)
 
-        File.open(file_name, 'w') { |file| file.write(viewing.to_yaml) }
-
-        OpenStruct.new(viewing)
+        OpenStruct.new(front_matter)
       end
 
       private
 
-      def build_viewing(number:, title:, display_title:, date:, venue:)
-        {
-          number: number,
-          db_title: title,
-          title: display_title,
-          date: date,
-          venue: venue
-        }
+      def write_file(viewings_path:, front_matter:)
+        slug = Movielog::Slugize.call(text: front_matter[:title])
+
+        file_name = File.join(
+          viewings_path,
+          format('%04d', front_matter[:number]) + '-' + slug + '.yml',
+        )
+
+        content = "#{front_matter.to_yaml}\n"
+
+        File.open(file_name, 'w') { |file| file.write(content) }
       end
     end
   end

@@ -14,7 +14,7 @@ describe Movielog::Review do
         grade: 'A+',
         backdrop: 'https://image.url',
         backdrop_placeholder: 'placeholder_content',
-        content: 'review'
+        content: 'review',
       )
       expect(review.title_without_year).to eq 'Fright Night'
     end
@@ -31,7 +31,7 @@ describe Movielog::Review do
           grade: 'C',
           backdrop: 'https://image.url',
           backdrop_placeholder: 'placeholder_content',
-          content: 'review'
+          content: 'review',
         )
         expect(review.title_without_year).to eq 'She'
       end
@@ -50,7 +50,7 @@ describe Movielog::Review do
         grade: 'A+',
         backdrop: 'https://image.url',
         backdrop_placeholder: 'placeholder_content',
-        content: 'review'
+        content: 'review',
       )
       expect(review.year).to eq '1985'
     end
@@ -67,7 +67,7 @@ describe Movielog::Review do
           grade: 'C',
           backdrop: 'https://image.url',
           backdrop_placeholder: 'placeholder_content',
-          content: 'review'
+          content: 'review',
         )
         expect(review.year).to eq '1965'
       end

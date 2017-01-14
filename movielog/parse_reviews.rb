@@ -8,27 +8,26 @@ module Movielog
   class ParseReviews
     class << self
       def call(reviews_path:)
-        Dir["#{reviews_path}/*.md"].each_with_object({}) do |file, reviews|
-          begin
-            read_file(file: file, reviews: reviews)
-          rescue YAML::SyntaxError => e
-            puts "YAML Exception reading #{file}: #{e.message}"
-          rescue => e
-            puts "Error reading file #{file}: #{e.message}"
-          end
-        end
+        Dir["#{reviews_path}/*.md"].map do |file|
+          review = read_file(file: file)
+          next unless review.is_a?(Review)
+          [review.db_title, review]
+        end.compact.to_h
       end
 
       private
 
-      def read_file(file:, reviews:)
+      def read_file(file:)
         content = IO.read(file)
         return unless content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
-
         data = YAML.load(Regexp.last_match[1])
         data[:content] = $POSTMATCH
-        review = Movielog::Review.new(data)
-        reviews[review.db_title] = review
+        Review.new(data)
+
+      rescue YAML::SyntaxError => e
+        puts "YAML Exception reading #{file}: #{e.message}"
+      rescue => e
+        puts "Error reading #{file}: #{e.message}"
       end
     end
   end

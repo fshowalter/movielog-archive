@@ -6,7 +6,7 @@ module Movielog
   class Review
     attr_reader :sequence, :db_title, :title, :slug, :date, :imdb_id, :grade, :backdrop, :backdrop_placeholder, :content
 
-    def initialize(sequence:, # rubocop:disable Metrics/MethodLength
+    def initialize(sequence:,
                    db_title:,
                    title:,
                    slug:,

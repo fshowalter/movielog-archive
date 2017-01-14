@@ -16,7 +16,7 @@ describe Movielog::CreatePlaceholder do
     end
 
     expect(Movielog::CreatePlaceholder.call(image: 'test-image-uri')).to eq(
-      'data:image/jpeg;base64,aW1hZ2UgZGF0YQ=='
+      'data:image/jpeg;base64,aW1hZ2UgZGF0YQ==',
     )
   end
 end

@@ -21,7 +21,7 @@ module Movielog
         slug = Movielog::Slugize.call(text: title)
 
         {
-          slug: id,
+          slug: slug,
           title: title,
           date: Date.today,
           backdrop: '',

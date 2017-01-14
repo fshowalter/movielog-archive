@@ -6,13 +6,12 @@ describe Movielog::Console::CreatePlaceholder do
   let(:reviews) do
     {
       'Rio Bravo' => OpenStruct.new(backdrop: 'backdrop', backdrop_placeholder: 'placeholder'),
-      'Fright Night ' => OpenStruct.new(backdrop: 'backdrop-url')
+      'Fright Night ' => OpenStruct.new(backdrop: 'backdrop-url'),
     }
   end
 
   before(:each) do
     IOHelper.clear
-    allow(Movielog).to receive(:reviews).and_return(reviews)
   end
 
   it 'creates placeholder' do
@@ -23,6 +22,6 @@ describe Movielog::Console::CreatePlaceholder do
       'created placeholder'
     end
 
-    expect(Movielog::Console::CreatePlaceholder.call).to eq 'created placeholder'
+    expect(Movielog::Console::CreatePlaceholder.call(reviews: reviews)).to eq 'created placeholder'
   end
 end

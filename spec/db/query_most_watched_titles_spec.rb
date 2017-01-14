@@ -9,29 +9,29 @@ describe Movielog::Db::QueryMostWatchedTitles do
         display_title: 'Rio Bravo (1959)',
         year: '1959',
         sortable_title: 'Rio Bravo (1959)',
-        aka_titles: ["Howard Hawks' Rio Bravo"]
+        aka_titles: ["Howard Hawks' Rio Bravo"],
       },
       'Fright Night (1985)' => {
         title: 'Fright Night (1985)',
         display_title: 'Fright Night (1985)',
         year: '1985',
         sortable_title: 'Fright Night (1985)',
-        aka_titles: []
+        aka_titles: [],
       },
       "Child's Play (1988)" => {
         title: "Child's Play (1988)",
         display_title: "Child's Play (1988)",
         year: '1988',
         sortable_title: "Child's Play (1988)",
-        aka_titles: []
+        aka_titles: [],
       },
       'Thinner (1996)' => {
         title: 'Thinner (1996)',
         display_title: 'Thinner (1996)',
         year: '1996',
         sortable_title: 'Thinner (1996)',
-        aka_titles: []
-      }
+        aka_titles: [],
+      },
     }
 
     viewings = {
@@ -43,7 +43,7 @@ describe Movielog::Db::QueryMostWatchedTitles do
       6 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
       7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
       8 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-03-12')),
-      9 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14'))
+      9 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14')),
     }
 
     cast_and_crew = {
@@ -56,8 +56,8 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: 'Feathers',
-            position_in_credits: '4' }
-        ]
+            position_in_credits: '4' },
+        ],
       },
       'Martin, Dean' => {
         full_name: 'Martin, Dean',
@@ -68,8 +68,8 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: 'Rio Bravo (1959)',
             notes: nil,
             role: "Dude ('Borachón')",
-            position_in_credits: '2' }
-        ]
+            position_in_credits: '2' },
+        ],
       },
       'Sarandon, Chris' => {
         full_name: 'Sarandon, Chris',
@@ -84,9 +84,9 @@ describe Movielog::Db::QueryMostWatchedTitles do
           { title: "Child's Play (1988)",
             notes: nil,
             role: 'Mike Norris',
-            position_in_credits: '1' }
-        ]
-      }
+            position_in_credits: '1' },
+        ],
+      },
     }
 
     db = stub_movie_db(titles: titles, cast_and_crew: cast_and_crew)

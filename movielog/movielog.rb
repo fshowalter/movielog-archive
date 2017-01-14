@@ -18,12 +18,12 @@ module Movielog
       "Frank's Movie Log"
     end
 
-    def next_viewing_number(viewings: Movielog.viewings)
+    def next_viewing_sequence(viewings: Movielog.viewings)
       viewings.length + 1
     end
 
     def next_review_sequence(reviews: Movielog.reviews)
-      reviews.length + 1
+      reviews.values.max_by(&:sequence).sequence + 1
     end
 
     def db
@@ -35,7 +35,7 @@ module Movielog
     end
 
     def viewed_db_titles(viewings: Movielog.viewings)
-      @viewed_db_titles ||= viewings.values.map(&:db_title).uniq
+      @viewed_db_titles ||= viewings.map(&:db_title).uniq
     end
 
     def viewings_path
@@ -51,7 +51,7 @@ module Movielog
     end
 
     def viewings(viewings_path: Movielog.viewings_path)
-      @viewings ||= ParseViewings.call(viewings_path: viewings_path) || {}
+      @viewings ||= ParseViewings.call(viewings_path: viewings_path) || []
     end
 
     def reviews(reviews_path: Movielog.reviews_path)
@@ -79,11 +79,27 @@ module Movielog
     end
 
     def venues(viewings: Movielog.viewings)
-      @venues ||= viewings.values.map(&:venue).uniq.sort
+      @venues ||= viewings.map(&:venue).uniq.sort
     end
 
     def viewings_for_db_title(viewings: Movielog.viewings, db_title:)
-      viewings.values.select { |viewing| viewing.db_title == db_title }
+      viewings.select { |viewing| viewing.db_title == db_title }
+    end
+
+    def search_viewed_titles(db: Movielog.db, viewed_db_titles: Movielog.viewed_db_titles, query:)
+      MovieDb.search_within_titles(db: db, titles: viewed_db_titles, query: query)
+    end
+
+    def headline_cast_for_movie(db: Movielog.db, movie:)
+      MovieDb.headline_cast_for_title(db: db, title: movie.title)
+    end
+
+    def aka_titles_for_movie(db: Movielog.db, movie:)
+      MovieDb.aka_titles_for_title(db: db, title: movie.title, display_title: movie.display_title)
+    end
+
+    def search_for_movie(db: Movielog.db, query:)
+      MovieDb.search_titles(db: db, query: query)
     end
   end
 end

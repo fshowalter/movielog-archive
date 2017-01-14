@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# rubocop:disable Metrics/BlockLength
 require 'movielog/movielog'
 require 'active_support/core_ext/array/conversions'
 require 'active_support/core_ext/integer/inflections'
@@ -166,7 +167,7 @@ ready do
     ['features/welcome-back', 'about/'],
     ['feed', 'feed.xml'],
     ['browse/reviews/haunted-gold-1932', 'reviews/haunted-gold-1932/'],
-    ['browse/reviews/ride-him-cowboy-1932', 'reviews/ride-him-cowboy-1932/']
+    ['browse/reviews/ride-him-cowboy-1932', 'reviews/ride-him-cowboy-1932/'],
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)

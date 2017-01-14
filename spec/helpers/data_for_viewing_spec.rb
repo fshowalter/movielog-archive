@@ -7,15 +7,15 @@ describe Movielog::Helpers do
   describe '#data_for_viewing' do
     it 'returns a data hash for the given viewing' do
       expect(Movielog).to(
-        receive(:venues).and_return(['test venue'])
+        receive(:venues).and_return(['test venue']),
       )
 
       expect(Movielog).to(
         receive(:movies).and_return('The Beyond (1980)' => MovieDb::Movie.new(
           'display_title' => 'The Beyond (1980)',
           'sortable_title' => 'Beyond, The (1980)',
-          'release_date' => '1980-06-01'
-        ))
+          'release_date' => '1980-06-01',
+        )),
       )
 
       viewing = Movielog::Viewing.new(
@@ -23,7 +23,7 @@ describe Movielog::Helpers do
         title: 'The Beyond (1980)',
         db_title: 'The Beyond (1980)',
         date: '2011-03-12',
-        venue: 'test venue'
+        venue: 'test venue',
       )
 
       expect(context.data_for_viewing(viewing: viewing)).to eq(
@@ -34,8 +34,8 @@ describe Movielog::Helpers do
           release_date: '1980-06-01',
           release_date_year: 1980,
           viewing_date: '2011-03-12',
-          venue: 0
-        }
+          venue: 0,
+        },
       )
     end
   end

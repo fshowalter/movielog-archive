@@ -3,79 +3,31 @@ require 'spec_helper'
 require 'support/io_helper'
 
 describe Movielog::Console::CreateViewing do
-  let(:db) do
-    titles = {
-      'Rio Bravo (1959)' => {
-        title: 'Rio Bravo (1959)',
-        display_title: 'Rio Bravo (1959)',
-        year: '1959',
-        sortable_title: 'Rio Bravo (1959)',
-        aka_titles: ["Howard Hawks' Rio Bravo"]
-      }
-    }
+  let(:movie) do
+    OpenStruct.new(display_title: 'Test Movie')
+  end
 
-    cast_and_crew = {
-      'Dickinson, Angie' => {
-        full_name: 'Dickinson, Angie',
-        last_name: 'Dickinson',
-        first_name: 'Angie',
-        annotation: nil,
-        performer_credits: [
-          { title: 'Rio Bravo (1959)',
-            notes: nil,
-            role: 'Feathers',
-            position_in_credits: '4' }
-        ]
-      },
-      'Martin, Dean' => {
-        full_name: 'Martin, Dean',
-        last_name: 'Martin',
-        first_name: 'Dean',
-        annotation: nil,
-        performer_credits: [
-          { title: 'Rio Bravo (1959)',
-            notes: nil,
-            role: "Dude ('Borachón')",
-            position_in_credits: '2' }
-        ]
-      },
-      'Wayne, John' => {
-        full_name: 'Wayne, John',
-        last_name: 'Wayne',
-        first_name: 'John',
-        annotation: nil,
-        performer_credits: [
-          { title: 'Rio Bravo (1959)',
-            notes: nil,
-            role: 'Sheriff John T. Chance',
-            position_in_credits: '1' }
-        ]
-      },
-      'Nelson, Ricky' => {
-        full_name: 'Nelson, Ricky',
-        last_name: 'Nelson',
-        first_name: 'Ricky',
-        annotation: nil,
-        performer_credits: [
-          { title: 'Rio Bravo (1959)',
-            notes: nil,
-            role: 'Colorado Ryan',
-            position_in_credits: '3' }
-        ]
-      }
-    }
-
-    stub_movie_db(titles: titles, cast_and_crew: cast_and_crew)
+  let(:venues) do
+    [
+      'Nextflix',
+    ]
   end
 
   before(:each) do
     IOHelper.clear
-    allow(File).to receive(:open).with(Movielog.viewings_path + '/0012-rio-bravo-1959.yml', 'w')
-    allow(Movielog).to receive(:db).and_return(db)
   end
 
-  it 'creates viewing' do
-    IOHelper.type_input('rio bravo')
+  it 'calls Movielog::CreateViewing with correct data' do
+    expect(Movielog).to receive(:headline_cast_for_movie).with(movie: movie).and_return(
+      [
+        OpenStruct.new(first_name: 'Person', last_name: '1'),
+      ],
+    )
+    expect(Movielog).to receive(:aka_titles_for_movie).with(movie: movie).and_return(['aka title'])
+
+    query_proc = ->(_query) { [movie] }
+
+    IOHelper.type_input('Test Movie')
     IOHelper.select
     IOHelper.type_input('2014-08-30')
     IOHelper.confirm
@@ -84,22 +36,14 @@ describe Movielog::Console::CreateViewing do
     IOHelper.type_input('Blu-ray')
     IOHelper.confirm
 
-    expect(Movielog::Console::CreateViewing).to receive(:puts)
-    expect(Movielog).to receive(:next_viewing_number).and_return(12)
-    expect(Movielog).to receive(:venues) do
-      [
-        'Nextflix'
-      ]
-    end
+    expect(Movielog::Console::CreateViewing).to receive(:puts).twice
 
-    viewing = Movielog::Console::CreateViewing.call
-    expect(viewing.to_h).to eq(
-
-      title: 'Rio Bravo (1959)',
-      db_title: 'Rio Bravo (1959)',
-      number: 12,
+    expect(Movielog::CreateViewing).to receive(:call).with(
+      movie: movie,
+      date: Date.parse('2014-08-30'),
       venue: 'Blu-ray',
-      date: Date.parse('2014-8-30')
-    )
+    ).and_return(OpenStruct.new(number: 'new-sequence-number'))
+
+    Movielog::Console::CreateViewing.call(query_proc: query_proc, venues: venues)
   end
 end

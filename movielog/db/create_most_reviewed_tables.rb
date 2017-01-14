@@ -13,19 +13,18 @@ module Movielog
         # @return [void]
         def call(db:)
           db.execute_batch(most_reviewed_schema(
-                             type: 'performers', table: 'performance', threshold: 2
+                             type: 'performers', table: 'performance', threshold: 2,
           ))
           db.execute_batch(most_reviewed_schema(
-                             type: 'directors', table: 'direction', threshold: 2
+                             type: 'directors', table: 'direction', threshold: 2,
           ))
           db.execute_batch(most_reviewed_schema(
-                             type: 'writers', table: 'writing', threshold: 2
+                             type: 'writers', table: 'writing', threshold: 2,
           ))
         end
 
         private
 
-        # rubocop:disable Metrics/MethodLength
         def most_reviewed_schema(type:, table:, threshold:)
           <<-SQL
           DROP TABLE IF EXISTS most_reviewed_#{type};

@@ -5,10 +5,10 @@ source 'http://rubygems.org'
 
 gem 'middleman-core', '~>3.4.0'
 gem 'middleman-sprockets', '>=3.1.2'
-gem 'middleman-livereload', path: 'extensions/middleman-livereload'
 
 gem 'middleman-autoprefixer'
 gem 'middleman-deploy'
+gem 'middleman-livereload', path: 'extensions/middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-pagination', path: 'extensions/middleman-pagination'
 gem 'middleman-sitemap', path: 'extensions/middleman-sitemap'

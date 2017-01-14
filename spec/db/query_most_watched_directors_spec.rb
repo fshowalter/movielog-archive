@@ -9,29 +9,29 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         display_title: 'Rio Bravo (1959)',
         year: '1959',
         sortable_title: 'Rio Bravo (1959)',
-        aka_titles: ["Howard Hawks' Rio Bravo"]
+        aka_titles: ["Howard Hawks' Rio Bravo"],
       },
       'Fright Night (1985)' => {
         title: 'Fright Night (1985)',
         display_title: 'Fright Night (1985)',
         year: '1985',
         sortable_title: 'Fright Night (1985)',
-        aka_titles: []
+        aka_titles: [],
       },
       "Child's Play (1988)" => {
         title: "Child's Play (1988)",
         display_title: "Child's Play (1988)",
         year: '1988',
         sortable_title: "Child's Play (1988)",
-        aka_titles: []
+        aka_titles: [],
       },
       'Thinner (1996)' => {
         title: 'Thinner (1996)',
         display_title: 'Thinner (1996)',
         year: '1996',
         sortable_title: 'Thinner (1996)',
-        aka_titles: []
-      }
+        aka_titles: [],
+      },
     }
 
     viewings = {
@@ -41,7 +41,7 @@ describe Movielog::Db::QueryMostWatchedDirectors do
       4 => OpenStruct.new(title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
       5 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
       6 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
-      7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12'))
+      7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
     }
 
     cast_and_crew = {
@@ -52,8 +52,8 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         annotation: nil,
         director_credits: [
           { title: 'Rio Bravo (1959)',
-            notes: nil }
-        ]
+            notes: nil },
+        ],
       },
       'Holland, Tom' => {
         full_name: 'Holland, Tom',
@@ -63,14 +63,14 @@ describe Movielog::Db::QueryMostWatchedDirectors do
         director_credits: [
           {
             title: 'Fright Night (1985)',
-            notes: nil
+            notes: nil,
           },
           {
             title: "Child's Play (1988)",
-            notes: nil
-          }
-        ]
-      }
+            notes: nil,
+          },
+        ],
+      },
     }
 
     db = stub_movie_db(titles: titles, cast_and_crew: cast_and_crew)

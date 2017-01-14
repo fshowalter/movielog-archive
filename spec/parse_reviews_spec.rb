@@ -113,7 +113,7 @@ Review 2 content.
       end
 
       expect(Movielog::ParseReviews).to receive(:puts)
-        .with('Error reading file review1.md: RuntimeError')
+        .with('Error reading review1.md: RuntimeError')
 
       Movielog::ParseReviews.call(reviews_path: 'test_reviews_path')
     end

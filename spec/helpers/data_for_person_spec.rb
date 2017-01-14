@@ -12,16 +12,16 @@ describe Movielog::Helpers do
         last_name: 'Cushing',
         performance_credits: [
           'title 1',
-          'title 2'
-        ]
+          'title 2',
+        ],
       )
 
       expect(context.data_for_person(person: person, credits_method: :performance_credits)).to eq(
         data: {
           name: 'Peter Cushing',
           sort_name: 'Cushing, Peter',
-          review_count: '002'
-        }
+          review_count: '002',
+        },
       )
     end
   end

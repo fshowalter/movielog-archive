@@ -14,8 +14,8 @@ module Movielog
           release_date: movie.release_date.iso8601,
           release_date_year: movie.release_date.year,
           viewing_date: viewing.date,
-          venue: Movielog.venues.index(viewing.venue)
-        }
+          venue: Movielog.venues.index(viewing.venue),
+        },
       }
     end
   end
