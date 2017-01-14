@@ -2,16 +2,16 @@
   lists = [
     {
       text: 'Director',
-      credits: person.direction_credits
+      credits: person.direction_credits,
     },
     {
       text: 'Performer',
-      credits: person.performance_credits
+      credits: person.performance_credits,
     },
     {
       text: 'Writer',
-      credits: person.writing_credits
-    }
+      credits: person.writing_credits,
+    },
   ]
 
   excerpt_for_review = lambda do |review|
@@ -20,8 +20,8 @@
       options: {
         class: 'reviews_for_person_review_list-grade',
         width: '90px',
-        height: '18px'
-      }
+        height: '18px',
+      },
     )
 
     first_paragraph(grade + ' ' + review.content)
