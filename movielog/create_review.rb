@@ -32,10 +32,12 @@ module Movielog
       end
 
       def build_front_matter(sequence:, movie:)
-        defaults.merge(sequence: sequence,
-                       db_title: movie.title,
-                       title: movie.display_title,
-                       slug: Movielog::Slugize.call(text: movie.display_title))
+        {
+          sequence: sequence,
+          db_title: movie.title,
+          title: movie.display_title,
+          slug: Movielog::Slugize.call(text: movie.display_title)
+        }.merge(defaults)
       end
 
       def write_file(reviews_path:, front_matter:)

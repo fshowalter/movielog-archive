@@ -38,7 +38,7 @@ module Movielog
 
           insert_viewing_statement = prepare_insert_viewing_statement(db: db)
 
-          viewings.values.each do |viewing|
+          viewings.each do |viewing|
             insert_viewing_statement.execute(title: viewing.title, date: viewing.date.iso8601)
             progress.increment
           end

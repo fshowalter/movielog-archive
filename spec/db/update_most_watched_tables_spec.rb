@@ -68,9 +68,9 @@ describe Movielog::Db::UpdateMostWatchedTables do
   end
 
   let(:viewings) do
-    {
-      1 => OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
-    }
+    [
+      OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
+    ]
   end
 
   it 'creates the most watched tables and populates the viewing list' do
