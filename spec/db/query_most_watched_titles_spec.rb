@@ -34,17 +34,17 @@ describe Movielog::Db::QueryMostWatchedTitles do
       },
     }
 
-    viewings = {
-      1 => OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
-      2 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2012-03-12')),
-      3 => OpenStruct.new(title: "Child's Play (1988)", date: Date.parse('2012-03-12')),
-      4 => OpenStruct.new(title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
-      5 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
-      6 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
-      7 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
-      8 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-03-12')),
-      9 => OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14')),
-    }
+    viewings = [
+      OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2012-03-12')),
+      OpenStruct.new(title: "Child's Play (1988)", date: Date.parse('2012-03-12')),
+      OpenStruct.new(title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-03-12')),
+      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2016-04-14')),
+    ]
 
     cast_and_crew = {
       'Dickinson, Angie' => {

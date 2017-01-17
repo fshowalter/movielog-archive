@@ -36,7 +36,7 @@ module Movielog
           sequence: sequence,
           db_title: movie.title,
           title: movie.display_title,
-          slug: Movielog::Slugize.call(text: movie.display_title)
+          slug: Movielog::Slugize.call(text: movie.display_title),
         }.merge(defaults)
       end
 
