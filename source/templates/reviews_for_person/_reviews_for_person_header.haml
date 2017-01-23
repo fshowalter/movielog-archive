@@ -1,8 +1,15 @@
 :ruby
   credits = []
-  credits << 'directed by' if person.direction_credits
-  credits << 'with' if person.performance_credits
-  credits << 'written by' if person.writing_credits
+
+  if person.direction_credits && person.writing_credits
+    credits << 'by'
+    credits << 'with' if person.performance_credits
+  else
+    credits << 'with' if person.performance_credits
+    credits << 'directed by' if person.direction_credits
+    credits << 'written by' if person.writing_credits
+  end
+
   credits = credits.to_sentence
 
 %header.reviews_for_person_header
