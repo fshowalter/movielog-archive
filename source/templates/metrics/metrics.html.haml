@@ -28,6 +28,10 @@ layout: :layout_columns
     [cast_and_crew_link(result), result.count]
   end
 
+  viewings_by_decade_of_release = Movielog::Db::QueryViewingsByDecadeOfRelease.call(db: Movielog.db).map do |result|
+    ["#{result.decade}s", result.viewing_count]
+  end
+
 
 - content_for :layout_column_1 do
   = partial('templates/metrics/metrics_header')
@@ -50,3 +54,7 @@ layout: :layout_columns
     %h3.metrics-heading#most-watched-writers Most Watched Writers
     = partial('templates/metrics/metrics_most_watched_table',
       locals: { column_1_label: 'Writer', rows: most_watched_writers })
+
+    %h3.metrics-heading#viewings-by-decade-of-release Viewings By Decade of Release
+    = partial('templates/metrics/metrics_most_watched_table',
+      locals: { column_1_label: 'Decade', rows: viewings_by_decade_of_release })

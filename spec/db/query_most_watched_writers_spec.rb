@@ -35,13 +35,13 @@ describe Movielog::Db::QueryMostWatchedWriters do
     }
 
     viewings = [
-      OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
-      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2012-03-12')),
-      OpenStruct.new(title: "Child's Play (1988)", date: Date.parse('2012-03-12')),
-      OpenStruct.new(title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
-      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
-      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
-      OpenStruct.new(title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
+      OpenStruct.new(db_title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2012-03-12')),
+      OpenStruct.new(db_title: "Child's Play (1988)", date: Date.parse('2012-03-12')),
+      OpenStruct.new(db_title: 'Thinner (1996)', date: Date.parse('2013-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
     ]
 
     cast_and_crew = {

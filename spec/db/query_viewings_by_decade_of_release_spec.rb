@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'spec_helper'
 
-describe Movielog::Db::QueryMostWatchedDirectors do
+describe Movielog::Db::QueryViewingsByDecadeOfRelease do
   let(:db) do
     titles = {
       'Rio Bravo (1959)' => {
@@ -42,33 +42,49 @@ describe Movielog::Db::QueryMostWatchedDirectors do
       OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2013-03-12')),
       OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2014-03-12')),
       OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2015-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2016-03-12')),
+      OpenStruct.new(db_title: 'Fright Night (1985)', date: Date.parse('2016-04-14')),
     ]
 
     cast_and_crew = {
-      'Hawks, Howard' => {
-        full_name: 'Hawks, Howard',
-        last_name: 'Hawks',
-        first_name: 'Howard',
+      'Dickinson, Angie' => {
+        full_name: 'Dickinson, Angie',
+        last_name: 'Dickinson',
+        first_name: 'Angie',
         annotation: nil,
-        director_credits: [
+        performer_credits: [
           { title: 'Rio Bravo (1959)',
-            notes: nil },
+            notes: nil,
+            role: 'Feathers',
+            position_in_credits: '4' },
         ],
       },
-      'Holland, Tom' => {
-        full_name: 'Holland, Tom',
-        last_name: 'Holland',
-        first_name: 'Tom',
+      'Martin, Dean' => {
+        full_name: 'Martin, Dean',
+        last_name: 'Martin',
+        first_name: 'Dean',
         annotation: nil,
-        director_credits: [
-          {
-            title: 'Fright Night (1985)',
+        performer_credits: [
+          { title: 'Rio Bravo (1959)',
             notes: nil,
-          },
-          {
-            title: "Child's Play (1988)",
+            role: "Dude ('Borachón')",
+            position_in_credits: '2' },
+        ],
+      },
+      'Sarandon, Chris' => {
+        full_name: 'Sarandon, Chris',
+        last_name: 'Sarandon',
+        first_name: 'Chris',
+        annotation: nil,
+        performer_credits: [
+          { title: 'Fright Night (1985)',
             notes: nil,
-          },
+            role: 'Jerry Dandrige',
+            position_in_credits: '1' },
+          { title: "Child's Play (1988)",
+            notes: nil,
+            role: 'Mike Norris',
+            position_in_credits: '1' },
         ],
       },
     }
@@ -79,9 +95,8 @@ describe Movielog::Db::QueryMostWatchedDirectors do
   end
 
   it 'creates the most watched tables and populates the viewing list' do
-    persons = Movielog::Db::QueryMostWatchedDirectors.call(db: db)
+    decades = Movielog::Db::QueryViewingsByDecadeOfRelease.call(db: db)
 
-    expect(persons.length).to eq(1)
-    expect(persons.first.full_name).to eq('Holland, Tom')
+    expect(decades.length).to eq(3)
   end
 end

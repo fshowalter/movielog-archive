@@ -69,7 +69,7 @@ describe Movielog::Db::UpdateMostWatchedTables do
 
   let(:viewings) do
     [
-      OpenStruct.new(title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
+      OpenStruct.new(db_title: 'Rio Bravo (1959)', date: Date.parse('2011-03-12')),
     ]
   end
 
@@ -166,5 +166,21 @@ describe Movielog::Db::UpdateMostWatchedTables do
     expect(db.table_info('most_watched_performers')).to eq most_watched_info
     expect(db.table_info('most_watched_directors')).to eq most_watched_info
     expect(db.table_info('most_watched_writers')).to eq most_watched_info
+  end
+
+  describe 'when foreign key error' do
+    let(:viewings) do
+      [
+        OpenStruct.new(title: 'Not found title', db_title: 'Not found DB title', date: Date.parse('2011-03-12')),
+      ]
+    end
+
+    it 'outputs the db and display titles' do
+      expect(Movielog::Db::UpdateMostWatchedTables).to(
+        receive(:puts).with('Foreign Key error: Not found DB title [Not found title]'),
+      )
+
+      Movielog::Db::UpdateMostWatchedTables.call(db: db, viewings: viewings)
+    end
   end
 end
