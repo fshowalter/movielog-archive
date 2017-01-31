@@ -1,6 +1,6 @@
 @import 'source/stylesheets/variables';
 
-.metrics_most_watched_table {
+.metrics_table {
   border: 1px solid $color_primary;
   border-radius: 5px;
   width: 100%;
@@ -17,12 +17,12 @@
   }
 }
 
-.metrics_most_watched_table-header {
+.metrics_table-header {
   padding: 0 20px;
   text-align: left;
 }
 
-.metrics_most_watched_table-viewings_column {
+.metrics_table-viewings_column {
   font-feature-settings: 'tnum';
   padding: 0 20px;
   text-align: right;

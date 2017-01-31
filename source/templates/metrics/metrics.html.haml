@@ -40,21 +40,21 @@ layout: :layout_columns
 - content_for :layout_column_2 do
   .metrics
     %h3.metrics-heading#most-watched-titles Most Watched Titles
-    = partial('templates/metrics/metrics_most_watched_table',
+    = partial('templates/metrics/metrics_table',
       locals: { column_1_label: 'Title', rows: most_watched_titles })
 
     %h3.metrics-heading#most-watched-directors Most Watched Directors
-    = partial('templates/metrics/metrics_most_watched_table',
+    = partial('templates/metrics/metrics_table',
       locals: { column_1_label: 'Director', rows: most_watched_directors })
 
     %h3.metrics-heading#most-watched-performers Most Watched Performers
-    = partial('templates/metrics/metrics_most_watched_table',
+    = partial('templates/metrics/metrics_table',
       locals: { column_1_label: 'Performer', rows: most_watched_performers })
 
     %h3.metrics-heading#most-watched-writers Most Watched Writers
-    = partial('templates/metrics/metrics_most_watched_table',
+    = partial('templates/metrics/metrics_table',
       locals: { column_1_label: 'Writer', rows: most_watched_writers })
 
     %h3.metrics-heading#viewings-by-decade-of-release Viewings By Decade of Release
-    = partial('templates/metrics/metrics_most_watched_table',
+    = partial('templates/metrics/metrics_table',
       locals: { column_1_label: 'Decade', rows: viewings_by_decade_of_release })
