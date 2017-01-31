@@ -24,7 +24,7 @@ Still ambitious, Linda arranges a promising business venture for Jimmy, but Jimm
 
 Despondent, Jimmy throws himself into his work and achieves a large measure of success. As Harry makes his feelings for Linda clear, Linda realizes she’ll have to choose between Harry and Jimmy. She chooses poorly.
 
-Romantic comedies require us to like at least one of the leads. In _Men are Such Fools_, I loathed them both.
+Romantic comedies require us to like at least one of the leads. In _Men Are Such Fools_, I loathed them both.
 
 Jimmy displays no regard for Linda’s dreams and ambitions, behaving as though he’s entitled to her attention and affection. When Linda cancels a dinner date with Jimmy to sell her boss on an ad campaign, Jimmy crashes the meeting. When a senior executive talks to Linda at a party, Jimmy sulks in a corner rather than join in the conversation. And don’t forget Linda's near-unforgivable crime of missing the Princeton game with Jimmy and his fraternity buddies.
 
@@ -32,4 +32,4 @@ Jimmy’s so chauvinistic it’s almost comical. But everyone in the film acts a
 
 Which brings us to Linda, who I loathed even more than Jimmy. You see, she doesn’t endure his behavior, she encourages it. Consider how Jimmy gets her to marry him. They’re at a pool party thrown by one of Linda’s bosses. Linda’s talking to a high level executive. Furious that Linda would dare talk to another man, Jimmy stalks across the party, grabs Linda, pulls her into the pool and demands she marry him. When Linda says no, he pushes her head under water. He waits a beat, then lets her up. As Linda gasps for air, Jimmy repeats his demand. Again she says no. Back under she goes. This repeats—in full view of the guests, most of whom are Linda's superiors at work—until Linda agrees. And when she does, it’s not with resentment, but with a doe-eyed smile full of adoration for this man who just bullied her into marrying him. Now, I ask you, who’s worse: the ass or the woman who reinforces the behavior?
 
-I was going to write something about the ending, and how it lacks a clear message, leaving you wondering just what the film was trying to say, but why bother? There’s only one way to enjoy _Men are Such Fools_: 1. Start the movie. 2. Fast-forward to Bogart’s introduction. 3. Laugh at his outfit. 4. Turn off the movie. Don’t say I didn’t warn you.
+I was going to write something about the ending, and how it lacks a clear message, leaving you wondering just what the film was trying to say, but why bother? There’s only one way to enjoy _Men Are Such Fools_: 1. Start the movie. 2. Fast-forward to Bogart’s introduction. 3. Laugh at his outfit. 4. Turn off the movie. Don’t say I didn’t warn you.
