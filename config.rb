@@ -160,6 +160,7 @@ ready do
     ['browse/humphrey-bogart', 'cast-and-crew/humphrey-bogart/'],
     ['browse/sam-peckinpah', 'cast-and-crew/sam-peckinpah/'],
     ['browse/peter-cushing', 'cast-and-crew/peter-cushing/'],
+    ['browse/dario-argento', 'cast-and-crew/dario-argento/'],
     ['performers/yakima-canutt', 'cast-and-crew/yakima-canutt/'],
     ['reviews/how-i-grade', 'how-i-grade/'],
     ['reviews/welcome-back', 'about/'],
@@ -168,6 +169,7 @@ ready do
     ['feed', 'feed.xml'],
     ['browse/reviews/haunted-gold-1932', 'reviews/haunted-gold-1932/'],
     ['browse/reviews/ride-him-cowboy-1932', 'reviews/ride-him-cowboy-1932/'],
+    ['browse/reviews/the-bird-with-the-crystal-plumage-1970/', 'reviews/the-bird-with-the-crystal-plumage-1970/'],
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)

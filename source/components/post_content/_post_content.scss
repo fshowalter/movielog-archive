@@ -10,11 +10,6 @@
     @include body_text;
   }
 
-  > p:first-child:before {
-    content: attr(data-time) '\2014';
-    text-transform: uppercase;
-  }
-
   .footnotes {
     margin: 0 auto;
     max-width: 700px;

@@ -11,7 +11,8 @@ $review_post_content_first_line_color: #000;
   padding-bottom: 30px;
 
   .post_content {
-    time {
+    > p:first-child:before {
+      content: attr(data-time) '\2014';
       text-transform: uppercase;
     }
   }
