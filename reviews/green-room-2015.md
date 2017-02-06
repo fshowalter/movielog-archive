@@ -10,7 +10,7 @@
 :backdrop_placeholder: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+bx8+wBKy0tPDU8dkFBdviljKX4+Pj4+Pj4+Pj4+Pj4+Pj47Pj47Pjs+Oz4+Pj4+Oz4+Pj47Oz4+Pj4+Pj4+Ozs7Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAZAAABBQAAAAAAAAAAAAAAAAACAAEDBAX/xAAdEAACAgEFAAAAAAAAAAAAAAAAAQIRIQMSMVGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8Az9Ke1p9ZDnJJvi78KqeQ5t2wGc1YiMQWv//Z
 ---
 
-Watching _Green Room_, I caught myself holding my breath. Twice.
+Watching _Green Room_, I caught myself holding my breath. It's that kind of movie.
 
 The story concerns a college-aged punk rock band who accept a gig at an out-of-the-way club in the Pacific Northwest. I'll reveal no more, lest I spoil how writer/director Jeremy Saulnier ratchets up the tension by raising the stakes with each plot twist. Suffice it to say, things get very bad, very fast for the young band.
 
