@@ -22,6 +22,6 @@ Carrère and Lassalle are well-cast. As Carrère, Gérald Laroche provides a gro
 
 I was fine with Clovis Cornillac as Marcus, but his character felt underwritten—his transgenderedness regulated to a plot device. As Pâquerette, Dimitri Rataud’s performance felt artificial. I kept hoping the film would reveal Pâquerette as a calculating mastermind masquerading as an imbecile, but no.
 
-Instead, the story devolves into a predictable version of [_The Monkey’s Paw_](https://en.wikipedia.org/wiki/The_Monkey's_Paw). What begins ripe with originality ends like an episode of _Tales from the Crypt_.
+Instead, the story devolves into a predictable version of [_The Monkey’s Paw_](https://en.wikipedia.org/wiki/The_Monkey's_Paw). What begins like Lovecraft ends like an episode of _Tales from the Crypt_.
 
 Imagine a film that took these characters—one imprisoned in his body, one in his mind, one in his wealth—and explored their prisons and the lengths they would go for freedom. _Maléfique_ is not that movie. It’s not a bad film, just a disappointing one.
