@@ -2,7 +2,7 @@
   number_of_viewings = Movielog.viewings_for_db_title(db_title: review.db_title).length
   directors = MovieDb.directors_for_title(db: Movielog.db, title: review.db_title)
   aka_titles = MovieDb.aka_titles_for_title(db: Movielog.db, title: review.db_title, display_title: review.title)
-                      .reject { |t| t.start_with?(review.title) }
+                      .reject { |t| t.start_with?(review.title) || t.start_with?(review.title_without_year) }
 
   movie = Movielog.movies[review.db_title]
   divider = '<span class="review_meta-divider">|</span>'
@@ -21,7 +21,6 @@
       %span.review_meta-aka_heading
         aka
       - aka_titles.each do |aka_title|
-        - next if aka_title.start_with?(review.title_without_year)
         %span.review_meta-aka_title
           = " #{aka_title.gsub(/\([^\)]+\)$/, '').strip} "
   %span.review_meta-seen
