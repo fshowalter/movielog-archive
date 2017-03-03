@@ -1,9 +1,0 @@
-Synopsis: After witnessing an attempted murder, an American author in Italy becomes the target of a serial killer.
-
-The Bird with the Crystal Plumage (L’Uccello dalle piume di cristallo) marked the directorial debut of Dario Argento.
-
-Despite its odd title, The Bird with the Crystal Plumage is not a nature film.  Instead, it’s a very stylish thriller that helped Argento earn the title of ‘The Italian Hitchcock’.  While Argento’s film does share a few of Hitchcock’s favorite themes, it also establishes his own unique style.  From the stylistic use of color to the unsettling soundtrack, you can see the beginnings of Argento’s trademarks.  Granted, The Bird with the Crystal Plumage lacks the graphic violence associated with many of Argento’s best-known films, but the relative lack of gore should make this film more accessible to a wider audience. 
-
-Argento’s first effort is far from perfect though.  The film’s big tumble comes during a scene where Suzy Kendall’s character finds herself the target of the mysterious killer.  A dreadful combination of bad writing and over-acting renders Kendall’s character completely unlikable.  Here she is, secure in a near-fortress of an apartment, with the killer trying to cut through a solid hardwood door with a large kitchen knife.  What does she do?  Grab a knife of her own to slice at the killer’s hand should he manage a hole large enough?  No, she opts to whine hysterically and cower under the sink in the bathroom.  As the scene drags on you actually end up rooting for the killer, anything to end Kendall’s sniveling.  This single scene drags the movie down and utterly kills whatever momentum it had built up to that point.
-
-Bottom Line: A potentially good thriller dragged down by a single, utterly inept scene. 

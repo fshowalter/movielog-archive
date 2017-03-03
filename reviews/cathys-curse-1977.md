@@ -10,7 +10,7 @@
 :backdrop_placeholder: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pj4+Pj47Pj4+Pj4+Pjs7Pjs+Pj4+Pj47Pjs+Pj47Oz4+Pj47Pj4+Oz47Pj47Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAQUD/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAECETEDEiJRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdp6ihUst2mmOUuNt7m14Yjt9gDy6AQAf/2Q==
 ---
 
-How did a low-budget Canadian horror movie land a 2k restoration and limited theatrical run? It started with an internet movie review.
+How did a 40-year-old, little-seen Canadian horror movie land a 2k restoration and limited theatrical run? It started with an internet movie review.
 
 Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.com/). For the site's first six years, Collins watched and reviewed a horror movie every single day. Two months into his run, buried in a fifty-film “Chilling Classics” DVD pack, Collins discovered _Cathy's Curse_. [His review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) crowned it the “Best/Worst” film he'd seen.
 
