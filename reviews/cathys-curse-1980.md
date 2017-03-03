@@ -10,11 +10,13 @@
 :backdrop_placeholder: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pj4+Pj47Pj4+Pj4+Pjs7Pjs+Pj4+Pj47Pjs+Pj47Oz4+Pj47Pj4+Oz47Pj47Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAQUD/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAECETEDEiJRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdp6ihUst2mmOUuNt7m14Yjt9gDy6AQAf/2Q==
 ---
 
-How did a little-known, low-budget, Canadian horror movie get a 2k Blu-ray remaster and limited theatrical run? It started with an internet movie review.
+How did a low-budget Canadian horror movie land a 2k restoration and limited theatrical run? It started with an internet movie review.
 
-Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.com/). For the site's first six years, Collins reviewed a horror movie every single day. Two months into his run, buried in a fifty-film “Chilling Classics” DVD set, Collins discovered _Cathy's Curse_. [His review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) crowned it the “Best/Worst” film he'd seen.
+Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.com/). For the site's first six years, Collins watched and reviewed a horror movie every single day. Two months into his run, buried in a fifty-film “Chilling Classics” DVD pack, Collins discovered _Cathy's Curse_. [His review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) crowned it the “Best/Worst” film he'd seen.
 
-As the years passed, Horror Movie a Day garnered a lot of publicity. As the site's audience grew, Collins kept recommending the film, referencing it in other reviews and even [posting a commentary track](http://horror-movie-a-day.blogspot.com/2009/03/cathys-curse-commentary-now-live.html). If _Cathy's Curse_ was already a cult film, Collins became the cult leader. Thus it was natural when Severin Films invited Collins to record an audio commentary for their restored Blu-ray release. Said release also included a limited theatrical run, which is how I found myself watching _Cathy's Curse_ on the big screen.
+If _Cathy's Curse_ was a cult film, Collins became the cult leader. As his site's audience grew, Collins kept recommending the film and even posted [a commentary track](http://horror-movie-a-day.blogspot.com/2009/03/cathys-curse-commentary-now-live.html).
+
+All this exposure convinced Severin Films to acquire the rights and sponsor a 2k restoration.  In recognition of Collins' efforts, they invited him to record a new audio commentary for the Blu-ray release. Said release also included a limited theatrical run, which is how I found myself watching _Cathy's Curse_ on the big screen.
 
 The story follows a couple and their young daughter as they move back into the husband's childhood home. A malevolent spirit possesses the daughter leading to lots of profanity, extreme acne, and several unexplained deaths.
 
