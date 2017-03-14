@@ -169,7 +169,8 @@ ready do
     ['feed', 'feed.xml'],
     ['browse/reviews/haunted-gold-1932', 'reviews/haunted-gold-1932/'],
     ['browse/reviews/ride-him-cowboy-1932', 'reviews/ride-him-cowboy-1932/'],
-    ['browse/reviews/the-bird-with-the-crystal-plumage-1970/', 'reviews/the-bird-with-the-crystal-plumage-1970/'],
+    ['browse/reviews/the-bird-with-the-crystal-plumage-1970', 'reviews/the-bird-with-the-crystal-plumage-1970/'],
+    ['browse/reviews/the-telegraph-trail-1933', 'reviews/the-telegraph-trail-1933/'],
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
