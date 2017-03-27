@@ -10,7 +10,7 @@
 :backdrop_placeholder: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkE1dviZjKX4+Pj47Pj4+Pj4+Pjs+Pj4+Ozs+Pj4+Pj4+Pjs+Ozs+Oz4+Pj4+Pjs7Ozs7Pj47Oz47P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUC/8QAIhAAAgICAQMFAAAAAAAAAAAAAQIDEQAEISJhkRMxM1Fx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AnK7mRVBq6HAvtj8O0IInUL1X1N2vMa2vE5DMvIrm6x6LS11FiP3+yThTEkxeqSVUgA1+4ZUk1oQ3xJ4wwT//2Q==
 ---
 
-Funny, clever, gruesome, and overlong.
+Funny, clever, and gruesome—albeit overlong.
 
 _What We Do in the Shadows_ is a mockumentary following four vampires sharing a house in Wellington, New Zealand.
 
