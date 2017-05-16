@@ -174,6 +174,7 @@ ready do
     ['browse/reviews/the-bird-with-the-crystal-plumage-1970', 'reviews/the-bird-with-the-crystal-plumage-1970/'],
     ['browse/reviews/the-telegraph-trail-1933', 'reviews/the-telegraph-trail-1933/'],
     ['browse/reviews/breakfast-at-tiffanys-1961', 'reviews/breakfast-at-tiffanys-1961/'],
+    ['browse/reviews/heat-1995', 'reviews/heat-1995/'],
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
