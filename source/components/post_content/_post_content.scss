@@ -6,6 +6,10 @@
   max-width: 740px;
   padding: 0 20px;
 
+  blockquote {
+    font-style: italic;
+  }
+
   p {
     @include body_text;
   }
