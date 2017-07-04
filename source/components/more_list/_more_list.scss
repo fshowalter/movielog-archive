@@ -12,6 +12,10 @@
     clear: both;
     content: '';
     display: table;
+
+    @media only screen and (min-width: 35em) {
+      display: none;
+    }
   }
 }
 
@@ -55,7 +59,13 @@
   }
 
   @media only screen and (min-width: 35em) {
-    width: 25%;
+    .more_list-item_wrap {
+      padding: 0;
+    }
+  }
+
+  @media only screen and (min-width: 35em) {
+    width: 23.5%;
   }
 }
 
