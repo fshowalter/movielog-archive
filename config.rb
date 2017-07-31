@@ -34,7 +34,8 @@ helpers do
 
   def link_review_titles!(text)
     Movielog.reviews.values.each do |review|
-      text.gsub!(review.title, link_to(review.title, href_for_review(review)))
+      title = CGI.escapeHTML(review.title)
+      text.gsub!(title, link_to(title, href_for_review(review)))
     end
   end
 
