@@ -10,7 +10,7 @@
 :backdrop_placeholder: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdviljKX4+Pj47Pj47Oz4+Pj4+Pj4+Pj47Oz47Pjs+Pjs+Pjs7Ozs7Oz47Pj4+Pjs7Pjs7Pj47P/AABEIAAsAFAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAACAwABBf/EAB0QAAEEAgMAAAAAAAAAAAAAAAEAAhEhAzEzYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDPx43Mh0b6lC0Bz7oWU5pMIMXNBRpQk7r1RXEqJI//2Q==
 ---
 
-_Rio Bravo_ is my favorite movie. Yet I've avoided watching it for years because I can't imagine how to review it. 
+_Rio Bravo_ is my favorite movie but I can't imagine how to review it. 
 
 This marks my 101st review since relaunching this site in 2014. Prior to that, I strove to review every film I saw. Keeping pace with my movie-watching habit meant cranking out reviews at a relentless pace. 
 
@@ -73,6 +73,8 @@ And about the comic relief. Much of it comes via Walter Brennan's character, but
 
 I'm closing in on a thousand words and I haven't touched on Angie Dickinson's performance or Dimitri Tiomkin's score. I could devote a couple hundred words to each and not do them justice.
 
-Indeed, one could write a book analyzing the film but I suspect only the author would enjoy it. _Rio Bravo_ taps into emotions it never acknowledges. We interpret the undercurrents based on our own experiences. Over-explaining things would force a singular interpretation and alienate the reader. Or maybe I'm trying to justify my shortcomings as a writer. 
+Indeed, one could write a book analyzing the film but I suspect only the author would enjoy it. _Rio Bravo_ taps into emotions it never acknowledges. We interpret the undercurrents based on our own experiences. Over-explaining things would force a singular interpretation and alienate the reader. 
+
+Or maybe I'm trying to justify my shortcomings as a writer. 
 
 You tell me.
