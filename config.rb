@@ -166,6 +166,7 @@ ready do
     ['browse/dario-argento', 'cast-and-crew/dario-argento/'],
     ['browse/dario-argento/by-title', 'cast-and-crew/dario-argento/'],
     ['browse/dario-argento/by-date-viewed', 'cast-and-crew/dario-argento/'],
+    ['browse/dario-argento/by-grade', 'cast-and-crew/dario-argento/'],
     ['performers/yakima-canutt', 'cast-and-crew/yakima-canutt/'],
     ['reviews/how-i-grade', 'how-i-grade/'],
     ['reviews/welcome-back', 'about/'],
