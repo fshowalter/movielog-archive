@@ -154,6 +154,8 @@ ready do
     ['page/2', 'page-2/'],
     ['page/3', 'page-3/'],
     ['page/4', 'page-4/'],
+    ['page/5', 'page-5/'],
+    ['page/6', 'page-6/'],
     ['browse/reviews/rachel-and-the-stranger-1948', 'reviews/rachel-and-the-stranger-1948/'],
     ['browse/reviews/the-long-night-1947', 'reviews/the-long-night-1947/'],
     ['performers/robert-mitchum', 'cast-and-crew/robert-mitchum-i/'],
