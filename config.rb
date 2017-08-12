@@ -119,7 +119,7 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
 
-  activate :gzip
+  activate :gzip, exts: %w(.js .css .html .htm, .xml)
 end
 
 ready do

@@ -20,8 +20,7 @@ layout: false
   %author
     %name Frank Showalter
 
-  - Movielog.reviews_by_sequence.each_with_index do |review, index|
-    - break if index > 9
+  - Movielog.reviews_by_sequence.each do |review|
     %entry
       %title
         = review.title
