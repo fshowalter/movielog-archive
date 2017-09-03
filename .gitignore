@@ -19,7 +19,7 @@
 
 /vendor/ruby
 /vendor/bundle
-/movie_db
+/movie_db**
 /coverage
 /node_modules
 

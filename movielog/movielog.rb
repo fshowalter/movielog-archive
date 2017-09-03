@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 require 'movie_db'
+require 'themoviedb-api'
 
 Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
+Tmdb::Api.key(YAML.load(IO.read(File.join(Dir.home, '.tmdb', 'credentials.yml')))["api_key"])
 
 #
 # Responsible for defining the Movielog API.
@@ -99,7 +101,7 @@ module Movielog
     end
 
     def search_for_movie(db: Movielog.db, query:)
-      MovieDb.search_titles(db: db, query: query)
+      Tmdb::Search.movie(query).results
     end
   end
 end
