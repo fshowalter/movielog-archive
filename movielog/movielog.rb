@@ -3,7 +3,7 @@ require 'movie_db'
 require 'themoviedb-api'
 
 Dir[File.expand_path('../**/*.rb', __FILE__)].each { |f| require f }
-Tmdb::Api.key(YAML.load(IO.read(File.join(Dir.home, '.tmdb', 'credentials.yml')))["api_key"])
+
 
 #
 # Responsible for defining the Movielog API.

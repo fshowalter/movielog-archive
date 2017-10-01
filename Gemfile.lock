@@ -3,6 +3,7 @@ PATH
   specs:
     movie_db (1.0.0)
       activesupport
+      rest-client
       ruby-progressbar
       sixarm_ruby_unaccent
       sqlite3
@@ -269,6 +270,7 @@ DEPENDENCIES
   oj
   pry
   redcarpet
+  rest-client
   rspec
   rubocop
   ruby-prof

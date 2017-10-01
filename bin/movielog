@@ -50,6 +50,11 @@ module Movielog
       def reviews
         Console::UpdateReviews.call
       end
+
+      desc 'db', 'update the local db via TMDb API'
+      def db
+        Console::UpdateDb.call
+      end
     end
 
     #
