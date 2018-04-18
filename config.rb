@@ -134,6 +134,7 @@ ready do
 
   Movielog.reviews.values.each do |review|
     movie = Movielog.movies[review.db_title]
+    puts review.db_title unless movie
     proxy("reviews/#{review.slug}/index.html", 'templates/review/review.html',
           locals: { review: review, title: "#{movie.display_title} Movie Review" }, ignore: true)
   end
@@ -180,6 +181,7 @@ ready do
     ['browse/reviews/breakfast-at-tiffanys-1961', 'reviews/breakfast-at-tiffanys-1961/'],
     ['browse/reviews/heat-1995', 'reviews/heat-1995/'],
     ['browse/reviews/rio-bravo-1959', 'reviews/rio-bravo-1959/'],
+    ['reviews/she-couldnt-say-no-1954', 'reviews/she-couldnt-say-no-1952/']
   ].each do |redirect|
     old_slug, new_slug = redirect
     proxy("#{old_slug}.html", 'redirect.html', layout: false, locals: { new_slug: new_slug }, ignore: true)
