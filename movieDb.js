@@ -1,6 +1,6 @@
 const program = require('commander');
 
-const { downloadData } = require('./movieDb/downloadData');
+const { downloadData } = require('./movieDb/downloadData/');
 
 program
   .version('0.0.1')
