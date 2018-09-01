@@ -1,9 +1,9 @@
-const { createDownloadPath, dependencies } = require('./createDownloadPath');
+const { ensureDownloadPath, dependencies } = require('../ensureDownloadPath');
 
 const testDate = new Date(2018, 7, 25);
 const RealDate = Date;
 
-describe('createDownloadPath', () => {
+describe('ensureDownloadPath', () => {
   beforeEach(() => {
     dependencies.mkdirSync = jest.fn();
 
@@ -20,12 +20,12 @@ describe('createDownloadPath', () => {
     });
 
     it('creates path based on current date', () => {
-      createDownloadPath('testParent');
-      expect(dependencies.mkdirSync).toBeCalledWith('testParent/20180825');
+      ensureDownloadPath();
+      expect(dependencies.mkdirSync).toBeCalledWith('movieDbData/20180825');
     });
 
     it('returns created path', () => {
-      expect(createDownloadPath('testParent')).toEqual('testParent/20180825');
+      expect(ensureDownloadPath()).toEqual('movieDbData/20180825');
     });
   });
 
@@ -35,12 +35,12 @@ describe('createDownloadPath', () => {
     });
 
     it('does not create path', () => {
-      createDownloadPath('testParent');
+      ensureDownloadPath();
       expect(dependencies.mkdirSync).not.toBeCalled();
     });
 
     it('returns existing path', () => {
-      expect(createDownloadPath('testParent')).toEqual('testParent/20180825');
+      expect(ensureDownloadPath()).toEqual('movieDbData/20180825');
     });
   });
 });

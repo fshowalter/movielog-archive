@@ -1,6 +1,6 @@
 const program = require('commander');
 
-const { downloadData } = require('./movieDb/downloadData/');
+const { createDownloader, reportDownloaderProgress } = require('./movieDb/downloadData');
 
 program
   .version('0.0.1')
@@ -8,8 +8,9 @@ program
 
 program
   .command('update')
-  .action(() => {
-    downloadData();
+  .action(async () => {
+    const downloader = createDownloader();
+    reportDownloaderProgress(downloader).start();
   });
 
 program.parse(process.argv);
