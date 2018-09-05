@@ -11,7 +11,7 @@ const formatProgress = (progress) => {
   const transferred = bytesToMegabytes(progress.transferred);
   const total = bytesToMegabytes(progress.total);
 
-  return `${' '.repeat(3 - transferred.length)}${chalk.dim(transferred)}/${total} MB`;
+  return `${' '.repeat(3 - transferred.length)}${chalk.dim(transferred)}M/${total}M`;
 };
 
 const onPathReady = (path) => {

@@ -1,14 +1,15 @@
-const { existsSync, mkdirSync } = require('fs');
+import { existsSync, mkdirSync } from 'fs';
 
-const dependencies = {
+export const dependencies = {
   existsSync,
   mkdirSync,
 };
 
 const DOWNLOAD_DIR = 'movieDbData';
 
-const ensureDownloadPath = () => {
-  const zeroPad = number => number.toString().padStart(2, '0');
+export const ensureDownloadPath = (): string => {
+  const zeroPad = (number: number): string =>
+    number.toString().padStart(2, '0');
 
   const date = new Date(Date.now());
   const year = date.getFullYear();
@@ -22,5 +23,3 @@ const ensureDownloadPath = () => {
 
   return path;
 };
-
-module.exports = { ensureDownloadPath, dependencies };
