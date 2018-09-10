@@ -14,7 +14,7 @@ const dependencies = {
   createWriteStream
 };
 
-const downloadUnzipAndWriteImdbFile = (file, path, emitter) => {
+const downloadUnzipAndWriteImdbFile = ({ file, path, emitter }) => {
   const unzippedFile = `${path}/${file.replace(/\.gz$/, '')}`;
 
   if (dependencies.existsSync(unzippedFile)) {
@@ -23,7 +23,7 @@ const downloadUnzipAndWriteImdbFile = (file, path, emitter) => {
   }
 
   const download = dependencies.got
-    .stream('https://datasets.imdbws.com/${file}')
+    .stream(`https://datasets.imdbws.com/${file}`)
     .on('downloadProgress', progress => emitter.emit('progress', progress));
 
   const gunzip = dependencies.createGunzip();
@@ -35,4 +35,4 @@ const downloadUnzipAndWriteImdbFile = (file, path, emitter) => {
   return promisePipeline(download, gunzip, writer);
 };
 
-module.exports = { downloadUnzipAndWriteImdbFile };
+module.exports = { downloadUnzipAndWriteImdbFile, dependencies };

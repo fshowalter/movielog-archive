@@ -6,49 +6,64 @@ const { downloadUnzipAndWriteImdbFile, dependencies } = require('../downloadUnzi
 
 describe('downloadUnzipAndWriteImdbFile', () => {
   let imdb;
+  let mockEmitter;
   let mockWriteStream;
   let written;
+  let options;
 
   beforeEach(() => {
+    mockEmitter = {
+      emit: jest.fn()
+    };
+
     imdb = nock('https://datasets.imdbws.com');
     written = '';
     mockWriteStream = new Writable({
       write(chunk, encoding, callback) {
         written += chunk;
         callback();
-      },
+      }
     });
 
+    dependencies.existsSync = jest.fn();
     dependencies.createWriteStream = jest.fn().mockReturnValue(mockWriteStream);
+
+    options = {
+      file: 'testFile.gz',
+      path: 'testPath/20180826',
+      emitter: mockEmitter
+    };
+  });
+
+  afterEach(() => {
+    expect.hasAssertions();
   });
 
   describe('when unzipped file already exists', () => {
     beforeEach(() => {
-      dependencies.existsSync = jest.fn().mockReturnValue(true);
+      dependencies.existsSync.mockReturnValue(true);
     });
 
     it('returns a promise', () => {
-      const result = downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', jest.fn(), jest.fn());
-      expect(types.isPromise(result)).toEqual(true);
-      expect(dependencies.existsSync).toBeCalledWith('testPath/20180826/testFile');
+      expect(types.isPromise(downloadUnzipAndWriteImdbFile(options))).toEqual(true);
     });
 
-    it('does not call onDownloadProgress callback', () => {
-      const onDownloadProgress = jest.fn();
-      downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', onDownloadProgress, jest.fn());
-      expect(onDownloadProgress).not.toHaveBeenCalled();
+    it('does not emit progress event', () => {
+      return downloadUnzipAndWriteImdbFile(options).then(() => {
+        expect(mockEmitter.emit).not.toHaveBeenCalledWith('progress', expect.anything());
+      });
     });
 
-    it('calls onFinish callback', () => {
-      const onFinish = jest.fn();
-      downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', jest.fn(), onFinish);
-      expect(onFinish).toHaveBeenCalled();
+    it('emits done event', () => {
+      return downloadUnzipAndWriteImdbFile(options).then(() => {
+        expect(mockEmitter.emit).not.toHaveBeenCalledWith('done', expect.anything());
+      });
     });
   });
 
   describe('when unzipped file does not exist', () => {
     beforeEach(() => {
-      dependencies.existsSync = jest.fn().mockReturnValue(false);
+      dependencies.existsSync.mockReturnValue(false);
     });
 
     describe('when download is successful', () => {
@@ -61,26 +76,29 @@ describe('downloadUnzipAndWriteImdbFile', () => {
       });
 
       it('returns a promise', () => {
-        const result = downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', jest.fn(), jest.fn());
-        expect(types.isPromise(result)).toEqual(true);
+        expect(types.isPromise(downloadUnzipAndWriteImdbFile(options))).toEqual(true);
       });
 
-      it('calls onDownloadProgress callback', () => {
-        const onDownloadProgress = jest.fn();
-        return downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', onDownloadProgress, jest.fn())
-          .then(() => expect(onDownloadProgress).toHaveBeenCalled());
+      it('emits progress event', () => {
+        return downloadUnzipAndWriteImdbFile(options).then(() => {
+          expect(mockEmitter.emit).toHaveBeenCalledWith('progress', {
+            percent: 1,
+            total: null,
+            transferred: 29
+          });
+        });
       });
 
-      it('calls onFinish callback', () => {
-        const onFinish = jest.fn();
-        return downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', jest.fn(), onFinish)
-          .then(() => expect(onFinish).toHaveBeenCalled());
+      it('emits done event', () => {
+        return downloadUnzipAndWriteImdbFile(options).then(() => {
+          expect(mockEmitter.emit).toHaveBeenCalledWith('done');
+        });
       });
 
       it('unzips and writes the stream result', () => {
-        const onFinish = jest.fn();
-        return downloadUnzipAndWriteImdbFile('testFile.gz', 'testPath/20180826', jest.fn(), onFinish)
-          .then(() => expect(written).toEqual('Test Body'));
+        return downloadUnzipAndWriteImdbFile(options).then(() => {
+          expect(written).toEqual('Test Body');
+        });
       });
     });
   });

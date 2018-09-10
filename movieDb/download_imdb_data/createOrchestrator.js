@@ -22,13 +22,12 @@ const createOrchestrator = () => {
 
       const promises = FILES_TO_DOWNLOAD.map(file => {
         const fileEmitter = new EventEmitter();
-        emitter.emit('startFile', {
-          file: file,
-          on: (event, callback) => {
-            fileEmitter.on(event, callback);
-          }
+        emitter.emit('startFile', { file, emitter: fileEmitter });
+        return dependencies.downloadUnzipAndWriteImdbFile({
+          file,
+          path: downloadPath,
+          emitter: fileEmitter
         });
-        return downloadUnzipAndWriteImdbFile(file, downloadPath, fileEmitter);
       });
 
       try {

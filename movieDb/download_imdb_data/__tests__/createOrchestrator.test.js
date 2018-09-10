@@ -1,55 +1,72 @@
-const { EventEmitter } = require('events');
 const { createOrchestrator, dependencies } = require('../createOrchestrator');
 
 describe('createOrchestrator', () => {
   let orchestrator;
-  let downloader;
+  let fileEmitters;
 
   beforeEach(() => {
-    downloader = { start: jest.fn() };
-    dependencies.createFileDownloader = jest.fn().mockReturnValue(downloader);
+    fileEmitters = {};
+    dependencies.downloadUnzipAndWriteImdbFile = jest.fn();
     dependencies.ensureDownloadPath = jest.fn().mockReturnValue('movieDbData');
     orchestrator = createOrchestrator();
-    expect.assertions(1);
+
+    orchestrator.on('startFile', ({ file, emitter }) => {
+      fileEmitters[file] = emitter;
+    });
+  });
+
+  afterEach(() => {
+    expect.hasAssertions();
   });
 
   it('emits pathReady event with result of ensureDownloadPath', () => {
+    let emittedValue;
+
     orchestrator.on('pathReady', path => {
-      expect(path).toEqual('movieDbData');
+      emittedValue = path;
     });
-    return orchestrator.start();
+
+    return orchestrator.start().then(() => {
+      expect(emittedValue).toBe('movieDbData');
+    });
   });
 
-  ['title.basics.tsv.gz', 'title.principals.tsv.gz', 'name.basics.tsv.gz'].forEach(file => {
-    it(`calls createFileDownloader with ${file}`, () => {
-      return orchestrator.start().then(() => {
-        expect(dependencies.createFileDownloader).toBeCalledWith(file);
+  it('emits 3 startFile events with unique emitters', () => {
+    return orchestrator.start().then(() => {
+      expect(Object.keys(fileEmitters).length).toBe(3);
+      expect(new Set(Object.values(fileEmitters)).size).toBe(3);
+    });
+  });
+
+  it('calls downloadUnzipAndWriteImdbFile with emitter emitted by the startFile event', () => {
+    return orchestrator.start().then(() => {
+      Object.keys(fileEmitters).forEach(file => {
+        expect(dependencies.downloadUnzipAndWriteImdbFile).toBeCalledWith({
+          file,
+          path: 'movieDbData',
+          emitter: fileEmitters[file]
+        });
       });
     });
+  });
 
-    it('emits a startFile event with a fileDownloader', () => {
-      orchestrator.on('startFile', fileDownloader => {
-        expect(fileDownloader).toBe(downloader);
+  describe('if download throws error', () => {
+    let error;
+
+    beforeEach(() => {
+      error = new Error('download error');
+      dependencies.downloadUnzipAndWriteImdbFile = jest
+        .fn()
+        .mockResolvedValueOnce('first file')
+        .mockRejectedValueOnce(error);
+    });
+
+    it('emits error event', () => {
+      orchestrator.on('error', errorValue => {
+        expect(errorValue).toBe(error);
       });
 
       return orchestrator.start();
-    });
-
-    describe('if download throws error', () => {
-      let error;
-
-      beforeEach(() => {
-        error = new Error('download error');
-        dependencies.createFileDownloader = jest.fn().mockRejectedValue(error);
-      });
-
-      it('emits error event', () => {
-        orchestrator.on('error', errorValue => {
-          expect(errorValue).toBe(error);
-        });
-
-        return downloader.start();
-      });
     });
   });
 });

@@ -1,5 +1,5 @@
 const { createOrchestrator } = require('./createOrchestrator');
-const { reportOrchestratorProgress } = require('./reportOrchestratorProgress');
+const { createReporter } = require('./createReporter');
 
 const dependencies = {
   createOrchestrator,
@@ -9,7 +9,7 @@ const dependencies = {
 const downloadImdbData = async () => {
   const orchestrator = dependencies.createOrchestrator();
 
-  return dependencies.reportOrchestratorProgress(orchestrator).start();
+  return dependencies.createReporter(orchestrator).start();
 };
 
 module.exports = { downloadImdbData, dependencies };
