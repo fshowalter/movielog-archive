@@ -3,7 +3,6 @@ const chalk = require('chalk');
 const { reportDownloadProgress, dependencies } = require('../reportDownloadProgress');
 
 describe('reportDownloadProgress', () => {
-  let consoleSpy;
   let options;
   let draftlog;
 
