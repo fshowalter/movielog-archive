@@ -7,7 +7,7 @@
 :imdb_id: tt0087298
 :grade: C
 :backdrop: https://lh3.googleusercontent.com/5gLekMnjZhdxLLUT_iDIiJLecHFklEePTQjRnythR4PZCXyvSrASuQL7fPWztHBLW06oXWKZjrCR=w1000-l75-rj
-:backdrop_placeholder: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pj4+Pj4+Pj47Oz4+Pj4+Oz47Oz47Pjs+Pjs+Pjs7Ozs+Ozs7Pj4+Ozs+Oz4+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAADAAIF/8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACERIhMVEEEyL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMltnyRKfkFtDQD6yjxMbVntHVVF4yggcZcTsyolpGlFQf/Z"
+:backdrop_placeholder: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//gBKy0tPDU8dkFBdvilgKX4+Pj4+Pj4+Pj47Oz4+Pj4+Oz47Oz47Pjs+Pjs+Pjs7Ozs+Ozs7Pj4+Ozs+Oz4+Ozs7P/AABEIAAsAFAMBIgACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAADAAIF/8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACERIhMVEEEyL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMltnyRKfkFtDQD6yjxMbVntHVVF4yggcZcTsyolpGlFQf/Z'
 ---
 
 When _Friday the 13th: The Final Chapter_ premiered I was just a kid, still watching Saturday morning cartoons in my pajamas, my legs dangling off the couch. What I knew of the _Friday the 13th_ films came via third-hand bits of lore relayed in wide-eyed whispers on the playground.
@@ -30,12 +30,26 @@ And when Jason’s on-screen, he’s a juggernaut. An unstoppable, inhuman force
 
 _Friday the 13th: The Final Chapter_ is pure, well-executed, exploitation. An amalgam of gratuitous nudity and creative violence. A visceral thrill-ride. It’s not a great movie, but it’s everything my younger self could have hoped for.
 
-[^1]: Films two, three, and four happen back-to-back over four days. This entry starts on Sunday the 15th, and ends on Tuesday the 17th. Yet one character is out to avenge his dead sister, who Jason killed in the second film. Said character has been compiling newspaper clippings on Jason since her death. Except, by the film’s timeline, his sister died less than 48 hours ago. Was he scrapbooking during the funeral?
+[^1]:
 
-[^2]: Slasher films aren’t alone in this. One of the best scares in _Alien (1979)_ comes after the camera lingers on some pin-ups of nude women.
+  Films two, three, and four happen back-to-back over four days. This entry starts on Sunday the 15th, and ends on Tuesday the 17th. Yet one character is out to avenge his dead sister, who Jason killed in the second film. Said character has been compiling newspaper clippings on Jason since her death. Except, by the film’s timeline, his sister died less than 48 hours ago. Was he scrapbooking during the funeral?
 
-[^3]: It also helps that Crispin Glover’s performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene almost makes the movie.
+[^2]:
 
-[^4]: _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein’s monster.
+  Slasher films aren’t alone in this. One of the best scares in _Alien (1979)_ comes after the camera lingers on some pin-ups of nude women.
 
-[^5]: As a supernatural inevitability, in addition to asphyxiation, Jason would seem immune to the laws of physics. Consider his going from outside the second-floor window to inside the first-floor kitchen in a matter of seconds without making a sound.
+[^3]:
+
+  It also helps that Crispin Glover’s performance foreshadows his turn in _Back to the Future (1985)_. His dancing scene almost makes the movie.
+
+[^4]:
+
+  _Jason Lives: Friday the 13th Part VI (1986)_ cements this personification by turning him into a kind of Frankenstein’s monster.
+
+[^5]: As a supernatural inevitability, in addition to asphyxiation, Jason would
+
+seem immune to the laws of physics. Consider his going from outside the
+second-floor window to inside the first-floor kitchen in a matter of seconds
+without making a sound.
+
+Presumed-dead Jason wakes up in the morgue, returns to Crystal Lake, and murders his way through a house full of teens. Best entry in the series, thanks to Zito's atmosphere, Tom Savini's effects, and Crispin Glover's dancing.
