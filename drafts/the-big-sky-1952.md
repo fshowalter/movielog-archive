@@ -1,9 +1,0 @@
-Synopsis: Two mountain men (Kirk Douglas and Dewey Martin) join a keelboat expedition up the Missouri River through Indian country.
-
-The Big Sky is a sprawling western-adventure from director Howard Hawks, featuring some great location photography and a star-making performance from Kirk Douglas.
-
-The film is textbook Hawks, mixing gritty, realistic details about the job at hand, in this case getting a keelboat up the Missouri River, a task that often required men to go ashore and pull the boat, with an idealistic version of male camaraderie, in this case the rivalry turned friendship between Kirk Douglas and Dewey Martin's characters, all the while framed against a seemingly overwhelming enemy, in this case the Indians, and topped off with a colorful character actor playing a sorta side-kick/mentor, in this case Arthur Hunnicutt.
-
-And the formula works, though Dewey Martin is easily the weakest link. He's totally outshone by both Douglas and Hunnicutt, though Hawks seems to be aware of it and allows Douglas to steal more than his share of scenes. Indeed, Douglas chews scenery here every bit as well as John Wayne.
-
-Granted, the 140-minute version is a little long, and though the 122 minute edited version is a bit too thin, it's probably the tighter cut. The Big Sky ultimately feels a little rough around the edges, as if Hawks couldn't decide just which direction he wanted to go with the film and tried to do it all. Neither the love story, nor the adventure, nor the buddy movie is really fleshed out, but thanks to the great production and Douglas' dazzling turn, you really don't mind.
