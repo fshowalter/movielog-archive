@@ -1,9 +1,0 @@
-Synopsis: The lives of a jazz saxophonist (Bill Pullman), his wife (Patricia Arquette), a mechanic (Balthazar Getty), and a gangster (Robert Loggia) intertwine around a mystery man (Robert Blake).
-
-Lost Highway is almost two movies.  It opens as a horror film, with Bill Pullman and Patricia Arquette playing a couple on edge after receiving mysterious video tapes of their home.  Director David Lynch shines here; bringing a palatable sense of dread to every scene that grows and grows, peaking with Robert Blake’s character’s first appearance, which stands out as the film’s highlight. Then, abruptly, the film shifts into noir, bringing in a somewhat new cast.  Lynch handles the new genre well, crafting a solid thriller somewhat reminiscent of his earlier Blue Velvet (1986). 
-
-What makes Lost Highway so special though, is what happens next.  Lynch <em>blends</em> the two genres right before our eyes, as the mystery becomes a horror and the horror becomes a mystery. 
-
-Lynch has a tendency, from time to time, to force too much of the storytelling on the audience.  His breakthrough film, Eraserhead is a prime example.  Here though, the inclusion of co-writer Barry Gifford seems to temper Lynch enough to allow him to make a picture that’s more abstract than Blue Velvet or Wild at Heart, but yet more accessible than Eraserhead.  While some will no doubt be put off by the film’s lack of direct explanation, Lynch and Gifford do give viewers enough to construct an explanation for themselves that is both rewarding and challenging.  Indeed, Lost Highway has almost limitless replay value, as new details emerge with every journey along the Möbius strip plot.
-
-Bottom Line: A genre twisting blend horror and noir that has almost limitless replay value.  Highly Recommended.
