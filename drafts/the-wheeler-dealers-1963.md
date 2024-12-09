@@ -1,4 +1,11 @@
-<cite>The Wheeler Dealers</cite> tells the story of Henry Tyroon, a scheming Texas wildcat oilman played by James Garner, who, after coming up dry on his last five wells, heads to New York to raise money. While there, he meets and falls for stock broker Molly Thatcher, played by Lee Remick, who's on the chopping block after having been saddled with unloading a go-nowhere widget stock by her sexist boss. Together the two drive the price of the nonexistent widgets through the roof.
+---
+date: 2008-03-17
+imdb_id: tt0057681
+grade: C-
+slug: the-wheeler-dealers-1963
+---
+
+_The Wheeler Dealers_ tells the story of Henry Tyroon, a scheming Texas wildcat oilman played by James Garner, who, after coming up dry on his last five wells, heads to New York to raise money. While there, he meets and falls for stock broker Molly Thatcher, played by Lee Remick, who's on the chopping block after having been saddled with unloading a go-nowhere widget stock by her sexist boss. Together the two drive the price of the nonexistent widgets through the roof.
 
 The film is lighthearted and played for laughs from the get-go. Everyone's playing with someone else's money and the only person who ever takes a loss is Uncle Sam. Even the token feminist sentiment toward Wall Street's boy's club is tongue-in-cheek.
 
