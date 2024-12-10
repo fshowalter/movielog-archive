@@ -1,9 +1,0 @@
-Synopsis: In 1939 Mexico, a former British consul (Albert Finney) copes with his alcoholism and the return of his ex-wife (Jacqueline Bisset).
-
-Under the Volcano is an ambitious adaptation of Malcolm Lowry's novel from director John Huston. 
-
-The film follows the end of Albert Finney's character, a former vice consul for the British government in Mexico, who's fallen to the depths of alcoholism. From the opening scene onward, Huston builds an ever-increasing sense of doom and despair that mirror's Finney's character's condition. It's the Day of the Dead on the eve of World War II, Finney's character's estranged ex-wife has returned, as has his half-brother, though it feels as if they've arrived for a funeral, and over them all, the volcano looms. With all these pieces in place, Huston sets the characters in motion toward their inevitable ends. It's a dark, dark story and Huston doesn't pull any punches.
-
-Unfortunately, Under the Volcano isn't perfect either. The period atmosphere doesn't feel very authentic, and there are remnants of the novel, themes and scenes, that lack any real payoff, but fortunately these are the exception instead of the rule. For the most part, Huston focuses exclusively on Finney's character and his losing battle with his disease, resulting in an Oscar-nominated performance that's both riveting and believable.
-
-It's easy to see why Huston was attracted to the material, as its themes echo several of Huston's previous films such as <a href="/browse/reviews/the-night-of-the-iguana-1964/">The Night of the Iguana (1964)</a>, <a href="/browse/reviews/reflections-in-a-golden-eye-1967/">Reflections in a Golden Eye (1967)</a>, and even <a href="/browse/reviews/fat-city-1972/">Fat City (1972)</a>, although, perhaps reading too much into it, you could say Huston, at 78, identified most with the story of a man grappling with his own impending end.
