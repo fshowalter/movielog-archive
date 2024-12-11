@@ -1,7 +1,0 @@
-Synopsis: Coffin Joe resumes his quest for a son in this sequel to “At Midnight I’ll Take Your Soul.”
-
-This Night I Will Possess Your Corpse (Esta Noite Encarnarei no Teu Cadáver) is a sequel-cum-remake of <a href="/browse/reviews/at-midnight-ill-take-your-soul-1964/">At Midnight I’ll Take Your Soul (1964)</a>. After a dynamite opening montage that sees Joe recover from the first film’s finale, he’s right back to work kidnapping women in his, now eternal, quest for a son. 
-
-Unfortunately, while writer/director/star José Mojica Marins’ clearly has a larger budget to work with this time around, he fails to bring anything new to the table outside of a hit-or-miss dream sequence involving hell.  Granted, Marins still knows how to crank up the atmosphere and deliver some creepy thrills, and the Universal Monster ending is a significant improvement over the original’s poor man’s Hamlet, but, with a running time almost half-an-hour longer than the original’s, The Night I Will Possess Your Corpse can’t help but feel recycled.
-
-Bottom Line: Both Joe and the movie had more edge the first time around.  Watch <a href="/browse/reviews/at-midnight-ill-take-your-soul-1964/">At Midnight I’ll Take Your Soul (1964)</a> instead. 
